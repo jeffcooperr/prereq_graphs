@@ -1,0 +1,17 @@
+{
+  "department": "GNRL",
+  "nodes": [
+    {
+      "id": "GNRL 1XXX",
+      "course_code": "GNRL 1XXX",
+      "department": "GNRL",
+      "title": "RO Test Course",
+      "credit_hours": "0 to 4",
+      "description": null,
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    }
+  ],
+  "edges": []
+}

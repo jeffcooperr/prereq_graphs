@@ -1,0 +1,882 @@
+{
+  "department": "NR",
+  "nodes": [
+    {
+      "id": "NR 6990",
+      "course_code": "NR 6990",
+      "department": "NR",
+      "title": "Sustainability Leadership Sem",
+      "credit_hours": "3",
+      "description": "Graduate topics and material that may eventually develop into a regular course offering.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 2460",
+      "course_code": "NR 2460",
+      "department": "NR",
+      "title": "Remote Sensing",
+      "credit_hours": "3",
+      "description": "Examinations of the earth's surface from aerial photographs and satellite imagery. Emphasis is on image interpretation, classification, change detection, multivariate analysis (e.g. principal components analysis). Prerequisite: Sophomore standing. Cross-listed with: <a href=\"/search/?p=GEOG%202520\" data-action=\"result-detail\" data-group=\"code:GEOG 2520\" >GEOG 2520</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"NR 2460\"}",
+      "other_requirements": "Sophomore standing",
+      "external": false
+    },
+    {
+      "id": "NR 6410",
+      "course_code": "NR 6410",
+      "department": "NR",
+      "title": "Ecological Economic Theory",
+      "credit_hours": "3",
+      "description": "A transdisciplinary study of the economic system as embedded and interdependent on social institutions and environmental systems.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 3990",
+      "course_code": "NR 3990",
+      "department": "NR",
+      "title": "Intro to UAS Application",
+      "credit_hours": "3",
+      "description": "Advanced special topics in natural resource planning beyond the scope of existing formal courses.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 3010",
+      "course_code": "NR 3010",
+      "department": "NR",
+      "title": "Research Methods",
+      "credit_hours": "3",
+      "description": "Provides a big-picture understanding of what research is, how to do it, and conceptually learn some methodological approaches to research in the environmental realm and helps effectively structure and write a literature review and thesis proposal. Prerequisite: Minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 2030\"}, {\"type\": \"course\", \"code\": \"NR 2040\"}]}",
+      "other_requirements": "Minimum Junior standing",
+      "external": false
+    },
+    {
+      "id": "NR 5450",
+      "course_code": "NR 5450",
+      "department": "NR",
+      "title": "Data Vis & Communication",
+      "credit_hours": "3",
+      "description": "Focuses on fundamentals and practice of data visualization and communication. Learn the ways humans use cognitive and perceptual abilities to comprehend information, best practices for creating compelling and effective data visualizations, and the many nuanced factors influencing the successful application of practices. Includes work with an existing research data set. Prerequisite: Graduate student or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate student or Instructor permission. Asynchronous online course taken with students in the GST Certificate Program",
+      "external": false
+    },
+    {
+      "id": "NR 2040",
+      "course_code": "NR 2040",
+      "department": "NR",
+      "title": "Social Proc & the Environment",
+      "credit_hours": "3",
+      "description": "Social science theories and their application to environmental issues. Analysis of issues using theories of government, economics, and social movements. Emphasis on integrating frameworks to analyze environmental issues. Prerequisite: <a href=\"/search/?p=NR%201020\" data-action=\"result-detail\" data-group=\"code:NR 1020\"  class=\"notoffered\">NR 1020</a> or <a href=\"/search/?p=NR%201090\" data-action=\"result-detail\" data-group=\"code:NR 1090\" >NR 1090</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 1020\"}, {\"type\": \"course\", \"code\": \"NR 1090\"}]}",
+      "other_requirements": "RSENR students only; Minimum Sophomore standing",
+      "external": false
+    },
+    {
+      "id": "NR 1100",
+      "course_code": "NR 1100",
+      "department": "NR",
+      "title": "Mindfulness & the Anthropocene",
+      "credit_hours": "3",
+      "description": "Studies the history, theories, concepts, cultural constructs, and practice of mindfulness meditation. Denial, anxiety, and helplessness are common reactions to rapidly escalating global socioecological crises; investigates how mindfulness can develop capacity to respond to uncertainty, loss, and change, and explores how contemplative practices can transform external instability into insight and action.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GEOG 1760",
+      "course_code": "GEOG 1760",
+      "department": "GEOG",
+      "title": "Global Environments & Cultures",
+      "credit_hours": "3",
+      "description": "Introduction to Geography from global, place-based, cultural, and socio-environmental perspectives.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "NR 2740",
+      "course_code": "NR 2740",
+      "department": "NR",
+      "title": "CL:CR:SustainabilityThry&Prac",
+      "credit_hours": "4",
+      "description": "In theory and practice, sustainability can be expressed differently depending on ideological, political, academic or normative commitments. Alongside local partners in Costa Rica, students will study and apply frameworks from traditional communities, and the biophysical and social sciences to understand how sustainability is interpreted and being operationalized in Central America and beyond. Prerequisite: Minimum Sophomore standing. Co-requisite: Enrollment in the Costa Rica Semester Abroad Program.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"Sophomore standing\"}]}",
+      "other_requirements": "Co-requisite: Enrollment in the Costa Rica Semester Abroad Program. Costa Rica semester abroad students only; Instructor permission required. Pre and Post work required Program fee $9,519 less $450 deposit; Airfare is additional; Out of Pocket Expenses (approx. $650) are additional. Tuition is not included in program fee.",
+      "external": false
+    },
+    {
+      "id": "NR 6730",
+      "course_code": "NR 6730",
+      "department": "NR",
+      "title": "Transdisc Mthds&Modes of Inqry",
+      "credit_hours": "3",
+      "description": "Focuses on practices for engaging with inquiry, methods, and practice as students develop more clarity about the research questions, practices, structure, methods, and lineages that will inform their dissertation proposal and research.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GEOG 2520",
+      "course_code": "GEOG 2520",
+      "department": "GEOG",
+      "title": "Remote Sensing",
+      "credit_hours": "3",
+      "description": "Examinations of the earth's surface from aerial photographs and satellite imagery. Emphasis is on image interpretation, classification, change detection, multivariate analysis (e.g. principal components analysis). Prerequisite: Sophomore standing. Cross-listed with: <a href=\"/search/?p=NR%202460\" data-action=\"result-detail\" data-group=\"code:NR 2460\" >NR 2460</a>.",
+      "prereq_expression": null,
+      "other_requirements": "minimum Sophomore standing.",
+      "external": true
+    },
+    {
+      "id": "BIOL 1450",
+      "course_code": "BIOL 1450",
+      "department": "BIOL",
+      "title": "Principles of Biology 2",
+      "credit_hours": "4",
+      "description": "Principles of organismal biology; nature of scientific inquiry, plant form and function, pollination ecology, animal phylogeny illustrated by comparative anatomy and physiology; animal behavior. Credit not awarded for both BIOL 1450 and <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>.",
+      "prereq_expression": null,
+      "other_requirements": "ASCI, BIOL, BISC, MGEN, MICR, NEUR, PBIO, ZOOL majors should register for BCOR 1450; Degree students only even after level restrictions removed; Post Bac Pre med students register for BIOL 1450",
+      "external": true
+    },
+    {
+      "id": "NR 2999",
+      "course_code": "NR 2999",
+      "department": "NR",
+      "title": "Undergrad Teaching Fellowship",
+      "credit_hours": "1",
+      "description": "This fellowship experience is designed for undergraduate teaching assistants with the goal to build their skills as an instructor, facilitator and peer mentor. Students will develop a teaching statement and provide curricular feedback based on instructional best practices. Students wishing to earn 2-3 credits will work 1:1 with course instructors to develop new curricula and instructional materials as part of a teaching portfolio. Co-requisite: Students must be currently serving as teaching assistants in an RSENR course.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 2999\"}]}",
+      "other_requirements": "Co-requisite: Students must be currently serving as teaching assistants in an RSENR course. Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "BIOL 1400",
+      "course_code": "BIOL 1400",
+      "department": "BIOL",
+      "title": "Principles of Biology 1",
+      "credit_hours": "4",
+      "description": "Principles of cellular biochemistry; cell biology; genetics and evolution. Topics: biochemistry; metabolism, cell structure/function; respiration; photosynthesis; molecular, Mendelian and population genetics; genetics of evolution. Credit not awarded for both BIOL 1400 and <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Credit not awarded for both BIOL 1400 and BCOR 1400 or BCOR 1425. Must register for a BIOL 1400 lab; Lab supply fee: $30; Degree students only even after level restrictions removed; Post Bac Pre Med & PACE students register for BIOL 1400 ZRA Colocated with BIOL 1400 ZRA",
+      "external": true
+    },
+    {
+      "id": "NR 2300",
+      "course_code": "NR 2300",
+      "department": "NR",
+      "title": "SL:Landscape Restor&Leadership",
+      "credit_hours": "4",
+      "description": "Offers students in the Fellowship for Restoration Ecologies and Cultures an experiential course in landscape restoration and leadership. Aims to contend with anthropogenic disturbance of ecosystems through an interdisciplinary approach while developing collaborative leadership skills among students. Prerequisites: <a href=\"/search/?p=ENVS%201500\" data-action=\"result-detail\" data-group=\"code:ENVS 1500\" >ENVS 1500</a>, <a href=\"/search/?p=ENVS%201550\" data-action=\"result-detail\" data-group=\"code:ENVS 1550\"  class=\"notoffered\">ENVS 1550</a>, <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=NR%201010\" data-action=\"result-detail\" data-group=\"code:NR 1010\" >NR 1010</a>, <a href=\"/search/?p=NR%201020\" data-action=\"result-detail\" data-group=\"code:NR 1020\"  class=\"notoffered\">NR 1020</a>, <a href=\"/search/?p=ENSC%201010\" data-action=\"result-detail\" data-group=\"code:ENSC 1010\"  class=\"notoffered\">ENSC 1010</a>, <a href=\"/search/?p=GEOG%201200\" data-action=\"result-detail\" data-group=\"code:GEOG 1200\" >GEOG 1200</a>, <a href=\"/search/?p=GEOG%201760\" data-action=\"result-detail\" data-group=\"code:GEOG 1760\" >GEOG 1760</a>, <a href=\"/search/?p=ALE%201210\" data-action=\"result-detail\" data-group=\"code:ALE 1210\" >ALE 1210</a>, <a href=\"/search/?p=CDAE%201020\" data-action=\"result-detail\" data-group=\"code:CDAE 1020\" >CDAE 1020</a>, or <a href=\"/search/?p=NR%201090\" data-action=\"result-detail\" data-group=\"code:NR 1090\" >NR 1090</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ENVS 1500\"}, {\"type\": \"course\", \"code\": \"ENVS 1550\"}, {\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"NR 1010\"}, {\"type\": \"course\", \"code\": \"NR 1020\"}, {\"type\": \"course\", \"code\": \"ENSC 1010\"}, {\"type\": \"course\", \"code\": \"GEOG 1200\"}, {\"type\": \"course\", \"code\": \"GEOG 1760\"}, {\"type\": \"course\", \"code\": \"ALE 1210\"}, {\"type\": \"course\", \"code\": \"CDAE 1020\"}, {\"type\": \"course\", \"code\": \"NR 1090\"}]}",
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "NR 1010",
+      "course_code": "NR 1010",
+      "department": "NR",
+      "title": "Natural Hist & Human Ecology 1",
+      "credit_hours": "4",
+      "description": "Integrates the science of ecology and the science of humans and society to understand the relationship between the natural landscape's effects on society and social organization, and society's effects on the natural landscape.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 2030",
+      "course_code": "NR 2030",
+      "department": "NR",
+      "title": "Ecology, Ecosystems & Environ",
+      "credit_hours": "3",
+      "description": "Major ecological concepts and their application. Analysis of form, structure, and function of organisms, populations, communities, ecosystems, and landscapes. Prerequisites: RSENR students or Agroecology or Landscape Design or Environmental Studies majors; minimum Sophomore standing.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RSENR\"}, {\"type\": \"course\", \"code\": \"AGRO\"}, {\"type\": \"course\", \"code\": \"LNDS\"}, {\"type\": \"course\", \"code\": \"ENVS\"}]}",
+      "other_requirements": "minimum Sophomore standing",
+      "external": false
+    },
+    {
+      "id": "NR 2400",
+      "course_code": "NR 2400",
+      "department": "NR",
+      "title": "Applied Environ Statistics",
+      "credit_hours": "4",
+      "description": "Introduction to the biostatistical analyses for natural resource applications. Covers disciplinary software and analyses to prepare students to independently design, analyze, interpret and communicate environmental data. Includes parametric and non-parametric methods focused on real-world environmental data-sets. Prerequisite: Minimum Sophomore standing.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Sophomore standing. Must register for a discussion section D01, D02, D03, D04",
+      "external": false
+    },
+    {
+      "id": "NR 3991",
+      "course_code": "NR 3991",
+      "department": "NR",
+      "title": "Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "NR 4060",
+      "course_code": "NR 4060",
+      "department": "NR",
+      "title": "SL:EnvProb Sol&Impact Assessmt",
+      "credit_hours": "4",
+      "description": "Project-based service-learning course that provides opportunities to integrate interdisciplinary academic learning and skills and apply them in a community context. Involves students working with off-campus community partners on authentic social-environmental problems in peer groups across RSENR majors. Topics include interdisciplinary approaches to problem-solving, project management, community-based participatory action research, application of systems theory, stakeholder assessment and asset mapping, proposal writing, and transferable skills. Emphasis on independent learning and student-designed goals. Prerequisites: <a href=\"/search/?p=NR%203050\" data-action=\"result-detail\" data-group=\"code:NR 3050\" >NR 3050</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"NR 3050\"}",
+      "other_requirements": "Must register for a NR 4060 lab A01 - A12; RSENR students only; Minimum Senior standing.",
+      "external": false
+    },
+    {
+      "id": "ENVS 1500",
+      "course_code": "ENVS 1500",
+      "department": "ENVS",
+      "title": "Intro to Envrnmtl Studies",
+      "credit_hours": "4",
+      "description": "Survey of the interdisciplinary field of environmental studies. Examines ecological, cultural, historical, and political influences on the role of humans in local and global ecosystems and the grand challenges humanity faces. Required for Environmental Studies majors and minors.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "GEOG 1200",
+      "course_code": "GEOG 1200",
+      "department": "GEOG",
+      "title": "Weather, Climate & Landscapes",
+      "credit_hours": "3",
+      "description": "Introduction to the fundamentals of weather, climate, landform evolution, and plant distribution using a systems approach. Focus on variation in processes over space and time.",
+      "prereq_expression": null,
+      "other_requirements": "First year and sophomores only during week of registration; then Juniors & seniors can enroll, space permitting; Junior and senior GEOG majors contact instructor; requires internet access and ability to log onto Brightspace and MSTeams; requires a working camera on computer or device if using MSTeams.",
+      "external": true
+    },
+    {
+      "id": "NR 2750",
+      "course_code": "NR 2750",
+      "department": "NR",
+      "title": "CL:RuralLivelihds Glb World",
+      "credit_hours": "3",
+      "description": "Uses political economic development theory to explore the livelihoods of rural Costa Ricans on the Osa Peninsula, and the tension between external demands made by a global economy vs. their local capacity for self-determination and control of employment opportunities, cultural identity, and quality of life. Co-requisite: Enrollment in the Costa Rica Semester Abroad Program.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 2750\"}]}",
+      "other_requirements": "Enrollment in the Costa Rica Semester Abroad Program. Costa Rica Semester abroad students only; Instructor permission required; Pre & Post work requirements",
+      "external": false
+    },
+    {
+      "id": "NR 6070",
+      "course_code": "NR 6070",
+      "department": "NR",
+      "title": "Applied Ecol., Env. & Society",
+      "credit_hours": "2",
+      "description": "Critically examines the process and ethics of science, including scientific reasoning, theory, hypotheses, and integration with experimental design, discovery, and ethics. Students will begin to form their professional networks and understand the historical and contemporary influences of professional networks on research and scholarship.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 6120",
+      "course_code": "NR 6120",
+      "department": "NR",
+      "title": "Power Privlge & Catalyz Change",
+      "credit_hours": "3",
+      "description": "Focuses on leadership skills and systems frameworks for engaging with issues of diversity, power, and privilege and the implications of these topics on leaders' capacity. Designed to meet the Rubenstein School of Environment &amp; Natural Resources graduate diversity requirement. Prerequisite: <a href=\"/search/?p=NR%206110\" data-action=\"result-detail\" data-group=\"code:NR 6110\"  class=\"notoffered\">NR 6110</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 6110\"}, {\"type\": \"course\", \"code\": \"NR 6110\"}]}",
+      "other_requirements": "Instructor permission required; Asynchronous onlne",
+      "external": false
+    },
+    {
+      "id": "NR 6995",
+      "course_code": "NR 6995",
+      "department": "NR",
+      "title": "Graduate Independent Research",
+      "credit_hours": "1 to 18",
+      "description": "Graduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GEOG 2510",
+      "course_code": "GEOG 2510",
+      "department": "GEOG",
+      "title": "Geog Info:Cncpts & Applic",
+      "credit_hours": "3",
+      "description": "Systematic approach to important geographical concepts (including distance, shape, scale dispersion) structured around the use of Geographical Information Systems (GIS) as an analytical tool. Credit not awarded for both GEOG 2510 and <a href=\"/search/?p=ANTH%202825\" data-action=\"result-detail\" data-group=\"code:ANTH 2825\"  class=\"notoffered\">ANTH 2825</a> or <a href=\"/search/?p=NR%202430\" data-action=\"result-detail\" data-group=\"code:NR 2430\" >NR 2430</a>. Prerequisite: A Catamount Core WIL1 course.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GEOG 2510\"}, {\"type\": \"course\", \"code\": \"ANTH 2825\"}, {\"type\": \"course\", \"code\": \"NR 2430\"}]}",
+      "other_requirements": "A Catamount Core WIL1 course. PACE students with permission and override",
+      "external": true
+    },
+    {
+      "id": "NR 2760",
+      "course_code": "NR 2760",
+      "department": "NR",
+      "title": "Tropical Ecology in CR",
+      "credit_hours": "4",
+      "description": "A field-based, travel study course where students will learn the major ecological patterns in tropical (and other) ecosystems and on the factors that generate, maintain, and threaten biodiversity. Students will also gain experience in critical thinking, research design, framing hypotheses, data collection techniques, basic statistics, science communication and collaborative research. Prerequisite: Minimum Sophomore standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 2760\"}]}",
+      "other_requirements": "Minimum Sophomore standing. Costa Rica semester abroad students only. Instructor permission required; Pre & Post work requirements",
+      "external": false
+    },
+    {
+      "id": "NR 4061",
+      "course_code": "NR 4061",
+      "department": "NR",
+      "title": "SL:Birding to Change the World",
+      "credit_hours": "4",
+      "description": "Place-based course and service learning lab that pairs UVM students as enviro-mentors with children in Burlington schools in an after-school birding and nature study club. Application and background check are required of enrolled students. Prerequisites: Minimum Junior standing; Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"Junior standing\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
+      "other_requirements": "Application and background check are required of enrolled students. Course fee: $25.00. Instructor permission required.",
+      "external": false
+    },
+    {
+      "id": "NR 4430",
+      "course_code": "NR 4430",
+      "department": "NR",
+      "title": "GIS Practicum",
+      "credit_hours": "3",
+      "description": "An applied course in geospatial technology with a focus on ESRI's ArcGIS software suite. Prerequisite: <a href=\"/search/?p=NR%202430\" data-action=\"result-detail\" data-group=\"code:NR 2430\" >NR 2430</a> or <a href=\"/search/?p=NR%206430\" data-action=\"result-detail\" data-group=\"code:NR 6430\"  class=\"notoffered\">NR 6430</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 2430\"}, {\"type\": \"course\", \"code\": \"NR 6430\"}]}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 6430",
+      "course_code": "NR 6430",
+      "department": "NR",
+      "title": "Fndmtls of Geog Info Systems",
+      "credit_hours": "3",
+      "description": "Concepts and methods in Geographic Information Systems (GIS) presented at an accelerated pace for Graduate students using ArcGIS software.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 2996",
+      "course_code": "NR 2996",
+      "department": "NR",
+      "title": "Honors Seminar",
+      "credit_hours": "1",
+      "description": "A discussion and readings seminar that features guest speakers, and is part of the SNR Spring Seminar Series. Focus of the seminars change annually. Can be repeated. Prerequisite: Sophomore standing; open only to SNR Honors Students.",
+      "prereq_expression": null,
+      "other_requirements": "Sophomore standing; open only to SNR Honors Students. RSENR Honors College students or Lola Aiken Scholars only",
+      "external": false
+    },
+    {
+      "id": "NR 6720",
+      "course_code": "NR 6720",
+      "department": "NR",
+      "title": "Transdisc Leadshp & Creatvty",
+      "credit_hours": "3",
+      "description": "Explores the theoretical and practice-based fields and lineages associated with transdisciplinary leadership and creativity while providing a solid structural and relational grounding for students in the Transdisciplinary Leadership, Creativity &amp; Sustainability Doctoral Program.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate standing; Online Asynchronous Course; Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "CDAE 1020",
+      "course_code": "CDAE 1020",
+      "department": "CDAE",
+      "title": "World Food,Pop & Develop",
+      "credit_hours": "3",
+      "description": "Agricultural development emphasizing natural and economic phenomena and the effect of food supplies on population trends and policies.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "NR 6880",
+      "course_code": "NR 6880",
+      "department": "NR",
+      "title": "Ecological Leadership Seminar",
+      "credit_hours": "3",
+      "description": "Explores emerging topics and themes related to the theory and practice of ecological leadership. Can be taken in successive semesters (up to two times), as learning module topics will change.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate standing; Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "NR 1060",
+      "course_code": "NR 1060",
+      "department": "NR",
+      "title": "Race & Culture in NR",
+      "credit_hours": "3",
+      "description": "Introduces First-year students to issues of race and culture and their relevance to society, natural resources, and the environment. Prerequisite: <a href=\"/search/?p=NR%201050\" data-action=\"result-detail\" data-group=\"code:NR 1050\"  class=\"notoffered\">NR 1050</a> or <a href=\"/search/?p=NR%201090\" data-action=\"result-detail\" data-group=\"code:NR 1090\" >NR 1090</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 1050\"}, {\"type\": \"course\", \"code\": \"NR 1090\"}]}",
+      "other_requirements": "RSENR Students only Must register for a discussion section",
+      "external": false
+    },
+    {
+      "id": "NR 2100",
+      "course_code": "NR 2100",
+      "department": "NR",
+      "title": "Environmental Communication",
+      "credit_hours": "3",
+      "description": "Focuses on the types of oral communication common in environmental professions, with a focus on an environmental issue that students adapt communications for throughout the semester. Designed to teach students common frameworks for effective science communication and stakeholder engagement, while providing opportunities for students to expand their oral communication, critical analysis and listening skills for a variety of audiences and purposes.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 1090",
+      "course_code": "NR 1090",
+      "department": "NR",
+      "title": "VT: Natural & Cultural Hst",
+      "credit_hours": "4",
+      "description": "Introduction to the Vermont landscape that combines elements of natural history, field ecology, and environmental history. Students visit locations around the Champlain Valley as they build observational skills, study natural systems, and examine past and present human relationships with nature.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 4064",
+      "course_code": "NR 4064",
+      "department": "NR",
+      "title": "SL:Environ. ConsultingCapstone",
+      "credit_hours": "4",
+      "description": "Immerses students in a real-world consulting experience working with community partners. Functioning as a consulting firm, students work in interdisciplinary teams to analyze community contexts, engage stakeholders, conduct environmental assessments and develop actionable plans Through project-based learning, students apply ecological and management knowledge emphasizing problem-solving, collaboration, communication, and the creation of professional deliverables. Students leave the course with demonstrated ability to synthesize knowledge across disciplines in order to effect meaningful environmental change. Prerequisites: <a href=\"/search/?p=NR%203050\" data-action=\"result-detail\" data-group=\"code:NR 3050\" >NR 3050</a>, <a href=\"/search/?p=NR%202430\" data-action=\"result-detail\" data-group=\"code:NR 2430\" >NR 2430</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 3050\"}, {\"type\": \"course\", \"code\": \"NR 2430\"}]}",
+      "other_requirements": "Course fee: $18.00",
+      "external": false
+    },
+    {
+      "id": "NR 2995",
+      "course_code": "NR 2995",
+      "department": "NR",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required; variable credits: 1-3",
+      "external": false
+    },
+    {
+      "id": "NR 6060",
+      "course_code": "NR 6060",
+      "department": "NR",
+      "title": "Envisioning a Sust Future",
+      "credit_hours": "2",
+      "description": "Seminar orienting Graduate students to RSENR and providing frameworks for collaborative leadership, whole systems thinking, and intercultural competency.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 2991",
+      "course_code": "NR 2991",
+      "department": "NR",
+      "title": "Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required and completion of an Experiential Learning Plan required",
+      "external": false
+    },
+    {
+      "id": "NR 5990",
+      "course_code": "NR 5990",
+      "department": "NR",
+      "title": "RSENR Faculty Research Seminar",
+      "credit_hours": "1",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 4990",
+      "course_code": "NR 4990",
+      "department": "NR",
+      "title": "SL:Urban Ecology",
+      "credit_hours": "4",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 2030\"}, {\"type\": \"course\", \"code\": \"NR 3050\"}]}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ENSC 1010",
+      "course_code": "ENSC 1010",
+      "department": "ENSC",
+      "title": "Intro Environmental Sci",
+      "credit_hours": "3",
+      "description": "Explores the complex interactions between humans and environmental systems and the ecological foundations and scientific principles to better understand how the coupled human-natural system works, and how science can be used to help solve environmental problems.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "NR 3430",
+      "course_code": "NR 3430",
+      "department": "NR",
+      "title": "Adv Geospatial Techniques",
+      "credit_hours": "1 to 3",
+      "description": "Advanced course encompassing a wide range of topics in GIS, remote sensing, GPS, modeling, and visualization designed to provide technical expertise in geospatial techniques. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=NR%202430\" data-action=\"result-detail\" data-group=\"code:NR 2430\" >NR 2430</a>, <a href=\"/search/?p=GEOG%202510\" data-action=\"result-detail\" data-group=\"code:GEOG 2510\"  class=\"notoffered\">GEOG 2510</a>, <a href=\"/search/?p=NR%206430\" data-action=\"result-detail\" data-group=\"code:NR 6430\"  class=\"notoffered\">NR 6430</a>, <a href=\"/search/?p=NR%202460\" data-action=\"result-detail\" data-group=\"code:NR 2460\" >NR 2460</a>, or <a href=\"/search/?p=GEOG%202520\" data-action=\"result-detail\" data-group=\"code:GEOG 2520\" >GEOG 2520</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 2430\"}, {\"type\": \"course\", \"code\": \"GEOG 2510\"}, {\"type\": \"course\", \"code\": \"NR 6430\"}, {\"type\": \"course\", \"code\": \"NR 2460\"}, {\"type\": \"course\", \"code\": \"GEOG 2520\"}]}",
+      "other_requirements": "Open to Degree and PACE students.",
+      "external": false
+    },
+    {
+      "id": "NR 2993",
+      "course_code": "NR 2993",
+      "department": "NR",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required and completion of an Experiential Learning Plan required",
+      "external": false
+    },
+    {
+      "id": "NR 3993",
+      "course_code": "NR 3993",
+      "department": "NR",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 6391",
+      "course_code": "NR 6391",
+      "department": "NR",
+      "title": "Master's Thesis Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Master's Thesis.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 6110",
+      "course_code": "NR 6110",
+      "department": "NR",
+      "title": "Leadership for Sustainability",
+      "credit_hours": "3",
+      "description": "Provides an experiential and theoretical orientation to foundational practices, principles, and skills of sustainability leadership with an emphasis on ecological/systems thinking, sustainability, and leadership.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required; Asynchronous online",
+      "external": false
+    },
+    {
+      "id": "NR 7740",
+      "course_code": "NR 7740",
+      "department": "NR",
+      "title": "Creative Practice & Dissertatn",
+      "credit_hours": "3",
+      "description": "For Doctoral students nearing the end of dissertation research and beginning the integration, diffraction, synthesis, and meaning-making process essential to their dissertation. Provides structure, support and feedback in the creative act of crafting a dissertation. Prerequisites: <a href=\"/search/?p=NR%206720\" data-action=\"result-detail\" data-group=\"code:NR 6720\" >NR 6720</a>, <a href=\"/search/?p=NR%206730\" data-action=\"result-detail\" data-group=\"code:NR 6730\" >NR 6730</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 6720\"}, {\"type\": \"course\", \"code\": \"NR 6730\"}]}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 1101",
+      "course_code": "NR 1101",
+      "department": "NR",
+      "title": "Nature and Belonging",
+      "credit_hours": "3",
+      "description": "A unique focus on the intersections of nature, identity, and belonging that supports students in cultivating a wider, deeper, and more nuanced understanding of nature and the dynamics of belonging. Students will gain practices to connect more deeply with nature, themselves, and the community and understand how our worldview and relationship with nature can help address growing global environmental challenges.",
+      "prereq_expression": null,
+      "other_requirements": "Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "NR 2430",
+      "course_code": "NR 2430",
+      "department": "NR",
+      "title": "Intro to Geog Info Systems",
+      "credit_hours": "3",
+      "description": "Understanding and application of computer-based, geographically-referenced information systems. Prerequisite: Minimum Sophomore standing.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Sophomore standing. Must register for a NR 2430 lab A01 - A06",
+      "external": false
+    },
+    {
+      "id": "NR 7491",
+      "course_code": "NR 7491",
+      "department": "NR",
+      "title": "Doctoral Dissertation Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Doctoral Dissertation.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 1990",
+      "course_code": "NR 1990",
+      "department": "NR",
+      "title": "Critical Reflection & Dialogue",
+      "credit_hours": "3",
+      "description": "Introductory topics in environmental and natural resource issues beyond the scope of exiting courses.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 2401",
+      "course_code": "NR 2401",
+      "department": "NR",
+      "title": "Intro Environmental Statistics",
+      "credit_hours": "3",
+      "description": "This course is designed for students who want to develop basic competency in designing, conducting and interpreting statistical analyses for environmental applications.  Students will be introduced to experimental design and sampling, data interpretation, description and visualization, distributions and probability, and common inferential tests. Students will leave the class with the ability to assess and conduct a wide range of common statistical analyses independently using the R and R Studio. Prerequisite: Sophomore standing.",
+      "prereq_expression": null,
+      "other_requirements": "Sophomore standing. Must register for a discussion section A01-A02",
+      "external": false
+    },
+    {
+      "id": "NR 5460",
+      "course_code": "NR 5460",
+      "department": "NR",
+      "title": "Geospatial Computation",
+      "credit_hours": "3",
+      "description": "Geospatial Computation is the study of general computational methods applied to spatial and spatiotemporal data for exploratory, confirmatory, descriptive or predictive analysis. Introduces foundational concepts applications in spatial data science within the context of GIS. Computational approaches in spatial simulation, exploratory data analysis, predictive analysis and geospatial data visualization. Prerequisite: Graduate student or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate student or Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "ALE 1210",
+      "course_code": "ALE 1210",
+      "department": "ALE",
+      "title": "Intro to Agroecology",
+      "credit_hours": "3",
+      "description": "Analyzes factors driving current agricultural production systems, the problems associated with the industrial agriculture model, and the variety of approaches and practices for producing food in an ecologically sound and socially just manner.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "NR 3995",
+      "course_code": "NR 3995",
+      "department": "NR",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member for which credit is awarded. Offered at department discretion",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 6392",
+      "course_code": "NR 6392",
+      "department": "NR",
+      "title": "Master's Project Research",
+      "credit_hours": "1 to 12",
+      "description": "Research for the Master's Project.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 6993",
+      "course_code": "NR 6993",
+      "department": "NR",
+      "title": "Independent Study:MLS",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 5993",
+      "course_code": "NR 5993",
+      "department": "NR",
+      "title": "IS:Advanced Silviculture",
+      "credit_hours": "3",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 1020",
+      "course_code": "NR 1020",
+      "department": "NR",
+      "title": "Natural Hist & Human Ecology 2",
+      "credit_hours": "4",
+      "description": "Integrates the science of ecological sciences and the science of humans and society to understand the relationship between the natural landscape's effects on society and social organization, and society's effects on the natural landscape. Pre/Co-requisite: <a href=\"/search/?p=NR%201010\" data-action=\"result-detail\" data-group=\"code:NR 1010\"  class=\"notoffered\">NR 1010</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"NR 1010\"}",
+      "other_requirements": "Restricted to RSENR students only; Must register for a NR lab A01- A15; Course Fee: $110 field trips",
+      "external": false
+    },
+    {
+      "id": "NR 3050",
+      "course_code": "NR 3050",
+      "department": "NR",
+      "title": "CL:Ecosys Mgt:Intg Sci,Soc&Pol",
+      "credit_hours": "3",
+      "description": "Analysis of the interaction between science and politics in ecosystem management. Consideration of various types of science and their roles in shaping environmental management, politics, and policy. Interdisciplinary application of course concepts to case studies of complex ecological problems. Prerequisites: <a href=\"/search/?p=NR%202030\" data-action=\"result-detail\" data-group=\"code:NR 2030\" >NR 2030</a>, <a href=\"/search/?p=NR%202040\" data-action=\"result-detail\" data-group=\"code:NR 2040\" >NR 2040</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 2030\"}, {\"type\": \"course\", \"code\": \"NR 2040\"}]}",
+      "other_requirements": "RSENR students only; Mimimum Junior standing",
+      "external": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "ALE 1210",
+      "target": "NR 2300"
+    },
+    {
+      "source": "BIOL 1400",
+      "target": "NR 2300"
+    },
+    {
+      "source": "BIOL 1450",
+      "target": "NR 2300"
+    },
+    {
+      "source": "CDAE 1020",
+      "target": "NR 2300"
+    },
+    {
+      "source": "ENSC 1010",
+      "target": "NR 2300"
+    },
+    {
+      "source": "ENVS 1500",
+      "target": "NR 2300"
+    },
+    {
+      "source": "GEOG 1200",
+      "target": "NR 2300"
+    },
+    {
+      "source": "GEOG 1760",
+      "target": "NR 2300"
+    },
+    {
+      "source": "GEOG 2510",
+      "target": "GEOG 2510"
+    },
+    {
+      "source": "GEOG 2510",
+      "target": "NR 3430"
+    },
+    {
+      "source": "GEOG 2520",
+      "target": "NR 3430"
+    },
+    {
+      "source": "NR 1010",
+      "target": "NR 1020"
+    },
+    {
+      "source": "NR 1010",
+      "target": "NR 2300"
+    },
+    {
+      "source": "NR 1020",
+      "target": "NR 2040"
+    },
+    {
+      "source": "NR 1020",
+      "target": "NR 2300"
+    },
+    {
+      "source": "NR 1090",
+      "target": "NR 1060"
+    },
+    {
+      "source": "NR 1090",
+      "target": "NR 2040"
+    },
+    {
+      "source": "NR 1090",
+      "target": "NR 2300"
+    },
+    {
+      "source": "NR 2030",
+      "target": "NR 3010"
+    },
+    {
+      "source": "NR 2030",
+      "target": "NR 3050"
+    },
+    {
+      "source": "NR 2030",
+      "target": "NR 4990"
+    },
+    {
+      "source": "NR 2040",
+      "target": "NR 3010"
+    },
+    {
+      "source": "NR 2040",
+      "target": "NR 3050"
+    },
+    {
+      "source": "NR 2430",
+      "target": "GEOG 2510"
+    },
+    {
+      "source": "NR 2430",
+      "target": "NR 3430"
+    },
+    {
+      "source": "NR 2430",
+      "target": "NR 4064"
+    },
+    {
+      "source": "NR 2430",
+      "target": "NR 4430"
+    },
+    {
+      "source": "NR 2460",
+      "target": "NR 2460"
+    },
+    {
+      "source": "NR 2460",
+      "target": "NR 3430"
+    },
+    {
+      "source": "NR 2750",
+      "target": "NR 2750"
+    },
+    {
+      "source": "NR 2760",
+      "target": "NR 2760"
+    },
+    {
+      "source": "NR 2999",
+      "target": "NR 2999"
+    },
+    {
+      "source": "NR 3050",
+      "target": "NR 4060"
+    },
+    {
+      "source": "NR 3050",
+      "target": "NR 4064"
+    },
+    {
+      "source": "NR 3050",
+      "target": "NR 4990"
+    },
+    {
+      "source": "NR 6110",
+      "target": "NR 6120"
+    },
+    {
+      "source": "NR 6430",
+      "target": "NR 3430"
+    },
+    {
+      "source": "NR 6430",
+      "target": "NR 4430"
+    },
+    {
+      "source": "NR 6720",
+      "target": "NR 7740"
+    },
+    {
+      "source": "NR 6730",
+      "target": "NR 7740"
+    }
+  ]
+}

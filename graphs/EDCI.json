@@ -1,0 +1,99 @@
+{
+  "department": "EDCI",
+  "nodes": [
+    {
+      "id": "EDCI 5045",
+      "course_code": "EDCI 5045",
+      "department": "EDCI",
+      "title": "Trnsfrm Ldrshp Edu for Sustain",
+      "credit_hours": "3",
+      "description": "Focuses on developing students' education for sustainability leadership practices and offers tools to transform ourselves and our community. Explores a whole-systems and ecological approach for leading change in complex and emergent times. A core element of this course is the community that will be co-developed through collective work. Prerequisite: <a href=\"/search/?p=EDCI%205043\" data-action=\"result-detail\" data-group=\"code:EDCI 5043\"  class=\"notoffered\">EDCI 5043</a>. Co-requisite: <a href=\"/search/?p=EDCI%205044\" data-action=\"result-detail\" data-group=\"code:EDCI 5044\"  class=\"notoffered\">EDCI 5044</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDCI 5043\"}, {\"type\": \"course\", \"code\": \"EDCI 6430\"}]}",
+      "other_requirements": "Co-requisite: EDCI 5044. Open to Grad and PACE students. Combines in-person at Shelburne Farms (Oct 24-25, other TBD) with asynchronous and synchronous online. jcirillo@shelburnefarms.org or ali.brooks@uvm.edu",
+      "external": false
+    },
+    {
+      "id": "EDCI 5005",
+      "course_code": "EDCI 5005",
+      "department": "EDCI",
+      "title": "Data Science for Educators",
+      "credit_hours": "3",
+      "description": "Extracting meaning from data remains one of the most important tasks of research and industry. The modern age of computers and the Internet has made vast amounts of data available, making it more important than ever to understand how to collect, process, and analyze these data ethically and responsibly. Focuses on learning data science fundamentals and the pedagogical methods to integrating data science into the grade 7-12 classroom. Prerequisites: <a href=\"/search/?p=EDCI%205001\" data-action=\"result-detail\" data-group=\"code:EDCI 5001\"  class=\"notoffered\">EDCI 5001</a>, <a href=\"/search/?p=EDCI%205002\" data-action=\"result-detail\" data-group=\"code:EDCI 5002\"  class=\"notoffered\">EDCI 5002</a>, <a href=\"/search/?p=EDCI%205003\" data-action=\"result-detail\" data-group=\"code:EDCI 5003\"  class=\"notoffered\">EDCI 5003</a>, <a href=\"/search/?p=EDCI%205004\" data-action=\"result-detail\" data-group=\"code:EDCI 5004\"  class=\"notoffered\">EDCI 5004</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDCI 5001\"}, {\"type\": \"course\", \"code\": \"EDCI 5002\"}, {\"type\": \"course\", \"code\": \"EDCI 5003\"}, {\"type\": \"course\", \"code\": \"EDCI 5004\"}]}",
+      "other_requirements": "Only students in the Graduate Certificate in Computer Science or with instructor permission can register.",
+      "external": false
+    },
+    {
+      "id": "EDCI 5001",
+      "course_code": "EDCI 5001",
+      "department": "EDCI",
+      "title": "Python Program for Educators",
+      "credit_hours": "4",
+      "description": "Covers the fundamentals of programming, using the Python programming language. Students will write non-trivial Python programs, assess programming assignments, read, analyze and discuss relevant literature in CS and Education and create lesson plans and other CS resources for their teaching practice.",
+      "prereq_expression": null,
+      "other_requirements": "Computer Science Education CGS students; or instructor permission - contact rtoolin@uvm.edu",
+      "external": false
+    },
+    {
+      "id": "EDCI 6008",
+      "course_code": "EDCI 6008",
+      "department": "EDCI",
+      "title": "Curriculum Theory",
+      "credit_hours": "3",
+      "description": "Explores curriculum theory from a practitioner-oriented perspective and critical stance. Investigates how dominant social, political, and economic ideologies influence teaching and learning priorities. Aims to unsettle dominant curricular imaginaries to inquire about what else curriculum might be and become. Engage curriculum theories practiced and posed by educators, policy makers, scholars, school leaders, and youth leaders.",
+      "prereq_expression": null,
+      "other_requirements": "Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "EDCI 6009",
+      "course_code": "EDCI 6009",
+      "department": "EDCI",
+      "title": "Critical Pedagogies",
+      "credit_hours": "3",
+      "description": "Explores the philosophical and sociological underpinnings of various critical social, decolonial, and anticolonial theories and how they have contributed to educators' pedagogical practice. Course themes include: education as the practice of freedom, the theorization of criticality and critical social theory, critical pedagogies in practice, and youth influence on critical pedagogical practices.",
+      "prereq_expression": null,
+      "other_requirements": "Open to Degree and PACE students.",
+      "external": false
+    },
+    {
+      "id": "EDCI 5046",
+      "course_code": "EDCI 5046",
+      "department": "EDCI",
+      "title": "Edu for Sustain Inquiry Action",
+      "credit_hours": "3",
+      "description": "Designed to support practitioners advanced in EFS. In collaboration with education experts, systems-thinking and leadership, students will developing a peer network committed to ecological integrity, economic vitality, and social justice. Students will also use inquiry and action research frameworks to investigate a personally meaningful question about their EFS practice. Prerequisite: <a href=\"/search/?p=EDCI%205043\" data-action=\"result-detail\" data-group=\"code:EDCI 5043\"  class=\"notoffered\">EDCI 5043</a>. Co-requisites: <a href=\"/search/?p=EDCI%205044\" data-action=\"result-detail\" data-group=\"code:EDCI 5044\"  class=\"notoffered\">EDCI 5044</a>, <a href=\"/search/?p=EDCI%205045\" data-action=\"result-detail\" data-group=\"code:EDCI 5045\"  class=\"notoffered\">EDCI 5045</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"EDCI 5043\"}",
+      "other_requirements": "Co-requisites: EDCI 5044, EDCI 5045.",
+      "external": false
+    },
+    {
+      "id": "EDCI 6993",
+      "course_code": "EDCI 6993",
+      "department": "EDCI",
+      "title": "Independent Study",
+      "credit_hours": "1",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor Permission",
+      "external": false
+    },
+    {
+      "id": "EDCI 5990",
+      "course_code": "EDCI 5990",
+      "department": "EDCI",
+      "title": "NEST: New Educator Support Tea",
+      "credit_hours": "1.5",
+      "description": "See Schedule of Course for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "EDCI 5001",
+      "target": "EDCI 5005"
+    }
+  ]
+}

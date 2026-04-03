@@ -1,0 +1,451 @@
+{
+  "department": "HDF",
+  "nodes": [
+    {
+      "id": "HDF 2610",
+      "course_code": "HDF 2610",
+      "department": "HDF",
+      "title": "Social Context of Development",
+      "credit_hours": "3",
+      "description": "Developmental ecological approach to analysis of social institutions as influences on human development. Focus on education, community, health care, and social services. Prerequisites: <a href=\"/search/?p=HDF%201600\" data-action=\"result-detail\" data-group=\"code:HDF 1600\"  class=\"notoffered\">HDF 1600</a>; Minimum Sophomore standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"HDF 1600\"}]}",
+      "other_requirements": "Minimum Sophomore standing; PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "HDF 3680",
+      "course_code": "HDF 3680",
+      "department": "HDF",
+      "title": "Sem In Close Relationships",
+      "credit_hours": "3",
+      "description": "Causal conditions influencing formation, maintenance, and dissolution of intimate adult relationships. Draws on theory and students' personal experiences to explicate the nature of close relationships in contemporary American society. Prerequisites: <a href=\"/search/?p=HDF%202009\" data-action=\"result-detail\" data-group=\"code:HDF 2009\"  class=\"notoffered\">HDF 2009</a>, <a href=\"/search/?p=HDF%202610\" data-action=\"result-detail\" data-group=\"code:HDF 2610\"  class=\"notoffered\">HDF 2610</a>, <a href=\"/search/?p=HDF%202890\" data-action=\"result-detail\" data-group=\"code:HDF 2890\" >HDF 2890</a>; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PSYS 2002\"}, {\"type\": \"course\", \"code\": \"EDFS 3090\"}, {\"type\": \"course\", \"code\": \"SOC 2500\"}, {\"type\": \"course\", \"code\": \"SWSS 3670\"}, {\"type\": \"course\", \"code\": \"POLS2800\"}]}, {\"type\": \"course\", \"code\": \"HDF 2009\"}, {\"type\": \"course\", \"code\": \"HDF 2610\"}, {\"type\": \"course\", \"code\": \"HDF 2890\"}]}",
+      "other_requirements": "minimum Junior standing",
+      "external": false
+    },
+    {
+      "id": "PSYS 2002",
+      "course_code": "PSYS 2002",
+      "department": "PSYS",
+      "title": "Psych Research Methods",
+      "credit_hours": "3",
+      "description": "Principles of research methodology, including design and reporting. Prepares students to understand and evaluate psychological research in a variety of areas of psychology. Credit not awarded for both PSYS 2002 and <a href=\"/search/?p=PSYS%202000\" data-action=\"result-detail\" data-group=\"code:PSYS 2000\" >PSYS 2000</a>. Prerequisite: <a href=\"/search/?p=PSYS%201400\" data-action=\"result-detail\" data-group=\"code:PSYS 1400\" >PSYS 1400</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"PSYS 1400\"}",
+      "other_requirements": "NEUR majors and minors only",
+      "external": true
+    },
+    {
+      "id": "HDF 2995",
+      "course_code": "HDF 2995",
+      "department": "HDF",
+      "title": "Undergraduate Research",
+      "credit_hours": "3",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisites: Minimum Sophomore standing; minimum of 6 credits in HDF or related field; Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"HDF\"}]}",
+      "other_requirements": "Minimum Sophomore standing; minimum of 6 credits in HDF or related field; Instructor permission. Instructor permission required. This offering is restricted to students conducting research with Dr. Conroy as their thesis advisor and/or research mentor. Expectations are determined in consultation with each student and must be discussed prior to enrollment.",
+      "external": false
+    },
+    {
+      "id": "HDF 3690",
+      "course_code": "HDF 3690",
+      "department": "HDF",
+      "title": "Power & Interpersonal Violence",
+      "credit_hours": "3",
+      "description": "Examines the complexities of power, conflict, and violence in close relationships, families, and other interpersonal contexts throughout the lifespan by analyzing scholarly and popular knowledge about power and violence in interpersonal relationships. Prerequisites: <a href=\"/search/?p=HDF%202009\" data-action=\"result-detail\" data-group=\"code:HDF 2009\"  class=\"notoffered\">HDF 2009</a>, <a href=\"/search/?p=HDF%202610\" data-action=\"result-detail\" data-group=\"code:HDF 2610\" >HDF 2610</a>, <a href=\"/search/?p=HDF%202890\" data-action=\"result-detail\" data-group=\"code:HDF 2890\"  class=\"notoffered\">HDF 2890</a>, minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"HDF 2009\"}, {\"type\": \"course\", \"code\": \"HDF 2610\"}, {\"type\": \"course\", \"code\": \"HDF 2890\"}]}",
+      "other_requirements": "minimum Junior standing",
+      "external": false
+    },
+    {
+      "id": "HDF 1320",
+      "course_code": "HDF 1320",
+      "department": "HDF",
+      "title": "Exploring Dvlpmnt in Community",
+      "credit_hours": "1",
+      "description": "Experiential learning course focused on self-exploration work with instruction and reflection to enrich the learning experience and strengthen community. Students will be asked to engage in community so as to explore the role that community serves in support of self and others. Prerequisite: Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission. Catamount Recovery Program; Instructor invitation /permission required; Contact instructor for location",
+      "external": false
+    },
+    {
+      "id": "HDF 1010",
+      "course_code": "HDF 1010",
+      "department": "HDF",
+      "title": "CL:Fndn HumDev&FamSci for Mjrs",
+      "credit_hours": "3",
+      "description": "Seminar designed to introduce incoming majors to college expectations and skills, and to concepts and practices of Human Development &amp; Family Science and critically thinking about these concepts and practices. Prerequisite: Human Development and Family Science major. Pre/Co-requisites: <a href=\"/search/?p=HDF%201050\" data-action=\"result-detail\" data-group=\"code:HDF 1050\" >HDF 1050</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"HDF 1050\"}",
+      "other_requirements": "Human Development and Family Science major. Required class for HDFS majors; HDFS majors only",
+      "external": false
+    },
+    {
+      "id": "HDF 2890",
+      "course_code": "HDF 2890",
+      "department": "HDF",
+      "title": "Theories of Human Development",
+      "credit_hours": "3",
+      "description": "Introduction to the most influential theories of human development where students study, compare, and evaluate select theories and apply them to issues of practical importance. Prerequisites: <a href=\"/search/?p=HDF%201050\" data-action=\"result-detail\" data-group=\"code:HDF 1050\" >HDF 1050</a>, <a href=\"/search/?p=HDF%201600\" data-action=\"result-detail\" data-group=\"code:HDF 1600\" >HDF 1600</a>; minimum Sophomore standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"HDF 1050\"}, {\"type\": \"course\", \"code\": \"HDF 1600\"}]}",
+      "other_requirements": "minimum Sophomore standing. HDF 1600 may be taken as a co-requisite (i.e., while taking HDF 2890) by permission.",
+      "external": false
+    },
+    {
+      "id": "SWSS 3670",
+      "course_code": "SWSS 3670",
+      "department": "SWSS",
+      "title": "Intro Social Work Research",
+      "credit_hours": "3",
+      "description": "Introduction to models and methods of social research from a social work perspective. Prerequisite: <a href=\"/search/?p=SWSS%201020\" data-action=\"result-detail\" data-group=\"code:SWSS 1020\" >SWSS 1020</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 1020\"}, {\"type\": \"course\", \"code\": \"SWSS 1010\"}, {\"type\": \"course\", \"code\": \"SWSS 1600\"}, {\"type\": \"course\", \"code\": \"SWSS 1040\"}, {\"type\": \"course\", \"code\": \"SWSS 1990\"}]}",
+      "other_requirements": "Permission and prereq override; SWSS majors only",
+      "external": true
+    },
+    {
+      "id": "CNSL 2010",
+      "course_code": "CNSL 2010",
+      "department": "CNSL",
+      "title": "The Helping Relationship",
+      "credit_hours": "3",
+      "description": "Prepares students for the Human Services Profession through the study and practice of professional standards and select helping skills central to effective helping relationships. Prerequisites: <a href=\"/search/?p=HDF%201050\" data-action=\"result-detail\" data-group=\"code:HDF 1050\" >HDF 1050</a> or <a href=\"/search/?p=HDF%201600\" data-action=\"result-detail\" data-group=\"code:HDF 1600\" >HDF 1600</a>; Minimum Sophomore standing or Instructor Permission. Cross-listed with: <a href=\"/search/?p=HDF%202010\" data-action=\"result-detail\" data-group=\"code:HDF 2010\" >HDF 2010</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HDF 1050\"}, {\"type\": \"course\", \"code\": \"HDF 1600\"}]}, {\"type\": \"course\", \"code\": \"HDF 2010\"}]}",
+      "other_requirements": "Minimum Sophomore standing or Instructor Permission.",
+      "external": true
+    },
+    {
+      "id": "HDF 1050",
+      "course_code": "HDF 1050",
+      "department": "HDF",
+      "title": "Human Development",
+      "credit_hours": "3",
+      "description": "A comprehensive survey of life span individual and family development within social and historical context.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HDF 3210",
+      "course_code": "HDF 3210",
+      "department": "HDF",
+      "title": "Psychology of Aging",
+      "credit_hours": "3",
+      "description": "This course provides students with a comprehensive overview of psychological aspects of aging and identifies key lessons and facilitative practices for supporting positive aging. Prerequisites: <a href=\"/search/?p=HDF%202009\" data-action=\"result-detail\" data-group=\"code:HDF 2009\"  class=\"notoffered\">HDF 2009</a>, <a href=\"/search/?p=HDF%202610\" data-action=\"result-detail\" data-group=\"code:HDF 2610\"  class=\"notoffered\">HDF 2610</a>, <a href=\"/search/?p=HDF%202890\" data-action=\"result-detail\" data-group=\"code:HDF 2890\" >HDF 2890</a>, minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"HDF 2009\"}, {\"type\": \"course\", \"code\": \"HDF 2610\"}, {\"type\": \"course\", \"code\": \"HDF 2890\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PSYS 2002\"}, {\"type\": \"course\", \"code\": \"EDFS 3090\"}, {\"type\": \"course\", \"code\": \"SOC 2500\"}, {\"type\": \"course\", \"code\": \"SWSS 3670\"}, {\"type\": \"course\", \"code\": \"POLS 2800\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"HDF 1050\"}, {\"type\": \"course\", \"code\": \"HDF 1600\"}, {\"type\": \"course\", \"code\": \"HDF 2610\"}, {\"type\": \"course\", \"code\": \"HDF 2890\"}]}, {\"type\": \"course\", \"code\": \"Research Methods\"}]}",
+      "other_requirements": "minimum Junior standing",
+      "external": false
+    },
+    {
+      "id": "HDF 3995",
+      "course_code": "HDF 3995",
+      "department": "HDF",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisites: Minimum Junior standing; <a href=\"/search/?p=HDF%202610\" data-action=\"result-detail\" data-group=\"code:HDF 2610\" >HDF 2610</a>, <a href=\"/search/?p=HDF%202890\" data-action=\"result-detail\" data-group=\"code:HDF 2890\"  class=\"notoffered\">HDF 2890</a>, Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"HDF 2610\"}, {\"type\": \"course\", \"code\": \"HDF 2890\"}]}",
+      "other_requirements": "Minimum Junior standing; Instructor permission; Instructor permission required.",
+      "external": false
+    },
+    {
+      "id": "HDF 2205",
+      "course_code": "HDF 2205",
+      "department": "HDF",
+      "title": "Dev through Relationships",
+      "credit_hours": "3",
+      "description": "Introduces Bowlby's attachment theory as a framework for understanding human development. Through readings, lectures, and critical reflection activities, explores the cross-cultural differences as well as the transcultural and foundational nature of early relationships, their intergenerational transmission, and their impact on later relationships and development (including developmental trauma). Prerequisite: <a href=\"/search/?p=HDF%201050\" data-action=\"result-detail\" data-group=\"code:HDF 1050\" >HDF 1050</a> or <a href=\"/search/?p=HDF%201600\" data-action=\"result-detail\" data-group=\"code:HDF 1600\"  class=\"notoffered\">HDF 1600</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HDF 1050\"}, {\"type\": \"course\", \"code\": \"HDF 1600\"}]}",
+      "other_requirements": "Minimum sophomore standing; PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "HDF 1600",
+      "course_code": "HDF 1600",
+      "department": "HDF",
+      "title": "Family Context of Development",
+      "credit_hours": "3",
+      "description": "Developmental ecological approach to analysis of the family as a system in which individuals develop.",
+      "prereq_expression": null,
+      "other_requirements": "Degree students only; PACE students register for HDF 1600 ZRA; HDF/ECP students register for HDF 1600 B; Colocated with HDF 1600 B and ZRA",
+      "external": false
+    },
+    {
+      "id": "HDF 1650",
+      "course_code": "HDF 1650",
+      "department": "HDF",
+      "title": "Human Relationships &Sexuality",
+      "credit_hours": "3",
+      "description": "Sexual responsibility and the biological, social, psychological growth, and development of human beings in terms of sex role identity.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HDF 4991",
+      "course_code": "HDF 4991",
+      "department": "HDF",
+      "title": "SL:Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Prerequisites: <a href=\"/search/?p=HDF%201650\" data-action=\"result-detail\" data-group=\"code:HDF 1650\" >HDF 1650</a>, <a href=\"/search/?p=HDF%202009\" data-action=\"result-detail\" data-group=\"code:HDF 2009\"  class=\"notoffered\">HDF 2009</a>, <a href=\"/search/?p=HDF%202205\" data-action=\"result-detail\" data-group=\"code:HDF 2205\" >HDF 2205</a>, <a href=\"/search/?p=HDF%202410\" data-action=\"result-detail\" data-group=\"code:HDF 2410\" >HDF 2410</a>, <a href=\"/search/?p=HDF%202610\" data-action=\"result-detail\" data-group=\"code:HDF 2610\" >HDF 2610</a>, <a href=\"/search/?p=HDF%202890\" data-action=\"result-detail\" data-group=\"code:HDF 2890\"  class=\"notoffered\">HDF 2890</a>; <a href=\"/search/?p=HDF%202010\" data-action=\"result-detail\" data-group=\"code:HDF 2010\"  class=\"notoffered\">HDF 2010</a> or <a href=\"/search/?p=CNSL%202010\" data-action=\"result-detail\" data-group=\"code:CNSL 2010\"  class=\"notoffered\">CNSL 2010</a>; Senior standing; Instructor permission based on consultation with program faculty.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HDF 2010\"}, {\"type\": \"course\", \"code\": \"CNSL 2010\"}]}, {\"type\": \"course\", \"code\": \"HDF 2410\"}, {\"type\": \"course\", \"code\": \"HDF 2610\"}, {\"type\": \"course\", \"code\": \"HDF 2890\"}, {\"type\": \"course\", \"code\": \"HDF 1650\"}, {\"type\": \"course\", \"code\": \"HDF 2009\"}, {\"type\": \"course\", \"code\": \"HDF 2205\"}]}",
+      "other_requirements": "Senior standing; Instructor permission based on consultation with program faculty. By program permission, contact Jackie Weinstock.",
+      "external": false
+    },
+    {
+      "id": "HDF 2991",
+      "course_code": "HDF 2991",
+      "department": "HDF",
+      "title": "Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Prerequisites: Minimum Sophomore standing; <a href=\"/search/?p=HDF%201050\" data-action=\"result-detail\" data-group=\"code:HDF 1050\" >HDF 1050</a>, <a href=\"/search/?p=HDF%201600\" data-action=\"result-detail\" data-group=\"code:HDF 1600\" >HDF 1600</a>, Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"HDF 1050\"}, {\"type\": \"course\", \"code\": \"HDF 2610\"}]}",
+      "other_requirements": "Minimum Sophomore standing; Instructor permission. Minimum sophomore standing, and Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "EDFS 3090",
+      "course_code": "EDFS 3090",
+      "department": "EDFS",
+      "title": "Intro to Research Methods",
+      "credit_hours": "3",
+      "description": "Seminars and research projects. Methods of historical, descriptive, experimental, quasi-experimental, field studies, and survey research.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "POLS 2800",
+      "course_code": "POLS 2800",
+      "department": "POLS",
+      "title": "Social Research Methods",
+      "credit_hours": "4",
+      "description": "Introduction to research methods in social science. Includes examination of research design, measurement, data collection, data analysis, and the presentation and theoretical interpretation of research findings. Prerequisites: <a href=\"/search/?p=STAT%201050\" data-action=\"result-detail\" data-group=\"code:STAT 1050\" >STAT 1050</a>, <a href=\"/search/?p=STAT%201110\" data-action=\"result-detail\" data-group=\"code:STAT 1110\" >STAT 1110</a>, <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, or higher; three hours of Sociology or Political Science; minimum Sophomore standing. Cross-listed with: <a href=\"/search/?p=SOC%202500\" data-action=\"result-detail\" data-group=\"code:SOC 2500\" >SOC 2500</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1050\"}, {\"type\": \"course\", \"code\": \"STAT 1110\"}, {\"type\": \"course\", \"code\": \"STAT 1410\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 3 hours\"}, {\"type\": \"course\", \"code\": \"POLS 3 hours\"}]}]}",
+      "other_requirements": "Minimum Sophomore standing; PACE students by permission and override.",
+      "external": true
+    },
+    {
+      "id": "SOC 2500",
+      "course_code": "SOC 2500",
+      "department": "SOC",
+      "title": "Social Research Methods",
+      "credit_hours": "4",
+      "description": "Introduction to research methods in social science. Includes examination of research design, measurement, data collection, data analysis, and the presentation and theoretical interpretation of research findings. Prerequisites: <a href=\"/search/?p=STAT%201050\" data-action=\"result-detail\" data-group=\"code:STAT 1050\" >STAT 1050</a>, <a href=\"/search/?p=STAT%201110\" data-action=\"result-detail\" data-group=\"code:STAT 1110\" >STAT 1110</a>, <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, or higher; three hours of Sociology or Political Science; minimum Sophomore standing. Cross-listed with: <a href=\"/search/?p=POLS%202800\" data-action=\"result-detail\" data-group=\"code:POLS 2800\" >POLS 2800</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1050\"}, {\"type\": \"course\", \"code\": \"STAT 1110\"}, {\"type\": \"course\", \"code\": \"STAT 1410\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 2500\"}, {\"type\": \"course\", \"code\": \"POLS 2800\"}]}]}",
+      "other_requirements": "Minimum Sophomore standing; PACE students by permission and override.",
+      "external": true
+    },
+    {
+      "id": "HDF 3990",
+      "course_code": "HDF 3990",
+      "department": "HDF",
+      "title": "Families and Health",
+      "credit_hours": "3",
+      "description": "Lectures, laboratories, readings, or projects relating to contemporary areas of study. Enrollment may be more than once, accumulation up to twelve hours.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"HDF 2009\"}, {\"type\": \"course\", \"code\": \"HDF 2610\"}, {\"type\": \"course\", \"code\": \"HDF 2890\"}]}",
+      "other_requirements": "minimum Junior standing; Please note that program overrides will be needed.",
+      "external": false
+    },
+    {
+      "id": "HDF 2410",
+      "course_code": "HDF 2410",
+      "department": "HDF",
+      "title": "Interrogating White Identity",
+      "credit_hours": "3",
+      "description": "Introductory examination of white identity development and white identity development models from an ecological perspective. Prerequisites: <a href=\"/search/?p=HDF%201050\" data-action=\"result-detail\" data-group=\"code:HDF 1050\" >HDF 1050</a> or <a href=\"/search/?p=HDF%201600\" data-action=\"result-detail\" data-group=\"code:HDF 1600\"  class=\"notoffered\">HDF 1600</a>; Minimum Sophomore standing.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HDF 1050\"}, {\"type\": \"course\", \"code\": \"HDF 1600\"}]}",
+      "other_requirements": "Minimum Sophomore standing.",
+      "external": false
+    },
+    {
+      "id": "HDF 2010",
+      "course_code": "HDF 2010",
+      "department": "HDF",
+      "title": "The Helping Relationship",
+      "credit_hours": "3",
+      "description": "Prepares students for the Human Services Profession through the study and practice of professional standards and select helping skills central to effective helping relationships. Prerequisites: <a href=\"/search/?p=HDF%201050\" data-action=\"result-detail\" data-group=\"code:HDF 1050\" >HDF 1050</a> or <a href=\"/search/?p=HDF%201600\" data-action=\"result-detail\" data-group=\"code:HDF 1600\" >HDF 1600</a>; Minimum Sophomore standing. Cross-listed with: <a href=\"/search/?p=CNSL%202010\" data-action=\"result-detail\" data-group=\"code:CNSL 2010\" >CNSL 2010</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HDF 1050\"}, {\"type\": \"course\", \"code\": \"HDF 1600\"}]}",
+      "other_requirements": "Minimum Sophomore standing.",
+      "external": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "CNSL 2010",
+      "target": "HDF 4991"
+    },
+    {
+      "source": "EDFS 3090",
+      "target": "HDF 3210"
+    },
+    {
+      "source": "EDFS 3090",
+      "target": "HDF 3680"
+    },
+    {
+      "source": "HDF 1050",
+      "target": "CNSL 2010"
+    },
+    {
+      "source": "HDF 1050",
+      "target": "HDF 1010"
+    },
+    {
+      "source": "HDF 1050",
+      "target": "HDF 2010"
+    },
+    {
+      "source": "HDF 1050",
+      "target": "HDF 2205"
+    },
+    {
+      "source": "HDF 1050",
+      "target": "HDF 2410"
+    },
+    {
+      "source": "HDF 1050",
+      "target": "HDF 2890"
+    },
+    {
+      "source": "HDF 1050",
+      "target": "HDF 2991"
+    },
+    {
+      "source": "HDF 1050",
+      "target": "HDF 3210"
+    },
+    {
+      "source": "HDF 1600",
+      "target": "CNSL 2010"
+    },
+    {
+      "source": "HDF 1600",
+      "target": "HDF 2010"
+    },
+    {
+      "source": "HDF 1600",
+      "target": "HDF 2205"
+    },
+    {
+      "source": "HDF 1600",
+      "target": "HDF 2410"
+    },
+    {
+      "source": "HDF 1600",
+      "target": "HDF 2610"
+    },
+    {
+      "source": "HDF 1600",
+      "target": "HDF 2890"
+    },
+    {
+      "source": "HDF 1600",
+      "target": "HDF 3210"
+    },
+    {
+      "source": "HDF 1650",
+      "target": "HDF 4991"
+    },
+    {
+      "source": "HDF 2010",
+      "target": "CNSL 2010"
+    },
+    {
+      "source": "HDF 2010",
+      "target": "HDF 4991"
+    },
+    {
+      "source": "HDF 2205",
+      "target": "HDF 4991"
+    },
+    {
+      "source": "HDF 2410",
+      "target": "HDF 4991"
+    },
+    {
+      "source": "HDF 2610",
+      "target": "HDF 2991"
+    },
+    {
+      "source": "HDF 2610",
+      "target": "HDF 3210"
+    },
+    {
+      "source": "HDF 2610",
+      "target": "HDF 3680"
+    },
+    {
+      "source": "HDF 2610",
+      "target": "HDF 3690"
+    },
+    {
+      "source": "HDF 2610",
+      "target": "HDF 3990"
+    },
+    {
+      "source": "HDF 2610",
+      "target": "HDF 3995"
+    },
+    {
+      "source": "HDF 2610",
+      "target": "HDF 4991"
+    },
+    {
+      "source": "HDF 2890",
+      "target": "HDF 3210"
+    },
+    {
+      "source": "HDF 2890",
+      "target": "HDF 3680"
+    },
+    {
+      "source": "HDF 2890",
+      "target": "HDF 3690"
+    },
+    {
+      "source": "HDF 2890",
+      "target": "HDF 3990"
+    },
+    {
+      "source": "HDF 2890",
+      "target": "HDF 3995"
+    },
+    {
+      "source": "HDF 2890",
+      "target": "HDF 4991"
+    },
+    {
+      "source": "POLS 2800",
+      "target": "HDF 3210"
+    },
+    {
+      "source": "POLS 2800",
+      "target": "SOC 2500"
+    },
+    {
+      "source": "PSYS 2002",
+      "target": "HDF 3210"
+    },
+    {
+      "source": "PSYS 2002",
+      "target": "HDF 3680"
+    },
+    {
+      "source": "SOC 2500",
+      "target": "HDF 3210"
+    },
+    {
+      "source": "SOC 2500",
+      "target": "HDF 3680"
+    },
+    {
+      "source": "SOC 2500",
+      "target": "SOC 2500"
+    },
+    {
+      "source": "SWSS 3670",
+      "target": "HDF 3210"
+    },
+    {
+      "source": "SWSS 3670",
+      "target": "HDF 3680"
+    }
+  ]
+}

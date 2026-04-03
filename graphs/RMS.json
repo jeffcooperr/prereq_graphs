@@ -1,0 +1,17 @@
+{
+  "department": "RMS",
+  "nodes": [
+    {
+      "id": "RMS 3995",
+      "course_code": "RMS 3995",
+      "department": "RMS",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    }
+  ],
+  "edges": []
+}

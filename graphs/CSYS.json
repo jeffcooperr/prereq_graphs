@@ -1,0 +1,420 @@
+{
+  "department": "CSYS",
+  "nodes": [
+    {
+      "id": "CSYS 7491",
+      "course_code": "CSYS 7491",
+      "department": "CSYS",
+      "title": "Doctoral Dissertation Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Doctoral Dissertation.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CSYS 6020",
+      "course_code": "CSYS 6020",
+      "department": "CSYS",
+      "title": "Modeling Complex Systems I",
+      "credit_hours": "3",
+      "description": "Integrative breadth-first introduction to computational methods for modeling complex systems; dynamical systems, numerical methods, cellular automata, agent-based computing, game theory, genetic algorithms, artificial neural networks, and complex networks. Semester team-based project. Pre/Co-requisites: Computer programming in any language; calculus, linear algebra recommended. Cross-listed with: <a href=\"/search/?p=CS%206020\" data-action=\"result-detail\" data-group=\"code:CS 6020\" >CS 6020</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CS 6020\"}, {\"type\": \"course\", \"code\": \"CS 6020A\"}]}",
+      "other_requirements": "Graduate standing only; Computer programming in any language; calculus, linear algebra recommended; Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "STAT 5870",
+      "course_code": "STAT 5870",
+      "department": "STAT",
+      "title": "Data Science I - Experience",
+      "credit_hours": "3",
+      "description": "Data harvesting, cleaning, and summarizing; working with non-traditional, non-numeric data (social network, natural language textual data, etc.); scientific visualization; advanced data pipelines with a practical focus on real datasets and developing good habits for rigorous and reproducible computational science; Project-based. Credit not awarded for both STAT 5870 and <a href=\"/search/?p=STAT%203870\" data-action=\"result-detail\" data-group=\"code:STAT 3870\" >STAT 3870</a>. Prerequisites: Knowledge of <a href=\"/search/?p=CS%201210\" data-action=\"result-detail\" data-group=\"code:CS 1210\" >CS 1210</a> and either <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a> or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a> required; knowledge of <a href=\"/search/?p=CS%202100\" data-action=\"result-detail\" data-group=\"code:CS 2100\" >CS 2100</a> and <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a> recommended; Graduate student or Instructor permission. Cross-listed with: <a href=\"/search/?p=CSYS%205870\" data-action=\"result-detail\" data-group=\"code:CSYS 5870\" >CSYS 5870</a>, <a href=\"/search/?p=CS%205870\" data-action=\"result-detail\" data-group=\"code:CS 5870\" >CS 5870</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CS 1210\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"STAT 2430\"}]}]}",
+      "other_requirements": "Graduate student or Instructor permission. PACE students with permission and override.",
+      "external": true
+    },
+    {
+      "id": "MATH 2522",
+      "course_code": "MATH 2522",
+      "department": "MATH",
+      "title": "Applied Linear Algebra",
+      "credit_hours": "3",
+      "description": "Vectors, matrices, linear independence, vector spaces (with focus on real n-space), determinants, linear transformations, eigenvalues and eigenvectors. Applications from engineering and the sciences incorporated through required computer assignments. Credit not given for both MATH 2522 and <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>. Prerequisite: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "Credit not given for both MATH 2522 and MATH 2544. Open to Degree and PACE students. System waitlisting enabled for this section. This is a lecture-based course. Topics will be presented with a level of depth and rigor appropriate for students pursuing degrees in technical fields such as engineering, computer science, or the physical sciences. Math Majors should take Math 2544 Linear Algebra. Materials: WebAssign access for Linear Algebra with Applications, 9th edition, by Garreth Williams ISBN 1284154696 . WebAssign includes access to an e-text, as well as homework exercises. Matlab Assignments: No prior experience with Matlab is assumed. Matlab is used throughout the course and is available on the UVM CEMS computers and it can be downloaded from:https://www.uvm.edu/cems/installing_matlab_students",
+      "external": true
+    },
+    {
+      "id": "CSYS 5766",
+      "course_code": "CSYS 5766",
+      "department": "CSYS",
+      "title": "Gr Chaos,Fractals&Dynmcal Syst",
+      "credit_hours": "3",
+      "description": "Discrete and continuous dynamical systems, Julia sets, the Mandelbrot set, period doubling, renormalization, Henon map, phase plane analysis, and Lorenz equations. Credit not awarded for both CSYS 5766 and <a href=\"/search/?p=MATH%203766\" data-action=\"result-detail\" data-group=\"code:MATH 3766\"  class=\"notoffered\">MATH 3766</a>. Prerequisite: Graduate student or Instructor permission. Cross-listed with: <a href=\"/search/?p=MATH%205766\" data-action=\"result-detail\" data-group=\"code:MATH 5766\" >MATH 5766</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}",
+      "other_requirements": "Graduate student or Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "CS 5870",
+      "course_code": "CS 5870",
+      "department": "CS",
+      "title": "Data Science I - Experience",
+      "credit_hours": "3",
+      "description": "Data harvesting, cleaning, and summarizing; working with non-traditional, non-numeric data (social network, natural language textual data, etc.); scientific visualization; advanced data pipelines with a practical focus on real datasets and developing good habits for rigorous and reproducible computational science; Project-based. Credit not awarded for both CS 5870 and <a href=\"/search/?p=CS%203870\" data-action=\"result-detail\" data-group=\"code:CS 3870\" >CS 3870</a>. Prerequisites: Knowledge of <a href=\"/search/?p=CS%201210\" data-action=\"result-detail\" data-group=\"code:CS 1210\" >CS 1210</a> and either <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a> or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a> required; knowledge of <a href=\"/search/?p=CS%202100\" data-action=\"result-detail\" data-group=\"code:CS 2100\" >CS 2100</a> and <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a> recommended; Graduate student or Instructor permission. Cross-listed with: <a href=\"/search/?p=STAT%205870\" data-action=\"result-detail\" data-group=\"code:STAT 5870\" >STAT 5870</a>, <a href=\"/search/?p=CSYS%205870\" data-action=\"result-detail\" data-group=\"code:CSYS 5870\" >CSYS 5870</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CS 1210\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"STAT 2430\"}]}]}",
+      "other_requirements": "Knowledge of CS 2100 and MATH 2522 or MATH 2544 recommended; Graduate student or Instructor permission.",
+      "external": true
+    },
+    {
+      "id": "CSYS 6520",
+      "course_code": "CSYS 6520",
+      "department": "CSYS",
+      "title": "Evolutionary Computation",
+      "credit_hours": "3",
+      "description": "Theory and practice of biologically-inspired search strategies including genetic algorithms, genetic programming, and evolution strategies. Applications include optimization, parameter estimation, and model identification. Significant project. Students from multiple disciplines encouraged. Pre/co-requisites: Familiarity with programming, probability, statistics. Cross-listed with: <a href=\"/search/?p=CS%206520\" data-action=\"result-detail\" data-group=\"code:CS 6520\" >CS 6520</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CS 6520\"}, {\"type\": \"course\", \"code\": \"CS 6520A\"}]}",
+      "other_requirements": "Familiarity with programming, probability, statistics.",
+      "external": false
+    },
+    {
+      "id": "CSYS 5909",
+      "course_code": "CSYS 5909",
+      "department": "CSYS",
+      "title": "Natural Language Processing",
+      "credit_hours": "3",
+      "description": "Provides a comprehensive, breadth-first introduction to natural language processing (NLP), an interdisciplinary field at the intersection of computer science, linguistics, and artificial intelligence. Students will explore both classical approaches and modern deep learning techniques, including large language models, through an integrative and hands-on learning experience. Project-based, emphasizing practical engagement with real-world textual datasets and the development of strong research practices for rigorous research projects. Prerequisite: Programming experience in Python. Cross-listed with: <a href=\"/search/?p=CS%205909\" data-action=\"result-detail\" data-group=\"code:CS 5909\" >CS 5909</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CSYS 5909\"}, {\"type\": \"course\", \"code\": \"CS 5990A\"}, {\"type\": \"course\", \"code\": \"CS 5909A\"}]}",
+      "other_requirements": "Programming experience in Python. Junior standing and programming experience in Python; or instructor permission; Cross-listed with CS 5990A; or instructor permission; Cross-listed with CS 5909A;",
+      "external": false
+    },
+    {
+      "id": "CSYS 6713",
+      "course_code": "CSYS 6713",
+      "department": "CSYS",
+      "title": "Principles of Complex Systms 2",
+      "credit_hours": "3",
+      "description": "Detailed exploration of distribution, transportation, small-world, scale-free, social, biological, organizational networks; generative mechanisms; measurement and statistics of network properties; network dynamics; contagion processes. Students from all disciplines welcomed. Pre/co-requisites: Calculus, statistics required. Cross-listed with: <a href=\"/search/?p=MATH%206713\" data-action=\"result-detail\" data-group=\"code:MATH 6713\" >MATH 6713</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"Calculus\"}, {\"type\": \"course\", \"code\": \"Statistics\"}]}",
+      "other_requirements": "Students from all disciplines welcomed. Cross-listed with: MATH 6713. Cross-listed with MATH 6713A and CSYS 6713 OL1; Total combined enrollment: 35; Open to Grad and PACE students",
+      "external": false
+    },
+    {
+      "id": "CSYS 6391",
+      "course_code": "CSYS 6391",
+      "department": "CSYS",
+      "title": "Master's Thesis Research",
+      "credit_hours": "1 to 18",
+      "description": "Master's thesis research under the supervision of a graduate faculty member. Prerequisite: Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission",
+      "external": false
+    },
+    {
+      "id": "STAT 2430",
+      "course_code": "STAT 2430",
+      "department": "STAT",
+      "title": "Statistics for Engineering",
+      "credit_hours": "4",
+      "description": "Data analysis, probability models, parameter estimation, hypothesis testing. Multi- factor experimental design and regression analysis. Quality control, SPC, reliability. Engineering cases and project. Statistical analysis software. Credit not awarded for both <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a> and STAT 2430. Prerequisites: <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "other_requirements": "Minimum sophomore standing; Open to Degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "CSYS 6870",
+      "course_code": "CSYS 6870",
+      "department": "CSYS",
+      "title": "Data Science II",
+      "credit_hours": "3",
+      "description": "Advanced data analysis, collection, and filtering; statistical modeling, monte carlo statistical methods, and in particular Bayesian data analysis, including necessary probabilistic background material; a practical focus on real datasets and developing good habits for rigorous and reproducible computational science. Prerequisites: <a href=\"/search/?p=STAT%205870\" data-action=\"result-detail\" data-group=\"code:STAT 5870\"  class=\"notoffered\">STAT 5870</a>, <a href=\"/search/?p=CS%205870\" data-action=\"result-detail\" data-group=\"code:CS 5870\"  class=\"notoffered\">CS 5870</a>, <a href=\"/search/?p=CSYS%205870\" data-action=\"result-detail\" data-group=\"code:CSYS 5870\"  class=\"notoffered\">CSYS 5870</a>, or Instructor permission. Cross-listed with: <a href=\"/search/?p=CS%206870\" data-action=\"result-detail\" data-group=\"code:CS 6870\" >CS 6870</a>, <a href=\"/search/?p=STAT%206870\" data-action=\"result-detail\" data-group=\"code:STAT 6870\" >STAT 6870</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 5870\"}, {\"type\": \"course\", \"code\": \"CS 5870\"}, {\"type\": \"course\", \"code\": \"CSYS 5870\"}]}",
+      "other_requirements": "Instructor permission",
+      "external": false
+    },
+    {
+      "id": "STAT 1410",
+      "course_code": "STAT 1410",
+      "department": "STAT",
+      "title": "Basic Statistical Methods 1",
+      "credit_hours": "3",
+      "description": "Foundational course for students taking further quantitative courses. Exploratory data analysis, probability distributions, estimation, hypothesis testing. Introductory regression, experimentation, contingency tables, and nonparametrics. Computer software used. Credit not awarded for more than one of STAT 1410 or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Credit not awarded for more than one of STAT 1410 or STAT 2430. Open to Degree and PACE students.",
+      "external": true
+    },
+    {
+      "id": "CSYS 6990",
+      "course_code": "CSYS 6990",
+      "department": "CSYS",
+      "title": "Comp Data Sci of Soc Sci & Hum",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CSYS 7980",
+      "course_code": "CSYS 7980",
+      "department": "CSYS",
+      "title": "Applied Geostatistics",
+      "credit_hours": "3",
+      "description": "Introduction to the theory of regionalized variables, geostatistics (kriging techniques), special topics in multivariate analysis. Applications to real data subject to spatial variation are emphasized. Prerequisites: Programming skills (such as in Python or Matlab) and content knowledge of multivariate statistics (such as <a href=\"/search/?p=STAT%205230\" data-action=\"result-detail\" data-group=\"code:STAT 5230\"  class=\"notoffered\">STAT 5230</a>) are assumed. Cross-listed with: <a href=\"/search/?p=CEE%207980\" data-action=\"result-detail\" data-group=\"code:CEE 7980\" >CEE 7980</a>, <a href=\"/search/?p=STAT%207980\" data-action=\"result-detail\" data-group=\"code:STAT 7980\" >STAT 7980</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 5230\"}]}",
+      "other_requirements": "Programming skills (such as in Python or Matlab) and content knowledge of multivariate statistics are assumed. Cross-listed with: CEE 7980, STAT 7980. Total combined enrollment: 40",
+      "external": false
+    },
+    {
+      "id": "CS 2100",
+      "course_code": "CS 2100",
+      "department": "CS",
+      "title": "Intermediate Programming",
+      "credit_hours": "4",
+      "description": "Intermediate programming concepts including common data structures, algorithms, style, design, documentation, testing and debugging techniques, and an introduction to object-oriented programming. Prerequisite: <a href=\"/search/?p=CS%201210\" data-action=\"result-detail\" data-group=\"code:CS 1210\" >CS 1210</a> with a grade of C- or better.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CS 21\"}, {\"type\": \"course\", \"code\": \"CS 1210\"}]}",
+      "other_requirements": "C- or better in CS21 or CS1210",
+      "external": true
+    },
+    {
+      "id": "CSYS 6392",
+      "course_code": "CSYS 6392",
+      "department": "CSYS",
+      "title": "Master's Project Research",
+      "credit_hours": "1 to 6",
+      "description": "Masters project under the supervision of a graduate faculty member. Prerequisite: Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "STAT 5230",
+      "course_code": "STAT 5230",
+      "department": "STAT",
+      "title": "Appld Multivariate Analysis",
+      "credit_hours": "3",
+      "description": "Multivariate normal distribution. Inference for mean vectors and covariance matrices. Multivariate analysis of variance (MANOVA), discrimination and classification, principal components, factor and cluster analysis. Prerequisite: Graduate student or Instructor permission; content knowledge of <a href=\"/search/?p=STAT%203210\" data-action=\"result-detail\" data-group=\"code:STAT 3210\" >STAT 3210</a> and <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a> assumed.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 3210\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}]}",
+      "other_requirements": "Graduate student or Instructor permission",
+      "external": true
+    },
+    {
+      "id": "STAT 2510",
+      "course_code": "STAT 2510",
+      "department": "STAT",
+      "title": "Applied Probability",
+      "credit_hours": "3",
+      "description": "Foundations of probability, conditioning, and independence. Business, computing, biological, engineering reliability, and quality control applications. Classical discrete and continuous models. Pseudo-random number generation. Prerequisites: <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a> or <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "Prereqs enforced by the system:MATH 1224orMATH 1248orMATH 1242;",
+      "external": true
+    },
+    {
+      "id": "CSYS 6993",
+      "course_code": "CSYS 6993",
+      "department": "CSYS",
+      "title": "IS:Network Science",
+      "credit_hours": "3",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CSYS 5870",
+      "course_code": "CSYS 5870",
+      "department": "CSYS",
+      "title": "Data Science I - Experience",
+      "credit_hours": "3",
+      "description": "Data harvesting, cleaning, and summarizing; working with non-traditional, non-numeric data (social network, natural language textual data, etc.); scientific visualization; advanced data pipelines with a practical focus on real datasets and developing good habits for rigorous and reproducible computational science; Project-based. Credit not awarded for both CSYS 5870 and <a href=\"/search/?p=CS%203870\" data-action=\"result-detail\" data-group=\"code:CS 3870\" >CS 3870</a>. Prerequisites: Knowledge of <a href=\"/search/?p=CS%201210\" data-action=\"result-detail\" data-group=\"code:CS 1210\" >CS 1210</a> and either <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a> or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a> required; knowledge of <a href=\"/search/?p=CS%202100\" data-action=\"result-detail\" data-group=\"code:CS 2100\" >CS 2100</a> and <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a> recommended; Graduate student or Instructor permission. Cross-listed with: <a href=\"/search/?p=STAT%205870\" data-action=\"result-detail\" data-group=\"code:STAT 5870\" >STAT 5870</a>, <a href=\"/search/?p=CS%205870\" data-action=\"result-detail\" data-group=\"code:CS 5870\" >CS 5870</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CS 1210\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"STAT 2430\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CS 2100\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}]}]}",
+      "other_requirements": "Recommended: knowledge of CS 2100 and MATH 2522 or MATH 2544. Graduate student or Instructor permission. PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "CS 6020",
+      "course_code": "CS 6020",
+      "department": "CS",
+      "title": "Modeling Complex Systems I",
+      "credit_hours": "3",
+      "description": "Integrative breadth-first introduction to computational methods for modeling complex systems; dynamical systems, numerical methods, cellular automata, agent-based computing, game theory, genetic algorithms, artificial neural networks, and complex networks. Semester team-based project. Pre/Co-requisites: Computer programming in any language, calculus; linear algebra recommended. Cross-listed with: <a href=\"/search/?p=CSYS%206020\" data-action=\"result-detail\" data-group=\"code:CSYS 6020\" >CSYS 6020</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CS 6020\"}, {\"type\": \"course\", \"code\": \"CSYS 6020\"}]}",
+      "other_requirements": "Computer programming in any language, calculus; linear algebra recommended. Graduate standing only; Open to Degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "CS 6520",
+      "course_code": "CS 6520",
+      "department": "CS",
+      "title": "Evolutionary Computation",
+      "credit_hours": "3",
+      "description": "Theory and practice of biologically-inspired search strategies, including genetic algorithms, genetic programming, and evolution strategies. Applications include optimization, parameter estimation, and model identification. Significant project. Students from multiple disciplines encouraged. Pre/co-requisites: Familiarity with programming, probability, statistics. Cross-listed with: <a href=\"/search/?p=CSYS%206520\" data-action=\"result-detail\" data-group=\"code:CSYS 6520\" >CSYS 6520</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Familiarity with programming, probability, statistics.",
+      "external": true
+    },
+    {
+      "id": "MATH 2544",
+      "course_code": "MATH 2544",
+      "department": "MATH",
+      "title": "Linear Algebra",
+      "credit_hours": "3",
+      "description": "Vector spaces, linear independence, bases, linear transformations, matrices, determinants, change of basis characteristic equations, eigenvalues and eigenvectors, with applications. Emphasis on understanding and gaining facility with these concepts including proofs. Credit not given for both <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> and MATH 2544. Prerequisite: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Co-requisite: <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or <a href=\"/search/?p=MATH%202055\" data-action=\"result-detail\" data-group=\"code:MATH 2055\" >MATH 2055</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "Co-requisite: MATH 2248 or MATH 2055. Credit not given for both MATH 2522 and MATH 2544. Open to Degree and PACE students.",
+      "external": true
+    },
+    {
+      "id": "CSYS 5540",
+      "course_code": "CSYS 5540",
+      "department": "CSYS",
+      "title": "Advanced Machine Learning",
+      "credit_hours": "3",
+      "description": "Provides a broad introduction to machine learning and statistical pattern recognition. Topics include: supervised learning (linear regression, logistic regression, neural networks, support vector machines, decision tree, ensemble models, random forest); unsupervised learning (clustering, dimensionality reduction, kernel methods); Also introduces deep learning such as convolutional neural networks and discusses recent applications. Credit not awarded for more than one of the following: CSYS 5540, <a href=\"/search/?p=CS%205540\" data-action=\"result-detail\" data-group=\"code:CS 5540\" >CS 5540</a>, <a href=\"/search/?p=CS%203540\" data-action=\"result-detail\" data-group=\"code:CS 3540\" >CS 3540</a>. Prerequisites: Knowledge of statistics as from <a href=\"/search/?p=STAT%202510\" data-action=\"result-detail\" data-group=\"code:STAT 2510\" >STAT 2510</a>, knowledge of linear algebra as from <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>; Graduate student. Cross-listed with: <a href=\"/search/?p=CS%205540\" data-action=\"result-detail\" data-group=\"code:CS 5540\" >CS 5540</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 2510\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}]}",
+      "other_requirements": "Knowledge of statistics as from STAT 2510, knowledge of linear algebra as from MATH 2522 or MATH 2544; Graduate student. Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "CSYS 6701",
+      "course_code": "CSYS 6701",
+      "department": "CSYS",
+      "title": "Principles of Complex Systms 1",
+      "credit_hours": "3",
+      "description": "Introduction to fundamental concepts of complex systems. Topics include: emergence, scaling phenomena and mechanisms, multi-scale systems, failure, robustness, collective social phenomena, complex networks. Students from all disciplines welcomed. Pre/co-requisites: Calculus, statistics required; linear algebra, differential equations, computer programming recommended. Cross-listed with: <a href=\"/search/?p=MATH%206701\" data-action=\"result-detail\" data-group=\"code:MATH 6701\" >MATH 6701</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"Calculus\"}, {\"type\": \"course\", \"code\": \"statistics\"}]}",
+      "other_requirements": "linear algebra, differential equations, computer programming recommended",
+      "external": false
+    },
+    {
+      "id": "CS 1210",
+      "course_code": "CS 1210",
+      "department": "CS",
+      "title": "Comp Prog I: for CS majors",
+      "credit_hours": "3",
+      "description": "Introduction to algorithmic problem solving and computer programming. Designed to provide a foundation for further studies in computer science.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "CS 1210",
+      "target": "CS 2100"
+    },
+    {
+      "source": "CS 1210",
+      "target": "CS 5870"
+    },
+    {
+      "source": "CS 1210",
+      "target": "CSYS 5870"
+    },
+    {
+      "source": "CS 1210",
+      "target": "STAT 5870"
+    },
+    {
+      "source": "CS 2100",
+      "target": "CSYS 5870"
+    },
+    {
+      "source": "CS 5870",
+      "target": "CSYS 6870"
+    },
+    {
+      "source": "CS 6020",
+      "target": "CS 6020"
+    },
+    {
+      "source": "CS 6020",
+      "target": "CSYS 6020"
+    },
+    {
+      "source": "CS 6520",
+      "target": "CSYS 6520"
+    },
+    {
+      "source": "CSYS 5870",
+      "target": "CSYS 6870"
+    },
+    {
+      "source": "CSYS 5909",
+      "target": "CSYS 5909"
+    },
+    {
+      "source": "CSYS 6020",
+      "target": "CS 6020"
+    },
+    {
+      "source": "MATH 2522",
+      "target": "CSYS 5540"
+    },
+    {
+      "source": "MATH 2522",
+      "target": "CSYS 5766"
+    },
+    {
+      "source": "MATH 2522",
+      "target": "CSYS 5870"
+    },
+    {
+      "source": "MATH 2522",
+      "target": "STAT 5230"
+    },
+    {
+      "source": "MATH 2544",
+      "target": "CSYS 5540"
+    },
+    {
+      "source": "MATH 2544",
+      "target": "CSYS 5766"
+    },
+    {
+      "source": "MATH 2544",
+      "target": "CSYS 5870"
+    },
+    {
+      "source": "MATH 2544",
+      "target": "STAT 5230"
+    },
+    {
+      "source": "STAT 1410",
+      "target": "CS 5870"
+    },
+    {
+      "source": "STAT 1410",
+      "target": "CSYS 5870"
+    },
+    {
+      "source": "STAT 1410",
+      "target": "STAT 5870"
+    },
+    {
+      "source": "STAT 2430",
+      "target": "CS 5870"
+    },
+    {
+      "source": "STAT 2430",
+      "target": "CSYS 5870"
+    },
+    {
+      "source": "STAT 2430",
+      "target": "STAT 5870"
+    },
+    {
+      "source": "STAT 2510",
+      "target": "CSYS 5540"
+    },
+    {
+      "source": "STAT 5230",
+      "target": "CSYS 7980"
+    },
+    {
+      "source": "STAT 5870",
+      "target": "CSYS 6870"
+    }
+  ]
+}

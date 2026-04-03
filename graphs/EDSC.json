@@ -1,0 +1,458 @@
+{
+  "department": "EDSC",
+  "nodes": [
+    {
+      "id": "EDSC 4991",
+      "course_code": "EDSC 4991",
+      "department": "EDSC",
+      "title": "Internship: Student Teaching",
+      "credit_hours": "12",
+      "description": "Student teaching or some other on-site supervised experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team, for which academic credit is awarded.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SE\"}, {\"type\": \"course\", \"code\": \"SEE\"}, {\"type\": \"course\", \"code\": \"SEL\"}, {\"type\": \"course\", \"code\": \"SEM\"}, {\"type\": \"course\", \"code\": \"SES\"}, {\"type\": \"course\", \"code\": \"SESS\"}]}",
+      "other_requirements": "Secondary Ed students only. Senior standing; Co-requisite:EDSC 4300.",
+      "external": false
+    },
+    {
+      "id": "EDSC 2090",
+      "course_code": "EDSC 2090",
+      "department": "EDSC",
+      "title": "Practicum in Teaching",
+      "credit_hours": "4",
+      "description": "Immerses students in the school environment. Coursework, readings and experiences are intentionally aligned with those of EDSC 216. Allows students to engage in fieldwork in a variety of instructional settings that include students with special needs and ELLs. A seminar component brings together fieldwork and professional practice experiences. Prerequisite: <a href=\"/search/?p=EDSC%202070\" data-action=\"result-detail\" data-group=\"code:EDSC 2070\" >EDSC 2070</a>. Co-requisite: <a href=\"/search/?p=EDSC%202016\" data-action=\"result-detail\" data-group=\"code:EDSC 2016\"  class=\"notoffered\">EDSC 2016</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"EDSC 2070\"}",
+      "other_requirements": "Co-requisite: EDSC 2016. Secondary Ed students only - SE, SEE, SEL, SEM, SES, SESS; Minimum junior standing; Lab fee: $40.00 Fulfillment of Praxis Core requirement; Field placement TBD w/ instructor typically T/R 4-hr blocks between 7:30-12:00 Course will also meet on campus T/R 9:00-11:30 as indicated by the instructor for the first two weeks of the semester. Afterwards, it will meet Thursdays 2:50-4:05",
+      "external": false
+    },
+    {
+      "id": "EDSC 2160",
+      "course_code": "EDSC 2160",
+      "department": "EDSC",
+      "title": "Curriculum, Inst, & Assessment",
+      "credit_hours": "3",
+      "description": "Covers key concepts within education such as Understanding by Design ('backwards planning'), formative and summative assessment, differentiated instruction, and equity in the secondary content-area curriculum. Course readings, discussions, projects, and activities will illustrate how  these concepts fit together to support student learning in secondary schools. Prerequisites: <a href=\"/search/?p=EDSC%201110\" data-action=\"result-detail\" data-group=\"code:EDSC 1110\"  class=\"notoffered\">EDSC 1110</a>; <a href=\"/search/?p=EDSC%202070\" data-action=\"result-detail\" data-group=\"code:EDSC 2070\" >EDSC 2070</a>. Co-requisite: <a href=\"/search/?p=EDSC%202090\" data-action=\"result-detail\" data-group=\"code:EDSC 2090\" >EDSC 2090</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSC 1110\"}, {\"type\": \"course\", \"code\": \"EDSC 2070\"}]}",
+      "other_requirements": "Secondary Ed students only - SE, SEE, SEL, SEM, SES, SESS; Minimum Junior standing.",
+      "external": false
+    },
+    {
+      "id": "ECLD 1560",
+      "course_code": "ECLD 1560",
+      "department": "ECLD",
+      "title": "Lang Policy Issues,Race&Sch",
+      "credit_hours": "3",
+      "description": "Explores the theories, practices, and policies related to race and language, and how they impact the working, teaching, and learning of English learners in multilingual and multicultural settings.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "EDSC 2070",
+      "course_code": "EDSC 2070",
+      "department": "EDSC",
+      "title": "SL:Development: Theory & App",
+      "credit_hours": "4",
+      "description": "Examines a variety of adolescent developmental and theories about how students learn.  On-going participation in Service-Learning experiences allows for the application of course content in the context of instructional settings, with an emphasis on supporting students identified as dealing with barriers to learning. Prerequisite: <a href=\"/search/?p=EDTE%201010\" data-action=\"result-detail\" data-group=\"code:EDTE 1010\" >EDTE 1010</a>, <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>, <a href=\"/search/?p=ECLD%201560\" data-action=\"result-detail\" data-group=\"code:ECLD 1560\" >ECLD 1560</a>, <a href=\"/search/?p=EDFS%201020\" data-action=\"result-detail\" data-group=\"code:EDFS 1020\"  class=\"notoffered\">EDFS 1020</a>, <a href=\"/search/?p=EDSC%201110\" data-action=\"result-detail\" data-group=\"code:EDSC 1110\"  class=\"notoffered\">EDSC 1110</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDTE 1010\"}, {\"type\": \"course\", \"code\": \"EDSP 1050\"}, {\"type\": \"course\", \"code\": \"ECLD 1560\"}, {\"type\": \"course\", \"code\": \"EDFS 1020\"}, {\"type\": \"course\", \"code\": \"EDSC 1110\"}]}",
+      "other_requirements": "Secondary Ed students only - SE, SEE, SEL, SEM, SES, SESS; Minimum Sophomore standing only; service learning req",
+      "external": false
+    },
+    {
+      "id": "EDSC 2150",
+      "course_code": "EDSC 2150",
+      "department": "EDSC",
+      "title": "SL:Disciplinary Lit Sec Schl",
+      "credit_hours": "4",
+      "description": "Theory and methods of reading/writing explored in the context of literacy. Focus on reading, writing, speaking and critical thinking across disciplines. Cultural contexts explored. Pre/Co-requisites: <a href=\"/search/?p=EDSC%202070\" data-action=\"result-detail\" data-group=\"code:EDSC 2070\" >EDSC 2070</a>, <a href=\"/search/?p=EDSC%202090\" data-action=\"result-detail\" data-group=\"code:EDSC 2090\" >EDSC 2090</a>, <a href=\"/search/?p=EDSC%202016\" data-action=\"result-detail\" data-group=\"code:EDSC 2016\"  class=\"notoffered\">EDSC 2016</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSC 2070\"}, {\"type\": \"course\", \"code\": \"EDSC 2090\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSC 2016\"}, {\"type\": \"course\", \"code\": \"EDSC 2160\"}]}]}",
+      "other_requirements": "Secondary Ed students only - SE, SEE, SEL, SEM, SES, SESS; Minimum Junior standing only; Service learning req.; has a GC2 designation.",
+      "external": false
+    },
+    {
+      "id": "EDSC 3570",
+      "course_code": "EDSC 3570",
+      "department": "EDSC",
+      "title": "Tchg Math in Sec Schls",
+      "credit_hours": "3",
+      "description": "Designed for students interested in becoming mathematics educators. Focuses on mathematics teaching and learning at the middle and secondary level. Students will explore ways of probing student understanding, identify and evaluate best practices for instruction, and will examine issues of diversity and equity in the classroom. Credit not awarded for both EDSC 3570 and <a href=\"/search/?p=EDSC%205257\" data-action=\"result-detail\" data-group=\"code:EDSC 5257\"  class=\"notoffered\">EDSC 5257</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSC 5207\"}, {\"type\": \"course\", \"code\": \"EDSC 5209\"}, {\"type\": \"course\", \"code\": \"EDSC 5215\"}, {\"type\": \"course\", \"code\": \"EDSC 5216\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSC 1110\"}, {\"type\": \"course\", \"code\": \"EDSC 2070\"}, {\"type\": \"course\", \"code\": \"EDSC 2090\"}, {\"type\": \"course\", \"code\": \"EDSC 2150\"}, {\"type\": \"course\", \"code\": \"EDSC 2160\"}, {\"type\": \"course\", \"code\": \"EDSC 2570\"}]}]}",
+      "other_requirements": "Secondary MAT and Undergrad students; Minimum Jr standing;",
+      "external": false
+    },
+    {
+      "id": "EDSC 3240",
+      "course_code": "EDSC 3240",
+      "department": "EDSC",
+      "title": "Teach English:Secondary School",
+      "credit_hours": "3",
+      "description": "Approaches to teaching composition, literature, and the English language in secondary school. Prerequisite: Acceptance into licensure program.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSC 5207\"}, {\"type\": \"course\", \"code\": \"EDSC 5209\"}, {\"type\": \"course\", \"code\": \"EDSC 5215\"}, {\"type\": \"course\", \"code\": \"EDSC 5216\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSC 1110\"}, {\"type\": \"course\", \"code\": \"EDSC 2070\"}, {\"type\": \"course\", \"code\": \"EDSC 2090\"}, {\"type\": \"course\", \"code\": \"EDSC 2150\"}, {\"type\": \"course\", \"code\": \"EDSC 2160\"}]}]}",
+      "other_requirements": "Acceptance into licensure program. Secondary MAT and Undergrad students; Minimum Jr standing.",
+      "external": false
+    },
+    {
+      "id": "EDSC 3994",
+      "course_code": "EDSC 3994",
+      "department": "EDSC",
+      "title": "Teaching Assistantship",
+      "credit_hours": "3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "EDSC 3993",
+      "course_code": "EDSC 3993",
+      "department": "EDSC",
+      "title": "IS:Tchg ForeignLang inSecSchls",
+      "credit_hours": "3",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "EDSC 6991",
+      "course_code": "EDSC 6991",
+      "department": "EDSC",
+      "title": "Internship: Student Teaching",
+      "credit_hours": "9",
+      "description": "Student teaching or some other on-site supervised experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team, for which academic credit is awarded.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSC 5207\"}, {\"type\": \"course\", \"code\": \"EDSC 5209\"}, {\"type\": \"course\", \"code\": \"EDSC 5215\"}, {\"type\": \"course\", \"code\": \"EDSC 5216\"}]}",
+      "other_requirements": "For secondary MAT students in good standing; Student teaching or some other on-site supervised experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team, for which academic credit is awarded. Internships meet off campus; individual site placements. Internship placement for Student Teaching. Attend all internship requirements over 13 weeks.\nSubmit lesson plans for observations\nComplete Demograhics and Accomodations Matrices for placement\nCommunicate regularly with UVM supervisor and Mentor teacher\nPlan and Facilitate 3 Triad meetings",
+      "external": false
+    },
+    {
+      "id": "EDSC 4300",
+      "course_code": "EDSC 4300",
+      "department": "EDSC",
+      "title": "Teaching for Results",
+      "credit_hours": "3",
+      "description": "Analysis of planning, curriculum design, teaching, evaluation and classroom management from the perspective of research and practice. Individual tasks culminate in production of a licensure portfolio. Credit not awarded for both EDSC 4300 and <a href=\"/search/?p=EDSC%205230\" data-action=\"result-detail\" data-group=\"code:EDSC 5230\"  class=\"notoffered\">EDSC 5230</a>. Prerequisites: <a href=\"/search/?p=EDSC%201110\" data-action=\"result-detail\" data-group=\"code:EDSC 1110\"  class=\"notoffered\">EDSC 1110</a>, <a href=\"/search/?p=EDSC%202070\" data-action=\"result-detail\" data-group=\"code:EDSC 2070\" >EDSC 2070</a>, <a href=\"/search/?p=EDSC%202090\" data-action=\"result-detail\" data-group=\"code:EDSC 2090\" >EDSC 2090</a>, <a href=\"/search/?p=EDSC%202150\" data-action=\"result-detail\" data-group=\"code:EDSC 2150\" >EDSC 2150</a>, <a href=\"/search/?p=EDSC%202160\" data-action=\"result-detail\" data-group=\"code:EDSC 2160\" >EDSC 2160</a>. Co-requisite: <a href=\"/search/?p=EDSC%204991\" data-action=\"result-detail\" data-group=\"code:EDSC 4991\" >EDSC 4991</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSC 1110\"}, {\"type\": \"course\", \"code\": \"EDSC 2070\"}, {\"type\": \"course\", \"code\": \"EDSC 2090\"}, {\"type\": \"course\", \"code\": \"EDSC 2150\"}, {\"type\": \"course\", \"code\": \"EDSC 2160\"}]}",
+      "other_requirements": "Secondary Ed students only - SE, SEE, SEL, SEM, SES, SESS; Senior standing.",
+      "external": false
+    },
+    {
+      "id": "EDFS 3030",
+      "course_code": "EDFS 3030",
+      "department": "EDFS",
+      "title": "Soc, Hst & Phil Found of Educ",
+      "credit_hours": "3",
+      "description": "Critical examination of central educational/social issues and values with special emphasis on the struggle for justice and equality. Themes include schooling and social class, race, and gender; the purposes of education; and the responsibilities of teachers. Prerequisite: Completion of a 2000 level course.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDFS 2001\"}, {\"type\": \"course\", \"code\": \"EDFS 2002\"}, {\"type\": \"course\", \"code\": \"EDFS 2003\"}, {\"type\": \"course\", \"code\": \"EDFS 2004\"}, {\"type\": \"course\", \"code\": \"EDFS 2005\"}, {\"type\": \"course\", \"code\": \"EDFS 2006\"}, {\"type\": \"course\", \"code\": \"EDFS 2007\"}, {\"type\": \"course\", \"code\": \"EDFS 2008\"}, {\"type\": \"course\", \"code\": \"EDFS 2009\"}, {\"type\": \"course\", \"code\": \"EDFS 2010\"}, {\"type\": \"course\", \"code\": \"EDFS 2011\"}, {\"type\": \"course\", \"code\": \"EDFS 2012\"}, {\"type\": \"course\", \"code\": \"EDFS 2013\"}, {\"type\": \"course\", \"code\": \"EDFS 2014\"}, {\"type\": \"course\", \"code\": \"EDFS 2015\"}, {\"type\": \"course\", \"code\": \"EDFS 2016\"}, {\"type\": \"course\", \"code\": \"EDFS 2017\"}, {\"type\": \"course\", \"code\": \"EDFS 2018\"}, {\"type\": \"course\", \"code\": \"EDFS 2019\"}, {\"type\": \"course\", \"code\": \"EDFS 2020\"}, {\"type\": \"course\", \"code\": \"EDFS 2021\"}, {\"type\": \"course\", \"code\": \"EDFS 2022\"}, {\"type\": \"course\", \"code\": \"EDFS 2023\"}, {\"type\": \"course\", \"code\": \"EDFS 2024\"}, {\"type\": \"course\", \"code\": \"EDFS 2025\"}, {\"type\": \"course\", \"code\": \"EDFS 2026\"}, {\"type\": \"course\", \"code\": \"EDFS 2027\"}, {\"type\": \"course\", \"code\": \"EDFS 2028\"}, {\"type\": \"course\", \"code\": \"EDFS 2029\"}, {\"type\": \"course\", \"code\": \"EDFS 2030\"}, {\"type\": \"course\", \"code\": \"EDFS 2031\"}, {\"type\": \"course\", \"code\": \"EDFS 2032\"}, {\"type\": \"course\", \"code\": \"EDFS 2033\"}, {\"type\": \"course\", \"code\": \"EDFS 2034\"}, {\"type\": \"course\", \"code\": \"EDFS 2035\"}, {\"type\": \"course\", \"code\": \"EDFS 2036\"}, {\"type\": \"course\", \"code\": \"EDFS 2037\"}, {\"type\": \"course\", \"code\": \"EDFS 2038\"}, {\"type\": \"course\", \"code\": \"EDFS 2039\"}, {\"type\": \"course\", \"code\": \"EDFS 2040\"}, {\"type\": \"course\", \"code\": \"EDFS 2041\"}, {\"type\": \"course\", \"code\": \"EDFS 2042\"}, {\"type\": \"course\", \"code\": \"EDFS 2043\"}, {\"type\": \"course\", \"code\": \"EDFS 2044\"}, {\"type\": \"course\", \"code\": \"EDFS 2045\"}, {\"type\": \"course\", \"code\": \"EDFS 2046\"}, {\"type\": \"course\", \"code\": \"EDFS 2047\"}, {\"type\": \"course\", \"code\": \"EDFS 2048\"}, {\"type\": \"course\", \"code\": \"EDFS 2049\"}, {\"type\": \"course\", \"code\": \"EDFS 2050\"}, {\"type\": \"course\", \"code\": \"EDFS 2051\"}, {\"type\": \"course\", \"code\": \"EDFS 2052\"}, {\"type\": \"course\", \"code\": \"EDFS 2053\"}, {\"type\": \"course\", \"code\": \"EDFS 2054\"}, {\"type\": \"course\", \"code\": \"EDFS 2055\"}, {\"type\": \"course\", \"code\": \"EDFS 2056\"}, {\"type\": \"course\", \"code\": \"EDFS 2057\"}, {\"type\": \"course\", \"code\": \"EDFS 2058\"}, {\"type\": \"course\", \"code\": \"EDFS 2059\"}, {\"type\": \"course\", \"code\": \"EDFS 2060\"}, {\"type\": \"course\", \"code\": \"EDFS 2061\"}, {\"type\": \"course\", \"code\": \"EDFS 2062\"}, {\"type\": \"course\", \"code\": \"EDFS 2063\"}, {\"type\": \"course\", \"code\": \"EDFS 2064\"}, {\"type\": \"course\", \"code\": \"EDFS 2065\"}, {\"type\": \"course\", \"code\": \"EDFS 2066\"}, {\"type\": \"course\", \"code\": \"EDFS 2067\"}, {\"type\": \"course\", \"code\": \"EDFS 2068\"}, {\"type\": \"course\", \"code\": \"EDFS 2069\"}, {\"type\": \"course\", \"code\": \"EDFS 2070\"}, {\"type\": \"course\", \"code\": \"EDFS 2071\"}, {\"type\": \"course\", \"code\": \"EDFS 2072\"}, {\"type\": \"course\", \"code\": \"EDFS 2073\"}, {\"type\": \"course\", \"code\": \"EDFS 2074\"}, {\"type\": \"course\", \"code\": \"EDFS 2075\"}, {\"type\": \"course\", \"code\": \"EDFS 2076\"}, {\"type\": \"course\", \"code\": \"EDFS 2077\"}, {\"type\": \"course\", \"code\": \"EDFS 2078\"}, {\"type\": \"course\", \"code\": \"EDFS 2079\"}, {\"type\": \"course\", \"code\": \"EDFS 2080\"}, {\"type\": \"course\", \"code\": \"EDFS 2081\"}, {\"type\": \"course\", \"code\": \"EDFS 2082\"}, {\"type\": \"course\", \"code\": \"EDFS 2083\"}, {\"type\": \"course\", \"code\": \"EDFS 2084\"}, {\"type\": \"course\", \"code\": \"EDFS 2085\"}, {\"type\": \"course\", \"code\": \"EDFS 2086\"}, {\"type\": \"course\", \"code\": \"EDFS 2087\"}, {\"type\": \"course\", \"code\": \"EDFS 2088\"}, {\"type\": \"course\", \"code\": \"EDFS 2089\"}, {\"type\": \"course\", \"code\": \"EDFS 2090\"}, {\"type\": \"course\", \"code\": \"EDFS 2091\"}, {\"type\": \"course\", \"code\": \"EDFS 2092\"}, {\"type\": \"course\", \"code\": \"EDFS 2093\"}, {\"type\": \"course\", \"code\": \"EDFS 2094\"}, {\"type\": \"course\", \"code\": \"EDFS 2095\"}, {\"type\": \"course\", \"code\": \"EDFS 2096\"}, {\"type\": \"course\", \"code\": \"EDFS 2097\"}, {\"type\": \"course\", \"code\": \"EDFS 2098\"}, {\"type\": \"course\", \"code\": \"EDFS 2099\"}]}",
+      "other_requirements": "Open to degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "EDSC 5209",
+      "course_code": "EDSC 5209",
+      "department": "EDSC",
+      "title": "Practicum in Teaching",
+      "credit_hours": "4",
+      "description": "Field-experience in secondary setting. Focus on school culture and student needs while documenting effectiveness in one-on-one teaching. Professional attributes/dispositions are critically assessed. Pre/co-requisites: <a href=\"/search/?p=EDFS%203030\" data-action=\"result-detail\" data-group=\"code:EDFS 3030\" >EDFS 3030</a>, <a href=\"/search/?p=EDSC%205207\" data-action=\"result-detail\" data-group=\"code:EDSC 5207\"  class=\"notoffered\">EDSC 5207</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDFS 3030\"}, {\"type\": \"course\", \"code\": \"EDSC 5207\"}]}",
+      "other_requirements": "Field placement TBD with instructor; On campus component: Class to meet on Thursdays from 4:35 to 7:35; Lab fee: $40.00",
+      "external": false
+    },
+    {
+      "id": "EDSC 2994",
+      "course_code": "EDSC 2994",
+      "department": "EDSC",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor Permission only.",
+      "external": false
+    },
+    {
+      "id": "EDFS 1020",
+      "course_code": "EDFS 1020",
+      "department": "EDFS",
+      "title": "School and Society",
+      "credit_hours": "3",
+      "description": "As a foundational course in the College of Education and Social Services, this course investigates the interplay between schooling and society. We examine how children and youth are situated within the context of systems, including their families, communities, and the larger society, that influence their development and learning. We will explore the sociological purposes of schools, their historical development in the US, and the resulting inequitable impact of school organization and policy.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "EDTE 1010",
+      "course_code": "EDTE 1010",
+      "department": "EDTE",
+      "title": "CL:Tchng to Make a Difference",
+      "credit_hours": "3",
+      "description": "Serves as an introduction to the field of education and how teaching can foster a more just and humane world.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "EDSP 1050",
+      "course_code": "EDSP 1050",
+      "department": "EDSP",
+      "title": "Iss Aff Persons W/Disabil",
+      "credit_hours": "3",
+      "description": "Students study the effects of discrimination, advocacy, litigation and sociological perspectives on disabilities. History, current legislation, and family issues for children and adults are emphasized.",
+      "prereq_expression": null,
+      "other_requirements": "Only open to CESS first-time first-years or by instructor permission; PACE students by permission and override.",
+      "external": true
+    },
+    {
+      "id": "EDSC 5216",
+      "course_code": "EDSC 5216",
+      "department": "EDSC",
+      "title": "Curr,Instr&Assmt Sec Schl Tchr",
+      "credit_hours": "3",
+      "description": "Development of methods related to secondary school teaching. Study and application of constructivist learning theory, differentiation, authentic assessment in planning. Focus on cross-disciplinary collaboration. Co-requisite: <a href=\"/search/?p=EDSC%205215\" data-action=\"result-detail\" data-group=\"code:EDSC 5215\" >EDSC 5215</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSC 5209\"}, {\"type\": \"course\", \"code\": \"EDSC 5215\"}]}",
+      "other_requirements": "Degree students only even after level restrictions removed; PACE students register for EDSC 5216 ZRA; Co-located with EDSC 5216 ZRA and EDML 5600; Total combined enrollment: 25.",
+      "external": false
+    },
+    {
+      "id": "EDSC 3250",
+      "course_code": "EDSC 3250",
+      "department": "EDSC",
+      "title": "Tchg Soc Studies in Sec School",
+      "credit_hours": "3",
+      "description": "Students are introduced to the philosophy, aims, and methods of social studies teaching in secondary schools. Emphasis is placed on engaging all learners through active and equitable learning opportunities and developing critical perspectives in teaching. Fosters content knowledge, pedagogical knowledge, and pedagogical content knowledge across social studies disciplines. Credit not awarded for both EDSC 3250 and <a href=\"/search/?p=EDSC%205225\" data-action=\"result-detail\" data-group=\"code:EDSC 5225\"  class=\"notoffered\">EDSC 5225</a>. Prerequisites: <a href=\"/search/?p=EDSC%201110\" data-action=\"result-detail\" data-group=\"code:EDSC 1110\"  class=\"notoffered\">EDSC 1110</a>, <a href=\"/search/?p=EDSC%202070\" data-action=\"result-detail\" data-group=\"code:EDSC 2070\" >EDSC 2070</a>, <a href=\"/search/?p=EDSC%202090\" data-action=\"result-detail\" data-group=\"code:EDSC 2090\" >EDSC 2090</a>, <a href=\"/search/?p=EDSC%202150\" data-action=\"result-detail\" data-group=\"code:EDSC 2150\" >EDSC 2150</a>, <a href=\"/search/?p=EDSC%202160\" data-action=\"result-detail\" data-group=\"code:EDSC 2160\" >EDSC 2160</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSC 1110\"}, {\"type\": \"course\", \"code\": \"EDSC 2070\"}, {\"type\": \"course\", \"code\": \"EDSC 2090\"}, {\"type\": \"course\", \"code\": \"EDSC 2150\"}, {\"type\": \"course\", \"code\": \"EDSC 2160\"}]}",
+      "other_requirements": "Secondary MAT and Undergrad students; Minimum Jr standing; Prereq for MATs:EDSC 5207,5209,5215,5216; Synchronous online and In-Person components; Specific dates TBA; Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "EDSC 2570",
+      "course_code": "EDSC 2570",
+      "department": "EDSC",
+      "title": "Intro to Teaching Math",
+      "credit_hours": "3",
+      "description": "Provides an introduction to the field of mathematics education. Explores the knowledge and skills required to teach middle and secondary mathematics, investigate how people learn mathematics, and study current issues and research in mathematics education.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor Permission required to register.",
+      "external": false
+    },
+    {
+      "id": "EDSC 5215",
+      "course_code": "EDSC 5215",
+      "department": "EDSC",
+      "title": "Disciplinary Literacy Sec Schl",
+      "credit_hours": "3",
+      "description": "Theory and methods of disciplinary literacy for teaching in secondary schools. Focus on literacy skills and critical thinking across disciplines. Cultural contexts explored. Pre/co-requisites: <a href=\"/search/?p=EDSC%205207\" data-action=\"result-detail\" data-group=\"code:EDSC 5207\"  class=\"notoffered\">EDSC 5207</a>, <a href=\"/search/?p=EDSC%205209\" data-action=\"result-detail\" data-group=\"code:EDSC 5209\" >EDSC 5209</a>, <a href=\"/search/?p=EDSC%205216\" data-action=\"result-detail\" data-group=\"code:EDSC 5216\" >EDSC 5216</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSC 5207\"}, {\"type\": \"course\", \"code\": \"EDSC 5209\"}, {\"type\": \"course\", \"code\": \"EDSC 5216\"}]}",
+      "other_requirements": "For secondary MAT and AMP students in good standing",
+      "external": false
+    },
+    {
+      "id": "EDSC 3270",
+      "course_code": "EDSC 3270",
+      "department": "EDSC",
+      "title": "Tchng Science in Sec Schls",
+      "credit_hours": "3",
+      "description": "Students explore best practices of teaching, learning, and assessing science in the middle and high school classroom. Leverages a professional learning community model to engage critical dialogue, reflection, and feedback about teaching scientific inquiry &amp; the 3-dimensional learning practices of the NGSS. Various pedagogical approaches like place-based and project-based learning are also examined. Credit not awarded for both EDSC 3270 and <a href=\"/search/?p=EDSC%205227\" data-action=\"result-detail\" data-group=\"code:EDSC 5227\"  class=\"notoffered\">EDSC 5227</a>. Prerequisite: <a href=\"/search/?p=EDSC%201110\" data-action=\"result-detail\" data-group=\"code:EDSC 1110\"  class=\"notoffered\">EDSC 1110</a>, <a href=\"/search/?p=EDSC%202070\" data-action=\"result-detail\" data-group=\"code:EDSC 2070\" >EDSC 2070</a>, <a href=\"/search/?p=EDSC%202090\" data-action=\"result-detail\" data-group=\"code:EDSC 2090\" >EDSC 2090</a>, <a href=\"/search/?p=EDSC%202150\" data-action=\"result-detail\" data-group=\"code:EDSC 2150\" >EDSC 2150</a>, <a href=\"/search/?p=EDSC%202160\" data-action=\"result-detail\" data-group=\"code:EDSC 2160\" >EDSC 2160</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSC 1110\"}, {\"type\": \"course\", \"code\": \"EDSC 2070\"}, {\"type\": \"course\", \"code\": \"EDSC 2090\"}, {\"type\": \"course\", \"code\": \"EDSC 2150\"}, {\"type\": \"course\", \"code\": \"EDSC 2160\"}]}",
+      "other_requirements": "Secondary MAT and Undergrad students; Minimum Jr standing; Prereq for MATs:EDSC 5207,5209,5215,5216; Synchronous online/In-Person components, specific dates TBA; Open to Degree and PACE Students",
+      "external": false
+    },
+    {
+      "id": "EDSC 5230",
+      "course_code": "EDSC 5230",
+      "department": "EDSC",
+      "title": "Teaching for Results",
+      "credit_hours": "3",
+      "description": "Analysis of planning, curriculum design, teaching, evaluation and classroom management from the perspective of research and practice. Individual tasks culminate in production of a licensure portfolio. Credit not awarded for both EDSC 5230 and <a href=\"/search/?p=EDSC%204300\" data-action=\"result-detail\" data-group=\"code:EDSC 4300\" >EDSC 4300</a>. Co-requisite: <a href=\"/search/?p=EDSC%204226\" data-action=\"result-detail\" data-group=\"code:EDSC 4226\"  class=\"notoffered\">EDSC 4226</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSC 4226\"}, {\"type\": \"course\", \"code\": \"Praxis I\"}]}",
+      "other_requirements": "Senior standing; Internships meet off campus; individual site placements",
+      "external": false
+    },
+    {
+      "id": "EDSC 2995",
+      "course_code": "EDSC 2995",
+      "department": "EDSC",
+      "title": "Undergraduate Research",
+      "credit_hours": "3",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "ECLD 1560",
+      "target": "EDSC 2070"
+    },
+    {
+      "source": "EDFS 1020",
+      "target": "EDSC 2070"
+    },
+    {
+      "source": "EDFS 3030",
+      "target": "EDSC 5209"
+    },
+    {
+      "source": "EDSC 2070",
+      "target": "EDSC 2090"
+    },
+    {
+      "source": "EDSC 2070",
+      "target": "EDSC 2150"
+    },
+    {
+      "source": "EDSC 2070",
+      "target": "EDSC 2160"
+    },
+    {
+      "source": "EDSC 2070",
+      "target": "EDSC 3240"
+    },
+    {
+      "source": "EDSC 2070",
+      "target": "EDSC 3250"
+    },
+    {
+      "source": "EDSC 2070",
+      "target": "EDSC 3270"
+    },
+    {
+      "source": "EDSC 2070",
+      "target": "EDSC 3570"
+    },
+    {
+      "source": "EDSC 2070",
+      "target": "EDSC 4300"
+    },
+    {
+      "source": "EDSC 2090",
+      "target": "EDSC 2150"
+    },
+    {
+      "source": "EDSC 2090",
+      "target": "EDSC 3240"
+    },
+    {
+      "source": "EDSC 2090",
+      "target": "EDSC 3250"
+    },
+    {
+      "source": "EDSC 2090",
+      "target": "EDSC 3270"
+    },
+    {
+      "source": "EDSC 2090",
+      "target": "EDSC 3570"
+    },
+    {
+      "source": "EDSC 2090",
+      "target": "EDSC 4300"
+    },
+    {
+      "source": "EDSC 2150",
+      "target": "EDSC 3240"
+    },
+    {
+      "source": "EDSC 2150",
+      "target": "EDSC 3250"
+    },
+    {
+      "source": "EDSC 2150",
+      "target": "EDSC 3270"
+    },
+    {
+      "source": "EDSC 2150",
+      "target": "EDSC 3570"
+    },
+    {
+      "source": "EDSC 2150",
+      "target": "EDSC 4300"
+    },
+    {
+      "source": "EDSC 2160",
+      "target": "EDSC 2150"
+    },
+    {
+      "source": "EDSC 2160",
+      "target": "EDSC 3240"
+    },
+    {
+      "source": "EDSC 2160",
+      "target": "EDSC 3250"
+    },
+    {
+      "source": "EDSC 2160",
+      "target": "EDSC 3270"
+    },
+    {
+      "source": "EDSC 2160",
+      "target": "EDSC 3570"
+    },
+    {
+      "source": "EDSC 2160",
+      "target": "EDSC 4300"
+    },
+    {
+      "source": "EDSC 2570",
+      "target": "EDSC 3570"
+    },
+    {
+      "source": "EDSC 5209",
+      "target": "EDSC 3240"
+    },
+    {
+      "source": "EDSC 5209",
+      "target": "EDSC 3570"
+    },
+    {
+      "source": "EDSC 5209",
+      "target": "EDSC 5215"
+    },
+    {
+      "source": "EDSC 5209",
+      "target": "EDSC 5216"
+    },
+    {
+      "source": "EDSC 5209",
+      "target": "EDSC 6991"
+    },
+    {
+      "source": "EDSC 5215",
+      "target": "EDSC 3240"
+    },
+    {
+      "source": "EDSC 5215",
+      "target": "EDSC 3570"
+    },
+    {
+      "source": "EDSC 5215",
+      "target": "EDSC 5216"
+    },
+    {
+      "source": "EDSC 5215",
+      "target": "EDSC 6991"
+    },
+    {
+      "source": "EDSC 5216",
+      "target": "EDSC 3240"
+    },
+    {
+      "source": "EDSC 5216",
+      "target": "EDSC 3570"
+    },
+    {
+      "source": "EDSC 5216",
+      "target": "EDSC 5215"
+    },
+    {
+      "source": "EDSC 5216",
+      "target": "EDSC 6991"
+    },
+    {
+      "source": "EDSP 1050",
+      "target": "EDSC 2070"
+    },
+    {
+      "source": "EDTE 1010",
+      "target": "EDSC 2070"
+    }
+  ]
+}

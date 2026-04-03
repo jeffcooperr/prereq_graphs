@@ -1,0 +1,786 @@
+{
+  "department": "POLS",
+  "nodes": [
+    {
+      "id": "POLS 2700",
+      "course_code": "POLS 2700",
+      "department": "POLS",
+      "title": "East Asian Politics",
+      "credit_hours": "3",
+      "description": "Examines varied topics in the field of comparative politics. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=POLS%201700\" data-action=\"result-detail\" data-group=\"code:POLS 1700\" >POLS 1700</a> or <a href=\"/search/?p=POLS%201017\" data-action=\"result-detail\" data-group=\"code:POLS 1017\"  class=\"notoffered\">POLS 1017</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1700\"}, {\"type\": \"course\", \"code\": \"POLS 1017\"}]}",
+      "other_requirements": "Minimum Sophomore standing\nPACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 2994",
+      "course_code": "POLS 2994",
+      "department": "POLS",
+      "title": "Teaching Assistantship",
+      "credit_hours": "3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Department permission required.",
+      "external": false
+    },
+    {
+      "id": "STAT 1110",
+      "course_code": "STAT 1110",
+      "department": "STAT",
+      "title": "Elements of Statistics",
+      "credit_hours": "3",
+      "description": "Basic statistical concepts, methods, and applications, including correlation, regression, confidence intervals, and hypothesis tests. Prerequisites: Two years of high school algebra.",
+      "prereq_expression": null,
+      "other_requirements": "Two years of high school algebra. Open to Degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "POLS 2455",
+      "course_code": "POLS 2455",
+      "department": "POLS",
+      "title": "The Politics of Sex",
+      "credit_hours": "3",
+      "description": "The evolution of sexual politics within the United States. Includes examinations of shifting debates over marriage, reproduction, abortion, LGBT rights, sex education, and teen sexuality. Prerequisite: <a href=\"/search/?p=POLS%201300\" data-action=\"result-detail\" data-group=\"code:POLS 1300\" >POLS 1300</a>, <a href=\"/search/?p=POLS%201013\" data-action=\"result-detail\" data-group=\"code:POLS 1013\"  class=\"notoffered\">POLS 1013</a>, <a href=\"/search/?p=GSWS%201500\" data-action=\"result-detail\" data-group=\"code:GSWS 1500\" >GSWS 1500</a>, or <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\"  class=\"notoffered\">GSWS 1010</a>. Cross-listed with: <a href=\"/search/?p=GSWS%202765\" data-action=\"result-detail\" data-group=\"code:GSWS 2765\" >GSWS 2765</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1300\"}, {\"type\": \"course\", \"code\": \"POLS 1013\"}, {\"type\": \"course\", \"code\": \"GSWS 1500\"}, {\"type\": \"course\", \"code\": \"GSWS 1010\"}]}",
+      "other_requirements": "PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 2200",
+      "course_code": "POLS 2200",
+      "department": "POLS",
+      "title": "Gender and Political Theory",
+      "credit_hours": "3",
+      "description": "Intermediate courses on topics in political theory beyond the scope of existing departmental offerings. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=POLS%201012\" data-action=\"result-detail\" data-group=\"code:POLS 1012\"  class=\"notoffered\">POLS 1012</a> or <a href=\"/search/?p=POLS%201200\" data-action=\"result-detail\" data-group=\"code:POLS 1200\" >POLS 1200</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1012\"}, {\"type\": \"course\", \"code\": \"POLS 1200\"}]}, {\"type\": \"course\", \"code\": \"POLS 1200\"}, {\"type\": \"course\", \"code\": \"POLS 1012\"}, {\"type\": \"course\", \"code\": \"POLS 2000\"}]}",
+      "other_requirements": "Minimum sophomore standing. PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 3280",
+      "course_code": "POLS 3280",
+      "department": "POLS",
+      "title": "Global Justice",
+      "credit_hours": "3",
+      "description": "Addresses normative political theory that asks what obligations, if any, citizens and their states have internationally. Topics include human rights, immigration, global poverty, humanitarian military intervention, and more. Prerequisite: <a href=\"/search/?p=POLS%201200\" data-action=\"result-detail\" data-group=\"code:POLS 1200\" >POLS 1200</a> or <a href=\"/search/?p=POLS%201012\" data-action=\"result-detail\" data-group=\"code:POLS 1012\" >POLS 1012</a>; three hours of Political Science at the 2000-level.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1200\"}, {\"type\": \"course\", \"code\": \"POLS 1012\"}]}, {\"type\": \"other_requirement\", \"text\": \"3 hours Political Science at the 2000-level\"}]}",
+      "other_requirements": "Minimum Junior standing.",
+      "external": false
+    },
+    {
+      "id": "POLS 1700",
+      "course_code": "POLS 1700",
+      "department": "POLS",
+      "title": "Comparative World Politics",
+      "credit_hours": "3",
+      "description": "An examination of questions such as why some countries are democratic and others authoritarian, and why some countries are poor and others wealthier, through the study and comparison of political institutions and patterns of interaction across countries. Credit not awarded for both POLS 1700 and <a href=\"/search/?p=POLS%201017\" data-action=\"result-detail\" data-group=\"code:POLS 1017\"  class=\"notoffered\">POLS 1017</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "POLS 2510",
+      "course_code": "POLS 2510",
+      "department": "POLS",
+      "title": "International Security",
+      "credit_hours": "3",
+      "description": "Theoretical and empirical examination of the security of the international system and the states within it, with particular emphasis on twenty-first century security challenges. Prerequisite: <a href=\"/search/?p=POLS%201500\" data-action=\"result-detail\" data-group=\"code:POLS 1500\" >POLS 1500</a> or <a href=\"/search/?p=POLS%201015\" data-action=\"result-detail\" data-group=\"code:POLS 1015\"  class=\"notoffered\">POLS 1015</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1500\"}, {\"type\": \"course\", \"code\": \"POLS 1015\"}]}, {\"type\": \"course\", \"code\": \"Minimum Sophomore standing\"}]}",
+      "other_requirements": "PACE students with permission and override. Laptops and electronic devices are not permitted in class.",
+      "external": false
+    },
+    {
+      "id": "SPAN 3670",
+      "course_code": "SPAN 3670",
+      "department": "SPAN",
+      "title": "LatAm: Revolutn&Globalizatn",
+      "credit_hours": "3",
+      "description": "An introductory literature course; students read and analyze Latin American literature and film produced in the tumultuous 20th and 21st centuries. Prerequisite: <a href=\"/search/?p=SPAN%203610\" data-action=\"result-detail\" data-group=\"code:SPAN 3610\" >SPAN 3610</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SPAN 3610\"}, {\"type\": \"course\", \"code\": \"SPAN 3610\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": true
+    },
+    {
+      "id": "HST 1475",
+      "course_code": "HST 1475",
+      "department": "HST",
+      "title": "Modern Latin American History",
+      "credit_hours": "3",
+      "description": "Comparative survey concentrating on Latin America from the independence movements to the present with emphasis on cultural, political, and economic development and US intervention.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "POLS 2615",
+      "course_code": "POLS 2615",
+      "department": "POLS",
+      "title": "Terrorism & Counterterrorism",
+      "credit_hours": "3",
+      "description": "Overview of scholarly research on terrorism and counterterrorism efforts, engagement with debates on the appropriateness of the term terrorism, information on terrorist movements (both historical and contemporary), and a discussion of policy responses to terrorism. Prerequisite: <a href=\"/search/?p=POLS%201500\" data-action=\"result-detail\" data-group=\"code:POLS 1500\" >POLS 1500</a>, <a href=\"/search/?p=POLS%201015\" data-action=\"result-detail\" data-group=\"code:POLS 1015\"  class=\"notoffered\">POLS 1015</a>, <a href=\"/search/?p=POLS%201700\" data-action=\"result-detail\" data-group=\"code:POLS 1700\" >POLS 1700</a>, or <a href=\"/search/?p=POLS%201017\" data-action=\"result-detail\" data-group=\"code:POLS 1017\"  class=\"notoffered\">POLS 1017</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1500\"}, {\"type\": \"course\", \"code\": \"POLS 1015\"}, {\"type\": \"course\", \"code\": \"POLS 1700\"}, {\"type\": \"course\", \"code\": \"POLS 1017\"}]}",
+      "other_requirements": "Minimum Sophomore standing. PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "STAT 1410",
+      "course_code": "STAT 1410",
+      "department": "STAT",
+      "title": "Basic Statistical Methods 1",
+      "credit_hours": "3",
+      "description": "Foundational course for students taking further quantitative courses. Exploratory data analysis, probability distributions, estimation, hypothesis testing. Introductory regression, experimentation, contingency tables, and nonparametrics. Computer software used. Credit not awarded for more than one of STAT 1410 or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Credit not awarded for more than one of STAT 1410 or STAT 2430. Open to Degree and PACE students.",
+      "external": true
+    },
+    {
+      "id": "SPAN 3665",
+      "course_code": "SPAN 3665",
+      "department": "SPAN",
+      "title": "LatAm: Colonialism&Resistance",
+      "credit_hours": "3",
+      "description": "An introductory literature course; students read and analyze Latin American texts from the period before the conquest to the 1898 Spanish American War. Analyzes topics including ideology formation, the imposition of colonial difference and its continuation in coloniality. Prerequisite: <a href=\"/search/?p=SPAN%203610\" data-action=\"result-detail\" data-group=\"code:SPAN 3610\" >SPAN 3610</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"SPAN 3610\"}",
+      "other_requirements": "PACE students by permission and override.",
+      "external": true
+    },
+    {
+      "id": "POLS 2320",
+      "course_code": "POLS 2320",
+      "department": "POLS",
+      "title": "Const Law: Government Powers",
+      "credit_hours": "3",
+      "description": "Emphasis on developing skills of legal analysis. Historical origins and general principles of constitutionalism. Prerequisite: <a href=\"/search/?p=POLS%201300\" data-action=\"result-detail\" data-group=\"code:POLS 1300\" >POLS 1300</a> or <a href=\"/search/?p=POLS%201013\" data-action=\"result-detail\" data-group=\"code:POLS 1013\"  class=\"notoffered\">POLS 1013</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1300\"}, {\"type\": \"course\", \"code\": \"POLS 1013\"}]}",
+      "other_requirements": "Minimum Sophomore standing. PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 3400",
+      "course_code": "POLS 3400",
+      "department": "POLS",
+      "title": "Political Construction of Race",
+      "credit_hours": "3",
+      "description": "Examines varied topics concerning the American political system in a seminar format. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=POLS%201300\" data-action=\"result-detail\" data-group=\"code:POLS 1300\" >POLS 1300</a> or <a href=\"/search/?p=POLS%201013\" data-action=\"result-detail\" data-group=\"code:POLS 1013\"  class=\"notoffered\">POLS 1013</a>; three hours of Political Science at the 2000-level.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1300\"}, {\"type\": \"course\", \"code\": \"POLS 1013\"}]}",
+      "other_requirements": "three hours of Political Science at the 2000-level; Minimum Junior standing",
+      "external": false
+    },
+    {
+      "id": "POLS 3492",
+      "course_code": "POLS 3492",
+      "department": "POLS",
+      "title": "State Politics/Policy Research",
+      "credit_hours": "3",
+      "description": "Considers the process by which public officials, businesses, lobbyists and citizens determine who gets what, when, how and where in the United States. We will pay particular attention to how state legislatures create and enforce the rules of the game to affect policy outcomes that vary in substantial ways on socioeconomic, racial and regional lines. The course also pays particular attention to how organized interests pursue their goals. Prerequisites: <a href=\"/search/?p=POLS%201300\" data-action=\"result-detail\" data-group=\"code:POLS 1300\" >POLS 1300</a>, <a href=\"/search/?p=HSCI%201600\" data-action=\"result-detail\" data-group=\"code:HSCI 1600\"  class=\"notoffered\">HSCI 1600</a>, or <a href=\"/search/?p=SOC%201300\" data-action=\"result-detail\" data-group=\"code:SOC 1300\"  class=\"notoffered\">SOC 1300</a>; a Political Science course at or above the 2000-level; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1300\"}, {\"type\": \"course\", \"code\": \"HSCI 1600\"}, {\"type\": \"course\", \"code\": \"SOC 1300\"}]}, {\"type\": \"course\", \"code\": \"POLS 2000\"}]}",
+      "other_requirements": "minimum Junior standing",
+      "external": false
+    },
+    {
+      "id": "POLS 2720",
+      "course_code": "POLS 2720",
+      "department": "POLS",
+      "title": "Latin American Politics",
+      "credit_hours": "3",
+      "description": "Comparative examination of selected Latin American political systems. Prerequisite: <a href=\"/search/?p=POLS%201700\" data-action=\"result-detail\" data-group=\"code:POLS 1700\" >POLS 1700</a>, <a href=\"/search/?p=POLS%201017\" data-action=\"result-detail\" data-group=\"code:POLS 1017\"  class=\"notoffered\">POLS 1017</a>, <a href=\"/search/?p=HST%201475\" data-action=\"result-detail\" data-group=\"code:HST 1475\" >HST 1475</a>, <a href=\"/search/?p=SPAN%203665\" data-action=\"result-detail\" data-group=\"code:SPAN 3665\"  class=\"notoffered\">SPAN 3665</a>, or <a href=\"/search/?p=SPAN%203670\" data-action=\"result-detail\" data-group=\"code:SPAN 3670\" >SPAN 3670</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1700\"}, {\"type\": \"course\", \"code\": \"POLS 1017\"}, {\"type\": \"course\", \"code\": \"HST 1475\"}, {\"type\": \"course\", \"code\": \"SPAN 3665\"}, {\"type\": \"course\", \"code\": \"SPAN 3670\"}]}",
+      "other_requirements": "Minimum Sophomore standing.\nPOLS Honors course; by invitation only.\nInstructor permission.",
+      "external": false
+    },
+    {
+      "id": "ENVS 1500",
+      "course_code": "ENVS 1500",
+      "department": "ENVS",
+      "title": "Intro to Envrnmtl Studies",
+      "credit_hours": "4",
+      "description": "Survey of the interdisciplinary field of environmental studies. Examines ecological, cultural, historical, and political influences on the role of humans in local and global ecosystems and the grand challenges humanity faces. Required for Environmental Studies majors and minors.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "POLS 2990",
+      "course_code": "POLS 2990",
+      "department": "POLS",
+      "title": "Greco Roman Political Thought",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "POLS 3710",
+      "course_code": "POLS 3710",
+      "department": "POLS",
+      "title": "The Struggle for Democracy",
+      "credit_hours": "3",
+      "description": "Both new and established democracies face challenges as strongmen and populist leaders chip away at civil liberties, the rule of law, and free and fair elections. An examination of the factors that drive this process and shape the susceptibility of societies to democratic decline, as well as how backsliding might be resisted. Prerequisites: <a href=\"/search/?p=POLS%201700\" data-action=\"result-detail\" data-group=\"code:POLS 1700\" >POLS 1700</a> or <a href=\"/search/?p=POLS%201017\" data-action=\"result-detail\" data-group=\"code:POLS 1017\"  class=\"notoffered\">POLS 1017</a>; three hours of Political Science at the 2000-level.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1700\"}, {\"type\": \"course\", \"code\": \"POLS 1017\"}]}, {\"type\": \"course\", \"code\": \"Political Science at the 2000-level\"}]}",
+      "other_requirements": "Minimum Junior standing.",
+      "external": false
+    },
+    {
+      "id": "POLS 2525",
+      "course_code": "POLS 2525",
+      "department": "POLS",
+      "title": "Int'l Politics Middle East",
+      "credit_hours": "3",
+      "description": "Survey of the politics of the Middle East since World War II. Includes sessions on specific countries, discussions of topics ranging from democratization to terrorism to social media use, and debate on current policy dilemmas in the region. Prerequisite: <a href=\"/search/?p=POLS%201500\" data-action=\"result-detail\" data-group=\"code:POLS 1500\" >POLS 1500</a> or <a href=\"/search/?p=POLS%201015\" data-action=\"result-detail\" data-group=\"code:POLS 1015\"  class=\"notoffered\">POLS 1015</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1500\"}, {\"type\": \"course\", \"code\": \"POLS 1015\"}]}",
+      "other_requirements": "Minimum Sophomore standing. PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 3995",
+      "course_code": "POLS 3995",
+      "department": "POLS",
+      "title": "Undergraduate Research",
+      "credit_hours": "3",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required; Juniors and seniors only; See Guidelines for Independent Studies",
+      "external": false
+    },
+    {
+      "id": "GSWS 1010",
+      "course_code": "GSWS 1010",
+      "department": "GSWS",
+      "title": "FYS: Gend Sex Wmn's Stdy",
+      "credit_hours": "3",
+      "description": "Intensive first-year seminar introducing the field of Gender, Sexuality, and Women's Studies. Topics include key theoretical approaches to conceptualizing gender, sexuality, and power; how gender and sexuality are policed; and the relationship between gender, sexuality, and other social categories. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "POLS 3730",
+      "course_code": "POLS 3730",
+      "department": "POLS",
+      "title": "Mexican Politics",
+      "credit_hours": "3",
+      "description": "An in-depth examination of the Mexican political system. Topics will include an overview of Mexican history, one-party authoritarian rule, democratization, and political economy. Prerequisites: (<a href=\"/search/?p=POLS%201700\" data-action=\"result-detail\" data-group=\"code:POLS 1700\" >POLS 1700</a> or <a href=\"/search/?p=POLS%201017\" data-action=\"result-detail\" data-group=\"code:POLS 1017\"  class=\"notoffered\">POLS 1017</a>) and three hours of Political Science at the <a href=\"/search/?p=POLS%202000\" data-action=\"result-detail\" data-group=\"code:POLS 2000\"  class=\"notoffered\">2000</a>-level; or appropriate Global and Regional Studies background.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1700\"}, {\"type\": \"course\", \"code\": \"POLS 1017\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 2000\"}, {\"type\": \"course\", \"code\": \"POLS 2001\"}, {\"type\": \"course\", \"code\": \"POLS 2002\"}, {\"type\": \"course\", \"code\": \"POLS 2003\"}, {\"type\": \"course\", \"code\": \"POLS 2004\"}, {\"type\": \"course\", \"code\": \"POLS 2005\"}, {\"type\": \"course\", \"code\": \"POLS 2006\"}, {\"type\": \"course\", \"code\": \"POLS 2007\"}, {\"type\": \"course\", \"code\": \"POLS 2008\"}, {\"type\": \"course\", \"code\": \"POLS 2009\"}, {\"type\": \"course\", \"code\": \"POLS 2010\"}, {\"type\": \"course\", \"code\": \"POLS 2011\"}, {\"type\": \"course\", \"code\": \"POLS 2012\"}, {\"type\": \"course\", \"code\": \"POLS 2013\"}, {\"type\": \"course\", \"code\": \"POLS 2014\"}, {\"type\": \"course\", \"code\": \"POLS 2015\"}, {\"type\": \"course\", \"code\": \"POLS 2016\"}, {\"type\": \"course\", \"code\": \"POLS 2017\"}, {\"type\": \"course\", \"code\": \"POLS 2018\"}, {\"type\": \"course\", \"code\": \"POLS 2019\"}, {\"type\": \"course\", \"code\": \"POLS 2020\"}, {\"type\": \"course\", \"code\": \"POLS 2021\"}, {\"type\": \"course\", \"code\": \"POLS 2022\"}, {\"type\": \"course\", \"code\": \"POLS 2023\"}, {\"type\": \"course\", \"code\": \"POLS 2024\"}, {\"type\": \"course\", \"code\": \"POLS 2025\"}, {\"type\": \"course\", \"code\": \"POLS 2026\"}, {\"type\": \"course\", \"code\": \"POLS 2027\"}, {\"type\": \"course\", \"code\": \"POLS 2028\"}, {\"type\": \"course\", \"code\": \"POLS 2029\"}, {\"type\": \"course\", \"code\": \"POLS 2030\"}, {\"type\": \"course\", \"code\": \"POLS 2031\"}, {\"type\": \"course\", \"code\": \"POLS 2032\"}, {\"type\": \"course\", \"code\": \"POLS 2033\"}, {\"type\": \"course\", \"code\": \"POLS 2034\"}, {\"type\": \"course\", \"code\": \"POLS 2035\"}, {\"type\": \"course\", \"code\": \"POLS 2036\"}, {\"type\": \"course\", \"code\": \"POLS 2037\"}, {\"type\": \"course\", \"code\": \"POLS 2038\"}, {\"type\": \"course\", \"code\": \"POLS 2039\"}, {\"type\": \"course\", \"code\": \"POLS 2040\"}, {\"type\": \"course\", \"code\": \"POLS 2041\"}, {\"type\": \"course\", \"code\": \"POLS 2042\"}, {\"type\": \"course\", \"code\": \"POLS 2043\"}, {\"type\": \"course\", \"code\": \"POLS 2044\"}, {\"type\": \"course\", \"code\": \"POLS 2045\"}, {\"type\": \"course\", \"code\": \"POLS 2046\"}, {\"type\": \"course\", \"code\": \"POLS 2047\"}, {\"type\": \"course\", \"code\": \"POLS 2048\"}, {\"type\": \"course\", \"code\": \"POLS 2049\"}, {\"type\": \"course\", \"code\": \"POLS 2050\"}, {\"type\": \"course\", \"code\": \"POLS 2051\"}, {\"type\": \"course\", \"code\": \"POLS 2052\"}, {\"type\": \"course\", \"code\": \"POLS 2053\"}, {\"type\": \"course\", \"code\": \"POLS 2054\"}, {\"type\": \"course\", \"code\": \"POLS 2055\"}, {\"type\": \"course\", \"code\": \"POLS 2056\"}, {\"type\": \"course\", \"code\": \"POLS 2057\"}, {\"type\": \"course\", \"code\": \"POLS 2058\"}, {\"type\": \"course\", \"code\": \"POLS 2059\"}, {\"type\": \"course\", \"code\": \"POLS 2060\"}, {\"type\": \"course\", \"code\": \"POLS 2061\"}, {\"type\": \"course\", \"code\": \"POLS 2062\"}, {\"type\": \"course\", \"code\": \"POLS 2063\"}, {\"type\": \"course\", \"code\": \"POLS 2064\"}, {\"type\": \"course\", \"code\": \"POLS 2065\"}, {\"type\": \"course\", \"code\": \"POLS 2066\"}, {\"type\": \"course\", \"code\": \"POLS 2067\"}, {\"type\": \"course\", \"code\": \"POLS 2068\"}, {\"type\": \"course\", \"code\": \"POLS 2069\"}, {\"type\": \"course\", \"code\": \"POLS 2070\"}, {\"type\": \"course\", \"code\": \"POLS 2071\"}, {\"type\": \"course\", \"code\": \"POLS 2072\"}, {\"type\": \"course\", \"code\": \"POLS 2073\"}, {\"type\": \"course\", \"code\": \"POLS 2074\"}, {\"type\": \"course\", \"code\": \"POLS 2075\"}, {\"type\": \"course\", \"code\": \"POLS 2076\"}, {\"type\": \"course\", \"code\": \"POLS 2077\"}, {\"type\": \"course\", \"code\": \"POLS 2078\"}, {\"type\": \"course\", \"code\": \"POLS 2079\"}, {\"type\": \"course\", \"code\": \"POLS 2080\"}, {\"type\": \"course\", \"code\": \"POLS 2081\"}, {\"type\": \"course\", \"code\": \"POLS 2082\"}, {\"type\": \"course\", \"code\": \"POLS 2083\"}, {\"type\": \"course\", \"code\": \"POLS 2084\"}, {\"type\": \"course\", \"code\": \"POLS 2085\"}, {\"type\": \"course\", \"code\": \"POLS 2086\"}, {\"type\": \"course\", \"code\": \"POLS 2087\"}, {\"type\": \"course\", \"code\": \"POLS 2088\"}, {\"type\": \"course\", \"code\": \"POLS 2089\"}, {\"type\": \"course\", \"code\": \"POLS 2090\"}, {\"type\": \"course\", \"code\": \"POLS 2091\"}, {\"type\": \"course\", \"code\": \"POLS 2092\"}, {\"type\": \"course\", \"code\": \"POLS 2093\"}, {\"type\": \"course\", \"code\": \"POLS 2094\"}, {\"type\": \"course\", \"code\": \"POLS 2095\"}, {\"type\": \"course\", \"code\": \"POLS 2096\"}, {\"type\": \"course\", \"code\": \"POLS 2097\"}, {\"type\": \"course\", \"code\": \"POLS 2098\"}, {\"type\": \"course\", \"code\": \"POLS 2099\"}]}]}",
+      "other_requirements": "Minimum Junior standing. or appropriate Global and Regional Studies background.",
+      "external": false
+    },
+    {
+      "id": "POLS 1300",
+      "course_code": "POLS 1300",
+      "department": "POLS",
+      "title": "US Political System",
+      "credit_hours": "3",
+      "description": "Institutions, processes, and problems of American government. Credit not awarded for both POLS 1300 and <a href=\"/search/?p=POLS%201013\" data-action=\"result-detail\" data-group=\"code:POLS 1013\"  class=\"notoffered\">POLS 1013</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "POLS 1012",
+      "course_code": "POLS 1012",
+      "department": "POLS",
+      "title": "FYS Intro to Political Theory",
+      "credit_hours": "3",
+      "description": "Intensive first-year seminar focused on basic problems in political philosophy, e.g. morality and law; punishment; freedom; equality; obligation and disobedience. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "POLS 2450",
+      "course_code": "POLS 2450",
+      "department": "POLS",
+      "title": "LGBT Politics and History",
+      "credit_hours": "3",
+      "description": "Explores the history, strategies, conflicts, and issues surrounding the various movements advancing the claims of LGBT rights, as well as the roles LGBTQ people play as participants in American politics and culture. Prerequisite: <a href=\"/search/?p=POLS%201300\" data-action=\"result-detail\" data-group=\"code:POLS 1300\" >POLS 1300</a>, <a href=\"/search/?p=POLS%201013\" data-action=\"result-detail\" data-group=\"code:POLS 1013\"  class=\"notoffered\">POLS 1013</a>, <a href=\"/search/?p=GSWS%201500\" data-action=\"result-detail\" data-group=\"code:GSWS 1500\" >GSWS 1500</a>, <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\" >GSWS 1010</a>, or Instructor permission. Cross-listed with: <a href=\"/search/?p=GSWS%202070\" data-action=\"result-detail\" data-group=\"code:GSWS 2070\" >GSWS 2070</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1300\"}, {\"type\": \"course\", \"code\": \"POLS 1013\"}, {\"type\": \"course\", \"code\": \"GSWS 1500\"}, {\"type\": \"course\", \"code\": \"GSWS 1010\"}]}",
+      "other_requirements": "Instructor permission; Minimum sophomore standing; PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 4800",
+      "course_code": "POLS 4800",
+      "department": "POLS",
+      "title": "Senior Honors Seminar",
+      "credit_hours": "3",
+      "description": "Examination of major contemporary research topics in political science. Admission by invitation only. Typically those invited are junior or senior Political Science majors who have completed or are currently enrolled in a 3000-level POLS seminar. Prerequisite: Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 3000\"}, {\"type\": \"course\", \"code\": \"POLS 3000\"}]}",
+      "other_requirements": "Admission by invitation only. Typically those invited are junior or senior Political Science majors. Instructor permission. Department permission required.",
+      "external": false
+    },
+    {
+      "id": "POLS 3600",
+      "course_code": "POLS 3600",
+      "department": "POLS",
+      "title": "European Political Economy",
+      "credit_hours": "3",
+      "description": "Examines varied topics concerning the interaction between national and international politics in a seminar format. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=POLS%201015\" data-action=\"result-detail\" data-group=\"code:POLS 1015\"  class=\"notoffered\">POLS 1015</a>, <a href=\"/search/?p=POLS%201017\" data-action=\"result-detail\" data-group=\"code:POLS 1017\"  class=\"notoffered\">POLS 1017</a>, <a href=\"/search/?p=POLS%201500\" data-action=\"result-detail\" data-group=\"code:POLS 1500\" >POLS 1500</a>, or <a href=\"/search/?p=POLS%201700\" data-action=\"result-detail\" data-group=\"code:POLS 1700\" >POLS 1700</a>; three hours of Political Science at the 2000-level.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1015\"}, {\"type\": \"course\", \"code\": \"POLS 1017\"}, {\"type\": \"course\", \"code\": \"POLS 1500\"}, {\"type\": \"course\", \"code\": \"POLS 1700\"}]}, {\"type\": \"other\", \"description\": \"three hours of Political Science at the 2000-level\"}]}",
+      "other_requirements": "PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 2250",
+      "course_code": "POLS 2250",
+      "department": "POLS",
+      "title": "Utopias",
+      "credit_hours": "3",
+      "description": "Exploration of human experiments in fashioning an ideal society, in theory and in practice, from antiquity to the present day. Discussion-based and culminating in student group presentations on various utopian communities of choice. By the end of this course, students will have gained new factual knowledge about political theory and practice, a new vocabulary to discuss it, and new abilities to write cogently and think critically about human social relationships. Prerequisites: <a href=\"/search/?p=POLS%201012\" data-action=\"result-detail\" data-group=\"code:POLS 1012\"  class=\"notoffered\">POLS 1012</a> or <a href=\"/search/?p=POLS%201200\" data-action=\"result-detail\" data-group=\"code:POLS 1200\" >POLS 1200</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1012\"}, {\"type\": \"course\", \"code\": \"POLS 1200\"}]}",
+      "other_requirements": "Minimum Sophomore standing.\nPACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 2460",
+      "course_code": "POLS 2460",
+      "department": "POLS",
+      "title": "US Environmental Politics",
+      "credit_hours": "3",
+      "description": "Environmental and natural resources politics in the American context. Analysis of the environmental movement and political theories, issues, processes, and institutions. Prerequisites: <a href=\"/search/?p=POLS%201300\" data-action=\"result-detail\" data-group=\"code:POLS 1300\" >POLS 1300</a>, <a href=\"/search/?p=POLS%201013\" data-action=\"result-detail\" data-group=\"code:POLS 1013\"  class=\"notoffered\">POLS 1013</a>, or <a href=\"/search/?p=ENVS%201500\" data-action=\"result-detail\" data-group=\"code:ENVS 1500\" >ENVS 1500</a>. Cross-listed with: <a href=\"/search/?p=ENVS%202460\" data-action=\"result-detail\" data-group=\"code:ENVS 2460\" >ENVS 2460</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1300\"}, {\"type\": \"course\", \"code\": \"POLS 1013\"}, {\"type\": \"course\", \"code\": \"ENVS 1500\"}]}",
+      "other_requirements": "Minimum Sophomore standing. PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 3700",
+      "course_code": "POLS 3700",
+      "department": "POLS",
+      "title": "Political Corruption",
+      "credit_hours": "3",
+      "description": "Examines varied topics concerning comparative politics in a seminar format. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=POLS%201700\" data-action=\"result-detail\" data-group=\"code:POLS 1700\" >POLS 1700</a> or <a href=\"/search/?p=POLS%201017\" data-action=\"result-detail\" data-group=\"code:POLS 1017\"  class=\"notoffered\">POLS 1017</a>; three hours of Political Science at the 2000-level.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1700\"}, {\"type\": \"course\", \"code\": \"POLS 1017\"}]}, {\"type\": \"other_requirements\", \"text\": \"three hours of Political Science at the 2000-level\"}]}",
+      "other_requirements": "Minimum Junior standing. PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 1500",
+      "course_code": "POLS 1500",
+      "department": "POLS",
+      "title": "Intro International Relations",
+      "credit_hours": "3",
+      "description": "Examines the major theories of international relations, important concepts in the study of international relations (such as the balance of power and democratic peace theory), dilemmas leaders face when formulating foreign policies, and current international events. Credit not awarded for both POLS 1500 and <a href=\"/search/?p=POLS%201015\" data-action=\"result-detail\" data-group=\"code:POLS 1015\"  class=\"notoffered\">POLS 1015</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "POLS 2400",
+      "course_code": "POLS 2400",
+      "department": "POLS",
+      "title": "Intro to Public Policy",
+      "credit_hours": "3",
+      "description": "Examines varied topics concerning the American political system. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=POLS%201300\" data-action=\"result-detail\" data-group=\"code:POLS 1300\" >POLS 1300</a> or <a href=\"/search/?p=POLS%201013\" data-action=\"result-detail\" data-group=\"code:POLS 1013\"  class=\"notoffered\">POLS 1013</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1300\"}, {\"type\": \"course\", \"code\": \"POLS 1013\"}]}",
+      "other_requirements": "Minimum Sophomore standing. PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "GSWS 1500",
+      "course_code": "GSWS 1500",
+      "department": "GSWS",
+      "title": "Intro to GSWS",
+      "credit_hours": "3",
+      "description": "Introduction to the field of gender, sexuality, and women's studies. Topics include key theoretical approaches to conceptualizing gender, sexuality, and power; how gender and sexuality are policed; and the relationship between gender, sexuality, and other social categories. Credit not awarded for both GSWS 1500 and <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\" >GSWS 1010</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "POLS 2995",
+      "course_code": "POLS 2995",
+      "department": "POLS",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required; Minimum sophomore standing; See Guidelines for Independent Studies",
+      "external": false
+    },
+    {
+      "id": "POLS 1200",
+      "course_code": "POLS 1200",
+      "department": "POLS",
+      "title": "Intro to Political Theory",
+      "credit_hours": "3",
+      "description": "Examination of basic problems in political philosophy, e.g. morality and law; punishment; freedom; equality; obligation and disobedience. Credit not awarded for both POLS 1200 and <a href=\"/search/?p=POLS%201012\" data-action=\"result-detail\" data-group=\"code:POLS 1012\" >POLS 1012</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "POLS 2220",
+      "course_code": "POLS 2220",
+      "department": "POLS",
+      "title": "American Political Thought",
+      "credit_hours": "3",
+      "description": "Introduction to the main currents of political thought in America today (including liberalism, conservatism, libertarianism, and more), considering their moral and philosophical foundations and investigating them in historical perspective. Prerequisite: <a href=\"/search/?p=POLS%201012\" data-action=\"result-detail\" data-group=\"code:POLS 1012\" >POLS 1012</a> or <a href=\"/search/?p=POLS%201200\" data-action=\"result-detail\" data-group=\"code:POLS 1200\" >POLS 1200</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1012\"}, {\"type\": \"course\", \"code\": \"POLS 1200\"}]}",
+      "other_requirements": "Minimum Sophomore standing. PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "STAT 1050",
+      "course_code": "STAT 1050",
+      "department": "STAT",
+      "title": "Statistics and Society",
+      "credit_hours": "3",
+      "description": "Explores how data shape public understanding of social issues while building statistical literacy. Students will learn to identify bias, consider ethical and structural influences, and apply descriptive and inferential statistics to interpret, visualize, and evaluate data across varied communities and perspectives. Credit not awarded after <a href=\"/search/?p=STAT%202000\" data-action=\"result-detail\" data-group=\"code:STAT 2000\"  class=\"notoffered\">STAT 2000</a> or greater. Prerequisites: Two years High School algebra; no credit for Sophomores, Juniors, or Seniors in the mathematical and engineering sciences; credit for only one of STAT 051 and STAT 1050.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 051\"}, {\"type\": \"course\", \"code\": \"STAT 1050\"}]}",
+      "other_requirements": "Two years High School algebra; no credit for Sophomores, Juniors, or Seniors in the mathematical and engineering sciences; Cannot be taken for credit after taking STAT 051 or STAT 052.",
+      "external": true
+    },
+    {
+      "id": "POLS 2301",
+      "course_code": "POLS 2301",
+      "department": "POLS",
+      "title": "Congress",
+      "credit_hours": "3",
+      "description": "Examination of the history of Congress and its current practices that can lead to landmark legislation or dysfunction. Considers the structure of both chambers, the motivations of individual members, and congressional interactions with the other branches, outside groups, and voters on matters of foreign and domestic policy. Prerequisite: <a href=\"/search/?p=POLS%201300\" data-action=\"result-detail\" data-group=\"code:POLS 1300\" >POLS 1300</a> or <a href=\"/search/?p=POLS%201013\" data-action=\"result-detail\" data-group=\"code:POLS 1013\"  class=\"notoffered\">POLS 1013</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1300\"}, {\"type\": \"course\", \"code\": \"POLS 1013\"}]}",
+      "other_requirements": "Minimum Sophomore standing. PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 3440",
+      "course_code": "POLS 3440",
+      "department": "POLS",
+      "title": "Pol Effects of Entertain Media",
+      "credit_hours": "3",
+      "description": "Investigates the relationship between popular film, TV, books, and/or video games and people's perspectives on politics. Prerequisite: <a href=\"/search/?p=POLS%201300\" data-action=\"result-detail\" data-group=\"code:POLS 1300\" >POLS 1300</a> or <a href=\"/search/?p=POLS%201013\" data-action=\"result-detail\" data-group=\"code:POLS 1013\"  class=\"notoffered\">POLS 1013</a>; three hours of Political Science at the 2000-level; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1300\"}, {\"type\": \"course\", \"code\": \"POLS 1013\"}]}, {\"type\": \"course\", \"code\": \"POLS 2000-level\"}]}",
+      "other_requirements": "Minimum Junior standing. PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 2710",
+      "course_code": "POLS 2710",
+      "department": "POLS",
+      "title": "Russian Politics",
+      "credit_hours": "3",
+      "description": "Examines the nature of politics and the development of post-Soviet social and economic institutions in Russia. Prerequisite: <a href=\"/search/?p=POLS%201700\" data-action=\"result-detail\" data-group=\"code:POLS 1700\" >POLS 1700</a> or <a href=\"/search/?p=POLS%201017\" data-action=\"result-detail\" data-group=\"code:POLS 1017\"  class=\"notoffered\">POLS 1017</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1700\"}, {\"type\": \"course\", \"code\": \"POLS 1017\"}]}",
+      "other_requirements": "Minimum Sophomore standing. PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 2240",
+      "course_code": "POLS 2240",
+      "department": "POLS",
+      "title": "Economic Justice",
+      "credit_hours": "3",
+      "description": "Introduction to the most important ethical debates about our economy. To make questions of economic justice vivid and evocative, includes the application of principles learned to cases about access to higher education, meritocracy, workers' rights, complicity in sweatshops, the impact of economic inequality on democracy, a universal basic income, and other topics. Prerequisite: <a href=\"/search/?p=POLS%201200\" data-action=\"result-detail\" data-group=\"code:POLS 1200\" >POLS 1200</a> or <a href=\"/search/?p=POLS%201012\" data-action=\"result-detail\" data-group=\"code:POLS 1012\"  class=\"notoffered\">POLS 1012</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1200\"}, {\"type\": \"course\", \"code\": \"POLS 1012\"}]}",
+      "other_requirements": "Minimum Sophomore standing. PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 2715",
+      "course_code": "POLS 2715",
+      "department": "POLS",
+      "title": "Japanese Politics",
+      "credit_hours": "3",
+      "description": "Institutions, processes, and problems of government in Japan. Prerequisite: <a href=\"/search/?p=POLS%201700\" data-action=\"result-detail\" data-group=\"code:POLS 1700\" >POLS 1700</a> or <a href=\"/search/?p=POLS%201017\" data-action=\"result-detail\" data-group=\"code:POLS 1017\"  class=\"notoffered\">POLS 1017</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1700\"}, {\"type\": \"course\", \"code\": \"POLS 1017\"}]}",
+      "other_requirements": "Minimum Sophomore standing.\nPACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 1010",
+      "course_code": "POLS 1010",
+      "department": "POLS",
+      "title": "FYS:Democracy & Climate Change",
+      "credit_hours": "3",
+      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "POLS 2329",
+      "course_code": "POLS 2329",
+      "department": "POLS",
+      "title": "Const Law: Civil Liberties",
+      "credit_hours": "3",
+      "description": "Investigation of the Supreme Court's interpretation of the First Amendment, rights of the accused, and the right to privacy. Prerequisite: <a href=\"/search/?p=POLS%201300\" data-action=\"result-detail\" data-group=\"code:POLS 1300\" >POLS 1300</a> or <a href=\"/search/?p=POLS%201013\" data-action=\"result-detail\" data-group=\"code:POLS 1013\"  class=\"notoffered\">POLS 1013</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1300\"}, {\"type\": \"course\", \"code\": \"POLS 1013\"}]}",
+      "other_requirements": "Minimum Sophomore standing. PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 2440",
+      "course_code": "POLS 2440",
+      "department": "POLS",
+      "title": "Politics and Media",
+      "credit_hours": "3",
+      "description": "Exploration of the role of media in democracy. Subjects include how media operate in the United States and how media presentation and interpretation of events affect democracy through shaping public opinion, affecting political institutions, and determining public policy. Prerequisite: <a href=\"/search/?p=POLS%201300\" data-action=\"result-detail\" data-group=\"code:POLS 1300\" >POLS 1300</a> or <a href=\"/search/?p=POLS%201013\" data-action=\"result-detail\" data-group=\"code:POLS 1013\"  class=\"notoffered\">POLS 1013</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1300\"}, {\"type\": \"course\", \"code\": \"POLS 1013\"}]}",
+      "other_requirements": "Minimum Sophomore standing.\nPACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 2610",
+      "course_code": "POLS 2610",
+      "department": "POLS",
+      "title": "Global Politics of Food",
+      "credit_hours": "3",
+      "description": "Investigation of food in the development of political hierarchy, the state system, industrial capitalism, economic development, environmental issues, health and diet, and the politics of identity and difference. Analyzes our food system and grapples with pressing questions about the future of food using comparative politics and international relations concepts and theories. Prerequisite: <a href=\"/search/?p=POLS%201500\" data-action=\"result-detail\" data-group=\"code:POLS 1500\" >POLS 1500</a>, <a href=\"/search/?p=POLS%201015\" data-action=\"result-detail\" data-group=\"code:POLS 1015\"  class=\"notoffered\">POLS 1015</a>, <a href=\"/search/?p=POLS%201700\" data-action=\"result-detail\" data-group=\"code:POLS 1700\" >POLS 1700</a>, or <a href=\"/search/?p=POLS%201017\" data-action=\"result-detail\" data-group=\"code:POLS 1017\"  class=\"notoffered\">POLS 1017</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1500\"}, {\"type\": \"course\", \"code\": \"POLS 1015\"}, {\"type\": \"course\", \"code\": \"POLS 1700\"}, {\"type\": \"course\", \"code\": \"POLS 1017\"}]}",
+      "other_requirements": "Minimum Sophomore standing. PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 2800",
+      "course_code": "POLS 2800",
+      "department": "POLS",
+      "title": "Social Research Methods",
+      "credit_hours": "4",
+      "description": "Introduction to research methods in social science. Includes examination of research design, measurement, data collection, data analysis, and the presentation and theoretical interpretation of research findings. Prerequisites: <a href=\"/search/?p=STAT%201050\" data-action=\"result-detail\" data-group=\"code:STAT 1050\" >STAT 1050</a>, <a href=\"/search/?p=STAT%201110\" data-action=\"result-detail\" data-group=\"code:STAT 1110\" >STAT 1110</a>, <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, or higher; three hours of Sociology or Political Science; minimum Sophomore standing. Cross-listed with: <a href=\"/search/?p=SOC%202500\" data-action=\"result-detail\" data-group=\"code:SOC 2500\" >SOC 2500</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1050\"}, {\"type\": \"course\", \"code\": \"STAT 1110\"}, {\"type\": \"course\", \"code\": \"STAT 1410\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 3 hours\"}, {\"type\": \"course\", \"code\": \"POLS 3 hours\"}]}]}",
+      "other_requirements": "Minimum Sophomore standing; PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "POLS 4310",
+      "course_code": "POLS 4310",
+      "department": "POLS",
+      "title": "VT Legislative Research Srvc",
+      "credit_hours": "3",
+      "description": "Involves students in policy research for the Vermont State Legislature on a wide range of topics, including the environment, health, and welfare. Prerequisite: Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission. Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "POLS 3994",
+      "course_code": "POLS 3994",
+      "department": "POLS",
+      "title": "Teaching Assistantship",
+      "credit_hours": "3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Department permission required",
+      "external": false
+    },
+    {
+      "id": "POLS 1026",
+      "course_code": "POLS 1026",
+      "department": "POLS",
+      "title": "LASP: Global Gender Inequality",
+      "credit_hours": "4",
+      "description": "Intensive course in the social sciences examining the causes of dramatic variations in the status of women in different countries. Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. Co-requisite: Enrollment in Liberal Arts Scholars Program for Social Science Scholars.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"LASP 1026\"}, {\"type\": \"course\", \"code\": \"POLS 1026\"}]}",
+      "other_requirements": "LASP Social Science Scholars only; Instructor permission; Includes an online lab component",
+      "external": false
+    },
+    {
+      "id": "POLS 4996",
+      "course_code": "POLS 4996",
+      "department": "POLS",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "ENVS 1500",
+      "target": "POLS 2460"
+    },
+    {
+      "source": "GSWS 1010",
+      "target": "POLS 2450"
+    },
+    {
+      "source": "GSWS 1010",
+      "target": "POLS 2455"
+    },
+    {
+      "source": "GSWS 1500",
+      "target": "POLS 2450"
+    },
+    {
+      "source": "GSWS 1500",
+      "target": "POLS 2455"
+    },
+    {
+      "source": "HST 1475",
+      "target": "POLS 2720"
+    },
+    {
+      "source": "POLS 1012",
+      "target": "POLS 2200"
+    },
+    {
+      "source": "POLS 1012",
+      "target": "POLS 2220"
+    },
+    {
+      "source": "POLS 1012",
+      "target": "POLS 2240"
+    },
+    {
+      "source": "POLS 1012",
+      "target": "POLS 2250"
+    },
+    {
+      "source": "POLS 1012",
+      "target": "POLS 3280"
+    },
+    {
+      "source": "POLS 1026",
+      "target": "POLS 1026"
+    },
+    {
+      "source": "POLS 1200",
+      "target": "POLS 2200"
+    },
+    {
+      "source": "POLS 1200",
+      "target": "POLS 2220"
+    },
+    {
+      "source": "POLS 1200",
+      "target": "POLS 2240"
+    },
+    {
+      "source": "POLS 1200",
+      "target": "POLS 2250"
+    },
+    {
+      "source": "POLS 1200",
+      "target": "POLS 3280"
+    },
+    {
+      "source": "POLS 1300",
+      "target": "POLS 2301"
+    },
+    {
+      "source": "POLS 1300",
+      "target": "POLS 2320"
+    },
+    {
+      "source": "POLS 1300",
+      "target": "POLS 2329"
+    },
+    {
+      "source": "POLS 1300",
+      "target": "POLS 2400"
+    },
+    {
+      "source": "POLS 1300",
+      "target": "POLS 2440"
+    },
+    {
+      "source": "POLS 1300",
+      "target": "POLS 2450"
+    },
+    {
+      "source": "POLS 1300",
+      "target": "POLS 2455"
+    },
+    {
+      "source": "POLS 1300",
+      "target": "POLS 2460"
+    },
+    {
+      "source": "POLS 1300",
+      "target": "POLS 3400"
+    },
+    {
+      "source": "POLS 1300",
+      "target": "POLS 3440"
+    },
+    {
+      "source": "POLS 1300",
+      "target": "POLS 3492"
+    },
+    {
+      "source": "POLS 1500",
+      "target": "POLS 2510"
+    },
+    {
+      "source": "POLS 1500",
+      "target": "POLS 2525"
+    },
+    {
+      "source": "POLS 1500",
+      "target": "POLS 2610"
+    },
+    {
+      "source": "POLS 1500",
+      "target": "POLS 2615"
+    },
+    {
+      "source": "POLS 1500",
+      "target": "POLS 3600"
+    },
+    {
+      "source": "POLS 1700",
+      "target": "POLS 2610"
+    },
+    {
+      "source": "POLS 1700",
+      "target": "POLS 2615"
+    },
+    {
+      "source": "POLS 1700",
+      "target": "POLS 2700"
+    },
+    {
+      "source": "POLS 1700",
+      "target": "POLS 2710"
+    },
+    {
+      "source": "POLS 1700",
+      "target": "POLS 2715"
+    },
+    {
+      "source": "POLS 1700",
+      "target": "POLS 2720"
+    },
+    {
+      "source": "POLS 1700",
+      "target": "POLS 3600"
+    },
+    {
+      "source": "POLS 1700",
+      "target": "POLS 3700"
+    },
+    {
+      "source": "POLS 1700",
+      "target": "POLS 3710"
+    },
+    {
+      "source": "POLS 1700",
+      "target": "POLS 3730"
+    },
+    {
+      "source": "SPAN 3665",
+      "target": "POLS 2720"
+    },
+    {
+      "source": "SPAN 3670",
+      "target": "POLS 2720"
+    },
+    {
+      "source": "STAT 1050",
+      "target": "POLS 2800"
+    },
+    {
+      "source": "STAT 1050",
+      "target": "STAT 1050"
+    },
+    {
+      "source": "STAT 1110",
+      "target": "POLS 2800"
+    },
+    {
+      "source": "STAT 1410",
+      "target": "POLS 2800"
+    }
+  ]
+}

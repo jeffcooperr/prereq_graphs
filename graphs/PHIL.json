@@ -1,0 +1,284 @@
+{
+  "department": "PHIL",
+  "nodes": [
+    {
+      "id": "PHIL 1400",
+      "course_code": "PHIL 1400",
+      "department": "PHIL",
+      "title": "Introduction to Logic",
+      "credit_hours": "3",
+      "description": "Study of the basic principles of deductive inference.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PHIL 3200",
+      "course_code": "PHIL 3200",
+      "department": "PHIL",
+      "title": "Metaphysics",
+      "credit_hours": "3",
+      "description": "In-depth study of such topics as vagueness, the nature of time, persistence of objects and people through change, and whether numbers or properties exist. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: One course in Philosophy at the 2000-level.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHIL 2000\"}, {\"type\": \"course\", \"code\": \"PHIL 2000\"}]}",
+      "other_requirements": "One course in Philosophy at the 2000-level.",
+      "external": false
+    },
+    {
+      "id": "PHIL 3993",
+      "course_code": "PHIL 3993",
+      "department": "PHIL",
+      "title": "IS:Philosophy of Language",
+      "credit_hours": "3",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor Permission Required",
+      "external": false
+    },
+    {
+      "id": "PHIL 2400",
+      "course_code": "PHIL 2400",
+      "department": "PHIL",
+      "title": "Intermediate Logic",
+      "credit_hours": "3",
+      "description": "Study of philosophically interesting systems of symbolic logic and their applications. Prerequisite: <a href=\"/search/?p=PHIL%201400\" data-action=\"result-detail\" data-group=\"code:PHIL 1400\" >PHIL 1400</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHIL 1400\"}, {\"type\": \"course\", \"code\": \"Philosophy\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "PHIL 2240",
+      "course_code": "PHIL 2240",
+      "department": "PHIL",
+      "title": "Philosophy of Science",
+      "credit_hours": "3",
+      "description": "Introduction to major philosophical problems raised by science. Typical topics: the nature of scientific inference, the structure of theories, causation, explanation, and scientific change. Prerequisite: One course in Philosophy.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHIL 1000\"}, {\"type\": \"course\", \"code\": \"PHIL 1100\"}, {\"type\": \"course\", \"code\": \"PHIL 1200\"}, {\"type\": \"course\", \"code\": \"PHIL 2100\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "PHIL 1548",
+      "course_code": "PHIL 1548",
+      "department": "PHIL",
+      "title": "Marginalized Ident & Priv",
+      "credit_hours": "3",
+      "description": "Teaches students to harness the power of theoretical scholarship on social marginalization, oppression, and privilege in both understanding and challenging the intersecting systems of social hierarchy operative in contemporary American society. Credit not awarded for both PHIL 1548 and versions of the course offered as <a href=\"/search/?p=PHIL%201010\" data-action=\"result-detail\" data-group=\"code:PHIL 1010\" >PHIL 1010</a> to <a href=\"/search/?p=PHIL%201029\" data-action=\"result-detail\" data-group=\"code:PHIL 1029\"  class=\"notoffered\">1029</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "PHIL 2630",
+      "course_code": "PHIL 2630",
+      "department": "PHIL",
+      "title": "Ethics of Climate Change",
+      "credit_hours": "3",
+      "description": "Exploration of topics in environmental ethics, such as the ethical crisis of climate change and human obligations to non-human animals and ecosystems. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: One course in Philosophy or Environmental Studies. Cross-listed with: <a href=\"/search/?p=ENVS%202250\" data-action=\"result-detail\" data-group=\"code:ENVS 2250\" >ENVS 2250</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHIL 1000\"}, {\"type\": \"course\", \"code\": \"ENVS 1000\"}]}",
+      "other_requirements": "PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "PHIL 3605",
+      "course_code": "PHIL 3605",
+      "department": "PHIL",
+      "title": "Classical Metaethics",
+      "credit_hours": "3",
+      "description": "In-depth study of metaethics, emphasizing recent work. Representative topics: moral objectivity, moral language, moral epistemology, and the relationship between morality and reasons. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: One course in Philosophy at the 2000-level.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHIL 2000\"}, {\"type\": \"course\", \"code\": \"PACE 2000\"}]}",
+      "other_requirements": "PACE students with permission and override. Electronics (computers, phones etc.) are forbidden in class, except with special permission (given only in truly exceptional cases, e.g. for students with documented disabilities that require their use).",
+      "external": false
+    },
+    {
+      "id": "PHIL 2785",
+      "course_code": "PHIL 2785",
+      "department": "PHIL",
+      "title": "Early Analytic Philosophy",
+      "credit_hours": "3",
+      "description": "Analytic philosophy is the most common kind of philosophy practiced today in English. Focuses on the figures who helped create analytic philosophy in the late 19th and early 20th centuries, with particular attention to metaphysics, epistemology, and philosophy of mathematics. Explores how these philosophers tried to root philosophical analysis in logic and make it precise, as well as the limits they found to their methods. Prerequisites: One course in Philosophy, <a href=\"/search/?p=PHIL%201400\" data-action=\"result-detail\" data-group=\"code:PHIL 1400\" >PHIL 1400</a> recommended.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHIL 1400\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHIL XXXX\"}, {\"type\": \"course\", \"code\": \"PHIL XXXX\"}]}]}",
+      "other_requirements": "one course in Philosophy; PHIL 1400 recommended.",
+      "external": false
+    },
+    {
+      "id": "PHIL 1990",
+      "course_code": "PHIL 1990",
+      "department": "PHIL",
+      "title": "Introduction to Philosophy",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": "Burlington High School students only; instructor permission",
+      "external": false
+    },
+    {
+      "id": "PHIL 3730",
+      "course_code": "PHIL 3730",
+      "department": "PHIL",
+      "title": "Kant",
+      "credit_hours": "3",
+      "description": "An examination of issues in the philosophy of Immanuel Kant. Prerequisite: One Philosophy course at the 2000-level.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHIL 2000\"}, {\"type\": \"course\", \"code\": \"PHIL 2000\"}]}",
+      "other_requirements": "One Philosophy course at the 2000-level",
+      "external": false
+    },
+    {
+      "id": "PHIL 2470",
+      "course_code": "PHIL 2470",
+      "department": "PHIL",
+      "title": "Philosophy of Language",
+      "credit_hours": "3",
+      "description": "Exploration of central problems concerning the nature of language and linguistic representation. <a href=\"/search/?p=PHIL%201400\" data-action=\"result-detail\" data-group=\"code:PHIL 1400\" >PHIL 1400</a> recommended. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: One course in Philosophy.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHIL 1400\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHIL 1400\"}, {\"type\": \"course\", \"code\": \"PHIL 1400\"}]}]}",
+      "other_requirements": "One course in Philosophy. PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "PHIL 1600",
+      "course_code": "PHIL 1600",
+      "department": "PHIL",
+      "title": "Ethics",
+      "credit_hours": "3",
+      "description": "Explores central themes in ethics, such as what our most fundamental obligations are, using the tools of philosophical argument and analysis. Content, readings, and assignments vary by section and instructor. Credit not awarded for both PHIL 1600 and versions of the course offered as <a href=\"/search/?p=PHIL%201010\" data-action=\"result-detail\" data-group=\"code:PHIL 1010\"  class=\"notoffered\">PHIL 1010</a> to <a href=\"/search/?p=PHIL%201029\" data-action=\"result-detail\" data-group=\"code:PHIL 1029\"  class=\"notoffered\">1029</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PHIL 1110",
+      "course_code": "PHIL 1110",
+      "department": "PHIL",
+      "title": "God, Morality, Mind",
+      "credit_hours": "3",
+      "description": "Explores three major topics in philosophy using the tools of philosophical argument and analysis. Content, readings, and assignments vary by section and instructor. Credit not awarded for both PHIL 1110 and versions of the course offered as <a href=\"/search/?p=PHIL%201010\" data-action=\"result-detail\" data-group=\"code:PHIL 1010\"  class=\"notoffered\">PHIL 1010</a> to <a href=\"/search/?p=PHIL%201029\" data-action=\"result-detail\" data-group=\"code:PHIL 1029\"  class=\"notoffered\">1029</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PHIL 1635",
+      "course_code": "PHIL 1635",
+      "department": "PHIL",
+      "title": "Ethics of Eating",
+      "credit_hours": "3",
+      "description": "Explores topics concerning the ethical dimensions of eating, such as the ethical status of contemporary food-production techniques, using the tools of philosophical argument and analysis. Content, readings, and assignments vary by section and instructor. Credit not awarded for both PHIL 1635 and versions of the course offered as <a href=\"/search/?p=PHIL%201010\" data-action=\"result-detail\" data-group=\"code:PHIL 1010\"  class=\"notoffered\">PHIL 1010</a> to <a href=\"/search/?p=PHIL%201029\" data-action=\"result-detail\" data-group=\"code:PHIL 1029\"  class=\"notoffered\">1029</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PHIL 2705",
+      "course_code": "PHIL 2705",
+      "department": "PHIL",
+      "title": "History of Ancient Philosophy",
+      "credit_hours": "3",
+      "description": "Study of the works of the Pre-Socratics, Plato, Aristotle, and their successors. Prerequisite: One course in Philosophy.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHIL 1000\"}, {\"type\": \"course\", \"code\": \"PHIL 1100\"}, {\"type\": \"course\", \"code\": \"PHIL 1200\"}, {\"type\": \"course\", \"code\": \"PHIL 1300\"}, {\"type\": \"course\", \"code\": \"PHIL 2000\"}, {\"type\": \"course\", \"code\": \"PHIL 2100\"}, {\"type\": \"course\", \"code\": \"PHIL 2200\"}, {\"type\": \"course\", \"code\": \"PHIL 2300\"}, {\"type\": \"course\", \"code\": \"PHIL 2400\"}, {\"type\": \"course\", \"code\": \"PHIL 2500\"}, {\"type\": \"course\", \"code\": \"PHIL 2600\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "PHIL 1010",
+      "course_code": "PHIL 1010",
+      "department": "PHIL",
+      "title": "FYS:Introduction to Skepticism",
+      "credit_hours": "3",
+      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PHIL 2994",
+      "course_code": "PHIL 2994",
+      "department": "PHIL",
+      "title": "Teaching Assistantship",
+      "credit_hours": "3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "PHIL majors or minors only; Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "PHIL 1675",
+      "course_code": "PHIL 1675",
+      "department": "PHIL",
+      "title": "Death and Dying",
+      "credit_hours": "3",
+      "description": "Explores explores issues concerning death and dying, such as whether it makes sense to fear death, using the tools of philosophical argument and analysis. Content, readings, and assignments vary by section and instructor. Credit not awarded for both PHIL 1675 and versions of the course offered as <a href=\"/search/?p=PHIL%201010\" data-action=\"result-detail\" data-group=\"code:PHIL 1010\"  class=\"notoffered\">PHIL 1010</a> to <a href=\"/search/?p=PHIL%201029\" data-action=\"result-detail\" data-group=\"code:PHIL 1029\"  class=\"notoffered\">1029</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PHIL 4996",
+      "course_code": "PHIL 4996",
+      "department": "PHIL",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PHIL 2990",
+      "course_code": "PHIL 2990",
+      "department": "PHIL",
+      "title": "Phil Reading and Writing Lab",
+      "credit_hours": "1",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHIL 1\"}]}",
+      "other_requirements": "one course in Philosophy",
+      "external": false
+    },
+    {
+      "id": "PHIL 3990",
+      "course_code": "PHIL 3990",
+      "department": "PHIL",
+      "title": "Adv. Sp. Tops Metaphysics",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHIL 2000\"}, {\"type\": \"course\", \"code\": \"PHIL 2001\"}, {\"type\": \"course\", \"code\": \"PHIL 2002\"}, {\"type\": \"course\", \"code\": \"PHIL 2003\"}, {\"type\": \"course\", \"code\": \"PHIL 2004\"}, {\"type\": \"course\", \"code\": \"PHIL 2005\"}, {\"type\": \"course\", \"code\": \"PHIL 2006\"}, {\"type\": \"course\", \"code\": \"PHIL 2007\"}, {\"type\": \"course\", \"code\": \"PHIL 2008\"}, {\"type\": \"course\", \"code\": \"PHIL 2009\"}, {\"type\": \"course\", \"code\": \"PHIL 2010\"}, {\"type\": \"course\", \"code\": \"PHIL 2011\"}, {\"type\": \"course\", \"code\": \"PHIL 2012\"}, {\"type\": \"course\", \"code\": \"PHIL 2013\"}, {\"type\": \"course\", \"code\": \"PHIL 2014\"}, {\"type\": \"course\", \"code\": \"PHIL 2015\"}, {\"type\": \"course\", \"code\": \"PHIL 2016\"}, {\"type\": \"course\", \"code\": \"PHIL 2017\"}, {\"type\": \"course\", \"code\": \"PHIL 2018\"}, {\"type\": \"course\", \"code\": \"PHIL 2019\"}, {\"type\": \"course\", \"code\": \"PHIL 2020\"}, {\"type\": \"course\", \"code\": \"PHIL 2021\"}, {\"type\": \"course\", \"code\": \"PHIL 2022\"}, {\"type\": \"course\", \"code\": \"PHIL 2023\"}, {\"type\": \"course\", \"code\": \"PHIL 2024\"}, {\"type\": \"course\", \"code\": \"PHIL 2025\"}, {\"type\": \"course\", \"code\": \"PHIL 2026\"}, {\"type\": \"course\", \"code\": \"PHIL 2027\"}, {\"type\": \"course\", \"code\": \"PHIL 2028\"}, {\"type\": \"course\", \"code\": \"PHIL 2029\"}, {\"type\": \"course\", \"code\": \"PHIL 2030\"}, {\"type\": \"course\", \"code\": \"PHIL 2031\"}, {\"type\": \"course\", \"code\": \"PHIL 2032\"}, {\"type\": \"course\", \"code\": \"PHIL 2033\"}, {\"type\": \"course\", \"code\": \"PHIL 2034\"}, {\"type\": \"course\", \"code\": \"PHIL 2035\"}, {\"type\": \"course\", \"code\": \"PHIL 2036\"}, {\"type\": \"course\", \"code\": \"PHIL 2037\"}, {\"type\": \"course\", \"code\": \"PHIL 2038\"}, {\"type\": \"course\", \"code\": \"PHIL 2039\"}, {\"type\": \"course\", \"code\": \"PHIL 2040\"}, {\"type\": \"course\", \"code\": \"PHIL 2041\"}, {\"type\": \"course\", \"code\": \"PHIL 2042\"}, {\"type\": \"course\", \"code\": \"PHIL 2043\"}, {\"type\": \"course\", \"code\": \"PHIL 2044\"}, {\"type\": \"course\", \"code\": \"PHIL 2045\"}, {\"type\": \"course\", \"code\": \"PHIL 2046\"}, {\"type\": \"course\", \"code\": \"PHIL 2047\"}, {\"type\": \"course\", \"code\": \"PHIL 2048\"}, {\"type\": \"course\", \"code\": \"PHIL 2049\"}, {\"type\": \"course\", \"code\": \"PHIL 2050\"}, {\"type\": \"course\", \"code\": \"PHIL 2051\"}, {\"type\": \"course\", \"code\": \"PHIL 2052\"}, {\"type\": \"course\", \"code\": \"PHIL 2053\"}, {\"type\": \"course\", \"code\": \"PHIL 2054\"}, {\"type\": \"course\", \"code\": \"PHIL 2055\"}, {\"type\": \"course\", \"code\": \"PHIL 2056\"}, {\"type\": \"course\", \"code\": \"PHIL 2057\"}, {\"type\": \"course\", \"code\": \"PHIL 2058\"}, {\"type\": \"course\", \"code\": \"PHIL 2059\"}, {\"type\": \"course\", \"code\": \"PHIL 2060\"}, {\"type\": \"course\", \"code\": \"PHIL 2061\"}, {\"type\": \"course\", \"code\": \"PHIL 2062\"}, {\"type\": \"course\", \"code\": \"PHIL 2063\"}, {\"type\": \"course\", \"code\": \"PHIL 2064\"}, {\"type\": \"course\", \"code\": \"PHIL 2065\"}, {\"type\": \"course\", \"code\": \"PHIL 2066\"}, {\"type\": \"course\", \"code\": \"PHIL 2067\"}, {\"type\": \"course\", \"code\": \"PHIL 2068\"}, {\"type\": \"course\", \"code\": \"PHIL 2069\"}, {\"type\": \"course\", \"code\": \"PHIL 2070\"}, {\"type\": \"course\", \"code\": \"PHIL 2071\"}, {\"type\": \"course\", \"code\": \"PHIL 2072\"}, {\"type\": \"course\", \"code\": \"PHIL 2073\"}, {\"type\": \"course\", \"code\": \"PHIL 2074\"}, {\"type\": \"course\", \"code\": \"PHIL 2075\"}, {\"type\": \"course\", \"code\": \"PHIL 2076\"}, {\"type\": \"course\", \"code\": \"PHIL 2077\"}, {\"type\": \"course\", \"code\": \"PHIL 2078\"}, {\"type\": \"course\", \"code\": \"PHIL 2079\"}, {\"type\": \"course\", \"code\": \"PHIL 2080\"}, {\"type\": \"course\", \"code\": \"PHIL 2081\"}, {\"type\": \"course\", \"code\": \"PHIL 2082\"}, {\"type\": \"course\", \"code\": \"PHIL 2083\"}, {\"type\": \"course\", \"code\": \"PHIL 2084\"}, {\"type\": \"course\", \"code\": \"PHIL 2085\"}, {\"type\": \"course\", \"code\": \"PHIL 2086\"}, {\"type\": \"course\", \"code\": \"PHIL 2087\"}, {\"type\": \"course\", \"code\": \"PHIL 2088\"}, {\"type\": \"course\", \"code\": \"PHIL 2089\"}, {\"type\": \"course\", \"code\": \"PHIL 2090\"}, {\"type\": \"course\", \"code\": \"PHIL 2091\"}, {\"type\": \"course\", \"code\": \"PHIL 2092\"}, {\"type\": \"course\", \"code\": \"PHIL 2093\"}, {\"type\": \"course\", \"code\": \"PHIL 2094\"}, {\"type\": \"course\", \"code\": \"PHIL 2095\"}, {\"type\": \"course\", \"code\": \"PHIL 2096\"}, {\"type\": \"course\", \"code\": \"PHIL 2097\"}, {\"type\": \"course\", \"code\": \"PHIL 2098\"}, {\"type\": \"course\", \"code\": \"PHIL 2099\"}]}",
+      "other_requirements": "one 2000-level PHIL course; Special Topics courses cannot carry CC designations. The course assumes students have taken classes in Philosophy and/or some sciences.",
+      "external": false
+    },
+    {
+      "id": "PHIL 2050",
+      "course_code": "PHIL 2050",
+      "department": "PHIL",
+      "title": "Philosophical Reading &Writing",
+      "credit_hours": "3",
+      "description": "By engaging a diverse range of philosophical topics, students will work on carefully and responsibly interpreting philosophical texts and critically engaging with the ideas and arguments presented therein. Students will develop their ability to clearly, concisely, and accurately explaining philosophical ideas and arguments, both in speech and in writing. Prerequisite: One course in Philosophy.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHIL 1000\"}, {\"type\": \"course\", \"code\": \"PHIL 1001\"}, {\"type\": \"course\", \"code\": \"PHIL 1002\"}, {\"type\": \"course\", \"code\": \"PHIL 1003\"}, {\"type\": \"course\", \"code\": \"PHIL 1004\"}, {\"type\": \"course\", \"code\": \"PHIL 1005\"}, {\"type\": \"course\", \"code\": \"PHIL 1006\"}, {\"type\": \"course\", \"code\": \"PHIL 1007\"}, {\"type\": \"course\", \"code\": \"PHIL 1008\"}, {\"type\": \"course\", \"code\": \"PHIL 1009\"}, {\"type\": \"course\", \"code\": \"PHIL 1010\"}, {\"type\": \"course\", \"code\": \"PHIL 2000\"}]}",
+      "other_requirements": "PACE students by permission and override.",
+      "external": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "PHIL 1010",
+      "target": "PHIL 2050"
+    },
+    {
+      "source": "PHIL 1400",
+      "target": "PHIL 2400"
+    },
+    {
+      "source": "PHIL 1400",
+      "target": "PHIL 2470"
+    },
+    {
+      "source": "PHIL 1400",
+      "target": "PHIL 2785"
+    },
+    {
+      "source": "PHIL 2050",
+      "target": "PHIL 3990"
+    },
+    {
+      "source": "PHIL 2400",
+      "target": "PHIL 2705"
+    }
+  ]
+}

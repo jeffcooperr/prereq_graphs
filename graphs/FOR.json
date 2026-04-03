@@ -1,0 +1,258 @@
+{
+  "department": "FOR",
+  "nodes": [
+    {
+      "id": "FOR 2991",
+      "course_code": "FOR 2991",
+      "department": "FOR",
+      "title": "Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required and completion of an Experiential Learning plan required",
+      "external": false
+    },
+    {
+      "id": "FOR 3996",
+      "course_code": "FOR 3996",
+      "department": "FOR",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "Honors project dealing with the biology and/or management of forest ecosystems. See Program Chair.",
+      "prereq_expression": null,
+      "other_requirements": "See Program Chair. Permission (by application to program chair) required",
+      "external": false
+    },
+    {
+      "id": "FOR 1090",
+      "course_code": "FOR 1090",
+      "department": "FOR",
+      "title": "Introduction to Forestry",
+      "credit_hours": "1",
+      "description": "For First-year and Sophomore students interested in Forestry. An introduction to the curriculum, the breadth of the field of study, and career options. Includes interactions with faculty, Graduate students, practitioners, and forestry professionals to understand the benefits of a career in Forestry.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "FOR 2570",
+      "course_code": "FOR 2570",
+      "department": "FOR",
+      "title": "Wildland Fire",
+      "credit_hours": "3",
+      "description": "In recent decades, wildfire activity, damages attributed to wildfires, and costs of managing wildfires have increased substantially. Examines various aspects of wildland fire with a primary focus on forested ecosystems in North America. Content includes concepts around fire terminology, ecology, and behavior, as well as the structure of wildland firefighting and prescribed fire programs. Explores historic fire regimes in North America, major causes of disruption to these regimes, and barriers to restoration.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "FOR 2120",
+      "course_code": "FOR 2120",
+      "department": "FOR",
+      "title": "SL:Nat Res Ecol & Assessment 2",
+      "credit_hours": "4",
+      "description": "Introduces concepts and skills important for assessing forest ecosystem structure and functioning to inform forest management and other natural resource conservation decisions.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "FOR 4720",
+      "course_code": "FOR 4720",
+      "department": "FOR",
+      "title": "Sustain Mgmt Forest Ecosys",
+      "credit_hours": "4",
+      "description": "Principles of long-term planning and plan implementation in support of sustainable forestry; Adaptive management; biodiversity and ecosystem health; major management planning project. Prerequisites: <a href=\"/search/?p=FOR%202220\" data-action=\"result-detail\" data-group=\"code:FOR 2220\"  class=\"notoffered\">FOR 2220</a>, <a href=\"/search/?p=NR%203050\" data-action=\"result-detail\" data-group=\"code:NR 3050\" >NR 3050</a>, <a href=\"/search/?p=FOR%203230\" data-action=\"result-detail\" data-group=\"code:FOR 3230\" >FOR 3230</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"FOR 2220\"}, {\"type\": \"course\", \"code\": \"NR 3050\"}, {\"type\": \"course\", \"code\": \"FOR 3230\"}]}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "FOR 4996",
+      "course_code": "FOR 4996",
+      "department": "FOR",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "Honors course.",
+      "prereq_expression": null,
+      "other_requirements": "Honors course. Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "FOR 3330",
+      "course_code": "FOR 3330",
+      "department": "FOR",
+      "title": "SL:Woodlot Mgt & Forest Ops",
+      "credit_hours": "4",
+      "description": "Introduction to the knowledge and skills required for serving forest management needs of small properties in New England and beyond, as well as logistics and regulations relating to forest management business and operations. Prerequisite: <a href=\"/search/?p=FOR%203230\" data-action=\"result-detail\" data-group=\"code:FOR 3230\"  class=\"notoffered\">FOR 3230</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"FOR 3230\"}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "FOR 1010",
+      "course_code": "FOR 1010",
+      "department": "FOR",
+      "title": "Forest Conservation",
+      "credit_hours": "3",
+      "description": "Introduction to the ecology and management of American forests: forest distribution, ownership, and ecological factors, species interactions, multi-resource management goals, and silvicultural practices. Cannot be taken by Junior/Senior-level Rubenstein School of Environment and Natural Resources students.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "FOR 2993",
+      "course_code": "FOR 2993",
+      "department": "FOR",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required and completion of an Experiential Learning plan required",
+      "external": false
+    },
+    {
+      "id": "FOR 3993",
+      "course_code": "FOR 3993",
+      "department": "FOR",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "FOR 3230",
+      "course_code": "FOR 3230",
+      "department": "FOR",
+      "title": "Multi-Resource Silviculture",
+      "credit_hours": "4",
+      "description": "Theory and application of forest stand maintenance/manipulation for forest ecosystem sustainability. Topics: Silvics, regeneration, tree improvement, protection, stand structure/dynamics/tending, and multi-resource perspectives. Prerequisite: <a href=\"/search/?p=NR%202030\" data-action=\"result-detail\" data-group=\"code:NR 2030\" >NR 2030</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"NR 2030\"}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "FOR 2110",
+      "course_code": "FOR 2110",
+      "department": "FOR",
+      "title": "Nat Res Ecol and Assessment 1",
+      "credit_hours": "4",
+      "description": "Basic, essential field and assessment skills; knowledge needed in upper-level classes and jobs in forestry, wildlife, fisheries, or natural resources.",
+      "prereq_expression": null,
+      "other_requirements": "Must register for a lab A01-A02",
+      "external": false
+    },
+    {
+      "id": "FOR 3890",
+      "course_code": "FOR 3890",
+      "department": "FOR",
+      "title": "Forestry Work Practicum",
+      "credit_hours": "1 to 9",
+      "description": "Supervised work experience in forest resource area.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required: Arranged independently between students & faculty Contact department for location",
+      "external": false
+    },
+    {
+      "id": "FOR 3350",
+      "course_code": "FOR 3350",
+      "department": "FOR",
+      "title": "Forest Ecosystem Health",
+      "credit_hours": "3",
+      "description": "An introduction to the biotic and abiotic factors affecting the health of forest ecosystems including insects, pathogens, pollutants, and other large-scale disturbances, and will address the linkages between forest health and climate change. Prerequisite: Minimum Junior standing.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Junior standing.",
+      "external": false
+    },
+    {
+      "id": "FOR 3990",
+      "course_code": "FOR 3990",
+      "department": "FOR",
+      "title": "Applied Sensory Ecology",
+      "credit_hours": "3",
+      "description": "Advanced special topics courses or seminars in forestry beyond the scope of existing formal courses. Prerequisites: Minimum Junior standing; Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Junior standing; Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "FOR 3995",
+      "course_code": "FOR 3995",
+      "department": "FOR",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small research projects under the supervision of a faculty member, for which credit is awarded. Findings submitted in written form as prescribed by department. Offered at department discretion Prerequisite: Senior standing.",
+      "prereq_expression": null,
+      "other_requirements": "Senior standing. Instructor permission required and completion of an Experiential Learning Plan required.",
+      "external": false
+    },
+    {
+      "id": "FOR 1210",
+      "course_code": "FOR 1210",
+      "department": "FOR",
+      "title": "Dendrology",
+      "credit_hours": "4",
+      "description": "Classification, silvical characteristics, and identification features of native and introduced trees and shrubs.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "NR 2030",
+      "course_code": "NR 2030",
+      "department": "NR",
+      "title": "Ecology, Ecosystems & Environ",
+      "credit_hours": "3",
+      "description": "Major ecological concepts and their application. Analysis of form, structure, and function of organisms, populations, communities, ecosystems, and landscapes. Prerequisites: RSENR students or Agroecology or Landscape Design or Environmental Studies majors; minimum Sophomore standing.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RSENR\"}, {\"type\": \"course\", \"code\": \"AGRO\"}, {\"type\": \"course\", \"code\": \"LNDS\"}, {\"type\": \"course\", \"code\": \"ENVS\"}]}",
+      "other_requirements": "minimum Sophomore standing",
+      "external": true
+    },
+    {
+      "id": "FOR 2995",
+      "course_code": "FOR 2995",
+      "department": "FOR",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required and completion of an Experiential Learning plan required.",
+      "external": false
+    },
+    {
+      "id": "NR 3050",
+      "course_code": "NR 3050",
+      "department": "NR",
+      "title": "CL:Ecosys Mgt:Intg Sci,Soc&Pol",
+      "credit_hours": "3",
+      "description": "Analysis of the interaction between science and politics in ecosystem management. Consideration of various types of science and their roles in shaping environmental management, politics, and policy. Interdisciplinary application of course concepts to case studies of complex ecological problems. Prerequisites: <a href=\"/search/?p=NR%202030\" data-action=\"result-detail\" data-group=\"code:NR 2030\" >NR 2030</a>, <a href=\"/search/?p=NR%202040\" data-action=\"result-detail\" data-group=\"code:NR 2040\" >NR 2040</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 2030\"}, {\"type\": \"course\", \"code\": \"NR 2040\"}]}",
+      "other_requirements": "RSENR students only; Mimimum Junior standing",
+      "external": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "FOR 3230",
+      "target": "FOR 3330"
+    },
+    {
+      "source": "FOR 3230",
+      "target": "FOR 4720"
+    },
+    {
+      "source": "NR 2030",
+      "target": "FOR 3230"
+    },
+    {
+      "source": "NR 2030",
+      "target": "NR 3050"
+    },
+    {
+      "source": "NR 3050",
+      "target": "FOR 4720"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "department": "PH",
+  "nodes": [
+    {
+      "id": "PH 5001",
+      "course_code": "PH 5001",
+      "department": "PH",
+      "title": "Epidemiology for Practice",
+      "credit_hours": "3",
+      "description": "Epidemiology is the basic science of understanding disease at the population level. Provides coverage of epidemiologic principles and techniques without detailed mathematical analyses. Emphasis will be on the application of epidemiologic principles to public health and health care issues and settings, through the use of readings, online resources, case studies, and class discussion. Prerequisite: Junior, Senior, or Graduate student; Honors College Sophomores by Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PH 5001\"}]}",
+      "other_requirements": "Junior, Senior, or Graduate student; Honors College Sophomores by Instructor permission. Open to Graduate students, junior and senior undergraduate students, and PACE/CE students; Honors College sophomores with instructor permission; Contact Student Advisor, Pallas Ziporyn at Pallas.Ziporyn@uvm.edu for any questions; Asynchronous online course.",
+      "external": false
+    },
+    {
+      "id": "PH 6270",
+      "course_code": "PH 6270",
+      "department": "PH",
+      "title": "Climate Change & Human Health",
+      "credit_hours": "3",
+      "description": "Global climate change is increasing extreme weather events, influencing air and water quality, and shifting vector habitats. Students will explore basic climate science, health, consequences of climate change, and public health approaches to assessment, communication, projection, mitigation, and adaptation.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PH 6260",
+      "course_code": "PH 6260",
+      "department": "PH",
+      "title": "Legal Issues in Health Care",
+      "credit_hours": "3",
+      "description": "Provides an overview of the legal environment related to healthcare. Using court decisions and other law, explores medical malpractice, negligence, liability, patient rights, healthcare reform and compliance with such laws as Medicaid, Medicare, and HIPAA.",
+      "prereq_expression": null,
+      "other_requirements": "Open to Graduate-level students; Contact Pallas.Ziporyn@uvm.edu with questions; Asynchronous online; All other students require instructor permission; Must submit the request at:http://go.uvm.edu/phcoursesStudents will be notified if permission is granted before classes begin; Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "PH 6920",
+      "course_code": "PH 6920",
+      "department": "PH",
+      "title": "Culminating Project Experience",
+      "credit_hours": "3",
+      "description": "Prepares students to apply knowledge and skills in a culminating project experience that reflects research and practice needs of actual populations. Prerequisites: <a href=\"/search/?p=PH%206010\" data-action=\"result-detail\" data-group=\"code:PH 6010\" >PH 6010</a>, <a href=\"/search/?p=PH%206020\" data-action=\"result-detail\" data-group=\"code:PH 6020\" >PH 6020</a>, <a href=\"/search/?p=PH%206030\" data-action=\"result-detail\" data-group=\"code:PH 6030\" >PH 6030</a>, <a href=\"/search/?p=PH%206070\" data-action=\"result-detail\" data-group=\"code:PH 6070\" >PH 6070</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PH 6010\"}, {\"type\": \"course\", \"code\": \"PH 6020\"}, {\"type\": \"course\", \"code\": \"PH 6030\"}, {\"type\": \"course\", \"code\": \"PH 6070\"}]}",
+      "other_requirements": "Open to graduate-level Public Health students only; Asynchronous online course",
+      "external": false
+    },
+    {
+      "id": "PH 6501",
+      "course_code": "PH 6501",
+      "department": "PH",
+      "title": "IntroPblcHlthDoctoralTraining",
+      "credit_hours": "3",
+      "description": "Students will develop skills essential for success in public health doctoral study, including research, practice, and teaching for your career; and the rationale for doctoral education, need for, and trajectory of public health challenges and workforce needs. Examples of skills: citations/information management tools, ethics and research protections history and training, skills for public health research and practice projects, and exploration of potential funding sources. Course materials emphasize skill development, discussions and application of learned materials.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PH 6200",
+      "course_code": "PH 6200",
+      "department": "PH",
+      "title": "Public Health Communications",
+      "credit_hours": "3",
+      "description": "An introduction to the field of Public Health Communications, focusing on three areas: Crisis and Emergency Risk Communications, Data Communications/visualization, and Social Marketing (or Behavior Change Communications). While each area relies on a theoretical foundation, the focus is professional application of the communication techniques.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PH 6200\"}]}",
+      "other_requirements": "Open to graduate-level students; Asynchronous online; All other students require instructor permission; Must submit the request athttp://go.uvm.edu/phccoursesStudents will be notified if permission is granted before classes begin. Contact Program Advisor, Pallas Ziporyn, Pallas.Ziporyn@uvm.edu with questions; Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "PH 5003",
+      "course_code": "PH 5003",
+      "department": "PH",
+      "title": "PublicHlthPlanetaryPerspective",
+      "credit_hours": "3",
+      "description": "Focuses on developing transdisciplinary Public Health solutions to some of our planet's greatest threats. Introduce Public Health students to these threats, and using a case-based approach, delve into why they are the direct result of our actions. Understanding humans' role in causing these threats is the first step to developing a plan to preserve our planet for future generations. Prerequisites: Minimum Junior standing, Graduate student, or Honors College Sophomore standing with Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Junior standing, Graduate student, or Honors College Sophomore standing with Instructor permission. Open to junior, senior, graduate, and PACE/CE students; Honors College sophomores by permission; must submit request at:http://go.uvm.edu/phcourses; students will be notified if permission is granted; please contact Pallas Ziporyn with any questions Pallas.Ziporyn@uvm.edu Asynchronous, online course.",
+      "external": false
+    },
+    {
+      "id": "PH 6170",
+      "course_code": "PH 6170",
+      "department": "PH",
+      "title": "Mgmt in Hlth Services&Med Care",
+      "credit_hours": "3",
+      "description": "Addresses major issues and challenges faced by health services managers relating to established and evolving social, economic, and professional policies in a context of practical problem assessment and appropriate resolution.",
+      "prereq_expression": null,
+      "other_requirements": "Open to all Graduate Students and PACE/CE students; All other students require instructor permission; Must submit the request athttp://go.uvm.edu/phcourses; Students will be notified if permission is granted; Contact student Advisor, Pallas Ziporyn at Pallas.Ziporyn@uvm.edu for any questions; Asynchronous Online Course",
+      "external": false
+    },
+    {
+      "id": "PH 6120",
+      "course_code": "PH 6120",
+      "department": "PH",
+      "title": "Food Systems & Public Hlth",
+      "credit_hours": "3",
+      "description": "This course explores food systems' influence on public health, and how technology, policy, biology, epidemiology, and historical knowledge can support a healthier food system. Prerequisite: Bachelor's degree.",
+      "prereq_expression": null,
+      "other_requirements": "Bachelor's degree. Open to all Graduate students, and PACE/CE students. Other students require instructor permission. Must submit request at http://go.uvm.edu/phcourses; students will be notified if permission is granted; please reach out to Pallas Ziporyn with questions Pallas.Ziporyn@uvm.edu",
+      "external": false
+    },
+    {
+      "id": "PH 6020",
+      "course_code": "PH 6020",
+      "department": "PH",
+      "title": "Epidemiology I",
+      "credit_hours": "3",
+      "description": "Epidemiology is the study of disease distribution and determinants in populations; we will define populations and estimate the distribution of health-related conditions and their determinants. Pre/co-requisites: College-level Mathematics course; Bachelor's degree.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MATH 1000\"}",
+      "other_requirements": "College-level Mathematics course; Bachelor's degree. Open to all Graduate students and PACE/CE students. Contact student Advisor, Pallas Ziporyn at Pallas.Ziporyn@uvm.edu for any questions; Asynchronous Online Course. All other students require instructor permission; Must submit the request athttp://go.uvm.edu/phcourses; Students will be notified if permission is granted;",
+      "external": false
+    },
+    {
+      "id": "PH 6100",
+      "course_code": "PH 6100",
+      "department": "PH",
+      "title": "Public Health Law and Ethics",
+      "credit_hours": "3",
+      "description": "Public health law examines the government's authority, at various jurisdictional levels, to improve the health of the general population within societal limits and norms. Prerequisite: Bachelor's degree.",
+      "prereq_expression": null,
+      "other_requirements": "Bachelor's degree. Open to all Graduate Students and PACE/CE students. All other students require instructor permission; Must submit the request athttp://go.uvm.edu/phcourses; Students will be notified if permission is granted; Contact student Advisor, Pallas Ziporyn at Pallas.Ziporyn@uvm.edu for any questions;",
+      "external": false
+    },
+    {
+      "id": "PH 6030",
+      "course_code": "PH 6030",
+      "department": "PH",
+      "title": "Biostatistics I:App Rsch in PH",
+      "credit_hours": "3",
+      "description": "Biostatistics I (Applied Research Methods in Public Health) includes biostatistics, research designs, and qualitative approaches, and includes emphasis on evaluating research articles in public health. Pre/co-requisites: College-level Mathematics course; Bachelor's degree.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MATH 1234\"}",
+      "other_requirements": "College-level Mathematics course; Bachelor's degree. Open to all Graduate Students; All other students require instructor permission; Must submit the request athttp://go.uvm.edu/phcourses; Students will be notified if permission is granted; Contact student Advisor, Pallas Ziporyn at Pallas.Ziporyn@uvm.edu for any questions; Asynchronous Online Course PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "PH 6102",
+      "course_code": "PH 6102",
+      "department": "PH",
+      "title": "Design Clin&Translational Res",
+      "credit_hours": "3",
+      "description": "Seminar emphasizing the skills for designing and executing clinical and translational research.",
+      "prereq_expression": null,
+      "other_requirements": "Other students require instructor permission; Must submit request athttp://go.uvm.edu/phcourses; for questions contact Program Advisor Pallas Ziporyn at pallas.ziporyn@uvm.edu",
+      "external": false
+    },
+    {
+      "id": "PH 6010",
+      "course_code": "PH 6010",
+      "department": "PH",
+      "title": "Public Health & Health Policy",
+      "credit_hours": "3",
+      "description": "Course focuses on current public health issues, barriers to improving population health, and policy tensions between science, economics, education, politics, government, media, and public health.",
+      "prereq_expression": null,
+      "other_requirements": "Open to all Graduate students and PACE/CE students; All other students require instructor permission; Must submit the request athttp://go.uvm.edu/phcourses; Students will be notified if permission is granted; Contact student Advisor, Pallas Ziporyn at Pallas.Ziporyn@uvm.edu for any questions; Asynchronous Online Course",
+      "external": false
+    },
+    {
+      "id": "PH 6513",
+      "course_code": "PH 6513",
+      "department": "PH",
+      "title": "PH Doctoral Rsch Methods I",
+      "credit_hours": "3",
+      "description": "Covers a series of advanced topics in research design and quantitative data analysis encountered in public health. Framed around quantitative analysis of survey data, which is a common data source for understanding population health, although analysis of other types of data will be explored. Uses real-world research questions and datasets to reinforce research design and statistical analysis concepts, emphasizing correct use of data analytic methods for a given question and dataset. Prerequisite: Doctor of Public health or PhD student.",
+      "prereq_expression": null,
+      "other_requirements": "Doctor of Public health or PhD student. This course is for doctoral-level students only.",
+      "external": false
+    },
+    {
+      "id": "PH 6110",
+      "course_code": "PH 6110",
+      "department": "PH",
+      "title": "Global Public Health",
+      "credit_hours": "3",
+      "description": "This course explores global public health challenges affecting people primarily in developing or resource- constrained coutries. Cultural competency concepts will be embedded. Prerequisite: Bachelor's degree.",
+      "prereq_expression": null,
+      "other_requirements": "Bachelor's degree. Asynchronous online; Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "PH 6510",
+      "course_code": "PH 6510",
+      "department": "PH",
+      "title": "Strategic Mgmt in Public Hlth",
+      "credit_hours": "3",
+      "description": "Focuses on developing skills for strategic public health leadership, with an emphasis on interprofessional collaboration and systems thinking. Students will design and implement effective public health initiatives, including strategic planning, data-driven decision-making, community engagement, and social entrepreneurship. Prepares students to lead impactful and sustainable improvements in public health organizations and systems.",
+      "prereq_expression": null,
+      "other_requirements": "Open to doctoral-level students only; Other students require instructor permission; must submit request at:http://go.uvm.edu/phcourses; students will be notified if permission is granted; Please contact Pallas Ziporyn with any questions Pallas.Ziporyn@uvm.edu",
+      "external": false
+    },
+    {
+      "id": "PH 6320",
+      "course_code": "PH 6320",
+      "department": "PH",
+      "title": "Maternal and Child Health",
+      "credit_hours": "3",
+      "description": "Introduces major national programs and policies that directly affect women and children in the US and utilize program case studies from around the world. Provides an understanding of social determinants of health and the life course approach to analyze these programs and policies.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PH 6080",
+      "course_code": "PH 6080",
+      "department": "PH",
+      "title": "Environmental Public Health 2",
+      "credit_hours": "3",
+      "description": "Students explore public health within the context of natural and human-made environments, and examine methods of practice and emerging environmental health topics. Prerequisite: <a href=\"/search/?p=PH%206040\" data-action=\"result-detail\" data-group=\"code:PH 6040\"  class=\"notoffered\">PH 6040</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"PH 6040\"}",
+      "other_requirements": "Open to Graduate-level students; PACE students by permission and override; Asynchronous online. All other students require instructor permission; Must submit the request at:http://go.uvm.edu/phcourses Students will be notified if permission is granted before classes begin; Contact student Advisor, Pallas.Ziporyn@uvm.edu",
+      "external": false
+    },
+    {
+      "id": "PH 6240",
+      "course_code": "PH 6240",
+      "department": "PH",
+      "title": "Public Health Informatics",
+      "credit_hours": "3",
+      "description": "Public health practice relies on timely, thorough and reliable information from a variety of sources. Informatics is an emerging field that employs information technology tools and methods to address public health challenges and to improve public health outcomes.",
+      "prereq_expression": null,
+      "other_requirements": "Open to all Graduate Students and PACE/CE students; Other students require instructor permission; must submit request at:http://go.uvm.edu/phcourses; students will be notified if permission is granted; please contact Pallas Ziporyn with any questions Pallas.ziporyn@uvm.edu",
+      "external": false
+    },
+    {
+      "id": "PH 2000",
+      "course_code": "PH 2000",
+      "department": "PH",
+      "title": "Careers in Public Health",
+      "credit_hours": "1",
+      "description": "Students learn the public health functions and services through the lens of the public health workforce. Careers in public health and related fields are explored.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PH 6070",
+      "course_code": "PH 6070",
+      "department": "PH",
+      "title": "Epidemiology 2",
+      "credit_hours": "3",
+      "description": "Exposure to advanced epidemiological concepts, such as effect modifications and modeling using multiple variables, related to establishing causal relationships from observational data. Prerequisites: <a href=\"/search/?p=PH%206020\" data-action=\"result-detail\" data-group=\"code:PH 6020\" >PH 6020</a>, <a href=\"/search/?p=PH%206030\" data-action=\"result-detail\" data-group=\"code:PH 6030\" >PH 6030</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PH 6020\"}, {\"type\": \"course\", \"code\": \"PH 6030\"}]}",
+      "other_requirements": "Open to graduate-level Public Health students; All other students require instructor permission; Must submit the request at:http://go.uvm.edu/phcourses; Contact Student Advisor, Pallas Ziporyn at Pallas.Ziporyn@uvm.edu for questions; Students will be notified if permission is granted; Asynchronous online course.",
+      "external": false
+    },
+    {
+      "id": "MATH 1234",
+      "course_code": "MATH 1234",
+      "department": "MATH",
+      "title": "Calculus I",
+      "credit_hours": "4",
+      "description": "Introduction to calculus of functions of one variable including: limits, continuity, techniques and applications of differentiation and integration. Credit not given for more than one course in the pair <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, MATH 1234 unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a> or a score of 76 or higher on the placement assessment.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1034\"}, {\"type\": \"other_requirement\", \"description\": \"ALEKS MPA of at least 76\"}]}",
+      "other_requirements": "C- or better in MATH 1034 or a score of 76 or higher on the placement assessment. Prereqs enforced by the system.",
+      "external": true
+    },
+    {
+      "id": "PH 6040",
+      "course_code": "PH 6040",
+      "department": "PH",
+      "title": "Environmental Public Health",
+      "credit_hours": "3",
+      "description": "Explores major areas of environmental public health (EPH), including environmental hazards, exposures, and related health outcomes, including emerging topics in environmental public health.",
+      "prereq_expression": null,
+      "other_requirements": "Open to all Graduate Students and PACE/CE students. All other students require instructor permission; Must submit the request athttp://go.uvm.edu/phcourses; Students will be notified if permission is granted; Contact student Advisor, Pallas Ziporyn at Pallas.Ziporyn@uvm.edu for any questions; Asynchronous Online Course",
+      "external": false
+    },
+    {
+      "id": "PH 6220",
+      "course_code": "PH 6220",
+      "department": "PH",
+      "title": "One Health: Zoonoses",
+      "credit_hours": "3",
+      "description": "Zoonoses and vector-born disease account for the majority of emerging and re-emerging diseases. Covers the drivers that influence infection in animals and humans, tools used for disease monitoring and prevention, and policies and programs aimed at prevention. Cross-listed with: <a href=\"/search/?p=ABIO%206090\" data-action=\"result-detail\" data-group=\"code:ABIO 6090\"  class=\"notoffered\">ABIO 6090</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Cross-listed with: ABIO 6090 . Open to Graduate-level students; Asynchronous online; All other students require instructor permission; Must submit the request at:http://go.uvm.edu/phcourses Students will be notified if permission is granted before classes begin; Contact Program Advisor, Pallas Ziporyn, Pallas.Ziporyn@uvm.edu, with questions; Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "PH 6060",
+      "course_code": "PH 6060",
+      "department": "PH",
+      "title": "Social&Behavioral Public Hlth",
+      "credit_hours": "3",
+      "description": "This course addresses the behavioral, social and cultural factors related to individual and population health, and health disparities over the life course.",
+      "prereq_expression": null,
+      "other_requirements": "Open to all Graduate Students and PACE/CE students. All other students require instructor permission; Must submit the request at:http://go.uvm.edu/phcoursesStudents will be notified if permission is granted; Contact student Advisor, Pallas Ziporyn at Pallas.Ziporyn@uvm.edu for any questions.",
+      "external": false
+    },
+    {
+      "id": "PH 6103",
+      "course_code": "PH 6103",
+      "department": "PH",
+      "title": "Conduct Clin&Translational Res",
+      "credit_hours": "3",
+      "description": "Seminar emphasizing the ethics and mechanics of clinical and translational research.",
+      "prereq_expression": null,
+      "other_requirements": "Open to Graduate-level students and PACE/CE students. Asynchronous online. All other students require instructor permission; Must submit the request athttp://go.uvm.edu/phcoursesStudents will be notified if permission is granted before classes begin; Contact Program Advisor, Pallas Ziporyn at Pallas.Ziporyn@uvm.edu with questions",
+      "external": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "MATH 1234",
+      "target": "PH 6030"
+    },
+    {
+      "source": "PH 5001",
+      "target": "PH 5001"
+    },
+    {
+      "source": "PH 6010",
+      "target": "PH 6920"
+    },
+    {
+      "source": "PH 6020",
+      "target": "PH 6070"
+    },
+    {
+      "source": "PH 6020",
+      "target": "PH 6920"
+    },
+    {
+      "source": "PH 6030",
+      "target": "PH 6070"
+    },
+    {
+      "source": "PH 6030",
+      "target": "PH 6920"
+    },
+    {
+      "source": "PH 6040",
+      "target": "PH 6080"
+    },
+    {
+      "source": "PH 6070",
+      "target": "PH 6920"
+    },
+    {
+      "source": "PH 6200",
+      "target": "PH 6200"
+    }
+  ]
+}

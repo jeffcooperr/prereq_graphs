@@ -1,0 +1,44 @@
+{
+  "department": "ANPS",
+  "nodes": [
+    {
+      "id": "ANPS 2994",
+      "course_code": "ANPS 2994",
+      "department": "ANPS",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission only.",
+      "external": false
+    },
+    {
+      "id": "ANPS 1190",
+      "course_code": "ANPS 1190",
+      "department": "ANPS",
+      "title": "Ugr Hum Anatomy & Physiology 1",
+      "credit_hours": "4",
+      "description": "Part I of two-semester course sequence. Structure and function of human body.",
+      "prereq_expression": null,
+      "other_requirements": "Prereg limited to: BMCS, BIOM, CSD, EMS, EXSC, HSCI, MLS, MRS, NFS, NMT, PE, PHS, PRNU majors only. Degree students only even after major restrictions lifted.",
+      "external": false
+    },
+    {
+      "id": "ANPS 1200",
+      "course_code": "ANPS 1200",
+      "department": "ANPS",
+      "title": "Ugr Hum Anatomy & Physiology 2",
+      "credit_hours": "4",
+      "description": "Part II of two-semester course sequence. Structure and function of human body. Prerequisite: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\"  class=\"notoffered\">ANPS 1190</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"ANPS 1190\"}",
+      "other_requirements": "Common hour exams are held 5:30-7:00pm on these Mondays: 2/9, 3/2, and 4/6. BIOM,CSD,DIET,DNFS,EXSC,HSCI,MLS,NFS, PE, PHS, MRS, PRNU; Majors only until Dec. 2nd, Please contact Patrick Mullen (patrick.c.mullen@uvm.edu) with any questions; Class meets 3x a week with online lab comprising 4th credit; Degree students only even after level restrictions removed; PACE students register for ANPS 1200 ZRA; Prereq enforced by the system:ANPS 1190.",
+      "external": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "ANPS 1190",
+      "target": "ANPS 1200"
+    }
+  ]
+}

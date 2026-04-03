@@ -1,0 +1,378 @@
+{
+  "department": "HSCI",
+  "nodes": [
+    {
+      "id": "HSCI 2500",
+      "course_code": "HSCI 2500",
+      "department": "HSCI",
+      "title": "Health Communication",
+      "credit_hours": "3",
+      "description": "Collaborative investigation of the nature of health communication and an exploration of the ways in which health communication is intertwined with public health and health care. Prerequisites: <a href=\"/search/?p=HSCI%201100\" data-action=\"result-detail\" data-group=\"code:HSCI 1100\" >HSCI 1100</a>; minimum Sophomore standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"HSCI 1100\"}, {\"type\": \"course\", \"code\": \"ENGL 1001\"}]}",
+      "other_requirements": "minimum Sophomore standing",
+      "external": false
+    },
+    {
+      "id": "HSCI 1100",
+      "course_code": "HSCI 1100",
+      "department": "HSCI",
+      "title": "CL:Introduction to Public Hlth",
+      "credit_hours": "3",
+      "description": "An introductory investigation of public health that explores the development and scope of the discipline of public health, and issues that have been raised with regard to the practice of public health.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HSCI 1980",
+      "course_code": "HSCI 1980",
+      "department": "HSCI",
+      "title": "Writing for Health and Equity",
+      "credit_hours": "3",
+      "description": "Introduces the principles and practices of analytical writing as applied to Health issues facing populations. Using literature and current events as a foundation, students learn different approaches to writing about issues relevant to the field of public health, including systemic racism and health equity.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ENGL 1001\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
+      "other_requirements": "PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "HSCI 1300",
+      "course_code": "HSCI 1300",
+      "department": "HSCI",
+      "title": "Epidemics: Dynam of Inf Diseas",
+      "credit_hours": "3",
+      "description": "Through the analysis of historical and fictional infectious disease outbreaks, explores factors which encourage and discourage the emergence of infectious disease. Also examines examples of how disease has influenced human history, focusing on the impact of disease on the rise and fall of civilizations.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HSCI 2991",
+      "course_code": "HSCI 2991",
+      "department": "HSCI",
+      "title": "SL:Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HSCI 1036",
+      "course_code": "HSCI 1036",
+      "department": "HSCI",
+      "title": "CL:Prev Sexual &DatingViolence",
+      "credit_hours": "3",
+      "description": "In-depth examination of the dynamics, prevention of, and legal, medical, and other responses to interpersonal violence. Contemporary issues related to sexual violence, dating/intimate partner violence, and stalking will be discussed at length from both research and practical perspectives. Cross-listed with: <a href=\"/search/?p=GSWS%201405\" data-action=\"result-detail\" data-group=\"code:GSWS 1405\" >GSWS 1405</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HSCI 2400",
+      "course_code": "HSCI 2400",
+      "department": "HSCI",
+      "title": "Hlthcare & Pub Hlth Syst US",
+      "credit_hours": "3",
+      "description": "Summarizes and explains key aspects of the US healthcare and public health delivery systems, including the legal, ethical, economic, and regulatory dimensions of health care and public health policy, and the roles, influences and responsibilities of the different agencies and branches of government with regards to healthcare and public health. Prerequisite: <a href=\"/search/?p=HSCI%201100\" data-action=\"result-detail\" data-group=\"code:HSCI 1100\" >HSCI 1100</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"HSCI 1100\"}",
+      "other_requirements": "PHS & HSCI majors only or instructor permission",
+      "external": false
+    },
+    {
+      "id": "HSCI 2700",
+      "course_code": "HSCI 2700",
+      "department": "HSCI",
+      "title": "Social Justice and Sport",
+      "credit_hours": "3",
+      "description": "A discourse in American sports culture which has long been a haven for the most unjust attitudes and ideas including sexism, racism, and homophobia will be juxtaposed with the strong history of athletes using their high-profile stage for social change.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HSCI 2200",
+      "course_code": "HSCI 2200",
+      "department": "HSCI",
+      "title": "Rsrch Methods in Public Health",
+      "credit_hours": "3",
+      "description": "Exploration of research methods as they pertain to public health and sustainability. With an emphasis on the multiple dimensions of sustainability and health disparities, students will evaluate and analyze primary, secondary and tertiary sources of information. Prerequisite: <a href=\"/search/?p=HSCI%201100\" data-action=\"result-detail\" data-group=\"code:HSCI 1100\" >HSCI 1100</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"HSCI 1100\"}",
+      "other_requirements": "Students are expected to come to class having completed assignments, actively participate in class discussions, and complete assigned projects on time.",
+      "external": false
+    },
+    {
+      "id": "HSCI 2800",
+      "course_code": "HSCI 2800",
+      "department": "HSCI",
+      "title": "Cancer Epidemiology",
+      "credit_hours": "3",
+      "description": "Covers both the major theoretical concepts and practical issues involved in cancer surveillance and research pertaining to the distribution and determinants of cancer. Topics include: introduction to cancer; incidence and mortality rates of common cancers; cancer risk factors and etiology; cancer screening and surveillance; and cancer disparities and global cancer burden. Prerequisites: <a href=\"/search/?p=HSCI%201100\" data-action=\"result-detail\" data-group=\"code:HSCI 1100\" >HSCI 1100</a> recommended; minimum Sophomore standing.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HSCI 1100\"}]}",
+      "other_requirements": "minimum Sophomore standing",
+      "external": false
+    },
+    {
+      "id": "HSCI 3100",
+      "course_code": "HSCI 3100",
+      "department": "HSCI",
+      "title": "Epi, Pub Hlth & Emerg Disease",
+      "credit_hours": "3",
+      "description": "Explores the role of epidemiology in public health, focusing on current and emerging diseases and the principles, concepts, and methods of population-based epidemiology - the study of patterns and determinants of disease in populations. Topics will include measuring disease frequency, rates and proportions, application of epidemiologic study design and disease investigation. Prerequisite: <a href=\"/search/?p=HSCI%202200\" data-action=\"result-detail\" data-group=\"code:HSCI 2200\"  class=\"notoffered\">HSCI 2200</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"HSCI 2200\"}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HSCI 3300",
+      "course_code": "HSCI 3300",
+      "department": "HSCI",
+      "title": "Hlth Promotion Prog Plan/Eval",
+      "credit_hours": "3",
+      "description": "In stages, create a project proposal and evaluation plan for a health-related program. A complete proposal and evaluation plan will be required of each student as the final course outcome. Prerequisites: <a href=\"/search/?p=HSCI%202200\" data-action=\"result-detail\" data-group=\"code:HSCI 2200\"  class=\"notoffered\">HSCI 2200</a>, <a href=\"/search/?p=HSCI%202300\" data-action=\"result-detail\" data-group=\"code:HSCI 2300\" >HSCI 2300</a>, <a href=\"/search/?p=HSCI%202400\" data-action=\"result-detail\" data-group=\"code:HSCI 2400\" >HSCI 2400</a>, <a href=\"/search/?p=HSCI%202500\" data-action=\"result-detail\" data-group=\"code:HSCI 2500\" >HSCI 2500</a>; Public Health Sciences major; Senior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"HSCI 2200\"}, {\"type\": \"course\", \"code\": \"HSCI 2300\"}, {\"type\": \"course\", \"code\": \"HSCI 2400\"}, {\"type\": \"course\", \"code\": \"HSCI 2500\"}]}",
+      "other_requirements": "Public Health Sciences major; Senior standing; or instructor permission",
+      "external": false
+    },
+    {
+      "id": "HSCI 3400",
+      "course_code": "HSCI 3400",
+      "department": "HSCI",
+      "title": "Writing for Health Profess.",
+      "credit_hours": "3",
+      "description": "Review of principles of good writing with an emphasis on non-technical writing commonly used in health care organizations, and organizations that support health and health care in the U.S. and globally. Adaption of materials for lay or low literacy audiences. Prerequisites: <a href=\"/search/?p=HSCI%201980\" data-action=\"result-detail\" data-group=\"code:HSCI 1980\" >HSCI 1980</a>, <a href=\"/search/?p=HSCI%202500\" data-action=\"result-detail\" data-group=\"code:HSCI 2500\" >HSCI 2500</a>; Health Sciences major; Senior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"HSCI 1980\"}, {\"type\": \"course\", \"code\": \"HSCI 2500\"}]}",
+      "other_requirements": "Health Sciences major; Senior standing. Prereq enforced by system:HSCI 1980andHSCI 1980; HSCI or PHS Seniors only; PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "HSCI 1900",
+      "course_code": "HSCI 1900",
+      "department": "HSCI",
+      "title": "Foundations of Health Equity",
+      "credit_hours": "3",
+      "description": "Introduces the concept of health equity and provides an overview of health disparities in the US. Through the lens of social justice, examines historical and current issues at the root of inequitable health outcomes across the US and prompts consideration of possible solutions.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HSCI 3500",
+      "course_code": "HSCI 3500",
+      "department": "HSCI",
+      "title": "SL:Capstone",
+      "credit_hours": "3",
+      "description": "The health-related capstone is a service-learning based course that provides an opportunity to integrate academic learning and skills while gaining exposure to health issues and populations through a service placement with a community agency. Prerequisites: <a href=\"/search/?p=HSCI%203300\" data-action=\"result-detail\" data-group=\"code:HSCI 3300\" >HSCI 3300</a>, <a href=\"/search/?p=HSCI%202200\" data-action=\"result-detail\" data-group=\"code:HSCI 2200\"  class=\"notoffered\">HSCI 2200</a>, <a href=\"/search/?p=HSCI%202400\" data-action=\"result-detail\" data-group=\"code:HSCI 2400\" >HSCI 2400</a>, <a href=\"/search/?p=HSCI%203100\" data-action=\"result-detail\" data-group=\"code:HSCI 3100\" >HSCI 3100</a>, <a href=\"/search/?p=HSCI%202500\" data-action=\"result-detail\" data-group=\"code:HSCI 2500\" >HSCI 2500</a>, <a href=\"/search/?p=HSCI%202300\" data-action=\"result-detail\" data-group=\"code:HSCI 2300\" >HSCI 2300</a>,  <a href=\"/search/?p=HSCI%202100\" data-action=\"result-detail\" data-group=\"code:HSCI 2100\" >HSCI 2100</a>; Public Health Sciences major; minimum Senior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HSCI 3300\"}, {\"type\": \"course\", \"code\": \"HSCI 2200\"}, {\"type\": \"course\", \"code\": \"HSCI 2400\"}, {\"type\": \"course\", \"code\": \"HSCI 3100\"}, {\"type\": \"course\", \"code\": \"HSCI 2500\"}, {\"type\": \"course\", \"code\": \"HSCI 2300\"}, {\"type\": \"course\", \"code\": \"HSCI 2100\"}, {\"type\": \"course\", \"code\": \"ANTH 2191\"}]}]}",
+      "other_requirements": "Public Health Sciences major; minimum Senior standing. HSCI or PHS Seniors Only; Instructor Permission required",
+      "external": false
+    },
+    {
+      "id": "HSCI 2190",
+      "course_code": "HSCI 2190",
+      "department": "HSCI",
+      "title": "Global Public Health Practice",
+      "credit_hours": "3",
+      "description": "Designed for skill-building and to prepare students to work in the global public health field while negotiating cultural differences and responding to complex global public health situations that occur at the intersection of culture and disease. Prerequisite: Global Public Health minor.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HSCI 1110\"}, {\"type\": \"course\", \"code\": \"HSCI 1111\"}]}",
+      "other_requirements": "Prerequisite: Global Public Health minor. Open to degree and PACE students. Students are expected to have a baseline knowledge of global health/global public health.",
+      "external": false
+    },
+    {
+      "id": "HSCI 1200",
+      "course_code": "HSCI 1200",
+      "department": "HSCI",
+      "title": "Antiracism and Health",
+      "credit_hours": "3",
+      "description": "Provides an appreciation for antiracist health-professionalism by examining the intersection of racism and healthcare and how this intersection shapes the way we treat and interact with one another across a wide spectrum of differing identities.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HSCI 2300",
+      "course_code": "HSCI 2300",
+      "department": "HSCI",
+      "title": "Health Promotion",
+      "credit_hours": "3",
+      "description": "Introduces common theories from behavioral and social sciences that are currently being used in health education and health promotion. Focus on issues such as sexual health, smoking, and chronic diseases to support the skill building necessary to effectively motivate behavior change and improve health outcomes. Prerequisite: <a href=\"/search/?p=HSCI%201100\" data-action=\"result-detail\" data-group=\"code:HSCI 1100\" >HSCI 1100</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"HSCI 1100\"}",
+      "other_requirements": "Open to Degree and PACE students.",
+      "external": false
+    },
+    {
+      "id": "HSCI 1993",
+      "course_code": "HSCI 1993",
+      "department": "HSCI",
+      "title": "COIL:IS:Pub Hlth:Disblt IntCon",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ANTH 2191",
+      "course_code": "ANTH 2191",
+      "department": "ANTH",
+      "title": "Foundations of Global Health",
+      "credit_hours": "3",
+      "description": "Explores global health and global health challenges affecting people primarily in developing or resource-constrained countries. Prerequisite: Minimum Sophomore standing. Cross-listed with: <a href=\"/search/?p=HSCI%202100\" data-action=\"result-detail\" data-group=\"code:HSCI 2100\" >HSCI 2100</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ANTH 2191\"}, {\"type\": \"course\", \"code\": \"HSCI 2100\"}]}",
+      "other_requirements": "Minimum Sophomore standing. ANTH and HSOC majors only during the week of registration, then ANTH and HSOC minors may also enroll; Degree students only; Cross listed listed with HSCI 2100A; Total combined enrollment: 60",
+      "external": true
+    },
+    {
+      "id": "ENGL 1001",
+      "course_code": "ENGL 1001",
+      "department": "ENGL",
+      "title": "Written Expression",
+      "credit_hours": "3",
+      "description": "A foundational composition course featuring a sequence of writing, reading, and information literacy assignments. Students learn to write and revise for different rhetorical situations while increasing their mastery of academic conventions. Some sections designed for specific student audiences.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "HSCI 2600",
+      "course_code": "HSCI 2600",
+      "department": "HSCI",
+      "title": "Racism and Health Disparities",
+      "credit_hours": "3",
+      "description": "Introduces basic issues that underlie health disparities, with a focus on the connection between racism and health disparities in the U.S.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HSCI 3450",
+      "course_code": "HSCI 3450",
+      "department": "HSCI",
+      "title": "COIL:Ethcl Hlth Prof Ld & Advc",
+      "credit_hours": "3",
+      "description": "Offers an opportunity for students to engage across disciplines to work towards creating more just communities and societies to ensure that all people can reach their highest potential for health.",
+      "prereq_expression": null,
+      "other_requirements": "Open to degree and PACE students; Asynchronous online",
+      "external": false
+    },
+    {
+      "id": "HSCI 2990",
+      "course_code": "HSCI 2990",
+      "department": "HSCI",
+      "title": "Ethical Leadership for Hlth Pr",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HSCI 2100",
+      "course_code": "HSCI 2100",
+      "department": "HSCI",
+      "title": "Fndns of Global Health",
+      "credit_hours": "3",
+      "description": "Explores global health and global health challenges affecting people primarily in developing or resource-constrained countries. Prerequisite: Minimum Sophomore standing. Cross-listed with: <a href=\"/search/?p=ANTH%202191\" data-action=\"result-detail\" data-group=\"code:ANTH 2191\" >ANTH 2191</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Sophomore standing. HSCI, PHS, and MRS majors only; Degree students only;",
+      "external": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "ANTH 2191",
+      "target": "ANTH 2191"
+    },
+    {
+      "source": "ANTH 2191",
+      "target": "HSCI 3500"
+    },
+    {
+      "source": "ENGL 1001",
+      "target": "HSCI 1980"
+    },
+    {
+      "source": "ENGL 1001",
+      "target": "HSCI 2500"
+    },
+    {
+      "source": "HSCI 1100",
+      "target": "HSCI 2200"
+    },
+    {
+      "source": "HSCI 1100",
+      "target": "HSCI 2300"
+    },
+    {
+      "source": "HSCI 1100",
+      "target": "HSCI 2400"
+    },
+    {
+      "source": "HSCI 1100",
+      "target": "HSCI 2500"
+    },
+    {
+      "source": "HSCI 1100",
+      "target": "HSCI 2800"
+    },
+    {
+      "source": "HSCI 1980",
+      "target": "HSCI 3400"
+    },
+    {
+      "source": "HSCI 2100",
+      "target": "ANTH 2191"
+    },
+    {
+      "source": "HSCI 2100",
+      "target": "HSCI 3500"
+    },
+    {
+      "source": "HSCI 2200",
+      "target": "HSCI 3100"
+    },
+    {
+      "source": "HSCI 2200",
+      "target": "HSCI 3300"
+    },
+    {
+      "source": "HSCI 2200",
+      "target": "HSCI 3500"
+    },
+    {
+      "source": "HSCI 2300",
+      "target": "HSCI 3300"
+    },
+    {
+      "source": "HSCI 2300",
+      "target": "HSCI 3500"
+    },
+    {
+      "source": "HSCI 2400",
+      "target": "HSCI 3300"
+    },
+    {
+      "source": "HSCI 2400",
+      "target": "HSCI 3500"
+    },
+    {
+      "source": "HSCI 2500",
+      "target": "HSCI 3300"
+    },
+    {
+      "source": "HSCI 2500",
+      "target": "HSCI 3400"
+    },
+    {
+      "source": "HSCI 2500",
+      "target": "HSCI 3500"
+    },
+    {
+      "source": "HSCI 3100",
+      "target": "HSCI 3500"
+    },
+    {
+      "source": "HSCI 3300",
+      "target": "HSCI 3500"
+    }
+  ]
+}

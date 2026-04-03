@@ -1,0 +1,17 @@
+{
+  "department": "MED",
+  "nodes": [
+    {
+      "id": "MED 5991",
+      "course_code": "MED 5991",
+      "department": "MED",
+      "title": "Int:Microscopy/Cytology",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded.  Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    }
+  ],
+  "edges": []
+}

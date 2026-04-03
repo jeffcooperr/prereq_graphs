@@ -1,0 +1,28 @@
+{
+  "department": "ORTH",
+  "nodes": [
+    {
+      "id": "ORTH 3910",
+      "course_code": "ORTH 3910",
+      "department": "ORTH",
+      "title": "Rsch in Orth & Rehab",
+      "credit_hours": "3",
+      "description": null,
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ORTH 3993",
+      "course_code": "ORTH 3993",
+      "department": "ORTH",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,306 @@
+{
+  "department": "LING",
+  "nodes": [
+    {
+      "id": "ANTH 1600",
+      "course_code": "ANTH 1600",
+      "department": "ANTH",
+      "title": "Linguistic Anthropology",
+      "credit_hours": "3",
+      "description": "Introduction to linguistic anthropology, focusing on language and communication as they pertain to human culture and human social interaction.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "LING 1750",
+      "course_code": "LING 1750",
+      "department": "LING",
+      "title": "Computational Linguistics",
+      "credit_hours": "3",
+      "description": "Provides an introduction to Python programming and the fundamentals of natural language processing. This course gives a brief introduction to a broad range of important topics in natural language processing, including regular expressions, dependency parsing, embedding models and language models, and introduces fundamental concepts in machine learning and neural networks. Prerequisite: <a href=\"/search/?p=LING%201500\" data-action=\"result-detail\" data-group=\"code:LING 1500\" >LING 1500</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"LING 1500\"}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "LING 2450",
+      "course_code": "LING 2450",
+      "department": "LING",
+      "title": "Pedagogy of Grammar & Pronunc",
+      "credit_hours": "3",
+      "description": "Students develop a working knowledge of the structure of the English language and apply this knowledge to the teaching of grammar and pronunciation. Focus on common challenges for learners of English from a variety of native language backgrounds, along with techniques and materials for addressing these in a classroom setting. Relies on evidence-based practices for teaching grammar and pronunciation, and effective error correction delivery for student proficiency and accuracy. Prerequisite: <a href=\"/search/?p=LING%201500\" data-action=\"result-detail\" data-group=\"code:LING 1500\" >LING 1500</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"LING 1500\"}",
+      "other_requirements": "PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "LING 2320",
+      "course_code": "LING 2320",
+      "department": "LING",
+      "title": "Second Language Acquisition",
+      "credit_hours": "3",
+      "description": "Exploration of first language influence, individual cognitive differences, and age in second language acquisition. The role of interaction, socialization, and identity are also considered. Prerequisite: <a href=\"/search/?p=LING%201500\" data-action=\"result-detail\" data-group=\"code:LING 1500\" >LING 1500</a> or <a href=\"/search/?p=PSYS%201400\" data-action=\"result-detail\" data-group=\"code:PSYS 1400\" >PSYS 1400</a>. Cross-listed with: <a href=\"/search/?p=PSYS%202120\" data-action=\"result-detail\" data-group=\"code:PSYS 2120\" >PSYS 2120</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LING 1500\"}, {\"type\": \"course\", \"code\": \"PSYS 1400\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "LING 2620",
+      "course_code": "LING 2620",
+      "department": "LING",
+      "title": "Pragmatics",
+      "credit_hours": "3",
+      "description": "An exploration of the contexts of language--physical, linguistic, and cultural--and their roles in determining the meaning of everyday talk and writing. Prerequisite: <a href=\"/search/?p=LING%201500\" data-action=\"result-detail\" data-group=\"code:LING 1500\" >LING 1500</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"LING 1500\"}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "LING 1500",
+      "course_code": "LING 1500",
+      "department": "LING",
+      "title": "Introduction to Linguistics",
+      "credit_hours": "3",
+      "description": "Introduction to biological, cognitive, and cultural bases of human communication through language, and to modern linguistic theory. Assignments provide opportunities for critical thinking and writing.",
+      "prereq_expression": null,
+      "other_requirements": "Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "LING 2990",
+      "course_code": "LING 2990",
+      "department": "LING",
+      "title": "Corpus Linguistics",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"LING 1500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PACE\"}, {\"type\": \"course\", \"code\": \"STUDENTS\"}]}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "LING 1990",
+      "course_code": "LING 1990",
+      "department": "LING",
+      "title": "Language, Technology & Society",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": "Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "LING 2400",
+      "course_code": "LING 2400",
+      "department": "LING",
+      "title": "TESOL and Applied Linguistics",
+      "credit_hours": "3",
+      "description": "Provides an overview of second language/ESL classroom theory and research. Topics include: teaching approaches, learning environment and outcomes, program planning, syllabus and material design, lesson planning, and assessment. Emphasis on practical application of topics discussed. Prerequisite: <a href=\"/search/?p=LING%201500\" data-action=\"result-detail\" data-group=\"code:LING 1500\" >LING 1500</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"LING 1500\"}",
+      "other_requirements": "PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "LING 3995",
+      "course_code": "LING 3995",
+      "department": "LING",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission",
+      "external": false
+    },
+    {
+      "id": "LING 2560",
+      "course_code": "LING 2560",
+      "department": "LING",
+      "title": "Syntax",
+      "credit_hours": "3",
+      "description": "Introduction to the syntax of natural languages and a rigorous approach to the analysis of sentence structure. Prerequisites: <a href=\"/search/?p=ANTH%201600\" data-action=\"result-detail\" data-group=\"code:ANTH 1600\" >ANTH 1600</a> or <a href=\"/search/?p=LING%201500\" data-action=\"result-detail\" data-group=\"code:LING 1500\" >LING 1500</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ANTH 1600\"}, {\"type\": \"course\", \"code\": \"LING 1500\"}]}",
+      "other_requirements": "PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "LING 4994",
+      "course_code": "LING 4994",
+      "department": "LING",
+      "title": "Teaching Assistantship",
+      "credit_hours": "3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "LING 2530",
+      "course_code": "LING 2530",
+      "department": "LING",
+      "title": "Phonology",
+      "credit_hours": "3",
+      "description": "Surveys the study of the organization of sounds and internal word structure, covering a range of phenomena: alternations, constraints, tone, and more. Prerequisite: <a href=\"/search/?p=LING%201500\" data-action=\"result-detail\" data-group=\"code:LING 1500\" >LING 1500</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"LING 1500\"}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "LING 2210",
+      "course_code": "LING 2210",
+      "department": "LING",
+      "title": "Sociolinguistics",
+      "credit_hours": "3",
+      "description": "Exploration of language and nonverbal interactions as cultural activities. Focus on rules and patterns people display appropriate to communication and social interaction. Prerequisites: <a href=\"/search/?p=LING%201500\" data-action=\"result-detail\" data-group=\"code:LING 1500\" >LING 1500</a> or <a href=\"/search/?p=ANTH%201600\" data-action=\"result-detail\" data-group=\"code:ANTH 1600\" >ANTH 1600</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LING 1500\"}, {\"type\": \"course\", \"code\": \"ANTH 1600\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "PSYS 1400",
+      "course_code": "PSYS 1400",
+      "department": "PSYS",
+      "title": "Intro to Psychological Science",
+      "credit_hours": "3",
+      "description": "Introduction to the entire field, emphasizing the behavior of the normal adult human being.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "LING 4996",
+      "course_code": "LING 4996",
+      "department": "LING",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "LING 3990",
+      "course_code": "LING 3990",
+      "department": "LING",
+      "title": "Spanish Phonology",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LING 1500\"}, {\"type\": \"course\", \"code\": \"SPAN 3116\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "LING 4400",
+      "course_code": "LING 4400",
+      "department": "LING",
+      "title": "Techniques & Procedures in ESL",
+      "credit_hours": "4",
+      "description": "Designed for students preparing to teach English to speakers of other languages. Teaches best practices for second-language classrooms, and gain extensive first-hand experience in ESL teaching. Also relevant for teaching other foreign languages. Prerequisites: <a href=\"/search/?p=LING%201500\" data-action=\"result-detail\" data-group=\"code:LING 1500\" >LING 1500</a>, <a href=\"/search/?p=LING%202400\" data-action=\"result-detail\" data-group=\"code:LING 2400\"  class=\"notoffered\">LING 2400</a>. Pre/co-requisite: <a href=\"/search/?p=LING%201400\" data-action=\"result-detail\" data-group=\"code:LING 1400\"  class=\"notoffered\">LING 1400</a>, <a href=\"/search/?p=LING%202320\" data-action=\"result-detail\" data-group=\"code:LING 2320\" >LING 2320</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LING 1500\"}, {\"type\": \"course\", \"code\": \"LING 2400\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LING 1400\"}, {\"type\": \"course\", \"code\": \"LING 2320\"}]}]}",
+      "other_requirements": "Students must be enrolled in TESOL certificate program; Senior standing or instructor permission. PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "LING 3991",
+      "course_code": "LING 3991",
+      "department": "LING",
+      "title": "Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "LING 4500",
+      "course_code": "LING 4500",
+      "department": "LING",
+      "title": "Linguistics Capstone Seminar",
+      "credit_hours": "3",
+      "description": "Seminar on a topic in linguistics. Includes a research component, readings, writing, and discussion centered on the topic of focus. Prerequisites: Linguistics major; minimum Junior standing.",
+      "prereq_expression": null,
+      "other_requirements": "Linguistics major; minimum Junior standing. LING majors only; minimum senior standing",
+      "external": false
+    },
+    {
+      "id": "LING 2510",
+      "course_code": "LING 2510",
+      "department": "LING",
+      "title": "Phonetics",
+      "credit_hours": "3",
+      "description": "Linguistic, acoustic, and articulatory phonetics. Stresses phonetic theory and the analysis of speech variation around the world and across the lifespan. Prerequisite: <a href=\"/search/?p=LING%201500\" data-action=\"result-detail\" data-group=\"code:LING 1500\" >LING 1500</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LING 080\"}, {\"type\": \"course\", \"code\": \"LING 1500\"}]}",
+      "other_requirements": "PACE students by permission and override",
+      "external": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "ANTH 1600",
+      "target": "LING 2210"
+    },
+    {
+      "source": "ANTH 1600",
+      "target": "LING 2560"
+    },
+    {
+      "source": "LING 1500",
+      "target": "LING 1750"
+    },
+    {
+      "source": "LING 1500",
+      "target": "LING 2210"
+    },
+    {
+      "source": "LING 1500",
+      "target": "LING 2320"
+    },
+    {
+      "source": "LING 1500",
+      "target": "LING 2400"
+    },
+    {
+      "source": "LING 1500",
+      "target": "LING 2450"
+    },
+    {
+      "source": "LING 1500",
+      "target": "LING 2510"
+    },
+    {
+      "source": "LING 1500",
+      "target": "LING 2530"
+    },
+    {
+      "source": "LING 1500",
+      "target": "LING 2560"
+    },
+    {
+      "source": "LING 1500",
+      "target": "LING 2620"
+    },
+    {
+      "source": "LING 1500",
+      "target": "LING 2990"
+    },
+    {
+      "source": "LING 1500",
+      "target": "LING 3990"
+    },
+    {
+      "source": "LING 1500",
+      "target": "LING 4400"
+    },
+    {
+      "source": "LING 2320",
+      "target": "LING 4400"
+    },
+    {
+      "source": "LING 2400",
+      "target": "LING 4400"
+    },
+    {
+      "source": "PSYS 1400",
+      "target": "LING 2320"
+    }
+  ]
+}

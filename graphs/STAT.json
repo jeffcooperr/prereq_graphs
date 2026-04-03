@@ -1,0 +1,829 @@
+{
+  "department": "STAT",
+  "nodes": [
+    {
+      "id": "MATH 2522",
+      "course_code": "MATH 2522",
+      "department": "MATH",
+      "title": "Applied Linear Algebra",
+      "credit_hours": "3",
+      "description": "Vectors, matrices, linear independence, vector spaces (with focus on real n-space), determinants, linear transformations, eigenvalues and eigenvectors. Applications from engineering and the sciences incorporated through required computer assignments. Credit not given for both MATH 2522 and <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>. Prerequisite: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "Credit not given for both MATH 2522 and MATH 2544. Open to Degree and PACE students. System waitlisting enabled for this section. This is a lecture-based course. Topics will be presented with a level of depth and rigor appropriate for students pursuing degrees in technical fields such as engineering, computer science, or the physical sciences. Math Majors should take Math 2544 Linear Algebra. Materials: WebAssign access for Linear Algebra with Applications, 9th edition, by Garreth Williams ISBN 1284154696 . WebAssign includes access to an e-text, as well as homework exercises. Matlab Assignments: No prior experience with Matlab is assumed. Matlab is used throughout the course and is available on the UVM CEMS computers and it can be downloaded from:https://www.uvm.edu/cems/installing_matlab_students",
+      "external": true
+    },
+    {
+      "id": "STAT 6990",
+      "course_code": "STAT 6990",
+      "department": "STAT",
+      "title": "Causal Inference",
+      "credit_hours": "3",
+      "description": "Lectures or directed readings on advanced and contemporary topics not presently included in other statistics courses. Prerequisites: As listed in schedule of courses.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 6990\"}]}]}",
+      "other_requirements": "As listed in schedule of courses.",
+      "external": false
+    },
+    {
+      "id": "STAT 5310",
+      "course_code": "STAT 5310",
+      "department": "STAT",
+      "title": "Experimental Design",
+      "credit_hours": "3",
+      "description": "Randomization, complete and incomplete blocks, cross-overs, Latin squares, covariance analysis, factorial experiments, confounding, fractional factorials, nesting, split plots, repeated measures, mixed models, response surface optimization. Prerequisites: Graduate student or Instructor permission; content knowledge of <a href=\"/search/?p=STAT%203210\" data-action=\"result-detail\" data-group=\"code:STAT 3210\" >STAT 3210</a> or <a href=\"/search/?p=STAT%205210\" data-action=\"result-detail\" data-group=\"code:STAT 5210\" >STAT 5210</a> assumed; content knowledge of <a href=\"/search/?p=STAT%205010\" data-action=\"result-detail\" data-group=\"code:STAT 5010\"  class=\"notoffered\">STAT 5010</a> recommended.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 3210\"}, {\"type\": \"course\", \"code\": \"STAT 5210\"}]}",
+      "other_requirements": "Graduate student or Instructor permission; content knowledge of STAT 5010 recommended.",
+      "external": false
+    },
+    {
+      "id": "STAT 6870",
+      "course_code": "STAT 6870",
+      "department": "STAT",
+      "title": "Data Science II",
+      "credit_hours": "3",
+      "description": "Advanced data analysis, collection, and filtering; statistical modeling, monte carlo statistical methods, and in particular Bayesian data analysis, including necessary probabilistic background material; a practical focus on real datasets and developing good habits for rigorous and reproducible computational science. Prerequisites: <a href=\"/search/?p=STAT%205870\" data-action=\"result-detail\" data-group=\"code:STAT 5870\"  class=\"notoffered\">STAT 5870</a>, <a href=\"/search/?p=CS%205870\" data-action=\"result-detail\" data-group=\"code:CS 5870\"  class=\"notoffered\">CS 5870</a>, <a href=\"/search/?p=CSYS%205870\" data-action=\"result-detail\" data-group=\"code:CSYS 5870\"  class=\"notoffered\">CSYS 5870</a>, or Instructor permission. Cross-listed with: <a href=\"/search/?p=CS%206870\" data-action=\"result-detail\" data-group=\"code:CS 6870\" >CS 6870</a>, <a href=\"/search/?p=CSYS%206870\" data-action=\"result-detail\" data-group=\"code:CSYS 6870\" >CSYS 6870</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 5870\"}, {\"type\": \"course\", \"code\": \"CS 5870\"}, {\"type\": \"course\", \"code\": \"CSYS 5870\"}]}",
+      "other_requirements": "Instructor permission",
+      "external": false
+    },
+    {
+      "id": "STAT 1110",
+      "course_code": "STAT 1110",
+      "department": "STAT",
+      "title": "Elements of Statistics",
+      "credit_hours": "3",
+      "description": "Basic statistical concepts, methods, and applications, including correlation, regression, confidence intervals, and hypothesis tests. Prerequisites: Two years of high school algebra.",
+      "prereq_expression": null,
+      "other_requirements": "Two years of high school algebra. Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "MATH 2248",
+      "course_code": "MATH 2248",
+      "department": "MATH",
+      "title": "Calculus III",
+      "credit_hours": "4",
+      "description": "Vector-valued functions. Calculus of functions of several variables: partial derivatives, gradient, divergence, curl, multiple integrals, line integrals, Stokes' and Green's theorems. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "C- or better in MATH 1248 or MATH 1242",
+      "external": true
+    },
+    {
+      "id": "STAT 6391",
+      "course_code": "STAT 6391",
+      "department": "STAT",
+      "title": "Master's Thesis Research",
+      "credit_hours": "3",
+      "description": "Research for the Master's Thesis.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "STAT 3210",
+      "course_code": "STAT 3210",
+      "department": "STAT",
+      "title": "Advanced Statistical Methods",
+      "credit_hours": "3",
+      "description": "Multiple regression and correlation. Basic experimental design. Analysis of variance (fixed, random, and mixed models). Analysis of covariance. Statistical Software usage. Credit not awarded for both STAT 3210 and <a href=\"/search/?p=STAT%205210\" data-action=\"result-detail\" data-group=\"code:STAT 5210\" >STAT 5210</a>. Prerequisite: <a href=\"/search/?p=STAT%202830\" data-action=\"result-detail\" data-group=\"code:STAT 2830\" >STAT 2830</a> with a grade of C or better; <a href=\"/search/?p=STAT%203010\" data-action=\"result-detail\" data-group=\"code:STAT 3010\" >STAT 3010</a> recommended.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 2830\"}]}",
+      "other_requirements": "STAT 2830 with a grade of C or better; STAT 3010 recommended. A basic knowledge of R is expected.",
+      "external": false
+    },
+    {
+      "id": "STAT 6020",
+      "course_code": "STAT 6020",
+      "department": "STAT",
+      "title": "Applied Statistics II",
+      "credit_hours": "3",
+      "description": "Expands on foundational knowledge of statistics by teaching advanced methods and approaches, including conducting analyses using statistical software, collaborating as part of an interdisciplinary team, communicating and presenting research findings. Addresses practical issues and meaningful, real-world impacts with an emphasis on data equity and interpretation and communication of results. Focuses on the responsible application of advanced statistical methods, concentrating on concepts rather than mathematical theory. Background in calculus or linear algebra is not required. Prerequisites: <a href=\"/search/?p=STAT%205020\" data-action=\"result-detail\" data-group=\"code:STAT 5020\"  class=\"notoffered\">STAT 5020</a>; Graduate student or Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 5020\"}]}",
+      "other_requirements": "Graduate student or Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "CS 5870",
+      "course_code": "CS 5870",
+      "department": "CS",
+      "title": "Data Science I - Experience",
+      "credit_hours": "3",
+      "description": "Data harvesting, cleaning, and summarizing; working with non-traditional, non-numeric data (social network, natural language textual data, etc.); scientific visualization; advanced data pipelines with a practical focus on real datasets and developing good habits for rigorous and reproducible computational science; Project-based. Credit not awarded for both CS 5870 and <a href=\"/search/?p=CS%203870\" data-action=\"result-detail\" data-group=\"code:CS 3870\" >CS 3870</a>. Prerequisites: Knowledge of <a href=\"/search/?p=CS%201210\" data-action=\"result-detail\" data-group=\"code:CS 1210\" >CS 1210</a> and either <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a> or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a> required; knowledge of <a href=\"/search/?p=CS%202100\" data-action=\"result-detail\" data-group=\"code:CS 2100\" >CS 2100</a> and <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a> recommended; Graduate student or Instructor permission. Cross-listed with: <a href=\"/search/?p=STAT%205870\" data-action=\"result-detail\" data-group=\"code:STAT 5870\" >STAT 5870</a>, <a href=\"/search/?p=CSYS%205870\" data-action=\"result-detail\" data-group=\"code:CSYS 5870\" >CSYS 5870</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CS 1210\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"STAT 2430\"}]}]}",
+      "other_requirements": "Knowledge of CS 2100 and MATH 2522 or MATH 2544 recommended; Graduate student or Instructor permission.",
+      "external": true
+    },
+    {
+      "id": "STAT 5000",
+      "course_code": "STAT 5000",
+      "department": "STAT",
+      "title": "Biostatistics and Epidemiology",
+      "credit_hours": "3",
+      "description": "Introductory design and analysis of medical studies. Epidemiological concepts, case-control and cohort studies. Clinical trials. Students evaluate statistical aspects of published health science studies.  Understand the relevance of published public health research to clinical practice. Credit not awarded for both STAT 5000 and <a href=\"/search/?p=STAT%203000\" data-action=\"result-detail\" data-group=\"code:STAT 3000\" >STAT 3000</a>. Prerequisite: Graduate student or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate standing or instructor permission",
+      "external": false
+    },
+    {
+      "id": "CS 2870",
+      "course_code": "CS 2870",
+      "department": "CS",
+      "title": "Intermediate Data Science",
+      "credit_hours": "3",
+      "description": "Learn data science techniques, from import to cleaning to visualizing and modeling, using the Python language. Machine learning methods include regression, classification and clustering algorithms. Programming methods include user-defined functions. Prerequisites: <a href=\"/search/?p=CS%201210\" data-action=\"result-detail\" data-group=\"code:CS 1210\" >CS 1210</a>; <a href=\"/search/?p=STAT%201110\" data-action=\"result-detail\" data-group=\"code:STAT 1110\" >STAT 1110</a>, <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a>. Cross-listed with: <a href=\"/search/?p=STAT%202870\" data-action=\"result-detail\" data-group=\"code:STAT 2870\" >STAT 2870</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CS 1210\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1110\"}, {\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"STAT 2430\"}]}]}",
+      "other_requirements": "Prereqs enforced by the system:STAT 1110orSTAT 1410orSTAT 2430;\nCross-listed withSTAT 2870A;\nTotal combined enrollment: 40;\nOpen to Degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "STAT 3995",
+      "course_code": "STAT 3995",
+      "department": "STAT",
+      "title": "Undergraduate Research",
+      "credit_hours": "3",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "STAT 7980",
+      "course_code": "STAT 7980",
+      "department": "STAT",
+      "title": "Applied Geostatistics",
+      "credit_hours": "3",
+      "description": "Introduction to the theory of regionalized variables, geostatistics (kriging techniques): special topics in multivariate analysis; Applications to real data subject to spatial variation are emphasized. Prerequisites: Programming skills (such as in Python or Matlab) and content knowledge of multivariate statistics (such as <a href=\"/search/?p=STAT%205230\" data-action=\"result-detail\" data-group=\"code:STAT 5230\"  class=\"notoffered\">STAT 5230</a>) are assumed. Cross-listed with: <a href=\"/search/?p=CEE%207980\" data-action=\"result-detail\" data-group=\"code:CEE 7980\" >CEE 7980</a>, <a href=\"/search/?p=CSYS%207980\" data-action=\"result-detail\" data-group=\"code:CSYS 7980\" >CSYS 7980</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 5230\"}]}",
+      "other_requirements": "Programming skills (such as in Python or Matlab) and content knowledge of multivariate statistics are assumed.",
+      "external": false
+    },
+    {
+      "id": "STAT 5510",
+      "course_code": "STAT 5510",
+      "department": "STAT",
+      "title": "Probability Theory",
+      "credit_hours": "3",
+      "description": "Distributions of random variables and functions of random variables. Expectations, stochastic independence, sampling and limiting distributions (central limit theorems). Concepts of random number generation. Prerequisites: Graduate student or Instructor permission; content knowledge of <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>, <a href=\"/search/?p=STAT%202510\" data-action=\"result-detail\" data-group=\"code:STAT 2510\" >STAT 2510</a> assumed.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2248\"}, {\"type\": \"course\", \"code\": \"STAT 2510\"}]}",
+      "other_requirements": "Graduate student or Instructor permission; content knowledge of MATH 2248, STAT 2510 assumed. Prereqs enforced by the system: Graduate standing or or instructor permission; Content knowledge ofMATH 2248,MATH 2248,STAT 2510assumed",
+      "external": false
+    },
+    {
+      "id": "STAT 2430",
+      "course_code": "STAT 2430",
+      "department": "STAT",
+      "title": "Statistics for Engineering",
+      "credit_hours": "4",
+      "description": "Data analysis, probability models, parameter estimation, hypothesis testing. Multi- factor experimental design and regression analysis. Quality control, SPC, reliability. Engineering cases and project. Statistical analysis software. Credit not awarded for both <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a> and STAT 2430. Prerequisites: <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "other_requirements": "Minimum sophomore standing; Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "STAT 3000",
+      "course_code": "STAT 3000",
+      "department": "STAT",
+      "title": "Med Biostat&Epidemiology",
+      "credit_hours": "3",
+      "description": "Introductory design and analysis of medical studies. Epidemiological concepts, case-control and cohort studies. Clinical trials. Students evaluate statistical aspects of published health science studies. Credit not awarded for both STAT 3000 and <a href=\"/search/?p=STAT%205000\" data-action=\"result-detail\" data-group=\"code:STAT 5000\" >STAT 5000</a>. Prerequisite: <a href=\"/search/?p=STAT%201110\" data-action=\"result-detail\" data-group=\"code:STAT 1110\" >STAT 1110</a>, <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a>, or <a href=\"/search/?p=STAT%203210\" data-action=\"result-detail\" data-group=\"code:STAT 3210\"  class=\"notoffered\">STAT 3210</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1110\"}, {\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"STAT 2430\"}, {\"type\": \"course\", \"code\": \"STAT 3210\"}]}",
+      "other_requirements": "Credit not awarded for both STAT 3000 and STAT 5000.",
+      "external": false
+    },
+    {
+      "id": "STAT 2830",
+      "course_code": "STAT 2830",
+      "department": "STAT",
+      "title": "Basic Statistical Methods 2",
+      "credit_hours": "3",
+      "description": "Quantitative statistical methodologies useful across disciplines. Analysis of variance, multiple and logistic regression, time series analysis, non-parametric methods, Bayesian statistics and decision analysis. Prerequisite: A grade of C or better in <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a>, or <a href=\"/search/?p=STAT%203210\" data-action=\"result-detail\" data-group=\"code:STAT 3210\"  class=\"notoffered\">STAT 3210</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"STAT 2430\"}, {\"type\": \"course\", \"code\": \"STAT 3210\"}]}",
+      "other_requirements": "A grade of C or better in STAT 1410, STAT 2430, or STAT 3210; Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "STAT 1410",
+      "course_code": "STAT 1410",
+      "department": "STAT",
+      "title": "Basic Statistical Methods 1",
+      "credit_hours": "3",
+      "description": "Foundational course for students taking further quantitative courses. Exploratory data analysis, probability distributions, estimation, hypothesis testing. Introductory regression, experimentation, contingency tables, and nonparametrics. Computer software used. Credit not awarded for more than one of STAT 1410 or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Credit not awarded for more than one of STAT 1410 or STAT 2430. Open to Degree and PACE students.",
+      "external": false
+    },
+    {
+      "id": "STAT 5210",
+      "course_code": "STAT 5210",
+      "department": "STAT",
+      "title": "Advanced Stat Methods & Theory",
+      "credit_hours": "3",
+      "description": "Parametric and non-parametric two-sample tests. Multiple regression and correlation. Matrix representations. Basic experimental design. Analysis of variance (fixed, random, and mixed models). Statistical Software usage. Credit not awarded for both STAT 5210 and <a href=\"/search/?p=STAT%203210\" data-action=\"result-detail\" data-group=\"code:STAT 3210\"  class=\"notoffered\">STAT 3210</a>. Prerequisites: Graduate student or Instructor permission; content knowledge of <a href=\"/search/?p=STAT%202830\" data-action=\"result-detail\" data-group=\"code:STAT 2830\" >STAT 2830</a> assumed.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 2830\"}]}",
+      "other_requirements": "Graduate student or Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "STAT 6300",
+      "course_code": "STAT 6300",
+      "department": "STAT",
+      "title": "Bayesian Statistics",
+      "credit_hours": "3",
+      "description": "Introduction to Bayesian inference. Posterior inference, predictive distributions, prior distribution selection. MCMC algorithms. Hierarchical models. Model checking and selection. Use of computer software. Prerequisite: Content knowledge of <a href=\"/search/?p=STAT%205510\" data-action=\"result-detail\" data-group=\"code:STAT 5510\" >STAT 5510</a> assumed.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"STAT 5510\"}",
+      "other_requirements": "Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "STAT 6810",
+      "course_code": "STAT 6810",
+      "department": "STAT",
+      "title": "Statistical Research",
+      "credit_hours": "3",
+      "description": "Methodologic or data analytic research culminating in oral and written reports to the faculty. Prerequisite: Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "STAT 3240",
+      "course_code": "STAT 3240",
+      "department": "STAT",
+      "title": "Stats for Qualty&Productvty",
+      "credit_hours": "3",
+      "description": "Statistical process control; Shewhart, cusum and other control charts; process capability studies. Total Quality Management. Acceptance, continuous, sequential sampling. Process design and improvement. Case studies. Prerequisite: <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a>, or <a href=\"/search/?p=STAT%203210\" data-action=\"result-detail\" data-group=\"code:STAT 3210\"  class=\"notoffered\">STAT 3210</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"STAT 2430\"}, {\"type\": \"course\", \"code\": \"STAT 3210\"}]}",
+      "other_requirements": "Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "MATH 1248",
+      "course_code": "MATH 1248",
+      "department": "MATH",
+      "title": "Calculus II",
+      "credit_hours": "4",
+      "description": "Vectors and vector operations. Techniques and applications of integration. Polar coordinates, Taylor polynomials, sequences and series, power series. Credit will not be given for both MATH 1248 and <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 021\"}]}",
+      "other_requirements": "C- or better in MATH 1234. C- or better in MATH 021.",
+      "external": true
+    },
+    {
+      "id": "STAT 3996",
+      "course_code": "STAT 3996",
+      "department": "STAT",
+      "title": "Undergrad Honors Thesis",
+      "credit_hours": "3",
+      "description": "A program of reading, research, design, and analysis culminating in a written thesis and oral defense. Honors notation appears on transcript and Commencement Program. Contact Statistics Program Director for procedures.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "STAT 5230",
+      "course_code": "STAT 5230",
+      "department": "STAT",
+      "title": "Appld Multivariate Analysis",
+      "credit_hours": "3",
+      "description": "Multivariate normal distribution. Inference for mean vectors and covariance matrices. Multivariate analysis of variance (MANOVA), discrimination and classification, principal components, factor and cluster analysis. Prerequisite: Graduate student or Instructor permission; content knowledge of <a href=\"/search/?p=STAT%203210\" data-action=\"result-detail\" data-group=\"code:STAT 3210\" >STAT 3210</a> and <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a> assumed.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 3210\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}]}",
+      "other_requirements": "Graduate student or Instructor permission",
+      "external": false
+    },
+    {
+      "id": "CS 3540",
+      "course_code": "CS 3540",
+      "department": "CS",
+      "title": "Machine Learning",
+      "credit_hours": "3",
+      "description": "Introduction to machine learning algorithms, theory, and implementation, including supervised and unsupervised learning; topics typically include linear and logistic regression, learning theory, support vector machines, decision trees, backpropagation artificial neural networks, and an introduction to deep learning. Includes a team-based project. Credit not awarded for both CS 3540 and <a href=\"/search/?p=CS%205540\" data-action=\"result-detail\" data-group=\"code:CS 5540\" >CS 5540</a>. Prerequisites: <a href=\"/search/?p=STAT%202510\" data-action=\"result-detail\" data-group=\"code:STAT 2510\" >STAT 2510</a> or <a href=\"/search/?p=STAT%205510\" data-action=\"result-detail\" data-group=\"code:STAT 5510\" >STAT 5510</a>; <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 2510\"}, {\"type\": \"course\", \"code\": \"STAT 5510\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}]}",
+      "other_requirements": "Credit not awarded for both CS 3540 and CS 5540. Co-located with CS 5540.",
+      "external": true
+    },
+    {
+      "id": "CSYS 5870",
+      "course_code": "CSYS 5870",
+      "department": "CSYS",
+      "title": "Data Science I - Experience",
+      "credit_hours": "3",
+      "description": "Data harvesting, cleaning, and summarizing; working with non-traditional, non-numeric data (social network, natural language textual data, etc.); scientific visualization; advanced data pipelines with a practical focus on real datasets and developing good habits for rigorous and reproducible computational science; Project-based. Credit not awarded for both CSYS 5870 and <a href=\"/search/?p=CS%203870\" data-action=\"result-detail\" data-group=\"code:CS 3870\" >CS 3870</a>. Prerequisites: Knowledge of <a href=\"/search/?p=CS%201210\" data-action=\"result-detail\" data-group=\"code:CS 1210\" >CS 1210</a> and either <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a> or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a> required; knowledge of <a href=\"/search/?p=CS%202100\" data-action=\"result-detail\" data-group=\"code:CS 2100\" >CS 2100</a> and <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a> recommended; Graduate student or Instructor permission. Cross-listed with: <a href=\"/search/?p=STAT%205870\" data-action=\"result-detail\" data-group=\"code:STAT 5870\" >STAT 5870</a>, <a href=\"/search/?p=CS%205870\" data-action=\"result-detail\" data-group=\"code:CS 5870\" >CS 5870</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CS 1210\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"STAT 2430\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CS 2100\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}]}]}",
+      "other_requirements": "Recommended: knowledge of CS 2100 and MATH 2522 or MATH 2544. Graduate student or Instructor permission. PACE students with permission and override.",
+      "external": true
+    },
+    {
+      "id": "STAT 6993",
+      "course_code": "STAT 6993",
+      "department": "STAT",
+      "title": "Independent Study",
+      "credit_hours": "3",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "MATH 2544",
+      "course_code": "MATH 2544",
+      "department": "MATH",
+      "title": "Linear Algebra",
+      "credit_hours": "3",
+      "description": "Vector spaces, linear independence, bases, linear transformations, matrices, determinants, change of basis characteristic equations, eigenvalues and eigenvectors, with applications. Emphasis on understanding and gaining facility with these concepts including proofs. Credit not given for both <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> and MATH 2544. Prerequisite: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Co-requisite: <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or <a href=\"/search/?p=MATH%202055\" data-action=\"result-detail\" data-group=\"code:MATH 2055\" >MATH 2055</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "Co-requisite: MATH 2248 or MATH 2055. Credit not given for both MATH 2522 and MATH 2544. Open to Degree and PACE students.",
+      "external": true
+    },
+    {
+      "id": "STAT 2870",
+      "course_code": "STAT 2870",
+      "department": "STAT",
+      "title": "Intermediate Data Science",
+      "credit_hours": "3",
+      "description": "Learn data science techniques, from import to cleaning to visualizing and modeling, using the Python language. Machine learning methods include regression, classification and clustering algorithms. Programming methods include user-defined functions. Prerequisites: <a href=\"/search/?p=CS%201210\" data-action=\"result-detail\" data-group=\"code:CS 1210\" >CS 1210</a>; <a href=\"/search/?p=STAT%201110\" data-action=\"result-detail\" data-group=\"code:STAT 1110\" >STAT 1110</a>, <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a>. Cross-listed with: <a href=\"/search/?p=CS%202870\" data-action=\"result-detail\" data-group=\"code:CS 2870\" >CS 2870</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CS 1210\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1110\"}, {\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"STAT 2430\"}]}]}",
+      "other_requirements": "Prereqs enforced by the system:CS 1210, andSTAT 1410,STAT 2430, orSTAT 1110; Cross-listed withCS 2870A; Total combined enrollment: 40; Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "MATH 1234",
+      "course_code": "MATH 1234",
+      "department": "MATH",
+      "title": "Calculus I",
+      "credit_hours": "4",
+      "description": "Introduction to calculus of functions of one variable including: limits, continuity, techniques and applications of differentiation and integration. Credit not given for more than one course in the pair <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, MATH 1234 unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a> or a score of 76 or higher on the placement assessment.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1034\"}, {\"type\": \"other_requirement\", \"description\": \"ALEKS MPA of at least 76\"}]}",
+      "other_requirements": "C- or better in MATH 1034 or a score of 76 or higher on the placement assessment. Prereqs enforced by the system.",
+      "external": true
+    },
+    {
+      "id": "STAT 1870",
+      "course_code": "STAT 1870",
+      "department": "STAT",
+      "title": "Intro to Data Science",
+      "credit_hours": "3",
+      "description": "Basic techniques of data harvesting and cleaning; association rules, classification, clustering; analyze, manipulate, visualize data using programming languages. Basic principles of probability and statistical modeling/inference to make meaning out of large datasets. Credit not awarded after <a href=\"/search/?p=STAT%203000\" data-action=\"result-detail\" data-group=\"code:STAT 3000\" >STAT 3000</a> or greater. Cross-listed with: <a href=\"/search/?p=CS%201870\" data-action=\"result-detail\" data-group=\"code:CS 1870\" >CS 1870</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "STAT 5870",
+      "course_code": "STAT 5870",
+      "department": "STAT",
+      "title": "Data Science I - Experience",
+      "credit_hours": "3",
+      "description": "Data harvesting, cleaning, and summarizing; working with non-traditional, non-numeric data (social network, natural language textual data, etc.); scientific visualization; advanced data pipelines with a practical focus on real datasets and developing good habits for rigorous and reproducible computational science; Project-based. Credit not awarded for both STAT 5870 and <a href=\"/search/?p=STAT%203870\" data-action=\"result-detail\" data-group=\"code:STAT 3870\" >STAT 3870</a>. Prerequisites: Knowledge of <a href=\"/search/?p=CS%201210\" data-action=\"result-detail\" data-group=\"code:CS 1210\" >CS 1210</a> and either <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a> or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a> required; knowledge of <a href=\"/search/?p=CS%202100\" data-action=\"result-detail\" data-group=\"code:CS 2100\" >CS 2100</a> and <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a> recommended; Graduate student or Instructor permission. Cross-listed with: <a href=\"/search/?p=CSYS%205870\" data-action=\"result-detail\" data-group=\"code:CSYS 5870\" >CSYS 5870</a>, <a href=\"/search/?p=CS%205870\" data-action=\"result-detail\" data-group=\"code:CS 5870\" >CS 5870</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CS 1210\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"STAT 2430\"}]}]}",
+      "other_requirements": "Graduate student or Instructor permission. PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "STAT 3870",
+      "course_code": "STAT 3870",
+      "department": "STAT",
+      "title": "Data Science I - Pinnacle",
+      "credit_hours": "3",
+      "description": "Data harvesting, cleaning, and summarizing; working with non-traditional, non-numeric data (social network, natural language textual data, etc.); scientific visualization; advanced data pipelines; Project-based. Credit not awarded for both STAT 3870 and <a href=\"/search/?p=STAT%205870\" data-action=\"result-detail\" data-group=\"code:STAT 5870\" >STAT 5870</a>. Prerequisites: <a href=\"/search/?p=CS%201210\" data-action=\"result-detail\" data-group=\"code:CS 1210\" >CS 1210</a>; <a href=\"/search/?p=STAT%203880\" data-action=\"result-detail\" data-group=\"code:STAT 3880\"  class=\"notoffered\">STAT 3880</a> or <a href=\"/search/?p=CS%203540\" data-action=\"result-detail\" data-group=\"code:CS 3540\" >CS 3540</a>; <a href=\"/search/?p=STAT%202870\" data-action=\"result-detail\" data-group=\"code:STAT 2870\" >STAT 2870</a> or <a href=\"/search/?p=CS%202870\" data-action=\"result-detail\" data-group=\"code:CS 2870\" >CS 2870</a>. Cross-listed with: <a href=\"/search/?p=CS%203870\" data-action=\"result-detail\" data-group=\"code:CS 3870\" >CS 3870</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CS 1210\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 3880\"}, {\"type\": \"course\", \"code\": \"CS 3540\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 2870\"}, {\"type\": \"course\", \"code\": \"CS 2870\"}]}]}",
+      "other_requirements": "Credit not awarded for both STAT 3870 and STAT 5870. Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "CS 1210",
+      "course_code": "CS 1210",
+      "department": "CS",
+      "title": "Comp Prog I: for CS majors",
+      "credit_hours": "3",
+      "description": "Introduction to algorithmic problem solving and computer programming. Designed to provide a foundation for further studies in computer science.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "MATH 1224",
+      "course_code": "MATH 1224",
+      "department": "MATH",
+      "title": "Fundamentals of Calculus II",
+      "credit_hours": "3",
+      "description": "Techniques and applications of integration. An introduction to multi-variable calculus: partial derivatives and double integrals. Prerequisite: <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "other_requirements": "Open to Degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "STAT 4810",
+      "course_code": "STAT 4810",
+      "department": "STAT",
+      "title": "Capstone Experience",
+      "credit_hours": "3",
+      "description": "Intensive experience in carrying out a complete statistical analysis for a research project in substantive area with close consultation with a project investigator. Project-based. Prerequisites: <a href=\"/search/?p=CS%201210\" data-action=\"result-detail\" data-group=\"code:CS 1210\" >CS 1210</a>; <a href=\"/search/?p=STAT%203210\" data-action=\"result-detail\" data-group=\"code:STAT 3210\" >STAT 3210</a> or <a href=\"/search/?p=STAT%205210\" data-action=\"result-detail\" data-group=\"code:STAT 5210\" >STAT 5210</a>; <a href=\"/search/?p=STAT%203010\" data-action=\"result-detail\" data-group=\"code:STAT 3010\" >STAT 3010</a> or <a href=\"/search/?p=STAT%205010\" data-action=\"result-detail\" data-group=\"code:STAT 5010\"  class=\"notoffered\">STAT 5010</a>; Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CS 1210\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 3210\"}, {\"type\": \"course\", \"code\": \"STAT 5210\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 3010\"}, {\"type\": \"course\", \"code\": \"STAT 5010\"}]}]}",
+      "other_requirements": "Instructor permission. Senior Standing Only",
+      "external": false
+    },
+    {
+      "id": "STAT 3010",
+      "course_code": "STAT 3010",
+      "department": "STAT",
+      "title": "Stat Computing&Data Anlysis",
+      "credit_hours": "3",
+      "description": "Fundamental data processing, code development, graphing and analysis using statistical software packages, including SAS and R. Analysis of data and interpretation of results. Project-based. Credit not awarded for both STAT 3010 and <a href=\"/search/?p=STAT%205010\" data-action=\"result-detail\" data-group=\"code:STAT 5010\"  class=\"notoffered\">STAT 5010</a>. Prerequisite: <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a>, or <a href=\"/search/?p=STAT%203210\" data-action=\"result-detail\" data-group=\"code:STAT 3210\" >STAT 3210</a>; or <a href=\"/search/?p=STAT%201110\" data-action=\"result-detail\" data-group=\"code:STAT 1110\" >STAT 1110</a> with Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"STAT 2430\"}, {\"type\": \"course\", \"code\": \"STAT 3210\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1110\"}]}]}",
+      "other_requirements": "Instructor permission",
+      "external": false
+    },
+    {
+      "id": "MATH 1242",
+      "course_code": "MATH 1242",
+      "department": "MATH",
+      "title": "Transitional Calculus",
+      "credit_hours": "5",
+      "description": "Intended to make the transition from <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> to <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>. Topics are similar to <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> but recognizing different backgrounds of students in <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> versus <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit will not be given for both <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> and MATH 1242. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: B or better in <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, or B or better in <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"other_requirement\", \"description\": \"B or better\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"other_requirement\", \"description\": \"B or better\"}]}]}",
+      "other_requirements": "Open to Degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "STAT 1050",
+      "course_code": "STAT 1050",
+      "department": "STAT",
+      "title": "Statistics and Society",
+      "credit_hours": "3",
+      "description": "Explores how data shape public understanding of social issues while building statistical literacy. Students will learn to identify bias, consider ethical and structural influences, and apply descriptive and inferential statistics to interpret, visualize, and evaluate data across varied communities and perspectives. Credit not awarded after <a href=\"/search/?p=STAT%202000\" data-action=\"result-detail\" data-group=\"code:STAT 2000\"  class=\"notoffered\">STAT 2000</a> or greater. Prerequisites: Two years High School algebra; no credit for Sophomores, Juniors, or Seniors in the mathematical and engineering sciences; credit for only one of STAT 051 and STAT 1050.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 051\"}, {\"type\": \"course\", \"code\": \"STAT 1050\"}]}",
+      "other_requirements": "Two years High School algebra; no credit for Sophomores, Juniors, or Seniors in the mathematical and engineering sciences; Cannot be taken for credit after taking STAT 051 or STAT 052.",
+      "external": false
+    },
+    {
+      "id": "STAT 5020",
+      "course_code": "STAT 5020",
+      "department": "STAT",
+      "title": "Applied Statistics I",
+      "credit_hours": "3",
+      "description": "Foundational statistics, conducting data analysis using statistical software, collaborating as part of an interdisciplinary team, and communicating and presenting research findings. Practical issues and meaningful, real-world impacts of data projects with an emphasis on data equity, data processing, visualization, basic statistical procedures and concepts, and interpretation and communication of results. Focuses on the responsible application of basic statistical methods, concentrating on concepts rather than mathematical theory. Background in calculus or linear algebra is not required. Prerequisites: Graduate student or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate student or Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "STAT 2510",
+      "course_code": "STAT 2510",
+      "department": "STAT",
+      "title": "Applied Probability",
+      "credit_hours": "3",
+      "description": "Foundations of probability, conditioning, and independence. Business, computing, biological, engineering reliability, and quality control applications. Classical discrete and continuous models. Pseudo-random number generation. Prerequisites: <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a> or <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "Prereqs enforced by the system:MATH 1224orMATH 1248orMATH 1242;",
+      "external": false
+    },
+    {
+      "id": "STAT 5290",
+      "course_code": "STAT 5290",
+      "department": "STAT",
+      "title": "Survivl/Logistic Regression",
+      "credit_hours": "3",
+      "description": "Models and inference for time-to-event and binary data. Censored data, life tables, Kaplan-Meier estimation, logrank tests, proportional hazards models. Logistic regression-interpretation, assessment, model building, special topics. Prerequisite: <a href=\"/search/?p=STAT%205020\" data-action=\"result-detail\" data-group=\"code:STAT 5020\"  class=\"notoffered\">STAT 5020</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 5020\"}, {\"type\": \"other\", \"description\": \"Instructor permission\"}]}",
+      "other_requirements": "Students should be comfortable using R for statistical computing and have prior coursework or experience in multiple linear regression and basic statistical inference.",
+      "external": false
+    },
+    {
+      "id": "MATH 1212",
+      "course_code": "MATH 1212",
+      "department": "MATH",
+      "title": "Fundamentals of Calculus I",
+      "credit_hours": "3",
+      "description": "Introduction to limits and differential/integral calculus with a wide variety of applications. Students interested in intensive use of mathematics should take <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit not awarded for both MATH 1212 and <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>.  See <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201012\" data-action=\"result-detail\" data-group=\"code:MATH 1012\" >MATH 1012</a> or C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a>, or a score of 61 or higher on the placement assessment.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1012\"}, {\"type\": \"course\", \"code\": \"MATH 1034\"}]}",
+      "other_requirements": "C- or better in MATH 1012 or C- or better in MATH 1034, or a score of 61 or higher on the placement assessment. Prereqs enforced by the system: MATH 1012 or MATH 1034 or ALEKS MPA of at least 61; Open to Degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "STAT 2991",
+      "course_code": "STAT 2991",
+      "department": "STAT",
+      "title": "Internship",
+      "credit_hours": "3",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "CS 1210",
+      "target": "CS 2870"
+    },
+    {
+      "source": "CS 1210",
+      "target": "CS 5870"
+    },
+    {
+      "source": "CS 1210",
+      "target": "CSYS 5870"
+    },
+    {
+      "source": "CS 1210",
+      "target": "STAT 2870"
+    },
+    {
+      "source": "CS 1210",
+      "target": "STAT 3870"
+    },
+    {
+      "source": "CS 1210",
+      "target": "STAT 4810"
+    },
+    {
+      "source": "CS 1210",
+      "target": "STAT 5870"
+    },
+    {
+      "source": "CS 2870",
+      "target": "STAT 3870"
+    },
+    {
+      "source": "CS 3540",
+      "target": "STAT 3870"
+    },
+    {
+      "source": "CS 5870",
+      "target": "STAT 6870"
+    },
+    {
+      "source": "CSYS 5870",
+      "target": "STAT 6870"
+    },
+    {
+      "source": "MATH 1212",
+      "target": "MATH 1224"
+    },
+    {
+      "source": "MATH 1212",
+      "target": "MATH 1242"
+    },
+    {
+      "source": "MATH 1212",
+      "target": "STAT 2430"
+    },
+    {
+      "source": "MATH 1224",
+      "target": "MATH 1242"
+    },
+    {
+      "source": "MATH 1224",
+      "target": "STAT 2510"
+    },
+    {
+      "source": "MATH 1234",
+      "target": "MATH 1224"
+    },
+    {
+      "source": "MATH 1234",
+      "target": "MATH 1248"
+    },
+    {
+      "source": "MATH 1234",
+      "target": "STAT 2430"
+    },
+    {
+      "source": "MATH 1242",
+      "target": "MATH 2248"
+    },
+    {
+      "source": "MATH 1242",
+      "target": "MATH 2522"
+    },
+    {
+      "source": "MATH 1242",
+      "target": "MATH 2544"
+    },
+    {
+      "source": "MATH 1242",
+      "target": "STAT 2510"
+    },
+    {
+      "source": "MATH 1248",
+      "target": "MATH 2248"
+    },
+    {
+      "source": "MATH 1248",
+      "target": "MATH 2522"
+    },
+    {
+      "source": "MATH 1248",
+      "target": "MATH 2544"
+    },
+    {
+      "source": "MATH 1248",
+      "target": "STAT 2510"
+    },
+    {
+      "source": "MATH 2248",
+      "target": "STAT 5510"
+    },
+    {
+      "source": "MATH 2522",
+      "target": "CS 3540"
+    },
+    {
+      "source": "MATH 2522",
+      "target": "CSYS 5870"
+    },
+    {
+      "source": "MATH 2522",
+      "target": "STAT 5230"
+    },
+    {
+      "source": "MATH 2544",
+      "target": "CS 3540"
+    },
+    {
+      "source": "MATH 2544",
+      "target": "CSYS 5870"
+    },
+    {
+      "source": "MATH 2544",
+      "target": "STAT 5230"
+    },
+    {
+      "source": "STAT 1050",
+      "target": "STAT 1050"
+    },
+    {
+      "source": "STAT 1110",
+      "target": "CS 2870"
+    },
+    {
+      "source": "STAT 1110",
+      "target": "STAT 2870"
+    },
+    {
+      "source": "STAT 1110",
+      "target": "STAT 3000"
+    },
+    {
+      "source": "STAT 1110",
+      "target": "STAT 3010"
+    },
+    {
+      "source": "STAT 1410",
+      "target": "CS 2870"
+    },
+    {
+      "source": "STAT 1410",
+      "target": "CS 5870"
+    },
+    {
+      "source": "STAT 1410",
+      "target": "CSYS 5870"
+    },
+    {
+      "source": "STAT 1410",
+      "target": "STAT 2830"
+    },
+    {
+      "source": "STAT 1410",
+      "target": "STAT 2870"
+    },
+    {
+      "source": "STAT 1410",
+      "target": "STAT 3000"
+    },
+    {
+      "source": "STAT 1410",
+      "target": "STAT 3010"
+    },
+    {
+      "source": "STAT 1410",
+      "target": "STAT 3240"
+    },
+    {
+      "source": "STAT 1410",
+      "target": "STAT 5870"
+    },
+    {
+      "source": "STAT 2430",
+      "target": "CS 2870"
+    },
+    {
+      "source": "STAT 2430",
+      "target": "CS 5870"
+    },
+    {
+      "source": "STAT 2430",
+      "target": "CSYS 5870"
+    },
+    {
+      "source": "STAT 2430",
+      "target": "STAT 2830"
+    },
+    {
+      "source": "STAT 2430",
+      "target": "STAT 2870"
+    },
+    {
+      "source": "STAT 2430",
+      "target": "STAT 3000"
+    },
+    {
+      "source": "STAT 2430",
+      "target": "STAT 3010"
+    },
+    {
+      "source": "STAT 2430",
+      "target": "STAT 3240"
+    },
+    {
+      "source": "STAT 2430",
+      "target": "STAT 5870"
+    },
+    {
+      "source": "STAT 2510",
+      "target": "CS 3540"
+    },
+    {
+      "source": "STAT 2510",
+      "target": "STAT 5510"
+    },
+    {
+      "source": "STAT 2830",
+      "target": "STAT 3210"
+    },
+    {
+      "source": "STAT 2830",
+      "target": "STAT 5210"
+    },
+    {
+      "source": "STAT 2870",
+      "target": "STAT 3870"
+    },
+    {
+      "source": "STAT 3010",
+      "target": "STAT 4810"
+    },
+    {
+      "source": "STAT 3210",
+      "target": "STAT 2830"
+    },
+    {
+      "source": "STAT 3210",
+      "target": "STAT 3000"
+    },
+    {
+      "source": "STAT 3210",
+      "target": "STAT 3010"
+    },
+    {
+      "source": "STAT 3210",
+      "target": "STAT 3240"
+    },
+    {
+      "source": "STAT 3210",
+      "target": "STAT 4810"
+    },
+    {
+      "source": "STAT 3210",
+      "target": "STAT 5230"
+    },
+    {
+      "source": "STAT 3210",
+      "target": "STAT 5310"
+    },
+    {
+      "source": "STAT 5020",
+      "target": "STAT 5290"
+    },
+    {
+      "source": "STAT 5020",
+      "target": "STAT 6020"
+    },
+    {
+      "source": "STAT 5210",
+      "target": "STAT 4810"
+    },
+    {
+      "source": "STAT 5210",
+      "target": "STAT 5310"
+    },
+    {
+      "source": "STAT 5230",
+      "target": "STAT 7980"
+    },
+    {
+      "source": "STAT 5510",
+      "target": "CS 3540"
+    },
+    {
+      "source": "STAT 5510",
+      "target": "STAT 6300"
+    },
+    {
+      "source": "STAT 5870",
+      "target": "STAT 6870"
+    },
+    {
+      "source": "STAT 6990",
+      "target": "STAT 6990"
+    }
+  ]
+}

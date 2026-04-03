@@ -1,0 +1,18 @@
+# Database
+courses.db
+
+# Raw scraped data (large)
+all_courses_*.json
+CS_fall_2026.json
+CS_spring_2026.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store

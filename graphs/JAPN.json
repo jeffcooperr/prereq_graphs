@@ -1,0 +1,149 @@
+{
+  "department": "JAPN",
+  "nodes": [
+    {
+      "id": "JAPN 3100",
+      "course_code": "JAPN 3100",
+      "department": "JAPN",
+      "title": "Advanced Japanese I",
+      "credit_hours": "3",
+      "description": "Further development of oral proficiency and advanced study of grammatical structure of modern Japanese, supplemented by audiovisual materials and authentic written texts of several kinds. Prerequisite: <a href=\"/search/?p=JAPN%202200\" data-action=\"result-detail\" data-group=\"code:JAPN 2200\"  class=\"notoffered\">JAPN 2200</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"JAPN 2200\"}, {\"type\": \"course\", \"code\": \"JAPN 2200\"}]}",
+      "other_requirements": "instructor permission and prereq override, PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "JAPN 4990",
+      "course_code": "JAPN 4990",
+      "department": "JAPN",
+      "title": "Reading & Translating Japanese",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"JAPN 2200\"}, {\"type\": \"course\", \"code\": \"JAPN 3100\"}]}",
+      "other_requirements": "completed intermediate Japanese or equivalent",
+      "external": false
+    },
+    {
+      "id": "JAPN 2200",
+      "course_code": "JAPN 2200",
+      "department": "JAPN",
+      "title": "Intermediate Japanese II",
+      "credit_hours": "4",
+      "description": "Continuation of <a href=\"/search/?p=JAPN%202100\" data-action=\"result-detail\" data-group=\"code:JAPN 2100\"  class=\"notoffered\">JAPN 2100</a>. Prerequisite: <a href=\"/search/?p=JAPN%202100\" data-action=\"result-detail\" data-group=\"code:JAPN 2100\"  class=\"notoffered\">JAPN 2100</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"JAPN 2100\"}, {\"type\": \"course\", \"code\": \"JAPN 2100\"}]}",
+      "other_requirements": "instructor permission; Hybrid course; The fourth hour is asynchronous study; PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "JAPN 1200",
+      "course_code": "JAPN 1200",
+      "department": "JAPN",
+      "title": "Elementary Japanese II",
+      "credit_hours": "4",
+      "description": "Continuation of <a href=\"/search/?p=JAPN%201100\" data-action=\"result-detail\" data-group=\"code:JAPN 1100\"  class=\"notoffered\">JAPN 1100</a>. Prerequisite: <a href=\"/search/?p=JAPN%201100\" data-action=\"result-detail\" data-group=\"code:JAPN 1100\"  class=\"notoffered\">JAPN 1100</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"JAPN 1100\"}, {\"type\": \"course\", \"code\": \"JAPN 1100\"}]}",
+      "other_requirements": "instructor permission",
+      "external": false
+    },
+    {
+      "id": "JAPN 1100",
+      "course_code": "JAPN 1100",
+      "department": "JAPN",
+      "title": "Elementary Japanese I",
+      "credit_hours": "4",
+      "description": "Introduction to spoken and written Japanese through aural-oral drills and grammar presentation. The three writing systems of Japanese (hiragana, katakana, and kanji) are introduced. No prior knowledge expected.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "JAPN 3990",
+      "course_code": "JAPN 3990",
+      "department": "JAPN",
+      "title": "Reading & Translating Japanese",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"JAPN 2200\"}]}",
+      "other_requirements": "PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "JAPN 4996",
+      "course_code": "JAPN 4996",
+      "department": "JAPN",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "JAPN 2100",
+      "course_code": "JAPN 2100",
+      "department": "JAPN",
+      "title": "Intermediate Japanese I",
+      "credit_hours": "4",
+      "description": "Continuation of <a href=\"/search/?p=JAPN%201200\" data-action=\"result-detail\" data-group=\"code:JAPN 1200\"  class=\"notoffered\">JAPN 1200</a> designed to enable the students to converse in everyday Japanese and to read and write basic texts. Prerequisite: <a href=\"/search/?p=JAPN%201200\" data-action=\"result-detail\" data-group=\"code:JAPN 1200\"  class=\"notoffered\">JAPN 1200</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"JAPN 1200\"}, {\"type\": \"course\", \"code\": \"JAPN 1200\"}]}",
+      "other_requirements": "Instructor permission and prereq override",
+      "external": false
+    },
+    {
+      "id": "JAPN 4993",
+      "course_code": "JAPN 4993",
+      "department": "JAPN",
+      "title": "IS:JapanPolitics & Translation",
+      "credit_hours": "3",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor Permission Required",
+      "external": false
+    },
+    {
+      "id": "JAPN 3200",
+      "course_code": "JAPN 3200",
+      "department": "JAPN",
+      "title": "Advanced Japanese II",
+      "credit_hours": "3",
+      "description": "Continuation of <a href=\"/search/?p=JAPN%203100\" data-action=\"result-detail\" data-group=\"code:JAPN 3100\"  class=\"notoffered\">JAPN 3100</a>. Prerequisite: <a href=\"/search/?p=JAPN%203100\" data-action=\"result-detail\" data-group=\"code:JAPN 3100\"  class=\"notoffered\">JAPN 3100</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"JAPN 3100\"}, {\"type\": \"course\", \"code\": \"JAPN 3100\"}]}",
+      "other_requirements": "instructor permission, PACE students with permission and override",
+      "external": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "JAPN 1100",
+      "target": "JAPN 1200"
+    },
+    {
+      "source": "JAPN 1200",
+      "target": "JAPN 2100"
+    },
+    {
+      "source": "JAPN 2100",
+      "target": "JAPN 2200"
+    },
+    {
+      "source": "JAPN 2200",
+      "target": "JAPN 3100"
+    },
+    {
+      "source": "JAPN 2200",
+      "target": "JAPN 3990"
+    },
+    {
+      "source": "JAPN 2200",
+      "target": "JAPN 4990"
+    },
+    {
+      "source": "JAPN 3100",
+      "target": "JAPN 3200"
+    },
+    {
+      "source": "JAPN 3100",
+      "target": "JAPN 4990"
+    }
+  ]
+}

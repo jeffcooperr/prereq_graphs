@@ -1,0 +1,141 @@
+{
+  "department": "MS",
+  "nodes": [
+    {
+      "id": "MS 2131",
+      "course_code": "MS 2131",
+      "department": "MS",
+      "title": "Lead&Train Small Organizations",
+      "credit_hours": "3",
+      "description": "Series of opportunities to lead small groups, receive personal assessments, and lead in complex situations. Plan and conduct training to develop leadership skills. Prerequisite: Completion of basic course program or basic camp. Includes a non-credit laboratory to develop, practice and refine leadership skills in a variety of positions.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MS 1000\"}, {\"type\": \"course\", \"code\": \"MS 1100\"}]}",
+      "other_requirements": "Contracted ROTC Cadet/student only; UVM students only; Students from affiliate school register for MS 2131 B",
+      "external": false
+    },
+    {
+      "id": "MS 2994",
+      "course_code": "MS 2994",
+      "department": "MS",
+      "title": "Teaching Assistantship",
+      "credit_hours": "3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required; Contact instructor for meeting location and time",
+      "external": false
+    },
+    {
+      "id": "MS 1220",
+      "course_code": "MS 1220",
+      "department": "MS",
+      "title": "Individual&Team Leading",
+      "credit_hours": "2",
+      "description": "Techniques for training/counseling others as an aspect of continued leadership development. Includes safety and risk management assessments, and planning for individual and team safety. Includes a non-credit laboratory to develop, practice and refine leadership skills in a variety of positions.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MS 1120\"}, {\"type\": \"course\", \"code\": \"MS 1120\"}]}",
+      "other_requirements": "Army#: 202; UVM students only; students from affiliate school register for MS 1220 B; Contact instructor for location",
+      "external": false
+    },
+    {
+      "id": "MS 1210",
+      "course_code": "MS 1210",
+      "department": "MS",
+      "title": "Leadership&Team Development",
+      "credit_hours": "2",
+      "description": "Learning and application of ethics-based leadership skills that develop individual abilities and contribute to effective team building. Development of oral presentations, writing, and coordination of group efforts. Includes a non-credit laboratory to develop, practice, and refine leadership skills in a variety of positions.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MS 1120\"}, {\"type\": \"course\", \"code\": \"equiv\"}]}",
+      "other_requirements": "UVM students only; Students from affiliate school register for MS 1210 B",
+      "external": false
+    },
+    {
+      "id": "MS 1110",
+      "course_code": "MS 1110",
+      "department": "MS",
+      "title": "Intro to ROTC & US Army",
+      "credit_hours": "1",
+      "description": "Discussion of the customs, traditions, branches, organization, as well as the many changes in the roles and missions of the Army of the 21st century. Includes a non-credit laboratory to develop, practice and refine leadership skills in a variety of positions.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "MS 1120",
+      "course_code": "MS 1120",
+      "department": "MS",
+      "title": "Intro Mil Skills&Followership",
+      "credit_hours": "1",
+      "description": "Development of basic skills of an Army officer, including navigation and communications. Students are exposed to leadership development exercises during leadership laboratories.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "MS 3241",
+      "course_code": "MS 3241",
+      "department": "MS",
+      "title": "Ldrshp Challenges&Goal Setting",
+      "credit_hours": "3",
+      "description": "Plan, conduct, and evaluate activities. Assess organizational cohesion and develop strategies for improvement. Develop confidence in skills to lead people and manage resources. Includes a non-credit laboratory to develop, practice and refine leadership skills in a variety of positions. Prerequisite: <a href=\"/search/?p=MS%202132\" data-action=\"result-detail\" data-group=\"code:MS 2132\"  class=\"notoffered\">MS 2132</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MS 2132\"}",
+      "other_requirements": "Army#: 401; Contracted ROTC Cadets/students who have completed MS 2132 and Advanced Camp; UVM students only; Students from affiliate school register for MS 3241 B",
+      "external": false
+    },
+    {
+      "id": "MS 2132",
+      "course_code": "MS 2132",
+      "department": "MS",
+      "title": "Lead&Manage Small Organization",
+      "credit_hours": "3",
+      "description": "Plan for and adapt to the unexpected in organizations under stress. Examine importance of ethical decisions in a positive climate that enhances team performance. Includes a non-credit laboratory to develop, practice and refine leadership skills in a variety of positions. Prerequisite: <a href=\"/search/?p=MS%202131\" data-action=\"result-detail\" data-group=\"code:MS 2131\"  class=\"notoffered\">MS 2131</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MS 2131\"}",
+      "other_requirements": "Army#: 302; Contracted ROTC cadet; Juniors only; UVM students only; students from affiliate school register for MS 2132 B; Contact instructor for location",
+      "external": false
+    },
+    {
+      "id": "MS 3242",
+      "course_code": "MS 3242",
+      "department": "MS",
+      "title": "Lead Org Ethically&Competently",
+      "credit_hours": "3",
+      "description": "Identify and resolve ethical dilemmas. Refine counseling and motivating techniques. Examine aspects of tradition and law related to leading as an officer in the Army. Includes a non-credit laboratory to develop, practice and refine leadership skills in a variety of positions. Prerequisite: <a href=\"/search/?p=MS%203241\" data-action=\"result-detail\" data-group=\"code:MS 3241\"  class=\"notoffered\">MS 3241</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MS 3241\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MS 2132\"}, {\"type\": \"course\", \"code\": \"CLC\"}]}]}",
+      "other_requirements": "Army# 402; Seniors only; UVM students only; students from affiliate school register for MS 3242 B; Contact instructor for location",
+      "external": false
+    },
+    {
+      "id": "MS 2993",
+      "course_code": "MS 2993",
+      "department": "MS",
+      "title": "Independent Study",
+      "credit_hours": "3",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "MS 1120",
+      "target": "MS 1210"
+    },
+    {
+      "source": "MS 1120",
+      "target": "MS 1220"
+    },
+    {
+      "source": "MS 2131",
+      "target": "MS 2132"
+    },
+    {
+      "source": "MS 2132",
+      "target": "MS 3241"
+    },
+    {
+      "source": "MS 2132",
+      "target": "MS 3242"
+    },
+    {
+      "source": "MS 3241",
+      "target": "MS 3242"
+    }
+  ]
+}

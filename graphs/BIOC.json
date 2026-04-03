@@ -1,0 +1,517 @@
+{
+  "department": "BIOC",
+  "nodes": [
+    {
+      "id": "BIOC 3007",
+      "course_code": "BIOC 3007",
+      "department": "BIOC",
+      "title": "Biochemistry Lab",
+      "credit_hours": "3",
+      "description": "Introduction to biochemical tools, including spectrometry, chromatography, and electrophoresis; natural and recombinant enzyme isolation; assays of DNA-modifying enzymes; computer-based structure/function exercises. Prerequisite: <a href=\"/search/?p=BIOC%203005\" data-action=\"result-detail\" data-group=\"code:BIOC 3005\" >BIOC 3005</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOC 3005\"}, {\"type\": \"course\", \"code\": \"MMG 3050\"}]}",
+      "other_requirements": "Degree students only even after level restrictions removed; PACE students register for BIOC 3007 ZRA; Colocated with BIOC 3007 ZRA; Total combined enrollment: 16; Labs begin 1st day of classes; Course fee: $100",
+      "external": false
+    },
+    {
+      "id": "CHEM 1150",
+      "course_code": "CHEM 1150",
+      "department": "CHEM",
+      "title": "Outline: Organic & BIOC w/lab",
+      "credit_hours": "4",
+      "description": "Broad overview of most important facts and principles of organic and biochemistry and interrelationships between these branches of chemistry. Credit not awarded for both CHEM 1150 and <a href=\"/search/?p=CHEM%201152\" data-action=\"result-detail\" data-group=\"code:CHEM 1152\" >CHEM 1152</a>, <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\" >CHEM 1580</a>, or <a href=\"/search/?p=CHEM%201582\" data-action=\"result-detail\" data-group=\"code:CHEM 1582\" >CHEM 1582</a>. Prerequisite: <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\"  class=\"notoffered\">CHEM 1100</a> or <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1400\"}]}",
+      "other_requirements": "Must register for a CHEM 1150 lab, L01 - L06; $85 fee: Chem Lab Supplies; Open to Degree and PACE students; Cross listed with CHEM 1152A; total enrollment cap = 142",
+      "external": true
+    },
+    {
+      "id": "BIOC 3063",
+      "course_code": "BIOC 3063",
+      "department": "BIOC",
+      "title": "Nutritional Biochemistry",
+      "credit_hours": "3",
+      "description": "Comprehensive study of the metabolism of the macro-nutrients by humans with emphasis on hormonal control of biochemical pathways, nutritional and metabolic interrelationships and dietary disorders. The biochemistry of the micronutrients and vitamins will also be studied. Prerequisite: <a href=\"/search/?p=BIOC%203001\" data-action=\"result-detail\" data-group=\"code:BIOC 3001\" >BIOC 3001</a>, <a href=\"/search/?p=BIOC%203005\" data-action=\"result-detail\" data-group=\"code:BIOC 3005\"  class=\"notoffered\">BIOC 3005</a>, or <a href=\"/search/?p=NFS%202183\" data-action=\"result-detail\" data-group=\"code:NFS 2183\"  class=\"notoffered\">NFS 2183</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOC 3001\"}, {\"type\": \"course\", \"code\": \"BIOC 3005\"}, {\"type\": \"course\", \"code\": \"NFS 2183\"}]}",
+      "other_requirements": "Continuing Education students who find it difficult to be on campus may elect to attend the course via Teams, or take the course asynchronously and watch the videos of lecture as their schedule permits. This option is NOT available for full-time UVM students. Successful students will attend class regularly, complete the weekly electronic homework, and post to the Discussion Board.",
+      "external": false
+    },
+    {
+      "id": "BIOC 7491",
+      "course_code": "BIOC 7491",
+      "department": "BIOC",
+      "title": "Doctoral Dissertation Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Doctoral Dissertation.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "BIOC 4996",
+      "course_code": "BIOC 4996",
+      "department": "BIOC",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "BIOC 3005",
+      "course_code": "BIOC 3005",
+      "department": "BIOC",
+      "title": "Biochemistry I",
+      "credit_hours": "3",
+      "description": "Introduction to chemistry and structure of biological macromolecules; examination of mechanisms of chemical processes in biological systems including enzyme catalysis, biosynthesis, regulation, and information transfer. Prerequisite: <a href=\"/search/?p=CHEM%201550\" data-action=\"result-detail\" data-group=\"code:CHEM 1550\"  class=\"notoffered\">CHEM 1550</a> or <a href=\"/search/?p=CHEM%202585\" data-action=\"result-detail\" data-group=\"code:CHEM 2585\"  class=\"notoffered\">CHEM 2585</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1550\"}, {\"type\": \"course\", \"code\": \"CHEM 2585\"}]}",
+      "other_requirements": "Degree students only even after level restrictions removed; PACE & Post Bac Pre Med Students register for BIOC 3005 ZRA; Review class Mondays 4-6pm in Given C443",
+      "external": false
+    },
+    {
+      "id": "BIOC 3995",
+      "course_code": "BIOC 3995",
+      "department": "BIOC",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "BIOC 4084",
+      "course_code": "BIOC 4084",
+      "department": "BIOC",
+      "title": "Biochemistry Senior Seminar",
+      "credit_hours": "1",
+      "description": "Oral and written presentation of a subject of current biochemical interest. Prerequisite: Senior standing.",
+      "prereq_expression": null,
+      "other_requirements": "Senior standing",
+      "external": false
+    },
+    {
+      "id": "BIOC 6072",
+      "course_code": "BIOC 6072",
+      "department": "BIOC",
+      "title": "Cancer Biology",
+      "credit_hours": "3",
+      "description": "Overview of cancer biology for health science students. Foundation for cancer research. Lecture format; interdisciplinary viewpoint; outside lectures. Prerequisite: <a href=\"/search/?p=BIOC%206001\" data-action=\"result-detail\" data-group=\"code:BIOC 6001\" >BIOC 6001</a> or Department permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOC 6001\"}, {\"type\": \"course\", \"code\": \"BIOC 6001\"}]}",
+      "other_requirements": "PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "BIOC 1011",
+      "course_code": "BIOC 1011",
+      "department": "BIOC",
+      "title": "Biochem: Modern Perspect II",
+      "credit_hours": "1",
+      "description": "This is Part 2 of a sequence to help students develop an understanding of what the field of biochemistry is, its core principles, and what biochemists do. Prerequisites: Biochemistry major, First-year standing.",
+      "prereq_expression": null,
+      "other_requirements": "Biochemistry major, First-year standing",
+      "external": false
+    },
+    {
+      "id": "CHEM 2585",
+      "course_code": "CHEM 2585",
+      "department": "CHEM",
+      "title": "Organic Chemistry 2",
+      "credit_hours": "4",
+      "description": "Reactivity of organic compounds and applications to synthesis. Spectroscopy is discussed in relation to compound characterization. For premedical and biological sciences students. Credit not awarded for both CHEM 2585 and <a href=\"/search/?p=CHEM%201550\" data-action=\"result-detail\" data-group=\"code:CHEM 1550\" >CHEM 1550</a>.  Prerequisite: <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a> or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\"  class=\"notoffered\">CHEM 2580</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1500\"}, {\"type\": \"course\", \"code\": \"CHEM 2580\"}]}",
+      "other_requirements": "Must register for a CHEM 2585 lab, L01-L20; Degree students only even after level restrictions removed; Post Bac Pre Med students register for CHEM 2585 ZRA; Fee: $85",
+      "external": true
+    },
+    {
+      "id": "BIOC 3006",
+      "course_code": "BIOC 3006",
+      "department": "BIOC",
+      "title": "Biochemistry II",
+      "credit_hours": "3",
+      "description": "Continuation of Biochemistry I. Biochemistry of nucleic acids; nucleic acid based processes, such as replication and transcription; cellular information transfer, genomics, and proteomics. Prerequisite: <a href=\"/search/?p=BIOC%203005\" data-action=\"result-detail\" data-group=\"code:BIOC 3005\"  class=\"notoffered\">BIOC 3005</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOC 3005\"}, {\"type\": \"course\", \"code\": \"MMG 3050\"}]}",
+      "other_requirements": "Degree students only even after level restrictions removed; PACE students register for BIOC 3006 ZRA; Colocated w/ BIOC 3006 ZRA",
+      "external": false
+    },
+    {
+      "id": "BIOL 1450",
+      "course_code": "BIOL 1450",
+      "department": "BIOL",
+      "title": "Principles of Biology 2",
+      "credit_hours": "4",
+      "description": "Principles of organismal biology; nature of scientific inquiry, plant form and function, pollination ecology, animal phylogeny illustrated by comparative anatomy and physiology; animal behavior. Credit not awarded for both BIOL 1450 and <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>.",
+      "prereq_expression": null,
+      "other_requirements": "ASCI, BIOL, BISC, MGEN, MICR, NEUR, PBIO, ZOOL majors should register for BCOR 1450; Degree students only even after level restrictions removed; Post Bac Pre med students register for BIOL 1450",
+      "external": true
+    },
+    {
+      "id": "CHEM 1550",
+      "course_code": "CHEM 1550",
+      "department": "CHEM",
+      "title": "Organic Chemistry for Majors 2",
+      "credit_hours": "4",
+      "description": "A survey of the reactivity of organic functional groups from a mechanistic standpoint. Organic synthesis will be emphasized. Prerequisite: <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1500\"}, {\"type\": \"other\", \"value\": \"Instructor permission\"}]}",
+      "other_requirements": "Must register for a CHEM 1550 lab, L01-L04; CHEM or BICM majors only; $85 fee: Chem Lab Supplies. PACE students with permission and override.",
+      "external": true
+    },
+    {
+      "id": "CHEM 1450",
+      "course_code": "CHEM 1450",
+      "department": "CHEM",
+      "title": "General Chemistry 2",
+      "credit_hours": "4",
+      "description": "Second semester of a two-semester sequence. Topics include solutions, kinetics, equilibrium, acid-base chemistry, aqueous ionic equilibria, thermodynamics, electrochemistry, and nuclear chemistry. Credit not awarded for both CHEM 1450 and <a href=\"/search/?p=CHEM%201455\" data-action=\"result-detail\" data-group=\"code:CHEM 1455\"  class=\"notoffered\">CHEM 1455</a>. Prerequisite: <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a> or <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}",
+      "other_requirements": "$60 fee for lab supplies; Degree students only;",
+      "external": true
+    },
+    {
+      "id": "BIOC 3030",
+      "course_code": "BIOC 3030",
+      "department": "BIOC",
+      "title": "Adv Biochem Lab: Protein CURE",
+      "credit_hours": "4",
+      "description": "Course-based undergraduate research experience (CURE) designed to develop students' critical thinking and use of the scientific method. Students will read the literature to identify a biological question linked to a specific protein, develop a hypothesis, and test it at the bench. Findings will be presented to their classmates. Prerequisites: <a href=\"/search/?p=BIOC%203005\" data-action=\"result-detail\" data-group=\"code:BIOC 3005\" >BIOC 3005</a>, <a href=\"/search/?p=BIOC%203006\" data-action=\"result-detail\" data-group=\"code:BIOC 3006\"  class=\"notoffered\">BIOC 3006</a>, <a href=\"/search/?p=BIOC%203007\" data-action=\"result-detail\" data-group=\"code:BIOC 3007\" >BIOC 3007</a>. Pre/Co-requisites: <a href=\"/search/?p=BIOC%203005\" data-action=\"result-detail\" data-group=\"code:BIOC 3005\" >BIOC 3005</a>, <a href=\"/search/?p=BIOC%203006\" data-action=\"result-detail\" data-group=\"code:BIOC 3006\"  class=\"notoffered\">BIOC 3006</a>, <a href=\"/search/?p=BIOC%203007\" data-action=\"result-detail\" data-group=\"code:BIOC 3007\" >BIOC 3007</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOC 3005\"}, {\"type\": \"course\", \"code\": \"BIOC 3006\"}, {\"type\": \"course\", \"code\": \"BIOC 3007\"}]}",
+      "other_requirements": "PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "BIOC 5990",
+      "course_code": "BIOC 5990",
+      "department": "BIOC",
+      "title": "Critical Reading and Analysis",
+      "credit_hours": "2",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "BIOC 6002",
+      "course_code": "BIOC 6002",
+      "department": "BIOC",
+      "title": "General Biochemistry II",
+      "credit_hours": "3",
+      "description": "Survey for science majors. Amino acids, nucleic acids, protein synthesis, cellular and physiological control mechanisms. Prerequisite: <a href=\"/search/?p=BIOC%206001\" data-action=\"result-detail\" data-group=\"code:BIOC 6001\"  class=\"notoffered\">BIOC 6001</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOC 6001\"}, {\"type\": \"other\", \"value\": \"Instructor permission\"}]}",
+      "other_requirements": "Degree students only; PACE students register for BIOC 6002 ZRA; Colocated with BIOC 6002 ZRA;",
+      "external": false
+    },
+    {
+      "id": "BIOC 3075",
+      "course_code": "BIOC 3075",
+      "department": "BIOC",
+      "title": "Adv Biochem of Human Disease",
+      "credit_hours": "3",
+      "description": "The course takes a deep dive into five distinct areas of biochemistry related to a disease or group of diseases primarily through group learning. Key biochemical principles are reviewed and extended. Additionally students will read and discuss a primary literature article with each area. Prerequisites: <a href=\"/search/?p=NFS%202183\" data-action=\"result-detail\" data-group=\"code:NFS 2183\" >NFS 2183</a>, <a href=\"/search/?p=BIOC%203001\" data-action=\"result-detail\" data-group=\"code:BIOC 3001\" >BIOC 3001</a>, or <a href=\"/search/?p=BIOC%203005\" data-action=\"result-detail\" data-group=\"code:BIOC 3005\" >BIOC 3005</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NFS 2183\"}, {\"type\": \"course\", \"code\": \"BIOC 3001\"}, {\"type\": \"course\", \"code\": \"BIOC 3005\"}]}",
+      "other_requirements": "Degree students only even after level restrictions removed; PACE students register for BIOC 3075 ZRA",
+      "external": false
+    },
+    {
+      "id": "BIOC 2995",
+      "course_code": "BIOC 2995",
+      "department": "BIOC",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Written report due at end of each semester. Prerequisite: Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1405\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}]}]}",
+      "other_requirements": "Instructor permission. Some programs may require additional courses in Chemistry; Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "CHEM 1400",
+      "course_code": "CHEM 1400",
+      "department": "CHEM",
+      "title": "General Chemistry 1",
+      "credit_hours": "4",
+      "description": "First semester of a two-semester sequence. Topics include matter, stoichiometry, gas laws, thermochemistry, quantum theory, atomic structure, electronic configurations, bonding, and intermolecular forces. Credit not awarded for both CHEM 1400 and <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\" >CHEM 1100</a>, <a href=\"/search/?p=CHEM%201102\" data-action=\"result-detail\" data-group=\"code:CHEM 1102\" >CHEM 1102</a>, or <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "CHEM 1580",
+      "course_code": "CHEM 1580",
+      "department": "CHEM",
+      "title": "Intro Organic Chemistry w/lab",
+      "credit_hours": "4",
+      "description": "Properties and reactivity of basic organic compounds of technological and biological significance. Not recommended for pre-medical students. Credit not awarded for both CHEM 1580 and <a href=\"/search/?p=CHEM%201150\" data-action=\"result-detail\" data-group=\"code:CHEM 1150\" >CHEM 1150</a>, <a href=\"/search/?p=CHEM%201152\" data-action=\"result-detail\" data-group=\"code:CHEM 1152\" >CHEM 1152</a>, <a href=\"/search/?p=CHEM%201582\" data-action=\"result-detail\" data-group=\"code:CHEM 1582\" >CHEM 1582</a>, <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a>, or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\"  class=\"notoffered\">CHEM 2580</a>. Prerequisite: <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\"  class=\"notoffered\">CHEM 1100</a> or <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1450\"}]}",
+      "other_requirements": "Not recommended for pre-medical students. Credit not awarded for both CHEM 1580 and  CHEM 1150 ,  CHEM 1152 ,  CHEM 1582 ,  CHEM 1500 , or  CHEM 2580 . Must register for a CHEM 1580 lab, L01-L15; $85 fee: Chem Lab Supplies; Cross listed withCHEM 1582A. PACE students with permission and override. All labs must be completed in order to pass the course. Attendance for all lectures and exams is expected. All work must be completed by the due date. The final exam must be taken to pass the course.",
+      "external": true
+    },
+    {
+      "id": "BIOC 1010",
+      "course_code": "BIOC 1010",
+      "department": "BIOC",
+      "title": "Biochem: Modern Perspect I",
+      "credit_hours": "1",
+      "description": "This is Part I of a sequence to help students develop an understanding of what the field of biochemistry is, its core principles, and what biochemists do. Prerequisites: Biochemistry major, First-year standing.",
+      "prereq_expression": null,
+      "other_requirements": "Biochemistry major, First-year standing.",
+      "external": false
+    },
+    {
+      "id": "BIOC 6391",
+      "course_code": "BIOC 6391",
+      "department": "BIOC",
+      "title": "Master's Thesis Research",
+      "credit_hours": "1 to 12",
+      "description": "Research for the Master's Thesis.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "BIOC 6993",
+      "course_code": "BIOC 6993",
+      "department": "BIOC",
+      "title": "IS: BIOC: Grad. Ind. Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "BIOC 3001",
+      "course_code": "BIOC 3001",
+      "department": "BIOC",
+      "title": "Fundamentals of Biochemistry",
+      "credit_hours": "3",
+      "description": "Provides a broad introduction to the field of biochemistry. Students will explore the molecular basis and chemical principles of biochemistry pertinent to living systems. This course is taught by LCOM faculty and emphasizes the relevance of biochemistry to health, disease, physiology and medicine. Prerequisites: <a href=\"/search/?p=CHEM%201150\" data-action=\"result-detail\" data-group=\"code:CHEM 1150\"  class=\"notoffered\">CHEM 1150</a>, <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\"  class=\"notoffered\">CHEM 1580</a>, <a href=\"/search/?p=CHEM%201550\" data-action=\"result-detail\" data-group=\"code:CHEM 1550\"  class=\"notoffered\">CHEM 1550</a>, <a href=\"/search/?p=CHEM%202585\" data-action=\"result-detail\" data-group=\"code:CHEM 2585\"  class=\"notoffered\">CHEM 2585</a>, or equivalent; <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>, or equivalent.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1150\"}, {\"type\": \"course\", \"code\": \"CHEM 1580\"}, {\"type\": \"course\", \"code\": \"CHEM 1550\"}, {\"type\": \"course\", \"code\": \"CHEM 2585\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}]}]}",
+      "other_requirements": "Degree students only even after level restrictions removed; PACE students register for BIOC 3001 ZRA;",
+      "external": false
+    },
+    {
+      "id": "BIOC 3993",
+      "course_code": "BIOC 3993",
+      "department": "BIOC",
+      "title": "Independent Study",
+      "credit_hours": "1",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Offered at department discretion. Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "BIOC 6001",
+      "course_code": "BIOC 6001",
+      "department": "BIOC",
+      "title": "General Biochemistry I",
+      "credit_hours": "3",
+      "description": "Survey for science majors. Chemistry, structure, metabolism, and function of proteins, carbohydrates, lipids; enzymes, bioenergetics and respiratory processes. Prerequisite: <a href=\"/search/?p=CHEM%202585\" data-action=\"result-detail\" data-group=\"code:CHEM 2585\"  class=\"notoffered\">CHEM 2585</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 2585\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
+      "other_requirements": "Degree students only even after level restrictions removed; PACE & Post Bac Pre Med students register for BIOC 6001 ZRA; Total combined enrollment = 50; There is also a Wed. class 4-6 p.m. in Given C443",
+      "external": false
+    },
+    {
+      "id": "NFS 2183",
+      "course_code": "NFS 2183",
+      "department": "NFS",
+      "title": "Introduction to Biochemistry",
+      "credit_hours": "3",
+      "description": "Exploring biological processes at the molecular level and how they are controlled. Topics include enzymes, gene expression, and metabolism of carbohydrates and lipids. Restricted to Nutrition and Food Sciences and Dietetics, Nutrition and Food Sciences majors; others by Instructor permission. Prerequisites: <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\"  class=\"notoffered\">CHEM 1580</a>; or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\" >CHEM 2580</a> and <a href=\"/search/?p=CHEM%202585\" data-action=\"result-detail\" data-group=\"code:CHEM 2585\"  class=\"notoffered\">CHEM 2585</a>; or other acceptable coursework in organic chemistry.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1580\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 2580\"}, {\"type\": \"course\", \"code\": \"CHEM 2585\"}]}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1580\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 2580\"}, {\"type\": \"course\", \"code\": \"CHEM 2585\"}]}]}]}",
+      "other_requirements": "Restricted to Nutrition and Food Sciences and Dietetics, Nutrition and Food Sciences majors; others by Instructor permission. acceptable coursework in organic chemistry. NFS majors only",
+      "external": true
+    },
+    {
+      "id": "BIOC 5995",
+      "course_code": "BIOC 5995",
+      "department": "BIOC",
+      "title": "Graduate Independent Research",
+      "credit_hours": "1 to 18",
+      "description": "Graduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "BCOR 1450",
+      "course_code": "BCOR 1450",
+      "department": "BCOR",
+      "title": "Exploring Biology 2",
+      "credit_hours": "4",
+      "description": "An evolutionary perspective to exploring biology. Topics include: patterns of inheritance, Darwinian evolution, evolution of biodiversity, ecology of organisms, human effects on biological systems. Credit not awarded for both BCOR 1450 and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "BIOC 3994",
+      "course_code": "BIOC 3994",
+      "department": "BIOC",
+      "title": "IS: Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "BIOC 3991",
+      "course_code": "BIOC 3991",
+      "department": "BIOC",
+      "title": "Biotechnology Internship",
+      "credit_hours": "3",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "BCOR 2500",
+      "course_code": "BCOR 2500",
+      "department": "BCOR",
+      "title": "Molecular & Cell Biology w/lab",
+      "credit_hours": "4",
+      "description": "Explores the fundamental processes of life. Topics include cellular metabolism; structure and function of organelles; cell cycle; signal transduction; biology of cancer. <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\" >CHEM 2580</a>, <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a> recommended. Credit not awarded for both BCOR 2500 and <a href=\"/search/?p=BCOR%202505\" data-action=\"result-detail\" data-group=\"code:BCOR 2505\" >BCOR 2505</a>. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a> or <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\" >CHEM 1410</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1405\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}, {\"type\": \"course\", \"code\": \"CHEM 1460\"}]}]}",
+      "other_requirements": "For majors: ASCI, BICM, BIOL, BISC, ENSC, MGEN, MICR, NEUR, PBIO, ZOOL only. Minimum sophomore standing. If enrolling in CHEM 1450/1460, please request an override from Laura.A.Newman@uvm.edu. Degree students only even after level restrictions removed; Post Bac Pre Med students enroll in BCOR 2500 ZRA.",
+      "external": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "BCOR 1450",
+      "target": "BCOR 2500"
+    },
+    {
+      "source": "BCOR 1450",
+      "target": "BIOC 3001"
+    },
+    {
+      "source": "BCOR 2500",
+      "target": "BIOC 3001"
+    },
+    {
+      "source": "BIOC 3001",
+      "target": "BIOC 3063"
+    },
+    {
+      "source": "BIOC 3001",
+      "target": "BIOC 3075"
+    },
+    {
+      "source": "BIOC 3005",
+      "target": "BIOC 3006"
+    },
+    {
+      "source": "BIOC 3005",
+      "target": "BIOC 3007"
+    },
+    {
+      "source": "BIOC 3005",
+      "target": "BIOC 3030"
+    },
+    {
+      "source": "BIOC 3005",
+      "target": "BIOC 3063"
+    },
+    {
+      "source": "BIOC 3005",
+      "target": "BIOC 3075"
+    },
+    {
+      "source": "BIOC 3006",
+      "target": "BIOC 3030"
+    },
+    {
+      "source": "BIOC 3007",
+      "target": "BIOC 3030"
+    },
+    {
+      "source": "BIOC 6001",
+      "target": "BIOC 6002"
+    },
+    {
+      "source": "BIOC 6001",
+      "target": "BIOC 6072"
+    },
+    {
+      "source": "BIOL 1450",
+      "target": "BCOR 2500"
+    },
+    {
+      "source": "BIOL 1450",
+      "target": "BIOC 3001"
+    },
+    {
+      "source": "CHEM 1150",
+      "target": "BIOC 3001"
+    },
+    {
+      "source": "CHEM 1400",
+      "target": "BCOR 2500"
+    },
+    {
+      "source": "CHEM 1400",
+      "target": "BIOC 2995"
+    },
+    {
+      "source": "CHEM 1400",
+      "target": "CHEM 1150"
+    },
+    {
+      "source": "CHEM 1400",
+      "target": "CHEM 1450"
+    },
+    {
+      "source": "CHEM 1450",
+      "target": "BCOR 2500"
+    },
+    {
+      "source": "CHEM 1450",
+      "target": "BIOC 2995"
+    },
+    {
+      "source": "CHEM 1450",
+      "target": "CHEM 1580"
+    },
+    {
+      "source": "CHEM 1550",
+      "target": "BIOC 3001"
+    },
+    {
+      "source": "CHEM 1550",
+      "target": "BIOC 3005"
+    },
+    {
+      "source": "CHEM 1580",
+      "target": "BIOC 3001"
+    },
+    {
+      "source": "CHEM 1580",
+      "target": "NFS 2183"
+    },
+    {
+      "source": "CHEM 2585",
+      "target": "BIOC 3001"
+    },
+    {
+      "source": "CHEM 2585",
+      "target": "BIOC 3005"
+    },
+    {
+      "source": "CHEM 2585",
+      "target": "BIOC 6001"
+    },
+    {
+      "source": "CHEM 2585",
+      "target": "NFS 2183"
+    },
+    {
+      "source": "NFS 2183",
+      "target": "BIOC 3063"
+    },
+    {
+      "source": "NFS 2183",
+      "target": "BIOC 3075"
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "department": "FTS",
+  "nodes": [
+    {
+      "id": "FTS 6510",
+      "course_code": "FTS 6510",
+      "department": "FTS",
+      "title": "Film and Psychoanalytic Theory",
+      "credit_hours": "3",
+      "description": "Offers a detailed exploration of a specific theory or theorist. It will explore both primary and secondary literature of the theory in order to give students a firm grasp of the particular theoretical approach. For instance, one version of the course would explore Marxism by reading works by Marx himself, including Capital and the Grundrisse, as well as important secondary material by Theodor Adorno and Georg Lukacs.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "FTS 4996",
+      "course_code": "FTS 4996",
+      "department": "FTS",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "FTS 2050",
+      "course_code": "FTS 2050",
+      "department": "FTS",
+      "title": "Film/TV Theory",
+      "credit_hours": "3",
+      "description": "Intensive study of developments in film and/or television theory, such as realism, formalism, psychoanalysis, critical race theory, and feminism. Prerequisites: <a href=\"/search/?p=FTS%201300\" data-action=\"result-detail\" data-group=\"code:FTS 1300\"  class=\"notoffered\">FTS 1300</a>, <a href=\"/search/?p=FTS%201320\" data-action=\"result-detail\" data-group=\"code:FTS 1320\" >FTS 1320</a>, <a href=\"/search/?p=FTS%201420\" data-action=\"result-detail\" data-group=\"code:FTS 1420\" >FTS 1420</a>, <a href=\"/search/?p=FTS%201400\" data-action=\"result-detail\" data-group=\"code:FTS 1400\" >FTS 1400</a>, or <a href=\"/search/?p=FTS%201430\" data-action=\"result-detail\" data-group=\"code:FTS 1430\"  class=\"notoffered\">FTS 1430</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FTS 1300\"}, {\"type\": \"course\", \"code\": \"FTS 1320\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1400\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FTS 1400\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1300\"}, {\"type\": \"course\", \"code\": \"FTS 1320\"}]}]}",
+      "other_requirements": "FTS majors and minors and RDS minors during week of registration. PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "FTS 1022",
+      "course_code": "FTS 1022",
+      "department": "FTS",
+      "title": "LASP: Now on Netflix",
+      "credit_hours": "3",
+      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences).  Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program.",
+      "prereq_expression": null,
+      "other_requirements": "Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program. LASP World Language Scholars only. Instructor permission. All films/series will be available for you to screen on Netflix; thus, you will need an account or access to an account. All reading materials will be provided by the instructor and made available on our course website.",
+      "external": false
+    },
+    {
+      "id": "FTS 2700",
+      "course_code": "FTS 2700",
+      "department": "FTS",
+      "title": "Screenwriting: The Sitcom",
+      "credit_hours": "3",
+      "description": "An investigation of screenwriting practice and a screenwriting workshop. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=FTS%201400\" data-action=\"result-detail\" data-group=\"code:FTS 1400\" >FTS 1400</a>, <a href=\"/search/?p=FTS%201420\" data-action=\"result-detail\" data-group=\"code:FTS 1420\" >FTS 1420</a>, or <a href=\"/search/?p=FTS%201430\" data-action=\"result-detail\" data-group=\"code:FTS 1430\"  class=\"notoffered\">FTS 1430</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FTS 1400\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}",
+      "other_requirements": "PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "FTS 2994",
+      "course_code": "FTS 2994",
+      "department": "FTS",
+      "title": "Teaching Assistantship",
+      "credit_hours": "3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor Permission Required",
+      "external": false
+    },
+    {
+      "id": "FTS 4500",
+      "course_code": "FTS 4500",
+      "department": "FTS",
+      "title": "The Nature Documentary",
+      "credit_hours": "3",
+      "description": "Advanced level investigations into the critical study of film and/or television. May be repeated for credit. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=FTS%201400\" data-action=\"result-detail\" data-group=\"code:FTS 1400\" >FTS 1400</a>, <a href=\"/search/?p=FTS%201420\" data-action=\"result-detail\" data-group=\"code:FTS 1420\" >FTS 1420</a>, or <a href=\"/search/?p=FTS%201430\" data-action=\"result-detail\" data-group=\"code:FTS 1430\"  class=\"notoffered\">FTS 1430</a>; <a href=\"/search/?p=FTS%202050\" data-action=\"result-detail\" data-group=\"code:FTS 2050\" >FTS 2050</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FTS 1400\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}, {\"type\": \"course\", \"code\": \"FTS 2050\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "FTS 2605",
+      "course_code": "FTS 2605",
+      "department": "FTS",
+      "title": "Leahy Oral History Internship",
+      "credit_hours": "3",
+      "description": "Topics in film and video production. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=FTS%201300\" data-action=\"result-detail\" data-group=\"code:FTS 1300\"  class=\"notoffered\">FTS 1300</a>, <a href=\"/search/?p=FTS%201320\" data-action=\"result-detail\" data-group=\"code:FTS 1320\" >FTS 1320</a>, <a href=\"/search/?p=FTS%201400\" data-action=\"result-detail\" data-group=\"code:FTS 1400\" >FTS 1400</a>, <a href=\"/search/?p=FTS%201420\" data-action=\"result-detail\" data-group=\"code:FTS 1420\" >FTS 1420</a>, or <a href=\"/search/?p=FTS%201430\" data-action=\"result-detail\" data-group=\"code:FTS 1430\"  class=\"notoffered\">FTS 1430</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"FTS 1300\"}, {\"type\": \"course\", \"code\": \"FTS 1320\"}, {\"type\": \"course\", \"code\": \"FTS 1400\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"FTS 1400\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}, {\"type\": \"course\", \"code\": \"FTS 1300\"}, {\"type\": \"course\", \"code\": \"FTS 1320\"}]}",
+      "other_requirements": "If you want to take this class but are missing a pre-rec and want a course override, just email Kelsey at kkupfere@uvm.edu with a short note about why you\u2019d like to take the class.",
+      "external": false
+    },
+    {
+      "id": "FTS 1430",
+      "course_code": "FTS 1430",
+      "department": "FTS",
+      "title": "Contemporary Cinema",
+      "credit_hours": "3",
+      "description": "Introduction to basic film history, theory, and analytical skills. An historical overview of contemporary international cinema.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "FTS 1320",
+      "course_code": "FTS 1320",
+      "department": "FTS",
+      "title": "The Thriller",
+      "credit_hours": "3",
+      "description": "Foundational instruction in how to analyze the aesthetic, social and political significance of film genre. Representative topics: The Horror Film, The Coming of Age Film, The Superhero Film. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "FTS 1010",
+      "course_code": "FTS 1010",
+      "department": "FTS",
+      "title": "FYS:Coming Attrac:Film/Society",
+      "credit_hours": "3",
+      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": "CAS first time first year students only",
+      "external": false
+    },
+    {
+      "id": "FTS 3605",
+      "course_code": "FTS 3605",
+      "department": "FTS",
+      "title": "Producing the Short Film",
+      "credit_hours": "3",
+      "description": "Topics in film and video production. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=FTS%202650\" data-action=\"result-detail\" data-group=\"code:FTS 2650\"  class=\"notoffered\">FTS 2650</a> or <a href=\"/search/?p=FTS%202655\" data-action=\"result-detail\" data-group=\"code:FTS 2655\" >FTS 2655</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FTS 2650\"}, {\"type\": \"course\", \"code\": \"FTS 2655\"}]}",
+      "other_requirements": "PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "FTS 1025",
+      "course_code": "FTS 1025",
+      "department": "FTS",
+      "title": "LASP: On Dreams and the Cinema",
+      "credit_hours": "3",
+      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences). Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program.",
+      "prereq_expression": null,
+      "other_requirements": "Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program. LASP students only; instructor permission",
+      "external": false
+    },
+    {
+      "id": "FTS 3993",
+      "course_code": "FTS 3993",
+      "department": "FTS",
+      "title": "IS:Film Theory",
+      "credit_hours": "3",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Departmental permission required. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Departmental permission required. Offered at department discretion. Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "FTS 3991",
+      "course_code": "FTS 3991",
+      "department": "FTS",
+      "title": "Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Departmental permission required. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Departmental permission required. Offered at department discretion. Instructor permission required.",
+      "external": false
+    },
+    {
+      "id": "FTS 1420",
+      "course_code": "FTS 1420",
+      "department": "FTS",
+      "title": "Classical Cinema",
+      "credit_hours": "3",
+      "description": "Introduction to basic film history, theory, and analytical skills. An historical overview of classical international cinema.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "FTS 2420",
+      "course_code": "FTS 2420",
+      "department": "FTS",
+      "title": "Films of 1999",
+      "credit_hours": "3",
+      "description": "Intensive focus on various historical movements within film and/or television. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=FTS%201300\" data-action=\"result-detail\" data-group=\"code:FTS 1300\"  class=\"notoffered\">FTS 1300</a>, <a href=\"/search/?p=FTS%201320\" data-action=\"result-detail\" data-group=\"code:FTS 1320\" >FTS 1320</a>, <a href=\"/search/?p=FTS%201400\" data-action=\"result-detail\" data-group=\"code:FTS 1400\" >FTS 1400</a>, <a href=\"/search/?p=FTS%201420\" data-action=\"result-detail\" data-group=\"code:FTS 1420\" >FTS 1420</a>, or <a href=\"/search/?p=FTS%201430\" data-action=\"result-detail\" data-group=\"code:FTS 1430\"  class=\"notoffered\">FTS 1430</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FTS 1300\"}, {\"type\": \"course\", \"code\": \"FTS 1320\"}, {\"type\": \"course\", \"code\": \"FTS 1400\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "FTS 2655",
+      "course_code": "FTS 2655",
+      "department": "FTS",
+      "title": "Production Foundations",
+      "credit_hours": "3",
+      "description": "An introduction to techniques and theories of video production. Credit not awarded for both FTS 2655 and <a href=\"/search/?p=FTS%202650\" data-action=\"result-detail\" data-group=\"code:FTS 2650\"  class=\"notoffered\">FTS 2650</a>. Prerequisites: <a href=\"/search/?p=FTS%201300\" data-action=\"result-detail\" data-group=\"code:FTS 1300\"  class=\"notoffered\">FTS 1300</a>, <a href=\"/search/?p=FTS%201320\" data-action=\"result-detail\" data-group=\"code:FTS 1320\" >FTS 1320</a>, <a href=\"/search/?p=FTS%201400\" data-action=\"result-detail\" data-group=\"code:FTS 1400\" >FTS 1400</a>, <a href=\"/search/?p=FTS%201420\" data-action=\"result-detail\" data-group=\"code:FTS 1420\" >FTS 1420</a>, or <a href=\"/search/?p=FTS%201430\" data-action=\"result-detail\" data-group=\"code:FTS 1430\"  class=\"notoffered\">FTS 1430</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"FTS 1300\"}, {\"type\": \"course\", \"code\": \"FTS 1320\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FTS 1400\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}]}",
+      "other_requirements": "PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "FTS 2060",
+      "course_code": "FTS 2060",
+      "department": "FTS",
+      "title": "Post-Wall German Cinema",
+      "credit_hours": "3",
+      "description": "Investigations of nation and identity in film and/or television approached in their specific cultural, historical, and theoretical terms. May be repeated for credit. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=FTS%201300\" data-action=\"result-detail\" data-group=\"code:FTS 1300\" >FTS 1300</a>, <a href=\"/search/?p=FTS%201320\" data-action=\"result-detail\" data-group=\"code:FTS 1320\"  class=\"notoffered\">FTS 1320</a>, <a href=\"/search/?p=FTS%201400\" data-action=\"result-detail\" data-group=\"code:FTS 1400\" >FTS 1400</a>, <a href=\"/search/?p=FTS%201420\" data-action=\"result-detail\" data-group=\"code:FTS 1420\"  class=\"notoffered\">FTS 1420</a>, or <a href=\"/search/?p=FTS%201430\" data-action=\"result-detail\" data-group=\"code:FTS 1430\" >FTS 1430</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FTS 1300\"}, {\"type\": \"course\", \"code\": \"FTS 1320\"}, {\"type\": \"course\", \"code\": \"FTS 1400\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}",
+      "other_requirements": "PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "FTS 2062",
+      "course_code": "FTS 2062",
+      "department": "FTS",
+      "title": "South Korea: K Culture, Cinema",
+      "credit_hours": "3",
+      "description": "Investigations of nation and identity in film and/or television approached in their specific cultural, historical, and theoretical terms. Emphasis on themes appropriate to the Developing Global Citizens requirement. May be repeated for credit. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=FTS%201300\" data-action=\"result-detail\" data-group=\"code:FTS 1300\" >FTS 1300</a>, <a href=\"/search/?p=FTS%201320\" data-action=\"result-detail\" data-group=\"code:FTS 1320\"  class=\"notoffered\">FTS 1320</a>, <a href=\"/search/?p=FTS%201400\" data-action=\"result-detail\" data-group=\"code:FTS 1400\" >FTS 1400</a>, <a href=\"/search/?p=FTS%201420\" data-action=\"result-detail\" data-group=\"code:FTS 1420\"  class=\"notoffered\">FTS 1420</a>, or <a href=\"/search/?p=FTS%201430\" data-action=\"result-detail\" data-group=\"code:FTS 1430\" >FTS 1430</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FTS 1300\"}, {\"type\": \"course\", \"code\": \"FTS 1320\"}, {\"type\": \"course\", \"code\": \"FTS 1400\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "FTS 1400",
+      "course_code": "FTS 1400",
+      "department": "FTS",
+      "title": "History of Television",
+      "credit_hours": "3",
+      "description": "Introduction to basic television history, theory and analysis. An historical overview of television from its invention to the present.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "FTS 4550",
+      "course_code": "FTS 4550",
+      "department": "FTS",
+      "title": "Comprehensive Exam",
+      "credit_hours": "1",
+      "description": "Capstone experience for majors culminating in a comprehensive exam. Readings and films will be available throughout the major, and in many cases, will draw from materials encountered in previous classes. Prerequisite: <a href=\"/search/?p=FTS%202050\" data-action=\"result-detail\" data-group=\"code:FTS 2050\" >FTS 2050</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"FTS 2050\"}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "FTS 1300",
+      "course_code": "FTS 1300",
+      "department": "FTS",
+      "title": "Better Call Saul",
+      "credit_hours": "3",
+      "description": "Foundational instruction in how to analyze the aesthetic, social and political significance of a television series. Representative topics: Breaking Bad and Masculinity, Twin Peaks and Desire, Wire and Ethics. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "FTS 1600",
+      "course_code": "FTS 1600",
+      "department": "FTS",
+      "title": "Film Festival Camden",
+      "credit_hours": "1",
+      "description": "Investigates the history and business of the evolving role of film festivals for filmmakers, distributors, exhibitors, and audience. Students will study and attend a film festival for experiential observation of the field. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": "PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "FTS 4994",
+      "course_code": "FTS 4994",
+      "department": "FTS",
+      "title": "Teaching Assistantship",
+      "credit_hours": "3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Departmental permission required. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Departmental permission required. Offered at department discretion. Instructor permission required",
+      "external": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "FTS 1300",
+      "target": "FTS 2050"
+    },
+    {
+      "source": "FTS 1300",
+      "target": "FTS 2060"
+    },
+    {
+      "source": "FTS 1300",
+      "target": "FTS 2062"
+    },
+    {
+      "source": "FTS 1300",
+      "target": "FTS 2420"
+    },
+    {
+      "source": "FTS 1300",
+      "target": "FTS 2605"
+    },
+    {
+      "source": "FTS 1300",
+      "target": "FTS 2655"
+    },
+    {
+      "source": "FTS 1320",
+      "target": "FTS 2050"
+    },
+    {
+      "source": "FTS 1320",
+      "target": "FTS 2060"
+    },
+    {
+      "source": "FTS 1320",
+      "target": "FTS 2062"
+    },
+    {
+      "source": "FTS 1320",
+      "target": "FTS 2420"
+    },
+    {
+      "source": "FTS 1320",
+      "target": "FTS 2605"
+    },
+    {
+      "source": "FTS 1320",
+      "target": "FTS 2655"
+    },
+    {
+      "source": "FTS 1400",
+      "target": "FTS 2050"
+    },
+    {
+      "source": "FTS 1400",
+      "target": "FTS 2060"
+    },
+    {
+      "source": "FTS 1400",
+      "target": "FTS 2062"
+    },
+    {
+      "source": "FTS 1400",
+      "target": "FTS 2420"
+    },
+    {
+      "source": "FTS 1400",
+      "target": "FTS 2605"
+    },
+    {
+      "source": "FTS 1400",
+      "target": "FTS 2655"
+    },
+    {
+      "source": "FTS 1400",
+      "target": "FTS 2700"
+    },
+    {
+      "source": "FTS 1400",
+      "target": "FTS 4500"
+    },
+    {
+      "source": "FTS 1420",
+      "target": "FTS 2050"
+    },
+    {
+      "source": "FTS 1420",
+      "target": "FTS 2060"
+    },
+    {
+      "source": "FTS 1420",
+      "target": "FTS 2062"
+    },
+    {
+      "source": "FTS 1420",
+      "target": "FTS 2420"
+    },
+    {
+      "source": "FTS 1420",
+      "target": "FTS 2605"
+    },
+    {
+      "source": "FTS 1420",
+      "target": "FTS 2655"
+    },
+    {
+      "source": "FTS 1420",
+      "target": "FTS 2700"
+    },
+    {
+      "source": "FTS 1420",
+      "target": "FTS 4500"
+    },
+    {
+      "source": "FTS 1430",
+      "target": "FTS 2050"
+    },
+    {
+      "source": "FTS 1430",
+      "target": "FTS 2060"
+    },
+    {
+      "source": "FTS 1430",
+      "target": "FTS 2062"
+    },
+    {
+      "source": "FTS 1430",
+      "target": "FTS 2420"
+    },
+    {
+      "source": "FTS 1430",
+      "target": "FTS 2605"
+    },
+    {
+      "source": "FTS 1430",
+      "target": "FTS 2655"
+    },
+    {
+      "source": "FTS 1430",
+      "target": "FTS 2700"
+    },
+    {
+      "source": "FTS 1430",
+      "target": "FTS 4500"
+    },
+    {
+      "source": "FTS 2050",
+      "target": "FTS 4500"
+    },
+    {
+      "source": "FTS 2050",
+      "target": "FTS 4550"
+    },
+    {
+      "source": "FTS 2655",
+      "target": "FTS 3605"
+    }
+  ]
+}

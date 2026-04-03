@@ -1,0 +1,17 @@
+{
+  "department": "CSCS",
+  "nodes": [
+    {
+      "id": "CSCS 7010",
+      "course_code": "CSCS 7010",
+      "department": "CSCS",
+      "title": "Computational Hu&SocSc1",
+      "credit_hours": "3",
+      "description": "First of a two-semester sequence. Case studies cover computational approaches in humanities and social sciences as presented by faculty across the disciplines. Field trips to industry, non-profit and public sector sites highlight computational approaches in their day-to-day working contexts. Individual and paired assignments introduce ethical questions and epistemological debates.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    }
+  ],
+  "edges": []
+}

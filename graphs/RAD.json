@@ -1,0 +1,17 @@
+{
+  "department": "RAD",
+  "nodes": [
+    {
+      "id": "RAD 6890",
+      "course_code": "RAD 6890",
+      "department": "RAD",
+      "title": "Human Anatomy via Radiology",
+      "credit_hours": "3",
+      "description": "Conveys the subject of human anatomy. Rather than anatomic dissection, in-vivo anatomy will be presented through medical imaging. Prerequisite: Biology 2000-level equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 2000\"}, {\"type\": \"course\", \"code\": \"BIOL 2001\"}, {\"type\": \"course\", \"code\": \"BIOL 2002\"}, {\"type\": \"course\", \"code\": \"BIOL 2003\"}, {\"type\": \"course\", \"code\": \"BIOL 2004\"}, {\"type\": \"course\", \"code\": \"BIOL 2005\"}, {\"type\": \"course\", \"code\": \"BIOL 2006\"}, {\"type\": \"course\", \"code\": \"BIOL 2007\"}, {\"type\": \"course\", \"code\": \"BIOL 2008\"}, {\"type\": \"course\", \"code\": \"BIOL 2009\"}]}",
+      "other_requirements": "Junior or senior standing and successfully retained information from general biology and chemistry at the 100 level. Contact course instructors for guidance and syllabus.",
+      "external": false
+    }
+  ],
+  "edges": []
+}

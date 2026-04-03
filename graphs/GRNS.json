@@ -1,0 +1,1126 @@
+{
+  "department": "GRNS",
+  "nodes": [
+    {
+      "id": "GRNS 6302",
+      "course_code": "GRNS 6302",
+      "department": "GRNS",
+      "title": "Quality & Informatics",
+      "credit_hours": "3",
+      "description": "Nursing professionals play a pivotal role in delivering high-quality patient care while harnessing the power of technology and data-driven insights. This course is designed to empower students with the knowledge and skills necessary to excel in a dynamic healthcare environment. Students will be introduced to core concepts from both the informatics and quality domains, allowing them to integrate new concepts and apply reflective practice to the ways in which they use these skills every day. Prerequisite: <a href=\"/search/?p=STAT%205000\" data-action=\"result-detail\" data-group=\"code:STAT 5000\" >STAT 5000</a>. Co-requisite: <a href=\"/search/?p=GRNS%206301\" data-action=\"result-detail\" data-group=\"code:GRNS 6301\" >GRNS 6301</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"STAT 5000\"}",
+      "other_requirements": "MS Students Only",
+      "external": false
+    },
+    {
+      "id": "GRNS 7280",
+      "course_code": "GRNS 7280",
+      "department": "GRNS",
+      "title": "Executive Nurse Leader Immersi",
+      "credit_hours": "1 to 6",
+      "description": "A continuation of the Executive Nurse Leader Role Transformation Practicum learning experience. Prerequisite: <a href=\"/search/?p=GRNS%207270\" data-action=\"result-detail\" data-group=\"code:GRNS 7270\"  class=\"notoffered\">GRNS 7270</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"GRNS 7270\"}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GRNS 6060",
+      "course_code": "GRNS 6060",
+      "department": "GRNS",
+      "title": "Sci of Nsg: Mental Health",
+      "credit_hours": "3",
+      "description": "Theories of human behavior form the foundation for understanding mental health and acute and chronic mental illnesses. Focus on assessment, treatment, and nursing care. Prerequisites: <a href=\"/search/?p=GRNS%205280\" data-action=\"result-detail\" data-group=\"code:GRNS 5280\"  class=\"notoffered\">GRNS 5280</a>, <a href=\"/search/?p=GRNS%205130\" data-action=\"result-detail\" data-group=\"code:GRNS 5130\"  class=\"notoffered\">GRNS 5130</a>, <a href=\"/search/?p=GRNS%206020\" data-action=\"result-detail\" data-group=\"code:GRNS 6020\"  class=\"notoffered\">GRNS 6020</a>, <a href=\"/search/?p=GRNS%206030\" data-action=\"result-detail\" data-group=\"code:GRNS 6030\"  class=\"notoffered\">GRNS 6030</a>. Co-requisite: <a href=\"/search/?p=GRNS%206120\" data-action=\"result-detail\" data-group=\"code:GRNS 6120\" >GRNS 6120</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 5280\"}, {\"type\": \"course\", \"code\": \"GRNS 5130\"}, {\"type\": \"course\", \"code\": \"GRNS 6020\"}, {\"type\": \"course\", \"code\": \"GRNS 6030\"}]}",
+      "other_requirements": "DEPN & MEPN students only",
+      "external": false
+    },
+    {
+      "id": "GRNS 6391",
+      "course_code": "GRNS 6391",
+      "department": "GRNS",
+      "title": "Master's Thesis Research",
+      "credit_hours": "1",
+      "description": null,
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "STAT 5000",
+      "course_code": "STAT 5000",
+      "department": "STAT",
+      "title": "Biostatistics and Epidemiology",
+      "credit_hours": "3",
+      "description": "Introductory design and analysis of medical studies. Epidemiological concepts, case-control and cohort studies. Clinical trials. Students evaluate statistical aspects of published health science studies.  Understand the relevance of published public health research to clinical practice. Credit not awarded for both STAT 5000 and <a href=\"/search/?p=STAT%203000\" data-action=\"result-detail\" data-group=\"code:STAT 3000\" >STAT 3000</a>. Prerequisite: Graduate student or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate standing or instructor permission",
+      "external": true
+    },
+    {
+      "id": "GRNS 6306",
+      "course_code": "GRNS 6306",
+      "department": "GRNS",
+      "title": "Project & Thesis Seminar",
+      "credit_hours": "1",
+      "description": "Builds on previous work completed in Research, Quality Improvement Methods, and Evidenced Based Practice course. Students refine and operationalize their master's thesis or project. Through class discussions, peer feedback, and faculty guidance, students focus on finalizing their pre-proposal as well as formulating a thesis or project committee and an appropriate timeline for completion of key elements and criterion. Prerequisites: <a href=\"/search/?p=STAT%205000\" data-action=\"result-detail\" data-group=\"code:STAT 5000\" >STAT 5000</a>, <a href=\"/search/?p=GRNS%206301\" data-action=\"result-detail\" data-group=\"code:GRNS 6301\"  class=\"notoffered\">GRNS 6301</a>, <a href=\"/search/?p=GRNS%206302\" data-action=\"result-detail\" data-group=\"code:GRNS 6302\"  class=\"notoffered\">GRNS 6302</a>, <a href=\"/search/?p=GRNS%206240\" data-action=\"result-detail\" data-group=\"code:GRNS 6240\"  class=\"notoffered\">GRNS 6240</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 5000\"}, {\"type\": \"course\", \"code\": \"GRNS 6301\"}, {\"type\": \"course\", \"code\": \"GRNS 6302\"}, {\"type\": \"course\", \"code\": \"GRNS 6240\"}]}",
+      "other_requirements": "Master's students; instructor permission; Asynchronous online",
+      "external": false
+    },
+    {
+      "id": "GRNS 7050",
+      "course_code": "GRNS 7050",
+      "department": "GRNS",
+      "title": "Adv Neuropsychopharmacology",
+      "credit_hours": "3",
+      "description": "In-depth examination of the pharmacokinetics and pharmacodynamics of drugs used to treat individuals with acute and chronic pain, neurologic and psychiatric illnesses across the lifespan. Prerequisites: <a href=\"/search/?p=GRNS%206350\" data-action=\"result-detail\" data-group=\"code:GRNS 6350\"  class=\"notoffered\">GRNS 6350</a>, <a href=\"/search/?p=GRNS%207040\" data-action=\"result-detail\" data-group=\"code:GRNS 7040\"  class=\"notoffered\">GRNS 7040</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 6350\"}, {\"type\": \"course\", \"code\": \"GRNS 7040\"}]}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GRNS 5130",
+      "course_code": "GRNS 5130",
+      "department": "GRNS",
+      "title": "Gr Pathophysiology",
+      "credit_hours": "3",
+      "description": "Designed to provide the student with a working foundation of both pathophysiology and pharmacology. The phenomena that result in dysfunction in human physiologic response will be examined within a holistic context across the lifespan. An understanding of the basic concepts underlying common pathways in disease is emphasized. Credit not awarded for both GRNS 5130 and <a href=\"/search/?p=NURS%203220\" data-action=\"result-detail\" data-group=\"code:NURS 3220\" >NURS 3220</a>. Prerequisite: Direct Entry to Professional Nursing, Direct Entry to Clinical Nurse Leader student. Co-requisite: <a href=\"/search/?p=GRNS%205280\" data-action=\"result-detail\" data-group=\"code:GRNS 5280\" >GRNS 5280</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 5280\"}]}",
+      "other_requirements": "Direct Entry to Professional Nursing, Direct Entry to Clinical Nurse Leader student. DEPN/MEPN students only; PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "GRNS 7170",
+      "course_code": "GRNS 7170",
+      "department": "GRNS",
+      "title": "Mgt Women & Gendered Hlth Care",
+      "credit_hours": "2.25",
+      "description": "Advanced nursing practice focusing on the assessment, diagnosis, management, and evaluation of acute and chronic health conditions commonly encountered in the area of women's and gendered related health conditions. Prerequisites: <a href=\"/search/?p=GRNS%207070\" data-action=\"result-detail\" data-group=\"code:GRNS 7070\" >GRNS 7070</a>, <a href=\"/search/?p=GRNS%207080\" data-action=\"result-detail\" data-group=\"code:GRNS 7080\" >GRNS 7080</a>, <a href=\"/search/?p=GRNS%207120\" data-action=\"result-detail\" data-group=\"code:GRNS 7120\"  class=\"notoffered\">GRNS 7120</a>. Co-requisite: <a href=\"/search/?p=GRNS%207180\" data-action=\"result-detail\" data-group=\"code:GRNS 7180\" >GRNS 7180</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7070\"}, {\"type\": \"course\", \"code\": \"GRNS 7080\"}, {\"type\": \"course\", \"code\": \"GRNS 7120\"}]}",
+      "other_requirements": "Co-requisite: GRNS 7180. Hybrid course; Prerecs enforced by the system:GRNS 7070&7080&7120; Co-req:GRNS 7180; Meets on campus:1/22, 2/5, 2/19, 3/5, 3/26, 4/9, 4/23; Alternate weeks online Thursdays; Program fee: $107",
+      "external": false
+    },
+    {
+      "id": "NURS 3220",
+      "course_code": "NURS 3220",
+      "department": "NURS",
+      "title": "Pathophysiology",
+      "credit_hours": "3",
+      "description": "Provides a comprehensive foundation in pathophysiology. The phenomena that result in dysfunction in human physiologic response will be examined. Credit not awarded for both NURS 3220 and <a href=\"/search/?p=GRNS%205130\" data-action=\"result-detail\" data-group=\"code:GRNS 5130\" >GRNS 5130</a>. Prerequisites: Minimum Junior or Graduate standing; <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a>, <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>, <a href=\"/search/?p=MMG%201650\" data-action=\"result-detail\" data-group=\"code:MMG 1650\" >MMG 1650</a>. Co-requisite: <a href=\"/search/?p=PRNU%203228\" data-action=\"result-detail\" data-group=\"code:PRNU 3228\" >PRNU 3228</a>; Nursing students only.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}, {\"type\": \"course\", \"code\": \"MMG 1650\"}]}",
+      "other_requirements": "Minimum Junior or Graduate standing; Nursing students only; Junior, Senior, standing students only; PACE students by permission and override. Credit not awarded for both NURS 3220 and GRNS 5130.",
+      "external": true
+    },
+    {
+      "id": "GRNS 6000",
+      "course_code": "GRNS 6000",
+      "department": "GRNS",
+      "title": "Professional Nursing Issues",
+      "credit_hours": "2",
+      "description": "Issues affecting nursing practice provide framework for examination of and socialization into professional nursing. The historical, legal, ethical, cultural, structural, and economic aspects of nursing practice will be explored. Prerequisite: Admission to Direct Entry Program in Nursing. Co-requisites: <a href=\"/search/?p=GRNS%205280\" data-action=\"result-detail\" data-group=\"code:GRNS 5280\" >GRNS 5280</a>, <a href=\"/search/?p=GRNS%206020\" data-action=\"result-detail\" data-group=\"code:GRNS 6020\" >GRNS 6020</a>, <a href=\"/search/?p=GRNS%206030\" data-action=\"result-detail\" data-group=\"code:GRNS 6030\" >GRNS 6030</a>. Pre/co-requisite: <a href=\"/search/?p=GRNS%205130\" data-action=\"result-detail\" data-group=\"code:GRNS 5130\" >GRNS 5130</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"GRNS 5130\"}",
+      "other_requirements": "Admission to Direct Entry Program in Nursing. Co-requisites: GRNS 5280, GRNS 6020, GRNS 6030. Class meets on campus every other Friday, 1:00 - 3:00: Dates: 9/4; 9/11; 9/25; 10/23; 11/6; 11/20; 12/4: Alternate weeks online.",
+      "external": false
+    },
+    {
+      "id": "GRNS 6120",
+      "course_code": "GRNS 6120",
+      "department": "GRNS",
+      "title": "Sci of Nsg: Adults Lifespan II",
+      "credit_hours": "2",
+      "description": "Continued exploration of pathophysiological phenomena of health conditions commonly experienced in an acute care setting. Prerequisite: <a href=\"/search/?p=GRNS%205130\" data-action=\"result-detail\" data-group=\"code:GRNS 5130\"  class=\"notoffered\">GRNS 5130</a>, <a href=\"/search/?p=GRNS%205280\" data-action=\"result-detail\" data-group=\"code:GRNS 5280\"  class=\"notoffered\">GRNS 5280</a>, <a href=\"/search/?p=GRNS%206020\" data-action=\"result-detail\" data-group=\"code:GRNS 6020\"  class=\"notoffered\">GRNS 6020</a>, <a href=\"/search/?p=GRNS%206030\" data-action=\"result-detail\" data-group=\"code:GRNS 6030\"  class=\"notoffered\">GRNS 6030</a>. Co-requisite: <a href=\"/search/?p=GRNS%206050\" data-action=\"result-detail\" data-group=\"code:GRNS 6050\" >GRNS 6050</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 5130\"}, {\"type\": \"course\", \"code\": \"GRNS 5280\"}, {\"type\": \"course\", \"code\": \"GRNS 6020\"}, {\"type\": \"course\", \"code\": \"GRNS 6030\"}]}",
+      "other_requirements": "DEPN & MEPN students only; Prereqs enforced by system; ATI Fee: $805.00",
+      "external": false
+    },
+    {
+      "id": "GRNS 6031",
+      "course_code": "GRNS 6031",
+      "department": "GRNS",
+      "title": "Prac: Adults Lifespan I",
+      "credit_hours": "2.25",
+      "description": "Delivery of nursing care using knowledge acquired in <a href=\"/search/?p=GRNS%206030\" data-action=\"result-detail\" data-group=\"code:GRNS 6030\" >GRNS 6030</a> and principles consistent with the ANA Scope and Standards of Practice (<a href=\"/search/?p=GRNS%202021\" data-action=\"result-detail\" data-group=\"code:GRNS 2021\"  class=\"notoffered\">2021</a>). Students have the opportunity to process interpersonal and professional issues with peers and faculty during post-conference sessions. Faculty guide students to use the nursing process in practice settings. Prerequisites: Admission to the Direct Entry Program, Doctor of Nursing Practice, or Master of Science. Co-requisites: <a href=\"/search/?p=GRNS%206020\" data-action=\"result-detail\" data-group=\"code:GRNS 6020\" >GRNS 6020</a>, <a href=\"/search/?p=GRNS%205130\" data-action=\"result-detail\" data-group=\"code:GRNS 5130\" >GRNS 5130</a>, <a href=\"/search/?p=GRNS%205280\" data-action=\"result-detail\" data-group=\"code:GRNS 5280\" >GRNS 5280</a>. Pre/Co-requisites: <a href=\"/search/?p=GRNS%206030\" data-action=\"result-detail\" data-group=\"code:GRNS 6030\" >GRNS 6030</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 6030\"}]}",
+      "other_requirements": "Admission to the Direct Entry Program, Doctor of Nursing Practice, or Master of Science. DEPN/MEPN Students",
+      "external": false
+    },
+    {
+      "id": "GRNS 7200",
+      "course_code": "GRNS 7200",
+      "department": "GRNS",
+      "title": "Practicum:Chrn&Cplx Cond AGNP",
+      "credit_hours": "2.5",
+      "description": "Practicum focuses on the refinement diagnostic and therapeutic interventions in the provision of primary health care to individuals and families with chronic and complex health conditions. Prerequisites: <a href=\"/search/?p=GRNS%207120\" data-action=\"result-detail\" data-group=\"code:GRNS 7120\"  class=\"notoffered\">GRNS 7120</a>, <a href=\"/search/?p=GRNS%207140\" data-action=\"result-detail\" data-group=\"code:GRNS 7140\"  class=\"notoffered\">GRNS 7140</a>, <a href=\"/search/?p=GRNS%207150\" data-action=\"result-detail\" data-group=\"code:GRNS 7150\"  class=\"notoffered\">GRNS 7150</a>. Co-requisite: <a href=\"/search/?p=GRNS%207190\" data-action=\"result-detail\" data-group=\"code:GRNS 7190\" >GRNS 7190</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7120\"}, {\"type\": \"course\", \"code\": \"GRNS 7140\"}, {\"type\": \"course\", \"code\": \"GRNS 7150\"}]}",
+      "other_requirements": "Co-requisite: GRNS 7190. Hybrid course; Matriculated GRNS students only; Meet on campus: 1/13, 1/27, 2/3, 2/17, 2/24, 3/17, 3/31, 4/14, 4/28 Alternate weeks online Breakout room: R244 Sim Lab Fee: $30",
+      "external": false
+    },
+    {
+      "id": "GRNS 6993",
+      "course_code": "GRNS 6993",
+      "department": "GRNS",
+      "title": "Independent Study",
+      "credit_hours": "3",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GRNS 7180",
+      "course_code": "GRNS 7180",
+      "department": "GRNS",
+      "title": "Women & Gender Incl Hlth",
+      "credit_hours": "0.5",
+      "description": "Focuses on the healthcare needs and disparities that affect individuals across the gender spectrum, with an emphasis on the health of individuals assigned female at birth (AFAB). Through a combination of interactive seminars and hands-on practicum experiences, participants will gain the expertise needed to provide culturally humble, evidence-based care in diverse clinical settings. Prerequisites: <a href=\"/search/?p=GRNS%207070\" data-action=\"result-detail\" data-group=\"code:GRNS 7070\" >GRNS 7070</a>, <a href=\"/search/?p=GRNS%207080\" data-action=\"result-detail\" data-group=\"code:GRNS 7080\" >GRNS 7080</a>. Co-requisite: <a href=\"/search/?p=GRNS%207170\" data-action=\"result-detail\" data-group=\"code:GRNS 7170\" >GRNS 7170</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7070\"}, {\"type\": \"course\", \"code\": \"GRNS 7080\"}]}",
+      "other_requirements": "Co-requisite: GRNS 7170. Prereqs enforced by the system:GRNS 7070andGRNS 7080; Meets Thursdays on campus:1/22, 2/5, 2/19, 3/5, 3/26, 4/9, 4/23; Pre/Co-requisites:GRNS 7170, GRNS 7180;",
+      "external": false
+    },
+    {
+      "id": "GRNS 5280",
+      "course_code": "GRNS 5280",
+      "department": "GRNS",
+      "title": "Pharmacology",
+      "credit_hours": "3",
+      "description": "Addresses pharmacological management pertaining to patients across the lifespan, while defining the professional nurse's role and responsibilities in drug therapy. Pharmacological principles such as; pharmaceutics, pharmacokinetics, and pharmacodynamics will be introduced, discussed and incorporated into instructional activities to ensure that students possess the knowledge necessary to actively apply pharmacological principles in the delivery. Credit not awarded for both GRNS 5280 and <a href=\"/search/?p=PRNU%203228\" data-action=\"result-detail\" data-group=\"code:PRNU 3228\" >PRNU 3228</a>. Prerequisite: Direct Entry to Professional Nursing, Direct Entry to Clinical Nurse Leader student. Co-requisite: <a href=\"/search/?p=GRNS%205130\" data-action=\"result-detail\" data-group=\"code:GRNS 5130\" >GRNS 5130</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"DEPN 1234\"}, {\"type\": \"course\", \"code\": \"DECN 1234\"}]}",
+      "other_requirements": "DEPN/MEPN students only; PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "GRNS 7240",
+      "course_code": "GRNS 7240",
+      "department": "GRNS",
+      "title": "DNP Project  Seminar II",
+      "credit_hours": "1",
+      "description": "Students will prepare and implement the Doctor of Nursing Practice project. Prerequisites: <a href=\"/search/?p=GRNS%207220\" data-action=\"result-detail\" data-group=\"code:GRNS 7220\"  class=\"notoffered\">GRNS 7220</a>, <a href=\"/search/?p=GRNS%207230\" data-action=\"result-detail\" data-group=\"code:GRNS 7230\"  class=\"notoffered\">GRNS 7230</a>. Co-requisite: <a href=\"/search/?p=GRNS%207250\" data-action=\"result-detail\" data-group=\"code:GRNS 7250\" >GRNS 7250</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7220\"}, {\"type\": \"course\", \"code\": \"GRNS 7230\"}]}",
+      "other_requirements": "DNP students only",
+      "external": false
+    },
+    {
+      "id": "GRNS 6250",
+      "course_code": "GRNS 6250",
+      "department": "GRNS",
+      "title": "Genetics for Clinicians",
+      "credit_hours": "3",
+      "description": "This course provides an overview of contemporary human genetics and genomics with application to clinical practice. Cross-listed with: <a href=\"/search/?p=PATH%206250\" data-action=\"result-detail\" data-group=\"code:PATH 6250\" >PATH 6250</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GRNS 6392",
+      "course_code": "GRNS 6392",
+      "department": "GRNS",
+      "title": "Master's Project Research",
+      "credit_hours": "1 to 3",
+      "description": "Self-designed clinical paper or innovative production pertinent to advanced nursing practice. Prerequisites: Instructor permission. Pre/Co-requisite: Comprehensive Exam (completed prior to project presentation).",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission. Comprehensive Exam (completed prior to project presentation). MS Students; Permission Only;",
+      "external": false
+    },
+    {
+      "id": "GRNS 6030",
+      "course_code": "GRNS 6030",
+      "department": "GRNS",
+      "title": "Nursing Fundamentals",
+      "credit_hours": "1.5",
+      "description": "An initial experience in the simulation lab, attention focuses on the development of scientific understanding of nursing practice, psychomotor skills, and communication skills required to complete a health assessment, perform nursing skills, and therapeutically interact with adults. Prerequisite: Admission to the Direct Entry Program, Doctor of Nursing Practice, or Master of Science. Co-requisites: <a href=\"/search/?p=GRNS%206000\" data-action=\"result-detail\" data-group=\"code:GRNS 6000\" >GRNS 6000</a>, <a href=\"/search/?p=GRNS%205280\" data-action=\"result-detail\" data-group=\"code:GRNS 5280\" >GRNS 5280</a>, <a href=\"/search/?p=GRNS%206020\" data-action=\"result-detail\" data-group=\"code:GRNS 6020\" >GRNS 6020</a>, <a href=\"/search/?p=GRNS%205130\" data-action=\"result-detail\" data-group=\"code:GRNS 5130\" >GRNS 5130</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"DEPN\"}, {\"type\": \"course\", \"code\": \"MEPN\"}, {\"type\": \"course\", \"code\": \"NURSING\"}]}",
+      "other_requirements": "Admission to the Direct Entry Program, Doctor of Nursing Practice, or Master of Science. DEPN/MEPN Students; Meets at Fanny Allen; 8/31/26-10/8/26; Tuesday & Thursday. 8:30-12:15 & 1:15-5:00; Course fee $129.00",
+      "external": false
+    },
+    {
+      "id": "GRNS 6280",
+      "course_code": "GRNS 6280",
+      "department": "GRNS",
+      "title": "Quality in Healthcare",
+      "credit_hours": "3",
+      "description": "Introduces students to the principles and practices of health care quality and quality improvement. Principles in the design and management of continual improvement activities will be presented and applied. Cross-listed with: <a href=\"/search/?p=CTS%206020\" data-action=\"result-detail\" data-group=\"code:CTS 6020\"  class=\"notoffered\">CTS 6020</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GRNS 7040",
+      "course_code": "GRNS 7040",
+      "department": "GRNS",
+      "title": "Adv Pharmacology APRN",
+      "credit_hours": "3",
+      "description": "In-depth examination of the pharmacokinetics and pharmacodynamics of select drugs for acute and chronic health conditions. Ethical and legal standards of prescriptive authority explored. Pre/Co-requisite: <a href=\"/search/?p=GRNS%206350\" data-action=\"result-detail\" data-group=\"code:GRNS 6350\" >GRNS 6350</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 6350\"}, {\"type\": \"course\", \"code\": \"GRNS 6350\"}]}",
+      "other_requirements": "DNP students only",
+      "external": false
+    },
+    {
+      "id": "GRNS 6080",
+      "course_code": "GRNS 6080",
+      "department": "GRNS",
+      "title": "Sci of Nsg: Gyn Care & Family",
+      "credit_hours": "3",
+      "description": "Focus on healthy maternal-newborn care, and promotion of wellness and family integrity during transition within a family-centered framework. Prerequisites: <a href=\"/search/?p=GRNS%205280\" data-action=\"result-detail\" data-group=\"code:GRNS 5280\"  class=\"notoffered\">GRNS 5280</a>, <a href=\"/search/?p=GRNS%205130\" data-action=\"result-detail\" data-group=\"code:GRNS 5130\"  class=\"notoffered\">GRNS 5130</a>, <a href=\"/search/?p=GRNS%206020\" data-action=\"result-detail\" data-group=\"code:GRNS 6020\"  class=\"notoffered\">GRNS 6020</a>, <a href=\"/search/?p=GRNS%206030\" data-action=\"result-detail\" data-group=\"code:GRNS 6030\"  class=\"notoffered\">GRNS 6030</a>. Co-requisite: <a href=\"/search/?p=GRNS%205320\" data-action=\"result-detail\" data-group=\"code:GRNS 5320\" >GRNS 5320</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 5280\"}, {\"type\": \"course\", \"code\": \"GRNS 5130\"}, {\"type\": \"course\", \"code\": \"GRNS 6020\"}, {\"type\": \"course\", \"code\": \"GRNS 6030\"}]}",
+      "other_requirements": "Co-requisite: GRNS 5320. MEPN and DEPN students",
+      "external": false
+    },
+    {
+      "id": "GRNS 7120",
+      "course_code": "GRNS 7120",
+      "department": "GRNS",
+      "title": "SL:Adv Nsg Prac of Older Adult",
+      "credit_hours": "3",
+      "description": "Focus on health and disease and associated care and treatment of older persons by the advanced practice nurse. Prerequisites: <a href=\"/search/?p=GRNS%206350\" data-action=\"result-detail\" data-group=\"code:GRNS 6350\" >GRNS 6350</a>, <a href=\"/search/?p=GRNS%207040\" data-action=\"result-detail\" data-group=\"code:GRNS 7040\" >GRNS 7040</a>, <a href=\"/search/?p=GRNS%207060\" data-action=\"result-detail\" data-group=\"code:GRNS 7060\" >GRNS 7060</a>, <a href=\"/search/?p=GRNS%207070\" data-action=\"result-detail\" data-group=\"code:GRNS 7070\"  class=\"notoffered\">GRNS 7070</a>, <a href=\"/search/?p=GRNS%207080\" data-action=\"result-detail\" data-group=\"code:GRNS 7080\"  class=\"notoffered\">GRNS 7080</a>. Pre/Co-requisite: <a href=\"/search/?p=GRNS%207050\" data-action=\"result-detail\" data-group=\"code:GRNS 7050\"  class=\"notoffered\">GRNS 7050</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 6350\"}, {\"type\": \"course\", \"code\": \"GRNS 7040\"}, {\"type\": \"course\", \"code\": \"GRNS 7060\"}, {\"type\": \"course\", \"code\": \"GRNS 7070\"}, {\"type\": \"course\", \"code\": \"GRNS 7080\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7050\"}, {\"type\": \"course\", \"code\": \"GRNS 7070\"}, {\"type\": \"course\", \"code\": \"GRNS 7090\"}]}]}",
+      "other_requirements": "DNP students",
+      "external": false
+    },
+    {
+      "id": "GRNS 7080",
+      "course_code": "GRNS 7080",
+      "department": "GRNS",
+      "title": "Opt Hlth&Mgt Com Hlt Iss",
+      "credit_hours": "1",
+      "description": "Assessment and optimization of health of adolescents and adults. Diagnostic reasoning and management of common acute health conditions. Prerequisites: <a href=\"/search/?p=GRNS%206350\" data-action=\"result-detail\" data-group=\"code:GRNS 6350\"  class=\"notoffered\">GRNS 6350</a>, <a href=\"/search/?p=GRNS%207040\" data-action=\"result-detail\" data-group=\"code:GRNS 7040\"  class=\"notoffered\">GRNS 7040</a>, <a href=\"/search/?p=GRNS%207060\" data-action=\"result-detail\" data-group=\"code:GRNS 7060\"  class=\"notoffered\">GRNS 7060</a>. Co-requisites: <a href=\"/search/?p=GRNS%207050\" data-action=\"result-detail\" data-group=\"code:GRNS 7050\" >GRNS 7050</a>, <a href=\"/search/?p=GRNS%207070\" data-action=\"result-detail\" data-group=\"code:GRNS 7070\" >GRNS 7070</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 6350\"}, {\"type\": \"course\", \"code\": \"GRNS 7040\"}, {\"type\": \"course\", \"code\": \"GRNS 7060\"}]}",
+      "other_requirements": "Co-requisites: GRNS 7050, GRNS 7070. Hybrid course; Matriculated GRNS students; and instructor permission; Meets on campus:1/15,1/29, 2/12, 2/26,3/19, 4/2, 4/16, 4/30; Alternate weeks online; Must also sign up for GRNS 7070; Lab Fee: $93;",
+      "external": false
+    },
+    {
+      "id": "GRNS 7010",
+      "course_code": "GRNS 7010",
+      "department": "GRNS",
+      "title": "Leadership of HlthCare Systems",
+      "credit_hours": "3",
+      "description": "Planning and implementation of programs, projects or systems of health care delivery. Prerequisite: <a href=\"/search/?p=GRNS%206220\" data-action=\"result-detail\" data-group=\"code:GRNS 6220\"  class=\"notoffered\">GRNS 6220</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"GRNS 6220\"}",
+      "other_requirements": "Online Asynchronous. All course assignments must be completed for a passing grade to be achieved.",
+      "external": false
+    },
+    {
+      "id": "GRNS 7090",
+      "course_code": "GRNS 7090",
+      "department": "GRNS",
+      "title": "SL:Pediatric Concepts APRN",
+      "credit_hours": "3",
+      "description": "APN care to children and their families with an emphasis on the developmental, psychosocial, cultural, ethical, and spiritual needs of children and families. Pre/Co-requisites: <a href=\"/search/?p=GRNS%207050\" data-action=\"result-detail\" data-group=\"code:GRNS 7050\" >GRNS 7050</a>, <a href=\"/search/?p=GRNS%207070\" data-action=\"result-detail\" data-group=\"code:GRNS 7070\" >GRNS 7070</a>, <a href=\"/search/?p=GRNS%207080\" data-action=\"result-detail\" data-group=\"code:GRNS 7080\" >GRNS 7080</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7050\"}, {\"type\": \"course\", \"code\": \"GRNS 7070\"}, {\"type\": \"course\", \"code\": \"GRNS 7080\"}]}",
+      "other_requirements": "GRNS students FNP Track and instructor permission",
+      "external": false
+    },
+    {
+      "id": "GRNS 7100",
+      "course_code": "GRNS 7100",
+      "department": "GRNS",
+      "title": "Primary Care MgmtChild&Adol",
+      "credit_hours": "3",
+      "description": "Application in a clinical setting(s): assessment, evaluation, diagnostic reasoning, and management of common episodic and chronic health conditions in provision of primary care to children and adolescents. Prerequisites: <a href=\"/search/?p=GRNS%207050\" data-action=\"result-detail\" data-group=\"code:GRNS 7050\"  class=\"notoffered\">GRNS 7050</a>, <a href=\"/search/?p=GRNS%207070\" data-action=\"result-detail\" data-group=\"code:GRNS 7070\"  class=\"notoffered\">GRNS 7070</a>, <a href=\"/search/?p=GRNS%207080\" data-action=\"result-detail\" data-group=\"code:GRNS 7080\"  class=\"notoffered\">GRNS 7080</a>, <a href=\"/search/?p=GRNS%207090\" data-action=\"result-detail\" data-group=\"code:GRNS 7090\"  class=\"notoffered\">GRNS 7090</a>. Co-requisite: <a href=\"/search/?p=GRNS%207110\" data-action=\"result-detail\" data-group=\"code:GRNS 7110\" >GRNS 7110</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7050\"}, {\"type\": \"course\", \"code\": \"GRNS 7070\"}, {\"type\": \"course\", \"code\": \"GRNS 7080\"}, {\"type\": \"course\", \"code\": \"GRNS 7090\"}]}",
+      "other_requirements": "DNP Students; Co-requisite: GRNS 7110.",
+      "external": false
+    },
+    {
+      "id": "GRNS 7101",
+      "course_code": "GRNS 7101",
+      "department": "GRNS",
+      "title": "Radiology for Primary Care",
+      "credit_hours": "0.5",
+      "description": "Focuses on the basic and applied principles of ordering and interpreting radiologic studies within the clinical setting. Focus on the understanding of basic principles of interpretation primarily of plain film, but will touch on CT, MRI and ultrasound evaluation as well, and how these diagnostic strategies may be wisely used in a clinical setting. Prerequisites: <a href=\"/search/?p=GRNS%207070\" data-action=\"result-detail\" data-group=\"code:GRNS 7070\"  class=\"notoffered\">GRNS 7070</a>, <a href=\"/search/?p=GRNS%207080\" data-action=\"result-detail\" data-group=\"code:GRNS 7080\"  class=\"notoffered\">GRNS 7080</a>, <a href=\"/search/?p=GRNS%207300\" data-action=\"result-detail\" data-group=\"code:GRNS 7300\"  class=\"notoffered\">GRNS 7300</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7070\"}, {\"type\": \"course\", \"code\": \"GRNS 7080\"}, {\"type\": \"course\", \"code\": \"GRNS 7300\"}]}",
+      "other_requirements": "DNP students",
+      "external": false
+    },
+    {
+      "id": "GRNS 6020",
+      "course_code": "GRNS 6020",
+      "department": "GRNS",
+      "title": "Sci Nsg:Adults Across Life I",
+      "credit_hours": "3",
+      "description": "Identification and treatment of human responses to pathophysiological problems in adults with acute, chronic, or terminal conditions, with principles of general acute nursing practice emphasized. Prerequisite: Admission to Direct Entry Program in Nursing. Co-requisites: <a href=\"/search/?p=GRNS%206000\" data-action=\"result-detail\" data-group=\"code:GRNS 6000\" >GRNS 6000</a>, <a href=\"/search/?p=PRNU%203228\" data-action=\"result-detail\" data-group=\"code:PRNU 3228\" >PRNU 3228</a>, <a href=\"/search/?p=GRNS%206030\" data-action=\"result-detail\" data-group=\"code:GRNS 6030\" >GRNS 6030</a>, <a href=\"/search/?p=NURS%203220\" data-action=\"result-detail\" data-group=\"code:NURS 3220\" >NURS 3220</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"GRNS 6020\"}",
+      "other_requirements": "Admission to Direct Entry Program in Nursing. DEPN/MEPN students only; PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "GRNS 7140",
+      "course_code": "GRNS 7140",
+      "department": "GRNS",
+      "title": "Prim Care Acute&Comm Hlth Cond",
+      "credit_hours": "3",
+      "description": "Focus will be on the assessment, evaluation and management of common episodic conditions in primary care in the Family Nurse Practitioner and Adult/Gerontology Nurse Practitioner tracks. Prerequisites: <a href=\"/search/?p=GRNS%207070\" data-action=\"result-detail\" data-group=\"code:GRNS 7070\"  class=\"notoffered\">GRNS 7070</a>, <a href=\"/search/?p=GRNS%207080\" data-action=\"result-detail\" data-group=\"code:GRNS 7080\"  class=\"notoffered\">GRNS 7080</a>, <a href=\"/search/?p=GRNS%207170\" data-action=\"result-detail\" data-group=\"code:GRNS 7170\"  class=\"notoffered\">GRNS 7170</a>, <a href=\"/search/?p=GRNS%207180\" data-action=\"result-detail\" data-group=\"code:GRNS 7180\"  class=\"notoffered\">GRNS 7180</a>. Co-requisite: <a href=\"/search/?p=GRNS%207150\" data-action=\"result-detail\" data-group=\"code:GRNS 7150\" >GRNS 7150</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7070\"}, {\"type\": \"course\", \"code\": \"GRNS 7080\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7170\"}, {\"type\": \"course\", \"code\": \"GRNS 7180\"}]}]}",
+      "other_requirements": "DNP students only",
+      "external": false
+    },
+    {
+      "id": "GRNS 5320",
+      "course_code": "GRNS 5320",
+      "department": "GRNS",
+      "title": "Science of Nursing:Children",
+      "credit_hours": "3",
+      "description": "Focuses on the human experience of children and adolescents with alterations in health. An integration of theory, research, and practice will be utilized to cover (1) illnesses, (2) anticipatory guidance with patients and their families for the purposes of disease prevention, and (3) deliver individualized nursing care according to the patient's needs. Credit not awarded for both GRNS 5320 and <a href=\"/search/?p=PRNU%203232\" data-action=\"result-detail\" data-group=\"code:PRNU 3232\" >PRNU 3232</a>. Prerequisites: <a href=\"/search/?p=GRNS%205280\" data-action=\"result-detail\" data-group=\"code:GRNS 5280\"  class=\"notoffered\">GRNS 5280</a>, <a href=\"/search/?p=GRNS%205130\" data-action=\"result-detail\" data-group=\"code:GRNS 5130\"  class=\"notoffered\">GRNS 5130</a>; Direct Entry to Professional Nursing, Direct Entry to Clinical Nurse Leader standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 5280\"}, {\"type\": \"course\", \"code\": \"GRNS 5130\"}]}",
+      "other_requirements": "Direct Entry to Professional Nursing, Direct Entry to Clinical Nurse Leader standing. DEPN and MEPN students only",
+      "external": false
+    },
+    {
+      "id": "GRNS 7160",
+      "course_code": "GRNS 7160",
+      "department": "GRNS",
+      "title": "Practicum:Acute&Com Cond FNP",
+      "credit_hours": "1",
+      "description": "Practicum experience for assessment, evaluation and management of common episodic conditions in primary care in the Family Nurse Practitioner track. Prerequisites: <a href=\"/search/?p=GRNS%207070\" data-action=\"result-detail\" data-group=\"code:GRNS 7070\"  class=\"notoffered\">GRNS 7070</a>, <a href=\"/search/?p=GRNS%207080\" data-action=\"result-detail\" data-group=\"code:GRNS 7080\"  class=\"notoffered\">GRNS 7080</a>, <a href=\"/search/?p=GRNS%207090\" data-action=\"result-detail\" data-group=\"code:GRNS 7090\"  class=\"notoffered\">GRNS 7090</a>, <a href=\"/search/?p=GRNS%207100\" data-action=\"result-detail\" data-group=\"code:GRNS 7100\" >GRNS 7100</a>, <a href=\"/search/?p=GRNS%207110\" data-action=\"result-detail\" data-group=\"code:GRNS 7110\" >GRNS 7110</a>, <a href=\"/search/?p=GRNS%207170\" data-action=\"result-detail\" data-group=\"code:GRNS 7170\"  class=\"notoffered\">GRNS 7170</a>, <a href=\"/search/?p=GRNS%207180\" data-action=\"result-detail\" data-group=\"code:GRNS 7180\"  class=\"notoffered\">GRNS 7180</a>. Co-requisite: <a href=\"/search/?p=GRNS%207140\" data-action=\"result-detail\" data-group=\"code:GRNS 7140\" >GRNS 7140</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7070\"}, {\"type\": \"course\", \"code\": \"GRNS 7080\"}, {\"type\": \"course\", \"code\": \"GRNS 7090\"}, {\"type\": \"course\", \"code\": \"GRNS 7100\"}, {\"type\": \"course\", \"code\": \"GRNS 7110\"}, {\"type\": \"course\", \"code\": \"GRNS 7170\"}, {\"type\": \"course\", \"code\": \"GRNS 7180\"}]}",
+      "other_requirements": "Primary Care Family NP students only; Instructor Permission; Lab Fee: $80;",
+      "external": false
+    },
+    {
+      "id": "GRNS 7250",
+      "course_code": "GRNS 7250",
+      "department": "GRNS",
+      "title": "DNP Project Practicum II",
+      "credit_hours": "1",
+      "description": "Doctor of Nursing Practice project will be implemented including critical analysis of data and evidence for improving nursing practice. Project monitoring, reporting, and management are required. Prerequisites: <a href=\"/search/?p=GRNS%207220\" data-action=\"result-detail\" data-group=\"code:GRNS 7220\"  class=\"notoffered\">GRNS 7220</a>, <a href=\"/search/?p=GRNS%207230\" data-action=\"result-detail\" data-group=\"code:GRNS 7230\"  class=\"notoffered\">GRNS 7230</a>. Co-requisite: <a href=\"/search/?p=GRNS%207240\" data-action=\"result-detail\" data-group=\"code:GRNS 7240\" >GRNS 7240</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7220\"}, {\"type\": \"course\", \"code\": \"GRNS 7230\"}]}",
+      "other_requirements": "DNP students; Practicum 120 hour; Grading S/U",
+      "external": false
+    },
+    {
+      "id": "GRNS 6350",
+      "course_code": "GRNS 6350",
+      "department": "GRNS",
+      "title": "Adv Pathophysiology",
+      "credit_hours": "3",
+      "description": "In-depth examination of the biological and physical manifestations of disease as they correlate with pathophysiology to guide clinical decision making of the APRN and CNL. Prerequisite: Registered Nurse license or completion of Direct Entry Program in Nursing. Pre/Co-requisite: <a href=\"/search/?p=GRNS%207040\" data-action=\"result-detail\" data-group=\"code:GRNS 7040\" >GRNS 7040</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7040\"}]}",
+      "other_requirements": "Registered Nurse license or completion of Direct Entry Program in Nursing. DNP students only; PACE students should register for GRNS 6350 B",
+      "external": false
+    },
+    {
+      "id": "GRNS 7990",
+      "course_code": "GRNS 7990",
+      "department": "GRNS",
+      "title": "Special Topics: Prim Care Prac",
+      "credit_hours": "0.5",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GRNS 6220",
+      "course_code": "GRNS 6220",
+      "department": "GRNS",
+      "title": "Org, Deliv & Finance Hlth Care",
+      "credit_hours": "3",
+      "description": "Structure, organization, financing, and delivery of health care through complex systems in the United States. Focus on economic, social, ethical, political, and global structures. Prerequisite: Registered nurse licensure or Graduate Nursing student.",
+      "prereq_expression": null,
+      "other_requirements": "Registered nurse licensure or Graduate Nursing student. DNP, Postgrad. & NP Certificate students; Asynchronous online course; PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "GRNS 6300",
+      "course_code": "GRNS 6300",
+      "department": "GRNS",
+      "title": "Adv Concepts in HAPP",
+      "credit_hours": "5",
+      "description": "Designed to provide students with the knowledge, skills, and competencies necessary for providing exceptional patient-centered care. Students will delve deep into various aspects of advanced pathophysiology, pharmacology, and health assessment, fostering effective interdisciplinary collaboration, and ensuring ethical and legal competence for advanced nursing practice. Prerequisite: Direct Entry to Master of Science in Nursing or Master of Science in Nursing student.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NURS 6300\"}, {\"type\": \"course\", \"code\": \"NURS 6300\"}]}",
+      "other_requirements": "Direct Entry to Master of Science in Nursing or Master of Science in Nursing student. MS students only;",
+      "external": false
+    },
+    {
+      "id": "GRNS 6990",
+      "course_code": "GRNS 6990",
+      "department": "GRNS",
+      "title": "Pract.Comp Nursing Care Adults",
+      "credit_hours": "2",
+      "description": "Topics of interest to Graduate Nursing which are based on theory, research or advanced practice. Course content will deal with topics beyond the scope of existing formal courses or Doctor of Nursing Practice project. Prerequisite: Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission. DEPN Only",
+      "external": false
+    },
+    {
+      "id": "PRNU 3228",
+      "course_code": "PRNU 3228",
+      "department": "PRNU",
+      "title": "Pharmacology",
+      "credit_hours": "3",
+      "description": "Examination and application of knowledge of pharmacotherapeutic principles to nursing practice. Credit not awarded for both PRNU 3228 and <a href=\"/search/?p=GRNS%205280\" data-action=\"result-detail\" data-group=\"code:GRNS 5280\" >GRNS 5280</a>. Prerequisites: Minimum Junior standing; <a href=\"/search/?p=MMG%201650\" data-action=\"result-detail\" data-group=\"code:MMG 1650\" >MMG 1650</a>, <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a>, <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>. Co-requisite: <a href=\"/search/?p=NURS%203220\" data-action=\"result-detail\" data-group=\"code:NURS 3220\" >NURS 3220</a>. Pre/Co-requisite: <a href=\"/search/?p=PRNU%202114\" data-action=\"result-detail\" data-group=\"code:PRNU 2114\"  class=\"notoffered\">PRNU 2114</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 1650\"}, {\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}",
+      "other_requirements": "Minimum Junior standing; Junior, Senior standing students only; PACE students by permission and override.",
+      "external": true
+    },
+    {
+      "id": "GRNS 7190",
+      "course_code": "GRNS 7190",
+      "department": "GRNS",
+      "title": "Prim Care Chron/Cmplx Hth Cond",
+      "credit_hours": "3",
+      "description": "Focuses on the refinement diagnostic and therapeutic interventions in the provision of primary health care to individuals and families with chronic and complex health conditions. Prerequisites: <a href=\"/search/?p=GRNS%207140\" data-action=\"result-detail\" data-group=\"code:GRNS 7140\"  class=\"notoffered\">GRNS 7140</a>; <a href=\"/search/?p=GRNS%207150\" data-action=\"result-detail\" data-group=\"code:GRNS 7150\"  class=\"notoffered\">GRNS 7150</a> or <a href=\"/search/?p=GRNS%207160\" data-action=\"result-detail\" data-group=\"code:GRNS 7160\"  class=\"notoffered\">GRNS 7160</a>; Comprehensive Exam. Co-requisites: <a href=\"/search/?p=GRNS%207200\" data-action=\"result-detail\" data-group=\"code:GRNS 7200\" >GRNS 7200</a> or <a href=\"/search/?p=GRNS%207210\" data-action=\"result-detail\" data-group=\"code:GRNS 7210\" >GRNS 7210</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7140\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7150\"}, {\"type\": \"course\", \"code\": \"GRNS 7160\"}]}]}",
+      "other_requirements": "Comprehensive Exam. Co-requisites: GRNS 7200 or GRNS 7210 . Hybrid course; Matriculated GRNS students only; Meet on campus: 1/13, 1/27, 2/3, 2/17, 2/24, 3/17, 3/31, 4/14, 4/28 Alternate weeks online Program Fee $107",
+      "external": false
+    },
+    {
+      "id": "GRNS 7070",
+      "course_code": "GRNS 7070",
+      "department": "GRNS",
+      "title": "Opt Hlth & Mgt Com Hlth Iss",
+      "credit_hours": "2",
+      "description": "Assessment and optimization of health of adolescents and adults. Diagnostic reasoning and management of common acute health conditions. Prerequisites: <a href=\"/search/?p=GRNS%206350\" data-action=\"result-detail\" data-group=\"code:GRNS 6350\"  class=\"notoffered\">GRNS 6350</a>, <a href=\"/search/?p=GRNS%207040\" data-action=\"result-detail\" data-group=\"code:GRNS 7040\"  class=\"notoffered\">GRNS 7040</a>, <a href=\"/search/?p=GRNS%207060\" data-action=\"result-detail\" data-group=\"code:GRNS 7060\"  class=\"notoffered\">GRNS 7060</a>. Co-requisites: <a href=\"/search/?p=GRNS%207050\" data-action=\"result-detail\" data-group=\"code:GRNS 7050\" >GRNS 7050</a>, <a href=\"/search/?p=GRNS%207080\" data-action=\"result-detail\" data-group=\"code:GRNS 7080\" >GRNS 7080</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 6350\"}, {\"type\": \"course\", \"code\": \"GRNS 7040\"}, {\"type\": \"course\", \"code\": \"GRNS 7060\"}]}",
+      "other_requirements": "Matriculated GRNS students and instructor permission. Hybrid course; Meets on campus Thurs: 1/22, 1/29, 2/12, 2/26, 3/19, 4/2, 4/16, 4/30 Alternate weeks online; Program fee: $107",
+      "external": false
+    },
+    {
+      "id": "GRNS 6050",
+      "course_code": "GRNS 6050",
+      "department": "GRNS",
+      "title": "Pract:Cmplx Nsg Care Adults",
+      "credit_hours": "2.5",
+      "description": "Provides knowledge and skills while caring for adults with acute, chronic, and terminal health conditions. Students will develop skills in organizing and prioritizing care for multiple patients while demonstrating practice consistent with the ANA Scope and Standards of Practice (2010).  Daily clinical discussions will provide an opportunity to process interpersonal and professional issues. Prerequisite: <a href=\"/search/?p=GRNS%206020\" data-action=\"result-detail\" data-group=\"code:GRNS 6020\"  class=\"notoffered\">GRNS 6020</a>, <a href=\"/search/?p=GRNS%206030\" data-action=\"result-detail\" data-group=\"code:GRNS 6030\"  class=\"notoffered\">GRNS 6030</a>, <a href=\"/search/?p=GRNS%205130\" data-action=\"result-detail\" data-group=\"code:GRNS 5130\"  class=\"notoffered\">GRNS 5130</a>, <a href=\"/search/?p=GRNS%205280\" data-action=\"result-detail\" data-group=\"code:GRNS 5280\"  class=\"notoffered\">GRNS 5280</a>. Co-requisites: <a href=\"/search/?p=GRNS%206120\" data-action=\"result-detail\" data-group=\"code:GRNS 6120\" >GRNS 6120</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 6020\"}, {\"type\": \"course\", \"code\": \"GRNS 6030\"}, {\"type\": \"course\", \"code\": \"GRNS 5130\"}, {\"type\": \"course\", \"code\": \"GRNS 5280\"}]}",
+      "other_requirements": "MEPN students only",
+      "external": false
+    },
+    {
+      "id": "GRNS 7220",
+      "course_code": "GRNS 7220",
+      "department": "GRNS",
+      "title": "DNP Project Seminar I",
+      "credit_hours": "1",
+      "description": "Provides structure for the development of a conceptual framework and methodological approach to the Doctor of Nursing Practice project, a project where a clinically relevant problem is addressed through application of the best evidence. Prerequisites: <a href=\"/search/?p=GRNS%206210\" data-action=\"result-detail\" data-group=\"code:GRNS 6210\"  class=\"notoffered\">GRNS 6210</a>, <a href=\"/search/?p=GRNS%206240\" data-action=\"result-detail\" data-group=\"code:GRNS 6240\"  class=\"notoffered\">GRNS 6240</a>, <a href=\"/search/?p=NH%206899\" data-action=\"result-detail\" data-group=\"code:NH 6899\" >NH 6899</a>, <a href=\"/search/?p=GRNS%206260\" data-action=\"result-detail\" data-group=\"code:GRNS 6260\"  class=\"notoffered\">GRNS 6260</a>, <a href=\"/search/?p=GRNS%206270\" data-action=\"result-detail\" data-group=\"code:GRNS 6270\"  class=\"notoffered\">GRNS 6270</a>. Pre/Co-requisite: <a href=\"/search/?p=GRNS%206280\" data-action=\"result-detail\" data-group=\"code:GRNS 6280\" >GRNS 6280</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 6210\"}, {\"type\": \"course\", \"code\": \"GRNS 6240\"}, {\"type\": \"course\", \"code\": \"NH 6899\"}, {\"type\": \"course\", \"code\": \"GRNS 6260\"}, {\"type\": \"course\", \"code\": \"GRNS 6270\"}, {\"type\": \"course\", \"code\": \"GRNS 6280\"}]}",
+      "other_requirements": "DNP & Post MS DNP students, or instructor permission",
+      "external": false
+    },
+    {
+      "id": "GRNS 7210",
+      "course_code": "GRNS 7210",
+      "department": "GRNS",
+      "title": "Practicum:Chrnc&Cmplx Cond FNP",
+      "credit_hours": "2.5",
+      "description": "Focuses on the refinement diagnostic and therapeutic interventions in the provision of primary health care to individuals and families with chronic and complex health conditions. Prerequisites: <a href=\"/search/?p=GRNS%207140\" data-action=\"result-detail\" data-group=\"code:GRNS 7140\"  class=\"notoffered\">GRNS 7140</a>, <a href=\"/search/?p=GRNS%207160\" data-action=\"result-detail\" data-group=\"code:GRNS 7160\"  class=\"notoffered\">GRNS 7160</a>. Co-requisite: <a href=\"/search/?p=GRNS%207190\" data-action=\"result-detail\" data-group=\"code:GRNS 7190\" >GRNS 7190</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7140\"}, {\"type\": \"course\", \"code\": \"GRNS 7160\"}]}",
+      "other_requirements": "Co-requisite: GRNS 7190. Hybrid course; Matriculated GRNS students only; Meet on campus: 1/13, 1/27, 2/3, 2/17, 2/24, 3/17, 3/31, 4/14, 4/28 Alternate weeks online Spring Break; Breakout room: R244 Sim Lab Fee: $30",
+      "external": false
+    },
+    {
+      "id": "GRNS 7130",
+      "course_code": "GRNS 7130",
+      "department": "GRNS",
+      "title": "Prac: Nursing Older Adult",
+      "credit_hours": "0.5",
+      "description": "Practice assessment and care coordination skills in a practicum working with older adults in a variety of settings. Prerequisites: <a href=\"/search/?p=GRNS%207070\" data-action=\"result-detail\" data-group=\"code:GRNS 7070\"  class=\"notoffered\">GRNS 7070</a>, <a href=\"/search/?p=GRNS%207080\" data-action=\"result-detail\" data-group=\"code:GRNS 7080\"  class=\"notoffered\">GRNS 7080</a>. Co-requisite: <a href=\"/search/?p=GRNS%207120\" data-action=\"result-detail\" data-group=\"code:GRNS 7120\" >GRNS 7120</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7070\"}, {\"type\": \"course\", \"code\": \"GRNS 7080\"}]}",
+      "other_requirements": "DNP-AGNP, Postgrad NP, & Cert. students only; Meets in-person Thursdays, 3:15 - 4:30 pm: 9/10, 9/24, 10/8, 10/22, 11/5, 11/19, 12/10; Alternate weeks online; Co-req:GRNS 7120; Grading S/U",
+      "external": false
+    },
+    {
+      "id": "GRNS 7181",
+      "course_code": "GRNS 7181",
+      "department": "GRNS",
+      "title": "PRAC: Care of Indiv AFAB",
+      "credit_hours": "0.25",
+      "description": "Delve into the multifaceted realm of individuals assigned female sex at birth (AFAB), guided by a lens that prioritizes inclusivity and sensitivity. Through this experience, actively participate in patient care, concentrating on the comprehensive assessment, diagnosis, management, prevention, and evaluation of both acute and chronic health conditions prevalent in AFAB. Prerequisites: <a href=\"/search/?p=GRNS%207070\" data-action=\"result-detail\" data-group=\"code:GRNS 7070\"  class=\"notoffered\">GRNS 7070</a>, <a href=\"/search/?p=GRNS%207080\" data-action=\"result-detail\" data-group=\"code:GRNS 7080\"  class=\"notoffered\">GRNS 7080</a>. Pre/Co-requisites: <a href=\"/search/?p=GRNS%207170\" data-action=\"result-detail\" data-group=\"code:GRNS 7170\"  class=\"notoffered\">GRNS 7170</a>, <a href=\"/search/?p=GRNS%207180\" data-action=\"result-detail\" data-group=\"code:GRNS 7180\"  class=\"notoffered\">GRNS 7180</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7070\"}, {\"type\": \"course\", \"code\": \"GRNS 7080\"}, {\"type\": \"course\", \"code\": \"GRNS 7170\"}, {\"type\": \"course\", \"code\": \"GRNS 7180\"}]}",
+      "other_requirements": "DNP students; Will be using locally-scheduled rooms; Instructor Permission",
+      "external": false
+    },
+    {
+      "id": "GRNS 7150",
+      "course_code": "GRNS 7150",
+      "department": "GRNS",
+      "title": "Practicum:Acute&Com Cond AGNP",
+      "credit_hours": "1",
+      "description": "Practicum experience for assessment, evaluation and management of common episodic conditions in primary care in the Adult/Gerontology Nurse Practitioner track. Prerequisites: <a href=\"/search/?p=GRNS%207070\" data-action=\"result-detail\" data-group=\"code:GRNS 7070\"  class=\"notoffered\">GRNS 7070</a>, <a href=\"/search/?p=GRNS%207080\" data-action=\"result-detail\" data-group=\"code:GRNS 7080\"  class=\"notoffered\">GRNS 7080</a>, <a href=\"/search/?p=GRNS%207170\" data-action=\"result-detail\" data-group=\"code:GRNS 7170\"  class=\"notoffered\">GRNS 7170</a>, <a href=\"/search/?p=GRNS%207180\" data-action=\"result-detail\" data-group=\"code:GRNS 7180\"  class=\"notoffered\">GRNS 7180</a>. Co-requisite: <a href=\"/search/?p=GRNS%207140\" data-action=\"result-detail\" data-group=\"code:GRNS 7140\" >GRNS 7140</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7070\"}, {\"type\": \"course\", \"code\": \"GRNS 7080\"}, {\"type\": \"course\", \"code\": \"GRNS 7170\"}, {\"type\": \"course\", \"code\": \"GRNS 7180\"}]}",
+      "other_requirements": "Primary Care Adult/Gero NP students only; Co-requisite: GRNS 7140; Lab Fee: $80",
+      "external": false
+    },
+    {
+      "id": "GRNS 7060",
+      "course_code": "GRNS 7060",
+      "department": "GRNS",
+      "title": "Adv Hlth Assessment",
+      "credit_hours": "3",
+      "description": "Development of advanced knowledge and skills in systematic collection, organization, interpretation, and communication of data necessary for formulation of nursing and medical diagnoses. Lab fee required. Prerequisite: Basic physical examination course. Pre/co-requisite: <a href=\"/search/?p=GRNS%206350\" data-action=\"result-detail\" data-group=\"code:GRNS 6350\" >GRNS 6350</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 6350\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 6350\"}]}]}",
+      "other_requirements": "Lab fee required. Basic physical examination course. DNP students only.",
+      "external": false
+    },
+    {
+      "id": "GRNS 6040",
+      "course_code": "GRNS 6040",
+      "department": "GRNS",
+      "title": "Pract:Adults Lifespan II",
+      "credit_hours": "1.25",
+      "description": "Supervised clinical nursing practicum provides an 80 hour immersion experience in the medical/surgical acute care setting. Prerequisites: <a href=\"/search/?p=GRNS%206000\" data-action=\"result-detail\" data-group=\"code:GRNS 6000\"  class=\"notoffered\">GRNS 6000</a>, <a href=\"/search/?p=PRNU%203228\" data-action=\"result-detail\" data-group=\"code:PRNU 3228\"  class=\"notoffered\">PRNU 3228</a>, <a href=\"/search/?p=GRNS%206020\" data-action=\"result-detail\" data-group=\"code:GRNS 6020\"  class=\"notoffered\">GRNS 6020</a>, <a href=\"/search/?p=GRNS%206030\" data-action=\"result-detail\" data-group=\"code:GRNS 6030\"  class=\"notoffered\">GRNS 6030</a>, <a href=\"/search/?p=NURS%203220\" data-action=\"result-detail\" data-group=\"code:NURS 3220\"  class=\"notoffered\">NURS 3220</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 6000\"}, {\"type\": \"course\", \"code\": \"PRNU 3228\"}, {\"type\": \"course\", \"code\": \"GRNS 6020\"}, {\"type\": \"course\", \"code\": \"GRNS 6030\"}, {\"type\": \"course\", \"code\": \"NURS 3220\"}]}",
+      "other_requirements": "DEPN students only",
+      "external": false
+    },
+    {
+      "id": "GRNS 6210",
+      "course_code": "GRNS 6210",
+      "department": "GRNS",
+      "title": "Professional Role Development",
+      "credit_hours": "3",
+      "description": "Examination of role development in advanced generalist and advanced nursing practice; including the development of competencies, licensing, and other specialized roles in nursing.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GRNS 7993",
+      "course_code": "GRNS 7993",
+      "department": "GRNS",
+      "title": "Independent Study",
+      "credit_hours": "0.75",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GRNS 6270",
+      "course_code": "GRNS 6270",
+      "department": "GRNS",
+      "title": "Adv Topics in Hlth Informatics",
+      "credit_hours": "3",
+      "description": "This course provides an overview of informatics, the transformation of data into information, knowledge, decisions and actions to improve outcomes. This course offers the student an opportunity to study advanced topics in health informatics. Topics vary by offering; periodic offering at intervals that may exceed four years. Pre/Co-requisites: <a href=\"/search/?p=GRNS%206220\" data-action=\"result-detail\" data-group=\"code:GRNS 6220\" >GRNS 6220</a>, <a href=\"/search/?p=GRNS%207000\" data-action=\"result-detail\" data-group=\"code:GRNS 7000\"  class=\"notoffered\">GRNS 7000</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 6220\"}, {\"type\": \"course\", \"code\": \"GRNS 7000\"}]}",
+      "other_requirements": "Asynchronous Online Course; Open to Degree and PACE students with RN Status; DNP students & Postgraduate NP Certificate students; PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "GRNS 7260",
+      "course_code": "GRNS 7260",
+      "department": "GRNS",
+      "title": "DNP Project Seminar III",
+      "credit_hours": "1",
+      "description": "Requires the analysis, completion, and dissemination of the Doctor of Nursing Practice project for the preparation of advanced practice nurse with the practice doctorate. Prerequisites: <a href=\"/search/?p=GRNS%207240\" data-action=\"result-detail\" data-group=\"code:GRNS 7240\"  class=\"notoffered\">GRNS 7240</a>, <a href=\"/search/?p=GRNS%207250\" data-action=\"result-detail\" data-group=\"code:GRNS 7250\"  class=\"notoffered\">GRNS 7250</a>; <a href=\"/search/?p=GRNS%207270\" data-action=\"result-detail\" data-group=\"code:GRNS 7270\"  class=\"notoffered\">GRNS 7270</a> or <a href=\"/search/?p=GRNS%207280\" data-action=\"result-detail\" data-group=\"code:GRNS 7280\"  class=\"notoffered\">GRNS 7280</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7240\"}, {\"type\": \"course\", \"code\": \"GRNS 7250\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7270\"}, {\"type\": \"course\", \"code\": \"GRNS 7280\"}]}]}",
+      "other_requirements": "DNP & Post MS DNP students or instructor permission",
+      "external": false
+    },
+    {
+      "id": "GRNS 6090",
+      "course_code": "GRNS 6090",
+      "department": "GRNS",
+      "title": "Practicum:Women & Newborns",
+      "credit_hours": "1.25",
+      "description": "Attention is focused on provision of nursing care to the expectant, laboring, or post-partum mother and to the newborn infant. Pre/Co-requisite: <a href=\"/search/?p=GRNS%206080\" data-action=\"result-detail\" data-group=\"code:GRNS 6080\" >GRNS 6080</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 6080\"}, {\"type\": \"course\", \"code\": \"GRNS 6040\"}]}",
+      "other_requirements": "DEPN students only",
+      "external": false
+    },
+    {
+      "id": "GRNS 6304",
+      "course_code": "GRNS 6304",
+      "department": "GRNS",
+      "title": "Planetary Health for HCP",
+      "credit_hours": "3",
+      "description": "Delves into the nexus between population health and the Earth, emphasizing the repercussions of human-induced environmental degradation, climate change, and biodiversity loss on planetary well-being. Students will grasp the intricacies of these challenges and develop strategies to foster a sustainable, equitable, and just future that safeguards the health and flourishing of not only humans but also non-human species and the Earth itself, broadening the scope of care to encompass the entire ecosystem.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GRNS 7110",
+      "course_code": "GRNS 7110",
+      "department": "GRNS",
+      "title": "Practicum: Child & Adolescents",
+      "credit_hours": "1",
+      "description": "Application in a clinical setting(s): assessment, evaluation, diagnostic reasoning, and management of common episodic and chronic health conditions in provision of primary care to children and adolescents. Prerequisites: <a href=\"/search/?p=GRNS%207050\" data-action=\"result-detail\" data-group=\"code:GRNS 7050\"  class=\"notoffered\">GRNS 7050</a>, <a href=\"/search/?p=GRNS%207070\" data-action=\"result-detail\" data-group=\"code:GRNS 7070\"  class=\"notoffered\">GRNS 7070</a>, <a href=\"/search/?p=GRNS%207080\" data-action=\"result-detail\" data-group=\"code:GRNS 7080\"  class=\"notoffered\">GRNS 7080</a>, <a href=\"/search/?p=GRNS%207090\" data-action=\"result-detail\" data-group=\"code:GRNS 7090\"  class=\"notoffered\">GRNS 7090</a>. Co-requisite: <a href=\"/search/?p=GRNS%207100\" data-action=\"result-detail\" data-group=\"code:GRNS 7100\" >GRNS 7100</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7050\"}, {\"type\": \"course\", \"code\": \"GRNS 7070\"}, {\"type\": \"course\", \"code\": \"GRNS 7080\"}, {\"type\": \"course\", \"code\": \"GRNS 7090\"}]}",
+      "other_requirements": "DNP-FNP students; Co-requisite: GRNS 7100",
+      "external": false
+    },
+    {
+      "id": "NH 6899",
+      "course_code": "NH 6899",
+      "department": "NH",
+      "title": "Fundamentals Critical Inquiry",
+      "credit_hours": "3",
+      "description": "Interprofessional research/evidence-based practice course; instructs students from a variety of healthcare professions to develop skills in research/clinical question development, appraisal of literature and practice guidelines, experimental, quantitative and qualitative studies, and a fundamental understanding of evidence to inform their practice.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "GRNS 7102",
+      "course_code": "GRNS 7102",
+      "department": "GRNS",
+      "title": "EKG for Primary Care",
+      "credit_hours": "0.5",
+      "description": "Provides students with the fundamental skills and knowledge necessary to interpret and analyze electrocardiograms (EKGs) in a primary care setting. Through a combination of lectures, hands-on practice, and case studies, participants will gain proficiency in identifying common cardiac arrhythmias, recognizing ischemic changes, and assessing the overall cardiac health of their patients. Prerequisites: <a href=\"/search/?p=GRNS%207070\" data-action=\"result-detail\" data-group=\"code:GRNS 7070\"  class=\"notoffered\">GRNS 7070</a>, <a href=\"/search/?p=GRNS%207080\" data-action=\"result-detail\" data-group=\"code:GRNS 7080\"  class=\"notoffered\">GRNS 7080</a>, <a href=\"/search/?p=GRNS%207300\" data-action=\"result-detail\" data-group=\"code:GRNS 7300\"  class=\"notoffered\">GRNS 7300</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRNS 7070\"}, {\"type\": \"course\", \"code\": \"GRNS 7080\"}, {\"type\": \"course\", \"code\": \"GRNS 7300\"}]}",
+      "other_requirements": "DNP students",
+      "external": false
+    },
+    {
+      "id": "GRNS 6301",
+      "course_code": "GRNS 6301",
+      "department": "GRNS",
+      "title": "Research, QI & EBP",
+      "credit_hours": "3",
+      "description": "Provides nursing professionals with the knowledge and skills to critically appraise, conduct, apply, and disseminate research in healthcare settings. Students will integrate and apply advanced research, quality improvement methodologies, and evidence-based practice principles to develop the conceptual basis and methodological approach to their master's project or thesis.  Principles of ethics, interprofessional, and collaborative practice are incorporated in proposal development. Prerequisite: <a href=\"/search/?p=STAT%205000\" data-action=\"result-detail\" data-group=\"code:STAT 5000\" >STAT 5000</a>. Co-requisite: <a href=\"/search/?p=GRNS%206302\" data-action=\"result-detail\" data-group=\"code:GRNS 6302\" >GRNS 6302</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"STAT 5000\"}",
+      "other_requirements": "DNP and MS Students Only",
+      "external": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "GRNS 5130",
+      "target": "GRNS 5320"
+    },
+    {
+      "source": "GRNS 5130",
+      "target": "GRNS 6000"
+    },
+    {
+      "source": "GRNS 5130",
+      "target": "GRNS 6050"
+    },
+    {
+      "source": "GRNS 5130",
+      "target": "GRNS 6060"
+    },
+    {
+      "source": "GRNS 5130",
+      "target": "GRNS 6080"
+    },
+    {
+      "source": "GRNS 5130",
+      "target": "GRNS 6120"
+    },
+    {
+      "source": "GRNS 5280",
+      "target": "GRNS 5130"
+    },
+    {
+      "source": "GRNS 5280",
+      "target": "GRNS 5320"
+    },
+    {
+      "source": "GRNS 5280",
+      "target": "GRNS 6050"
+    },
+    {
+      "source": "GRNS 5280",
+      "target": "GRNS 6060"
+    },
+    {
+      "source": "GRNS 5280",
+      "target": "GRNS 6080"
+    },
+    {
+      "source": "GRNS 5280",
+      "target": "GRNS 6120"
+    },
+    {
+      "source": "GRNS 6000",
+      "target": "GRNS 6040"
+    },
+    {
+      "source": "GRNS 6020",
+      "target": "GRNS 6020"
+    },
+    {
+      "source": "GRNS 6020",
+      "target": "GRNS 6040"
+    },
+    {
+      "source": "GRNS 6020",
+      "target": "GRNS 6050"
+    },
+    {
+      "source": "GRNS 6020",
+      "target": "GRNS 6060"
+    },
+    {
+      "source": "GRNS 6020",
+      "target": "GRNS 6080"
+    },
+    {
+      "source": "GRNS 6020",
+      "target": "GRNS 6120"
+    },
+    {
+      "source": "GRNS 6030",
+      "target": "GRNS 6031"
+    },
+    {
+      "source": "GRNS 6030",
+      "target": "GRNS 6040"
+    },
+    {
+      "source": "GRNS 6030",
+      "target": "GRNS 6050"
+    },
+    {
+      "source": "GRNS 6030",
+      "target": "GRNS 6060"
+    },
+    {
+      "source": "GRNS 6030",
+      "target": "GRNS 6080"
+    },
+    {
+      "source": "GRNS 6030",
+      "target": "GRNS 6120"
+    },
+    {
+      "source": "GRNS 6040",
+      "target": "GRNS 6090"
+    },
+    {
+      "source": "GRNS 6080",
+      "target": "GRNS 6090"
+    },
+    {
+      "source": "GRNS 6210",
+      "target": "GRNS 7220"
+    },
+    {
+      "source": "GRNS 6220",
+      "target": "GRNS 6270"
+    },
+    {
+      "source": "GRNS 6220",
+      "target": "GRNS 7010"
+    },
+    {
+      "source": "GRNS 6270",
+      "target": "GRNS 7220"
+    },
+    {
+      "source": "GRNS 6280",
+      "target": "GRNS 7220"
+    },
+    {
+      "source": "GRNS 6301",
+      "target": "GRNS 6306"
+    },
+    {
+      "source": "GRNS 6302",
+      "target": "GRNS 6306"
+    },
+    {
+      "source": "GRNS 6350",
+      "target": "GRNS 7040"
+    },
+    {
+      "source": "GRNS 6350",
+      "target": "GRNS 7050"
+    },
+    {
+      "source": "GRNS 6350",
+      "target": "GRNS 7060"
+    },
+    {
+      "source": "GRNS 6350",
+      "target": "GRNS 7070"
+    },
+    {
+      "source": "GRNS 6350",
+      "target": "GRNS 7080"
+    },
+    {
+      "source": "GRNS 6350",
+      "target": "GRNS 7120"
+    },
+    {
+      "source": "GRNS 7040",
+      "target": "GRNS 6350"
+    },
+    {
+      "source": "GRNS 7040",
+      "target": "GRNS 7050"
+    },
+    {
+      "source": "GRNS 7040",
+      "target": "GRNS 7070"
+    },
+    {
+      "source": "GRNS 7040",
+      "target": "GRNS 7080"
+    },
+    {
+      "source": "GRNS 7040",
+      "target": "GRNS 7120"
+    },
+    {
+      "source": "GRNS 7050",
+      "target": "GRNS 7090"
+    },
+    {
+      "source": "GRNS 7050",
+      "target": "GRNS 7100"
+    },
+    {
+      "source": "GRNS 7050",
+      "target": "GRNS 7110"
+    },
+    {
+      "source": "GRNS 7050",
+      "target": "GRNS 7120"
+    },
+    {
+      "source": "GRNS 7060",
+      "target": "GRNS 7070"
+    },
+    {
+      "source": "GRNS 7060",
+      "target": "GRNS 7080"
+    },
+    {
+      "source": "GRNS 7060",
+      "target": "GRNS 7120"
+    },
+    {
+      "source": "GRNS 7070",
+      "target": "GRNS 7090"
+    },
+    {
+      "source": "GRNS 7070",
+      "target": "GRNS 7100"
+    },
+    {
+      "source": "GRNS 7070",
+      "target": "GRNS 7101"
+    },
+    {
+      "source": "GRNS 7070",
+      "target": "GRNS 7102"
+    },
+    {
+      "source": "GRNS 7070",
+      "target": "GRNS 7110"
+    },
+    {
+      "source": "GRNS 7070",
+      "target": "GRNS 7120"
+    },
+    {
+      "source": "GRNS 7070",
+      "target": "GRNS 7130"
+    },
+    {
+      "source": "GRNS 7070",
+      "target": "GRNS 7140"
+    },
+    {
+      "source": "GRNS 7070",
+      "target": "GRNS 7150"
+    },
+    {
+      "source": "GRNS 7070",
+      "target": "GRNS 7160"
+    },
+    {
+      "source": "GRNS 7070",
+      "target": "GRNS 7170"
+    },
+    {
+      "source": "GRNS 7070",
+      "target": "GRNS 7180"
+    },
+    {
+      "source": "GRNS 7070",
+      "target": "GRNS 7181"
+    },
+    {
+      "source": "GRNS 7080",
+      "target": "GRNS 7090"
+    },
+    {
+      "source": "GRNS 7080",
+      "target": "GRNS 7100"
+    },
+    {
+      "source": "GRNS 7080",
+      "target": "GRNS 7101"
+    },
+    {
+      "source": "GRNS 7080",
+      "target": "GRNS 7102"
+    },
+    {
+      "source": "GRNS 7080",
+      "target": "GRNS 7110"
+    },
+    {
+      "source": "GRNS 7080",
+      "target": "GRNS 7120"
+    },
+    {
+      "source": "GRNS 7080",
+      "target": "GRNS 7130"
+    },
+    {
+      "source": "GRNS 7080",
+      "target": "GRNS 7140"
+    },
+    {
+      "source": "GRNS 7080",
+      "target": "GRNS 7150"
+    },
+    {
+      "source": "GRNS 7080",
+      "target": "GRNS 7160"
+    },
+    {
+      "source": "GRNS 7080",
+      "target": "GRNS 7170"
+    },
+    {
+      "source": "GRNS 7080",
+      "target": "GRNS 7180"
+    },
+    {
+      "source": "GRNS 7080",
+      "target": "GRNS 7181"
+    },
+    {
+      "source": "GRNS 7090",
+      "target": "GRNS 7100"
+    },
+    {
+      "source": "GRNS 7090",
+      "target": "GRNS 7110"
+    },
+    {
+      "source": "GRNS 7090",
+      "target": "GRNS 7120"
+    },
+    {
+      "source": "GRNS 7090",
+      "target": "GRNS 7160"
+    },
+    {
+      "source": "GRNS 7100",
+      "target": "GRNS 7160"
+    },
+    {
+      "source": "GRNS 7110",
+      "target": "GRNS 7160"
+    },
+    {
+      "source": "GRNS 7120",
+      "target": "GRNS 7170"
+    },
+    {
+      "source": "GRNS 7120",
+      "target": "GRNS 7200"
+    },
+    {
+      "source": "GRNS 7140",
+      "target": "GRNS 7190"
+    },
+    {
+      "source": "GRNS 7140",
+      "target": "GRNS 7200"
+    },
+    {
+      "source": "GRNS 7140",
+      "target": "GRNS 7210"
+    },
+    {
+      "source": "GRNS 7150",
+      "target": "GRNS 7190"
+    },
+    {
+      "source": "GRNS 7150",
+      "target": "GRNS 7200"
+    },
+    {
+      "source": "GRNS 7160",
+      "target": "GRNS 7190"
+    },
+    {
+      "source": "GRNS 7160",
+      "target": "GRNS 7210"
+    },
+    {
+      "source": "GRNS 7170",
+      "target": "GRNS 7140"
+    },
+    {
+      "source": "GRNS 7170",
+      "target": "GRNS 7150"
+    },
+    {
+      "source": "GRNS 7170",
+      "target": "GRNS 7160"
+    },
+    {
+      "source": "GRNS 7170",
+      "target": "GRNS 7181"
+    },
+    {
+      "source": "GRNS 7180",
+      "target": "GRNS 7140"
+    },
+    {
+      "source": "GRNS 7180",
+      "target": "GRNS 7150"
+    },
+    {
+      "source": "GRNS 7180",
+      "target": "GRNS 7160"
+    },
+    {
+      "source": "GRNS 7180",
+      "target": "GRNS 7181"
+    },
+    {
+      "source": "GRNS 7220",
+      "target": "GRNS 7240"
+    },
+    {
+      "source": "GRNS 7220",
+      "target": "GRNS 7250"
+    },
+    {
+      "source": "GRNS 7240",
+      "target": "GRNS 7260"
+    },
+    {
+      "source": "GRNS 7250",
+      "target": "GRNS 7260"
+    },
+    {
+      "source": "GRNS 7280",
+      "target": "GRNS 7260"
+    },
+    {
+      "source": "NH 6899",
+      "target": "GRNS 7220"
+    },
+    {
+      "source": "NURS 3220",
+      "target": "GRNS 6040"
+    },
+    {
+      "source": "PRNU 3228",
+      "target": "GRNS 6040"
+    },
+    {
+      "source": "STAT 5000",
+      "target": "GRNS 6301"
+    },
+    {
+      "source": "STAT 5000",
+      "target": "GRNS 6302"
+    },
+    {
+      "source": "STAT 5000",
+      "target": "GRNS 6306"
+    }
+  ]
+}

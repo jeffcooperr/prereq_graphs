@@ -1,0 +1,39 @@
+{
+  "department": "GRAD",
+  "nodes": [
+    {
+      "id": "GRAD 9030",
+      "course_code": "GRAD 9030",
+      "department": "GRAD",
+      "title": "Complex Systems & Data Science",
+      "credit_hours": "9",
+      "description": null,
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GRAD 9020",
+      "course_code": "GRAD 9020",
+      "department": "GRAD",
+      "title": "Complex Systems & Data Science",
+      "credit_hours": "5 to 8",
+      "description": null,
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GRAD 9010",
+      "course_code": "GRAD 9010",
+      "department": "GRAD",
+      "title": "Complex Systems & Data Science",
+      "credit_hours": "0.25 to 4",
+      "description": null,
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    }
+  ],
+  "edges": []
+}

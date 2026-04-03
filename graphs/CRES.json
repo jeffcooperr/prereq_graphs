@@ -1,0 +1,546 @@
+{
+  "department": "CRES",
+  "nodes": [
+    {
+      "id": "CRES 1843",
+      "course_code": "CRES 1843",
+      "department": "CRES",
+      "title": "Histories of AfAm Religions",
+      "credit_hours": "3",
+      "description": "Explores the history of African American religious experiences over the past four centuries, introducing some of the core beliefs, practices, individuals, institutions, communities, relationships, and experiences that have defined Black religious life in the United States. Introduces students to the varieties of African American religious experiences from the seventeenth-century Black Atlantic world to the present. Cross-listed with: <a href=\"/search/?p=REL%201357\" data-action=\"result-detail\" data-group=\"code:REL 1357\" >REL 1357</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "REL 2355",
+      "course_code": "REL 2355",
+      "department": "REL",
+      "title": "Blood, Heathens, & Pagan Lands",
+      "credit_hours": "3",
+      "description": "Exploration of aspects of the relationship between race and religion in the United States. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Three hours in Religion. Cross-listed with: <a href=\"/search/?p=CRES%202841\" data-action=\"result-detail\" data-group=\"code:CRES 2841\" >CRES 2841</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"REL 1000\"}, {\"type\": \"course\", \"code\": \"REL 1001\"}, {\"type\": \"course\", \"code\": \"REL 1002\"}, {\"type\": \"course\", \"code\": \"REL 1003\"}, {\"type\": \"course\", \"code\": \"REL 1004\"}, {\"type\": \"course\", \"code\": \"REL 1005\"}]}",
+      "other_requirements": "PACE students by permission and override.",
+      "external": true
+    },
+    {
+      "id": "CRES 1861",
+      "course_code": "CRES 1861",
+      "department": "CRES",
+      "title": "Geography/Race&Ethnicity in US",
+      "credit_hours": "3",
+      "description": "Examination of the ways in which spatial and locational processes shape and are shaped by ethnic and racial identities, struggles, and relationships. Cross-listed with: <a href=\"/search/?p=GEOG%201770\" data-action=\"result-detail\" data-group=\"code:GEOG 1770\" >GEOG 1770</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ENGL 1270",
+      "course_code": "ENGL 1270",
+      "department": "ENGL",
+      "title": "Gender Sexuality& Environment",
+      "credit_hours": "3",
+      "description": "Courses examine the representation and construction of gender and sexuality in literature. Representative topics: Gender, Sexuality and Identity in American Poetry. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Cross-listed with: <a href=\"/search/?p=GSWS%201620\" data-action=\"result-detail\" data-group=\"code:GSWS 1620\" >GSWS 1620</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "ENGL 1500",
+      "course_code": "ENGL 1500",
+      "department": "ENGL",
+      "title": "Intro to Literary Studies",
+      "credit_hours": "3",
+      "description": "Introduction to the critical work of close reading across literary genres, understanding of key terms and concepts, and writing in the discipline. Required for English majors and minors. Topics vary by section.",
+      "prereq_expression": null,
+      "other_requirements": "Junior and senior ENGL, SEE majors and ENGL minors only until Wednesday, April 8th; then ENGL SEE majors and ENGL minors only during the first week registration. Open to Degree and PACE students. Full class participation (attendance AND involvement in class discussions and in-class writing activities) is important and expected.",
+      "external": true
+    },
+    {
+      "id": "ENGL 1114",
+      "course_code": "ENGL 1114",
+      "department": "ENGL",
+      "title": "British Literature II",
+      "credit_hours": "3",
+      "description": "Selected texts from the late 18th century to the present. Explores periodization, genre, key terms and concepts through close reading and critical analysis. Fulfills major requirements; open to non-majors.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "CRES 1821",
+      "course_code": "CRES 1821",
+      "department": "CRES",
+      "title": "Tolkein:Gender/Race, the Other",
+      "credit_hours": "3",
+      "description": "Introductory courses addressing the representation and construction of race in literature and/or the contributions of ethnically diverse writers to the American culture.  May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Cross-listed with: <a href=\"/search/?p=ENGL%201210\" data-action=\"result-detail\" data-group=\"code:ENGL 1210\" >ENGL 1210</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CRES 2991",
+      "course_code": "CRES 2991",
+      "department": "CRES",
+      "title": "Internship",
+      "credit_hours": "3",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Prerequisites: A contract must be obtained from and returned to the Critical Race &amp; Ethnic Studies Program office during registration; permission of Director of Critical Race &amp; Ethnic Studies.",
+      "prereq_expression": null,
+      "other_requirements": "A contract must be obtained from and returned to the Critical Race &amp; Ethnic Studies Program office during registration; permission of Director of Critical Race &amp; Ethnic Studies. PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "ENGL 1740",
+      "course_code": "ENGL 1740",
+      "department": "ENGL",
+      "title": "The Art of the Essay",
+      "credit_hours": "3",
+      "description": "In this intermediate writing course, students explore and practice variations in the genre known as the nonfiction essay, attending to audience, purpose, context, style, and medium.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "CRES 1825",
+      "course_code": "CRES 1825",
+      "department": "CRES",
+      "title": "Af Am Sci Fi/Fantasy",
+      "credit_hours": "3",
+      "description": "Representative topic: African-American Women Writers in the Twentieth- and Twenty-first Centuries. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Cross-listed with: <a href=\"/search/?p=ENGL%201220\" data-action=\"result-detail\" data-group=\"code:ENGL 1220\" >ENGL 1220</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ENGL 1990",
+      "course_code": "ENGL 1990",
+      "department": "ENGL",
+      "title": "The Films of Stephen King",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles. May be repeated for credit with different content.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "ENGL 1112",
+      "course_code": "ENGL 1112",
+      "department": "ENGL",
+      "title": "British Literature I",
+      "credit_hours": "3",
+      "description": "Selected texts from the beginnings to the late 18th century. Explores periodization, genre, key terms and concepts through close reading and critical analysis. Fulfills major requirements; open to non-majors.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "CRES 1885",
+      "course_code": "CRES 1885",
+      "department": "CRES",
+      "title": "Asian-American Experiences",
+      "credit_hours": "3",
+      "description": "An overview of the socio-historical conditions of people of Asian descent in the United States, along with an examination of contemporary issues. Cross-listed with: <a href=\"/search/?p=SOC%201375\" data-action=\"result-detail\" data-group=\"code:SOC 1375\" >SOC 1375</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CRES 2995",
+      "course_code": "CRES 2995",
+      "department": "CRES",
+      "title": "Undergraduate Research",
+      "credit_hours": "3",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "ENGL 1180",
+      "course_code": "ENGL 1180",
+      "department": "ENGL",
+      "title": "Evolution of Modern Fantasy",
+      "credit_hours": "3",
+      "description": "Topics in Science Fiction and Fantasy Literature. Subjects vary by semester. Representative topics: Tolkien's Middle Earth; The Hobbit; Survey of Science Fiction and Fantasy. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "ENGL 1010",
+      "course_code": "ENGL 1010",
+      "department": "ENGL",
+      "title": "FYS:Gender, Sexu. & Enviro Lit",
+      "credit_hours": "3",
+      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "ENGL 1150",
+      "course_code": "ENGL 1150",
+      "department": "ENGL",
+      "title": "Introduction to Drama",
+      "credit_hours": "3",
+      "description": "Study of the play as a work of literature and as a dramatic experience. Continental, British, and American drama from all ages.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "CRES 2670",
+      "course_code": "CRES 2670",
+      "department": "CRES",
+      "title": "Jazz& The Cultural Imagination",
+      "credit_hours": "3",
+      "description": "Interdisciplinary topics in African American literature and culture. Representative topics include: The Harlem Renaissance and Negritude; Publishing Blackness. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Three hours in English numbered 1010 to 1990; Sophomore standing. Cross-listed with: <a href=\"/search/?p=ENGL%202223\" data-action=\"result-detail\" data-group=\"code:ENGL 2223\" >ENGL 2223</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ENGL 1010\"}, {\"type\": \"course\", \"code\": \"ENGL 1020\"}, {\"type\": \"course\", \"code\": \"ENGL 1030\"}, {\"type\": \"course\", \"code\": \"ENGL 1040\"}, {\"type\": \"course\", \"code\": \"ENGL 1050\"}, {\"type\": \"course\", \"code\": \"ENGL 1060\"}, {\"type\": \"course\", \"code\": \"ENGL 1070\"}, {\"type\": \"course\", \"code\": \"ENGL 1080\"}, {\"type\": \"course\", \"code\": \"ENGL 1090\"}, {\"type\": \"course\", \"code\": \"ENGL 1100\"}, {\"type\": \"course\", \"code\": \"ENGL 1110\"}, {\"type\": \"course\", \"code\": \"ENGL 1120\"}, {\"type\": \"course\", \"code\": \"ENGL 1130\"}, {\"type\": \"course\", \"code\": \"ENGL 1140\"}, {\"type\": \"course\", \"code\": \"ENGL 1150\"}, {\"type\": \"course\", \"code\": \"ENGL 1160\"}, {\"type\": \"course\", \"code\": \"ENGL 1170\"}, {\"type\": \"course\", \"code\": \"ENGL 1180\"}, {\"type\": \"course\", \"code\": \"ENGL 1190\"}, {\"type\": \"course\", \"code\": \"ENGL 1200\"}, {\"type\": \"course\", \"code\": \"ENGL 1210\"}, {\"type\": \"course\", \"code\": \"ENGL 1220\"}, {\"type\": \"course\", \"code\": \"ENGL 1230\"}, {\"type\": \"course\", \"code\": \"ENGL 1240\"}, {\"type\": \"course\", \"code\": \"ENGL 1250\"}, {\"type\": \"course\", \"code\": \"ENGL 1260\"}, {\"type\": \"course\", \"code\": \"ENGL 1270\"}, {\"type\": \"course\", \"code\": \"ENGL 1280\"}, {\"type\": \"course\", \"code\": \"ENGL 1290\"}, {\"type\": \"course\", \"code\": \"ENGL 1300\"}, {\"type\": \"course\", \"code\": \"ENGL 1310\"}, {\"type\": \"course\", \"code\": \"ENGL 1320\"}, {\"type\": \"course\", \"code\": \"ENGL 1330\"}, {\"type\": \"course\", \"code\": \"ENGL 1340\"}, {\"type\": \"course\", \"code\": \"ENGL 1350\"}, {\"type\": \"course\", \"code\": \"ENGL 1360\"}, {\"type\": \"course\", \"code\": \"ENGL 1370\"}, {\"type\": \"course\", \"code\": \"ENGL 1380\"}, {\"type\": \"course\", \"code\": \"ENGL 1390\"}, {\"type\": \"course\", \"code\": \"ENGL 1400\"}, {\"type\": \"course\", \"code\": \"ENGL 1410\"}, {\"type\": \"course\", \"code\": \"ENGL 1420\"}, {\"type\": \"course\", \"code\": \"ENGL 1430\"}, {\"type\": \"course\", \"code\": \"ENGL 1440\"}, {\"type\": \"course\", \"code\": \"ENGL 1450\"}, {\"type\": \"course\", \"code\": \"ENGL 1460\"}, {\"type\": \"course\", \"code\": \"ENGL 1470\"}, {\"type\": \"course\", \"code\": \"ENGL 1480\"}, {\"type\": \"course\", \"code\": \"ENGL 1490\"}, {\"type\": \"course\", \"code\": \"ENGL 1500\"}, {\"type\": \"course\", \"code\": \"ENGL 1510\"}, {\"type\": \"course\", \"code\": \"ENGL 1520\"}, {\"type\": \"course\", \"code\": \"ENGL 1530\"}, {\"type\": \"course\", \"code\": \"ENGL 1540\"}, {\"type\": \"course\", \"code\": \"ENGL 1550\"}, {\"type\": \"course\", \"code\": \"ENGL 1560\"}, {\"type\": \"course\", \"code\": \"ENGL 1570\"}, {\"type\": \"course\", \"code\": \"ENGL 1580\"}, {\"type\": \"course\", \"code\": \"ENGL 1590\"}, {\"type\": \"course\", \"code\": \"ENGL 1600\"}, {\"type\": \"course\", \"code\": \"ENGL 1610\"}, {\"type\": \"course\", \"code\": \"ENGL 1620\"}, {\"type\": \"course\", \"code\": \"ENGL 1630\"}, {\"type\": \"course\", \"code\": \"ENGL 1640\"}, {\"type\": \"course\", \"code\": \"ENGL 1650\"}, {\"type\": \"course\", \"code\": \"ENGL 1660\"}, {\"type\": \"course\", \"code\": \"ENGL 1670\"}, {\"type\": \"course\", \"code\": \"ENGL 1680\"}, {\"type\": \"course\", \"code\": \"ENGL 1690\"}, {\"type\": \"course\", \"code\": \"ENGL 1700\"}, {\"type\": \"course\", \"code\": \"ENGL 1710\"}, {\"type\": \"course\", \"code\": \"ENGL 1720\"}, {\"type\": \"course\", \"code\": \"ENGL 1730\"}, {\"type\": \"course\", \"code\": \"ENGL 1740\"}, {\"type\": \"course\", \"code\": \"ENGL 1750\"}, {\"type\": \"course\", \"code\": \"ENGL 1760\"}, {\"type\": \"course\", \"code\": \"ENGL 1770\"}, {\"type\": \"course\", \"code\": \"ENGL 1780\"}, {\"type\": \"course\", \"code\": \"ENGL 1790\"}, {\"type\": \"course\", \"code\": \"ENGL 1800\"}, {\"type\": \"course\", \"code\": \"ENGL 1810\"}, {\"type\": \"course\", \"code\": \"ENGL 1820\"}, {\"type\": \"course\", \"code\": \"ENGL 1830\"}, {\"type\": \"course\", \"code\": \"ENGL 1840\"}, {\"type\": \"course\", \"code\": \"ENGL 1850\"}, {\"type\": \"course\", \"code\": \"ENGL 1860\"}, {\"type\": \"course\", \"code\": \"ENGL 1870\"}, {\"type\": \"course\", \"code\": \"ENGL 1880\"}, {\"type\": \"course\", \"code\": \"ENGL 1890\"}, {\"type\": \"course\", \"code\": \"ENGL 1900\"}, {\"type\": \"course\", \"code\": \"ENGL 1910\"}, {\"type\": \"course\", \"code\": \"ENGL 1920\"}, {\"type\": \"course\", \"code\": \"ENGL 1930\"}, {\"type\": \"course\", \"code\": \"ENGL 1940\"}, {\"type\": \"course\", \"code\": \"ENGL 1950\"}, {\"type\": \"course\", \"code\": \"ENGL 1960\"}, {\"type\": \"course\", \"code\": \"ENGL 1970\"}, {\"type\": \"course\", \"code\": \"ENGL 1980\"}, {\"type\": \"course\", \"code\": \"ENGL 1990\"}]}]}",
+      "other_requirements": "Sophomore standing",
+      "external": false
+    },
+    {
+      "id": "ENGL 1730",
+      "course_code": "ENGL 1730",
+      "department": "ENGL",
+      "title": "Intro to Creative Writing",
+      "credit_hours": "3",
+      "description": "Introductory course on techniques of writing poetry, short prose fiction, and creative nonfiction. Classes organized around discussion of student work; weekly writing assignments.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "ENGL 1702",
+      "course_code": "ENGL 1702",
+      "department": "ENGL",
+      "title": "Writing Place in CNF",
+      "credit_hours": "3",
+      "description": "Representative topics include Forms of Journalism and Writing for the Web. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "ENGL 1305",
+      "course_code": "ENGL 1305",
+      "department": "ENGL",
+      "title": "Bible, Bibles, and Biblical",
+      "credit_hours": "3",
+      "description": "An introduction to the historical study of religion and its relation to written texts through an examination of the creation of biblical and related writings of ancient Israel, Egypt, Assyria, Babylon, and the early Christian movement. Representative topics: What is the Bible; Literary and Historical Perspectives on the Bible. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Cross-listed with: <a href=\"/search/?p=REL%201250\" data-action=\"result-detail\" data-group=\"code:REL 1250\" >REL 1250</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "ENGL 1280",
+      "course_code": "ENGL 1280",
+      "department": "ENGL",
+      "title": "Women's Literature",
+      "credit_hours": "3",
+      "description": "Survey of women's literary tradition in English. Focuses on the ways women have written, read, written about, and been represented in nineteenth- and twentieth-century literature. Cross-listed with: <a href=\"/search/?p=GSWS%201630\" data-action=\"result-detail\" data-group=\"code:GSWS 1630\" >GSWS 1630</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "ENGL 1220",
+      "course_code": "ENGL 1220",
+      "department": "ENGL",
+      "title": "Af Am Sci Fi/Fantasy",
+      "credit_hours": "3",
+      "description": "Representative topic: African-American Women Writers in the Twentieth- and Twenty-first Centuries. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Cross-listed with: <a href=\"/search/?p=CRES%201825\" data-action=\"result-detail\" data-group=\"code:CRES 1825\" >CRES 1825</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "CRES 1813",
+      "course_code": "CRES 1813",
+      "department": "CRES",
+      "title": "Blues & Related Traditions",
+      "credit_hours": "3",
+      "description": "Traces the development of blues from African origins to modern blues, its rural and urban social contexts, and relation to African-American history and culture. Cross-listed with: <a href=\"/search/?p=MU%201140\" data-action=\"result-detail\" data-group=\"code:MU 1140\" >MU 1140</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CRES 3995",
+      "course_code": "CRES 3995",
+      "department": "CRES",
+      "title": "Undergraduate Research",
+      "credit_hours": "3",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CRES 4994",
+      "course_code": "CRES 4994",
+      "department": "CRES",
+      "title": "Teaching Assistantship",
+      "credit_hours": "3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "ENGL 1124",
+      "course_code": "ENGL 1124",
+      "department": "ENGL",
+      "title": "American Literature II",
+      "credit_hours": "3",
+      "description": "Selected texts from end of Civil War to the present. Explores periodization, genre, key terms and concepts through close reading and critical analysis. Fulfills major requirements; open to non-majors.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "CRES 2881",
+      "course_code": "CRES 2881",
+      "department": "CRES",
+      "title": "Racial Inequality in the US",
+      "credit_hours": "3",
+      "description": "A critical analysis of racial inequality and stratification in the United States. Prerequisite: Three hours of Critical Race &amp; Ethnic Studies or Sociology. Cross-listed with: <a href=\"/search/?p=SOC%202370\" data-action=\"result-detail\" data-group=\"code:SOC 2370\" >SOC 2370</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CRES 0000\"}, {\"type\": \"course\", \"code\": \"SOC 0000\"}]}",
+      "other_requirements": "Three hours of Critical Race & Ethnic Studies or Sociology. minimum Soph standing. PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "ENGL 1122",
+      "course_code": "ENGL 1122",
+      "department": "ENGL",
+      "title": "American Literature I",
+      "credit_hours": "3",
+      "description": "Selected texts from the beginnings to the Civil War. Explores periodization, genre, key terms and concepts through close reading and critical analysis. Fulfills major requirements; open to non-majors.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "CRES 1881",
+      "course_code": "CRES 1881",
+      "department": "CRES",
+      "title": "Race Relations in the US",
+      "credit_hours": "3",
+      "description": "Introduction to the sociological analysis of race and ethnicity, with a focus on the histories of racial and ethnic groups in the United States. Credit not awarded for both <a href=\"/search/?p=SOC%201370\" data-action=\"result-detail\" data-group=\"code:SOC 1370\" >SOC 1370</a> and <a href=\"/search/?p=CRES%201883\" data-action=\"result-detail\" data-group=\"code:CRES 1883\"  class=\"notoffered\">CRES 1883</a> or <a href=\"/search/?p=SOC%201372\" data-action=\"result-detail\" data-group=\"code:SOC 1372\"  class=\"notoffered\">SOC 1372</a>. Cross-listed with: <a href=\"/search/?p=SOC%201370\" data-action=\"result-detail\" data-group=\"code:SOC 1370\" >SOC 1370</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ENGL 1120",
+      "course_code": "ENGL 1120",
+      "department": "ENGL",
+      "title": "Haunted World, Shirley Jackson",
+      "credit_hours": "3",
+      "description": "Subjects vary by semester. Representative topic: Reading the American Wilderness. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "CRES 2827",
+      "course_code": "CRES 2827",
+      "department": "CRES",
+      "title": "US Latino Writers",
+      "credit_hours": "3",
+      "description": "Study of texts written by Latinos since the 1960s. Topics: construction of ethnic identities, representation of race/gender relations; writers and their communities. Prerequisite: Three hours in English numbered 1010 to 1990; minimum Sophomore standing. Cross-listed with: <a href=\"/search/?p=ENGL%202216\" data-action=\"result-detail\" data-group=\"code:ENGL 2216\" >ENGL 2216</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ENGL 1010\"}, {\"type\": \"course\", \"code\": \"ENGL 1011\"}, {\"type\": \"course\", \"code\": \"ENGL 1012\"}, {\"type\": \"course\", \"code\": \"ENGL 1013\"}, {\"type\": \"course\", \"code\": \"ENGL 1014\"}, {\"type\": \"course\", \"code\": \"ENGL 1015\"}, {\"type\": \"course\", \"code\": \"ENGL 1016\"}, {\"type\": \"course\", \"code\": \"ENGL 1017\"}, {\"type\": \"course\", \"code\": \"ENGL 1018\"}, {\"type\": \"course\", \"code\": \"ENGL 1019\"}, {\"type\": \"course\", \"code\": \"ENGL 1020\"}, {\"type\": \"course\", \"code\": \"ENGL 1021\"}, {\"type\": \"course\", \"code\": \"ENGL 1022\"}, {\"type\": \"course\", \"code\": \"ENGL 1023\"}, {\"type\": \"course\", \"code\": \"ENGL 1024\"}, {\"type\": \"course\", \"code\": \"ENGL 1025\"}, {\"type\": \"course\", \"code\": \"ENGL 1026\"}, {\"type\": \"course\", \"code\": \"ENGL 1027\"}, {\"type\": \"course\", \"code\": \"ENGL 1028\"}, {\"type\": \"course\", \"code\": \"ENGL 1029\"}, {\"type\": \"course\", \"code\": \"ENGL 1030\"}, {\"type\": \"course\", \"code\": \"ENGL 1031\"}, {\"type\": \"course\", \"code\": \"ENGL 1032\"}, {\"type\": \"course\", \"code\": \"ENGL 1033\"}, {\"type\": \"course\", \"code\": \"ENGL 1034\"}, {\"type\": \"course\", \"code\": \"ENGL 1035\"}, {\"type\": \"course\", \"code\": \"ENGL 1036\"}, {\"type\": \"course\", \"code\": \"ENGL 1037\"}, {\"type\": \"course\", \"code\": \"ENGL 1038\"}, {\"type\": \"course\", \"code\": \"ENGL 1039\"}, {\"type\": \"course\", \"code\": \"ENGL 1040\"}, {\"type\": \"course\", \"code\": \"ENGL 1041\"}, {\"type\": \"course\", \"code\": \"ENGL 1042\"}, {\"type\": \"course\", \"code\": \"ENGL 1043\"}, {\"type\": \"course\", \"code\": \"ENGL 1044\"}, {\"type\": \"course\", \"code\": \"ENGL 1045\"}, {\"type\": \"course\", \"code\": \"ENGL 1046\"}, {\"type\": \"course\", \"code\": \"ENGL 1047\"}, {\"type\": \"course\", \"code\": \"ENGL 1048\"}, {\"type\": \"course\", \"code\": \"ENGL 1049\"}, {\"type\": \"course\", \"code\": \"ENGL 1050\"}, {\"type\": \"course\", \"code\": \"ENGL 1051\"}, {\"type\": \"course\", \"code\": \"ENGL 1052\"}, {\"type\": \"course\", \"code\": \"ENGL 1053\"}, {\"type\": \"course\", \"code\": \"ENGL 1054\"}, {\"type\": \"course\", \"code\": \"ENGL 1055\"}, {\"type\": \"course\", \"code\": \"ENGL 1056\"}, {\"type\": \"course\", \"code\": \"ENGL 1057\"}, {\"type\": \"course\", \"code\": \"ENGL 1058\"}, {\"type\": \"course\", \"code\": \"ENGL 1059\"}, {\"type\": \"course\", \"code\": \"ENGL 1060\"}, {\"type\": \"course\", \"code\": \"ENGL 1061\"}, {\"type\": \"course\", \"code\": \"ENGL 1062\"}, {\"type\": \"course\", \"code\": \"ENGL 1063\"}, {\"type\": \"course\", \"code\": \"ENGL 1064\"}, {\"type\": \"course\", \"code\": \"ENGL 1065\"}, {\"type\": \"course\", \"code\": \"ENGL 1066\"}, {\"type\": \"course\", \"code\": \"ENGL 1067\"}, {\"type\": \"course\", \"code\": \"ENGL 1068\"}, {\"type\": \"course\", \"code\": \"ENGL 1069\"}, {\"type\": \"course\", \"code\": \"ENGL 1070\"}, {\"type\": \"course\", \"code\": \"ENGL 1071\"}, {\"type\": \"course\", \"code\": \"ENGL 1072\"}, {\"type\": \"course\", \"code\": \"ENGL 1073\"}, {\"type\": \"course\", \"code\": \"ENGL 1074\"}, {\"type\": \"course\", \"code\": \"ENGL 1075\"}, {\"type\": \"course\", \"code\": \"ENGL 1076\"}, {\"type\": \"course\", \"code\": \"ENGL 1077\"}, {\"type\": \"course\", \"code\": \"ENGL 1078\"}, {\"type\": \"course\", \"code\": \"ENGL 1079\"}, {\"type\": \"course\", \"code\": \"ENGL 1080\"}, {\"type\": \"course\", \"code\": \"ENGL 1081\"}, {\"type\": \"course\", \"code\": \"ENGL 1082\"}, {\"type\": \"course\", \"code\": \"ENGL 1083\"}, {\"type\": \"course\", \"code\": \"ENGL 1084\"}, {\"type\": \"course\", \"code\": \"ENGL 1085\"}, {\"type\": \"course\", \"code\": \"ENGL 1086\"}, {\"type\": \"course\", \"code\": \"ENGL 1087\"}, {\"type\": \"course\", \"code\": \"ENGL 1088\"}, {\"type\": \"course\", \"code\": \"ENGL 1089\"}, {\"type\": \"course\", \"code\": \"ENGL 1090\"}, {\"type\": \"course\", \"code\": \"ENGL 1091\"}, {\"type\": \"course\", \"code\": \"ENGL 1092\"}, {\"type\": \"course\", \"code\": \"ENGL 1093\"}, {\"type\": \"course\", \"code\": \"ENGL 1094\"}, {\"type\": \"course\", \"code\": \"ENGL 1095\"}, {\"type\": \"course\", \"code\": \"ENGL 1096\"}, {\"type\": \"course\", \"code\": \"ENGL 1097\"}, {\"type\": \"course\", \"code\": \"ENGL 1098\"}, {\"type\": \"course\", \"code\": \"ENGL 1099\"}, {\"type\": \"course\", \"code\": \"ENGL 1100\"}, {\"type\": \"course\", \"code\": \"ENGL 1101\"}, {\"type\": \"course\", \"code\": \"ENGL 1102\"}, {\"type\": \"course\", \"code\": \"ENGL 1103\"}, {\"type\": \"course\", \"code\": \"ENGL 1104\"}, {\"type\": \"course\", \"code\": \"ENGL 1105\"}, {\"type\": \"course\", \"code\": \"ENGL 1106\"}, {\"type\": \"course\", \"code\": \"ENGL 1107\"}, {\"type\": \"course\", \"code\": \"ENGL 1108\"}, {\"type\": \"course\", \"code\": \"ENGL 1109\"}, {\"type\": \"course\", \"code\": \"ENGL 1110\"}, {\"type\": \"course\", \"code\": \"ENGL 1111\"}, {\"type\": \"course\", \"code\": \"ENGL 1112\"}, {\"type\": \"course\", \"code\": \"ENGL 1113\"}, {\"type\": \"course\", \"code\": \"ENGL 1114\"}, {\"type\": \"course\", \"code\": \"ENGL 1115\"}, {\"type\": \"course\", \"code\": \"ENGL 1116\"}, {\"type\": \"course\", \"code\": \"ENGL 1117\"}, {\"type\": \"course\", \"code\": \"ENGL 1118\"}, {\"type\": \"course\", \"code\": \"ENGL 1119\"}, {\"type\": \"course\", \"code\": \"ENGL 1120\"}, {\"type\": \"course\", \"code\": \"ENGL 1121\"}, {\"type\": \"course\", \"code\": \"ENGL 1122\"}, {\"type\": \"course\", \"code\": \"ENGL 1123\"}, {\"type\": \"course\", \"code\": \"ENGL 1124\"}, {\"type\": \"course\", \"code\": \"ENGL 1125\"}, {\"type\": \"course\", \"code\": \"ENGL 1126\"}, {\"type\": \"course\", \"code\": \"ENGL 1127\"}, {\"type\": \"course\", \"code\": \"ENGL 1128\"}, {\"type\": \"course\", \"code\": \"ENGL 1129\"}, {\"type\": \"course\", \"code\": \"ENGL 1130\"}, {\"type\": \"course\", \"code\": \"ENGL 1131\"}, {\"type\": \"course\", \"code\": \"ENGL 1132\"}, {\"type\": \"course\", \"code\": \"ENGL 1133\"}, {\"type\": \"course\", \"code\": \"ENGL 1134\"}, {\"type\": \"course\", \"code\": \"ENGL 1135\"}, {\"type\": \"course\", \"code\": \"ENGL 1136\"}, {\"type\": \"course\", \"code\": \"ENGL 1137\"}, {\"type\": \"course\", \"code\": \"ENGL 1138\"}, {\"type\": \"course\", \"code\": \"ENGL 1139\"}, {\"type\": \"course\", \"code\": \"ENGL 1140\"}, {\"type\": \"course\", \"code\": \"ENGL 1141\"}, {\"type\": \"course\", \"code\": \"ENGL 1142\"}, {\"type\": \"course\", \"code\": \"ENGL 1143\"}, {\"type\": \"course\", \"code\": \"ENGL 1144\"}, {\"type\": \"course\", \"code\": \"ENGL 1145\"}, {\"type\": \"course\", \"code\": \"ENGL 1146\"}, {\"type\": \"course\", \"code\": \"ENGL 1147\"}, {\"type\": \"course\", \"code\": \"ENGL 1148\"}, {\"type\": \"course\", \"code\": \"ENGL 1149\"}, {\"type\": \"course\", \"code\": \"ENGL 1150\"}, {\"type\": \"course\", \"code\": \"ENGL 1151\"}, {\"type\": \"course\", \"code\": \"ENGL 1152\"}, {\"type\": \"course\", \"code\": \"ENGL 1153\"}, {\"type\": \"course\", \"code\": \"ENGL 1154\"}, {\"type\": \"course\", \"code\": \"ENGL 1155\"}, {\"type\": \"course\", \"code\": \"ENGL 1156\"}, {\"type\": \"course\", \"code\": \"ENGL 1157\"}, {\"type\": \"course\", \"code\": \"ENGL 1158\"}, {\"type\": \"course\", \"code\": \"ENGL 1159\"}, {\"type\": \"course\", \"code\": \"ENGL 1160\"}, {\"type\": \"course\", \"code\": \"ENGL 1161\"}, {\"type\": \"course\", \"code\": \"ENGL 1162\"}, {\"type\": \"course\", \"code\": \"ENGL 1163\"}, {\"type\": \"course\", \"code\": \"ENGL 1164\"}, {\"type\": \"course\", \"code\": \"ENGL 1165\"}, {\"type\": \"course\", \"code\": \"ENGL 1166\"}, {\"type\": \"course\", \"code\": \"ENGL 1167\"}, {\"type\": \"course\", \"code\": \"ENGL 1168\"}, {\"type\": \"course\", \"code\": \"ENGL 1169\"}, {\"type\": \"course\", \"code\": \"ENGL 1170\"}, {\"type\": \"course\", \"code\": \"ENGL 1171\"}, {\"type\": \"course\", \"code\": \"ENGL 1172\"}, {\"type\": \"course\", \"code\": \"ENGL 1173\"}, {\"type\": \"course\", \"code\": \"ENGL 1174\"}, {\"type\": \"course\", \"code\": \"ENGL 1175\"}, {\"type\": \"course\", \"code\": \"ENGL 1176\"}, {\"type\": \"course\", \"code\": \"ENGL 1177\"}, {\"type\": \"course\", \"code\": \"ENGL 1178\"}, {\"type\": \"course\", \"code\": \"ENGL 1179\"}, {\"type\": \"course\", \"code\": \"ENGL 1180\"}, {\"type\": \"course\", \"code\": \"ENGL 1181\"}, {\"type\": \"course\", \"code\": \"ENGL 1182\"}, {\"type\": \"course\", \"code\": \"ENGL 1183\"}, {\"type\": \"course\", \"code\": \"ENGL 1184\"}, {\"type\": \"course\", \"code\": \"ENGL 1185\"}, {\"type\": \"course\", \"code\": \"ENGL 1186\"}, {\"type\": \"course\", \"code\": \"ENGL 1187\"}, {\"type\": \"course\", \"code\": \"ENGL 1188\"}, {\"type\": \"course\", \"code\": \"ENGL 1189\"}, {\"type\": \"course\", \"code\": \"ENGL 1190\"}, {\"type\": \"course\", \"code\": \"ENGL 1191\"}, {\"type\": \"course\", \"code\": \"ENGL 1192\"}, {\"type\": \"course\", \"code\": \"ENGL 1193\"}, {\"type\": \"course\", \"code\": \"ENGL 1194\"}, {\"type\": \"course\", \"code\": \"ENGL 1195\"}, {\"type\": \"course\", \"code\": \"ENGL 1196\"}, {\"type\": \"course\", \"code\": \"ENGL 1197\"}, {\"type\": \"course\", \"code\": \"ENGL 1198\"}, {\"type\": \"course\", \"code\": \"ENGL 1199\"}, {\"type\": \"course\", \"code\": \"ENGL 1200\"}, {\"type\": \"course\", \"code\": \"ENGL 1201\"}, {\"type\": \"course\", \"code\": \"ENGL 1202\"}, {\"type\": \"course\", \"code\": \"ENGL 1203\"}, {\"type\": \"course\", \"code\": \"ENGL 1204\"}, {\"type\": \"course\", \"code\": \"ENGL 1205\"}, {\"type\": \"course\", \"code\": \"ENGL 1206\"}, {\"type\": \"course\", \"code\": \"ENGL 1207\"}, {\"type\": \"course\", \"code\": \"ENGL 1208\"}, {\"type\": \"course\", \"code\": \"ENGL 1209\"}, {\"type\": \"course\", \"code\": \"ENGL 1210\"}, {\"type\": \"course\", \"code\": \"ENGL 1211\"}, {\"type\": \"course\", \"code\": \"ENGL 1212\"}, {\"type\": \"course\", \"code\": \"ENGL 1213\"}, {\"type\": \"course\", \"code\": \"ENGL 1214\"}, {\"type\": \"course\", \"code\": \"ENGL 1215\"}, {\"type\": \"course\", \"code\": \"ENGL 1216\"}, {\"type\": \"course\", \"code\": \"ENGL 1217\"}, {\"type\": \"course\", \"code\": \"ENGL 1218\"}, {\"type\": \"course\", \"code\": \"ENGL 1219\"}, {\"type\": \"course\", \"code\": \"ENGL 1220\"}, {\"type\": \"course\", \"code\": \"ENGL 1221\"}, {\"type\": \"course\", \"code\": \"ENGL 1222\"}, {\"type\": \"course\", \"code\": \"ENGL 1223\"}, {\"type\": \"course\", \"code\": \"ENGL 1224\"}, {\"type\": \"course\", \"code\": \"ENGL 1225\"}, {\"type\": \"course\", \"code\": \"ENGL 1226\"}, {\"type\": \"course\", \"code\": \"ENGL 1227\"}, {\"type\": \"course\", \"code\": \"ENGL 1228\"}, {\"type\": \"course\", \"code\": \"ENGL 1229\"}, {\"type\": \"course\", \"code\": \"ENGL 1230\"}, {\"type\": \"course\", \"code\": \"ENGL 1231\"}, {\"type\": \"course\", \"code\": \"ENGL 1232\"}, {\"type\": \"course\", \"code\": \"ENGL 1233\"}, {\"type\": \"course\", \"code\": \"ENGL 1234\"}, {\"type\": \"course\", \"code\": \"ENGL 1235\"}, {\"type\": \"course\", \"code\": \"ENGL 1236\"}, {\"type\": \"course\", \"code\": \"ENGL 1237\"}, {\"type\": \"course\", \"code\": \"ENGL 1238\"}, {\"type\": \"course\", \"code\": \"ENGL 1239\"}, {\"type\": \"course\", \"code\": \"ENGL 1240\"}, {\"type\": \"course\", \"code\": \"ENGL 1241\"}, {\"type\": \"course\", \"code\": \"ENGL 1242\"}, {\"type\": \"course\", \"code\": \"ENGL 1243\"}, {\"type\": \"course\", \"code\": \"ENGL 1244\"}, {\"type\": \"course\", \"code\": \"ENGL 1245\"}, {\"type\": \"course\", \"code\": \"ENGL 1246\"}, {\"type\": \"course\", \"code\": \"ENGL 1247\"}, {\"type\": \"course\", \"code\": \"ENGL 1248\"}, {\"type\": \"course\", \"code\": \"ENGL 1249\"}, {\"type\": \"course\", \"code\": \"ENGL 1250\"}, {\"type\": \"course\", \"code\": \"ENGL 1251\"}, {\"type\": \"course\", \"code\": \"ENGL 1252\"}, {\"type\": \"course\", \"code\": \"ENGL 1253\"}, {\"type\": \"course\", \"code\": \"ENGL 1254\"}, {\"type\": \"course\", \"code\": \"ENGL 1255\"}, {\"type\": \"course\", \"code\": \"ENGL 1256\"}, {\"type\": \"course\", \"code\": \"ENGL 1257\"}, {\"type\": \"course\", \"code\": \"ENGL 1258\"}, {\"type\": \"course\", \"code\": \"ENGL 1259\"}, {\"type\": \"course\", \"code\": \"ENGL 1260\"}, {\"type\": \"course\", \"code\": \"ENGL 1261\"}, {\"type\": \"course\", \"code\": \"ENGL 1262\"}, {\"type\": \"course\", \"code\": \"ENGL 1263\"}, {\"type\": \"course\", \"code\": \"ENGL 1264\"}, {\"type\": \"course\", \"code\": \"ENGL 1265\"}, {\"type\": \"course\", \"code\": \"ENGL 1266\"}, {\"type\": \"course\", \"code\": \"ENGL 1267\"}, {\"type\": \"course\", \"code\": \"ENGL 1268\"}, {\"type\": \"course\", \"code\": \"ENGL 1269\"}, {\"type\": \"course\", \"code\": \"ENGL 1270\"}, {\"type\": \"course\", \"code\": \"ENGL 1271\"}, {\"type\": \"course\", \"code\": \"ENGL 1272\"}, {\"type\": \"course\", \"code\": \"ENGL 1273\"}, {\"type\": \"course\", \"code\": \"ENGL 1274\"}, {\"type\": \"course\", \"code\": \"ENGL 1275\"}, {\"type\": \"course\", \"code\": \"ENGL 1276\"}, {\"type\": \"course\", \"code\": \"ENGL 1277\"}, {\"type\": \"course\", \"code\": \"ENGL 1278\"}, {\"type\": \"course\", \"code\": \"ENGL 1279\"}, {\"type\": \"course\", \"code\": \"ENGL 1280\"}, {\"type\": \"course\", \"code\": \"ENGL 1281\"}, {\"type\": \"course\", \"code\": \"ENGL 1282\"}, {\"type\": \"course\", \"code\": \"ENGL 1283\"}, {\"type\": \"course\", \"code\": \"ENGL 1284\"}, {\"type\": \"course\", \"code\": \"ENGL 1285\"}, {\"type\": \"course\", \"code\": \"ENGL 1286\"}, {\"type\": \"course\", \"code\": \"ENGL 1287\"}, {\"type\": \"course\", \"code\": \"ENGL 1288\"}, {\"type\": \"course\", \"code\": \"ENGL 1289\"}, {\"type\": \"course\", \"code\": \"ENGL 1290\"}, {\"type\": \"course\", \"code\": \"ENGL 1291\"}, {\"type\": \"course\", \"code\": \"ENGL 1292\"}, {\"type\": \"course\", \"code\": \"ENGL 1293\"}, {\"type\": \"course\", \"code\": \"ENGL 1294\"}, {\"type\": \"course\", \"code\": \"ENGL 1295\"}, {\"type\": \"course\", \"code\": \"ENGL 1296\"}, {\"type\": \"course\", \"code\": \"ENGL 1297\"}, {\"type\": \"course\", \"code\": \"ENGL 1298\"}, {\"type\": \"course\", \"code\": \"ENGL 1299\"}, {\"type\": \"course\", \"code\": \"ENGL 1300\"}, {\"type\": \"course\", \"code\": \"ENGL 1301\"}, {\"type\": \"course\", \"code\": \"ENGL 1302\"}, {\"type\": \"course\", \"code\": \"ENGL 1303\"}, {\"type\": \"course\", \"code\": \"ENGL 1304\"}, {\"type\": \"course\", \"code\": \"ENGL 1305\"}, {\"type\": \"course\", \"code\": \"ENGL 1306\"}, {\"type\": \"course\", \"code\": \"ENGL 1307\"}, {\"type\": \"course\", \"code\": \"ENGL 1308\"}, {\"type\": \"course\", \"code\": \"ENGL 1309\"}, {\"type\": \"course\", \"code\": \"ENGL 1310\"}, {\"type\": \"course\", \"code\": \"ENGL 1311\"}, {\"type\": \"course\", \"code\": \"ENGL 1312\"}, {\"type\": \"course\", \"code\": \"ENGL 1313\"}, {\"type\": \"course\", \"code\": \"ENGL 1314\"}, {\"type\": \"course\", \"code\": \"ENGL 1315\"}, {\"type\": \"course\", \"code\": \"ENGL 1316\"}, {\"type\": \"course\", \"code\": \"ENGL 1317\"}, {\"type\": \"course\", \"code\": \"ENGL 1318\"}, {\"type\": \"course\", \"code\": \"ENGL 1319\"}, {\"type\": \"course\", \"code\": \"ENGL 1320\"}, {\"type\": \"course\", \"code\": \"ENGL 1321\"}, {\"type\": \"course\", \"code\": \"ENGL 1322\"}, {\"type\": \"course\", \"code\": \"ENGL 1323\"}, {\"type\": \"course\", \"code\": \"ENGL 1324\"}, {\"type\": \"course\", \"code\": \"ENGL 1325\"}, {\"type\": \"course\", \"code\": \"ENGL 1326\"}, {\"type\": \"course\", \"code\": \"ENGL 1327\"}, {\"type\": \"course\", \"code\": \"ENGL 1328\"}, {\"type\": \"course\", \"code\": \"ENGL 1329\"}, {\"type\": \"course\", \"code\": \"ENGL 1330\"}, {\"type\": \"course\", \"code\": \"ENGL 1331\"}, {\"type\": \"course\", \"code\": \"ENGL 1332\"}, {\"type\": \"course\", \"code\": \"ENGL 1333\"}, {\"type\": \"course\", \"code\": \"ENGL 1334\"}, {\"type\": \"course\", \"code\": \"ENGL 1335\"}, {\"type\": \"course\", \"code\": \"ENGL 1336\"}, {\"type\": \"course\", \"code\": \"ENGL 1337\"}, {\"type\": \"course\", \"code\": \"ENGL 1338\"}, {\"type\": \"course\", \"code\": \"ENGL 1339\"}, {\"type\": \"course\", \"code\": \"ENGL 1340\"}, {\"type\": \"course\", \"code\": \"ENGL 1341\"}, {\"type\": \"course\", \"code\": \"ENGL 1342\"}, {\"type\": \"course\", \"code\": \"ENGL 1343\"}, {\"type\": \"course\", \"code\": \"ENGL 1344\"}, {\"type\": \"course\", \"code\": \"ENGL 1345\"}, {\"type\": \"course\", \"code\": \"ENGL 1346\"}, {\"type\": \"course\", \"code\": \"ENGL 1347\"}, {\"type\": \"course\", \"code\": \"ENGL 1348\"}, {\"type\": \"course\", \"code\": \"ENGL 1349\"}, {\"type\": \"course\", \"code\": \"ENGL 1350\"}, {\"type\": \"course\", \"code\": \"ENGL 1351\"}, {\"type\": \"course\", \"code\": \"ENGL 1352\"}, {\"type\": \"course\", \"code\": \"ENGL 1353\"}, {\"type\": \"course\", \"code\": \"ENGL 1354\"}, {\"type\": \"course\", \"code\": \"ENGL 1355\"}, {\"type\": \"course\", \"code\": \"ENGL 1356\"}, {\"type\": \"course\", \"code\": \"ENGL 1357\"}, {\"type\": \"course\", \"code\": \"ENGL 1358\"}, {\"type\": \"course\", \"code\": \"ENGL 1359\"}, {\"type\": \"course\", \"code\": \"ENGL 1360\"}, {\"type\": \"course\", \"code\": \"ENGL 1361\"}, {\"type\": \"course\", \"code\": \"ENGL 1362\"}, {\"type\": \"course\", \"code\": \"ENGL 1363\"}, {\"type\": \"course\", \"code\": \"ENGL 1364\"}, {\"type\": \"course\", \"code\": \"ENGL 1365\"}, {\"type\": \"course\", \"code\": \"ENGL 1366\"}, {\"type\": \"course\", \"code\": \"ENGL 1367\"}, {\"type\": \"course\", \"code\": \"ENGL 1368\"}, {\"type\": \"course\", \"code\": \"ENGL 1369\"}, {\"type\": \"course\", \"code\": \"ENGL 1370\"}, {\"type\": \"course\", \"code\": \"ENGL 1371\"}, {\"type\": \"course\", \"code\": \"ENGL 1372\"}, {\"type\": \"course\", \"code\": \"ENGL 1373\"}, {\"type\": \"course\", \"code\": \"ENGL 1374\"}, {\"type\": \"course\", \"code\": \"ENGL 1375\"}, {\"type\": \"course\", \"code\": \"ENGL 1376\"}, {\"type\": \"course\", \"code\": \"ENGL 1377\"}, {\"type\": \"course\", \"code\": \"ENGL 1378\"}, {\"type\": \"course\", \"code\": \"ENGL 1379\"}, {\"type\": \"course\", \"code\": \"ENGL 1380\"}, {\"type\": \"course\", \"code\": \"ENGL 1381\"}, {\"type\": \"course\", \"code\": \"ENGL 1382\"}, {\"type\": \"course\", \"code\": \"ENGL 1383\"}, {\"type\": \"course\", \"code\": \"ENGL 1384\"}, {\"type\": \"course\", \"code\": \"ENGL 1385\"}, {\"type\": \"course\", \"code\": \"ENGL 1386\"}, {\"type\": \"course\", \"code\": \"ENGL 1387\"}, {\"type\": \"course\", \"code\": \"ENGL 1388\"}, {\"type\": \"course\", \"code\": \"ENGL 1389\"}, {\"type\": \"course\", \"code\": \"ENGL 1390\"}, {\"type\": \"course\", \"code\": \"ENGL 1391\"}, {\"type\": \"course\", \"code\": \"ENGL 1392\"}, {\"type\": \"course\", \"code\": \"ENGL 1393\"}, {\"type\": \"course\", \"code\": \"ENGL 1394\"}, {\"type\": \"course\", \"code\": \"ENGL 1395\"}, {\"type\": \"course\", \"code\": \"ENGL 1396\"}, {\"type\": \"course\", \"code\": \"ENGL 1397\"}, {\"type\": \"course\", \"code\": \"ENGL 1398\"}, {\"type\": \"course\", \"code\": \"ENGL 1399\"}, {\"type\": \"course\", \"code\": \"ENGL 1400\"}, {\"type\": \"course\", \"code\": \"ENGL 1401\"}, {\"type\": \"course\", \"code\": \"ENGL 1402\"}, {\"type\": \"course\", \"code\": \"ENGL 1403\"}, {\"type\": \"course\", \"code\": \"ENGL 1404\"}, {\"type\": \"course\", \"code\": \"ENGL 1405\"}, {\"type\": \"course\", \"code\": \"ENGL 1406\"}, {\"type\": \"course\", \"code\": \"ENGL 1407\"}, {\"type\": \"course\", \"code\": \"ENGL 1408\"}, {\"type\": \"course\", \"code\": \"ENGL 1409\"}, {\"type\": \"course\", \"code\": \"ENGL 1410\"}, {\"type\": \"course\", \"code\": \"ENGL 1411\"}, {\"type\": \"course\", \"code\": \"ENGL 1412\"}, {\"type\": \"course\", \"code\": \"ENGL 1413\"}, {\"type\": \"course\", \"code\": \"ENGL 1414\"}, {\"type\": \"course\", \"code\": \"ENGL 1415\"}, {\"type\": \"course\", \"code\": \"ENGL 1416\"}, {\"type\": \"course\", \"code\": \"ENGL 1417\"}, {\"type\": \"course\", \"code\": \"ENGL 1418\"}, {\"type\": \"course\", \"code\": \"ENGL 1419\"}, {\"type\": \"course\", \"code\": \"ENGL 1420\"}, {\"type\": \"course\", \"code\": \"ENGL 1421\"}, {\"type\": \"course\", \"code\": \"ENGL 1422\"}, {\"type\": \"course\", \"code\": \"ENGL 1423\"}, {\"type\": \"course\", \"code\": \"ENGL 1424\"}, {\"type\": \"course\", \"code\": \"ENGL 1425\"}, {\"type\": \"course\", \"code\": \"ENGL 1426\"}, {\"type\": \"course\", \"code\": \"ENGL 1427\"}, {\"type\": \"course\", \"code\": \"ENGL 1428\"}, {\"type\": \"course\", \"code\": \"ENGL 1429\"}, {\"type\": \"course\", \"code\": \"ENGL 1430\"}, {\"type\": \"course\", \"code\": \"ENGL 1431\"}, {\"type\": \"course\", \"code\": \"ENGL 1432\"}, {\"type\": \"course\", \"code\": \"ENGL 1433\"}, {\"type\": \"course\", \"code\": \"ENGL 1434\"}, {\"type\": \"course\", \"code\": \"ENGL 1435\"}, {\"type\": \"course\", \"code\": \"ENGL 1436\"}, {\"type\": \"course\", \"code\": \"ENGL 1437\"}, {\"type\": \"course\", \"code\": \"ENGL 1438\"}, {\"type\": \"course\", \"code\": \"ENGL 1439\"}, {\"type\": \"course\", \"code\": \"ENGL 1440\"}, {\"type\": \"course\", \"code\": \"ENGL 1441\"}, {\"type\": \"course\", \"code\": \"ENGL 1442\"}, {\"type\": \"course\", \"code\": \"ENGL 1443\"}, {\"type\": \"course\", \"code\": \"ENGL 1444\"}, {\"type\": \"course\", \"code\": \"ENGL 1445\"}, {\"type\": \"course\", \"code\": \"ENGL 1446\"}, {\"type\": \"course\", \"code\": \"ENGL 1447\"}, {\"type\": \"course\", \"code\": \"ENGL 1448\"}, {\"type\": \"course\", \"code\": \"ENGL 1449\"}, {\"type\": \"course\", \"code\": \"ENGL 1450\"}, {\"type\": \"course\", \"code\": \"ENGL 1451\"}, {\"type\": \"course\", \"code\": \"ENGL 1452\"}, {\"type\": \"course\", \"code\": \"ENGL 1453\"}, {\"type\": \"course\", \"code\": \"ENGL 1454\"}, {\"type\": \"course\", \"code\": \"ENGL 1455\"}, {\"type\": \"course\", \"code\": \"ENGL 1456\"}, {\"type\": \"course\", \"code\": \"ENGL 1457\"}, {\"type\": \"course\", \"code\": \"ENGL 1458\"}, {\"type\": \"course\", \"code\": \"ENGL 1459\"}, {\"type\": \"course\", \"code\": \"ENGL 1460\"}, {\"type\": \"course\", \"code\": \"ENGL 1461\"}, {\"type\": \"course\", \"code\": \"ENGL 1462\"}, {\"type\": \"course\", \"code\": \"ENGL 1463\"}, {\"type\": \"course\", \"code\": \"ENGL 1464\"}, {\"type\": \"course\", \"code\": \"ENGL 1465\"}, {\"type\": \"course\", \"code\": \"ENGL 1466\"}, {\"type\": \"course\", \"code\": \"ENGL 1467\"}, {\"type\": \"course\", \"code\": \"ENGL 1468\"}, {\"type\": \"course\", \"code\": \"ENGL 1469\"}, {\"type\": \"course\", \"code\": \"ENGL 1470\"}, {\"type\": \"course\", \"code\": \"ENGL 1471\"}, {\"type\": \"course\", \"code\": \"ENGL 1472\"}, {\"type\": \"course\", \"code\": \"ENGL 1473\"}, {\"type\": \"course\", \"code\": \"ENGL 1474\"}, {\"type\": \"course\", \"code\": \"ENGL 1475\"}, {\"type\": \"course\", \"code\": \"ENGL 1476\"}, {\"type\": \"course\", \"code\": \"ENGL 1477\"}, {\"type\": \"course\", \"code\": \"ENGL 1478\"}, {\"type\": \"course\", \"code\": \"ENGL 1479\"}, {\"type\": \"course\", \"code\": \"ENGL 1480\"}, {\"type\": \"course\", \"code\": \"ENGL 1481\"}, {\"type\": \"course\", \"code\": \"ENGL 1482\"}, {\"type\": \"course\", \"code\": \"ENGL 1483\"}, {\"type\": \"course\", \"code\": \"ENGL 1484\"}, {\"type\": \"course\", \"code\": \"ENGL 1485\"}, {\"type\": \"course\", \"code\": \"ENGL 1486\"}, {\"type\": \"course\", \"code\": \"ENGL 1487\"}, {\"type\": \"course\", \"code\": \"ENGL 1488\"}, {\"type\": \"course\", \"code\": \"ENGL 1489\"}, {\"type\": \"course\", \"code\": \"ENGL 1490\"}, {\"type\": \"course\", \"code\": \"ENGL 1491\"}, {\"type\": \"course\", \"code\": \"ENGL 1492\"}, {\"type\": \"course\", \"code\": \"ENGL 1493\"}, {\"type\": \"course\", \"code\": \"ENGL 1494\"}, {\"type\": \"course\", \"code\": \"ENGL 1495\"}, {\"type\": \"course\", \"code\": \"ENGL 1496\"}, {\"type\": \"course\", \"code\": \"ENGL 1497\"}, {\"type\": \"course\", \"code\": \"ENGL 1498\"}, {\"type\": \"course\", \"code\": \"ENGL 1499\"}, {\"type\": \"course\", \"code\": \"ENGL 1500\"}, {\"type\": \"course\", \"code\": \"ENGL 1501\"}, {\"type\": \"course\", \"code\": \"ENGL 1502\"}, {\"type\": \"course\", \"code\": \"ENGL 1503\"}, {\"type\": \"course\", \"code\": \"ENGL 1504\"}, {\"type\": \"course\", \"code\": \"ENGL 1505\"}, {\"type\": \"course\", \"code\": \"ENGL 1506\"}, {\"type\": \"course\", \"code\": \"ENGL 1507\"}, {\"type\": \"course\", \"code\": \"ENGL 1508\"}, {\"type\": \"course\", \"code\": \"ENGL 1509\"}, {\"type\": \"course\", \"code\": \"ENGL 1510\"}, {\"type\": \"course\", \"code\": \"ENGL 1511\"}, {\"type\": \"course\", \"code\": \"ENGL 1512\"}, {\"type\": \"course\", \"code\": \"ENGL 1513\"}, {\"type\": \"course\", \"code\": \"ENGL 1514\"}, {\"type\": \"course\", \"code\": \"ENGL 1515\"}, {\"type\": \"course\", \"code\": \"ENGL 1516\"}, {\"type\": \"course\", \"code\": \"ENGL 1517\"}, {\"type\": \"course\", \"code\": \"ENGL 1518\"}, {\"type\": \"course\", \"code\": \"ENGL 1519\"}, {\"type\": \"course\", \"code\": \"ENGL 1520\"}, {\"type\": \"course\", \"code\": \"ENGL 1521\"}, {\"type\": \"course\", \"code\": \"ENGL 1522\"}, {\"type\": \"course\", \"code\": \"ENGL 1523\"}, {\"type\": \"course\", \"code\": \"ENGL 1524\"}, {\"type\": \"course\", \"code\": \"ENGL 1525\"}, {\"type\": \"course\", \"code\": \"ENGL 1526\"}, {\"type\": \"course\", \"code\": \"ENGL 1527\"}, {\"type\": \"course\", \"code\": \"ENGL 1528\"}, {\"type\": \"course\", \"code\": \"ENGL 1529\"}, {\"type\": \"course\", \"code\": \"ENGL 1530\"}, {\"type\": \"course\", \"code\": \"ENGL 1531\"}, {\"type\": \"course\", \"code\": \"ENGL 1532\"}, {\"type\": \"course\", \"code\": \"ENGL 1533\"}, {\"type\": \"course\", \"code\": \"ENGL 1534\"}, {\"type\": \"course\", \"code\": \"ENGL 1535\"}, {\"type\": \"course\", \"code\": \"ENGL 1536\"}, {\"type\": \"course\", \"code\": \"ENGL 1537\"}, {\"type\": \"course\", \"code\": \"ENGL 1538\"}, {\"type\": \"course\", \"code\": \"ENGL 1539\"}, {\"type\": \"course\", \"code\": \"ENGL 1540\"}, {\"type\": \"course\", \"code\": \"ENGL 1541\"}, {\"type\": \"course\", \"code\": \"ENGL 1542\"}, {\"type\": \"course\", \"code\": \"ENGL 1543\"}, {\"type\": \"course\", \"code\": \"ENGL 1544\"}, {\"type\": \"course\", \"code\": \"ENGL 1545\"}, {\"type\": \"course\", \"code\": \"ENGL 1546\"}, {\"type\": \"course\", \"code\": \"ENGL 1547\"}, {\"type\": \"course\", \"code\": \"ENGL 1548\"}, {\"type\": \"course\", \"code\": \"ENGL 1549\"}, {\"type\": \"course\", \"code\": \"ENGL 1550\"}, {\"type\": \"course\", \"code\": \"ENGL 1551\"}, {\"type\": \"course\", \"code\": \"ENGL 1552\"}, {\"type\": \"course\", \"code\": \"ENGL 1553\"}, {\"type\": \"course\", \"code\": \"ENGL 1554\"}, {\"type\": \"course\", \"code\": \"ENGL 1555\"}, {\"type\": \"course\", \"code\": \"ENGL 1556\"}, {\"type\": \"course\", \"code\": \"ENGL 1557\"}, {\"type\": \"course\", \"code\": \"ENGL 1558\"}, {\"type\": \"course\", \"code\": \"ENGL 1559\"}, {\"type\": \"course\", \"code\": \"ENGL 1560\"}, {\"type\": \"course\", \"code\": \"ENGL 1561\"}, {\"type\": \"course\", \"code\": \"ENGL 1562\"}, {\"type\": \"course\", \"code\": \"ENGL 1563\"}, {\"type\": \"course\", \"code\": \"ENGL 1564\"}, {\"type\": \"course\", \"code\": \"ENGL 1565\"}, {\"type\": \"course\", \"code\": \"ENGL 1566\"}, {\"type\": \"course\", \"code\": \"ENGL 1567\"}, {\"type\": \"course\", \"code\": \"ENGL 1568\"}, {\"type\": \"course\", \"code\": \"ENGL 1569\"}, {\"type\": \"course\", \"code\": \"ENGL 1570\"}, {\"type\": \"course\", \"code\": \"ENGL 1571\"}, {\"type\": \"course\", \"code\": \"ENGL 1572\"}, {\"type\": \"course\", \"code\": \"ENGL 1573\"}, {\"type\": \"course\", \"code\": \"ENGL 1574\"}, {\"type\": \"course\", \"code\": \"ENGL 1575\"}, {\"type\": \"course\", \"code\": \"ENGL 1576\"}, {\"type\": \"course\", \"code\": \"ENGL 1577\"}, {\"type\": \"course\", \"code\": \"ENGL 1578\"}, {\"type\": \"course\", \"code\": \"ENGL 1579\"}, {\"type\": \"course\", \"code\": \"ENGL 1580\"}, {\"type\": \"course\", \"code\": \"ENGL 1581\"}, {\"type\": \"course\", \"code\": \"ENGL 1582\"}, {\"type\": \"course\", \"code\": \"ENGL 1583\"}, {\"type\": \"course\", \"code\": \"ENGL 1584\"}, {\"type\": \"course\", \"code\": \"ENGL 1585\"}, {\"type\": \"course\", \"code\": \"ENGL 1586\"}, {\"type\": \"course\", \"code\": \"ENGL 1587\"}, {\"type\": \"course\", \"code\": \"ENGL 1588\"}, {\"type\": \"course\", \"code\": \"ENGL 1589\"}, {\"type\": \"course\", \"code\": \"ENGL 1590\"}, {\"type\": \"course\", \"code\": \"ENGL 1591\"}, {\"type\": \"course\", \"code\": \"ENGL 1592\"}, {\"type\": \"course\", \"code\": \"ENGL 1593\"}, {\"type\": \"course\", \"code\": \"ENGL 1594\"}, {\"type\": \"course\", \"code\": \"ENGL 1595\"}, {\"type\": \"course\", \"code\": \"ENGL 1596\"}, {\"type\": \"course\", \"code\": \"ENGL 1597\"}, {\"type\": \"course\", \"code\": \"ENGL 1598\"}, {\"type\": \"course\", \"code\": \"ENGL 1599\"}, {\"type\": \"course\", \"code\": \"ENGL 1600\"}, {\"type\": \"course\", \"code\": \"ENGL 1601\"}, {\"type\": \"course\", \"code\": \"ENGL 1602\"}, {\"type\": \"course\", \"code\": \"ENGL 1603\"}, {\"type\": \"course\", \"code\": \"ENGL 1604\"}, {\"type\": \"course\", \"code\": \"ENGL 1605\"}, {\"type\": \"course\", \"code\": \"ENGL 1606\"}, {\"type\": \"course\", \"code\": \"ENGL 1607\"}, {\"type\": \"course\", \"code\": \"ENGL 1608\"}, {\"type\": \"course\", \"code\": \"ENGL 1609\"}, {\"type\": \"course\", \"code\": \"ENGL 1610\"}, {\"type\": \"course\", \"code\": \"ENGL 1611\"}, {\"type\": \"course\", \"code\": \"ENGL 1612\"}, {\"type\": \"course\", \"code\": \"ENGL 1613\"}, {\"type\": \"course\", \"code\": \"ENGL 1614\"}, {\"type\": \"course\", \"code\": \"ENGL 1615\"}, {\"type\": \"course\", \"code\": \"ENGL 1616\"}, {\"type\": \"course\", \"code\": \"ENGL 1617\"}, {\"type\": \"course\", \"code\": \"ENGL 1618\"}, {\"type\": \"course\", \"code\": \"ENGL 1619\"}, {\"type\": \"course\", \"code\": \"ENGL 1620\"}, {\"type\": \"course\", \"code\": \"ENGL 1621\"}, {\"type\": \"course\", \"code\": \"ENGL 1622\"}, {\"type\": \"course\", \"code\": \"ENGL 1623\"}, {\"type\": \"course\", \"code\": \"ENGL 1624\"}, {\"type\": \"course\", \"code\": \"ENGL 1625\"}, {\"type\": \"course\", \"code\": \"ENGL 1626\"}, {\"type\": \"course\", \"code\": \"ENGL 1627\"}, {\"type\": \"course\", \"code\": \"ENGL 1628\"}, {\"type\": \"course\", \"code\": \"ENGL 1629\"}, {\"type\": \"course\", \"code\": \"ENGL 1630\"}, {\"type\": \"course\", \"code\": \"ENGL 1631\"}, {\"type\": \"course\", \"code\": \"ENGL 1632\"}, {\"type\": \"course\", \"code\": \"ENGL 1633\"}, {\"type\": \"course\", \"code\": \"ENGL 1634\"}, {\"type\": \"course\", \"code\": \"ENGL 1635\"}, {\"type\": \"course\", \"code\": \"ENGL 1636\"}, {\"type\": \"course\", \"code\": \"ENGL 1637\"}, {\"type\": \"course\", \"code\": \"ENGL 1638\"}, {\"type\": \"course\", \"code\": \"ENGL 1639\"}, {\"type\": \"course\", \"code\": \"ENGL 1640\"}, {\"type\": \"course\", \"code\": \"ENGL 1641\"}, {\"type\": \"course\", \"code\": \"ENGL 1642\"}, {\"type\": \"course\", \"code\": \"ENGL 1643\"}, {\"type\": \"course\", \"code\": \"ENGL 1644\"}, {\"type\": \"course\", \"code\": \"ENGL 1645\"}, {\"type\": \"course\", \"code\": \"ENGL 1646\"}, {\"type\": \"course\", \"code\": \"ENGL 1647\"}, {\"type\": \"course\", \"code\": \"ENGL 1648\"}, {\"type\": \"course\", \"code\": \"ENGL 1649\"}, {\"type\": \"course\", \"code\": \"ENGL 1650\"}, {\"type\": \"course\", \"code\": \"ENGL 1651\"}, {\"type\": \"course\", \"code\": \"ENGL 1652\"}, {\"type\": \"course\", \"code\": \"ENGL 1653\"}, {\"type\": \"course\", \"code\": \"ENGL 1654\"}, {\"type\": \"course\", \"code\": \"ENGL 1655\"}, {\"type\": \"course\", \"code\": \"ENGL 1656\"}, {\"type\": \"course\", \"code\": \"ENGL 1657\"}, {\"type\": \"course\", \"code\": \"ENGL 1658\"}, {\"type\": \"course\", \"code\": \"ENGL 1659\"}, {\"type\": \"course\", \"code\": \"ENGL 1660\"}, {\"type\": \"course\", \"code\": \"ENGL 1661\"}, {\"type\": \"course\", \"code\": \"ENGL 1662\"}, {\"type\": \"course\", \"code\": \"ENGL 1663\"}, {\"type\": \"course\", \"code\": \"ENGL 1664\"}, {\"type\": \"course\", \"code\": \"ENGL 1665\"}, {\"type\": \"course\", \"code\": \"ENGL 1666\"}, {\"type\": \"course\", \"code\": \"ENGL 1667\"}, {\"type\": \"course\", \"code\": \"ENGL 1668\"}, {\"type\": \"course\", \"code\": \"ENGL 1669\"}, {\"type\": \"course\", \"code\": \"ENGL 1670\"}, {\"type\": \"course\", \"code\": \"ENGL 1671\"}, {\"type\": \"course\", \"code\": \"ENGL 1672\"}, {\"type\": \"course\", \"code\": \"ENGL 1673\"}, {\"type\": \"course\", \"code\": \"ENGL 1674\"}, {\"type\": \"course\", \"code\": \"ENGL 1675\"}, {\"type\": \"course\", \"code\": \"ENGL 1676\"}, {\"type\": \"course\", \"code\": \"ENGL 1677\"}, {\"type\": \"course\", \"code\": \"ENGL 1678\"}, {\"type\": \"course\", \"code\": \"ENGL 1679\"}, {\"type\": \"course\", \"code\": \"ENGL 1680\"}, {\"type\": \"course\", \"code\": \"ENGL 1681\"}, {\"type\": \"course\", \"code\": \"ENGL 1682\"}, {\"type\": \"course\", \"code\": \"ENGL 1683\"}, {\"type\": \"course\", \"code\": \"ENGL 1684\"}, {\"type\": \"course\", \"code\": \"ENGL 1685\"}, {\"type\": \"course\", \"code\": \"ENGL 1686\"}, {\"type\": \"course\", \"code\": \"ENGL 1687\"}, {\"type\": \"course\", \"code\": \"ENGL 1688\"}, {\"type\": \"course\", \"code\": \"ENGL 1689\"}, {\"type\": \"course\", \"code\": \"ENGL 1690\"}, {\"type\": \"course\", \"code\": \"ENGL 1691\"}, {\"type\": \"course\", \"code\": \"ENGL 1692\"}, {\"type\": \"course\", \"code\": \"ENGL 1693\"}, {\"type\": \"course\", \"code\": \"ENGL 1694\"}, {\"type\": \"course\", \"code\": \"ENGL 1695\"}, {\"type\": \"course\", \"code\": \"ENGL 1696\"}, {\"type\": \"course\", \"code\": \"ENGL 1697\"}, {\"type\": \"course\", \"code\": \"ENGL 1698\"}, {\"type\": \"course\", \"code\": \"ENGL 1699\"}, {\"type\": \"course\", \"code\": \"ENGL 1700\"}, {\"type\": \"course\", \"code\": \"ENGL 1701\"}, {\"type\": \"course\", \"code\": \"ENGL 1702\"}, {\"type\": \"course\", \"code\": \"ENGL 1703\"}, {\"type\": \"course\", \"code\": \"ENGL 1704\"}, {\"type\": \"course\", \"code\": \"ENGL 1705\"}, {\"type\": \"course\", \"code\": \"ENGL 1706\"}, {\"type\": \"course\", \"code\": \"ENGL 1707\"}, {\"type\": \"course\", \"code\": \"ENGL 1708\"}, {\"type\": \"course\", \"code\": \"ENGL 1709\"}, {\"type\": \"course\", \"code\": \"ENGL 1710\"}, {\"type\": \"course\", \"code\": \"ENGL 1711\"}, {\"type\": \"course\", \"code\": \"ENGL 1712\"}, {\"type\": \"course\", \"code\": \"ENGL 1713\"}, {\"type\": \"course\", \"code\": \"ENGL 1714\"}, {\"type\": \"course\", \"code\": \"ENGL 1715\"}, {\"type\": \"course\", \"code\": \"ENGL 1716\"}, {\"type\": \"course\", \"code\": \"ENGL 1717\"}, {\"type\": \"course\", \"code\": \"ENGL 1718\"}, {\"type\": \"course\", \"code\": \"ENGL 1719\"}, {\"type\": \"course\", \"code\": \"ENGL 1720\"}, {\"type\": \"course\", \"code\": \"ENGL 1721\"}, {\"type\": \"course\", \"code\": \"ENGL 1722\"}, {\"type\": \"course\", \"code\": \"ENGL 1723\"}, {\"type\": \"course\", \"code\": \"ENGL 1724\"}, {\"type\": \"course\", \"code\": \"ENGL 1725\"}, {\"type\": \"course\", \"code\": \"ENGL 1726\"}, {\"type\": \"course\", \"code\": \"ENGL 1727\"}, {\"type\": \"course\", \"code\": \"ENGL 1728\"}, {\"type\": \"course\", \"code\": \"ENGL 1729\"}, {\"type\": \"course\", \"code\": \"ENGL 1730\"}, {\"type\": \"course\", \"code\": \"ENGL 1731\"}, {\"type\": \"course\", \"code\": \"ENGL 1732\"}, {\"type\": \"course\", \"code\": \"ENGL 1733\"}, {\"type\": \"course\", \"code\": \"ENGL 1734\"}, {\"type\": \"course\", \"code\": \"ENGL 1735\"}, {\"type\": \"course\", \"code\": \"ENGL 1736\"}, {\"type\": \"course\", \"code\": \"ENGL 1737\"}, {\"type\": \"course\", \"code\": \"ENGL 1738\"}, {\"type\": \"course\", \"code\": \"ENGL 1739\"}, {\"type\": \"course\", \"code\": \"ENGL 1740\"}, {\"type\": \"course\", \"code\": \"ENGL 1741\"}, {\"type\": \"course\", \"code\": \"ENGL 1742\"}, {\"type\": \"course\", \"code\": \"ENGL 1743\"}, {\"type\": \"course\", \"code\": \"ENGL 1744\"}, {\"type\": \"course\", \"code\": \"ENGL 1745\"}, {\"type\": \"course\", \"code\": \"ENGL 1746\"}, {\"type\": \"course\", \"code\": \"ENGL 1747\"}, {\"type\": \"course\", \"code\": \"ENGL 1748\"}, {\"type\": \"course\", \"code\": \"ENGL 1749\"}, {\"type\": \"course\", \"code\": \"ENGL 1750\"}, {\"type\": \"course\", \"code\": \"ENGL 1751\"}, {\"type\": \"course\", \"code\": \"ENGL 1752\"}, {\"type\": \"course\", \"code\": \"ENGL 1753\"}, {\"type\": \"course\", \"code\": \"ENGL 1754\"}, {\"type\": \"course\", \"code\": \"ENGL 1755\"}, {\"type\": \"course\", \"code\": \"ENGL 1756\"}, {\"type\": \"course\", \"code\": \"ENGL 1757\"}, {\"type\": \"course\", \"code\": \"ENGL 1758\"}, {\"type\": \"course\", \"code\": \"ENGL 1759\"}, {\"type\": \"course\", \"code\": \"ENGL 1760\"}, {\"type\": \"course\", \"code\": \"ENGL 1761\"}, {\"type\": \"course\", \"code\": \"ENGL 1762\"}, {\"type\": \"course\", \"code\": \"ENGL 1763\"}, {\"type\": \"course\", \"code\": \"ENGL 1764\"}, {\"type\": \"course\", \"code\": \"ENGL 1765\"}, {\"type\": \"course\", \"code\": \"ENGL 1766\"}, {\"type\": \"course\", \"code\": \"ENGL 1767\"}, {\"type\": \"course\", \"code\": \"ENGL 1768\"}, {\"type\": \"course\", \"code\": \"ENGL 1769\"}, {\"type\": \"course\", \"code\": \"ENGL 1770\"}, {\"type\": \"course\", \"code\": \"ENGL 1771\"}, {\"type\": \"course\", \"code\": \"ENGL 1772\"}, {\"type\": \"course\", \"code\": \"ENGL 1773\"}, {\"type\": \"course\", \"code\": \"ENGL 1774\"}, {\"type\": \"course\", \"code\": \"ENGL 1775\"}, {\"type\": \"course\", \"code\": \"ENGL 1776\"}, {\"type\": \"course\", \"code\": \"ENGL 1777\"}, {\"type\": \"course\", \"code\": \"ENGL 1778\"}, {\"type\": \"course\", \"code\": \"ENGL 1779\"}, {\"type\": \"course\", \"code\": \"ENGL 1780\"}, {\"type\": \"course\", \"code\": \"ENGL 1781\"}, {\"type\": \"course\", \"code\": \"ENGL 1782\"}, {\"type\": \"course\", \"code\": \"ENGL 1783\"}, {\"type\": \"course\", \"code\": \"ENGL 1784\"}, {\"type\": \"course\", \"code\": \"ENGL 1785\"}, {\"type\": \"course\", \"code\": \"ENGL 1786\"}, {\"type\": \"course\", \"code\": \"ENGL 1787\"}, {\"type\": \"course\", \"code\": \"ENGL 1788\"}, {\"type\": \"course\", \"code\": \"ENGL 1789\"}, {\"type\": \"course\", \"code\": \"ENGL 1790\"}, {\"type\": \"course\", \"code\": \"ENGL 1791\"}, {\"type\": \"course\", \"code\": \"ENGL 1792\"}, {\"type\": \"course\", \"code\": \"ENGL 1793\"}, {\"type\": \"course\", \"code\": \"ENGL 1794\"}, {\"type\": \"course\", \"code\": \"ENGL 1795\"}, {\"type\": \"course\", \"code\": \"ENGL 1796\"}, {\"type\": \"course\", \"code\": \"ENGL 1797\"}, {\"type\": \"course\", \"code\": \"ENGL 1798\"}, {\"type\": \"course\", \"code\": \"ENGL 1799\"}, {\"type\": \"course\", \"code\": \"ENGL 1800\"}, {\"type\": \"course\", \"code\": \"ENGL 1801\"}, {\"type\": \"course\", \"code\": \"ENGL 1802\"}, {\"type\": \"course\", \"code\": \"ENGL 1803\"}, {\"type\": \"course\", \"code\": \"ENGL 1804\"}, {\"type\": \"course\", \"code\": \"ENGL 1805\"}, {\"type\": \"course\", \"code\": \"ENGL 1806\"}, {\"type\": \"course\", \"code\": \"ENGL 1807\"}, {\"type\": \"course\", \"code\": \"ENGL 1808\"}, {\"type\": \"course\", \"code\": \"ENGL 1809\"}, {\"type\": \"course\", \"code\": \"ENGL 1810\"}, {\"type\": \"course\", \"code\": \"ENGL 1811\"}, {\"type\": \"course\", \"code\": \"ENGL 1812\"}, {\"type\": \"course\", \"code\": \"ENGL 1813\"}, {\"type\": \"course\", \"code\": \"ENGL 1814\"}, {\"type\": \"course\", \"code\": \"ENGL 1815\"}, {\"type\": \"course\", \"code\": \"ENGL 1816\"}, {\"type\": \"course\", \"code\": \"ENGL 1817\"}, {\"type\": \"course\", \"code\": \"ENGL 1818\"}, {\"type\": \"course\", \"code\": \"ENGL 1819\"}, {\"type\": \"course\", \"code\": \"ENGL 1820\"}, {\"type\": \"course\", \"code\": \"ENGL 1821\"}, {\"type\": \"course\", \"code\": \"ENGL 1822\"}, {\"type\": \"course\", \"code\": \"ENGL 1823\"}, {\"type\": \"course\", \"code\": \"ENGL 1824\"}, {\"type\": \"course\", \"code\": \"ENGL 1825\"}, {\"type\": \"course\", \"code\": \"ENGL 1826\"}, {\"type\": \"course\", \"code\": \"ENGL 1827\"}, {\"type\": \"course\", \"code\": \"ENGL 1828\"}, {\"type\": \"course\", \"code\": \"ENGL 1829\"}, {\"type\": \"course\", \"code\": \"ENGL 1830\"}, {\"type\": \"course\", \"code\": \"ENGL 1831\"}, {\"type\": \"course\", \"code\": \"ENGL 1832\"}, {\"type\": \"course\", \"code\": \"ENGL 1833\"}, {\"type\": \"course\", \"code\": \"ENGL 1834\"}, {\"type\": \"course\", \"code\": \"ENGL 1835\"}, {\"type\": \"course\", \"code\": \"ENGL 1836\"}, {\"type\": \"course\", \"code\": \"ENGL 1837\"}, {\"type\": \"course\", \"code\": \"ENGL 1838\"}, {\"type\": \"course\", \"code\": \"ENGL 1839\"}, {\"type\": \"course\", \"code\": \"ENGL 1840\"}, {\"type\": \"course\", \"code\": \"ENGL 1841\"}, {\"type\": \"course\", \"code\": \"ENGL 1842\"}, {\"type\": \"course\", \"code\": \"ENGL 1843\"}, {\"type\": \"course\", \"code\": \"ENGL 1844\"}, {\"type\": \"course\", \"code\": \"ENGL 1845\"}, {\"type\": \"course\", \"code\": \"ENGL 1846\"}, {\"type\": \"course\", \"code\": \"ENGL 1847\"}, {\"type\": \"course\", \"code\": \"ENGL 1848\"}, {\"type\": \"course\", \"code\": \"ENGL 1849\"}, {\"type\": \"course\", \"code\": \"ENGL 1850\"}, {\"type\": \"course\", \"code\": \"ENGL 1851\"}, {\"type\": \"course\", \"code\": \"ENGL 1852\"}, {\"type\": \"course\", \"code\": \"ENGL 1853\"}, {\"type\": \"course\", \"code\": \"ENGL 1854\"}, {\"type\": \"course\", \"code\": \"ENGL 1855\"}, {\"type\": \"course\", \"code\": \"ENGL 1856\"}, {\"type\": \"course\", \"code\": \"ENGL 1857\"}, {\"type\": \"course\", \"code\": \"ENGL 1858\"}, {\"type\": \"course\", \"code\": \"ENGL 1859\"}, {\"type\": \"course\", \"code\": \"ENGL 1860\"}, {\"type\": \"course\", \"code\": \"ENGL 1861\"}, {\"type\": \"course\", \"code\": \"ENGL 1862\"}, {\"type\": \"course\", \"code\": \"ENGL 1863\"}, {\"type\": \"course\", \"code\": \"ENGL 1864\"}, {\"type\": \"course\", \"code\": \"ENGL 1865\"}, {\"type\": \"course\", \"code\": \"ENGL 1866\"}, {\"type\": \"course\", \"code\": \"ENGL 1867\"}, {\"type\": \"course\", \"code\": \"ENGL 1868\"}, {\"type\": \"course\", \"code\": \"ENGL 1869\"}, {\"type\": \"course\", \"code\": \"ENGL 1870\"}, {\"type\": \"course\", \"code\": \"ENGL 1871\"}, {\"type\": \"course\", \"code\": \"ENGL 1872\"}, {\"type\": \"course\", \"code\": \"ENGL 1873\"}, {\"type\": \"course\", \"code\": \"ENGL 1874\"}, {\"type\": \"course\", \"code\": \"ENGL 1875\"}, {\"type\": \"course\", \"code\": \"ENGL 1876\"}, {\"type\": \"course\", \"code\": \"ENGL 1877\"}, {\"type\": \"course\", \"code\": \"ENGL 1878\"}, {\"type\": \"course\", \"code\": \"ENGL 1879\"}, {\"type\": \"course\", \"code\": \"ENGL 1880\"}, {\"type\": \"course\", \"code\": \"ENGL 1881\"}, {\"type\": \"course\", \"code\": \"ENGL 1882\"}, {\"type\": \"course\", \"code\": \"ENGL 1883\"}, {\"type\": \"course\", \"code\": \"ENGL 1884\"}, {\"type\": \"course\", \"code\": \"ENGL 1885\"}, {\"type\": \"course\", \"code\": \"ENGL 1886\"}, {\"type\": \"course\", \"code\": \"ENGL 1887\"}, {\"type\": \"course\", \"code\": \"ENGL 1888\"}, {\"type\": \"course\", \"code\": \"ENGL 1889\"}, {\"type\": \"course\", \"code\": \"ENGL 1890\"}, {\"type\": \"course\", \"code\": \"ENGL 1891\"}, {\"type\": \"course\", \"code\": \"ENGL 1892\"}, {\"type\": \"course\", \"code\": \"ENGL 1893\"}, {\"type\": \"course\", \"code\": \"ENGL 1894\"}, {\"type\": \"course\", \"code\": \"ENGL 1895\"}, {\"type\": \"course\", \"code\": \"ENGL 1896\"}, {\"type\": \"course\", \"code\": \"ENGL 1897\"}, {\"type\": \"course\", \"code\": \"ENGL 1898\"}, {\"type\": \"course\", \"code\": \"ENGL 1899\"}, {\"type\": \"course\", \"code\": \"ENGL 1900\"}, {\"type\": \"course\", \"code\": \"ENGL 1901\"}, {\"type\": \"course\", \"code\": \"ENGL 1902\"}, {\"type\": \"course\", \"code\": \"ENGL 1903\"}, {\"type\": \"course\", \"code\": \"ENGL 1904\"}, {\"type\": \"course\", \"code\": \"ENGL 1905\"}, {\"type\": \"course\", \"code\": \"ENGL 1906\"}, {\"type\": \"course\", \"code\": \"ENGL 1907\"}, {\"type\": \"course\", \"code\": \"ENGL 1908\"}, {\"type\": \"course\", \"code\": \"ENGL 1909\"}, {\"type\": \"course\", \"code\": \"ENGL 1910\"}, {\"type\": \"course\", \"code\": \"ENGL 1911\"}, {\"type\": \"course\", \"code\": \"ENGL 1912\"}, {\"type\": \"course\", \"code\": \"ENGL 1913\"}, {\"type\": \"course\", \"code\": \"ENGL 1914\"}, {\"type\": \"course\", \"code\": \"ENGL 1915\"}, {\"type\": \"course\", \"code\": \"ENGL 1916\"}, {\"type\": \"course\", \"code\": \"ENGL 1917\"}, {\"type\": \"course\", \"code\": \"ENGL 1918\"}, {\"type\": \"course\", \"code\": \"ENGL 1919\"}, {\"type\": \"course\", \"code\": \"ENGL 1920\"}, {\"type\": \"course\", \"code\": \"ENGL 1921\"}, {\"type\": \"course\", \"code\": \"ENGL 1922\"}, {\"type\": \"course\", \"code\": \"ENGL 1923\"}, {\"type\": \"course\", \"code\": \"ENGL 1924\"}, {\"type\": \"course\", \"code\": \"ENGL 1925\"}, {\"type\": \"course\", \"code\": \"ENGL 1926\"}, {\"type\": \"course\", \"code\": \"ENGL 1927\"}, {\"type\": \"course\", \"code\": \"ENGL 1928\"}, {\"type\": \"course\", \"code\": \"ENGL 1929\"}, {\"type\": \"course\", \"code\": \"ENGL 1930\"}, {\"type\": \"course\", \"code\": \"ENGL 1931\"}, {\"type\": \"course\", \"code\": \"ENGL 1932\"}, {\"type\": \"course\", \"code\": \"ENGL 1933\"}, {\"type\": \"course\", \"code\": \"ENGL 1934\"}, {\"type\": \"course\", \"code\": \"ENGL 1935\"}, {\"type\": \"course\", \"code\": \"ENGL 1936\"}, {\"type\": \"course\", \"code\": \"ENGL 1937\"}, {\"type\": \"course\", \"code\": \"ENGL 1938\"}, {\"type\": \"course\", \"code\": \"ENGL 1939\"}, {\"type\": \"course\", \"code\": \"ENGL 1940\"}, {\"type\": \"course\", \"code\": \"ENGL 1941\"}, {\"type\": \"course\", \"code\": \"ENGL 1942\"}, {\"type\": \"course\", \"code\": \"ENGL 1943\"}, {\"type\": \"course\", \"code\": \"ENGL 1944\"}, {\"type\": \"course\", \"code\": \"ENGL 1945\"}, {\"type\": \"course\", \"code\": \"ENGL 1946\"}, {\"type\": \"course\", \"code\": \"ENGL 1947\"}, {\"type\": \"course\", \"code\": \"ENGL 1948\"}, {\"type\": \"course\", \"code\": \"ENGL 1949\"}, {\"type\": \"course\", \"code\": \"ENGL 1950\"}, {\"type\": \"course\", \"code\": \"ENGL 1951\"}, {\"type\": \"course\", \"code\": \"ENGL 1952\"}, {\"type\": \"course\", \"code\": \"ENGL 1953\"}, {\"type\": \"course\", \"code\": \"ENGL 1954\"}, {\"type\": \"course\", \"code\": \"ENGL 1955\"}, {\"type\": \"course\", \"code\": \"ENGL 1956\"}, {\"type\": \"course\", \"code\": \"ENGL 1957\"}, {\"type\": \"course\", \"code\": \"ENGL 1958\"}, {\"type\": \"course\", \"code\": \"ENGL 1959\"}, {\"type\": \"course\", \"code\": \"ENGL 1960\"}, {\"type\": \"course\", \"code\": \"ENGL 1961\"}, {\"type\": \"course\", \"code\": \"ENGL 1962\"}, {\"type\": \"course\", \"code\": \"ENGL 1963\"}, {\"type\": \"course\", \"code\": \"ENGL 1964\"}, {\"type\": \"course\", \"code\": \"ENGL 1965\"}, {\"type\": \"course\", \"code\": \"ENGL 1966\"}, {\"type\": \"course\", \"code\": \"ENGL 1967\"}, {\"type\": \"course\", \"code\": \"ENGL 1968\"}, {\"type\": \"course\", \"code\": \"ENGL 1969\"}, {\"type\": \"course\", \"code\": \"ENGL 1970\"}, {\"type\": \"course\", \"code\": \"ENGL 1971\"}, {\"type\": \"course\", \"code\": \"ENGL 1972\"}, {\"type\": \"course\", \"code\": \"ENGL 1973\"}, {\"type\": \"course\", \"code\": \"ENGL 1974\"}, {\"type\": \"course\", \"code\": \"ENGL 1975\"}, {\"type\": \"course\", \"code\": \"ENGL 1976\"}, {\"type\": \"course\", \"code\": \"ENGL 1977\"}, {\"type\": \"course\", \"code\": \"ENGL 1978\"}, {\"type\": \"course\", \"code\": \"ENGL 1979\"}, {\"type\": \"course\", \"code\": \"ENGL 1980\"}, {\"type\": \"course\", \"code\": \"ENGL 1981\"}, {\"type\": \"course\", \"code\": \"ENGL 1982\"}, {\"type\": \"course\", \"code\": \"ENGL 1983\"}, {\"type\": \"course\", \"code\": \"ENGL 1984\"}, {\"type\": \"course\", \"code\": \"ENGL 1985\"}, {\"type\": \"course\", \"code\": \"ENGL 1986\"}, {\"type\": \"course\", \"code\": \"ENGL 1987\"}, {\"type\": \"course\", \"code\": \"ENGL 1988\"}, {\"type\": \"course\", \"code\": \"ENGL 1989\"}, {\"type\": \"course\", \"code\": \"ENGL 1990\"}]}]}",
+      "other_requirements": "Minimum Sophomore standing; PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "CRES 3991",
+      "course_code": "CRES 3991",
+      "department": "CRES",
+      "title": "Internship",
+      "credit_hours": "3",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ENGL 1027",
+      "course_code": "ENGL 1027",
+      "department": "ENGL",
+      "title": "LASP: Writing The Manuscript",
+      "credit_hours": "3",
+      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences). Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate Liberal Arts  Scholars Program.",
+      "prereq_expression": null,
+      "other_requirements": "Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program. LASP Arts Scholars only; Instructor permission required",
+      "external": true
+    },
+    {
+      "id": "CRES 2841",
+      "course_code": "CRES 2841",
+      "department": "CRES",
+      "title": "Blood, Heathens, & Pagan Lands",
+      "credit_hours": "3",
+      "description": "Exploration of aspects of the relationship between race and religion in the United States. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Three hours in Religion. Cross-listed with: <a href=\"/search/?p=REL%202355\" data-action=\"result-detail\" data-group=\"code:REL 2355\" >REL 2355</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"REL 2355\"}, {\"type\": \"course\", \"code\": \"CRES 2841\"}]}",
+      "other_requirements": "PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "CRES 3994",
+      "course_code": "CRES 3994",
+      "department": "CRES",
+      "title": "Teaching Assistantship",
+      "credit_hours": "3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ENGL 1210",
+      "course_code": "ENGL 1210",
+      "department": "ENGL",
+      "title": "Tolkien:Gender/Race, the Other",
+      "credit_hours": "3",
+      "description": "Introductory courses addressing the representation and construction of race in literature and/or the contributions of ethnically diverse writers to the American culture.  May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Cross-listed with: <a href=\"/search/?p=CRES%201821\" data-action=\"result-detail\" data-group=\"code:CRES 1821\" >CRES 1821</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "CRES 2841",
+      "target": "CRES 2841"
+    },
+    {
+      "source": "ENGL 1010",
+      "target": "CRES 2670"
+    },
+    {
+      "source": "ENGL 1010",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "ENGL 1027",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "ENGL 1112",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "ENGL 1114",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "ENGL 1120",
+      "target": "CRES 2670"
+    },
+    {
+      "source": "ENGL 1120",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "ENGL 1122",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "ENGL 1124",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "ENGL 1150",
+      "target": "CRES 2670"
+    },
+    {
+      "source": "ENGL 1150",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "ENGL 1180",
+      "target": "CRES 2670"
+    },
+    {
+      "source": "ENGL 1180",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "ENGL 1210",
+      "target": "CRES 2670"
+    },
+    {
+      "source": "ENGL 1210",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "ENGL 1220",
+      "target": "CRES 2670"
+    },
+    {
+      "source": "ENGL 1220",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "ENGL 1270",
+      "target": "CRES 2670"
+    },
+    {
+      "source": "ENGL 1270",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "ENGL 1280",
+      "target": "CRES 2670"
+    },
+    {
+      "source": "ENGL 1280",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "ENGL 1305",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "ENGL 1500",
+      "target": "CRES 2670"
+    },
+    {
+      "source": "ENGL 1500",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "ENGL 1702",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "ENGL 1730",
+      "target": "CRES 2670"
+    },
+    {
+      "source": "ENGL 1730",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "ENGL 1740",
+      "target": "CRES 2670"
+    },
+    {
+      "source": "ENGL 1740",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "ENGL 1990",
+      "target": "CRES 2670"
+    },
+    {
+      "source": "ENGL 1990",
+      "target": "CRES 2827"
+    },
+    {
+      "source": "REL 2355",
+      "target": "CRES 2841"
+    }
+  ]
+}

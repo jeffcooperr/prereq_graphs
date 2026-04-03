@@ -1,0 +1,17 @@
+{
+  "department": "EDSS",
+  "nodes": [
+    {
+      "id": "EDSS 6990",
+      "course_code": "EDSS 6990",
+      "department": "EDSS",
+      "title": "Comp-Based Teachng Standards I",
+      "credit_hours": "5",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    }
+  ],
+  "edges": []
+}
