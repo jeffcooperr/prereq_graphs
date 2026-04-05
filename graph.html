@@ -614,9 +614,62 @@
     color: var(--accent);
   }
 
+  #search-wrap {
+    position: fixed;
+    top: 168px;
+    right: 32px;
+    z-index: 20;
+    width: 160px;
+  }
+
+  #course-search {
+    width: 100%;
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.08em;
+    padding: 6px 10px;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+
+  #course-search:focus { border-color: var(--accent); }
+  #course-search::placeholder { color: var(--muted); }
+
+  #search-results {
+    position: absolute;
+    width: 210px;
+    right: 0;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-top: none;
+    max-height: 220px;
+    overflow-y: auto;
+    display: none;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+
+  #search-results.visible { display: block; }
+
+  .search-result {
+    padding: 7px 10px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+  }
+
+  .search-result:hover { background: rgba(124,106,255,0.1); }
+  .sr-code { font-size: 0.65rem; font-weight: 600; color: var(--accent); }
+  .sr-title { font-size: 0.55rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+  body.sidebar-open #search-wrap { right: 252px; }
+
   #instructions {
     position: fixed;
-    top: 180px;
+    top: 222px;
     right: 32px;
     font-size: 0.6rem;
     color: var(--muted);
@@ -1009,6 +1062,11 @@
 <button id="plain-toggle">Plain</button>
 <button id="my-courses-toggle">My Courses</button>
 
+<div id="search-wrap">
+  <input id="course-search" type="text" placeholder="Find course..." autocomplete="off" spellcheck="false">
+  <div id="search-results"></div>
+</div>
+
 <div id="header">
   <div id="dept-label">—</div>
   <div id="subtitle">Prerequisite Graph — UVM</div>
@@ -1018,8 +1076,9 @@
   scroll to zoom<br>
   drag to pan<br>
   hover to inspect<br>
-  click · direct prereqs<br>
-  click again · full chain
+  click · direct neighbors<br>
+  click 2x · full prereq chain<br>
+  click 3x · what this unlocks
 </div>
 
 <div id="stats"></div>
@@ -1134,6 +1193,8 @@ function loadDept(dept) {
   currentDept = dept;
   document.getElementById('dept-picker').classList.add('hidden');
   document.getElementById('dept-label').textContent = dept;
+  document.getElementById('course-search').value = '';
+  document.getElementById('search-results').classList.remove('visible');
   d3.select('#svg').selectAll('*').remove();
   fetch(`graphs/${dept}.json?v=${Date.now()}`)
     .then(r => r.json())
@@ -1546,7 +1607,7 @@ function render(data) {
     })
     .on('mouseleave', () => { tooltip.style.opacity = 0; });
 
-  // Build reverse adjacency for upstream path traversal
+  // Build adjacency helpers for path traversal
   function getUpstreamPath(nodeId) {
     const reverseAdj = {};
     edges.forEach(e => {
@@ -1566,6 +1627,25 @@ function render(data) {
     return path;
   }
 
+  function getDownstreamPath(nodeId) {
+    const forwardAdj = {};
+    edges.forEach(e => {
+      const s = typeof e.source === 'object' ? e.source.id : e.source;
+      const t = typeof e.target === 'object' ? e.target.id : e.target;
+      if (!forwardAdj[s]) forwardAdj[s] = [];
+      forwardAdj[s].push(t);
+    });
+    const path = new Set([nodeId]);
+    const queue = [nodeId];
+    while (queue.length) {
+      const curr = queue.shift();
+      (forwardAdj[curr] || []).forEach(dep => {
+        if (!path.has(dep)) { path.add(dep); queue.push(dep); }
+      });
+    }
+    return path;
+  }
+
   // Click once: direct neighbors. Click again: full upstream chain. Click again: deselect.
   let selected = null;
   let clickCount = 0;
@@ -1580,9 +1660,12 @@ function render(data) {
         const t = typeof l.target === 'object' ? l.target.id : l.target;
         if (s === nodeId || t === nodeId) { highlighted.add(s); highlighted.add(t); }
       });
-    } else {
-      // Full upstream chain
+    } else if (clickN === 2) {
+      // Full upstream prereq chain
       highlighted = getUpstreamPath(nodeId);
+    } else {
+      // Full downstream — everything this course helps unlock
+      highlighted = getDownstreamPath(nodeId);
     }
 
     node.classed('dimmed', n => !highlighted.has(n.id));
@@ -1605,7 +1688,7 @@ function render(data) {
 
     if (selected === d.id) {
       clickCount++;
-      if (clickCount > 2) {
+      if (clickCount > 3) {
         selected = null;
         clickCount = 0;
         node.classed('dimmed', false);
@@ -1628,8 +1711,14 @@ function render(data) {
       .attr('marker-end', 'url(#arrow)');
   });
 
+  function triggerHighlight(nodeId) {
+    selected = nodeId;
+    clickCount = 1;
+    applyHighlight(nodeId, 1);
+  }
+
   // Store state and start with web layout
-  graphState = { graphNodes, edges, link, node, container, zoom, svg, W, H, groupColorMap };
+  graphState = { graphNodes, edges, link, node, container, zoom, svg, W, H, groupColorMap, triggerHighlight };
   plainMode = false;
   document.getElementById('plain-toggle').textContent = 'Plain';
   document.getElementById('plain-toggle').classList.remove('active');
@@ -1757,6 +1846,67 @@ document.getElementById('my-courses-toggle').addEventListener('click', () => {
       .attr('stroke', d => d.external ? 'var(--node-external-border)' : (plainMode ? 'rgba(124,106,255,0.4)' : levelStroke(d.course_code)));
   }
 });
+
+// Course search
+(function() {
+  const input = document.getElementById('course-search');
+  const results = document.getElementById('search-results');
+
+  function showResults() {
+    if (!graphState) { results.classList.remove('visible'); return; }
+    const q = input.value.trim().toUpperCase();
+    results.innerHTML = '';
+    if (q.length < 2) { results.classList.remove('visible'); return; }
+
+    const matches = graphState.graphNodes
+      .filter(n => n.course_code.toUpperCase().includes(q) || (n.title || '').toUpperCase().includes(q))
+      .slice(0, 12);
+
+    if (!matches.length) { results.classList.remove('visible'); return; }
+
+    matches.forEach(n => {
+      const item = document.createElement('div');
+      item.className = 'search-result';
+      item.innerHTML = `<div class="sr-code">${n.course_code}</div><div class="sr-title">${n.title || '—'}</div>`;
+      item.addEventListener('click', () => {
+        focusCourse(n);
+        input.value = '';
+        results.classList.remove('visible');
+      });
+      results.appendChild(item);
+    });
+    results.classList.add('visible');
+  }
+
+  function focusCourse(nodeData) {
+    if (!graphState) return;
+    const { svg, zoom, W, H } = graphState;
+    const scale = 2;
+    svg.transition().duration(500).call(
+      zoom.transform,
+      d3.zoomIdentity.translate(W / 2 - nodeData.x * scale, H / 2 - nodeData.y * scale).scale(scale)
+    );
+    graphState.triggerHighlight(nodeData.id);
+  }
+
+  input.addEventListener('input', showResults);
+
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      const first = results.querySelector('.search-result');
+      if (first) first.click();
+    }
+    if (e.key === 'Escape') {
+      input.value = '';
+      results.classList.remove('visible');
+      input.blur();
+    }
+  });
+
+  document.addEventListener('click', e => {
+    if (!e.target.closest('#search-wrap')) results.classList.remove('visible');
+  });
+})();
 
 // Info overlay
 (function() {
