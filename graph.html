@@ -1403,11 +1403,19 @@ function updateLinkPaths() {
     link.attr('d', d => {
       const dx = d.target.x - d.source.x;
       const dy = d.target.y - d.source.y;
-      const dr = Math.sqrt(dx*dx + dy*dy) * 1.4;
-      return `M${d.source.x},${d.source.y}A${dr},${dr} 0 0,1 ${d.target.x},${d.target.y}`;
+      const dist = Math.sqrt(dx*dx + dy*dy) || 1;
+      const dr = dist * 1.4;
+      const r = d.target._r || 11;
+      return `M${d.source.x},${d.source.y}A${dr},${dr} 0 0,1 ${d.target.x - (dx/dist)*r},${d.target.y - (dy/dist)*r}`;
     });
   } else {
-    link.attr('d', d => `M${d.source.x},${d.source.y}L${d.target.x},${d.target.y}`);
+    link.attr('d', d => {
+      const dx = d.target.x - d.source.x;
+      const dy = d.target.y - d.source.y;
+      const dist = Math.sqrt(dx*dx + dy*dy) || 1;
+      const r = d.target._r || 11;
+      return `M${d.source.x},${d.source.y}L${d.target.x - (dx/dist)*r},${d.target.y - (dy/dist)*r}`;
+    });
   }
 }
 
@@ -1428,7 +1436,7 @@ function applyForceLayout() {
     .force('link', d3.forceLink(edges).id(d => d.id).distance(90).strength(0.6))
     .force('charge', d3.forceManyBody().strength(-320))
     .force('center', d3.forceCenter(W / 2, H / 2))
-    .force('collision', d3.forceCollide(22))
+    .force('collision', d3.forceCollide(d => d._r + 4))
     .force('x', d3.forceX(W / 2).strength(0.01))
     .force('y', d3.forceY(H / 2).strength(0.01));
 
@@ -1474,7 +1482,10 @@ function applyTreeLayout() {
     .attr('d', d => {
       const s = posMap[typeof d.source === 'object' ? d.source.id : d.source] || d.source;
       const t = posMap[typeof d.target === 'object' ? d.target.id : d.target] || d.target;
-      return `M${s.x},${s.y}L${t.x},${t.y}`;
+      const r = (typeof d.target === 'object' ? d.target._r : null) || 11;
+      const dx = t.x - s.x, dy = t.y - s.y;
+      const dist = Math.sqrt(dx*dx + dy*dy) || 1;
+      return `M${s.x},${s.y}L${t.x - (dx/dist)*r},${t.y - (dy/dist)*r}`;
     });
 
   // Auto-fit the dagre layout into the viewport
@@ -1499,6 +1510,14 @@ function render(data) {
   const connectedIds = new Set(edges.flatMap(e => [e.source, e.target]));
   const graphNodes = nodes.filter(n => n.external || connectedIds.has(n.id));
 
+  // Gateway sizing: scale radius by out-degree (how many courses list this as a prereq)
+  const outDegree = {};
+  graphNodes.forEach(n => { outDegree[n.id] = 0; });
+  edges.forEach(e => { if (e.source in outDegree) outDegree[e.source]++; });
+  graphNodes.forEach(n => {
+    n._r = n.external ? 7 : Math.min(28, Math.round(11 + Math.sqrt(outDegree[n.id] || 0) * 3.5));
+  });
+
   // Update stats
   const internal = nodes.filter(n => !n.external).length;
   const external = nodes.filter(n => n.external).length;
@@ -1521,7 +1540,7 @@ function render(data) {
   defs.append('marker')
     .attr('id', 'arrow')
     .attr('viewBox', '0 -4 8 8')
-    .attr('refX', 18)
+    .attr('refX', 6)
     .attr('refY', 0)
     .attr('markerWidth', 6)
     .attr('markerHeight', 6)
@@ -1570,7 +1589,7 @@ function render(data) {
       }));
 
   node.append('circle')
-    .attr('r', d => d.external ? 7 : 11)
+    .attr('r', d => d._r)
     .attr('fill', d => d.external ? 'var(--node-external)' : levelColor(d.course_code))
     .attr('stroke', d => d.external ? 'var(--node-external-border)' : levelStroke(d.course_code))
     .attr('stroke-width', d => d.external ? 1.5 : 1);
