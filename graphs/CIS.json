@@ -24,17 +24,6 @@
       "external": false
     },
     {
-      "id": "ARTS 1014",
-      "course_code": "ARTS 1014",
-      "department": "ARTS",
-      "title": "FYS Perspectives on Art Making",
-      "credit_hours": "4",
-      "description": "Introduction to contemporary art practice in various media. Explores method and meaning in art making, the role of experimentation, and the translation of experience into artwork. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
       "id": "CIS 2460",
       "course_code": "CIS 2460",
       "department": "CIS",
@@ -44,6 +33,17 @@
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CIS 1010\"}, {\"type\": \"course\", \"code\": \"CEMS 1010\"}]}]}",
       "other_requirements": "Computer Science major or College of Engineering & Mathematical Science student; minimum Junior standing.",
       "external": false
+    },
+    {
+      "id": "ARTS 1014",
+      "course_code": "ARTS 1014",
+      "department": "ARTS",
+      "title": "FYS Perspectives on Art Making",
+      "credit_hours": "4",
+      "description": "Introduction to contemporary art practice in various media. Explores method and meaning in art making, the role of experimentation, and the translation of experience into artwork. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
     },
     {
       "id": "ARTS 1400",
@@ -60,19 +60,23 @@
   "edges": [
     {
       "source": "ARTS 1014",
-      "target": "CIS 2460"
+      "target": "CIS 2460",
+      "group": "CIS 2460__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "CIS 2460"
+      "target": "CIS 2460",
+      "group": "CIS 2460__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "CIS 2460"
+      "target": "CIS 2460",
+      "group": "CIS 2460__g0"
     },
     {
       "source": "CIS 1010",
-      "target": "CIS 2460"
+      "target": "CIS 2460",
+      "group": "CIS 2460__g1"
     }
   ]
 }

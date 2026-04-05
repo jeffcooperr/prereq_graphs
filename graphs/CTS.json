@@ -13,17 +13,6 @@
       "external": false
     },
     {
-      "id": "CTS 6391",
-      "course_code": "CTS 6391",
-      "department": "CTS",
-      "title": "Master's Thesis Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Master's Thesis.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required; Contact department for location",
-      "external": false
-    },
-    {
       "id": "CTS 6200",
       "course_code": "CTS 6200",
       "department": "CTS",
@@ -33,12 +22,24 @@
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CTS 6200\"}, {\"type\": \"other\", \"description\": \"Instructor permission\"}]}",
       "other_requirements": "Grad level or instructor permission required. Open to PACE students.",
       "external": false
+    },
+    {
+      "id": "CTS 6391",
+      "course_code": "CTS 6391",
+      "department": "CTS",
+      "title": "Master's Thesis Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Master's Thesis.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required; Contact department for location",
+      "external": false
     }
   ],
   "edges": [
     {
       "source": "CTS 6200",
-      "target": "CTS 6200"
+      "target": "CTS 6200",
+      "group": "CTS 6200__g0"
     }
   ]
 }

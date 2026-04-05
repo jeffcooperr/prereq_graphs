@@ -2,17 +2,6 @@
   "department": "MBA",
   "nodes": [
     {
-      "id": "MBA 6020",
-      "course_code": "MBA 6020",
-      "department": "MBA",
-      "title": "Org. Dsgn Social & EnvirImpact",
-      "credit_hours": "0",
-      "description": "Provides students with the tools for starting and building a sustainable business. Topics include: public policy, value creation, assessments under market uncertainty, the meaning of sustainability and CSR, triple bottom line reporting, ethics for entrepreneurs, and mindfulness. Prerequisite: Master of Business Administration student.",
-      "prereq_expression": null,
-      "other_requirements": "Master of Business Administration student. MBA students only",
-      "external": false
-    },
-    {
       "id": "MBA 6010",
       "course_code": "MBA 6010",
       "department": "MBA",
@@ -32,6 +21,17 @@
       "description": "Provides students with an understanding of how to run a responsible/sustainable business within the constraints of finite physical resources and legal frameworks. Students will explore how management approaches, creativity, and technology can find opportunities within those constraints. Prerequisite: Master of Business Administration student.",
       "prereq_expression": null,
       "other_requirements": "Master of Business Administration student. MBA Students Only; Class time will be determined by Department",
+      "external": false
+    },
+    {
+      "id": "MBA 6020",
+      "course_code": "MBA 6020",
+      "department": "MBA",
+      "title": "Org. Dsgn Social & EnvirImpact",
+      "credit_hours": "0",
+      "description": "Provides students with the tools for starting and building a sustainable business. Topics include: public policy, value creation, assessments under market uncertainty, the meaning of sustainability and CSR, triple bottom line reporting, ethics for entrepreneurs, and mindfulness. Prerequisite: Master of Business Administration student.",
+      "prereq_expression": null,
+      "other_requirements": "Master of Business Administration student. MBA students only",
       "external": false
     },
     {

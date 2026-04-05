@@ -2,6 +2,28 @@
   "department": "MMG",
   "nodes": [
     {
+      "id": "MMG 2060",
+      "course_code": "MMG 2060",
+      "department": "MMG",
+      "title": "Intr Biomedical Research Meth",
+      "credit_hours": "3",
+      "description": "Introduces life science majors/minors to the scientific processes involved in biomedical research and to current research techniques and approaches, also introduces reading and interpreting primary literature articles, as well as discussing current topics regarding the ethical concerns of biomedical research. Prerequisite: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>, <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>, or <a href=\"/search/?p=BCOR%202505\" data-action=\"result-detail\" data-group=\"code:BCOR 2505\" >BCOR 2505</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 2010\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}, {\"type\": \"course\", \"code\": \"BCOR 2505\"}]}]}",
+      "other_requirements": "Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "BCOR 2505",
+      "course_code": "BCOR 2505",
+      "department": "BCOR",
+      "title": "Molecular & Cell Biology",
+      "credit_hours": "3",
+      "description": "Explores the fundamental processes of life. Topics include cellular metabolism; structure and function of organelles; cell cycle; signal transduction; biology of cancer. <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\" >CHEM 2580</a>, <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a> recommended. Credit not awarded for both BCOR 2505 and <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>, or <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\" >CHEM 1410</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1405\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}, {\"type\": \"course\", \"code\": \"CHEM 1460\"}]}]}",
+      "other_requirements": "Degree students only even after level restrictions removed; Post Bac Pre Med students enroll in BCOR 2505 ZRA",
+      "external": true
+    },
+    {
       "id": "MMG 2010",
       "course_code": "MMG 2010",
       "department": "MMG",
@@ -13,45 +35,155 @@
       "external": false
     },
     {
-      "id": "MMG 3994",
-      "course_code": "MMG 3994",
+      "id": "MMG 2993",
+      "course_code": "MMG 2993",
       "department": "MMG",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
-      "other_requirements": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion. Instructor permission required. PACE students by permission and override.",
+      "other_requirements": "Offered at department discretion. Instructor permission required. PACE students by permission and override.",
       "external": false
     },
     {
-      "id": "MMG 5220",
-      "course_code": "MMG 5220",
+      "id": "MMG 3991",
+      "course_code": "MMG 3991",
       "department": "MMG",
-      "title": "Gr Medical Micro w/lab",
-      "credit_hours": "4",
-      "description": "Comprehensive study of human pathogenic bacteria and their disease states in humans. Laboratory sessions provide practical experience in handling and identifying these pathogens. Credit not awarded for both MMG 5220 and <a href=\"/search/?p=MMG%203220\" data-action=\"result-detail\" data-group=\"code:MMG 3220\" >MMG 3220</a>. Prerequisite: Undergraduate course in microbiology recommended.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 5210A\"}, {\"type\": \"course\", \"code\": \"MMG 3220A\"}, {\"type\": \"course\", \"code\": \"MMG 3220ZRA\"}, {\"type\": \"course\", \"code\": \"MMG 3210A\"}]}",
-      "other_requirements": "Undergraduate course in microbiology recommended. Must register for MMG 5220 L01 lab",
+      "title": "Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Advisor Permission required; PACE students by permission and override.",
       "external": false
     },
     {
-      "id": "MMG 6890",
-      "course_code": "MMG 6890",
+      "id": "MMG 2700",
+      "course_code": "MMG 2700",
       "department": "MMG",
-      "title": "Graduate Teaching Practicum",
+      "title": "Foundations in R for Life Sci",
       "credit_hours": "3",
-      "description": "Required practicum for all Microbiology and Molecular Genetics Master's Students. Students will be exposed to and mentored in the fundamentals of undergraduate teaching and learning in the laboratory setting.",
+      "description": "Introduces students to programming in R, with a focus on applications in microbial and cancer genomics. Through a combination of lectures and labs, covers R syntax, data wrangling with the tidyverse, exploratory statistics, and data visualization with ggplot2. Explores discipline-specific topics, including antimicrobial resistance (AMR) gene detection, microbiome composition analysis, and the exploration of transcriptional and mutational profiles in cancer datasets. Prerequisite: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"BCOR 2300\"}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "MMG 3110",
+      "course_code": "MMG 3110",
+      "department": "MMG",
+      "title": "Bacterial Genetics",
+      "credit_hours": "3",
+      "description": "Bacterial genetics and the biology of bacteria at an intermediate to advanced level. Specific topics include regulation of replication, transcription, translation, post-translation, mRNA stability, secretion, signaling, and motility. Credit not awarded for both MMG 3110 and <a href=\"/search/?p=MMG%205110\" data-action=\"result-detail\" data-group=\"code:MMG 5110\"  class=\"notoffered\">MMG 5110</a>. Prerequisites: <a href=\"/search/?p=MMG%202010\" data-action=\"result-detail\" data-group=\"code:MMG 2010\" >MMG 2010</a>, <a href=\"/search/?p=MMG%202040\" data-action=\"result-detail\" data-group=\"code:MMG 2040\"  class=\"notoffered\">MMG 2040</a>, or <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 2010\"}, {\"type\": \"course\", \"code\": \"MMG 2040\"}, {\"type\": \"course\", \"code\": \"BCOR 2300\"}]}",
+      "other_requirements": "Intro Microbiology, Biochemistry, Genetics and/or Cell Biology courses; Degree students only even after level restrictions removed; Post Bac Pre Med and PACE students register for MMG 3110 ZRA;",
+      "external": false
+    },
+    {
+      "id": "MMG 1030",
+      "course_code": "MMG 1030",
+      "department": "MMG",
+      "title": "Methods in Microbial Ecology",
+      "credit_hours": "2",
+      "description": "A research methods laboratory course framed around identifying novel antibiotic-producing bacterial strains from local soil. Covers fundamental lab skills and practice reading and evaluating the work of other scientists. Students will create a research poster to present their findings.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MGEN 0\"}, {\"type\": \"course\", \"code\": \"MICR 0\"}]}",
+      "other_requirements": "First-year MGEN and/or MICR majors or instructor permission. PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "MMG 3320",
+      "course_code": "MMG 3320",
+      "department": "MMG",
+      "title": "Advanced Bioinformatics",
+      "credit_hours": "3",
+      "description": "Provides advanced training in bioinformatics tools and techniques. Particular emphasis is given to programs associated with sequence analysis, comparative genomics, structural biology, and computational biology. Other topics such as data integration, biological data interpretation, R and UNIX-scripting, multi-omics, and systems biology will be covered. Emphasizes a direct, hands-on experience. Credit not awarded for both MMG 3320 and <a href=\"/search/?p=MMG%205320\" data-action=\"result-detail\" data-group=\"code:MMG 5320\"  class=\"notoffered\">MMG 5320</a>. Prerequisites: <a href=\"/search/?p=MMG%203310\" data-action=\"result-detail\" data-group=\"code:MMG 3310\"  class=\"notoffered\">MMG 3310</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MMG 3310\"}",
+      "other_requirements": "Degree students only even after level restrictions removed; PACE students should register for MMG 3320 ZRA; Colocated with MMG 3320 ZRA,MMG 5320Total combined enrollment: 30; Open to Degree and PACE students; intended for students in the biological sciences who have already completed the introductory course, Survey to Bioinformatic Databases.",
+      "external": false
+    },
+    {
+      "id": "BHSC 1340",
+      "course_code": "BHSC 1340",
+      "department": "BHSC",
+      "title": "Human Cell Biology",
+      "credit_hours": "4",
+      "description": "Lecture and laboratory experiences about molecular and cellular structure, function and physiology using human cells as the model.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MLS\"}, {\"type\": \"course\", \"code\": \"MRS\"}, {\"type\": \"course\", \"code\": \"BMCS\"}, {\"type\": \"course\", \"code\": \"BIOM\"}, {\"type\": \"course\", \"code\": \"HSCI\"}, {\"type\": \"course\", \"code\": \"PHS\"}]}]}",
+      "other_requirements": "Must register for Lab A01, A02, or A03; students only or Instructor permission; Student Lab Fee: $65.00; Degree students only, PACE students register for BHSC 1340 ZRA",
+      "external": true
+    },
+    {
+      "id": "BCOR 2500",
+      "course_code": "BCOR 2500",
+      "department": "BCOR",
+      "title": "Molecular & Cell Biology w/lab",
+      "credit_hours": "4",
+      "description": "Explores the fundamental processes of life. Topics include cellular metabolism; structure and function of organelles; cell cycle; signal transduction; biology of cancer. <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\" >CHEM 2580</a>, <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a> recommended. Credit not awarded for both BCOR 2500 and <a href=\"/search/?p=BCOR%202505\" data-action=\"result-detail\" data-group=\"code:BCOR 2505\" >BCOR 2505</a>. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a> or <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\" >CHEM 1410</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1405\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}, {\"type\": \"course\", \"code\": \"CHEM 1460\"}]}]}",
+      "other_requirements": "For majors: ASCI, BICM, BIOL, BISC, ENSC, MGEN, MICR, NEUR, PBIO, ZOOL only. Minimum sophomore standing. If enrolling in CHEM 1450/1460, please request an override from Laura.A.Newman@uvm.edu. Degree students only even after level restrictions removed; Post Bac Pre Med students enroll in BCOR 2500 ZRA.",
+      "external": true
+    },
+    {
+      "id": "MMG 2991",
+      "course_code": "MMG 2991",
+      "department": "MMG",
+      "title": "Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
     },
     {
-      "id": "MMG 5994",
-      "course_code": "MMG 5994",
+      "id": "MMG 6330",
+      "course_code": "MMG 6330",
       "department": "MMG",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1",
-      "description": "Student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "title": "Adv Genetics and Genomics",
+      "credit_hours": "3",
+      "description": "Covers the topics of gene structure, expression, epigenetics and inheritance. These basics will form the foundation of discussions on functional genomics and genome engineering. Current approaches and methodologies to address scientific questions related to these topics will be emphasized. Consequently, recent reviews and primary research literature will be the main texts used in the course. Prerequisites: Understanding of basic genetics, molecular biology, and biochemistry concepts is assumed.",
+      "prereq_expression": null,
+      "other_requirements": "Understanding of basic genetics, molecular biology, and biochemistry concepts is assumed.",
+      "external": false
+    },
+    {
+      "id": "MMG 3220",
+      "course_code": "MMG 3220",
+      "department": "MMG",
+      "title": "Adv Medical Microbiology w/lab",
+      "credit_hours": "4",
+      "description": "Comprehensive study of human pathogenic bacteria and their disease states in humans. Laboratory sessions provide practical experience in handling and identifying these pathogens. Credit not awarded for both MMG 3220 and <a href=\"/search/?p=MMG%205220\" data-action=\"result-detail\" data-group=\"code:MMG 5220\" >MMG 5220</a>. Prerequisite: <a href=\"/search/?p=MMG%202010\" data-action=\"result-detail\" data-group=\"code:MMG 2010\"  class=\"notoffered\">MMG 2010</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MMG 2010\"}",
+      "other_requirements": "MLS, MGEN and MICR majors only; Must enroll in lab MMG 3220 L01; Degree students only even after level restrictions removed; PACE students register for MMG 3220 ZRA",
+      "external": false
+    },
+    {
+      "id": "MMG 3330",
+      "course_code": "MMG 3330",
+      "department": "MMG",
+      "title": "Genetics and Genomics",
+      "credit_hours": "3",
+      "description": "Integrated entry into both genome science and modern genetic analysis. Students will develop skills needed to access, organize and interpret emerging genomic information. Credit not awarded for both MMG 3330 and <a href=\"/search/?p=MMG%205330\" data-action=\"result-detail\" data-group=\"code:MMG 5330\"  class=\"notoffered\">MMG 5330</a>. Prerequisites: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>; <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a> or <a href=\"/search/?p=BCOR%202505\" data-action=\"result-detail\" data-group=\"code:BCOR 2505\" >BCOR 2505</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2500\"}, {\"type\": \"course\", \"code\": \"BCOR 2505\"}]}]}",
+      "other_requirements": "Credit not awarded for both MMG 3330 and MMG 5330. Open to Degree and PACE students.",
+      "external": false
+    },
+    {
+      "id": "BCOR 1425",
+      "course_code": "BCOR 1425",
+      "department": "BCOR",
+      "title": "Accelerated Biology",
+      "credit_hours": "4",
+      "description": "Selected topics from the full year of introductory biology, compressed into one semester. For students with demonstrated mastery of basic biology (e.g., AP credit).  Permission required. Credit not awarded for both BCOR 1425 and <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> or <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>. Pre/co-requisite: <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>, or <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\" >CHEM 1410</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1405\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}]}",
+      "other_requirements": "For students with demonstrated mastery of basic biology (e.g., AP credit). Permission required. Credit not awarded for both BCOR 1425 and BCOR 1400 or BIOL 1400. By invitation only; for FTFY students with AP score of 4. Instructor permission required. Must register for a BCOR 1425 lab. Must be enrolled in CHEM 1400 if have no CHEM credit.",
+      "external": true
+    },
+    {
+      "id": "MMG 6990",
+      "course_code": "MMG 6990",
+      "department": "MMG",
+      "title": "R Program for Biomedical Rsrch",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -68,303 +200,6 @@
       "external": false
     },
     {
-      "id": "MMG 3010",
-      "course_code": "MMG 3010",
-      "department": "MMG",
-      "title": "Applied Cell & Mol Bio Lab",
-      "credit_hours": "4",
-      "description": "A course based undergraduate research experience (CURE), covering the basic principles and techniques of mammalian cell culture and molecular biology tools to perform a student-designed CRISPRi experiment. The research culminates with working group presentations and the writing of individual research manuscripts. Lab work outside of class time is routinely necessary. Prerequisites: <a href=\"/search/?p=MMG%202040\" data-action=\"result-detail\" data-group=\"code:MMG 2040\"  class=\"notoffered\">MMG 2040</a> or <a href=\"/search/?p=BIOC%203007\" data-action=\"result-detail\" data-group=\"code:BIOC 3007\" >BIOC 3007</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 2040\"}, {\"type\": \"course\", \"code\": \"BIOC 3007\"}]}",
-      "other_requirements": "MICR, MGEN & Biochemistry majors only,\nothers by instructor permission;\nLabs begin on first day of class;\nLab fee $160\nPACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "MMG 6391",
-      "course_code": "MMG 6391",
-      "department": "MMG",
-      "title": "Master's Thesis Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Master's Thesis.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "MMG 3991",
-      "course_code": "MMG 3991",
-      "department": "MMG",
-      "title": "Internship",
-      "credit_hours": "1 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Advisor Permission required; PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "BIOL 1400",
-      "course_code": "BIOL 1400",
-      "department": "BIOL",
-      "title": "Principles of Biology 1",
-      "credit_hours": "4",
-      "description": "Principles of cellular biochemistry; cell biology; genetics and evolution. Topics: biochemistry; metabolism, cell structure/function; respiration; photosynthesis; molecular, Mendelian and population genetics; genetics of evolution. Credit not awarded for both BIOL 1400 and <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Credit not awarded for both BIOL 1400 and BCOR 1400 or BCOR 1425. Must register for a BIOL 1400 lab; Lab supply fee: $30; Degree students only even after level restrictions removed; Post Bac Pre Med & PACE students register for BIOL 1400 ZRA Colocated with BIOL 1400 ZRA",
-      "external": true
-    },
-    {
-      "id": "MMG 4899",
-      "course_code": "MMG 4899",
-      "department": "MMG",
-      "title": "Senior Seminar",
-      "credit_hours": "2",
-      "description": "Required capstone course for Microbiology and Molecular Genetics majors; involves written and oral presentations by Seniors on current topics in microbiology/molecular genetics. Prerequisites: <a href=\"/search/?p=MMG%202010\" data-action=\"result-detail\" data-group=\"code:MMG 2010\" >MMG 2010</a>, <a href=\"/search/?p=MMG%202040\" data-action=\"result-detail\" data-group=\"code:MMG 2040\"  class=\"notoffered\">MMG 2040</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 2010\"}, {\"type\": \"course\", \"code\": \"MMG 2040\"}]}",
-      "other_requirements": "Required capstone course for Microbiology and Molecular Genetics majors; involves written and oral presentations by Seniors on current topics in microbiology/molecular genetics.",
-      "external": false
-    },
-    {
-      "id": "MMG 2993",
-      "course_code": "MMG 2993",
-      "department": "MMG",
-      "title": "Independent Study",
-      "credit_hours": "1 to 18",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Offered at department discretion. Instructor permission required. PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "MMG 5270",
-      "course_code": "MMG 5270",
-      "department": "MMG",
-      "title": "Advanced Cancer Genetics",
-      "credit_hours": "3",
-      "description": "Focuses on genetic mechanisms that either protect us from cancer or increase our vulnerability to cancer. Discusses genetic methods that are being used to discover genes that influence cancer risk or may prove useful in diagnostics or cancer therapy. Credit not awarded for both MMG 5270 and <a href=\"/search/?p=MMG%203270\" data-action=\"result-detail\" data-group=\"code:MMG 3270\" >MMG 3270</a>. Prerequisites: An introductory courses in genetics and cell biology is recommended.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GENETICS\"}, {\"type\": \"course\", \"code\": \"CELL BIOLOGY\"}]}",
-      "other_requirements": "An introductory courses in genetics and cell biology is recommended.",
-      "external": false
-    },
-    {
-      "id": "MMG 2060",
-      "course_code": "MMG 2060",
-      "department": "MMG",
-      "title": "Intr Biomedical Research Meth",
-      "credit_hours": "3",
-      "description": "Introduces life science majors/minors to the scientific processes involved in biomedical research and to current research techniques and approaches, also introduces reading and interpreting primary literature articles, as well as discussing current topics regarding the ethical concerns of biomedical research. Prerequisite: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>, <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>, or <a href=\"/search/?p=BCOR%202505\" data-action=\"result-detail\" data-group=\"code:BCOR 2505\" >BCOR 2505</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 2010\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}, {\"type\": \"course\", \"code\": \"BCOR 2505\"}]}]}",
-      "other_requirements": "Open to Degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "BCOR 2500",
-      "course_code": "BCOR 2500",
-      "department": "BCOR",
-      "title": "Molecular & Cell Biology w/lab",
-      "credit_hours": "4",
-      "description": "Explores the fundamental processes of life. Topics include cellular metabolism; structure and function of organelles; cell cycle; signal transduction; biology of cancer. <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\" >CHEM 2580</a>, <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a> recommended. Credit not awarded for both BCOR 2500 and <a href=\"/search/?p=BCOR%202505\" data-action=\"result-detail\" data-group=\"code:BCOR 2505\" >BCOR 2505</a>. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a> or <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\" >CHEM 1410</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1405\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}, {\"type\": \"course\", \"code\": \"CHEM 1460\"}]}]}",
-      "other_requirements": "For majors: ASCI, BICM, BIOL, BISC, ENSC, MGEN, MICR, NEUR, PBIO, ZOOL only. Minimum sophomore standing. If enrolling in CHEM 1450/1460, please request an override from Laura.A.Newman@uvm.edu. Degree students only even after level restrictions removed; Post Bac Pre Med students enroll in BCOR 2500 ZRA.",
-      "external": true
-    },
-    {
-      "id": "MMG 3250",
-      "course_code": "MMG 3250",
-      "department": "MMG",
-      "title": "Eukaryotic Virology",
-      "credit_hours": "3",
-      "description": "An in-depth analysis of eukaryotic virus-mammalian cell interactions emphasizing mechanisms by which viruses modulate gene expression in infected cells. Prerequisites: <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a> or <a href=\"/search/?p=BCOR%202505\" data-action=\"result-detail\" data-group=\"code:BCOR 2505\" >BCOR 2505</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2500\"}, {\"type\": \"course\", \"code\": \"BCOR 2505\"}]}",
-      "other_requirements": "Open to Degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "BCOR 2505",
-      "course_code": "BCOR 2505",
-      "department": "BCOR",
-      "title": "Molecular & Cell Biology",
-      "credit_hours": "3",
-      "description": "Explores the fundamental processes of life. Topics include cellular metabolism; structure and function of organelles; cell cycle; signal transduction; biology of cancer. <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\" >CHEM 2580</a>, <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a> recommended. Credit not awarded for both BCOR 2505 and <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>, or <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\" >CHEM 1410</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1405\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}, {\"type\": \"course\", \"code\": \"CHEM 1460\"}]}]}",
-      "other_requirements": "Degree students only even after level restrictions removed; Post Bac Pre Med students enroll in BCOR 2505 ZRA",
-      "external": true
-    },
-    {
-      "id": "MMG 3300",
-      "course_code": "MMG 3300",
-      "department": "MMG",
-      "title": "Emerging Infectious Diseases",
-      "credit_hours": "3",
-      "description": "Presents an interdisciplinary approach to understanding the emergence, and re-emergence, of infectious diseases in a rapidly changing global environment. Historical, cultural, environmental and biological perspectives are incorporated into the analysis of emerging bacterial, viral and protozoal pathogens. Prerequisites: <a href=\"/search/?p=MMG%202010\" data-action=\"result-detail\" data-group=\"code:MMG 2010\" >MMG 2010</a>, <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>, or <a href=\"/search/?p=BCOR%202505\" data-action=\"result-detail\" data-group=\"code:BCOR 2505\" >BCOR 2505</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 2010\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}, {\"type\": \"course\", \"code\": \"BCOR 2505\"}]}",
-      "other_requirements": "PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "MMG 3993",
-      "course_code": "MMG 3993",
-      "department": "MMG",
-      "title": "Independent Study",
-      "credit_hours": "1 to 18",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Advisor permission required; PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "BCOR 2300",
-      "course_code": "BCOR 2300",
-      "department": "BCOR",
-      "title": "Genetics",
-      "credit_hours": "3",
-      "description": "The basis of inheritance, covering topics from classical genetics to modern molecular studies. Analysis of genetic data emphasized, from prokaryotic, animal, and plant systems.  Credit not awarded for both BCOR 2300 and <a href=\"/search/?p=ASCI%202160\" data-action=\"result-detail\" data-group=\"code:ASCI 2160\" >ASCI 2160</a>. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\" >CHEM 1100</a>, <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>, or <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\" >CHEM 1410</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1000\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1405\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}]}",
-      "other_requirements": "Degree students only even after level restrictions removed. Please email Laura.A.Newman@uvm.edu for all registration issues, including using BHSC 1340 in lieu of BIOL/BCOR. Must register for a discussion section A01-A09.",
-      "external": true
-    },
-    {
-      "id": "MMG 5210",
-      "course_code": "MMG 5210",
-      "department": "MMG",
-      "title": "Gr Medical Microbiology",
-      "credit_hours": "3",
-      "description": "Addresses the clinical importance of infectious diseases with emphasis on the appropriate collection, handling and identification of clinically relevant bacteria. Disease states, modes of transmission, prevention and antibiotic susceptibility testing will also be discussed. Credit not awarded for both MMG 5210 and <a href=\"/search/?p=MMG%203210\" data-action=\"result-detail\" data-group=\"code:MMG 3210\" >MMG 3210</a>. Prerequisite: Undergraduate course in microbiology recommended.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 5220\"}, {\"type\": \"course\", \"code\": \"MMG 3220A/ZRA\"}, {\"type\": \"course\", \"code\": \"MMG 3210\"}]}",
-      "other_requirements": "Undergraduate course in microbiology recommended.",
-      "external": false
-    },
-    {
-      "id": "BIOC 3007",
-      "course_code": "BIOC 3007",
-      "department": "BIOC",
-      "title": "Biochemistry Lab",
-      "credit_hours": "3",
-      "description": "Introduction to biochemical tools, including spectrometry, chromatography, and electrophoresis; natural and recombinant enzyme isolation; assays of DNA-modifying enzymes; computer-based structure/function exercises. Prerequisite: <a href=\"/search/?p=BIOC%203005\" data-action=\"result-detail\" data-group=\"code:BIOC 3005\" >BIOC 3005</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOC 3005\"}, {\"type\": \"course\", \"code\": \"MMG 3050\"}]}",
-      "other_requirements": "Degree students only even after level restrictions removed; PACE students register for BIOC 3007 ZRA; Colocated with BIOC 3007 ZRA; Total combined enrollment: 16; Labs begin 1st day of classes; Course fee: $100",
-      "external": true
-    },
-    {
-      "id": "MMG 1030",
-      "course_code": "MMG 1030",
-      "department": "MMG",
-      "title": "Methods in Microbial Ecology",
-      "credit_hours": "2",
-      "description": "A research methods laboratory course framed around identifying novel antibiotic-producing bacterial strains from local soil. Covers fundamental lab skills and practice reading and evaluating the work of other scientists. Students will create a research poster to present their findings.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MGEN 0\"}, {\"type\": \"course\", \"code\": \"MICR 0\"}]}",
-      "other_requirements": "First-year MGEN and/or MICR majors or instructor permission. PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "MMG 2994",
-      "course_code": "MMG 2994",
-      "department": "MMG",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Advisor permission required. PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "MMG 6330",
-      "course_code": "MMG 6330",
-      "department": "MMG",
-      "title": "Adv Genetics and Genomics",
-      "credit_hours": "3",
-      "description": "Covers the topics of gene structure, expression, epigenetics and inheritance. These basics will form the foundation of discussions on functional genomics and genome engineering. Current approaches and methodologies to address scientific questions related to these topics will be emphasized. Consequently, recent reviews and primary research literature will be the main texts used in the course. Prerequisites: Understanding of basic genetics, molecular biology, and biochemistry concepts is assumed.",
-      "prereq_expression": null,
-      "other_requirements": "Understanding of basic genetics, molecular biology, and biochemistry concepts is assumed.",
-      "external": false
-    },
-    {
-      "id": "BHSC 1340",
-      "course_code": "BHSC 1340",
-      "department": "BHSC",
-      "title": "Human Cell Biology",
-      "credit_hours": "4",
-      "description": "Lecture and laboratory experiences about molecular and cellular structure, function and physiology using human cells as the model.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MLS\"}, {\"type\": \"course\", \"code\": \"MRS\"}, {\"type\": \"course\", \"code\": \"BMCS\"}, {\"type\": \"course\", \"code\": \"BIOM\"}, {\"type\": \"course\", \"code\": \"HSCI\"}, {\"type\": \"course\", \"code\": \"PHS\"}]}]}",
-      "other_requirements": "Must register for Lab A01, A02, or A03; students only or Instructor permission; Student Lab Fee: $65.00; Degree students only, PACE students register for BHSC 1340 ZRA",
-      "external": true
-    },
-    {
-      "id": "MMG 1993",
-      "course_code": "MMG 1993",
-      "department": "MMG",
-      "title": "Independent Study",
-      "credit_hours": "1 to 18",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Advisor permission required; Offered at department discretion. PACE students by permission and override. Contact instructor for meeting location and time.",
-      "external": false
-    },
-    {
-      "id": "MMG 3995",
-      "course_code": "MMG 3995",
-      "department": "MMG",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Undergraduate Program Director approval. Pre/co-requisite: <a href=\"/search/?p=MMG%202995\" data-action=\"result-detail\" data-group=\"code:MMG 2995\" >MMG 2995</a> or Advisor Permission. Offered at department discretion.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 2995\"}, {\"type\": \"other\", \"description\": \"Advisor Permission\"}]}",
-      "other_requirements": "Undergraduate Program Director approval. PACE Student by Permission and Override",
-      "external": false
-    },
-    {
-      "id": "MMG 3330",
-      "course_code": "MMG 3330",
-      "department": "MMG",
-      "title": "Genetics and Genomics",
-      "credit_hours": "3",
-      "description": "Integrated entry into both genome science and modern genetic analysis. Students will develop skills needed to access, organize and interpret emerging genomic information. Credit not awarded for both MMG 3330 and <a href=\"/search/?p=MMG%205330\" data-action=\"result-detail\" data-group=\"code:MMG 5330\"  class=\"notoffered\">MMG 5330</a>. Prerequisites: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>; <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a> or <a href=\"/search/?p=BCOR%202505\" data-action=\"result-detail\" data-group=\"code:BCOR 2505\" >BCOR 2505</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2500\"}, {\"type\": \"course\", \"code\": \"BCOR 2505\"}]}]}",
-      "other_requirements": "Credit not awarded for both MMG 3330 and MMG 5330. Open to Degree and PACE students.",
-      "external": false
-    },
-    {
-      "id": "MMG 1995",
-      "course_code": "MMG 1995",
-      "department": "MMG",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "PACE Student by Permission and Override",
-      "external": false
-    },
-    {
-      "id": "MMG 1010",
-      "course_code": "MMG 1010",
-      "department": "MMG",
-      "title": "First Year Colloquium",
-      "credit_hours": "1",
-      "description": "Colloquium is designed to enhance faculty-student interactions in Microbiology and Molecular Genetics and to inform first-year majors about the educational and research opportunities in MMG. Instructor's permission for non- majors.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor's permission for non- majors. First-year MGEN and/or MICR majors, or with instructor permission",
-      "external": false
-    },
-    {
-      "id": "MMG 3200",
-      "course_code": "MMG 3200",
-      "department": "MMG",
-      "title": "Environmental Microbiology",
-      "credit_hours": "3",
-      "description": "Explores the fundamental principles that govern the lives of microorganisms and their interactions with the biosphere. Utilizes data generated from a variety of papers to demonstrate that microbes can both contribute to and offer solutions for the environmental challenges our planet faces. Prerequisite: <a href=\"/search/?p=MMG%201020\" data-action=\"result-detail\" data-group=\"code:MMG 1020\"  class=\"notoffered\">MMG 1020</a> or <a href=\"/search/?p=MMG%202010\" data-action=\"result-detail\" data-group=\"code:MMG 2010\"  class=\"notoffered\">MMG 2010</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 1020\"}, {\"type\": \"course\", \"code\": \"MMG 2010\"}]}",
-      "other_requirements": "Open to Degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "BCOR 1425",
-      "course_code": "BCOR 1425",
-      "department": "BCOR",
-      "title": "Accelerated Biology",
-      "credit_hours": "4",
-      "description": "Selected topics from the full year of introductory biology, compressed into one semester. For students with demonstrated mastery of basic biology (e.g., AP credit).  Permission required. Credit not awarded for both BCOR 1425 and <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> or <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>. Pre/co-requisite: <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>, or <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\" >CHEM 1410</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1405\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}]}",
-      "other_requirements": "For students with demonstrated mastery of basic biology (e.g., AP credit). Permission required. Credit not awarded for both BCOR 1425 and BCOR 1400 or BIOL 1400. By invitation only; for FTFY students with AP score of 4. Instructor permission required. Must register for a BCOR 1425 lab. Must be enrolled in CHEM 1400 if have no CHEM credit.",
-      "external": true
-    },
-    {
       "id": "MMG 2114",
       "course_code": "MMG 2114",
       "department": "MMG",
@@ -376,113 +211,14 @@
       "external": false
     },
     {
-      "id": "MMG 1650",
-      "course_code": "MMG 1650",
+      "id": "MMG 3250",
+      "course_code": "MMG 3250",
       "department": "MMG",
-      "title": "Microbiology & Pathogenesis",
-      "credit_hours": "4",
-      "description": "Overview of microbiology, emphasizing the relationships between the structure, metabolism, and genetics of microorganisms and their roles in nature and in pathogenesis. Prerequisite: One semester chemistry. Not intended for students who have completed <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a> and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1110\"}, {\"type\": \"course\", \"code\": \"CHEM 1210\"}, {\"type\": \"course\", \"code\": \"CHEM 1215\"}]}",
-      "other_requirements": "One semester chemistry. Not intended for students who have completed BIOL 1400 and BIOL 1450 or equivalent. Students with BIOL 1400 and 1450 or BCOR 1400 and 1450 should register for MMG 2010; 4 Hrs Chemistry; Must register for an MMG 1650 lab; Additional Lab fee: $50.00; PRNU majors only, or by instructor permission; Degree students only even after level restrictions removed; PACE students register for MMG 1650 ZRA; Colocated with MMG 1650 ZRA;",
-      "external": false
-    },
-    {
-      "id": "MMG 1020",
-      "course_code": "MMG 1020",
-      "department": "MMG",
-      "title": "Unseen Wrlds:Microbes & You",
+      "title": "Eukaryotic Virology",
       "credit_hours": "3",
-      "description": "Examination of current topics in Microbiology, such as antibiotic resistance, vaccinations, sexually transmitted diseases, and the human microbiome, focusing on the impact of microbes on human and animal health, the environment, agriculture, and modern culture around the world.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "MMG 2991",
-      "course_code": "MMG 2991",
-      "department": "MMG",
-      "title": "Internship",
-      "credit_hours": "1 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "MMG 3220",
-      "course_code": "MMG 3220",
-      "department": "MMG",
-      "title": "Adv Medical Microbiology w/lab",
-      "credit_hours": "4",
-      "description": "Comprehensive study of human pathogenic bacteria and their disease states in humans. Laboratory sessions provide practical experience in handling and identifying these pathogens. Credit not awarded for both MMG 3220 and <a href=\"/search/?p=MMG%205220\" data-action=\"result-detail\" data-group=\"code:MMG 5220\" >MMG 5220</a>. Prerequisite: <a href=\"/search/?p=MMG%202010\" data-action=\"result-detail\" data-group=\"code:MMG 2010\"  class=\"notoffered\">MMG 2010</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"MMG 2010\"}",
-      "other_requirements": "MLS, MGEN and MICR majors only; Must enroll in lab MMG 3220 L01; Degree students only even after level restrictions removed; PACE students register for MMG 3220 ZRA",
-      "external": false
-    },
-    {
-      "id": "BIOL 1100",
-      "course_code": "BIOL 1100",
-      "department": "BIOL",
-      "title": "Human Biology w/lab",
-      "credit_hours": "4",
-      "description": "For nonscience majors. Selected biological concepts and topics relevant to humans, such as cancer, human genetics, environmental toxicants. With virtual laboratory. Credit not awarded for both BIOL 1100 and <a href=\"/search/?p=BIOL%201105\" data-action=\"result-detail\" data-group=\"code:BIOL 1105\" >BIOL 1105</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "MMG 5990",
-      "course_code": "MMG 5990",
-      "department": "MMG",
-      "title": "Human Microbiome",
-      "credit_hours": "3",
-      "description": "Supervised investigations in microbiology or molecular genetics. Prerequisite: Instructor permission. Credit as arranged.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission. Credit as arranged. PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "MMG 2040",
-      "course_code": "MMG 2040",
-      "department": "MMG",
-      "title": "Intro Molecular Genetics",
-      "credit_hours": "4",
-      "description": "Designed to present the science of molecular genetics combined with the laboratory practices of recombinant DNA technology (genetic engineering), gene editing, and bioinformatics. Prerequisites: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>, <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>, or <a href=\"/search/?p=BCOR%202505\" data-action=\"result-detail\" data-group=\"code:BCOR 2505\" >BCOR 2505</a>; Microbiology &amp; Molecular Genetics major or minor.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}, {\"type\": \"course\", \"code\": \"BCOR 2505\"}]}",
-      "other_requirements": "Microbiology & Molecular Genetics major or minor. Prereqs enforced by the system:MMG 2010; MICR and MGEN majors & minors only; Others by instructor permission; Must enroll in lab MMG 2040 L01-L04; Course lab fee: $100.00; PACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "BCOR 1400",
-      "course_code": "BCOR 1400",
-      "department": "BCOR",
-      "title": "Exploring Biology 1",
-      "credit_hours": "4",
-      "description": "Exploring biology from cells to organisms.  Topics include origins of life, ancestral organisms, uni- and multi- cellular energetics, evolution of respiration and metabolism, and the genetic code. Credit not awarded for both BCOR 1400 and <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "MMG 3110",
-      "course_code": "MMG 3110",
-      "department": "MMG",
-      "title": "Bacterial Genetics",
-      "credit_hours": "3",
-      "description": "Bacterial genetics and the biology of bacteria at an intermediate to advanced level. Specific topics include regulation of replication, transcription, translation, post-translation, mRNA stability, secretion, signaling, and motility. Credit not awarded for both MMG 3110 and <a href=\"/search/?p=MMG%205110\" data-action=\"result-detail\" data-group=\"code:MMG 5110\"  class=\"notoffered\">MMG 5110</a>. Prerequisites: <a href=\"/search/?p=MMG%202010\" data-action=\"result-detail\" data-group=\"code:MMG 2010\" >MMG 2010</a>, <a href=\"/search/?p=MMG%202040\" data-action=\"result-detail\" data-group=\"code:MMG 2040\"  class=\"notoffered\">MMG 2040</a>, or <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 2010\"}, {\"type\": \"course\", \"code\": \"MMG 2040\"}, {\"type\": \"course\", \"code\": \"BCOR 2300\"}]}",
-      "other_requirements": "Intro Microbiology, Biochemistry, Genetics and/or Cell Biology courses; Degree students only even after level restrictions removed; Post Bac Pre Med and PACE students register for MMG 3110 ZRA;",
-      "external": false
-    },
-    {
-      "id": "MMG 3310",
-      "course_code": "MMG 3310",
-      "department": "MMG",
-      "title": "Survey Bioinformatic Databases",
-      "credit_hours": "3",
-      "description": "Provides a broad overview of bioinformatics as applied to biomedical research. Topics include data mining, DNA sequence alignment, genetic variation, study design for high-throughput sequencing (HTS), and transcriptomics. Emphasizes a direct, hands-on experience and interacting with software, as opposed to creating software. Credit not awarded for both MMG 3310 and <a href=\"/search/?p=MMG%205310\" data-action=\"result-detail\" data-group=\"code:MMG 5310\"  class=\"notoffered\">MMG 5310</a>. Prerequisite: <a href=\"/search/?p=MMG%202040\" data-action=\"result-detail\" data-group=\"code:MMG 2040\"  class=\"notoffered\">MMG 2040</a> or <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 2040\"}, {\"type\": \"course\", \"code\": \"BCOR 2300\"}]}",
-      "other_requirements": "PACE students by permission and override.",
+      "description": "An in-depth analysis of eukaryotic virus-mammalian cell interactions emphasizing mechanisms by which viruses modulate gene expression in infected cells. Prerequisites: <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a> or <a href=\"/search/?p=BCOR%202505\" data-action=\"result-detail\" data-group=\"code:BCOR 2505\" >BCOR 2505</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2500\"}, {\"type\": \"course\", \"code\": \"BCOR 2505\"}]}",
+      "other_requirements": "Open to Degree and PACE students",
       "external": false
     },
     {
@@ -497,25 +233,135 @@
       "external": false
     },
     {
-      "id": "MMG 3320",
-      "course_code": "MMG 3320",
+      "id": "MMG 3993",
+      "course_code": "MMG 3993",
       "department": "MMG",
-      "title": "Advanced Bioinformatics",
-      "credit_hours": "3",
-      "description": "Provides advanced training in bioinformatics tools and techniques. Particular emphasis is given to programs associated with sequence analysis, comparative genomics, structural biology, and computational biology. Other topics such as data integration, biological data interpretation, R and UNIX-scripting, multi-omics, and systems biology will be covered. Emphasizes a direct, hands-on experience. Credit not awarded for both MMG 3320 and <a href=\"/search/?p=MMG%205320\" data-action=\"result-detail\" data-group=\"code:MMG 5320\"  class=\"notoffered\">MMG 5320</a>. Prerequisites: <a href=\"/search/?p=MMG%203310\" data-action=\"result-detail\" data-group=\"code:MMG 3310\"  class=\"notoffered\">MMG 3310</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"MMG 3310\"}",
-      "other_requirements": "Degree students only even after level restrictions removed; PACE students should register for MMG 3320 ZRA; Colocated with MMG 3320 ZRA,MMG 5320Total combined enrollment: 30; Open to Degree and PACE students; intended for students in the biological sciences who have already completed the introductory course, Survey to Bioinformatic Databases.",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Advisor permission required; PACE students by permission and override.",
       "external": false
     },
     {
-      "id": "MMG 6990",
-      "course_code": "MMG 6990",
+      "id": "MMG 3200",
+      "course_code": "MMG 3200",
       "department": "MMG",
-      "title": "R Program for Biomedical Rsrch",
+      "title": "Environmental Microbiology",
       "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
+      "description": "Explores the fundamental principles that govern the lives of microorganisms and their interactions with the biosphere. Utilizes data generated from a variety of papers to demonstrate that microbes can both contribute to and offer solutions for the environmental challenges our planet faces. Prerequisite: <a href=\"/search/?p=MMG%201020\" data-action=\"result-detail\" data-group=\"code:MMG 1020\"  class=\"notoffered\">MMG 1020</a> or <a href=\"/search/?p=MMG%202010\" data-action=\"result-detail\" data-group=\"code:MMG 2010\"  class=\"notoffered\">MMG 2010</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 1020\"}, {\"type\": \"course\", \"code\": \"MMG 2010\"}]}",
+      "other_requirements": "Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "MMG 5220",
+      "course_code": "MMG 5220",
+      "department": "MMG",
+      "title": "Gr Medical Micro w/lab",
+      "credit_hours": "4",
+      "description": "Comprehensive study of human pathogenic bacteria and their disease states in humans. Laboratory sessions provide practical experience in handling and identifying these pathogens. Credit not awarded for both MMG 5220 and <a href=\"/search/?p=MMG%203220\" data-action=\"result-detail\" data-group=\"code:MMG 3220\" >MMG 3220</a>. Prerequisite: Undergraduate course in microbiology recommended.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 5210A\"}, {\"type\": \"course\", \"code\": \"MMG 3220A\"}, {\"type\": \"course\", \"code\": \"MMG 3220ZRA\"}, {\"type\": \"course\", \"code\": \"MMG 3210A\"}]}",
+      "other_requirements": "Undergraduate course in microbiology recommended. Must register for MMG 5220 L01 lab",
+      "external": false
+    },
+    {
+      "id": "BIOL 1100",
+      "course_code": "BIOL 1100",
+      "department": "BIOL",
+      "title": "Human Biology w/lab",
+      "credit_hours": "4",
+      "description": "For nonscience majors. Selected biological concepts and topics relevant to humans, such as cancer, human genetics, environmental toxicants. With virtual laboratory. Credit not awarded for both BIOL 1100 and <a href=\"/search/?p=BIOL%201105\" data-action=\"result-detail\" data-group=\"code:BIOL 1105\" >BIOL 1105</a>.",
       "prereq_expression": null,
       "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "MMG 5994",
+      "course_code": "MMG 5994",
+      "department": "MMG",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1",
+      "description": "Student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "MMG 1010",
+      "course_code": "MMG 1010",
+      "department": "MMG",
+      "title": "First Year Colloquium",
+      "credit_hours": "1",
+      "description": "Colloquium is designed to enhance faculty-student interactions in Microbiology and Molecular Genetics and to inform first-year majors about the educational and research opportunities in MMG. Instructor's permission for non- majors.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor's permission for non- majors. First-year MGEN and/or MICR majors, or with instructor permission",
+      "external": false
+    },
+    {
+      "id": "MMG 3995",
+      "course_code": "MMG 3995",
+      "department": "MMG",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Undergraduate Program Director approval. Pre/co-requisite: <a href=\"/search/?p=MMG%202995\" data-action=\"result-detail\" data-group=\"code:MMG 2995\" >MMG 2995</a> or Advisor Permission. Offered at department discretion.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 2995\"}, {\"type\": \"other\", \"description\": \"Advisor Permission\"}]}",
+      "other_requirements": "Undergraduate Program Director approval. PACE Student by Permission and Override",
+      "external": false
+    },
+    {
+      "id": "MMG 5990",
+      "course_code": "MMG 5990",
+      "department": "MMG",
+      "title": "Human Microbiome",
+      "credit_hours": "3",
+      "description": "Supervised investigations in microbiology or molecular genetics. Prerequisite: Instructor permission. Credit as arranged.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission. Credit as arranged. PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "MMG 5270",
+      "course_code": "MMG 5270",
+      "department": "MMG",
+      "title": "Advanced Cancer Genetics",
+      "credit_hours": "3",
+      "description": "Focuses on genetic mechanisms that either protect us from cancer or increase our vulnerability to cancer. Discusses genetic methods that are being used to discover genes that influence cancer risk or may prove useful in diagnostics or cancer therapy. Credit not awarded for both MMG 5270 and <a href=\"/search/?p=MMG%203270\" data-action=\"result-detail\" data-group=\"code:MMG 3270\" >MMG 3270</a>. Prerequisites: An introductory courses in genetics and cell biology is recommended.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GENETICS\"}, {\"type\": \"course\", \"code\": \"CELL BIOLOGY\"}]}",
+      "other_requirements": "An introductory courses in genetics and cell biology is recommended.",
+      "external": false
+    },
+    {
+      "id": "MMG 2994",
+      "course_code": "MMG 2994",
+      "department": "MMG",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Advisor permission required. PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "MMG 3300",
+      "course_code": "MMG 3300",
+      "department": "MMG",
+      "title": "Emerging Infectious Diseases",
+      "credit_hours": "3",
+      "description": "Presents an interdisciplinary approach to understanding the emergence, and re-emergence, of infectious diseases in a rapidly changing global environment. Historical, cultural, environmental and biological perspectives are incorporated into the analysis of emerging bacterial, viral and protozoal pathogens. Prerequisites: <a href=\"/search/?p=MMG%202010\" data-action=\"result-detail\" data-group=\"code:MMG 2010\" >MMG 2010</a>, <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>, or <a href=\"/search/?p=BCOR%202505\" data-action=\"result-detail\" data-group=\"code:BCOR 2505\" >BCOR 2505</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 2010\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}, {\"type\": \"course\", \"code\": \"BCOR 2505\"}]}",
+      "other_requirements": "PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "MMG 2040",
+      "course_code": "MMG 2040",
+      "department": "MMG",
+      "title": "Intro Molecular Genetics",
+      "credit_hours": "4",
+      "description": "Designed to present the science of molecular genetics combined with the laboratory practices of recombinant DNA technology (genetic engineering), gene editing, and bioinformatics. Prerequisites: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>, <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>, or <a href=\"/search/?p=BCOR%202505\" data-action=\"result-detail\" data-group=\"code:BCOR 2505\" >BCOR 2505</a>; Microbiology &amp; Molecular Genetics major or minor.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}, {\"type\": \"course\", \"code\": \"BCOR 2505\"}]}",
+      "other_requirements": "Microbiology & Molecular Genetics major or minor. Prereqs enforced by the system:MMG 2010; MICR and MGEN majors & minors only; Others by instructor permission; Must enroll in lab MMG 2040 L01-L04; Course lab fee: $100.00; PACE students by permission and override",
       "external": false
     },
     {
@@ -530,229 +376,436 @@
       "external": false
     },
     {
-      "id": "MMG 2700",
-      "course_code": "MMG 2700",
-      "department": "MMG",
-      "title": "Foundations in R for Life Sci",
+      "id": "BCOR 2300",
+      "course_code": "BCOR 2300",
+      "department": "BCOR",
+      "title": "Genetics",
       "credit_hours": "3",
-      "description": "Introduces students to programming in R, with a focus on applications in microbial and cancer genomics. Through a combination of lectures and labs, covers R syntax, data wrangling with the tidyverse, exploratory statistics, and data visualization with ggplot2. Explores discipline-specific topics, including antimicrobial resistance (AMR) gene detection, microbiome composition analysis, and the exploration of transcriptional and mutational profiles in cancer datasets. Prerequisite: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"BCOR 2300\"}",
+      "description": "The basis of inheritance, covering topics from classical genetics to modern molecular studies. Analysis of genetic data emphasized, from prokaryotic, animal, and plant systems.  Credit not awarded for both BCOR 2300 and <a href=\"/search/?p=ASCI%202160\" data-action=\"result-detail\" data-group=\"code:ASCI 2160\" >ASCI 2160</a>. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\" >CHEM 1100</a>, <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>, or <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\" >CHEM 1410</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1000\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1405\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}]}",
+      "other_requirements": "Degree students only even after level restrictions removed. Please email Laura.A.Newman@uvm.edu for all registration issues, including using BHSC 1340 in lieu of BIOL/BCOR. Must register for a discussion section A01-A09.",
+      "external": true
+    },
+    {
+      "id": "MMG 3994",
+      "course_code": "MMG 3994",
+      "department": "MMG",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion. Instructor permission required. PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "MMG 4899",
+      "course_code": "MMG 4899",
+      "department": "MMG",
+      "title": "Senior Seminar",
+      "credit_hours": "2",
+      "description": "Required capstone course for Microbiology and Molecular Genetics majors; involves written and oral presentations by Seniors on current topics in microbiology/molecular genetics. Prerequisites: <a href=\"/search/?p=MMG%202010\" data-action=\"result-detail\" data-group=\"code:MMG 2010\" >MMG 2010</a>, <a href=\"/search/?p=MMG%202040\" data-action=\"result-detail\" data-group=\"code:MMG 2040\"  class=\"notoffered\">MMG 2040</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 2010\"}, {\"type\": \"course\", \"code\": \"MMG 2040\"}]}",
+      "other_requirements": "Required capstone course for Microbiology and Molecular Genetics majors; involves written and oral presentations by Seniors on current topics in microbiology/molecular genetics.",
+      "external": false
+    },
+    {
+      "id": "MMG 1020",
+      "course_code": "MMG 1020",
+      "department": "MMG",
+      "title": "Unseen Wrlds:Microbes & You",
+      "credit_hours": "3",
+      "description": "Examination of current topics in Microbiology, such as antibiotic resistance, vaccinations, sexually transmitted diseases, and the human microbiome, focusing on the impact of microbes on human and animal health, the environment, agriculture, and modern culture around the world.",
+      "prereq_expression": null,
       "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "MMG 3310",
+      "course_code": "MMG 3310",
+      "department": "MMG",
+      "title": "Survey Bioinformatic Databases",
+      "credit_hours": "3",
+      "description": "Provides a broad overview of bioinformatics as applied to biomedical research. Topics include data mining, DNA sequence alignment, genetic variation, study design for high-throughput sequencing (HTS), and transcriptomics. Emphasizes a direct, hands-on experience and interacting with software, as opposed to creating software. Credit not awarded for both MMG 3310 and <a href=\"/search/?p=MMG%205310\" data-action=\"result-detail\" data-group=\"code:MMG 5310\"  class=\"notoffered\">MMG 5310</a>. Prerequisite: <a href=\"/search/?p=MMG%202040\" data-action=\"result-detail\" data-group=\"code:MMG 2040\"  class=\"notoffered\">MMG 2040</a> or <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 2040\"}, {\"type\": \"course\", \"code\": \"BCOR 2300\"}]}",
+      "other_requirements": "PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "BIOC 3007",
+      "course_code": "BIOC 3007",
+      "department": "BIOC",
+      "title": "Biochemistry Lab",
+      "credit_hours": "3",
+      "description": "Introduction to biochemical tools, including spectrometry, chromatography, and electrophoresis; natural and recombinant enzyme isolation; assays of DNA-modifying enzymes; computer-based structure/function exercises. Prerequisite: <a href=\"/search/?p=BIOC%203005\" data-action=\"result-detail\" data-group=\"code:BIOC 3005\" >BIOC 3005</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOC 3005\"}, {\"type\": \"course\", \"code\": \"MMG 3050\"}]}",
+      "other_requirements": "Degree students only even after level restrictions removed; PACE students register for BIOC 3007 ZRA; Colocated with BIOC 3007 ZRA; Total combined enrollment: 16; Labs begin 1st day of classes; Course fee: $100",
+      "external": true
+    },
+    {
+      "id": "MMG 5210",
+      "course_code": "MMG 5210",
+      "department": "MMG",
+      "title": "Gr Medical Microbiology",
+      "credit_hours": "3",
+      "description": "Addresses the clinical importance of infectious diseases with emphasis on the appropriate collection, handling and identification of clinically relevant bacteria. Disease states, modes of transmission, prevention and antibiotic susceptibility testing will also be discussed. Credit not awarded for both MMG 5210 and <a href=\"/search/?p=MMG%203210\" data-action=\"result-detail\" data-group=\"code:MMG 3210\" >MMG 3210</a>. Prerequisite: Undergraduate course in microbiology recommended.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 5220\"}, {\"type\": \"course\", \"code\": \"MMG 3220A/ZRA\"}, {\"type\": \"course\", \"code\": \"MMG 3210\"}]}",
+      "other_requirements": "Undergraduate course in microbiology recommended.",
+      "external": false
+    },
+    {
+      "id": "BIOL 1400",
+      "course_code": "BIOL 1400",
+      "department": "BIOL",
+      "title": "Principles of Biology 1",
+      "credit_hours": "4",
+      "description": "Principles of cellular biochemistry; cell biology; genetics and evolution. Topics: biochemistry; metabolism, cell structure/function; respiration; photosynthesis; molecular, Mendelian and population genetics; genetics of evolution. Credit not awarded for both BIOL 1400 and <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Credit not awarded for both BIOL 1400 and BCOR 1400 or BCOR 1425. Must register for a BIOL 1400 lab; Lab supply fee: $30; Degree students only even after level restrictions removed; Post Bac Pre Med & PACE students register for BIOL 1400 ZRA Colocated with BIOL 1400 ZRA",
+      "external": true
+    },
+    {
+      "id": "MMG 1995",
+      "course_code": "MMG 1995",
+      "department": "MMG",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "PACE Student by Permission and Override",
+      "external": false
+    },
+    {
+      "id": "MMG 1993",
+      "course_code": "MMG 1993",
+      "department": "MMG",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Advisor permission required; Offered at department discretion. PACE students by permission and override. Contact instructor for meeting location and time.",
+      "external": false
+    },
+    {
+      "id": "BCOR 1400",
+      "course_code": "BCOR 1400",
+      "department": "BCOR",
+      "title": "Exploring Biology 1",
+      "credit_hours": "4",
+      "description": "Exploring biology from cells to organisms.  Topics include origins of life, ancestral organisms, uni- and multi- cellular energetics, evolution of respiration and metabolism, and the genetic code. Credit not awarded for both BCOR 1400 and <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "MMG 6890",
+      "course_code": "MMG 6890",
+      "department": "MMG",
+      "title": "Graduate Teaching Practicum",
+      "credit_hours": "3",
+      "description": "Required practicum for all Microbiology and Molecular Genetics Master's Students. Students will be exposed to and mentored in the fundamentals of undergraduate teaching and learning in the laboratory setting.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "MMG 6391",
+      "course_code": "MMG 6391",
+      "department": "MMG",
+      "title": "Master's Thesis Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Master's Thesis.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "MMG 1650",
+      "course_code": "MMG 1650",
+      "department": "MMG",
+      "title": "Microbiology & Pathogenesis",
+      "credit_hours": "4",
+      "description": "Overview of microbiology, emphasizing the relationships between the structure, metabolism, and genetics of microorganisms and their roles in nature and in pathogenesis. Prerequisite: One semester chemistry. Not intended for students who have completed <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a> and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1110\"}, {\"type\": \"course\", \"code\": \"CHEM 1210\"}, {\"type\": \"course\", \"code\": \"CHEM 1215\"}]}",
+      "other_requirements": "One semester chemistry. Not intended for students who have completed BIOL 1400 and BIOL 1450 or equivalent. Students with BIOL 1400 and 1450 or BCOR 1400 and 1450 should register for MMG 2010; 4 Hrs Chemistry; Must register for an MMG 1650 lab; Additional Lab fee: $50.00; PRNU majors only, or by instructor permission; Degree students only even after level restrictions removed; PACE students register for MMG 1650 ZRA; Colocated with MMG 1650 ZRA;",
+      "external": false
+    },
+    {
+      "id": "MMG 3010",
+      "course_code": "MMG 3010",
+      "department": "MMG",
+      "title": "Applied Cell & Mol Bio Lab",
+      "credit_hours": "4",
+      "description": "A course based undergraduate research experience (CURE), covering the basic principles and techniques of mammalian cell culture and molecular biology tools to perform a student-designed CRISPRi experiment. The research culminates with working group presentations and the writing of individual research manuscripts. Lab work outside of class time is routinely necessary. Prerequisites: <a href=\"/search/?p=MMG%202040\" data-action=\"result-detail\" data-group=\"code:MMG 2040\"  class=\"notoffered\">MMG 2040</a> or <a href=\"/search/?p=BIOC%203007\" data-action=\"result-detail\" data-group=\"code:BIOC 3007\" >BIOC 3007</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 2040\"}, {\"type\": \"course\", \"code\": \"BIOC 3007\"}]}",
+      "other_requirements": "MICR, MGEN & Biochemistry majors only,\nothers by instructor permission;\nLabs begin on first day of class;\nLab fee $160\nPACE students by permission and override.",
       "external": false
     }
   ],
   "edges": [
     {
       "source": "BCOR 1400",
-      "target": "BCOR 2300"
+      "target": "BCOR 2300",
+      "group": "BCOR 2300__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "BCOR 2500"
+      "target": "BCOR 2500",
+      "group": "BCOR 2500__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "BCOR 2505"
+      "target": "BCOR 2505",
+      "group": "BCOR 2505__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "MMG 2010"
+      "target": "MMG 2010",
+      "group": "MMG 2010__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "MMG 2114"
+      "target": "MMG 2114",
+      "group": "MMG 2114__g0"
     },
     {
       "source": "BCOR 1425",
-      "target": "BCOR 2300"
+      "target": "BCOR 2300",
+      "group": "BCOR 2300__g1"
     },
     {
       "source": "BCOR 1425",
-      "target": "BCOR 2500"
+      "target": "BCOR 2500",
+      "group": "BCOR 2500__g0"
     },
     {
       "source": "BCOR 1425",
-      "target": "BCOR 2505"
+      "target": "BCOR 2505",
+      "group": "BCOR 2505__g0"
     },
     {
       "source": "BCOR 1425",
-      "target": "MMG 2010"
+      "target": "MMG 2010",
+      "group": "MMG 2010__g0"
     },
     {
       "source": "BCOR 1425",
-      "target": "MMG 2114"
+      "target": "MMG 2114",
+      "group": "MMG 2114__g0"
     },
     {
       "source": "BCOR 2300",
-      "target": "MMG 2040"
+      "target": "MMG 2040",
+      "group": "MMG 2040__g0"
     },
     {
       "source": "BCOR 2300",
-      "target": "MMG 2060"
+      "target": "MMG 2060",
+      "group": "MMG 2060__g0"
     },
     {
       "source": "BCOR 2300",
-      "target": "MMG 2700"
+      "target": "MMG 2700",
+      "group": null
     },
     {
       "source": "BCOR 2300",
-      "target": "MMG 3110"
+      "target": "MMG 3110",
+      "group": "MMG 3110__g0"
     },
     {
       "source": "BCOR 2300",
-      "target": "MMG 3270"
+      "target": "MMG 3270",
+      "group": null
     },
     {
       "source": "BCOR 2300",
-      "target": "MMG 3310"
+      "target": "MMG 3310",
+      "group": "MMG 3310__g0"
     },
     {
       "source": "BCOR 2300",
-      "target": "MMG 3330"
+      "target": "MMG 3330",
+      "group": null
     },
     {
       "source": "BCOR 2500",
-      "target": "MMG 2040"
+      "target": "MMG 2040",
+      "group": "MMG 2040__g0"
     },
     {
       "source": "BCOR 2500",
-      "target": "MMG 2060"
+      "target": "MMG 2060",
+      "group": "MMG 2060__g0"
     },
     {
       "source": "BCOR 2500",
-      "target": "MMG 3250"
+      "target": "MMG 3250",
+      "group": "MMG 3250__g0"
     },
     {
       "source": "BCOR 2500",
-      "target": "MMG 3270"
+      "target": "MMG 3270",
+      "group": "MMG 3270__g0"
     },
     {
       "source": "BCOR 2500",
-      "target": "MMG 3300"
+      "target": "MMG 3300",
+      "group": "MMG 3300__g0"
     },
     {
       "source": "BCOR 2500",
-      "target": "MMG 3330"
+      "target": "MMG 3330",
+      "group": "MMG 3330__g0"
     },
     {
       "source": "BCOR 2505",
-      "target": "MMG 2040"
+      "target": "MMG 2040",
+      "group": "MMG 2040__g0"
     },
     {
       "source": "BCOR 2505",
-      "target": "MMG 2060"
+      "target": "MMG 2060",
+      "group": "MMG 2060__g0"
     },
     {
       "source": "BCOR 2505",
-      "target": "MMG 3250"
+      "target": "MMG 3250",
+      "group": "MMG 3250__g0"
     },
     {
       "source": "BCOR 2505",
-      "target": "MMG 3270"
+      "target": "MMG 3270",
+      "group": "MMG 3270__g0"
     },
     {
       "source": "BCOR 2505",
-      "target": "MMG 3300"
+      "target": "MMG 3300",
+      "group": "MMG 3300__g0"
     },
     {
       "source": "BCOR 2505",
-      "target": "MMG 3330"
+      "target": "MMG 3330",
+      "group": "MMG 3330__g0"
     },
     {
       "source": "BHSC 1340",
-      "target": "MMG 2010"
+      "target": "MMG 2010",
+      "group": "MMG 2010__g0"
     },
     {
       "source": "BIOC 3007",
-      "target": "MMG 3010"
+      "target": "MMG 3010",
+      "group": "MMG 3010__g0"
     },
     {
       "source": "BIOL 1100",
-      "target": "MMG 2114"
+      "target": "MMG 2114",
+      "group": "MMG 2114__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "BCOR 2300"
+      "target": "BCOR 2300",
+      "group": "BCOR 2300__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "BCOR 2500"
+      "target": "BCOR 2500",
+      "group": "BCOR 2500__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "BCOR 2505"
+      "target": "BCOR 2505",
+      "group": "BCOR 2505__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "MMG 2010"
+      "target": "MMG 2010",
+      "group": "MMG 2010__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "MMG 2114"
+      "target": "MMG 2114",
+      "group": "MMG 2114__g0"
     },
     {
       "source": "MMG 1020",
-      "target": "MMG 3200"
+      "target": "MMG 3200",
+      "group": "MMG 3200__g0"
     },
     {
       "source": "MMG 2010",
-      "target": "MMG 2060"
+      "target": "MMG 2060",
+      "group": null
     },
     {
       "source": "MMG 2010",
-      "target": "MMG 3110"
+      "target": "MMG 3110",
+      "group": "MMG 3110__g0"
     },
     {
       "source": "MMG 2010",
-      "target": "MMG 3200"
+      "target": "MMG 3200",
+      "group": "MMG 3200__g0"
     },
     {
       "source": "MMG 2010",
-      "target": "MMG 3210"
+      "target": "MMG 3210",
+      "group": null
     },
     {
       "source": "MMG 2010",
-      "target": "MMG 3220"
+      "target": "MMG 3220",
+      "group": null
     },
     {
       "source": "MMG 2010",
-      "target": "MMG 3300"
+      "target": "MMG 3300",
+      "group": "MMG 3300__g0"
     },
     {
       "source": "MMG 2010",
-      "target": "MMG 4899"
+      "target": "MMG 4899",
+      "group": null
     },
     {
       "source": "MMG 2040",
-      "target": "MMG 3010"
+      "target": "MMG 3010",
+      "group": "MMG 3010__g0"
     },
     {
       "source": "MMG 2040",
-      "target": "MMG 3110"
+      "target": "MMG 3110",
+      "group": "MMG 3110__g0"
     },
     {
       "source": "MMG 2040",
-      "target": "MMG 3310"
+      "target": "MMG 3310",
+      "group": "MMG 3310__g0"
     },
     {
       "source": "MMG 2040",
-      "target": "MMG 4899"
+      "target": "MMG 4899",
+      "group": null
     },
     {
       "source": "MMG 2995",
-      "target": "MMG 3995"
+      "target": "MMG 3995",
+      "group": "MMG 3995__g0"
     },
     {
       "source": "MMG 3210",
-      "target": "MMG 5210"
+      "target": "MMG 5210",
+      "group": "MMG 5210__g0"
     },
     {
       "source": "MMG 3310",
-      "target": "MMG 3320"
+      "target": "MMG 3320",
+      "group": null
     },
     {
       "source": "MMG 5220",
-      "target": "MMG 5210"
+      "target": "MMG 5210",
+      "group": "MMG 5210__g0"
     }
   ]
 }

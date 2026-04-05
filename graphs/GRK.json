@@ -2,12 +2,12 @@
   "department": "GRK",
   "nodes": [
     {
-      "id": "GRK 4996",
-      "course_code": "GRK 4996",
+      "id": "GRK 1100",
+      "course_code": "GRK 1100",
       "department": "GRK",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "title": "Elementary Ancient Greek I",
+      "credit_hours": "4",
+      "description": "Fundamentals of fifth-century Attic (Athenian) Greek, in preparation for reading great works of Thucydides, Aeschylus, Sophocles, Euripides, Aristophanes, Lysias, Plato, Aristotle, Demosthenes, Homer, Herodotus, Sappho, Pindar, New Testament, and more.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -24,17 +24,6 @@
       "external": false
     },
     {
-      "id": "GRK 4650",
-      "course_code": "GRK 4650",
-      "department": "GRK",
-      "title": "Topics in Greek Poetry",
-      "credit_hours": "3",
-      "description": "Representative topics: Greek Epic (Iliad, Odyssey), Greek Lyric Poetry (Archilochus to Pindar, including Sappho, Alcaeus, Simonides, Bacchylides), Greek Comedy (Aristophanes), Greek Tragedy (Sophocles' Antigone, Euripides' Medea, or two equivalent plays). May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Credit not awarded for both GRK 4650 and <a href=\"/search/?p=GRK%205650\" data-action=\"result-detail\" data-group=\"code:GRK 5650\"  class=\"notoffered\">GRK 5650</a>. Prerequisite: <a href=\"/search/?p=GRK%202200\" data-action=\"result-detail\" data-group=\"code:GRK 2200\"  class=\"notoffered\">GRK 2200</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"GRK 2200\"}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
       "id": "GRK 2200",
       "course_code": "GRK 2200",
       "department": "GRK",
@@ -46,13 +35,24 @@
       "external": false
     },
     {
-      "id": "GRK 1100",
-      "course_code": "GRK 1100",
+      "id": "GRK 4996",
+      "course_code": "GRK 4996",
       "department": "GRK",
-      "title": "Elementary Ancient Greek I",
-      "credit_hours": "4",
-      "description": "Fundamentals of fifth-century Attic (Athenian) Greek, in preparation for reading great works of Thucydides, Aeschylus, Sophocles, Euripides, Aristophanes, Lysias, Plato, Aristotle, Demosthenes, Homer, Herodotus, Sappho, Pindar, New Testament, and more.",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
       "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GRK 4650",
+      "course_code": "GRK 4650",
+      "department": "GRK",
+      "title": "Topics in Greek Poetry",
+      "credit_hours": "3",
+      "description": "Representative topics: Greek Epic (Iliad, Odyssey), Greek Lyric Poetry (Archilochus to Pindar, including Sappho, Alcaeus, Simonides, Bacchylides), Greek Comedy (Aristophanes), Greek Tragedy (Sophocles' Antigone, Euripides' Medea, or two equivalent plays). May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Credit not awarded for both GRK 4650 and <a href=\"/search/?p=GRK%205650\" data-action=\"result-detail\" data-group=\"code:GRK 5650\"  class=\"notoffered\">GRK 5650</a>. Prerequisite: <a href=\"/search/?p=GRK%202200\" data-action=\"result-detail\" data-group=\"code:GRK 2200\"  class=\"notoffered\">GRK 2200</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"GRK 2200\"}",
       "other_requirements": null,
       "external": false
     }
@@ -60,7 +60,8 @@
   "edges": [
     {
       "source": "GRK 2200",
-      "target": "GRK 4650"
+      "target": "GRK 4650",
+      "group": null
     }
   ]
 }

@@ -2,39 +2,6 @@
   "department": "SOC",
   "nodes": [
     {
-      "id": "SOC 1500",
-      "course_code": "SOC 1500",
-      "department": "SOC",
-      "title": "Introduction to Sociology",
-      "credit_hours": "3",
-      "description": "Fundamental principles and problems in the sociological analysis of the structure and dynamics of modern society.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "SOC 2460",
-      "course_code": "SOC 2460",
-      "department": "SOC",
-      "title": "Sociology of Disaster",
-      "credit_hours": "3",
-      "description": "Examination of disasters using a sociological, critical lens. Analysis of research, theories, and current debates in the field of disaster sociology. Prerequisite: Three hours of Sociology.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1234\"}, {\"type\": \"course\", \"code\": \"SOC 1234\"}, {\"type\": \"course\", \"code\": \"SOC 1234\"}]}, {\"type\": \"course\", \"code\": \"SOPHOMORE STANDING\"}]}",
-      "other_requirements": "PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "STAT 1110",
-      "course_code": "STAT 1110",
-      "department": "STAT",
-      "title": "Elements of Statistics",
-      "credit_hours": "3",
-      "description": "Basic statistical concepts, methods, and applications, including correlation, regression, confidence intervals, and hypothesis tests. Prerequisites: Two years of high school algebra.",
-      "prereq_expression": null,
-      "other_requirements": "Two years of high school algebra. Open to Degree and PACE students",
-      "external": true
-    },
-    {
       "id": "SOC 1375",
       "course_code": "SOC 1375",
       "department": "SOC",
@@ -43,160 +10,6 @@
       "description": "An overview of the socio-historical conditions of people of Asian descent in the United States, along with an examination of contemporary issues. Cross-listed with: <a href=\"/search/?p=CRES%201885\" data-action=\"result-detail\" data-group=\"code:CRES 1885\" >CRES 1885</a>.",
       "prereq_expression": null,
       "other_requirements": "Open to degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "SOC 2550",
-      "course_code": "SOC 2550",
-      "department": "SOC",
-      "title": "Social Theory",
-      "credit_hours": "3",
-      "description": "Classical sociological theory including Marx, Weber, Durkheim, and Mead, as well as DuBois and early female theorists such as Martineau. Reading and writing intensive. Prerequisites: <a href=\"/search/?p=SOC%201500\" data-action=\"result-detail\" data-group=\"code:SOC 1500\" >SOC 1500</a>; three additional hours of Sociology; minimum Sophomore standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1500\"}]}",
-      "other_requirements": "three additional hours of Sociology; minimum Sophomore standing. PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "SOC 3240",
-      "course_code": "SOC 3240",
-      "department": "SOC",
-      "title": "Sociology of Law",
-      "credit_hours": "3",
-      "description": "Analysis of sociocultural structure of the legal institution and its relationships to other institutions: the social organization of the legal profession, lawmaking, and the courts. Prerequisites: <a href=\"/search/?p=SOC%201500\" data-action=\"result-detail\" data-group=\"code:SOC 1500\" >SOC 1500</a>; <a href=\"/search/?p=SOC%202500\" data-action=\"result-detail\" data-group=\"code:SOC 2500\" >SOC 2500</a> or <a href=\"/search/?p=SOC%202550\" data-action=\"result-detail\" data-group=\"code:SOC 2550\" >SOC 2550</a>; minimum Junior standing. Declared Law &amp; Society minors may substitute <a href=\"/search/?p=SOC%201210\" data-action=\"result-detail\" data-group=\"code:SOC 1210\" >SOC 1210</a> for other prerequisite coursework in Sociology.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 2500\"}, {\"type\": \"course\", \"code\": \"SOC 2550\"}]}]}",
-      "other_requirements": "Minimum Junior standing. Declared Law & Society minors may substitute SOC 1210 for other prerequisite coursework in Sociology. PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "SOC 2230",
-      "course_code": "SOC 2230",
-      "department": "SOC",
-      "title": "Crime",
-      "credit_hours": "3",
-      "description": "Analysis of the nature and types of behavior that violates law, the mechanisms for defining such behaviors as criminal, and their causes and consequences. Prerequisite: Three hours of Sociology.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 2230\"}]}",
-      "other_requirements": "Three hours of Sociology; Minimum Sophomore standing; PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "FS 2010",
-      "course_code": "FS 2010",
-      "department": "FS",
-      "title": "U.S. Food Policy and Politics",
-      "credit_hours": "3",
-      "description": "Provides a systems perspective on U.S. food policies and politics across the food system. Focuses on understanding the U.S. food policy process, policymakers, stakeholders, issues, goals and feedbacks between food policy and politics. Prerequisite: <a href=\"/search/?p=NFS%201073\" data-action=\"result-detail\" data-group=\"code:NFS 1073\" >NFS 1073</a> or <a href=\"/search/?p=CDAE%201020\" data-action=\"result-detail\" data-group=\"code:CDAE 1020\" >CDAE 1020</a> or <a href=\"/search/?p=CDAE%201040\" data-action=\"result-detail\" data-group=\"code:CDAE 1040\" >CDAE 1040</a>. Cross-listed with: <a href=\"/search/?p=NFS%202113\" data-action=\"result-detail\" data-group=\"code:NFS 2113\" >NFS 2113</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NFS 1073\"}, {\"type\": \"course\", \"code\": \"CDAE 1020\"}, {\"type\": \"course\", \"code\": \"CDAE 1040\"}]}",
-      "other_requirements": "Cross-listed with NFS 2113. Prerequisites enforced by the system: NFS 1073 or CDAE 1020 or CDAE 1040. Cross listed with NFS 2113A.",
-      "external": true
-    },
-    {
-      "id": "STAT 1410",
-      "course_code": "STAT 1410",
-      "department": "STAT",
-      "title": "Basic Statistical Methods 1",
-      "credit_hours": "3",
-      "description": "Foundational course for students taking further quantitative courses. Exploratory data analysis, probability distributions, estimation, hypothesis testing. Introductory regression, experimentation, contingency tables, and nonparametrics. Computer software used. Credit not awarded for more than one of STAT 1410 or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Credit not awarded for more than one of STAT 1410 or STAT 2430. Open to Degree and PACE students.",
-      "external": true
-    },
-    {
-      "id": "SOC 1010",
-      "course_code": "SOC 1010",
-      "department": "SOC",
-      "title": "FYS: Education, Pwr &Privilege",
-      "credit_hours": "3",
-      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "HST 2790",
-      "course_code": "HST 2790",
-      "department": "HST",
-      "title": "The Holocaust",
-      "credit_hours": "3",
-      "description": "Study of the background, events, and aftermath of the Holocaust in Nazi Germany and Europe under German control. Prerequisite: Three hours of History.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HIST 3\"}]}",
-      "other_requirements": "PACE students by permission and override",
-      "external": true
-    },
-    {
-      "id": "SOC 1330",
-      "course_code": "SOC 1330",
-      "department": "SOC",
-      "title": "Sociology of Sexualities",
-      "credit_hours": "3",
-      "description": "Examination of the social construction of sexuality with emphasis on theories, concepts, and cultural ramifications of a range of sexual practices and identities. Cross-listed with: <a href=\"/search/?p=GSWS%201785\" data-action=\"result-detail\" data-group=\"code:GSWS 1785\" >GSWS 1785</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Open to Degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "SOC 2994",
-      "course_code": "SOC 2994",
-      "department": "SOC",
-      "title": "Teaching Assistantship",
-      "credit_hours": "3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion. Prerequisites: Three hours of Sociology; Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1210\"}]}",
-      "other_requirements": "Three hours of Sociology; Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "SOC 3350",
-      "course_code": "SOC 3350",
-      "department": "SOC",
-      "title": "Family as Social Institution",
-      "credit_hours": "3",
-      "description": "Examination of the institution of the American family in cross-cultural and historical perspective. Theories and research on family continuity, change, and institutional relationships explored. Prerequisites: <a href=\"/search/?p=SOC%201500\" data-action=\"result-detail\" data-group=\"code:SOC 1500\" >SOC 1500</a>; <a href=\"/search/?p=SOC%202500\" data-action=\"result-detail\" data-group=\"code:SOC 2500\" >SOC 2500</a> or <a href=\"/search/?p=SOC%202550\" data-action=\"result-detail\" data-group=\"code:SOC 2550\" >SOC 2550</a>; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 2500\"}, {\"type\": \"course\", \"code\": \"SOC 2550\"}, {\"type\": \"course\", \"code\": \"POLS 2800\"}]}]}",
-      "other_requirements": "Minimum Junior standing",
-      "external": false
-    },
-    {
-      "id": "SOC 1021",
-      "course_code": "SOC 1021",
-      "department": "SOC",
-      "title": "LASP:Asian-American Experience",
-      "credit_hours": "3",
-      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences). Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program.",
-      "prereq_expression": null,
-      "other_requirements": "Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program. LASP Social Science Scholars only. Instructor permission required.",
-      "external": false
-    },
-    {
-      "id": "SOC 1370",
-      "course_code": "SOC 1370",
-      "department": "SOC",
-      "title": "Race Relations in the US",
-      "credit_hours": "3",
-      "description": "Introduction to the sociological analysis of race and ethnicity, with a focus on the histories of racial and ethnic groups in the United States. Credit not awarded for both SOC 1370 and <a href=\"/search/?p=SOC%201372\" data-action=\"result-detail\" data-group=\"code:SOC 1372\"  class=\"notoffered\">SOC 1372</a> or <a href=\"/search/?p=CRES%201883\" data-action=\"result-detail\" data-group=\"code:CRES 1883\"  class=\"notoffered\">CRES 1883</a>. Cross-listed with: <a href=\"/search/?p=CRES%201881\" data-action=\"result-detail\" data-group=\"code:CRES 1881\" >CRES 1881</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Credit not awarded for both SOC 1370 and SOC 1372 or CRES 1883. Cross-listed with: CRES 1881. Open to degree and PACE students. This course fulfills the D1 and social science requirements.",
-      "external": false
-    },
-    {
-      "id": "SOC 2210",
-      "course_code": "SOC 2210",
-      "department": "SOC",
-      "title": "Global Deviance",
-      "credit_hours": "3",
-      "description": "Studies different theoretical approaches to deviance and social control, empirical patterns of deviant behaviors, and temporal, spatial, and cultural variations in these patterns, in a global context. Prerequisite: Three hours of Sociology or Global and Regional Studies.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 0\"}, {\"type\": \"course\", \"code\": \"GRS 0\"}]}",
-      "other_requirements": "minimum Sophomore standing, PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "SOC 2500",
-      "course_code": "SOC 2500",
-      "department": "SOC",
-      "title": "Social Research Methods",
-      "credit_hours": "4",
-      "description": "Introduction to research methods in social science. Includes examination of research design, measurement, data collection, data analysis, and the presentation and theoretical interpretation of research findings. Prerequisites: <a href=\"/search/?p=STAT%201050\" data-action=\"result-detail\" data-group=\"code:STAT 1050\" >STAT 1050</a>, <a href=\"/search/?p=STAT%201110\" data-action=\"result-detail\" data-group=\"code:STAT 1110\" >STAT 1110</a>, <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, or higher; three hours of Sociology or Political Science; minimum Sophomore standing. Cross-listed with: <a href=\"/search/?p=POLS%202800\" data-action=\"result-detail\" data-group=\"code:POLS 2800\" >POLS 2800</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1050\"}, {\"type\": \"course\", \"code\": \"STAT 1110\"}, {\"type\": \"course\", \"code\": \"STAT 1410\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 2500\"}, {\"type\": \"course\", \"code\": \"POLS 2800\"}]}]}",
-      "other_requirements": "Minimum Sophomore standing; PACE students by permission and override.",
       "external": false
     },
     {
@@ -211,58 +24,14 @@
       "external": true
     },
     {
-      "id": "SOC 1025",
-      "course_code": "SOC 1025",
+      "id": "SOC 2230",
+      "course_code": "SOC 2230",
       "department": "SOC",
-      "title": "LASP: Social Inequality",
+      "title": "Crime",
       "credit_hours": "3",
-      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences). Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program.",
-      "prereq_expression": null,
-      "other_requirements": "LASP students only; Social Sciences Scholars only; Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "SOC 1210",
-      "course_code": "SOC 1210",
-      "department": "SOC",
-      "title": "Deviance & Social Control",
-      "credit_hours": "3",
-      "description": "Analysis of the causes and consequences of social behavior that violates norms. Examines patterns of deviant socialization and social organization and forms of deviance control.",
-      "prereq_expression": null,
-      "other_requirements": "Open to Degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "SOC 2370",
-      "course_code": "SOC 2370",
-      "department": "SOC",
-      "title": "Racial Inequality in the US",
-      "credit_hours": "3",
-      "description": "A critical analysis of racial inequality and stratification in the United States. Prerequisite: Three hours of Sociology or Critical Race &amp; Ethnic Studies. Cross-listed with: <a href=\"/search/?p=CRES%202881\" data-action=\"result-detail\" data-group=\"code:CRES 2881\" >CRES 2881</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC\"}, {\"type\": \"course\", \"code\": \"CRES\"}]}",
-      "other_requirements": "Three hours of Sociology or Critical Race & Ethnic Studies. Pre-reqs 3 hours of Sociology; minimum Soph standing",
-      "external": false
-    },
-    {
-      "id": "SOC 4996",
-      "course_code": "SOC 4996",
-      "department": "SOC",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "SOC 3990",
-      "course_code": "SOC 3990",
-      "department": "SOC",
-      "title": "Criminalized Races & Genders",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles. Prerequisites: <a href=\"/search/?p=SOC%201500\" data-action=\"result-detail\" data-group=\"code:SOC 1500\" >SOC 1500</a>; <a href=\"/search/?p=SOC%202500\" data-action=\"result-detail\" data-group=\"code:SOC 2500\" >SOC 2500</a> or <a href=\"/search/?p=SOC%202550\" data-action=\"result-detail\" data-group=\"code:SOC 2550\" >SOC 2550</a>; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 2500\"}, {\"type\": \"course\", \"code\": \"SOC 2550\"}, {\"type\": \"course\", \"code\": \"POLS 2800\"}]}]}",
-      "other_requirements": "Minimum Junior standing; PACE students with permission and override",
+      "description": "Analysis of the nature and types of behavior that violates law, the mechanisms for defining such behaviors as criminal, and their causes and consequences. Prerequisite: Three hours of Sociology.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 2230\"}]}",
+      "other_requirements": "Three hours of Sociology; Minimum Sophomore standing; PACE students with permission and override",
       "external": false
     },
     {
@@ -277,6 +46,28 @@
       "external": false
     },
     {
+      "id": "SOC 4996",
+      "course_code": "SOC 4996",
+      "department": "SOC",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "SOC 1500",
+      "course_code": "SOC 1500",
+      "department": "SOC",
+      "title": "Introduction to Sociology",
+      "credit_hours": "3",
+      "description": "Fundamental principles and problems in the sociological analysis of the structure and dynamics of modern society.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
       "id": "SOC 3995",
       "course_code": "SOC 3995",
       "department": "SOC",
@@ -288,47 +79,25 @@
       "external": false
     },
     {
-      "id": "SOC 3210",
-      "course_code": "SOC 3210",
+      "id": "SOC 1021",
+      "course_code": "SOC 1021",
       "department": "SOC",
-      "title": "Disability as Deviance",
+      "title": "LASP:Asian-American Experience",
       "credit_hours": "3",
-      "description": "Analyzes constructions of disability as deviance in current and historical contexts such as American eugenics, Nazi sterilization and medical crimes, and present national policies. Prerequisites: <a href=\"/search/?p=SOC%201500\" data-action=\"result-detail\" data-group=\"code:SOC 1500\" >SOC 1500</a>; <a href=\"/search/?p=SOC%202500\" data-action=\"result-detail\" data-group=\"code:SOC 2500\" >SOC 2500</a> or <a href=\"/search/?p=SOC%202550\" data-action=\"result-detail\" data-group=\"code:SOC 2550\" >SOC 2550</a>;  minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 2500\"}, {\"type\": \"course\", \"code\": \"SOC 2550\"}, {\"type\": \"course\", \"code\": \"POLS 2800\"}]}]}",
-      "other_requirements": "minimum Junior standing; PACE students by permission and override; Steady class attendance and participation.",
-      "external": false
-    },
-    {
-      "id": "SOC 2220",
-      "course_code": "SOC 2220",
-      "department": "SOC",
-      "title": "Sociology of the Holocaust",
-      "credit_hours": "3",
-      "description": "Examination of the Holocaust using a sociological lens and discussion of its relevance for current social developments and events. Prerequisites: Three hours of Sociology or three hours of Jewish Studies or <a href=\"/search/?p=HST%201715\" data-action=\"result-detail\" data-group=\"code:HST 1715\"  class=\"notoffered\">HST 1715</a> or <a href=\"/search/?p=HST%202760\" data-action=\"result-detail\" data-group=\"code:HST 2760\"  class=\"notoffered\">HST 2760</a> or <a href=\"/search/?p=HST%202790\" data-action=\"result-detail\" data-group=\"code:HST 2790\"  class=\"notoffered\">HST 2790</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC\"}, {\"type\": \"course\", \"code\": \"JS\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HST 1715\"}, {\"type\": \"course\", \"code\": \"HST 2760\"}, {\"type\": \"course\", \"code\": \"HST 2790\"}]}]}",
-      "other_requirements": "Three hours of Sociology or three hours of Jewish Studies or Minimum Sophomore standing PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "SOC 1340",
-      "course_code": "SOC 1340",
-      "department": "SOC",
-      "title": "Global Health Crises",
-      "credit_hours": "3",
-      "description": "Examination of contemporary and historical case studies of global health crises to understand the role of science, politics, and power in social construction of risk and health.",
+      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences). Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program.",
       "prereq_expression": null,
-      "other_requirements": "Open to Degree and PACE students. Students will be expected to attend all lectures sessions, participate actively in weekly course discussion board posts and online conversations, complete in-class exams, and engage in a group book report project.",
+      "other_requirements": "Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program. LASP Social Science Scholars only. Instructor permission required.",
       "external": false
     },
     {
-      "id": "SOC 3232",
-      "course_code": "SOC 3232",
+      "id": "SOC 1010",
+      "course_code": "SOC 1010",
       "department": "SOC",
-      "title": "Crime and the City",
+      "title": "FYS: Education, Pwr &Privilege",
       "credit_hours": "3",
-      "description": "Takes an in-depth view of the varied and contested relationship between crime and cities, drawing on insights from urban and political sociology, criminology and law, and social and spatial inequalities. Covers a range of key studies in the field with an emphasis on urban ethnography in major US cities in comparative perspective with cities from around the world, including in the Global South. Prerequisites: <a href=\"/search/?p=SOC%201500\" data-action=\"result-detail\" data-group=\"code:SOC 1500\" >SOC 1500</a>; <a href=\"/search/?p=SOC%202500\" data-action=\"result-detail\" data-group=\"code:SOC 2500\" >SOC 2500</a> or <a href=\"/search/?p=SOC%202550\" data-action=\"result-detail\" data-group=\"code:SOC 2550\" >SOC 2550</a>; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 2500\"}, {\"type\": \"course\", \"code\": \"SOC 2550\"}]}]}",
-      "other_requirements": "Minimum Junior standing",
+      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     },
     {
@@ -343,39 +112,6 @@
       "external": true
     },
     {
-      "id": "SOC 2100",
-      "course_code": "SOC 2100",
-      "department": "SOC",
-      "title": "Self and Society",
-      "credit_hours": "3",
-      "description": "Analysis of the roles of sociocultural and situational factors in individual behavior and experience and the social genesis, development, and functioning of human personality. Prerequisite: Three hours of Sociology.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1000\"}, {\"type\": \"course\", \"code\": \"SOC 2000\"}]}",
-      "other_requirements": "Minimum Sophomore standing. PACE students with permission and override.",
-      "external": false
-    },
-    {
-      "id": "SOC 3370",
-      "course_code": "SOC 3370",
-      "department": "SOC",
-      "title": "Comparative Race & Ethnicity",
-      "credit_hours": "3",
-      "description": "A comparative analysis of racial and ethnic contact in the United States, Brazil, Canada, Germany, and Australia. Prerequisites: <a href=\"/search/?p=SOC%201500\" data-action=\"result-detail\" data-group=\"code:SOC 1500\" >SOC 1500</a>, and <a href=\"/search/?p=SOC%202500\" data-action=\"result-detail\" data-group=\"code:SOC 2500\" >SOC 2500</a> or <a href=\"/search/?p=SOC%202550\" data-action=\"result-detail\" data-group=\"code:SOC 2550\" >SOC 2550</a>; or six hours in CRES; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 2500\"}, {\"type\": \"course\", \"code\": \"SOC 2550\"}, {\"type\": \"course\", \"code\": \"POLS 2800\"}]}]}",
-      "other_requirements": "Six hours in CRES; minimum Junior standing; PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "HST 2760",
-      "course_code": "HST 2760",
-      "department": "HST",
-      "title": "Modern Germany",
-      "credit_hours": "3",
-      "description": "Political, cultural, and social history of Germany from unification in 1871 through the Wilhemine empire, Weimar Republic, Nazi era, and postwar period. Prerequisite: Three hours of History.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"History 3 hours\"}, {\"type\": \"course\", \"code\": \"History 3 hours\"}]}",
-      "other_requirements": "PACE students by permission and override",
-      "external": true
-    },
-    {
       "id": "POLS 2800",
       "course_code": "POLS 2800",
       "department": "POLS",
@@ -387,6 +123,61 @@
       "external": true
     },
     {
+      "id": "SOC 1340",
+      "course_code": "SOC 1340",
+      "department": "SOC",
+      "title": "Global Health Crises",
+      "credit_hours": "3",
+      "description": "Examination of contemporary and historical case studies of global health crises to understand the role of science, politics, and power in social construction of risk and health.",
+      "prereq_expression": null,
+      "other_requirements": "Open to Degree and PACE students. Students will be expected to attend all lectures sessions, participate actively in weekly course discussion board posts and online conversations, complete in-class exams, and engage in a group book report project.",
+      "external": false
+    },
+    {
+      "id": "STAT 1410",
+      "course_code": "STAT 1410",
+      "department": "STAT",
+      "title": "Basic Statistical Methods 1",
+      "credit_hours": "3",
+      "description": "Foundational course for students taking further quantitative courses. Exploratory data analysis, probability distributions, estimation, hypothesis testing. Introductory regression, experimentation, contingency tables, and nonparametrics. Computer software used. Credit not awarded for more than one of STAT 1410 or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Credit not awarded for more than one of STAT 1410 or STAT 2430. Open to Degree and PACE students.",
+      "external": true
+    },
+    {
+      "id": "SOC 1210",
+      "course_code": "SOC 1210",
+      "department": "SOC",
+      "title": "Deviance & Social Control",
+      "credit_hours": "3",
+      "description": "Analysis of the causes and consequences of social behavior that violates norms. Examines patterns of deviant socialization and social organization and forms of deviance control.",
+      "prereq_expression": null,
+      "other_requirements": "Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "SOC 2460",
+      "course_code": "SOC 2460",
+      "department": "SOC",
+      "title": "Sociology of Disaster",
+      "credit_hours": "3",
+      "description": "Examination of disasters using a sociological, critical lens. Analysis of research, theories, and current debates in the field of disaster sociology. Prerequisite: Three hours of Sociology.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1234\"}, {\"type\": \"course\", \"code\": \"SOC 1234\"}, {\"type\": \"course\", \"code\": \"SOC 1234\"}]}, {\"type\": \"course\", \"code\": \"SOPHOMORE STANDING\"}]}",
+      "other_requirements": "PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "SOC 2210",
+      "course_code": "SOC 2210",
+      "department": "SOC",
+      "title": "Global Deviance",
+      "credit_hours": "3",
+      "description": "Studies different theoretical approaches to deviance and social control, empirical patterns of deviant behaviors, and temporal, spatial, and cultural variations in these patterns, in a global context. Prerequisite: Three hours of Sociology or Global and Regional Studies.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 0\"}, {\"type\": \"course\", \"code\": \"GRS 0\"}]}",
+      "other_requirements": "minimum Sophomore standing, PACE students with permission and override",
+      "external": false
+    },
+    {
       "id": "SOC 2450",
       "course_code": "SOC 2450",
       "department": "SOC",
@@ -395,6 +186,94 @@
       "description": "Analysis of the causes and consequences of varying relationships among population size, distribution and composition, social organization, technology, and resource base. Prerequisite: Three hours of Sociology.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1234\"}, {\"type\": \"course\", \"code\": \"SOC 1235\"}, {\"type\": \"course\", \"code\": \"SOC 1236\"}]}",
       "other_requirements": "min Sophomore standing; PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "HST 2790",
+      "course_code": "HST 2790",
+      "department": "HST",
+      "title": "The Holocaust",
+      "credit_hours": "3",
+      "description": "Study of the background, events, and aftermath of the Holocaust in Nazi Germany and Europe under German control. Prerequisite: Three hours of History.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HIST 3\"}]}",
+      "other_requirements": "PACE students by permission and override",
+      "external": true
+    },
+    {
+      "id": "SOC 2370",
+      "course_code": "SOC 2370",
+      "department": "SOC",
+      "title": "Racial Inequality in the US",
+      "credit_hours": "3",
+      "description": "A critical analysis of racial inequality and stratification in the United States. Prerequisite: Three hours of Sociology or Critical Race &amp; Ethnic Studies. Cross-listed with: <a href=\"/search/?p=CRES%202881\" data-action=\"result-detail\" data-group=\"code:CRES 2881\" >CRES 2881</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC\"}, {\"type\": \"course\", \"code\": \"CRES\"}]}",
+      "other_requirements": "Three hours of Sociology or Critical Race & Ethnic Studies. Pre-reqs 3 hours of Sociology; minimum Soph standing",
+      "external": false
+    },
+    {
+      "id": "SOC 2550",
+      "course_code": "SOC 2550",
+      "department": "SOC",
+      "title": "Social Theory",
+      "credit_hours": "3",
+      "description": "Classical sociological theory including Marx, Weber, Durkheim, and Mead, as well as DuBois and early female theorists such as Martineau. Reading and writing intensive. Prerequisites: <a href=\"/search/?p=SOC%201500\" data-action=\"result-detail\" data-group=\"code:SOC 1500\" >SOC 1500</a>; three additional hours of Sociology; minimum Sophomore standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1500\"}]}",
+      "other_requirements": "three additional hours of Sociology; minimum Sophomore standing. PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "SOC 3210",
+      "course_code": "SOC 3210",
+      "department": "SOC",
+      "title": "Disability as Deviance",
+      "credit_hours": "3",
+      "description": "Analyzes constructions of disability as deviance in current and historical contexts such as American eugenics, Nazi sterilization and medical crimes, and present national policies. Prerequisites: <a href=\"/search/?p=SOC%201500\" data-action=\"result-detail\" data-group=\"code:SOC 1500\" >SOC 1500</a>; <a href=\"/search/?p=SOC%202500\" data-action=\"result-detail\" data-group=\"code:SOC 2500\" >SOC 2500</a> or <a href=\"/search/?p=SOC%202550\" data-action=\"result-detail\" data-group=\"code:SOC 2550\" >SOC 2550</a>;  minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 2500\"}, {\"type\": \"course\", \"code\": \"SOC 2550\"}, {\"type\": \"course\", \"code\": \"POLS 2800\"}]}]}",
+      "other_requirements": "minimum Junior standing; PACE students by permission and override; Steady class attendance and participation.",
+      "external": false
+    },
+    {
+      "id": "SOC 2994",
+      "course_code": "SOC 2994",
+      "department": "SOC",
+      "title": "Teaching Assistantship",
+      "credit_hours": "3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion. Prerequisites: Three hours of Sociology; Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1210\"}]}",
+      "other_requirements": "Three hours of Sociology; Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "SOC 3232",
+      "course_code": "SOC 3232",
+      "department": "SOC",
+      "title": "Crime and the City",
+      "credit_hours": "3",
+      "description": "Takes an in-depth view of the varied and contested relationship between crime and cities, drawing on insights from urban and political sociology, criminology and law, and social and spatial inequalities. Covers a range of key studies in the field with an emphasis on urban ethnography in major US cities in comparative perspective with cities from around the world, including in the Global South. Prerequisites: <a href=\"/search/?p=SOC%201500\" data-action=\"result-detail\" data-group=\"code:SOC 1500\" >SOC 1500</a>; <a href=\"/search/?p=SOC%202500\" data-action=\"result-detail\" data-group=\"code:SOC 2500\" >SOC 2500</a> or <a href=\"/search/?p=SOC%202550\" data-action=\"result-detail\" data-group=\"code:SOC 2550\" >SOC 2550</a>; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 2500\"}, {\"type\": \"course\", \"code\": \"SOC 2550\"}]}]}",
+      "other_requirements": "Minimum Junior standing",
+      "external": false
+    },
+    {
+      "id": "SOC 3240",
+      "course_code": "SOC 3240",
+      "department": "SOC",
+      "title": "Sociology of Law",
+      "credit_hours": "3",
+      "description": "Analysis of sociocultural structure of the legal institution and its relationships to other institutions: the social organization of the legal profession, lawmaking, and the courts. Prerequisites: <a href=\"/search/?p=SOC%201500\" data-action=\"result-detail\" data-group=\"code:SOC 1500\" >SOC 1500</a>; <a href=\"/search/?p=SOC%202500\" data-action=\"result-detail\" data-group=\"code:SOC 2500\" >SOC 2500</a> or <a href=\"/search/?p=SOC%202550\" data-action=\"result-detail\" data-group=\"code:SOC 2550\" >SOC 2550</a>; minimum Junior standing. Declared Law &amp; Society minors may substitute <a href=\"/search/?p=SOC%201210\" data-action=\"result-detail\" data-group=\"code:SOC 1210\" >SOC 1210</a> for other prerequisite coursework in Sociology.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 2500\"}, {\"type\": \"course\", \"code\": \"SOC 2550\"}]}]}",
+      "other_requirements": "Minimum Junior standing. Declared Law & Society minors may substitute SOC 1210 for other prerequisite coursework in Sociology. PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "SOC 2100",
+      "course_code": "SOC 2100",
+      "department": "SOC",
+      "title": "Self and Society",
+      "credit_hours": "3",
+      "description": "Analysis of the roles of sociocultural and situational factors in individual behavior and experience and the social genesis, development, and functioning of human personality. Prerequisite: Three hours of Sociology.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1000\"}, {\"type\": \"course\", \"code\": \"SOC 2000\"}]}",
+      "other_requirements": "Minimum Sophomore standing. PACE students with permission and override.",
       "external": false
     },
     {
@@ -409,6 +288,105 @@
       "external": false
     },
     {
+      "id": "HST 2760",
+      "course_code": "HST 2760",
+      "department": "HST",
+      "title": "Modern Germany",
+      "credit_hours": "3",
+      "description": "Political, cultural, and social history of Germany from unification in 1871 through the Wilhemine empire, Weimar Republic, Nazi era, and postwar period. Prerequisite: Three hours of History.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"History 3 hours\"}, {\"type\": \"course\", \"code\": \"History 3 hours\"}]}",
+      "other_requirements": "PACE students by permission and override",
+      "external": true
+    },
+    {
+      "id": "SOC 1025",
+      "course_code": "SOC 1025",
+      "department": "SOC",
+      "title": "LASP: Social Inequality",
+      "credit_hours": "3",
+      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences). Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program.",
+      "prereq_expression": null,
+      "other_requirements": "LASP students only; Social Sciences Scholars only; Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "SOC 1370",
+      "course_code": "SOC 1370",
+      "department": "SOC",
+      "title": "Race Relations in the US",
+      "credit_hours": "3",
+      "description": "Introduction to the sociological analysis of race and ethnicity, with a focus on the histories of racial and ethnic groups in the United States. Credit not awarded for both SOC 1370 and <a href=\"/search/?p=SOC%201372\" data-action=\"result-detail\" data-group=\"code:SOC 1372\"  class=\"notoffered\">SOC 1372</a> or <a href=\"/search/?p=CRES%201883\" data-action=\"result-detail\" data-group=\"code:CRES 1883\"  class=\"notoffered\">CRES 1883</a>. Cross-listed with: <a href=\"/search/?p=CRES%201881\" data-action=\"result-detail\" data-group=\"code:CRES 1881\" >CRES 1881</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Credit not awarded for both SOC 1370 and SOC 1372 or CRES 1883. Cross-listed with: CRES 1881. Open to degree and PACE students. This course fulfills the D1 and social science requirements.",
+      "external": false
+    },
+    {
+      "id": "SOC 1330",
+      "course_code": "SOC 1330",
+      "department": "SOC",
+      "title": "Sociology of Sexualities",
+      "credit_hours": "3",
+      "description": "Examination of the social construction of sexuality with emphasis on theories, concepts, and cultural ramifications of a range of sexual practices and identities. Cross-listed with: <a href=\"/search/?p=GSWS%201785\" data-action=\"result-detail\" data-group=\"code:GSWS 1785\" >GSWS 1785</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "STAT 1110",
+      "course_code": "STAT 1110",
+      "department": "STAT",
+      "title": "Elements of Statistics",
+      "credit_hours": "3",
+      "description": "Basic statistical concepts, methods, and applications, including correlation, regression, confidence intervals, and hypothesis tests. Prerequisites: Two years of high school algebra.",
+      "prereq_expression": null,
+      "other_requirements": "Two years of high school algebra. Open to Degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "SOC 2500",
+      "course_code": "SOC 2500",
+      "department": "SOC",
+      "title": "Social Research Methods",
+      "credit_hours": "4",
+      "description": "Introduction to research methods in social science. Includes examination of research design, measurement, data collection, data analysis, and the presentation and theoretical interpretation of research findings. Prerequisites: <a href=\"/search/?p=STAT%201050\" data-action=\"result-detail\" data-group=\"code:STAT 1050\" >STAT 1050</a>, <a href=\"/search/?p=STAT%201110\" data-action=\"result-detail\" data-group=\"code:STAT 1110\" >STAT 1110</a>, <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, or higher; three hours of Sociology or Political Science; minimum Sophomore standing. Cross-listed with: <a href=\"/search/?p=POLS%202800\" data-action=\"result-detail\" data-group=\"code:POLS 2800\" >POLS 2800</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1050\"}, {\"type\": \"course\", \"code\": \"STAT 1110\"}, {\"type\": \"course\", \"code\": \"STAT 1410\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 2500\"}, {\"type\": \"course\", \"code\": \"POLS 2800\"}]}]}",
+      "other_requirements": "Minimum Sophomore standing; PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "FS 2010",
+      "course_code": "FS 2010",
+      "department": "FS",
+      "title": "U.S. Food Policy and Politics",
+      "credit_hours": "3",
+      "description": "Provides a systems perspective on U.S. food policies and politics across the food system. Focuses on understanding the U.S. food policy process, policymakers, stakeholders, issues, goals and feedbacks between food policy and politics. Prerequisite: <a href=\"/search/?p=NFS%201073\" data-action=\"result-detail\" data-group=\"code:NFS 1073\" >NFS 1073</a> or <a href=\"/search/?p=CDAE%201020\" data-action=\"result-detail\" data-group=\"code:CDAE 1020\" >CDAE 1020</a> or <a href=\"/search/?p=CDAE%201040\" data-action=\"result-detail\" data-group=\"code:CDAE 1040\" >CDAE 1040</a>. Cross-listed with: <a href=\"/search/?p=NFS%202113\" data-action=\"result-detail\" data-group=\"code:NFS 2113\" >NFS 2113</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NFS 1073\"}, {\"type\": \"course\", \"code\": \"CDAE 1020\"}, {\"type\": \"course\", \"code\": \"CDAE 1040\"}]}",
+      "other_requirements": "Cross-listed with NFS 2113. Prerequisites enforced by the system: NFS 1073 or CDAE 1020 or CDAE 1040. Cross listed with NFS 2113A.",
+      "external": true
+    },
+    {
+      "id": "SOC 2220",
+      "course_code": "SOC 2220",
+      "department": "SOC",
+      "title": "Sociology of the Holocaust",
+      "credit_hours": "3",
+      "description": "Examination of the Holocaust using a sociological lens and discussion of its relevance for current social developments and events. Prerequisites: Three hours of Sociology or three hours of Jewish Studies or <a href=\"/search/?p=HST%201715\" data-action=\"result-detail\" data-group=\"code:HST 1715\"  class=\"notoffered\">HST 1715</a> or <a href=\"/search/?p=HST%202760\" data-action=\"result-detail\" data-group=\"code:HST 2760\"  class=\"notoffered\">HST 2760</a> or <a href=\"/search/?p=HST%202790\" data-action=\"result-detail\" data-group=\"code:HST 2790\"  class=\"notoffered\">HST 2790</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC\"}, {\"type\": \"course\", \"code\": \"JS\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HST 1715\"}, {\"type\": \"course\", \"code\": \"HST 2760\"}, {\"type\": \"course\", \"code\": \"HST 2790\"}]}]}",
+      "other_requirements": "Three hours of Sociology or three hours of Jewish Studies or Minimum Sophomore standing PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "SOC 3350",
+      "course_code": "SOC 3350",
+      "department": "SOC",
+      "title": "Family as Social Institution",
+      "credit_hours": "3",
+      "description": "Examination of the institution of the American family in cross-cultural and historical perspective. Theories and research on family continuity, change, and institutional relationships explored. Prerequisites: <a href=\"/search/?p=SOC%201500\" data-action=\"result-detail\" data-group=\"code:SOC 1500\" >SOC 1500</a>; <a href=\"/search/?p=SOC%202500\" data-action=\"result-detail\" data-group=\"code:SOC 2500\" >SOC 2500</a> or <a href=\"/search/?p=SOC%202550\" data-action=\"result-detail\" data-group=\"code:SOC 2550\" >SOC 2550</a>; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 2500\"}, {\"type\": \"course\", \"code\": \"SOC 2550\"}, {\"type\": \"course\", \"code\": \"POLS 2800\"}]}]}",
+      "other_requirements": "Minimum Junior standing",
+      "external": false
+    },
+    {
       "id": "SOC 2102",
       "course_code": "SOC 2102",
       "department": "SOC",
@@ -418,204 +396,275 @@
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1234\"}, {\"type\": \"course\", \"code\": \"SOC 1234\"}]}",
       "other_requirements": "Minimum Sophomore Standing. PACE students by permission and override. Regular attendance and willingness to read books and articles.",
       "external": false
+    },
+    {
+      "id": "SOC 3370",
+      "course_code": "SOC 3370",
+      "department": "SOC",
+      "title": "Comparative Race & Ethnicity",
+      "credit_hours": "3",
+      "description": "A comparative analysis of racial and ethnic contact in the United States, Brazil, Canada, Germany, and Australia. Prerequisites: <a href=\"/search/?p=SOC%201500\" data-action=\"result-detail\" data-group=\"code:SOC 1500\" >SOC 1500</a>, and <a href=\"/search/?p=SOC%202500\" data-action=\"result-detail\" data-group=\"code:SOC 2500\" >SOC 2500</a> or <a href=\"/search/?p=SOC%202550\" data-action=\"result-detail\" data-group=\"code:SOC 2550\" >SOC 2550</a>; or six hours in CRES; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 2500\"}, {\"type\": \"course\", \"code\": \"SOC 2550\"}, {\"type\": \"course\", \"code\": \"POLS 2800\"}]}]}",
+      "other_requirements": "Six hours in CRES; minimum Junior standing; PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "SOC 3990",
+      "course_code": "SOC 3990",
+      "department": "SOC",
+      "title": "Criminalized Races & Genders",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles. Prerequisites: <a href=\"/search/?p=SOC%201500\" data-action=\"result-detail\" data-group=\"code:SOC 1500\" >SOC 1500</a>; <a href=\"/search/?p=SOC%202500\" data-action=\"result-detail\" data-group=\"code:SOC 2500\" >SOC 2500</a> or <a href=\"/search/?p=SOC%202550\" data-action=\"result-detail\" data-group=\"code:SOC 2550\" >SOC 2550</a>; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 1500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOC 2500\"}, {\"type\": \"course\", \"code\": \"SOC 2550\"}, {\"type\": \"course\", \"code\": \"POLS 2800\"}]}]}",
+      "other_requirements": "Minimum Junior standing; PACE students with permission and override",
+      "external": false
     }
   ],
   "edges": [
     {
       "source": "FS 2010",
-      "target": "SOC 3420"
+      "target": "SOC 3420",
+      "group": "SOC 3420__g0"
     },
     {
       "source": "HST 2760",
-      "target": "SOC 2220"
+      "target": "SOC 2220",
+      "group": "SOC 2220__g1"
     },
     {
       "source": "HST 2790",
-      "target": "SOC 2220"
+      "target": "SOC 2220",
+      "group": "SOC 2220__g1"
     },
     {
       "source": "NFS 2113",
-      "target": "SOC 3420"
+      "target": "SOC 3420",
+      "group": "SOC 3420__g0"
     },
     {
       "source": "POLS 2800",
-      "target": "SOC 2500"
+      "target": "SOC 2500",
+      "group": "SOC 2500__g1"
     },
     {
       "source": "POLS 2800",
-      "target": "SOC 3210"
+      "target": "SOC 3210",
+      "group": "SOC 3210__g0"
     },
     {
       "source": "POLS 2800",
-      "target": "SOC 3350"
+      "target": "SOC 3350",
+      "group": "SOC 3350__g0"
     },
     {
       "source": "POLS 2800",
-      "target": "SOC 3370"
+      "target": "SOC 3370",
+      "group": "SOC 3370__g0"
     },
     {
       "source": "POLS 2800",
-      "target": "SOC 3990"
+      "target": "SOC 3990",
+      "group": "SOC 3990__g0"
     },
     {
       "source": "POLS 2800",
-      "target": "SOC 3991"
+      "target": "SOC 3991",
+      "group": "SOC 3991__g0"
     },
     {
       "source": "POLS 2800",
-      "target": "SOC 3995"
+      "target": "SOC 3995",
+      "group": "SOC 3995__g0"
     },
     {
       "source": "SOC 1210",
-      "target": "SOC 2994"
+      "target": "SOC 2994",
+      "group": null
     },
     {
       "source": "SOC 1500",
-      "target": "SOC 2550"
+      "target": "SOC 2550",
+      "group": null
     },
     {
       "source": "SOC 1500",
-      "target": "SOC 3210"
+      "target": "SOC 3210",
+      "group": null
     },
     {
       "source": "SOC 1500",
-      "target": "SOC 3232"
+      "target": "SOC 3232",
+      "group": null
     },
     {
       "source": "SOC 1500",
-      "target": "SOC 3240"
+      "target": "SOC 3240",
+      "group": null
     },
     {
       "source": "SOC 1500",
-      "target": "SOC 3350"
+      "target": "SOC 3350",
+      "group": null
     },
     {
       "source": "SOC 1500",
-      "target": "SOC 3370"
+      "target": "SOC 3370",
+      "group": null
     },
     {
       "source": "SOC 1500",
-      "target": "SOC 3420"
+      "target": "SOC 3420",
+      "group": "SOC 3420__g0"
     },
     {
       "source": "SOC 1500",
-      "target": "SOC 3990"
+      "target": "SOC 3990",
+      "group": null
     },
     {
       "source": "SOC 1500",
-      "target": "SOC 3991"
+      "target": "SOC 3991",
+      "group": null
     },
     {
       "source": "SOC 1500",
-      "target": "SOC 3995"
+      "target": "SOC 3995",
+      "group": null
     },
     {
       "source": "SOC 2230",
-      "target": "SOC 2230"
+      "target": "SOC 2230",
+      "group": "SOC 2230__g0"
     },
     {
       "source": "SOC 2500",
-      "target": "SOC 2500"
+      "target": "SOC 2500",
+      "group": "SOC 2500__g1"
     },
     {
       "source": "SOC 2500",
-      "target": "SOC 3210"
+      "target": "SOC 3210",
+      "group": "SOC 3210__g0"
     },
     {
       "source": "SOC 2500",
-      "target": "SOC 3232"
+      "target": "SOC 3232",
+      "group": "SOC 3232__g0"
     },
     {
       "source": "SOC 2500",
-      "target": "SOC 3240"
+      "target": "SOC 3240",
+      "group": "SOC 3240__g0"
     },
     {
       "source": "SOC 2500",
-      "target": "SOC 3350"
+      "target": "SOC 3350",
+      "group": "SOC 3350__g0"
     },
     {
       "source": "SOC 2500",
-      "target": "SOC 3370"
+      "target": "SOC 3370",
+      "group": "SOC 3370__g0"
     },
     {
       "source": "SOC 2500",
-      "target": "SOC 3420"
+      "target": "SOC 3420",
+      "group": "SOC 3420__g0"
     },
     {
       "source": "SOC 2500",
-      "target": "SOC 3990"
+      "target": "SOC 3990",
+      "group": "SOC 3990__g0"
     },
     {
       "source": "SOC 2500",
-      "target": "SOC 3991"
+      "target": "SOC 3991",
+      "group": "SOC 3991__g0"
     },
     {
       "source": "SOC 2500",
-      "target": "SOC 3995"
+      "target": "SOC 3995",
+      "group": "SOC 3995__g0"
     },
     {
       "source": "SOC 2550",
-      "target": "SOC 3210"
+      "target": "SOC 3210",
+      "group": "SOC 3210__g0"
     },
     {
       "source": "SOC 2550",
-      "target": "SOC 3232"
+      "target": "SOC 3232",
+      "group": "SOC 3232__g0"
     },
     {
       "source": "SOC 2550",
-      "target": "SOC 3240"
+      "target": "SOC 3240",
+      "group": "SOC 3240__g0"
     },
     {
       "source": "SOC 2550",
-      "target": "SOC 3350"
+      "target": "SOC 3350",
+      "group": "SOC 3350__g0"
     },
     {
       "source": "SOC 2550",
-      "target": "SOC 3370"
+      "target": "SOC 3370",
+      "group": "SOC 3370__g0"
     },
     {
       "source": "SOC 2550",
-      "target": "SOC 3420"
+      "target": "SOC 3420",
+      "group": "SOC 3420__g0"
     },
     {
       "source": "SOC 2550",
-      "target": "SOC 3990"
+      "target": "SOC 3990",
+      "group": "SOC 3990__g0"
     },
     {
       "source": "SOC 2550",
-      "target": "SOC 3991"
+      "target": "SOC 3991",
+      "group": "SOC 3991__g0"
     },
     {
       "source": "SOC 2550",
-      "target": "SOC 3995"
+      "target": "SOC 3995",
+      "group": "SOC 3995__g0"
     },
     {
       "source": "STAT 1050",
-      "target": "POLS 2800"
+      "target": "POLS 2800",
+      "group": "POLS 2800__g0"
     },
     {
       "source": "STAT 1050",
-      "target": "SOC 2500"
+      "target": "SOC 2500",
+      "group": "SOC 2500__g0"
     },
     {
       "source": "STAT 1050",
-      "target": "STAT 1050"
+      "target": "STAT 1050",
+      "group": "STAT 1050__g0"
     },
     {
       "source": "STAT 1110",
-      "target": "POLS 2800"
+      "target": "POLS 2800",
+      "group": "POLS 2800__g0"
     },
     {
       "source": "STAT 1110",
-      "target": "SOC 2500"
+      "target": "SOC 2500",
+      "group": "SOC 2500__g0"
     },
     {
       "source": "STAT 1410",
-      "target": "POLS 2800"
+      "target": "POLS 2800",
+      "group": "POLS 2800__g0"
     },
     {
       "source": "STAT 1410",
-      "target": "SOC 2500"
+      "target": "SOC 2500",
+      "group": "SOC 2500__g0"
     }
   ]
 }

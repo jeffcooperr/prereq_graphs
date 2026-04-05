@@ -2,402 +2,6 @@
   "department": "PHYS",
   "nodes": [
     {
-      "id": "PHYS 6391",
-      "course_code": "PHYS 6391",
-      "department": "PHYS",
-      "title": "Master's Thesis Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Master's Thesis.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required; Variable credits 1-18",
-      "external": false
-    },
-    {
-      "id": "PHYS 2200",
-      "course_code": "PHYS 2200",
-      "department": "PHYS",
-      "title": "Classical Mechanics",
-      "credit_hours": "3",
-      "description": "Newtonian dynamics of particles and systems of particles, with applications to problems of special importance, such as driven and coupled harmonic oscillators and central field trajectories. Prerequisites: <a href=\"/search/?p=PHYS%201650\" data-action=\"result-detail\" data-group=\"code:PHYS 1650\" >PHYS 1650</a> or <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\"  class=\"notoffered\">PHYS 1550</a>; <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1650\"}, {\"type\": \"course\", \"code\": \"PHYS 1550\"}]}, {\"type\": \"course\", \"code\": \"MATH 2248\"}]}",
-      "other_requirements": "Students should have access to the textbook, John R. Taylor, Classical Mechanics Second Edition, University Science Books, ISBN 978-1-891389-22-1 (2005). Students will be expected to read the required chapters of the text, turn in Homework Sets approximately weekly, and take a midterm and final examination. Attendance in class is highly recommended.",
-      "external": false
-    },
-    {
-      "id": "PHYS 1510",
-      "course_code": "PHYS 1510",
-      "department": "PHYS",
-      "title": "Physics Problem Solving I",
-      "credit_hours": "1",
-      "description": "Problem-solving techniques for first semester Physics with calculus. Accompanying lecture <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PHYS 3675",
-      "course_code": "PHYS 3675",
-      "department": "PHYS",
-      "title": "Semiconductor Materials/Devic",
-      "credit_hours": "4",
-      "description": "Covers Energy band theory, effective mass, band structure and electronic properties of semiconductors.  Transport of electrons and holes in bulk materials and across interfaces. MOSFETs, BJTs, pn junctions, and Schottky barriers. Experimental portion of course will cover electronic measurements of semiconductor devices. Credit not awarded for both PHYS 3675 and <a href=\"/search/?p=PHYS%205675\" data-action=\"result-detail\" data-group=\"code:PHYS 5675\" >PHYS 5675</a>. Prerequisites: <a href=\"/search/?p=EE%202145\" data-action=\"result-detail\" data-group=\"code:EE 2145\"  class=\"notoffered\">EE 2145</a>, <a href=\"/search/?p=EE%203410\" data-action=\"result-detail\" data-group=\"code:EE 3410\" >EE 3410</a>, or <a href=\"/search/?p=PHYS%203300\" data-action=\"result-detail\" data-group=\"code:PHYS 3300\"  class=\"notoffered\">PHYS 3300</a>. Cross-listed with: <a href=\"/search/?p=EE%203440\" data-action=\"result-detail\" data-group=\"code:EE 3440\" >EE 3440</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EE 2145\"}, {\"type\": \"course\", \"code\": \"EE 3410\"}, {\"type\": \"course\", \"code\": \"PHYS 3300\"}]}",
-      "other_requirements": "Must enroll in PHYS 3675 A01 or A02; In person attendance is required. If you miss more than 3 unexcused classes during the semester you will receive an F in the class.",
-      "external": false
-    },
-    {
-      "id": "MATH 2248",
-      "course_code": "MATH 2248",
-      "department": "MATH",
-      "title": "Calculus III",
-      "credit_hours": "4",
-      "description": "Vector-valued functions. Calculus of functions of several variables: partial derivatives, gradient, divergence, curl, multiple integrals, line integrals, Stokes' and Green's theorems. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
-      "other_requirements": "C- or better in MATH 1248 or MATH 1242",
-      "external": true
-    },
-    {
-      "id": "PHYS 3150",
-      "course_code": "PHYS 3150",
-      "department": "PHYS",
-      "title": "Computational Physics I",
-      "credit_hours": "3",
-      "description": "Introduction to modern computational techniques focusing on the simulation or solution of the behavior of physical systems. Examples will be drawn from classical, statistical, and quantum mechanics, electromagnetism, and chaos. Prerequisites: <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\" >PHYS 1550</a> or <a href=\"/search/?p=PHYS%201650\" data-action=\"result-detail\" data-group=\"code:PHYS 1650\"  class=\"notoffered\">PHYS 1650</a>; <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1550\"}, {\"type\": \"course\", \"code\": \"PHYS 1650\"}]}, {\"type\": \"course\", \"code\": \"MATH 2248\"}]}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PHYS 4110",
-      "course_code": "PHYS 4110",
-      "department": "PHYS",
-      "title": "Capstone Seminar",
-      "credit_hours": "1",
-      "description": "Capstone experience emphasizing the application of physics concepts, development of professional skills, and integration of knowledge acquired during undergraduate Physics studies. Culminating project to demonstrate personal academic and professional growth. Through customized activities, students will explore professional pathways and prepare for their post-college goals. Course complements an approved independent or group study option taken in the same semester. Prerequisites: <a href=\"/search/?p=PHYS%202100\" data-action=\"result-detail\" data-group=\"code:PHYS 2100\" >PHYS 2100</a>, <a href=\"/search/?p=PHYS%202500\" data-action=\"result-detail\" data-group=\"code:PHYS 2500\" >PHYS 2500</a>, <a href=\"/search/?p=PHYS%204100\" data-action=\"result-detail\" data-group=\"code:PHYS 4100\"  class=\"notoffered\">PHYS 4100</a>. Co-requisites: <a href=\"/search/?p=PHYS%204991\" data-action=\"result-detail\" data-group=\"code:PHYS 4991\"  class=\"notoffered\">PHYS 4991</a>, <a href=\"/search/?p=PHYS%204993\" data-action=\"result-detail\" data-group=\"code:PHYS 4993\"  class=\"notoffered\">PHYS 4993</a>, <a href=\"/search/?p=PHYS%204995\" data-action=\"result-detail\" data-group=\"code:PHYS 4995\" >PHYS 4995</a>, or <a href=\"/search/?p=PHYS%204996\" data-action=\"result-detail\" data-group=\"code:PHYS 4996\"  class=\"notoffered\">PHYS 4996</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 2100\"}, {\"type\": \"course\", \"code\": \"PHYS 2500\"}, {\"type\": \"course\", \"code\": \"PHYS 4100\"}]}",
-      "other_requirements": "Co-requisites: PHYS 4991, PHYS 4993, PHYS 4995, or PHYS 4996.",
-      "external": false
-    },
-    {
-      "id": "PHYS 5200",
-      "course_code": "PHYS 5200",
-      "department": "PHYS",
-      "title": "Advanced Dynamics",
-      "credit_hours": "3",
-      "description": "Classical mechanics presented as the basis of the concepts and methods of modern physics. Variational, Lagrangian, and Hamiltonian formulations, canonical transformations, continuous systems. Prerequisite: Graduate student or undergraduate student with Instructor permission; knowledge <a href=\"/search/?p=PHYS%202200\" data-action=\"result-detail\" data-group=\"code:PHYS 2200\" >PHYS 2200</a> topics strongly recommended.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 2200\"}]}",
-      "other_requirements": "Graduate student or undergraduate student with Instructor permission; knowledge of PHYS 2200 topics strongly recommended.",
-      "external": false
-    },
-    {
-      "id": "PHYS 3175",
-      "course_code": "PHYS 3175",
-      "department": "PHYS",
-      "title": "Microstructure & Surface Analy",
-      "credit_hours": "1",
-      "description": "Explores the theory and practical operation of several advanced techniques to analyze the structure, composition, and surfaces of micro and nano-scale materials. Students will be fully trained as users of a Field Emission Scanning Electron Microscope (FESEM) including x-ray elemental analysis. Credit will not be given for both PHYS 3175 and <a href=\"/search/?p=PHYS%205185\" data-action=\"result-detail\" data-group=\"code:PHYS 5185\" >PHYS 5185</a>. Prerequisite: <a href=\"/search/?p=PHYS%202500\" data-action=\"result-detail\" data-group=\"code:PHYS 2500\"  class=\"notoffered\">PHYS 2500</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 2500\"}, {\"type\": \"course\", \"code\": \"PHYS 2500\"}]}",
-      "other_requirements": "All students must have reliable access to the University of Vermont Brightspace course website. (bb.uvm.edu)",
-      "external": false
-    },
-    {
-      "id": "MATH 1248",
-      "course_code": "MATH 1248",
-      "department": "MATH",
-      "title": "Calculus II",
-      "credit_hours": "4",
-      "description": "Vectors and vector operations. Techniques and applications of integration. Polar coordinates, Taylor polynomials, sequences and series, power series. Credit will not be given for both MATH 1248 and <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 021\"}]}",
-      "other_requirements": "C- or better in MATH 1234. C- or better in MATH 021.",
-      "external": true
-    },
-    {
-      "id": "EE 5440",
-      "course_code": "EE 5440",
-      "department": "EE",
-      "title": "Gr Semiconductor Materials/Dev",
-      "credit_hours": "4",
-      "description": "Covers energy band theory, effective mass, band structure and electronic properties of semiconductors.  Transport of electrons and holes in bulk materials and across interfaces. MOSFETs, BJTs, pn junctions, and Schottky barriers. Experimental portion of course will have a laboratory component for electronic measurements of semiconductor devices. Credit not awarded for both EE 5440 and <a href=\"/search/?p=EE%203440\" data-action=\"result-detail\" data-group=\"code:EE 3440\" >EE 3440</a>. Prerequisite: Graduate student or Instructor permission. Cross-listed with: <a href=\"/search/?p=PHYS%205675\" data-action=\"result-detail\" data-group=\"code:PHYS 5675\" >PHYS 5675</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EE 3440\"}, {\"type\": \"course\", \"code\": \"PHYS 3675\"}]}",
-      "other_requirements": "Graduate student or Instructor permission; Must register for EE 5440 A01 or A02 lab; In person attendance is required. If you miss more than 3 unexcused classes during the semester you will receive an F in the class.",
-      "external": true
-    },
-    {
-      "id": "PHYS 3990",
-      "course_code": "PHYS 3990",
-      "department": "PHYS",
-      "title": "Intro to Biological Physics",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1450\"}, {\"type\": \"course\", \"code\": \"PHYS 1650\"}]}, {\"type\": \"course\", \"code\": \"MATH 2248\"}]}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PHYS 5675",
-      "course_code": "PHYS 5675",
-      "department": "PHYS",
-      "title": "Gr Semiconductor Materials/Dev",
-      "credit_hours": "4",
-      "description": "Covers Energy band theory, effective mass, band structure and electronic properties of semiconductors. Transport of electrons and holes in bulk materials and across interfaces. MOSFETs, BJTs, pn junctions, and Schottky barriers. Experimental portion of course will have a laboratory component for electronic measurements of semiconductor devices. Credit not awarded for both PHYS 5675 and <a href=\"/search/?p=PHYS%203675\" data-action=\"result-detail\" data-group=\"code:PHYS 3675\" >PHYS 3675</a>. Prerequisite: Graduate student or Instructor permission. Cross-listed with: <a href=\"/search/?p=EE%205440\" data-action=\"result-detail\" data-group=\"code:EE 5440\" >EE 5440</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 5675\"}, {\"type\": \"course\", \"code\": \"EE 5440\"}]}",
-      "other_requirements": "Graduate student or Instructor permission",
-      "external": false
-    },
-    {
-      "id": "PHYS 6000",
-      "course_code": "PHYS 6000",
-      "department": "PHYS",
-      "title": "Teaching of College Physics",
-      "credit_hours": "1",
-      "description": "Instructional strategies and techniques with application to the teaching of laboratories and recitations. Prerequisites: Undergraduate degree in Physics; Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 6000\"}, {\"type\": \"course\", \"code\": \"PHYS 6000\"}]}",
-      "other_requirements": "Undergraduate degree in Physics; Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "PHYS 1251",
-      "course_code": "PHYS 1251",
-      "department": "PHYS",
-      "title": "Conceptual Physics w/lab",
-      "credit_hours": "4",
-      "description": "Conceptual survey. Topics selected from mechanics, electricity, magnetism and modern physics. Laboratory content is integrated with the lecture.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PHYS 4995",
-      "course_code": "PHYS 4995",
-      "department": "PHYS",
-      "title": "Undergraduate Research",
-      "credit_hours": "2",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "PHYS 5990",
-      "course_code": "PHYS 5990",
-      "department": "PHYS",
-      "title": "Intro to Relativistic Quantum",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles. Prerequisites: Department permission, Graduate student.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 5990\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 5990\"}, {\"type\": \"course\", \"code\": \"PHYS 5990\"}]}]}",
-      "other_requirements": "Department permission, Graduate student. Graduate student or undergraduate student with instructor permission. Quantum mechanics I is absolutely necessary as a prerequisite.",
-      "external": false
-    },
-    {
-      "id": "PHYS 1100",
-      "course_code": "PHYS 1100",
-      "department": "PHYS",
-      "title": "The Physics of Music",
-      "credit_hours": "3",
-      "description": "Basic physical principles underlying the production, transmission and perception of musical sound. Vibrations, waves, elementary acoustics with applications to a wide range of musical topics. Prerequisite: High school algebra.",
-      "prereq_expression": null,
-      "other_requirements": "High school algebra.",
-      "external": false
-    },
-    {
-      "id": "PHYS 3500",
-      "course_code": "PHYS 3500",
-      "department": "PHYS",
-      "title": "Quantum Mechanics I",
-      "credit_hours": "3",
-      "description": "Introduction to nonrelativistic quantum mechanics. Schrodinger equation and applications to simple systems. Prerequisite: <a href=\"/search/?p=PHYS%202500\" data-action=\"result-detail\" data-group=\"code:PHYS 2500\" >PHYS 2500</a>, <a href=\"/search/?p=PHYS%202200\" data-action=\"result-detail\" data-group=\"code:PHYS 2200\"  class=\"notoffered\">PHYS 2200</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 2500\"}, {\"type\": \"course\", \"code\": \"PHYS 2200\"}]}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PHYS 1400",
-      "course_code": "PHYS 1400",
-      "department": "PHYS",
-      "title": "Elementary Physics I",
-      "credit_hours": "4",
-      "description": "Algebra-based survey of mechanics, oscillations, waves and thermal physics. Appropriate for students in health and life sciences. Counts as lecture and lab. Optional accompanying problem solving recitation section: <a href=\"/search/?p=PHYS%201410\" data-action=\"result-detail\" data-group=\"code:PHYS 1410\" >PHYS 1410</a>. Prerequisites: High school algebra and trigonometry.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"High school algebra\"}, {\"type\": \"course\", \"code\": \"trigonometry\"}]}]}",
-      "other_requirements": "Must register for PHYS 1400 L01-L04; Open to degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "PHYS 4500",
-      "course_code": "PHYS 4500",
-      "department": "PHYS",
-      "title": "Applictns of Quantum Mechanics",
-      "credit_hours": "3",
-      "description": "Applications of Quantum Mechanics including Quantum Statistical Mechanics, Time-Independent and Time- Dependent Perturbation Theory, WKB Approximation, Variational Principle and Scattering. Prerequisite: <a href=\"/search/?p=PHYS%203500\" data-action=\"result-detail\" data-group=\"code:PHYS 3500\"  class=\"notoffered\">PHYS 3500</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 3500\"}, {\"type\": \"course\", \"code\": \"PHYS 3500\"}]}",
-      "other_requirements": "equivalent",
-      "external": false
-    },
-    {
-      "id": "MATH 1234",
-      "course_code": "MATH 1234",
-      "department": "MATH",
-      "title": "Calculus I",
-      "credit_hours": "4",
-      "description": "Introduction to calculus of functions of one variable including: limits, continuity, techniques and applications of differentiation and integration. Credit not given for more than one course in the pair <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, MATH 1234 unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a> or a score of 76 or higher on the placement assessment.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1034\"}, {\"type\": \"other_requirement\", \"description\": \"ALEKS MPA of at least 76\"}]}",
-      "other_requirements": "C- or better in MATH 1034 or a score of 76 or higher on the placement assessment. Prereqs enforced by the system.",
-      "external": true
-    },
-    {
-      "id": "PHYS 2100",
-      "course_code": "PHYS 2100",
-      "department": "PHYS",
-      "title": "Experimental Physics I",
-      "credit_hours": "3",
-      "description": "Classic physics experiments with a strong emphasis on experimental setup, data collection and analysis, error estimation, and writing/presentation of results. The laboratory work is centered around three experiments: Poisson statistics, Cavendish balance, and Kater pendulum. Prerequisite: <a href=\"/search/?p=PHYS%201650\" data-action=\"result-detail\" data-group=\"code:PHYS 1650\"  class=\"notoffered\">PHYS 1650</a> or <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\" >PHYS 1550</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1650\"}, {\"type\": \"course\", \"code\": \"PHYS 1550\"}]}",
-      "other_requirements": "This course requires laboratory work of at least 6 hours per week outside of regular class hours. You will be assigned a lab partner or partners in groups of 2 or 3. There will be pre-lab assignments, data collection, lab report writing, homework and presentations. In-class presentations will be individual presentations assigned choosing from a list of topics or based on a mini experiment related to the main experiments. Those will be assigned at least one week in advance of the date of the presentation and will require approximately 4 to 6 hours to prepare. I expect that you are maintaining a good class attendance, prior reading of the assigned material, involving in class discussions and carrying out experiments outside of the class time. I also expect the on-time submission of pre-lab and homework assignments, final lab reports and presentations.",
-      "external": false
-    },
-    {
-      "id": "PHYS 7491",
-      "course_code": "PHYS 7491",
-      "department": "PHYS",
-      "title": "Doctoral Dissertation Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Doctoral Dissertation.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"PHYS 7491\"}",
-      "other_requirements": "Instructor permission required; Variable credits 1-18",
-      "external": false
-    },
-    {
-      "id": "PHYS 3300",
-      "course_code": "PHYS 3300",
-      "department": "PHYS",
-      "title": "Electricity & Magnetism",
-      "credit_hours": "3",
-      "description": "Fundamental principles of electricity and magnetism; electrostatic fields, and magnetic fields of steady currents. Electric and magnetic properties of matter and electromagnetic energy. Prerequisites: <a href=\"/search/?p=PHYS%201650\" data-action=\"result-detail\" data-group=\"code:PHYS 1650\"  class=\"notoffered\">PHYS 1650</a> or <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\" >PHYS 1550</a> and <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>. Credit not given for more than one of PHYS 3300 or <a href=\"/search/?p=EE%203100\" data-action=\"result-detail\" data-group=\"code:EE 3100\"  class=\"notoffered\">EE 3100</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2248\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1650\"}, {\"type\": \"course\", \"code\": \"PHYS 1550\"}]}]}",
-      "other_requirements": "Credit not given for more than one of PHYS 3300 or EE 3100.",
-      "external": false
-    },
-    {
-      "id": "PHYS 3650",
-      "course_code": "PHYS 3650",
-      "department": "PHYS",
-      "title": "Intro to Solid State Physics",
-      "credit_hours": "3",
-      "description": "Introduction to crystal structures, reciprocal lattices, lattice vibrations. Thermal properties of solids and free electron theory of metals and semiconductors. Elementary band theory and introduction to electronic transport theory. Prerequisite: <a href=\"/search/?p=PHYS%202500\" data-action=\"result-detail\" data-group=\"code:PHYS 2500\" >PHYS 2500</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"PHYS 2500\"}",
-      "other_requirements": "Students are expected to attend all lectures in person, actively participate in discussions and interactive quizzes, solve at-home problem sets.",
-      "external": false
-    },
-    {
-      "id": "PHYS 3400",
-      "course_code": "PHYS 3400",
-      "department": "PHYS",
-      "title": "Thermal & Statistical Physics",
-      "credit_hours": "3",
-      "description": "Thermodynamics, kinetic theory, statistical mechanics. Prerequisites: <a href=\"/search/?p=PHYS%201650\" data-action=\"result-detail\" data-group=\"code:PHYS 1650\" >PHYS 1650</a> or <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\"  class=\"notoffered\">PHYS 1550</a>; <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1650\"}, {\"type\": \"course\", \"code\": \"PHYS 1550\"}]}, {\"type\": \"course\", \"code\": \"MATH 2248\"}]}",
-      "other_requirements": "A solid foundation in calculus and introductory physics is assumed.",
-      "external": false
-    },
-    {
-      "id": "EE 2145",
-      "course_code": "EE 2145",
-      "department": "EE",
-      "title": "Electrical Engr Concepts",
-      "credit_hours": "4",
-      "description": "Fundamentals of electrical engineering; DC and AC linear circuit analysis; laboratory component. No credit for more than one of EE 003, <a href=\"/search/?p=EE%202125\" data-action=\"result-detail\" data-group=\"code:EE 2125\" >EE 2125</a>, EE 2145 and <a href=\"/search/?p=EE%202175\" data-action=\"result-detail\" data-group=\"code:EE 2175\"  class=\"notoffered\">EE 2175</a>. Prerequisites: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
-      "other_requirements": "No credit for more than one of EE 003, EE 2125, EE 2145 and EE 2175. Not for BIOM majors; Must register for lab section A01 - A04; No credit for more than one ofEE 2125, EE 2145, orEE 2175; Open to degree and PACE students Please see URL for syllabus from FA 2025. Consider this to be a draft for this coming Fall, as there will be some updates. See above.",
-      "external": true
-    },
-    {
-      "id": "PHYS 1250",
-      "course_code": "PHYS 1250",
-      "department": "PHYS",
-      "title": "Conceptual Physics",
-      "credit_hours": "3",
-      "description": "One-semester conceptual survey. Topics selected from mechanics, electricity, magnetism and modern physics.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PHYS 1410",
-      "course_code": "PHYS 1410",
-      "department": "PHYS",
-      "title": "Elem Physics Problem Solving I",
-      "credit_hours": "1",
-      "description": "Accompanying lecture <a href=\"/search/?p=PHYS%201400\" data-action=\"result-detail\" data-group=\"code:PHYS 1400\" >PHYS 1400</a>. Co-requisite: Concurrent enrollment in <a href=\"/search/?p=PHYS%201400\" data-action=\"result-detail\" data-group=\"code:PHYS 1400\" >PHYS 1400</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"PHYS 1400\"}",
-      "other_requirements": "Co-requisite: Concurrent enrollment in PHYS 1400.",
-      "external": false
-    },
-    {
-      "id": "PHYS 4100",
-      "course_code": "PHYS 4100",
-      "department": "PHYS",
-      "title": "Experimental Physics II",
-      "credit_hours": "3",
-      "description": "Experiments in classical and modern physics. Prerequisites: <a href=\"/search/?p=PHYS%202500\" data-action=\"result-detail\" data-group=\"code:PHYS 2500\"  class=\"notoffered\">PHYS 2500</a>; <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>; Junior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 2500\"}, {\"type\": \"course\", \"code\": \"MATH 2248\"}]}",
-      "other_requirements": "Junior standing.",
-      "external": false
-    },
-    {
-      "id": "PHYS 3995",
-      "course_code": "PHYS 3995",
-      "department": "PHYS",
-      "title": "Undergraduate Research",
-      "credit_hours": "3",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PHYS 5400",
-      "course_code": "PHYS 5400",
-      "department": "PHYS",
-      "title": "Statistical Mechanics",
-      "credit_hours": "3",
-      "description": "Following a review of thermodynamics, covers the fundamentals of classical and quantum statistical mechanics including ensembles, identical particles, Bose and Fermi statistics, phase-transitions and critical phenomena, renormalization group, irreversible processes and fluctuations. Prerequisite: Graduate student or undergraduate student with Instructor permission; knowledge of <a href=\"/search/?p=PHYS%203400\" data-action=\"result-detail\" data-group=\"code:PHYS 3400\"  class=\"notoffered\">PHYS 3400</a> topics strongly recommended.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 3400\"}]}",
-      "other_requirements": "Graduate student or undergraduate student with Instructor permission; knowledge of PHYS 3400 topics strongly recommended.",
-      "external": false
-    },
-    {
-      "id": "PHYS 2995",
-      "course_code": "PHYS 2995",
-      "department": "PHYS",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisites: <a href=\"/search/?p=PHYS%202500\" data-action=\"result-detail\" data-group=\"code:PHYS 2500\" >PHYS 2500</a>; Department permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 2500\"}]}",
-      "other_requirements": "Department permission",
-      "external": false
-    },
-    {
-      "id": "PHYS 1600",
-      "course_code": "PHYS 1600",
-      "department": "PHYS",
-      "title": "Fundamentals of Physics I",
-      "credit_hours": "4",
-      "description": "Calculus-based introduction to kinematics, dynamics, oscillations, thermal physics. For students in the natural sciences. With lab. Credit not awarded for both PHYS 1600 and <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>. Pre/co-requisite: Credit or concurrent enrollment in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
-      "other_requirements": "Credit or concurrent enrollment in MATH 1234. Open to Degree and PACE students. Credit not awarded for both PHYS 1600 and PHYS 1500.",
-      "external": false
-    },
-    {
-      "id": "PHYS 1460",
-      "course_code": "PHYS 1460",
-      "department": "PHYS",
-      "title": "Elem Physic Problem Solving II",
-      "credit_hours": "1",
-      "description": "Accompanying lecture <a href=\"/search/?p=PHYS%201450\" data-action=\"result-detail\" data-group=\"code:PHYS 1450\" >PHYS 1450</a>. Co-requisite: Concurrent enrollment in <a href=\"/search/?p=PHYS%201450\" data-action=\"result-detail\" data-group=\"code:PHYS 1450\" >PHYS 1450</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Accompanying lecture PHYS 1450. Co-requisite: Concurrent enrollment in PHYS 1450. S/U grading. PHYS 1450 is a combined lecture/lab. Students should only register for PHYS 1460 if they wish to add an optional problem-solving session to their schedule. Open to Degree and PACE students. Students should have attempted the problems in the current Physics 1450 homework set before attending each class.",
-      "external": false
-    },
-    {
       "id": "PHYS 5185",
       "course_code": "PHYS 5185",
       "department": "PHYS",
@@ -409,46 +13,13 @@
       "external": false
     },
     {
-      "id": "PHYS 3550",
-      "course_code": "PHYS 3550",
+      "id": "PHYS 3990",
+      "course_code": "PHYS 3990",
       "department": "PHYS",
-      "title": "Nuclear & Elem Particle Physic",
+      "title": "Intro to Biological Physics",
       "credit_hours": "3",
-      "description": "Introduction to theoretical and experimental aspects of nuclear and elementary particle physics. Prerequisite: <a href=\"/search/?p=PHYS%202500\" data-action=\"result-detail\" data-group=\"code:PHYS 2500\"  class=\"notoffered\">PHYS 2500</a>; Junior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 2500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 3550\"}, {\"type\": \"course\", \"code\": \"PHYS 3550\"}]}]}",
-      "other_requirements": "Junior standing. Basic undergraduate-level knowledge of modern physics, i.e. Quantum Mechanics and atomic physics, as well as basic special relativity (we can review relativity when needed).",
-      "external": false
-    },
-    {
-      "id": "EE 3410",
-      "course_code": "EE 3410",
-      "department": "EE",
-      "title": "Electronics II",
-      "credit_hours": "4",
-      "description": "Physical principles of operation of common semiconductor devices. Analog and digital circuits using MOS and bipolar junction transistors. Operational amplifier design. Electronic circuit analysis and simulation. Project-based final. Prerequisite: C- or better in <a href=\"/search/?p=EE%203110\" data-action=\"result-detail\" data-group=\"code:EE 3110\"  class=\"notoffered\">EE 3110</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EE 3110\"}, {\"type\": \"course\", \"code\": \"EE 3110\"}]}",
-      "other_requirements": "C- or better in EE 3110. Minimum Junior standing. Students are expected to attend and participate in class discussions which are key to meeting the objectives of the course. Students are expected to complete the assigned readings to ensure informed class discussions.",
-      "external": true
-    },
-    {
-      "id": "MATH 1242",
-      "course_code": "MATH 1242",
-      "department": "MATH",
-      "title": "Transitional Calculus",
-      "credit_hours": "5",
-      "description": "Intended to make the transition from <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> to <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>. Topics are similar to <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> but recognizing different backgrounds of students in <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> versus <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit will not be given for both <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> and MATH 1242. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: B or better in <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, or B or better in <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"other_requirement\", \"description\": \"B or better\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"other_requirement\", \"description\": \"B or better\"}]}]}",
-      "other_requirements": "Open to Degree and PACE students",
-      "external": true
-    },
-    {
-      "id": "PHYS 1200",
-      "course_code": "PHYS 1200",
-      "department": "PHYS",
-      "title": "Energy and the Environment",
-      "credit_hours": "3",
-      "description": "Forms of energy as defined in physics; sources, uses, and transformations of energy: introductory seminar will place emphasis on environmental issues. Limited use of algebra and geometry.",
-      "prereq_expression": null,
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1450\"}, {\"type\": \"course\", \"code\": \"PHYS 1650\"}]}, {\"type\": \"course\", \"code\": \"MATH 2248\"}]}",
       "other_requirements": null,
       "external": false
     },
@@ -464,25 +35,47 @@
       "external": false
     },
     {
-      "id": "PHYS 1560",
-      "course_code": "PHYS 1560",
+      "id": "PHYS 1400",
+      "course_code": "PHYS 1400",
       "department": "PHYS",
-      "title": "Physics Problem Solving II",
-      "credit_hours": "1",
-      "description": "Problem-solving techniques for second semester Physics with calculus. Accompanying lecture <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\" >PHYS 1550</a>.",
-      "prereq_expression": null,
+      "title": "Elementary Physics I",
+      "credit_hours": "4",
+      "description": "Algebra-based survey of mechanics, oscillations, waves and thermal physics. Appropriate for students in health and life sciences. Counts as lecture and lab. Optional accompanying problem solving recitation section: <a href=\"/search/?p=PHYS%201410\" data-action=\"result-detail\" data-group=\"code:PHYS 1410\" >PHYS 1410</a>. Prerequisites: High school algebra and trigonometry.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"High school algebra\"}, {\"type\": \"course\", \"code\": \"trigonometry\"}]}]}",
+      "other_requirements": "Must register for PHYS 1400 L01-L04; Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "PHYS 3300",
+      "course_code": "PHYS 3300",
+      "department": "PHYS",
+      "title": "Electricity & Magnetism",
+      "credit_hours": "3",
+      "description": "Fundamental principles of electricity and magnetism; electrostatic fields, and magnetic fields of steady currents. Electric and magnetic properties of matter and electromagnetic energy. Prerequisites: <a href=\"/search/?p=PHYS%201650\" data-action=\"result-detail\" data-group=\"code:PHYS 1650\"  class=\"notoffered\">PHYS 1650</a> or <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\" >PHYS 1550</a> and <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>. Credit not given for more than one of PHYS 3300 or <a href=\"/search/?p=EE%203100\" data-action=\"result-detail\" data-group=\"code:EE 3100\"  class=\"notoffered\">EE 3100</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2248\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1650\"}, {\"type\": \"course\", \"code\": \"PHYS 1550\"}]}]}",
+      "other_requirements": "Credit not given for more than one of PHYS 3300 or EE 3100.",
+      "external": false
+    },
+    {
+      "id": "PHYS 3500",
+      "course_code": "PHYS 3500",
+      "department": "PHYS",
+      "title": "Quantum Mechanics I",
+      "credit_hours": "3",
+      "description": "Introduction to nonrelativistic quantum mechanics. Schrodinger equation and applications to simple systems. Prerequisite: <a href=\"/search/?p=PHYS%202500\" data-action=\"result-detail\" data-group=\"code:PHYS 2500\" >PHYS 2500</a>, <a href=\"/search/?p=PHYS%202200\" data-action=\"result-detail\" data-group=\"code:PHYS 2200\"  class=\"notoffered\">PHYS 2200</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 2500\"}, {\"type\": \"course\", \"code\": \"PHYS 2200\"}]}",
       "other_requirements": null,
       "external": false
     },
     {
-      "id": "PHYS 3165",
-      "course_code": "PHYS 3165",
+      "id": "PHYS 1251",
+      "course_code": "PHYS 1251",
       "department": "PHYS",
-      "title": "Integrated Circuit Fabrication",
+      "title": "Conceptual Physics w/lab",
       "credit_hours": "4",
-      "description": "Science and technology of integrated circuit fabrication. Interaction of processing with material properties, electrical performance, economy, and manufacturability. Study of unit processes used to make semiconductor chips. Prerequisite: <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\" >PHYS 1550</a> or <a href=\"/search/?p=PHYS%201650\" data-action=\"result-detail\" data-group=\"code:PHYS 1650\"  class=\"notoffered\">PHYS 1650</a>. Cross-listed with: <a href=\"/search/?p=EE%203420\" data-action=\"result-detail\" data-group=\"code:EE 3420\" >EE 3420</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1550\"}, {\"type\": \"course\", \"code\": \"PHYS 1650\"}]}",
-      "other_requirements": "Must register for a lab section A01-A02",
+      "description": "Conceptual survey. Topics selected from mechanics, electricity, magnetism and modern physics. Laboratory content is integrated with the lecture.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     },
     {
@@ -508,14 +101,245 @@
       "external": false
     },
     {
-      "id": "PHYS 1650",
-      "course_code": "PHYS 1650",
+      "id": "PHYS 1560",
+      "course_code": "PHYS 1560",
       "department": "PHYS",
-      "title": "Fundamentals of Physics II",
+      "title": "Physics Problem Solving II",
+      "credit_hours": "1",
+      "description": "Problem-solving techniques for second semester Physics with calculus. Accompanying lecture <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\" >PHYS 1550</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PHYS 5990",
+      "course_code": "PHYS 5990",
+      "department": "PHYS",
+      "title": "Intro to Relativistic Quantum",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles. Prerequisites: Department permission, Graduate student.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 5990\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 5990\"}, {\"type\": \"course\", \"code\": \"PHYS 5990\"}]}]}",
+      "other_requirements": "Department permission, Graduate student. Graduate student or undergraduate student with instructor permission. Quantum mechanics I is absolutely necessary as a prerequisite.",
+      "external": false
+    },
+    {
+      "id": "PHYS 1100",
+      "course_code": "PHYS 1100",
+      "department": "PHYS",
+      "title": "The Physics of Music",
+      "credit_hours": "3",
+      "description": "Basic physical principles underlying the production, transmission and perception of musical sound. Vibrations, waves, elementary acoustics with applications to a wide range of musical topics. Prerequisite: High school algebra.",
+      "prereq_expression": null,
+      "other_requirements": "High school algebra.",
+      "external": false
+    },
+    {
+      "id": "PHYS 1250",
+      "course_code": "PHYS 1250",
+      "department": "PHYS",
+      "title": "Conceptual Physics",
+      "credit_hours": "3",
+      "description": "One-semester conceptual survey. Topics selected from mechanics, electricity, magnetism and modern physics.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PHYS 3175",
+      "course_code": "PHYS 3175",
+      "department": "PHYS",
+      "title": "Microstructure & Surface Analy",
+      "credit_hours": "1",
+      "description": "Explores the theory and practical operation of several advanced techniques to analyze the structure, composition, and surfaces of micro and nano-scale materials. Students will be fully trained as users of a Field Emission Scanning Electron Microscope (FESEM) including x-ray elemental analysis. Credit will not be given for both PHYS 3175 and <a href=\"/search/?p=PHYS%205185\" data-action=\"result-detail\" data-group=\"code:PHYS 5185\" >PHYS 5185</a>. Prerequisite: <a href=\"/search/?p=PHYS%202500\" data-action=\"result-detail\" data-group=\"code:PHYS 2500\"  class=\"notoffered\">PHYS 2500</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 2500\"}, {\"type\": \"course\", \"code\": \"PHYS 2500\"}]}",
+      "other_requirements": "All students must have reliable access to the University of Vermont Brightspace course website. (bb.uvm.edu)",
+      "external": false
+    },
+    {
+      "id": "PHYS 5200",
+      "course_code": "PHYS 5200",
+      "department": "PHYS",
+      "title": "Advanced Dynamics",
+      "credit_hours": "3",
+      "description": "Classical mechanics presented as the basis of the concepts and methods of modern physics. Variational, Lagrangian, and Hamiltonian formulations, canonical transformations, continuous systems. Prerequisite: Graduate student or undergraduate student with Instructor permission; knowledge <a href=\"/search/?p=PHYS%202200\" data-action=\"result-detail\" data-group=\"code:PHYS 2200\" >PHYS 2200</a> topics strongly recommended.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 2200\"}]}",
+      "other_requirements": "Graduate student or undergraduate student with Instructor permission; knowledge of PHYS 2200 topics strongly recommended.",
+      "external": false
+    },
+    {
+      "id": "PHYS 5675",
+      "course_code": "PHYS 5675",
+      "department": "PHYS",
+      "title": "Gr Semiconductor Materials/Dev",
       "credit_hours": "4",
-      "description": "Calculus-based introduction to electricity, magnetism and optics.  For students in the natural sciences. Laboratory content is integrated with the lecture. Credit not awarded for both <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\"  class=\"notoffered\">PHYS 1550</a> and PHYS 1650. Prerequisites: <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a> or <a href=\"/search/?p=PHYS%201600\" data-action=\"result-detail\" data-group=\"code:PHYS 1600\"  class=\"notoffered\">PHYS 1600</a>; credit or concurrent enrollment in <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1500\"}, {\"type\": \"course\", \"code\": \"PHYS 1600\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}]}]}",
-      "other_requirements": "Credit not awarded for both PHYS 1550 and PHYS 1650. Credit or concurrent enrollment in MATH 1248.",
+      "description": "Covers Energy band theory, effective mass, band structure and electronic properties of semiconductors. Transport of electrons and holes in bulk materials and across interfaces. MOSFETs, BJTs, pn junctions, and Schottky barriers. Experimental portion of course will have a laboratory component for electronic measurements of semiconductor devices. Credit not awarded for both PHYS 5675 and <a href=\"/search/?p=PHYS%203675\" data-action=\"result-detail\" data-group=\"code:PHYS 3675\" >PHYS 3675</a>. Prerequisite: Graduate student or Instructor permission. Cross-listed with: <a href=\"/search/?p=EE%205440\" data-action=\"result-detail\" data-group=\"code:EE 5440\" >EE 5440</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 5675\"}, {\"type\": \"course\", \"code\": \"EE 5440\"}]}",
+      "other_requirements": "Graduate student or Instructor permission",
+      "external": false
+    },
+    {
+      "id": "PHYS 4995",
+      "course_code": "PHYS 4995",
+      "department": "PHYS",
+      "title": "Undergraduate Research",
+      "credit_hours": "2",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "PHYS 2200",
+      "course_code": "PHYS 2200",
+      "department": "PHYS",
+      "title": "Classical Mechanics",
+      "credit_hours": "3",
+      "description": "Newtonian dynamics of particles and systems of particles, with applications to problems of special importance, such as driven and coupled harmonic oscillators and central field trajectories. Prerequisites: <a href=\"/search/?p=PHYS%201650\" data-action=\"result-detail\" data-group=\"code:PHYS 1650\" >PHYS 1650</a> or <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\"  class=\"notoffered\">PHYS 1550</a>; <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1650\"}, {\"type\": \"course\", \"code\": \"PHYS 1550\"}]}, {\"type\": \"course\", \"code\": \"MATH 2248\"}]}",
+      "other_requirements": "Students should have access to the textbook, John R. Taylor, Classical Mechanics Second Edition, University Science Books, ISBN 978-1-891389-22-1 (2005). Students will be expected to read the required chapters of the text, turn in Homework Sets approximately weekly, and take a midterm and final examination. Attendance in class is highly recommended.",
+      "external": false
+    },
+    {
+      "id": "PHYS 3550",
+      "course_code": "PHYS 3550",
+      "department": "PHYS",
+      "title": "Nuclear & Elem Particle Physic",
+      "credit_hours": "3",
+      "description": "Introduction to theoretical and experimental aspects of nuclear and elementary particle physics. Prerequisite: <a href=\"/search/?p=PHYS%202500\" data-action=\"result-detail\" data-group=\"code:PHYS 2500\"  class=\"notoffered\">PHYS 2500</a>; Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 2500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 3550\"}, {\"type\": \"course\", \"code\": \"PHYS 3550\"}]}]}",
+      "other_requirements": "Junior standing. Basic undergraduate-level knowledge of modern physics, i.e. Quantum Mechanics and atomic physics, as well as basic special relativity (we can review relativity when needed).",
+      "external": false
+    },
+    {
+      "id": "EE 5440",
+      "course_code": "EE 5440",
+      "department": "EE",
+      "title": "Gr Semiconductor Materials/Dev",
+      "credit_hours": "4",
+      "description": "Covers energy band theory, effective mass, band structure and electronic properties of semiconductors.  Transport of electrons and holes in bulk materials and across interfaces. MOSFETs, BJTs, pn junctions, and Schottky barriers. Experimental portion of course will have a laboratory component for electronic measurements of semiconductor devices. Credit not awarded for both EE 5440 and <a href=\"/search/?p=EE%203440\" data-action=\"result-detail\" data-group=\"code:EE 3440\" >EE 3440</a>. Prerequisite: Graduate student or Instructor permission. Cross-listed with: <a href=\"/search/?p=PHYS%205675\" data-action=\"result-detail\" data-group=\"code:PHYS 5675\" >PHYS 5675</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EE 3440\"}, {\"type\": \"course\", \"code\": \"PHYS 3675\"}]}",
+      "other_requirements": "Graduate student or Instructor permission; Must register for EE 5440 A01 or A02 lab; In person attendance is required. If you miss more than 3 unexcused classes during the semester you will receive an F in the class.",
+      "external": true
+    },
+    {
+      "id": "MATH 1234",
+      "course_code": "MATH 1234",
+      "department": "MATH",
+      "title": "Calculus I",
+      "credit_hours": "4",
+      "description": "Introduction to calculus of functions of one variable including: limits, continuity, techniques and applications of differentiation and integration. Credit not given for more than one course in the pair <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, MATH 1234 unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a> or a score of 76 or higher on the placement assessment.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1034\"}, {\"type\": \"other_requirement\", \"description\": \"ALEKS MPA of at least 76\"}]}",
+      "other_requirements": "C- or better in MATH 1034 or a score of 76 or higher on the placement assessment. Prereqs enforced by the system.",
+      "external": true
+    },
+    {
+      "id": "MATH 1248",
+      "course_code": "MATH 1248",
+      "department": "MATH",
+      "title": "Calculus II",
+      "credit_hours": "4",
+      "description": "Vectors and vector operations. Techniques and applications of integration. Polar coordinates, Taylor polynomials, sequences and series, power series. Credit will not be given for both MATH 1248 and <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 021\"}]}",
+      "other_requirements": "C- or better in MATH 1234. C- or better in MATH 021.",
+      "external": true
+    },
+    {
+      "id": "PHYS 5400",
+      "course_code": "PHYS 5400",
+      "department": "PHYS",
+      "title": "Statistical Mechanics",
+      "credit_hours": "3",
+      "description": "Following a review of thermodynamics, covers the fundamentals of classical and quantum statistical mechanics including ensembles, identical particles, Bose and Fermi statistics, phase-transitions and critical phenomena, renormalization group, irreversible processes and fluctuations. Prerequisite: Graduate student or undergraduate student with Instructor permission; knowledge of <a href=\"/search/?p=PHYS%203400\" data-action=\"result-detail\" data-group=\"code:PHYS 3400\"  class=\"notoffered\">PHYS 3400</a> topics strongly recommended.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 3400\"}]}",
+      "other_requirements": "Graduate student or undergraduate student with Instructor permission; knowledge of PHYS 3400 topics strongly recommended.",
+      "external": false
+    },
+    {
+      "id": "PHYS 3650",
+      "course_code": "PHYS 3650",
+      "department": "PHYS",
+      "title": "Intro to Solid State Physics",
+      "credit_hours": "3",
+      "description": "Introduction to crystal structures, reciprocal lattices, lattice vibrations. Thermal properties of solids and free electron theory of metals and semiconductors. Elementary band theory and introduction to electronic transport theory. Prerequisite: <a href=\"/search/?p=PHYS%202500\" data-action=\"result-detail\" data-group=\"code:PHYS 2500\" >PHYS 2500</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"PHYS 2500\"}",
+      "other_requirements": "Students are expected to attend all lectures in person, actively participate in discussions and interactive quizzes, solve at-home problem sets.",
+      "external": false
+    },
+    {
+      "id": "PHYS 4500",
+      "course_code": "PHYS 4500",
+      "department": "PHYS",
+      "title": "Applictns of Quantum Mechanics",
+      "credit_hours": "3",
+      "description": "Applications of Quantum Mechanics including Quantum Statistical Mechanics, Time-Independent and Time- Dependent Perturbation Theory, WKB Approximation, Variational Principle and Scattering. Prerequisite: <a href=\"/search/?p=PHYS%203500\" data-action=\"result-detail\" data-group=\"code:PHYS 3500\"  class=\"notoffered\">PHYS 3500</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 3500\"}, {\"type\": \"course\", \"code\": \"PHYS 3500\"}]}",
+      "other_requirements": "equivalent",
+      "external": false
+    },
+    {
+      "id": "PHYS 3995",
+      "course_code": "PHYS 3995",
+      "department": "PHYS",
+      "title": "Undergraduate Research",
+      "credit_hours": "3",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PHYS 1200",
+      "course_code": "PHYS 1200",
+      "department": "PHYS",
+      "title": "Energy and the Environment",
+      "credit_hours": "3",
+      "description": "Forms of energy as defined in physics; sources, uses, and transformations of energy: introductory seminar will place emphasis on environmental issues. Limited use of algebra and geometry.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PHYS 1460",
+      "course_code": "PHYS 1460",
+      "department": "PHYS",
+      "title": "Elem Physic Problem Solving II",
+      "credit_hours": "1",
+      "description": "Accompanying lecture <a href=\"/search/?p=PHYS%201450\" data-action=\"result-detail\" data-group=\"code:PHYS 1450\" >PHYS 1450</a>. Co-requisite: Concurrent enrollment in <a href=\"/search/?p=PHYS%201450\" data-action=\"result-detail\" data-group=\"code:PHYS 1450\" >PHYS 1450</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Accompanying lecture PHYS 1450. Co-requisite: Concurrent enrollment in PHYS 1450. S/U grading. PHYS 1450 is a combined lecture/lab. Students should only register for PHYS 1460 if they wish to add an optional problem-solving session to their schedule. Open to Degree and PACE students. Students should have attempted the problems in the current Physics 1450 homework set before attending each class.",
+      "external": false
+    },
+    {
+      "id": "PHYS 1510",
+      "course_code": "PHYS 1510",
+      "department": "PHYS",
+      "title": "Physics Problem Solving I",
+      "credit_hours": "1",
+      "description": "Problem-solving techniques for first semester Physics with calculus. Accompanying lecture <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PHYS 1410",
+      "course_code": "PHYS 1410",
+      "department": "PHYS",
+      "title": "Elem Physics Problem Solving I",
+      "credit_hours": "1",
+      "description": "Accompanying lecture <a href=\"/search/?p=PHYS%201400\" data-action=\"result-detail\" data-group=\"code:PHYS 1400\" >PHYS 1400</a>. Co-requisite: Concurrent enrollment in <a href=\"/search/?p=PHYS%201400\" data-action=\"result-detail\" data-group=\"code:PHYS 1400\" >PHYS 1400</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"PHYS 1400\"}",
+      "other_requirements": "Co-requisite: Concurrent enrollment in PHYS 1400.",
+      "external": false
+    },
+    {
+      "id": "PHYS 3150",
+      "course_code": "PHYS 3150",
+      "department": "PHYS",
+      "title": "Computational Physics I",
+      "credit_hours": "3",
+      "description": "Introduction to modern computational techniques focusing on the simulation or solution of the behavior of physical systems. Examples will be drawn from classical, statistical, and quantum mechanics, electromagnetism, and chaos. Prerequisites: <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\" >PHYS 1550</a> or <a href=\"/search/?p=PHYS%201650\" data-action=\"result-detail\" data-group=\"code:PHYS 1650\"  class=\"notoffered\">PHYS 1650</a>; <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1550\"}, {\"type\": \"course\", \"code\": \"PHYS 1650\"}]}, {\"type\": \"course\", \"code\": \"MATH 2248\"}]}",
+      "other_requirements": null,
       "external": false
     },
     {
@@ -530,14 +354,124 @@
       "external": false
     },
     {
-      "id": "PHYS 1550",
-      "course_code": "PHYS 1550",
+      "id": "PHYS 4100",
+      "course_code": "PHYS 4100",
       "department": "PHYS",
-      "title": "Physics for Engineers II",
+      "title": "Experimental Physics II",
       "credit_hours": "3",
-      "description": "Electricity, magnetism, electromagnetic waves, optics. Without lab. Accompanying optional problem-solving session: <a href=\"/search/?p=PHYS%201560\" data-action=\"result-detail\" data-group=\"code:PHYS 1560\" >PHYS 1560</a>. Prerequisites: <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>; <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Co-requisite: <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}]}",
-      "other_requirements": "CEMS students only",
+      "description": "Experiments in classical and modern physics. Prerequisites: <a href=\"/search/?p=PHYS%202500\" data-action=\"result-detail\" data-group=\"code:PHYS 2500\"  class=\"notoffered\">PHYS 2500</a>; <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>; Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 2500\"}, {\"type\": \"course\", \"code\": \"MATH 2248\"}]}",
+      "other_requirements": "Junior standing.",
+      "external": false
+    },
+    {
+      "id": "MATH 1242",
+      "course_code": "MATH 1242",
+      "department": "MATH",
+      "title": "Transitional Calculus",
+      "credit_hours": "5",
+      "description": "Intended to make the transition from <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> to <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>. Topics are similar to <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> but recognizing different backgrounds of students in <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> versus <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit will not be given for both <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> and MATH 1242. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: B or better in <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, or B or better in <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"other_requirement\", \"description\": \"B or better\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"other_requirement\", \"description\": \"B or better\"}]}]}",
+      "other_requirements": "Open to Degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "PHYS 1650",
+      "course_code": "PHYS 1650",
+      "department": "PHYS",
+      "title": "Fundamentals of Physics II",
+      "credit_hours": "4",
+      "description": "Calculus-based introduction to electricity, magnetism and optics.  For students in the natural sciences. Laboratory content is integrated with the lecture. Credit not awarded for both <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\"  class=\"notoffered\">PHYS 1550</a> and PHYS 1650. Prerequisites: <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a> or <a href=\"/search/?p=PHYS%201600\" data-action=\"result-detail\" data-group=\"code:PHYS 1600\"  class=\"notoffered\">PHYS 1600</a>; credit or concurrent enrollment in <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1500\"}, {\"type\": \"course\", \"code\": \"PHYS 1600\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}]}]}",
+      "other_requirements": "Credit not awarded for both PHYS 1550 and PHYS 1650. Credit or concurrent enrollment in MATH 1248.",
+      "external": false
+    },
+    {
+      "id": "PHYS 2995",
+      "course_code": "PHYS 2995",
+      "department": "PHYS",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisites: <a href=\"/search/?p=PHYS%202500\" data-action=\"result-detail\" data-group=\"code:PHYS 2500\" >PHYS 2500</a>; Department permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 2500\"}]}",
+      "other_requirements": "Department permission",
+      "external": false
+    },
+    {
+      "id": "PHYS 7491",
+      "course_code": "PHYS 7491",
+      "department": "PHYS",
+      "title": "Doctoral Dissertation Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Doctoral Dissertation.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"PHYS 7491\"}",
+      "other_requirements": "Instructor permission required; Variable credits 1-18",
+      "external": false
+    },
+    {
+      "id": "PHYS 2100",
+      "course_code": "PHYS 2100",
+      "department": "PHYS",
+      "title": "Experimental Physics I",
+      "credit_hours": "3",
+      "description": "Classic physics experiments with a strong emphasis on experimental setup, data collection and analysis, error estimation, and writing/presentation of results. The laboratory work is centered around three experiments: Poisson statistics, Cavendish balance, and Kater pendulum. Prerequisite: <a href=\"/search/?p=PHYS%201650\" data-action=\"result-detail\" data-group=\"code:PHYS 1650\"  class=\"notoffered\">PHYS 1650</a> or <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\" >PHYS 1550</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1650\"}, {\"type\": \"course\", \"code\": \"PHYS 1550\"}]}",
+      "other_requirements": "This course requires laboratory work of at least 6 hours per week outside of regular class hours. You will be assigned a lab partner or partners in groups of 2 or 3. There will be pre-lab assignments, data collection, lab report writing, homework and presentations. In-class presentations will be individual presentations assigned choosing from a list of topics or based on a mini experiment related to the main experiments. Those will be assigned at least one week in advance of the date of the presentation and will require approximately 4 to 6 hours to prepare. I expect that you are maintaining a good class attendance, prior reading of the assigned material, involving in class discussions and carrying out experiments outside of the class time. I also expect the on-time submission of pre-lab and homework assignments, final lab reports and presentations.",
+      "external": false
+    },
+    {
+      "id": "PHYS 3165",
+      "course_code": "PHYS 3165",
+      "department": "PHYS",
+      "title": "Integrated Circuit Fabrication",
+      "credit_hours": "4",
+      "description": "Science and technology of integrated circuit fabrication. Interaction of processing with material properties, electrical performance, economy, and manufacturability. Study of unit processes used to make semiconductor chips. Prerequisite: <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\" >PHYS 1550</a> or <a href=\"/search/?p=PHYS%201650\" data-action=\"result-detail\" data-group=\"code:PHYS 1650\"  class=\"notoffered\">PHYS 1650</a>. Cross-listed with: <a href=\"/search/?p=EE%203420\" data-action=\"result-detail\" data-group=\"code:EE 3420\" >EE 3420</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1550\"}, {\"type\": \"course\", \"code\": \"PHYS 1650\"}]}",
+      "other_requirements": "Must register for a lab section A01-A02",
+      "external": false
+    },
+    {
+      "id": "PHYS 1600",
+      "course_code": "PHYS 1600",
+      "department": "PHYS",
+      "title": "Fundamentals of Physics I",
+      "credit_hours": "4",
+      "description": "Calculus-based introduction to kinematics, dynamics, oscillations, thermal physics. For students in the natural sciences. With lab. Credit not awarded for both PHYS 1600 and <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>. Pre/co-requisite: Credit or concurrent enrollment in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "other_requirements": "Credit or concurrent enrollment in MATH 1234. Open to Degree and PACE students. Credit not awarded for both PHYS 1600 and PHYS 1500.",
+      "external": false
+    },
+    {
+      "id": "EE 2145",
+      "course_code": "EE 2145",
+      "department": "EE",
+      "title": "Electrical Engr Concepts",
+      "credit_hours": "4",
+      "description": "Fundamentals of electrical engineering; DC and AC linear circuit analysis; laboratory component. No credit for more than one of EE 003, <a href=\"/search/?p=EE%202125\" data-action=\"result-detail\" data-group=\"code:EE 2125\" >EE 2125</a>, EE 2145 and <a href=\"/search/?p=EE%202175\" data-action=\"result-detail\" data-group=\"code:EE 2175\"  class=\"notoffered\">EE 2175</a>. Prerequisites: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "No credit for more than one of EE 003, EE 2125, EE 2145 and EE 2175. Not for BIOM majors; Must register for lab section A01 - A04; No credit for more than one ofEE 2125, EE 2145, orEE 2175; Open to degree and PACE students Please see URL for syllabus from FA 2025. Consider this to be a draft for this coming Fall, as there will be some updates. See above.",
+      "external": true
+    },
+    {
+      "id": "PHYS 6391",
+      "course_code": "PHYS 6391",
+      "department": "PHYS",
+      "title": "Master's Thesis Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Master's Thesis.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required; Variable credits 1-18",
+      "external": false
+    },
+    {
+      "id": "PHYS 3400",
+      "course_code": "PHYS 3400",
+      "department": "PHYS",
+      "title": "Thermal & Statistical Physics",
+      "credit_hours": "3",
+      "description": "Thermodynamics, kinetic theory, statistical mechanics. Prerequisites: <a href=\"/search/?p=PHYS%201650\" data-action=\"result-detail\" data-group=\"code:PHYS 1650\" >PHYS 1650</a> or <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\"  class=\"notoffered\">PHYS 1550</a>; <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1650\"}, {\"type\": \"course\", \"code\": \"PHYS 1550\"}]}, {\"type\": \"course\", \"code\": \"MATH 2248\"}]}",
+      "other_requirements": "A solid foundation in calculus and introductory physics is assumed.",
       "external": false
     },
     {
@@ -550,276 +484,409 @@
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1650\"}, {\"type\": \"course\", \"code\": \"PHYS 1550\"}]}",
       "other_requirements": "Co-requisite: MATH 2248. Students must register for a PHYS 2500 Lab.",
       "external": false
+    },
+    {
+      "id": "PHYS 1550",
+      "course_code": "PHYS 1550",
+      "department": "PHYS",
+      "title": "Physics for Engineers II",
+      "credit_hours": "3",
+      "description": "Electricity, magnetism, electromagnetic waves, optics. Without lab. Accompanying optional problem-solving session: <a href=\"/search/?p=PHYS%201560\" data-action=\"result-detail\" data-group=\"code:PHYS 1560\" >PHYS 1560</a>. Prerequisites: <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>; <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Co-requisite: <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}]}",
+      "other_requirements": "CEMS students only",
+      "external": false
+    },
+    {
+      "id": "PHYS 3675",
+      "course_code": "PHYS 3675",
+      "department": "PHYS",
+      "title": "Semiconductor Materials/Devic",
+      "credit_hours": "4",
+      "description": "Covers Energy band theory, effective mass, band structure and electronic properties of semiconductors.  Transport of electrons and holes in bulk materials and across interfaces. MOSFETs, BJTs, pn junctions, and Schottky barriers. Experimental portion of course will cover electronic measurements of semiconductor devices. Credit not awarded for both PHYS 3675 and <a href=\"/search/?p=PHYS%205675\" data-action=\"result-detail\" data-group=\"code:PHYS 5675\" >PHYS 5675</a>. Prerequisites: <a href=\"/search/?p=EE%202145\" data-action=\"result-detail\" data-group=\"code:EE 2145\"  class=\"notoffered\">EE 2145</a>, <a href=\"/search/?p=EE%203410\" data-action=\"result-detail\" data-group=\"code:EE 3410\" >EE 3410</a>, or <a href=\"/search/?p=PHYS%203300\" data-action=\"result-detail\" data-group=\"code:PHYS 3300\"  class=\"notoffered\">PHYS 3300</a>. Cross-listed with: <a href=\"/search/?p=EE%203440\" data-action=\"result-detail\" data-group=\"code:EE 3440\" >EE 3440</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EE 2145\"}, {\"type\": \"course\", \"code\": \"EE 3410\"}, {\"type\": \"course\", \"code\": \"PHYS 3300\"}]}",
+      "other_requirements": "Must enroll in PHYS 3675 A01 or A02; In person attendance is required. If you miss more than 3 unexcused classes during the semester you will receive an F in the class.",
+      "external": false
+    },
+    {
+      "id": "MATH 2248",
+      "course_code": "MATH 2248",
+      "department": "MATH",
+      "title": "Calculus III",
+      "credit_hours": "4",
+      "description": "Vector-valued functions. Calculus of functions of several variables: partial derivatives, gradient, divergence, curl, multiple integrals, line integrals, Stokes' and Green's theorems. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "C- or better in MATH 1248 or MATH 1242",
+      "external": true
+    },
+    {
+      "id": "PHYS 4110",
+      "course_code": "PHYS 4110",
+      "department": "PHYS",
+      "title": "Capstone Seminar",
+      "credit_hours": "1",
+      "description": "Capstone experience emphasizing the application of physics concepts, development of professional skills, and integration of knowledge acquired during undergraduate Physics studies. Culminating project to demonstrate personal academic and professional growth. Through customized activities, students will explore professional pathways and prepare for their post-college goals. Course complements an approved independent or group study option taken in the same semester. Prerequisites: <a href=\"/search/?p=PHYS%202100\" data-action=\"result-detail\" data-group=\"code:PHYS 2100\" >PHYS 2100</a>, <a href=\"/search/?p=PHYS%202500\" data-action=\"result-detail\" data-group=\"code:PHYS 2500\" >PHYS 2500</a>, <a href=\"/search/?p=PHYS%204100\" data-action=\"result-detail\" data-group=\"code:PHYS 4100\"  class=\"notoffered\">PHYS 4100</a>. Co-requisites: <a href=\"/search/?p=PHYS%204991\" data-action=\"result-detail\" data-group=\"code:PHYS 4991\"  class=\"notoffered\">PHYS 4991</a>, <a href=\"/search/?p=PHYS%204993\" data-action=\"result-detail\" data-group=\"code:PHYS 4993\"  class=\"notoffered\">PHYS 4993</a>, <a href=\"/search/?p=PHYS%204995\" data-action=\"result-detail\" data-group=\"code:PHYS 4995\" >PHYS 4995</a>, or <a href=\"/search/?p=PHYS%204996\" data-action=\"result-detail\" data-group=\"code:PHYS 4996\"  class=\"notoffered\">PHYS 4996</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 2100\"}, {\"type\": \"course\", \"code\": \"PHYS 2500\"}, {\"type\": \"course\", \"code\": \"PHYS 4100\"}]}",
+      "other_requirements": "Co-requisites: PHYS 4991, PHYS 4993, PHYS 4995, or PHYS 4996.",
+      "external": false
+    },
+    {
+      "id": "PHYS 6000",
+      "course_code": "PHYS 6000",
+      "department": "PHYS",
+      "title": "Teaching of College Physics",
+      "credit_hours": "1",
+      "description": "Instructional strategies and techniques with application to the teaching of laboratories and recitations. Prerequisites: Undergraduate degree in Physics; Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 6000\"}, {\"type\": \"course\", \"code\": \"PHYS 6000\"}]}",
+      "other_requirements": "Undergraduate degree in Physics; Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "EE 3410",
+      "course_code": "EE 3410",
+      "department": "EE",
+      "title": "Electronics II",
+      "credit_hours": "4",
+      "description": "Physical principles of operation of common semiconductor devices. Analog and digital circuits using MOS and bipolar junction transistors. Operational amplifier design. Electronic circuit analysis and simulation. Project-based final. Prerequisite: C- or better in <a href=\"/search/?p=EE%203110\" data-action=\"result-detail\" data-group=\"code:EE 3110\"  class=\"notoffered\">EE 3110</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EE 3110\"}, {\"type\": \"course\", \"code\": \"EE 3110\"}]}",
+      "other_requirements": "C- or better in EE 3110. Minimum Junior standing. Students are expected to attend and participate in class discussions which are key to meeting the objectives of the course. Students are expected to complete the assigned readings to ensure informed class discussions.",
+      "external": true
     }
   ],
   "edges": [
     {
       "source": "EE 2145",
-      "target": "PHYS 3675"
+      "target": "PHYS 3675",
+      "group": "PHYS 3675__g0"
     },
     {
       "source": "EE 3410",
-      "target": "PHYS 3675"
+      "target": "PHYS 3675",
+      "group": "PHYS 3675__g0"
     },
     {
       "source": "EE 5440",
-      "target": "PHYS 5675"
+      "target": "PHYS 5675",
+      "group": "PHYS 5675__g0"
     },
     {
       "source": "MATH 1234",
-      "target": "MATH 1248"
+      "target": "MATH 1248",
+      "group": "MATH 1248__g0"
     },
     {
       "source": "MATH 1234",
-      "target": "PHYS 1500"
+      "target": "PHYS 1500",
+      "group": "PHYS 1500__g0"
     },
     {
       "source": "MATH 1234",
-      "target": "PHYS 1600"
+      "target": "PHYS 1600",
+      "group": "PHYS 1600__g0"
     },
     {
       "source": "MATH 1242",
-      "target": "EE 2145"
+      "target": "EE 2145",
+      "group": "EE 2145__g0"
     },
     {
       "source": "MATH 1242",
-      "target": "MATH 2248"
+      "target": "MATH 2248",
+      "group": "MATH 2248__g0"
     },
     {
       "source": "MATH 1242",
-      "target": "PHYS 1500"
+      "target": "PHYS 1500",
+      "group": "PHYS 1500__g0"
     },
     {
       "source": "MATH 1242",
-      "target": "PHYS 1550"
+      "target": "PHYS 1550",
+      "group": "PHYS 1550__g0"
     },
     {
       "source": "MATH 1248",
-      "target": "EE 2145"
+      "target": "EE 2145",
+      "group": "EE 2145__g0"
     },
     {
       "source": "MATH 1248",
-      "target": "MATH 2248"
+      "target": "MATH 2248",
+      "group": "MATH 2248__g0"
     },
     {
       "source": "MATH 1248",
-      "target": "PHYS 1550"
+      "target": "PHYS 1550",
+      "group": "PHYS 1550__g0"
     },
     {
       "source": "MATH 1248",
-      "target": "PHYS 1650"
+      "target": "PHYS 1650",
+      "group": "PHYS 1650__g1"
     },
     {
       "source": "MATH 2248",
-      "target": "PHYS 2200"
+      "target": "PHYS 2200",
+      "group": null
     },
     {
       "source": "MATH 2248",
-      "target": "PHYS 3150"
+      "target": "PHYS 3150",
+      "group": null
     },
     {
       "source": "MATH 2248",
-      "target": "PHYS 3300"
+      "target": "PHYS 3300",
+      "group": null
     },
     {
       "source": "MATH 2248",
-      "target": "PHYS 3400"
+      "target": "PHYS 3400",
+      "group": null
     },
     {
       "source": "MATH 2248",
-      "target": "PHYS 3800"
+      "target": "PHYS 3800",
+      "group": null
     },
     {
       "source": "MATH 2248",
-      "target": "PHYS 3990"
+      "target": "PHYS 3990",
+      "group": null
     },
     {
       "source": "MATH 2248",
-      "target": "PHYS 4100"
+      "target": "PHYS 4100",
+      "group": null
     },
     {
       "source": "PHYS 1400",
-      "target": "PHYS 1410"
+      "target": "PHYS 1410",
+      "group": null
     },
     {
       "source": "PHYS 1400",
-      "target": "PHYS 1450"
+      "target": "PHYS 1450",
+      "group": "PHYS 1450__g0"
     },
     {
       "source": "PHYS 1450",
-      "target": "PHYS 3990"
+      "target": "PHYS 3990",
+      "group": "PHYS 3990__g0"
     },
     {
       "source": "PHYS 1500",
-      "target": "PHYS 1450"
+      "target": "PHYS 1450",
+      "group": "PHYS 1450__g0"
     },
     {
       "source": "PHYS 1500",
-      "target": "PHYS 1550"
+      "target": "PHYS 1550",
+      "group": null
     },
     {
       "source": "PHYS 1500",
-      "target": "PHYS 1650"
+      "target": "PHYS 1650",
+      "group": "PHYS 1650__g0"
     },
     {
       "source": "PHYS 1550",
-      "target": "PHYS 2100"
+      "target": "PHYS 2100",
+      "group": "PHYS 2100__g0"
     },
     {
       "source": "PHYS 1550",
-      "target": "PHYS 2200"
+      "target": "PHYS 2200",
+      "group": "PHYS 2200__g0"
     },
     {
       "source": "PHYS 1550",
-      "target": "PHYS 2500"
+      "target": "PHYS 2500",
+      "group": "PHYS 2500__g0"
     },
     {
       "source": "PHYS 1550",
-      "target": "PHYS 3150"
+      "target": "PHYS 3150",
+      "group": "PHYS 3150__g0"
     },
     {
       "source": "PHYS 1550",
-      "target": "PHYS 3165"
+      "target": "PHYS 3165",
+      "group": "PHYS 3165__g0"
     },
     {
       "source": "PHYS 1550",
-      "target": "PHYS 3300"
+      "target": "PHYS 3300",
+      "group": "PHYS 3300__g0"
     },
     {
       "source": "PHYS 1550",
-      "target": "PHYS 3400"
+      "target": "PHYS 3400",
+      "group": "PHYS 3400__g0"
     },
     {
       "source": "PHYS 1600",
-      "target": "PHYS 1450"
+      "target": "PHYS 1450",
+      "group": "PHYS 1450__g0"
     },
     {
       "source": "PHYS 1600",
-      "target": "PHYS 1650"
+      "target": "PHYS 1650",
+      "group": "PHYS 1650__g0"
     },
     {
       "source": "PHYS 1650",
-      "target": "PHYS 2100"
+      "target": "PHYS 2100",
+      "group": "PHYS 2100__g0"
     },
     {
       "source": "PHYS 1650",
-      "target": "PHYS 2200"
+      "target": "PHYS 2200",
+      "group": "PHYS 2200__g0"
     },
     {
       "source": "PHYS 1650",
-      "target": "PHYS 2500"
+      "target": "PHYS 2500",
+      "group": "PHYS 2500__g0"
     },
     {
       "source": "PHYS 1650",
-      "target": "PHYS 3150"
+      "target": "PHYS 3150",
+      "group": "PHYS 3150__g0"
     },
     {
       "source": "PHYS 1650",
-      "target": "PHYS 3165"
+      "target": "PHYS 3165",
+      "group": "PHYS 3165__g0"
     },
     {
       "source": "PHYS 1650",
-      "target": "PHYS 3300"
+      "target": "PHYS 3300",
+      "group": "PHYS 3300__g0"
     },
     {
       "source": "PHYS 1650",
-      "target": "PHYS 3400"
+      "target": "PHYS 3400",
+      "group": "PHYS 3400__g0"
     },
     {
       "source": "PHYS 1650",
-      "target": "PHYS 3990"
+      "target": "PHYS 3990",
+      "group": "PHYS 3990__g0"
     },
     {
       "source": "PHYS 2100",
-      "target": "PHYS 4110"
+      "target": "PHYS 4110",
+      "group": null
     },
     {
       "source": "PHYS 2200",
-      "target": "PHYS 3500"
+      "target": "PHYS 3500",
+      "group": null
     },
     {
       "source": "PHYS 2200",
-      "target": "PHYS 5200"
+      "target": "PHYS 5200",
+      "group": "PHYS 5200__g0"
     },
     {
       "source": "PHYS 2500",
-      "target": "PHYS 2995"
+      "target": "PHYS 2995",
+      "group": null
     },
     {
       "source": "PHYS 2500",
-      "target": "PHYS 3175"
+      "target": "PHYS 3175",
+      "group": "PHYS 3175__g0"
     },
     {
       "source": "PHYS 2500",
-      "target": "PHYS 3500"
+      "target": "PHYS 3500",
+      "group": null
     },
     {
       "source": "PHYS 2500",
-      "target": "PHYS 3550"
+      "target": "PHYS 3550",
+      "group": null
     },
     {
       "source": "PHYS 2500",
-      "target": "PHYS 3650"
+      "target": "PHYS 3650",
+      "group": null
     },
     {
       "source": "PHYS 2500",
-      "target": "PHYS 3800"
+      "target": "PHYS 3800",
+      "group": null
     },
     {
       "source": "PHYS 2500",
-      "target": "PHYS 4100"
+      "target": "PHYS 4100",
+      "group": null
     },
     {
       "source": "PHYS 2500",
-      "target": "PHYS 4110"
+      "target": "PHYS 4110",
+      "group": null
     },
     {
       "source": "PHYS 3175",
-      "target": "PHYS 5185"
+      "target": "PHYS 5185",
+      "group": null
     },
     {
       "source": "PHYS 3300",
-      "target": "PHYS 3675"
+      "target": "PHYS 3675",
+      "group": "PHYS 3675__g0"
     },
     {
       "source": "PHYS 3400",
-      "target": "PHYS 5400"
+      "target": "PHYS 5400",
+      "group": "PHYS 5400__g0"
     },
     {
       "source": "PHYS 3400",
-      "target": "PHYS 5500"
+      "target": "PHYS 5500",
+      "group": null
     },
     {
       "source": "PHYS 3500",
-      "target": "PHYS 4500"
+      "target": "PHYS 4500",
+      "group": "PHYS 4500__g0"
     },
     {
       "source": "PHYS 3550",
-      "target": "PHYS 3550"
+      "target": "PHYS 3550",
+      "group": "PHYS 3550__g0"
     },
     {
       "source": "PHYS 3675",
-      "target": "EE 5440"
+      "target": "EE 5440",
+      "group": "EE 5440__g0"
     },
     {
       "source": "PHYS 4100",
-      "target": "PHYS 4110"
+      "target": "PHYS 4110",
+      "group": null
     },
     {
       "source": "PHYS 5675",
-      "target": "PHYS 5675"
+      "target": "PHYS 5675",
+      "group": "PHYS 5675__g0"
     },
     {
       "source": "PHYS 5990",
-      "target": "PHYS 5990"
+      "target": "PHYS 5990",
+      "group": "PHYS 5990__g0"
     },
     {
       "source": "PHYS 6000",
-      "target": "PHYS 6000"
+      "target": "PHYS 6000",
+      "group": "PHYS 6000__g0"
     },
     {
       "source": "PHYS 7491",
-      "target": "PHYS 7491"
+      "target": "PHYS 7491",
+      "group": null
     }
   ]
 }

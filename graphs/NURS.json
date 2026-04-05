@@ -13,15 +13,15 @@
       "external": true
     },
     {
-      "id": "NURS 3000",
-      "course_code": "NURS 3000",
-      "department": "NURS",
-      "title": "Health and Sustainability",
-      "credit_hours": "3",
-      "description": "Designed to introduce students to the concept of sustainability via the integration of basic environmental health science, and the associated environmental and/or health effects of today's modern day production and manufacturing techniques and practices. Prerequisites: Junior standing.",
+      "id": "ANPS 1190",
+      "course_code": "ANPS 1190",
+      "department": "ANPS",
+      "title": "Ugr Hum Anatomy & Physiology 1",
+      "credit_hours": "4",
+      "description": "Part I of two-semester course sequence. Structure and function of human body.",
       "prereq_expression": null,
-      "other_requirements": "Junior standing.",
-      "external": false
+      "other_requirements": "Prereg limited to: BMCS, BIOM, CSD, EMS, EXSC, HSCI, MLS, MRS, NFS, NMT, PE, PHS, PRNU majors only. Degree students only even after major restrictions lifted.",
+      "external": true
     },
     {
       "id": "ANPS 1200",
@@ -35,6 +35,17 @@
       "external": true
     },
     {
+      "id": "NURS 3000",
+      "course_code": "NURS 3000",
+      "department": "NURS",
+      "title": "Health and Sustainability",
+      "credit_hours": "3",
+      "description": "Designed to introduce students to the concept of sustainability via the integration of basic environmental health science, and the associated environmental and/or health effects of today's modern day production and manufacturing techniques and practices. Prerequisites: Junior standing.",
+      "prereq_expression": null,
+      "other_requirements": "Junior standing.",
+      "external": false
+    },
+    {
       "id": "NURS 3220",
       "course_code": "NURS 3220",
       "department": "NURS",
@@ -44,35 +55,28 @@
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}, {\"type\": \"course\", \"code\": \"MMG 1650\"}]}",
       "other_requirements": "Minimum Junior or Graduate standing; Nursing students only; Junior, Senior, standing students only; PACE students by permission and override. Credit not awarded for both NURS 3220 and GRNS 5130.",
       "external": false
-    },
-    {
-      "id": "ANPS 1190",
-      "course_code": "ANPS 1190",
-      "department": "ANPS",
-      "title": "Ugr Hum Anatomy & Physiology 1",
-      "credit_hours": "4",
-      "description": "Part I of two-semester course sequence. Structure and function of human body.",
-      "prereq_expression": null,
-      "other_requirements": "Prereg limited to: BMCS, BIOM, CSD, EMS, EXSC, HSCI, MLS, MRS, NFS, NMT, PE, PHS, PRNU majors only. Degree students only even after major restrictions lifted.",
-      "external": true
     }
   ],
   "edges": [
     {
       "source": "ANPS 1190",
-      "target": "ANPS 1200"
+      "target": "ANPS 1200",
+      "group": null
     },
     {
       "source": "ANPS 1190",
-      "target": "NURS 3220"
+      "target": "NURS 3220",
+      "group": null
     },
     {
       "source": "ANPS 1200",
-      "target": "NURS 3220"
+      "target": "NURS 3220",
+      "group": null
     },
     {
       "source": "MMG 1650",
-      "target": "NURS 3220"
+      "target": "NURS 3220",
+      "group": null
     }
   ]
 }

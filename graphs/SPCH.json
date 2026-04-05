@@ -2,14 +2,14 @@
   "department": "SPCH",
   "nodes": [
     {
-      "id": "SPCH 1610",
-      "course_code": "SPCH 1610",
+      "id": "SPCH 1021",
+      "course_code": "SPCH 1021",
       "department": "SPCH",
-      "title": "Social Justice Debates",
+      "title": "LASP: Rhetoric of Rap",
       "credit_hours": "3",
-      "description": "Grapple with complex issues affecting communities by engaging in dialogic learning through organized debates on social justice topics. Provides skills in research and informational literacy, written and oral communication, perspective taking and stakeholder analysis, and listening in addition to engagement with contemporary social justice theories, perspectives, and topics. Credit not awarded for both SPCH 1610 and versions of the course offered as <a href=\"/search/?p=SPCH%201010\" data-action=\"result-detail\" data-group=\"code:SPCH 1010\" >SPCH 1010</a> to <a href=\"/search/?p=SPCH%201029\" data-action=\"result-detail\" data-group=\"code:SPCH 1029\"  class=\"notoffered\">1029</a>.",
+      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences). Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering;  periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program.",
       "prereq_expression": null,
-      "other_requirements": null,
+      "other_requirements": "LASP students only; Instructor permission required",
       "external": false
     },
     {
@@ -24,6 +24,17 @@
       "external": false
     },
     {
+      "id": "SPCH 1010",
+      "course_code": "SPCH 1010",
+      "department": "SPCH",
+      "title": "FYS: Rhetoric of Rap",
+      "credit_hours": "3",
+      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
       "id": "SPCH 1615",
       "course_code": "SPCH 1615",
       "department": "SPCH",
@@ -35,23 +46,12 @@
       "external": false
     },
     {
-      "id": "SPCH 1021",
-      "course_code": "SPCH 1021",
+      "id": "SPCH 1610",
+      "course_code": "SPCH 1610",
       "department": "SPCH",
-      "title": "LASP: Rhetoric of Rap",
+      "title": "Social Justice Debates",
       "credit_hours": "3",
-      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences). Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering;  periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program.",
-      "prereq_expression": null,
-      "other_requirements": "LASP students only; Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "SPCH 1010",
-      "course_code": "SPCH 1010",
-      "department": "SPCH",
-      "title": "FYS: Rhetoric of Rap",
-      "credit_hours": "3",
-      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "description": "Grapple with complex issues affecting communities by engaging in dialogic learning through organized debates on social justice topics. Provides skills in research and informational literacy, written and oral communication, perspective taking and stakeholder analysis, and listening in addition to engagement with contemporary social justice theories, perspectives, and topics. Credit not awarded for both SPCH 1610 and versions of the course offered as <a href=\"/search/?p=SPCH%201010\" data-action=\"result-detail\" data-group=\"code:SPCH 1010\" >SPCH 1010</a> to <a href=\"/search/?p=SPCH%201029\" data-action=\"result-detail\" data-group=\"code:SPCH 1029\"  class=\"notoffered\">1029</a>.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false

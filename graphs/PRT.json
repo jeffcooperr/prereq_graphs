@@ -2,6 +2,17 @@
   "department": "PRT",
   "nodes": [
     {
+      "id": "PRT 2580",
+      "course_code": "PRT 2580",
+      "department": "PRT",
+      "title": "Resort Mgmt & Marketing",
+      "credit_hours": "3",
+      "description": "Study of the management of year-round resort facilities. Emphasis on resort marketing, internal support functions, and associated recreational facilities. Prerequisite: Sophomore standing.",
+      "prereq_expression": null,
+      "other_requirements": "Sophomore standing. Minimum Sophomore standing; PRT majors and PRT and Sports Management minors; Others by permission",
+      "external": false
+    },
+    {
       "id": "PRT 2993",
       "course_code": "PRT 2993",
       "department": "PRT",
@@ -10,6 +21,50 @@
       "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PRT 1100",
+      "course_code": "PRT 1100",
+      "department": "PRT",
+      "title": "Int Sustainable Rec&Tourism",
+      "credit_hours": "3",
+      "description": "Introduces students to the field of sustainable recreation and tourism that is economically viable, socially inclusive, and environmentally responsible. Explores how recreation and tourism provides positive leisure experiences that contribute to individual well-being, vibrant livable communities, and healthy natural environments.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PRT 1990",
+      "course_code": "PRT 1990",
+      "department": "PRT",
+      "title": "Snowsports, Outdoor Adventure",
+      "credit_hours": "4",
+      "description": "See Schedule of Courses for specific title.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PRT 3991",
+      "course_code": "PRT 3991",
+      "department": "PRT",
+      "title": "Internship: PRT Practicum",
+      "credit_hours": "3",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PRT 3991\"}]}",
+      "other_requirements": "Minimum Junior standing; Required practicum for PRT majors; Parks, Rec and Tourism Practicum; PRT majors only",
+      "external": false
+    },
+    {
+      "id": "PRT 4350",
+      "course_code": "PRT 4350",
+      "department": "PRT",
+      "title": "Outdoor Recreation Planning",
+      "credit_hours": "3",
+      "description": "Planning large land areas for outdoor recreation use. Emphasis on the planning process relative to the leisure time use of natural resources. Prerequisites: Junior standing; Parks, Recreation and Tourism major or minor.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PRT 4350\"}, {\"type\": \"course\", \"code\": \"SMGT 4350\"}]}",
+      "other_requirements": "Junior standing; Parks, Recreation and Tourism major or minor. SMGT minors by permission; Junior or Senior status; Instructor will provide details about course meetings",
       "external": false
     },
     {
@@ -35,58 +90,25 @@
       "external": false
     },
     {
-      "id": "PRT 2995",
-      "course_code": "PRT 2995",
+      "id": "PRT 1700",
+      "course_code": "PRT 1700",
       "department": "PRT",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PRT 1990",
-      "course_code": "PRT 1990",
-      "department": "PRT",
-      "title": "Snowsports, Outdoor Adventure",
-      "credit_hours": "4",
-      "description": "See Schedule of Courses for specific title.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PRT 1100",
-      "course_code": "PRT 1100",
-      "department": "PRT",
-      "title": "Int Sustainable Rec&Tourism",
+      "title": "Parks & Protected Areas",
       "credit_hours": "3",
-      "description": "Introduces students to the field of sustainable recreation and tourism that is economically viable, socially inclusive, and environmentally responsible. Explores how recreation and tourism provides positive leisure experiences that contribute to individual well-being, vibrant livable communities, and healthy natural environments.",
+      "description": "Examines the origin stories, history, and contemporary managerial issues related to parks and other protected areas (forests, wildlife areas, heritage sites, cultural areas). The focus is on both the US and international examples. Builds understanding of principles of sustainability related to the quality of the natural world and the well-being of its people.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
     },
     {
-      "id": "PRT 2580",
-      "course_code": "PRT 2580",
+      "id": "PRT 4996",
+      "course_code": "PRT 4996",
       "department": "PRT",
-      "title": "Resort Mgmt & Marketing",
-      "credit_hours": "3",
-      "description": "Study of the management of year-round resort facilities. Emphasis on resort marketing, internal support functions, and associated recreational facilities. Prerequisite: Sophomore standing.",
-      "prereq_expression": null,
-      "other_requirements": "Sophomore standing. Minimum Sophomore standing; PRT majors and PRT and Sports Management minors; Others by permission",
-      "external": false
-    },
-    {
-      "id": "PRT 3996",
-      "course_code": "PRT 3996",
-      "department": "PRT",
-      "title": "Parks, Rec and Tourism Honors",
+      "title": "Honors",
       "credit_hours": "1 to 6",
-      "description": "Honors project dealing with management of outdoor recreation and tourism. See program chair.",
+      "description": "Honors course.",
       "prereq_expression": null,
-      "other_requirements": "PRT majors only; Permission required",
+      "other_requirements": "Minimum Junior standing",
       "external": false
     },
     {
@@ -101,14 +123,14 @@
       "external": false
     },
     {
-      "id": "PRT 4350",
-      "course_code": "PRT 4350",
+      "id": "PRT 3300",
+      "course_code": "PRT 3300",
       "department": "PRT",
-      "title": "Outdoor Recreation Planning",
+      "title": "Ecotourism",
       "credit_hours": "3",
-      "description": "Planning large land areas for outdoor recreation use. Emphasis on the planning process relative to the leisure time use of natural resources. Prerequisites: Junior standing; Parks, Recreation and Tourism major or minor.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PRT 4350\"}, {\"type\": \"course\", \"code\": \"SMGT 4350\"}]}",
-      "other_requirements": "Junior standing; Parks, Recreation and Tourism major or minor. SMGT minors by permission; Junior or Senior status; Instructor will provide details about course meetings",
+      "description": "Study of nature-based travel emphasizing international destinations. Examination of ecotourism as a tool for preservation and economic development. Prerequisite: Minimum Junior standing.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Junior standing.",
       "external": false
     },
     {
@@ -134,78 +156,63 @@
       "external": false
     },
     {
-      "id": "PRT 3991",
-      "course_code": "PRT 3991",
+      "id": "PRT 3996",
+      "course_code": "PRT 3996",
       "department": "PRT",
-      "title": "Internship: PRT Practicum",
-      "credit_hours": "3",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PRT 3991\"}]}",
-      "other_requirements": "Minimum Junior standing; Required practicum for PRT majors; Parks, Rec and Tourism Practicum; PRT majors only",
-      "external": false
-    },
-    {
-      "id": "PRT 3300",
-      "course_code": "PRT 3300",
-      "department": "PRT",
-      "title": "Ecotourism",
-      "credit_hours": "3",
-      "description": "Study of nature-based travel emphasizing international destinations. Examination of ecotourism as a tool for preservation and economic development. Prerequisite: Minimum Junior standing.",
+      "title": "Parks, Rec and Tourism Honors",
+      "credit_hours": "1 to 6",
+      "description": "Honors project dealing with management of outdoor recreation and tourism. See program chair.",
       "prereq_expression": null,
-      "other_requirements": "Minimum Junior standing.",
+      "other_requirements": "PRT majors only; Permission required",
       "external": false
     },
     {
-      "id": "PRT 1700",
-      "course_code": "PRT 1700",
+      "id": "PRT 2995",
+      "course_code": "PRT 2995",
       "department": "PRT",
-      "title": "Parks & Protected Areas",
-      "credit_hours": "3",
-      "description": "Examines the origin stories, history, and contemporary managerial issues related to parks and other protected areas (forests, wildlife areas, heritage sites, cultural areas). The focus is on both the US and international examples. Builds understanding of principles of sustainability related to the quality of the natural world and the well-being of its people.",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PRT 4996",
-      "course_code": "PRT 4996",
-      "department": "PRT",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "Honors course.",
-      "prereq_expression": null,
-      "other_requirements": "Minimum Junior standing",
       "external": false
     }
   ],
   "edges": [
     {
       "source": "PRT 2560",
-      "target": "PRT 2560"
+      "target": "PRT 2560",
+      "group": "PRT 2560__g0"
     },
     {
       "source": "PRT 2560",
-      "target": "PRT 2570"
+      "target": "PRT 2570",
+      "group": null
     },
     {
       "source": "PRT 2570",
-      "target": "PRT 2560"
+      "target": "PRT 2560",
+      "group": "PRT 2560__g0"
     },
     {
       "source": "PRT 3580",
-      "target": "PRT 3580"
+      "target": "PRT 3580",
+      "group": null
     },
     {
       "source": "PRT 3991",
-      "target": "PRT 3991"
+      "target": "PRT 3991",
+      "group": null
     },
     {
       "source": "PRT 4350",
-      "target": "PRT 4350"
+      "target": "PRT 4350",
+      "group": "PRT 4350__g0"
     },
     {
       "source": "PRT 4550",
-      "target": "PRT 4550"
+      "target": "PRT 4550",
+      "group": null
     }
   ]
 }

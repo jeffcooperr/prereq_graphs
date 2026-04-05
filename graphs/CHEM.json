@@ -2,83 +2,6 @@
   "department": "CHEM",
   "nodes": [
     {
-      "id": "CHEM 7491",
-      "course_code": "CHEM 7491",
-      "department": "CHEM",
-      "title": "Doctoral Dissertation Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Doctoral Dissertation.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate standing only",
-      "external": false
-    },
-    {
-      "id": "CHEM 1100",
-      "course_code": "CHEM 1100",
-      "department": "CHEM",
-      "title": "Outline: General Chem w/lab",
-      "credit_hours": "4",
-      "description": "One-semester survey of principles and concepts of general chemistry, topics covered include bonding, mole ratios, equilibrium, and nuclear chemistry. Credit not awarded for both CHEM 1100 and <a href=\"/search/?p=CHEM%201102\" data-action=\"result-detail\" data-group=\"code:CHEM 1102\" >CHEM 1102</a>, <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, or <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Credit not awarded for both CHEM 1100 and CHEM 1102, CHEM 1400, or CHEM 1405. $60 fee for lab supplies; Colocated with CHEM 1102A; Must register for CHEM 1100 lab L01-L07; Non-CAS, non - BSAD students only; Open to degree and PACE students.",
-      "external": false
-    },
-    {
-      "id": "MATH 2248",
-      "course_code": "MATH 2248",
-      "department": "MATH",
-      "title": "Calculus III",
-      "credit_hours": "4",
-      "description": "Vector-valued functions. Calculus of functions of several variables: partial derivatives, gradient, divergence, curl, multiple integrals, line integrals, Stokes' and Green's theorems. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
-      "other_requirements": "C- or better in MATH 1248 or MATH 1242",
-      "external": true
-    },
-    {
-      "id": "CHEM 2580",
-      "course_code": "CHEM 2580",
-      "department": "CHEM",
-      "title": "Organic Chemistry 1",
-      "credit_hours": "4",
-      "description": "Properties and reactivity of organic compounds with consideration of bonding, stereochemistry, and reaction mechanisms. For premedical and biological sciences students. Credit not awarded for both CHEM 2580 and <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\"  class=\"notoffered\">CHEM 1580</a>, <a href=\"/search/?p=CHEM%201582\" data-action=\"result-detail\" data-group=\"code:CHEM 1582\"  class=\"notoffered\">CHEM 1582</a>, or <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\" >CHEM 1500</a>. Prerequisite: <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a> or <a href=\"/search/?p=CHEM%201455\" data-action=\"result-detail\" data-group=\"code:CHEM 1455\"  class=\"notoffered\">CHEM 1455</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}]}",
-      "other_requirements": "$85 fee for lab supplies; Must register for a CHEM 2580 lab L01-L23; Degree students only; Post Bac Pre Med students register for CHEM 2580 ZRA-ZRC",
-      "external": false
-    },
-    {
-      "id": "CHEM 1152",
-      "course_code": "CHEM 1152",
-      "department": "CHEM",
-      "title": "Outline: Organic & BIOC",
-      "credit_hours": "3",
-      "description": "Broad overview of most important facts and principles of organic and biochemistry and of interrelationships between these branches of chemistry. No laboratory. Credit not awarded for both CHEM 1152 and <a href=\"/search/?p=CHEM%201150\" data-action=\"result-detail\" data-group=\"code:CHEM 1150\" >CHEM 1150</a>, <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\" >CHEM 1580</a>, or <a href=\"/search/?p=CHEM%201582\" data-action=\"result-detail\" data-group=\"code:CHEM 1582\" >CHEM 1582</a>. Prerequisite: <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\"  class=\"notoffered\">CHEM 1100</a>, <a href=\"/search/?p=CHEM%201102\" data-action=\"result-detail\" data-group=\"code:CHEM 1102\"  class=\"notoffered\">CHEM 1102</a>, or <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1102\"}, {\"type\": \"course\", \"code\": \"CHEM 1400\"}]}",
-      "other_requirements": "Credit not awarded for both CHEM 1152 and CHEM 1150, CHEM 1580, or CHEM 1582.",
-      "external": false
-    },
-    {
-      "id": "CHEM 6392",
-      "course_code": "CHEM 6392",
-      "department": "CHEM",
-      "title": "Master's Lit Project Research",
-      "credit_hours": "9",
-      "description": "Reading and literature research culminating in the preparation of a comprehensive and critical review of a topic of current interest in Chemistry.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "CHEM 3995",
-      "course_code": "CHEM 3995",
-      "department": "CHEM",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate students work on research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Departmental permission.",
-      "prereq_expression": null,
-      "other_requirements": "Departmental permission.",
-      "external": false
-    },
-    {
       "id": "CHEM 2020",
       "course_code": "CHEM 2020",
       "department": "CHEM",
@@ -90,34 +13,12 @@
       "external": false
     },
     {
-      "id": "CHEM 1500",
-      "course_code": "CHEM 1500",
+      "id": "CHEM 6020",
+      "course_code": "CHEM 6020",
       "department": "CHEM",
-      "title": "Organic Chemistry for Majors 1",
-      "credit_hours": "4",
-      "description": "An exploration of the basic principles of Organic Chemistry including structure, bonding, conformational analysis, stereochemistry and reactivity. Designed for Chemistry and Biochemistry majors who have a strong high school chemistry background.",
-      "prereq_expression": null,
-      "other_requirements": "PACE students by permission and override. CHEM and BICM majors only; $85 fee for lab supplies. Must register for CHEM 1500 lab L01-L05.",
-      "external": false
-    },
-    {
-      "id": "CHEM 2014",
-      "course_code": "CHEM 2014",
-      "department": "CHEM",
-      "title": "Professional Development",
+      "title": "Grad Seminar",
       "credit_hours": "1",
-      "description": "Skills necessary for senior Chemistry majors to transition to postgraduate careers, including resume and proposal writing, presentations, and other techniques. Prerequisite: <a href=\"/search/?p=CHEM%202012\" data-action=\"result-detail\" data-group=\"code:CHEM 2012\"  class=\"notoffered\">CHEM 2012</a> or <a href=\"/search/?p=CHEM%202020\" data-action=\"result-detail\" data-group=\"code:CHEM 2020\"  class=\"notoffered\">CHEM 2020</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 2012\"}, {\"type\": \"course\", \"code\": \"CHEM 2020\"}]}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "CHEM 6620",
-      "course_code": "CHEM 6620",
-      "department": "CHEM",
-      "title": "Computational Chemistry",
-      "credit_hours": "3",
-      "description": "Explores the techniques and applications of computational chemistry to model organic, inorganic, and biological molecules. Introduces basic level of classical and quantum modeling, cheminformatics and big chemical data, as well as computer-aided design of new materials and medicines. Prerequisite: Chemistry Graduate student.",
+      "description": "Current problems and literature. Prerequisite: Chemistry Graduate student.",
       "prereq_expression": null,
       "other_requirements": "Chemistry Graduate student. Graduate standing required",
       "external": false
@@ -134,61 +35,6 @@
       "external": false
     },
     {
-      "id": "MATH 1248",
-      "course_code": "MATH 1248",
-      "department": "MATH",
-      "title": "Calculus II",
-      "credit_hours": "4",
-      "description": "Vectors and vector operations. Techniques and applications of integration. Polar coordinates, Taylor polynomials, sequences and series, power series. Credit will not be given for both MATH 1248 and <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 021\"}]}",
-      "other_requirements": "C- or better in MATH 1234. C- or better in MATH 021.",
-      "external": true
-    },
-    {
-      "id": "CHEM 5320",
-      "course_code": "CHEM 5320",
-      "department": "CHEM",
-      "title": "Gr Instrumental Analysis",
-      "credit_hours": "3",
-      "description": "Systematic survey of modern methods of chemical analysis. Fundamental principles and applications of spectroscopy, electrochemistry, and separation techniques. Credit not awarded for both CHEM 5320 and <a href=\"/search/?p=CHEM%203320\" data-action=\"result-detail\" data-group=\"code:CHEM 3320\" >CHEM 3320</a>. Prerequisite: Graduate student.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"CHEM 3320\"}",
-      "other_requirements": "Graduate student. Credit not awarded for both CHEM 5320 and CHEM 3320.",
-      "external": false
-    },
-    {
-      "id": "CHEM 3620",
-      "course_code": "CHEM 3620",
-      "department": "CHEM",
-      "title": "Quantum Mechanics and Kinetics",
-      "credit_hours": "3",
-      "description": "Exploration of chemical thermodynamics and basic statistical mechanics, with a significant level of mathematical rigor. Background in calculus and physics is required. Designed for Chemistry majors, but also suitable for students from other STEM disciplines. Prerequisites: <a href=\"/search/?p=CHEM%203610\" data-action=\"result-detail\" data-group=\"code:CHEM 3610\"  class=\"notoffered\">CHEM 3610</a>; <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\" >PHYS 1550</a> or <a href=\"/search/?p=PHYS%201650\" data-action=\"result-detail\" data-group=\"code:PHYS 1650\"  class=\"notoffered\">PHYS 1650</a>. Pre/Co-requisites: <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 3610\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1550\"}, {\"type\": \"course\", \"code\": \"PHYS 1650\"}]}, {\"type\": \"course\", \"code\": \"MATH 2248\"}]}",
-      "other_requirements": "Designed for Chemistry majors, but also suitable for students from other STEM disciplines.",
-      "external": false
-    },
-    {
-      "id": "CHEM 3993",
-      "course_code": "CHEM 3993",
-      "department": "CHEM",
-      "title": "Independent Study",
-      "credit_hours": "2",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required. Offered at department discretion.",
-      "external": false
-    },
-    {
-      "id": "CHEM 2400",
-      "course_code": "CHEM 2400",
-      "department": "CHEM",
-      "title": "Inorganic Chemistry",
-      "credit_hours": "3",
-      "description": "Symmetry, group theory, molecular structure; electronic structure of atoms; bonding models including MO, crystal field, and ligand field; solid state, acid-base, and simple organometallic systems. Prerequisite: <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a> or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\"  class=\"notoffered\">CHEM 2580</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1500\"}, {\"type\": \"course\", \"code\": \"CHEM 2580\"}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
       "id": "PHYS 1400",
       "course_code": "PHYS 1400",
       "department": "PHYS",
@@ -200,303 +46,6 @@
       "external": true
     },
     {
-      "id": "CHEM 6020",
-      "course_code": "CHEM 6020",
-      "department": "CHEM",
-      "title": "Grad Seminar",
-      "credit_hours": "1",
-      "description": "Current problems and literature. Prerequisite: Chemistry Graduate student.",
-      "prereq_expression": null,
-      "other_requirements": "Chemistry Graduate student. Graduate standing required",
-      "external": false
-    },
-    {
-      "id": "CHEM 3320",
-      "course_code": "CHEM 3320",
-      "department": "CHEM",
-      "title": "Instrumental Analysis",
-      "credit_hours": "3",
-      "description": "Systematic survey of modern methods of chemical analysis. Fundamental principles and applications of spectroscopy, electrochemistry, and separation techniques. Credit not awarded for both CHEM 3320 and <a href=\"/search/?p=CHEM%205320\" data-action=\"result-detail\" data-group=\"code:CHEM 5320\" >CHEM 5320</a>. Prerequisite: <a href=\"/search/?p=CHEM%202310\" data-action=\"result-detail\" data-group=\"code:CHEM 2310\"  class=\"notoffered\">CHEM 2310</a>. Pre/Co-requisite: <a href=\"/search/?p=CHEM%202600\" data-action=\"result-detail\" data-group=\"code:CHEM 2600\"  class=\"notoffered\">CHEM 2600</a> is strongly recommended.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 2310\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 2600\"}, {\"type\": \"course\", \"code\": \"CHEM 3610\"}]}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "CHEM 6990",
-      "course_code": "CHEM 6990",
-      "department": "CHEM",
-      "title": "Gr Special Topics",
-      "credit_hours": "1 to 18",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "CHEM 6050",
-      "course_code": "CHEM 6050",
-      "department": "CHEM",
-      "title": "Topics in Current Chemistry",
-      "credit_hours": "0 or 1",
-      "description": "Survey of current topics in the Chemistry literature. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Chemistry Graduate student.",
-      "prereq_expression": null,
-      "other_requirements": "Chemistry Graduate student. Graduate standing required",
-      "external": false
-    },
-    {
-      "id": "CHEM 6410",
-      "course_code": "CHEM 6410",
-      "department": "CHEM",
-      "title": "Organometallic Chemistry",
-      "credit_hours": "3",
-      "description": "Synthesis, structure, bonding, properties, reactions, and applications of organometallic systems; mechanisms of organometallic reactions including oxidative addition and insertion reactions with applications in catalysis. Prerequisite: Chemistry Graduate student.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"CHEM 6410\"}",
-      "other_requirements": "Chemistry Graduate student.",
-      "external": false
-    },
-    {
-      "id": "CHEM 1460",
-      "course_code": "CHEM 1460",
-      "department": "CHEM",
-      "title": "Exploring Chemistry 2",
-      "credit_hours": "1",
-      "description": "Second semester of a first-year laboratory addressing foundational chemical principles and experimental methods. For first-year Biochemistry majors also enrolled in <a href=\"/search/?p=CHEM%201550\" data-action=\"result-detail\" data-group=\"code:CHEM 1550\" >CHEM 1550</a>. Prerequisites: <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a> and <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\"  class=\"notoffered\">CHEM 1410</a>. Co-requisite: <a href=\"/search/?p=CHEM%201550\" data-action=\"result-detail\" data-group=\"code:CHEM 1550\" >CHEM 1550</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1500\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}",
-      "other_requirements": "CHEM 1550; BICM majors only; $85 Fee: Chem Lab Supplies PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "CHEM 1102",
-      "course_code": "CHEM 1102",
-      "department": "CHEM",
-      "title": "Outline: General Chem",
-      "credit_hours": "3",
-      "description": "One-semester survey of principles and concepts of general chemistry, topics covered include bonding, mole ratios, equilibrium, and nuclear chemistry. No laboratory. Credit not awarded for both CHEM 1102 and <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\" >CHEM 1100</a>, <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, or <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Credit not awarded for both CHEM 1102 and CHEM 1100, CHEM 1400, or CHEM 1405.",
-      "external": false
-    },
-    {
-      "id": "CHEM 3610",
-      "course_code": "CHEM 3610",
-      "department": "CHEM",
-      "title": "Chemical Thermodynamics",
-      "credit_hours": "3",
-      "description": "Calculus-based exploration of the fundamental principles of thermodynamics (gases, equilibrium, free energy, laws of thermodynamics, statistical thermodynamics, phase transitions, mixtures, chemical reactions), from both a chemistry and physics perspective. This topic is a cornerstone of many scientific and engineering disciplines. Appropriate for students in Chemistry and other STEM fields. Prerequisites: <a href=\"/search/?p=CHEM%201070\" data-action=\"result-detail\" data-group=\"code:CHEM 1070\"  class=\"notoffered\">CHEM 1070</a>, <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>, or <a href=\"/search/?p=CHEM%201455\" data-action=\"result-detail\" data-group=\"code:CHEM 1455\"  class=\"notoffered\">CHEM 1455</a>; <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a>, <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>, or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>; <a href=\"/search/?p=PHYS%201450\" data-action=\"result-detail\" data-group=\"code:PHYS 1450\" >PHYS 1450</a>, <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\"  class=\"notoffered\">PHYS 1550</a>, or <a href=\"/search/?p=PHYS%201650\" data-action=\"result-detail\" data-group=\"code:PHYS 1650\" >PHYS 1650</a>. Co-requisite: <a href=\"/search/?p=CHEM%203602\" data-action=\"result-detail\" data-group=\"code:CHEM 3602\" >CHEM 3602</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1070\"}, {\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1450\"}, {\"type\": \"course\", \"code\": \"PHYS 1550\"}, {\"type\": \"course\", \"code\": \"PHYS 1650\"}]}]}",
-      "other_requirements": "PACE students with permission and override. Co-requisite: CHEM 3602.",
-      "external": false
-    },
-    {
-      "id": "CHEM 2605",
-      "course_code": "CHEM 2605",
-      "department": "CHEM",
-      "title": "Physical Chemistry Lab",
-      "credit_hours": "1",
-      "description": "Laboratory course following <a href=\"/search/?p=CHEM%202600\" data-action=\"result-detail\" data-group=\"code:CHEM 2600\"  class=\"notoffered\">CHEM 2600</a>. Topics include quantum chemistry and thermodynamics. Prerequisites: <a href=\"/search/?p=CHEM%201550\" data-action=\"result-detail\" data-group=\"code:CHEM 1550\" >CHEM 1550</a> or <a href=\"/search/?p=CHEM%202585\" data-action=\"result-detail\" data-group=\"code:CHEM 2585\" >CHEM 2585</a>; <a href=\"/search/?p=CHEM%202600\" data-action=\"result-detail\" data-group=\"code:CHEM 2600\"  class=\"notoffered\">CHEM 2600</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1550\"}, {\"type\": \"course\", \"code\": \"CHEM 2585\"}]}, {\"type\": \"course\", \"code\": \"CHEM 2600\"}]}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "CHEM 6010",
-      "course_code": "CHEM 6010",
-      "department": "CHEM",
-      "title": "Intro to Graduate Research",
-      "credit_hours": "1",
-      "description": "Introduction to graduate research in Chemistry. Overview of faculty research areas and department/university research resources. Prerequisite: Chemistry Graduate student.",
-      "prereq_expression": null,
-      "other_requirements": "Chemistry Graduate student. Graduate standing required",
-      "external": false
-    },
-    {
-      "id": "CHEM 1150",
-      "course_code": "CHEM 1150",
-      "department": "CHEM",
-      "title": "Outline: Organic & BIOC w/lab",
-      "credit_hours": "4",
-      "description": "Broad overview of most important facts and principles of organic and biochemistry and interrelationships between these branches of chemistry. Credit not awarded for both CHEM 1150 and <a href=\"/search/?p=CHEM%201152\" data-action=\"result-detail\" data-group=\"code:CHEM 1152\" >CHEM 1152</a>, <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\" >CHEM 1580</a>, or <a href=\"/search/?p=CHEM%201582\" data-action=\"result-detail\" data-group=\"code:CHEM 1582\" >CHEM 1582</a>. Prerequisite: <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\"  class=\"notoffered\">CHEM 1100</a> or <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1400\"}]}",
-      "other_requirements": "Must register for a CHEM 1150 lab, L01 - L06; $85 fee: Chem Lab Supplies; Open to Degree and PACE students; Cross listed with CHEM 1152A; total enrollment cap = 142",
-      "external": false
-    },
-    {
-      "id": "CHEM 3602",
-      "course_code": "CHEM 3602",
-      "department": "CHEM",
-      "title": "Physical Chemistry Preparation",
-      "credit_hours": "1",
-      "description": "Review of relevant mathematical and physical concepts as applied to physical chemistry. Prerequisites: <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a> or <a href=\"/search/?p=CHEM%201455\" data-action=\"result-detail\" data-group=\"code:CHEM 1455\"  class=\"notoffered\">CHEM 1455</a> or <a href=\"/search/?p=CHEM%201460\" data-action=\"result-detail\" data-group=\"code:CHEM 1460\" >CHEM 1460</a>; <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}, {\"type\": \"course\", \"code\": \"CHEM 1460\"}]}, {\"type\": \"course\", \"code\": \"MATH 1248\"}]}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "CHEM 4996",
-      "course_code": "CHEM 4996",
-      "department": "CHEM",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "CHEM 5400",
-      "course_code": "CHEM 5400",
-      "department": "CHEM",
-      "title": "Gr Advanced Inorganic Chem",
-      "credit_hours": "3",
-      "description": "Molecular symmetry and group theory with an emphasis on applications (vibrational and electronic spectra, bonding and reactivity); introduction to transition metal processes; bioinorganic chemistry. Credit not awarded for both CHEM 5400 and <a href=\"/search/?p=CHEM%203400\" data-action=\"result-detail\" data-group=\"code:CHEM 3400\"  class=\"notoffered\">CHEM 3400</a>. Prerequisite: Graduate student.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"CHEM 3400\"}",
-      "other_requirements": "Graduate student. Credit not awarded for both CHEM 5400 and CHEM 3400.",
-      "external": false
-    },
-    {
-      "id": "CHEM 2585",
-      "course_code": "CHEM 2585",
-      "department": "CHEM",
-      "title": "Organic Chemistry 2",
-      "credit_hours": "4",
-      "description": "Reactivity of organic compounds and applications to synthesis. Spectroscopy is discussed in relation to compound characterization. For premedical and biological sciences students. Credit not awarded for both CHEM 2585 and <a href=\"/search/?p=CHEM%201550\" data-action=\"result-detail\" data-group=\"code:CHEM 1550\" >CHEM 1550</a>.  Prerequisite: <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a> or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\"  class=\"notoffered\">CHEM 2580</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1500\"}, {\"type\": \"course\", \"code\": \"CHEM 2580\"}]}",
-      "other_requirements": "Must register for a CHEM 2585 lab, L01-L20; Degree students only even after level restrictions removed; Post Bac Pre Med students register for CHEM 2585 ZRA; Fee: $85",
-      "external": false
-    },
-    {
-      "id": "CHEM 5580",
-      "course_code": "CHEM 5580",
-      "department": "CHEM",
-      "title": "Gr Advanced Organic Chem 1",
-      "credit_hours": "3",
-      "description": "Stereochemistry, conformational analysis, stereoelectronic effects, transition state theory, molecular orbital theory, and reactivity criteria are discussed in regards to reaction mechanisms and functional group manipulations. Credit not awarded for both CHEM 5580 and <a href=\"/search/?p=CHEM%204580\" data-action=\"result-detail\" data-group=\"code:CHEM 4580\"  class=\"notoffered\">CHEM 4580</a>. Prerequisite: Graduate student.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate student",
-      "external": false
-    },
-    {
-      "id": "CHEM 6391",
-      "course_code": "CHEM 6391",
-      "department": "CHEM",
-      "title": "Master's Lab Thesis Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Master's Thesis.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate standing only",
-      "external": false
-    },
-    {
-      "id": "CHEM 7015",
-      "course_code": "CHEM 7015",
-      "department": "CHEM",
-      "title": "Research Problem Solution",
-      "credit_hours": "1",
-      "description": "Solution to a current research problem to be addressed by original, independent research. Prerequisite: <a href=\"/search/?p=CHEM%207010\" data-action=\"result-detail\" data-group=\"code:CHEM 7010\"  class=\"notoffered\">CHEM 7010</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 7010\"}]}",
-      "other_requirements": "Meeting time/day set in collaboration with the students and instructor at the beginning of the term.",
-      "external": false
-    },
-    {
-      "id": "CHEM 5610",
-      "course_code": "CHEM 5610",
-      "department": "CHEM",
-      "title": "Gr Chemical Thermodynamics",
-      "credit_hours": "3",
-      "description": "Calculus-based exploration of the fundamental principles of thermodynamics (gases, equilibrium, free energy, laws of thermodynamics, statistical thermodynamics, phase transitions, mixtures, chemical reactions, solids), from an interdisciplinary perspective. This topic is a cornerstone of many scientific and engineering disciplines. Appropriate for students in Chemistry and other STEM fields. Prerequisites: Graduate student or Instructor permission; content knowledge of general chemistry, calculus, and introductory physics (mechanics) assumed. Cross-listed with: <a href=\"/search/?p=MATS%205610\" data-action=\"result-detail\" data-group=\"code:MATS 5610\" >MATS 5610</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 101\"}, {\"type\": \"course\", \"code\": \"CHEM 102\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1550\"}, {\"type\": \"course\", \"code\": \"MATH 1552\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1110\"}, {\"type\": \"course\", \"code\": \"PHYS 1111\"}]}]}",
-      "other_requirements": "Graduate student or Instructor permission; content knowledge of general chemistry, calculus, and introductory physics (mechanics) assumed.",
-      "external": false
-    },
-    {
-      "id": "CHEM 1582",
-      "course_code": "CHEM 1582",
-      "department": "CHEM",
-      "title": "Intro Organic Chemistry",
-      "credit_hours": "3",
-      "description": "Properties and reactivity of organic molecules of technological and biological significance. No laboratory. Not recommended for pre-medical students. Credit not awarded for both CHEM 1582 and <a href=\"/search/?p=CHEM%201150\" data-action=\"result-detail\" data-group=\"code:CHEM 1150\" >CHEM 1150</a>, <a href=\"/search/?p=CHEM%201152\" data-action=\"result-detail\" data-group=\"code:CHEM 1152\" >CHEM 1152</a>, <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\" >CHEM 1580</a>, <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a>, or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\"  class=\"notoffered\">CHEM 2580</a>. Prerequisite: <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\"  class=\"notoffered\">CHEM 1100</a> or <a href=\"/search/?p=CHEM%201102\" data-action=\"result-detail\" data-group=\"code:CHEM 1102\"  class=\"notoffered\">CHEM 1102</a> or <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1102\"}, {\"type\": \"course\", \"code\": \"CHEM 1450\"}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "CHEM 1410",
-      "course_code": "CHEM 1410",
-      "department": "CHEM",
-      "title": "Exploring Chemistry 1",
-      "credit_hours": "1",
-      "description": "First-year laboratory addressing foundational chemical principles and experimental methods. For first-year Biochemistry majors also enrolled in <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\" >CHEM 1500</a>. Co-requisite: <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\" >CHEM 1500</a>.",
-      "prereq_expression": null,
-      "other_requirements": "For first-year Biochemistry majors also enrolled in CHEM 1500. Co-requisite: CHEM 1500. Coreq:CHEM 1500A; First-time, first-year BICM majors only; $85 fee for chemical lab supplies. PACE students by permission and override. The is the laboratory-component of General Chemistry for Biochemistry majors who have placed out of the lecture-component of General Chemistry based upon their High School preparation. The lab meets once per week. Students are expected to come prepared with proper PPE and write laboratory reports.",
-      "external": false
-    },
-    {
-      "id": "MATH 1224",
-      "course_code": "MATH 1224",
-      "department": "MATH",
-      "title": "Fundamentals of Calculus II",
-      "credit_hours": "3",
-      "description": "Techniques and applications of integration. An introduction to multi-variable calculus: partial derivatives and double integrals. Prerequisite: <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
-      "other_requirements": "Open to Degree and PACE students",
-      "external": true
-    },
-    {
-      "id": "CHEM 1550",
-      "course_code": "CHEM 1550",
-      "department": "CHEM",
-      "title": "Organic Chemistry for Majors 2",
-      "credit_hours": "4",
-      "description": "A survey of the reactivity of organic functional groups from a mechanistic standpoint. Organic synthesis will be emphasized. Prerequisite: <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a> or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1500\"}, {\"type\": \"other\", \"value\": \"Instructor permission\"}]}",
-      "other_requirements": "Must register for a CHEM 1550 lab, L01-L04; CHEM or BICM majors only; $85 fee: Chem Lab Supplies. PACE students with permission and override.",
-      "external": false
-    },
-    {
-      "id": "PHYS 1600",
-      "course_code": "PHYS 1600",
-      "department": "PHYS",
-      "title": "Fundamentals of Physics I",
-      "credit_hours": "4",
-      "description": "Calculus-based introduction to kinematics, dynamics, oscillations, thermal physics. For students in the natural sciences. With lab. Credit not awarded for both PHYS 1600 and <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>. Pre/co-requisite: Credit or concurrent enrollment in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
-      "other_requirements": "Credit or concurrent enrollment in MATH 1234. Open to Degree and PACE students. Credit not awarded for both PHYS 1600 and PHYS 1500.",
-      "external": true
-    },
-    {
-      "id": "MATH 1242",
-      "course_code": "MATH 1242",
-      "department": "MATH",
-      "title": "Transitional Calculus",
-      "credit_hours": "5",
-      "description": "Intended to make the transition from <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> to <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>. Topics are similar to <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> but recognizing different backgrounds of students in <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> versus <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit will not be given for both <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> and MATH 1242. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: B or better in <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, or B or better in <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"other_requirement\", \"description\": \"B or better\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"other_requirement\", \"description\": \"B or better\"}]}]}",
-      "other_requirements": "Open to Degree and PACE students",
-      "external": true
-    },
-    {
-      "id": "CHEM 2050",
-      "course_code": "CHEM 2050",
-      "department": "CHEM",
-      "title": "Advanced Synthesis Techniques",
-      "credit_hours": "3",
-      "description": "Laboratory for Chemistry majors that covers advanced inorganic and organic techniques in synthesis, purification, and spectroscopic characterization. Prerequisite: <a href=\"/search/?p=CHEM%201550\" data-action=\"result-detail\" data-group=\"code:CHEM 1550\"  class=\"notoffered\">CHEM 1550</a> or <a href=\"/search/?p=CHEM%202585\" data-action=\"result-detail\" data-group=\"code:CHEM 2585\"  class=\"notoffered\">CHEM 2585</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1550\"}, {\"type\": \"course\", \"code\": \"CHEM 2585\"}]}",
-      "other_requirements": "$230 fee for chemical lab supplies\nPACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "CHEM 6300",
-      "course_code": "CHEM 6300",
-      "department": "CHEM",
-      "title": "Analytical Spectroscopy",
-      "credit_hours": "3",
-      "description": "Selected topics of current interest in analytical chemistry. New techniques and methodologies, especially in chemical instrumentation. See Schedule of Courses for specific titles. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Graduate student.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"GRADUATE STUDENT\"}",
-      "other_requirements": "Graduate standing required",
-      "external": false
-    },
-    {
       "id": "CHEM 7010",
       "course_code": "CHEM 7010",
       "department": "CHEM",
@@ -505,61 +54,6 @@
       "description": "Identification of a current research problem to be addressed by original, independent research. Prerequisite: Chemistry Graduate student.",
       "prereq_expression": null,
       "other_requirements": "Chemistry Graduate student. Graduate standing only",
-      "external": false
-    },
-    {
-      "id": "CHEM 2600",
-      "course_code": "CHEM 2600",
-      "department": "CHEM",
-      "title": "Physical Chem for Life Science",
-      "credit_hours": "3",
-      "description": "Introduction to physical chemistry concepts spanning thermodynamics, solution equilibrium, enzyme kinetics, and other topics. Appropriate for students from Biochemistry and other life science disciplines. Background in calculus and physics is required. Prerequisites: <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>, <a href=\"/search/?p=CHEM%201455\" data-action=\"result-detail\" data-group=\"code:CHEM 1455\"  class=\"notoffered\">CHEM 1455</a>, or <a href=\"/search/?p=CHEM%201460\" data-action=\"result-detail\" data-group=\"code:CHEM 1460\"  class=\"notoffered\">CHEM 1460</a>; <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a>, <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>, or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>; <a href=\"/search/?p=PHYS%201400\" data-action=\"result-detail\" data-group=\"code:PHYS 1400\" >PHYS 1400</a>, <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>, or <a href=\"/search/?p=PHYS%201600\" data-action=\"result-detail\" data-group=\"code:PHYS 1600\" >PHYS 1600</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}, {\"type\": \"course\", \"code\": \"CHEM 1460\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1400\"}, {\"type\": \"course\", \"code\": \"PHYS 1500\"}, {\"type\": \"course\", \"code\": \"PHYS 1600\"}]}]}",
-      "other_requirements": "Background in calculus and physics is required. PACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "CHEM 1400",
-      "course_code": "CHEM 1400",
-      "department": "CHEM",
-      "title": "General Chemistry 1",
-      "credit_hours": "4",
-      "description": "First semester of a two-semester sequence. Topics include matter, stoichiometry, gas laws, thermochemistry, quantum theory, atomic structure, electronic configurations, bonding, and intermolecular forces. Credit not awarded for both CHEM 1400 and <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\" >CHEM 1100</a>, <a href=\"/search/?p=CHEM%201102\" data-action=\"result-detail\" data-group=\"code:CHEM 1102\" >CHEM 1102</a>, or <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "CHEM 1580",
-      "course_code": "CHEM 1580",
-      "department": "CHEM",
-      "title": "Intro Organic Chemistry w/lab",
-      "credit_hours": "4",
-      "description": "Properties and reactivity of basic organic compounds of technological and biological significance. Not recommended for pre-medical students. Credit not awarded for both CHEM 1580 and <a href=\"/search/?p=CHEM%201150\" data-action=\"result-detail\" data-group=\"code:CHEM 1150\" >CHEM 1150</a>, <a href=\"/search/?p=CHEM%201152\" data-action=\"result-detail\" data-group=\"code:CHEM 1152\" >CHEM 1152</a>, <a href=\"/search/?p=CHEM%201582\" data-action=\"result-detail\" data-group=\"code:CHEM 1582\" >CHEM 1582</a>, <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a>, or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\"  class=\"notoffered\">CHEM 2580</a>. Prerequisite: <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\"  class=\"notoffered\">CHEM 1100</a> or <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1450\"}]}",
-      "other_requirements": "Not recommended for pre-medical students. Credit not awarded for both CHEM 1580 and  CHEM 1150 ,  CHEM 1152 ,  CHEM 1582 ,  CHEM 1500 , or  CHEM 2580 . Must register for a CHEM 1580 lab, L01-L15; $85 fee: Chem Lab Supplies; Cross listed withCHEM 1582A. PACE students with permission and override. All labs must be completed in order to pass the course. Attendance for all lectures and exams is expected. All work must be completed by the due date. The final exam must be taken to pass the course.",
-      "external": false
-    },
-    {
-      "id": "CHEM 2310",
-      "course_code": "CHEM 2310",
-      "department": "CHEM",
-      "title": "Quantitative Analysis",
-      "credit_hours": "4",
-      "description": "Theory and practice of volumetric and gravimetric analysis. Theoretical discussion of indicators, buffers, pH, etc. Introduction to data analysis, spectrophotometry, and chromatography. Prerequisite: <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a> or <a href=\"/search/?p=CHEM%201455\" data-action=\"result-detail\" data-group=\"code:CHEM 1455\"  class=\"notoffered\">CHEM 1455</a> or <a href=\"/search/?p=CHEM%201460\" data-action=\"result-detail\" data-group=\"code:CHEM 1460\"  class=\"notoffered\">CHEM 1460</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}, {\"type\": \"course\", \"code\": \"CHEM 1460\"}]}",
-      "other_requirements": "must register for CHEM 2310 lab L01-L03; $65 fee for lab supplies; PACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "CHEM 3325",
-      "course_code": "CHEM 3325",
-      "department": "CHEM",
-      "title": "Instrumental Analysis Lab",
-      "credit_hours": "1",
-      "description": "Laboratory for undergraduates following <a href=\"/search/?p=CHEM%203320\" data-action=\"result-detail\" data-group=\"code:CHEM 3320\"  class=\"notoffered\">CHEM 3320</a>. Application of chemical and physical principles to qualitative and quantitative chemical problems. Study of the interplay of data, hypotheses, and hypothesis-driven experimentation through application of the scientific method. Prerequisites: <a href=\"/search/?p=CHEM%203320\" data-action=\"result-detail\" data-group=\"code:CHEM 3320\"  class=\"notoffered\">CHEM 3320</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"CHEM 3320\"}",
-      "other_requirements": "Instructor permission required\nPACE students by permission and override\nFee: $255",
       "external": false
     },
     {
@@ -585,15 +79,345 @@
       "external": true
     },
     {
-      "id": "PHYS 1550",
-      "course_code": "PHYS 1550",
-      "department": "PHYS",
-      "title": "Physics for Engineers II",
+      "id": "CHEM 1152",
+      "course_code": "CHEM 1152",
+      "department": "CHEM",
+      "title": "Outline: Organic & BIOC",
       "credit_hours": "3",
-      "description": "Electricity, magnetism, electromagnetic waves, optics. Without lab. Accompanying optional problem-solving session: <a href=\"/search/?p=PHYS%201560\" data-action=\"result-detail\" data-group=\"code:PHYS 1560\" >PHYS 1560</a>. Prerequisites: <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>; <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Co-requisite: <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}]}",
-      "other_requirements": "CEMS students only",
+      "description": "Broad overview of most important facts and principles of organic and biochemistry and of interrelationships between these branches of chemistry. No laboratory. Credit not awarded for both CHEM 1152 and <a href=\"/search/?p=CHEM%201150\" data-action=\"result-detail\" data-group=\"code:CHEM 1150\" >CHEM 1150</a>, <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\" >CHEM 1580</a>, or <a href=\"/search/?p=CHEM%201582\" data-action=\"result-detail\" data-group=\"code:CHEM 1582\" >CHEM 1582</a>. Prerequisite: <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\"  class=\"notoffered\">CHEM 1100</a>, <a href=\"/search/?p=CHEM%201102\" data-action=\"result-detail\" data-group=\"code:CHEM 1102\"  class=\"notoffered\">CHEM 1102</a>, or <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1102\"}, {\"type\": \"course\", \"code\": \"CHEM 1400\"}]}",
+      "other_requirements": "Credit not awarded for both CHEM 1152 and CHEM 1150, CHEM 1580, or CHEM 1582.",
+      "external": false
+    },
+    {
+      "id": "CHEM 1582",
+      "course_code": "CHEM 1582",
+      "department": "CHEM",
+      "title": "Intro Organic Chemistry",
+      "credit_hours": "3",
+      "description": "Properties and reactivity of organic molecules of technological and biological significance. No laboratory. Not recommended for pre-medical students. Credit not awarded for both CHEM 1582 and <a href=\"/search/?p=CHEM%201150\" data-action=\"result-detail\" data-group=\"code:CHEM 1150\" >CHEM 1150</a>, <a href=\"/search/?p=CHEM%201152\" data-action=\"result-detail\" data-group=\"code:CHEM 1152\" >CHEM 1152</a>, <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\" >CHEM 1580</a>, <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a>, or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\"  class=\"notoffered\">CHEM 2580</a>. Prerequisite: <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\"  class=\"notoffered\">CHEM 1100</a> or <a href=\"/search/?p=CHEM%201102\" data-action=\"result-detail\" data-group=\"code:CHEM 1102\"  class=\"notoffered\">CHEM 1102</a> or <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1102\"}, {\"type\": \"course\", \"code\": \"CHEM 1450\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "CHEM 5580",
+      "course_code": "CHEM 5580",
+      "department": "CHEM",
+      "title": "Gr Advanced Organic Chem 1",
+      "credit_hours": "3",
+      "description": "Stereochemistry, conformational analysis, stereoelectronic effects, transition state theory, molecular orbital theory, and reactivity criteria are discussed in regards to reaction mechanisms and functional group manipulations. Credit not awarded for both CHEM 5580 and <a href=\"/search/?p=CHEM%204580\" data-action=\"result-detail\" data-group=\"code:CHEM 4580\"  class=\"notoffered\">CHEM 4580</a>. Prerequisite: Graduate student.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate student",
+      "external": false
+    },
+    {
+      "id": "CHEM 6391",
+      "course_code": "CHEM 6391",
+      "department": "CHEM",
+      "title": "Master's Lab Thesis Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Master's Thesis.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate standing only",
+      "external": false
+    },
+    {
+      "id": "CHEM 1550",
+      "course_code": "CHEM 1550",
+      "department": "CHEM",
+      "title": "Organic Chemistry for Majors 2",
+      "credit_hours": "4",
+      "description": "A survey of the reactivity of organic functional groups from a mechanistic standpoint. Organic synthesis will be emphasized. Prerequisite: <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1500\"}, {\"type\": \"other\", \"value\": \"Instructor permission\"}]}",
+      "other_requirements": "Must register for a CHEM 1550 lab, L01-L04; CHEM or BICM majors only; $85 fee: Chem Lab Supplies. PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "CHEM 3602",
+      "course_code": "CHEM 3602",
+      "department": "CHEM",
+      "title": "Physical Chemistry Preparation",
+      "credit_hours": "1",
+      "description": "Review of relevant mathematical and physical concepts as applied to physical chemistry. Prerequisites: <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a> or <a href=\"/search/?p=CHEM%201455\" data-action=\"result-detail\" data-group=\"code:CHEM 1455\"  class=\"notoffered\">CHEM 1455</a> or <a href=\"/search/?p=CHEM%201460\" data-action=\"result-detail\" data-group=\"code:CHEM 1460\" >CHEM 1460</a>; <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}, {\"type\": \"course\", \"code\": \"CHEM 1460\"}]}, {\"type\": \"course\", \"code\": \"MATH 1248\"}]}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CHEM 3325",
+      "course_code": "CHEM 3325",
+      "department": "CHEM",
+      "title": "Instrumental Analysis Lab",
+      "credit_hours": "1",
+      "description": "Laboratory for undergraduates following <a href=\"/search/?p=CHEM%203320\" data-action=\"result-detail\" data-group=\"code:CHEM 3320\"  class=\"notoffered\">CHEM 3320</a>. Application of chemical and physical principles to qualitative and quantitative chemical problems. Study of the interplay of data, hypotheses, and hypothesis-driven experimentation through application of the scientific method. Prerequisites: <a href=\"/search/?p=CHEM%203320\" data-action=\"result-detail\" data-group=\"code:CHEM 3320\"  class=\"notoffered\">CHEM 3320</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"CHEM 3320\"}",
+      "other_requirements": "Instructor permission required\nPACE students by permission and override\nFee: $255",
+      "external": false
+    },
+    {
+      "id": "CHEM 1580",
+      "course_code": "CHEM 1580",
+      "department": "CHEM",
+      "title": "Intro Organic Chemistry w/lab",
+      "credit_hours": "4",
+      "description": "Properties and reactivity of basic organic compounds of technological and biological significance. Not recommended for pre-medical students. Credit not awarded for both CHEM 1580 and <a href=\"/search/?p=CHEM%201150\" data-action=\"result-detail\" data-group=\"code:CHEM 1150\" >CHEM 1150</a>, <a href=\"/search/?p=CHEM%201152\" data-action=\"result-detail\" data-group=\"code:CHEM 1152\" >CHEM 1152</a>, <a href=\"/search/?p=CHEM%201582\" data-action=\"result-detail\" data-group=\"code:CHEM 1582\" >CHEM 1582</a>, <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a>, or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\"  class=\"notoffered\">CHEM 2580</a>. Prerequisite: <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\"  class=\"notoffered\">CHEM 1100</a> or <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1450\"}]}",
+      "other_requirements": "Not recommended for pre-medical students. Credit not awarded for both CHEM 1580 and  CHEM 1150 ,  CHEM 1152 ,  CHEM 1582 ,  CHEM 1500 , or  CHEM 2580 . Must register for a CHEM 1580 lab, L01-L15; $85 fee: Chem Lab Supplies; Cross listed withCHEM 1582A. PACE students with permission and override. All labs must be completed in order to pass the course. Attendance for all lectures and exams is expected. All work must be completed by the due date. The final exam must be taken to pass the course.",
+      "external": false
+    },
+    {
+      "id": "CHEM 6050",
+      "course_code": "CHEM 6050",
+      "department": "CHEM",
+      "title": "Topics in Current Chemistry",
+      "credit_hours": "0 or 1",
+      "description": "Survey of current topics in the Chemistry literature. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Chemistry Graduate student.",
+      "prereq_expression": null,
+      "other_requirements": "Chemistry Graduate student. Graduate standing required",
+      "external": false
+    },
+    {
+      "id": "CHEM 5610",
+      "course_code": "CHEM 5610",
+      "department": "CHEM",
+      "title": "Gr Chemical Thermodynamics",
+      "credit_hours": "3",
+      "description": "Calculus-based exploration of the fundamental principles of thermodynamics (gases, equilibrium, free energy, laws of thermodynamics, statistical thermodynamics, phase transitions, mixtures, chemical reactions, solids), from an interdisciplinary perspective. This topic is a cornerstone of many scientific and engineering disciplines. Appropriate for students in Chemistry and other STEM fields. Prerequisites: Graduate student or Instructor permission; content knowledge of general chemistry, calculus, and introductory physics (mechanics) assumed. Cross-listed with: <a href=\"/search/?p=MATS%205610\" data-action=\"result-detail\" data-group=\"code:MATS 5610\" >MATS 5610</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 101\"}, {\"type\": \"course\", \"code\": \"CHEM 102\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1550\"}, {\"type\": \"course\", \"code\": \"MATH 1552\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1110\"}, {\"type\": \"course\", \"code\": \"PHYS 1111\"}]}]}",
+      "other_requirements": "Graduate student or Instructor permission; content knowledge of general chemistry, calculus, and introductory physics (mechanics) assumed.",
+      "external": false
+    },
+    {
+      "id": "CHEM 6990",
+      "course_code": "CHEM 6990",
+      "department": "CHEM",
+      "title": "Gr Special Topics",
+      "credit_hours": "1 to 18",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CHEM 1100",
+      "course_code": "CHEM 1100",
+      "department": "CHEM",
+      "title": "Outline: General Chem w/lab",
+      "credit_hours": "4",
+      "description": "One-semester survey of principles and concepts of general chemistry, topics covered include bonding, mole ratios, equilibrium, and nuclear chemistry. Credit not awarded for both CHEM 1100 and <a href=\"/search/?p=CHEM%201102\" data-action=\"result-detail\" data-group=\"code:CHEM 1102\" >CHEM 1102</a>, <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, or <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Credit not awarded for both CHEM 1100 and CHEM 1102, CHEM 1400, or CHEM 1405. $60 fee for lab supplies; Colocated with CHEM 1102A; Must register for CHEM 1100 lab L01-L07; Non-CAS, non - BSAD students only; Open to degree and PACE students.",
+      "external": false
+    },
+    {
+      "id": "CHEM 6620",
+      "course_code": "CHEM 6620",
+      "department": "CHEM",
+      "title": "Computational Chemistry",
+      "credit_hours": "3",
+      "description": "Explores the techniques and applications of computational chemistry to model organic, inorganic, and biological molecules. Introduces basic level of classical and quantum modeling, cheminformatics and big chemical data, as well as computer-aided design of new materials and medicines. Prerequisite: Chemistry Graduate student.",
+      "prereq_expression": null,
+      "other_requirements": "Chemistry Graduate student. Graduate standing required",
+      "external": false
+    },
+    {
+      "id": "CHEM 3620",
+      "course_code": "CHEM 3620",
+      "department": "CHEM",
+      "title": "Quantum Mechanics and Kinetics",
+      "credit_hours": "3",
+      "description": "Exploration of chemical thermodynamics and basic statistical mechanics, with a significant level of mathematical rigor. Background in calculus and physics is required. Designed for Chemistry majors, but also suitable for students from other STEM disciplines. Prerequisites: <a href=\"/search/?p=CHEM%203610\" data-action=\"result-detail\" data-group=\"code:CHEM 3610\"  class=\"notoffered\">CHEM 3610</a>; <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\" >PHYS 1550</a> or <a href=\"/search/?p=PHYS%201650\" data-action=\"result-detail\" data-group=\"code:PHYS 1650\"  class=\"notoffered\">PHYS 1650</a>. Pre/Co-requisites: <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 3610\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1550\"}, {\"type\": \"course\", \"code\": \"PHYS 1650\"}]}, {\"type\": \"course\", \"code\": \"MATH 2248\"}]}",
+      "other_requirements": "Designed for Chemistry majors, but also suitable for students from other STEM disciplines.",
+      "external": false
+    },
+    {
+      "id": "CHEM 5320",
+      "course_code": "CHEM 5320",
+      "department": "CHEM",
+      "title": "Gr Instrumental Analysis",
+      "credit_hours": "3",
+      "description": "Systematic survey of modern methods of chemical analysis. Fundamental principles and applications of spectroscopy, electrochemistry, and separation techniques. Credit not awarded for both CHEM 5320 and <a href=\"/search/?p=CHEM%203320\" data-action=\"result-detail\" data-group=\"code:CHEM 3320\" >CHEM 3320</a>. Prerequisite: Graduate student.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"CHEM 3320\"}",
+      "other_requirements": "Graduate student. Credit not awarded for both CHEM 5320 and CHEM 3320.",
+      "external": false
+    },
+    {
+      "id": "CHEM 5400",
+      "course_code": "CHEM 5400",
+      "department": "CHEM",
+      "title": "Gr Advanced Inorganic Chem",
+      "credit_hours": "3",
+      "description": "Molecular symmetry and group theory with an emphasis on applications (vibrational and electronic spectra, bonding and reactivity); introduction to transition metal processes; bioinorganic chemistry. Credit not awarded for both CHEM 5400 and <a href=\"/search/?p=CHEM%203400\" data-action=\"result-detail\" data-group=\"code:CHEM 3400\"  class=\"notoffered\">CHEM 3400</a>. Prerequisite: Graduate student.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"CHEM 3400\"}",
+      "other_requirements": "Graduate student. Credit not awarded for both CHEM 5400 and CHEM 3400.",
+      "external": false
+    },
+    {
+      "id": "CHEM 3995",
+      "course_code": "CHEM 3995",
+      "department": "CHEM",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate students work on research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Departmental permission.",
+      "prereq_expression": null,
+      "other_requirements": "Departmental permission.",
+      "external": false
+    },
+    {
+      "id": "CHEM 1070",
+      "course_code": "CHEM 1070",
+      "department": "CHEM",
+      "title": "Discovering Chemistry",
+      "credit_hours": "1",
+      "description": "First-year Chemistry majors will gain an understanding of some of the core concepts and vocabulary in the discipline and be introduced to the scientific research going on in the department. Showcases academic and student services resources on campus. Provides an opportunity to meet and interact with other first-year students in the major.",
+      "prereq_expression": null,
+      "other_requirements": "FTFY CHEM majors only",
+      "external": false
+    },
+    {
+      "id": "MATH 1248",
+      "course_code": "MATH 1248",
+      "department": "MATH",
+      "title": "Calculus II",
+      "credit_hours": "4",
+      "description": "Vectors and vector operations. Techniques and applications of integration. Polar coordinates, Taylor polynomials, sequences and series, power series. Credit will not be given for both MATH 1248 and <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 021\"}]}",
+      "other_requirements": "C- or better in MATH 1234. C- or better in MATH 021.",
       "external": true
+    },
+    {
+      "id": "CHEM 2400",
+      "course_code": "CHEM 2400",
+      "department": "CHEM",
+      "title": "Inorganic Chemistry",
+      "credit_hours": "3",
+      "description": "Symmetry, group theory, molecular structure; electronic structure of atoms; bonding models including MO, crystal field, and ligand field; solid state, acid-base, and simple organometallic systems. Prerequisite: <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a> or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\"  class=\"notoffered\">CHEM 2580</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1500\"}, {\"type\": \"course\", \"code\": \"CHEM 2580\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "CHEM 3610",
+      "course_code": "CHEM 3610",
+      "department": "CHEM",
+      "title": "Chemical Thermodynamics",
+      "credit_hours": "3",
+      "description": "Calculus-based exploration of the fundamental principles of thermodynamics (gases, equilibrium, free energy, laws of thermodynamics, statistical thermodynamics, phase transitions, mixtures, chemical reactions), from both a chemistry and physics perspective. This topic is a cornerstone of many scientific and engineering disciplines. Appropriate for students in Chemistry and other STEM fields. Prerequisites: <a href=\"/search/?p=CHEM%201070\" data-action=\"result-detail\" data-group=\"code:CHEM 1070\"  class=\"notoffered\">CHEM 1070</a>, <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>, or <a href=\"/search/?p=CHEM%201455\" data-action=\"result-detail\" data-group=\"code:CHEM 1455\"  class=\"notoffered\">CHEM 1455</a>; <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a>, <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>, or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>; <a href=\"/search/?p=PHYS%201450\" data-action=\"result-detail\" data-group=\"code:PHYS 1450\" >PHYS 1450</a>, <a href=\"/search/?p=PHYS%201550\" data-action=\"result-detail\" data-group=\"code:PHYS 1550\"  class=\"notoffered\">PHYS 1550</a>, or <a href=\"/search/?p=PHYS%201650\" data-action=\"result-detail\" data-group=\"code:PHYS 1650\" >PHYS 1650</a>. Co-requisite: <a href=\"/search/?p=CHEM%203602\" data-action=\"result-detail\" data-group=\"code:CHEM 3602\" >CHEM 3602</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1070\"}, {\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1450\"}, {\"type\": \"course\", \"code\": \"PHYS 1550\"}, {\"type\": \"course\", \"code\": \"PHYS 1650\"}]}]}",
+      "other_requirements": "PACE students with permission and override. Co-requisite: CHEM 3602.",
+      "external": false
+    },
+    {
+      "id": "CHEM 4996",
+      "course_code": "CHEM 4996",
+      "department": "CHEM",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CHEM 1460",
+      "course_code": "CHEM 1460",
+      "department": "CHEM",
+      "title": "Exploring Chemistry 2",
+      "credit_hours": "1",
+      "description": "Second semester of a first-year laboratory addressing foundational chemical principles and experimental methods. For first-year Biochemistry majors also enrolled in <a href=\"/search/?p=CHEM%201550\" data-action=\"result-detail\" data-group=\"code:CHEM 1550\" >CHEM 1550</a>. Prerequisites: <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a> and <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\"  class=\"notoffered\">CHEM 1410</a>. Co-requisite: <a href=\"/search/?p=CHEM%201550\" data-action=\"result-detail\" data-group=\"code:CHEM 1550\" >CHEM 1550</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1500\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}",
+      "other_requirements": "CHEM 1550; BICM majors only; $85 Fee: Chem Lab Supplies PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "CHEM 7015",
+      "course_code": "CHEM 7015",
+      "department": "CHEM",
+      "title": "Research Problem Solution",
+      "credit_hours": "1",
+      "description": "Solution to a current research problem to be addressed by original, independent research. Prerequisite: <a href=\"/search/?p=CHEM%207010\" data-action=\"result-detail\" data-group=\"code:CHEM 7010\"  class=\"notoffered\">CHEM 7010</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 7010\"}]}",
+      "other_requirements": "Meeting time/day set in collaboration with the students and instructor at the beginning of the term.",
+      "external": false
+    },
+    {
+      "id": "CHEM 1400",
+      "course_code": "CHEM 1400",
+      "department": "CHEM",
+      "title": "General Chemistry 1",
+      "credit_hours": "4",
+      "description": "First semester of a two-semester sequence. Topics include matter, stoichiometry, gas laws, thermochemistry, quantum theory, atomic structure, electronic configurations, bonding, and intermolecular forces. Credit not awarded for both CHEM 1400 and <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\" >CHEM 1100</a>, <a href=\"/search/?p=CHEM%201102\" data-action=\"result-detail\" data-group=\"code:CHEM 1102\" >CHEM 1102</a>, or <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CHEM 2050",
+      "course_code": "CHEM 2050",
+      "department": "CHEM",
+      "title": "Advanced Synthesis Techniques",
+      "credit_hours": "3",
+      "description": "Laboratory for Chemistry majors that covers advanced inorganic and organic techniques in synthesis, purification, and spectroscopic characterization. Prerequisite: <a href=\"/search/?p=CHEM%201550\" data-action=\"result-detail\" data-group=\"code:CHEM 1550\"  class=\"notoffered\">CHEM 1550</a> or <a href=\"/search/?p=CHEM%202585\" data-action=\"result-detail\" data-group=\"code:CHEM 2585\"  class=\"notoffered\">CHEM 2585</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1550\"}, {\"type\": \"course\", \"code\": \"CHEM 2585\"}]}",
+      "other_requirements": "$230 fee for chemical lab supplies\nPACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "CHEM 1410",
+      "course_code": "CHEM 1410",
+      "department": "CHEM",
+      "title": "Exploring Chemistry 1",
+      "credit_hours": "1",
+      "description": "First-year laboratory addressing foundational chemical principles and experimental methods. For first-year Biochemistry majors also enrolled in <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\" >CHEM 1500</a>. Co-requisite: <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\" >CHEM 1500</a>.",
+      "prereq_expression": null,
+      "other_requirements": "For first-year Biochemistry majors also enrolled in CHEM 1500. Co-requisite: CHEM 1500. Coreq:CHEM 1500A; First-time, first-year BICM majors only; $85 fee for chemical lab supplies. PACE students by permission and override. The is the laboratory-component of General Chemistry for Biochemistry majors who have placed out of the lecture-component of General Chemistry based upon their High School preparation. The lab meets once per week. Students are expected to come prepared with proper PPE and write laboratory reports.",
+      "external": false
+    },
+    {
+      "id": "CHEM 6010",
+      "course_code": "CHEM 6010",
+      "department": "CHEM",
+      "title": "Intro to Graduate Research",
+      "credit_hours": "1",
+      "description": "Introduction to graduate research in Chemistry. Overview of faculty research areas and department/university research resources. Prerequisite: Chemistry Graduate student.",
+      "prereq_expression": null,
+      "other_requirements": "Chemistry Graduate student. Graduate standing required",
+      "external": false
+    },
+    {
+      "id": "CHEM 2310",
+      "course_code": "CHEM 2310",
+      "department": "CHEM",
+      "title": "Quantitative Analysis",
+      "credit_hours": "4",
+      "description": "Theory and practice of volumetric and gravimetric analysis. Theoretical discussion of indicators, buffers, pH, etc. Introduction to data analysis, spectrophotometry, and chromatography. Prerequisite: <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a> or <a href=\"/search/?p=CHEM%201455\" data-action=\"result-detail\" data-group=\"code:CHEM 1455\"  class=\"notoffered\">CHEM 1455</a> or <a href=\"/search/?p=CHEM%201460\" data-action=\"result-detail\" data-group=\"code:CHEM 1460\"  class=\"notoffered\">CHEM 1460</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}, {\"type\": \"course\", \"code\": \"CHEM 1460\"}]}",
+      "other_requirements": "must register for CHEM 2310 lab L01-L03; $65 fee for lab supplies; PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "MATH 1242",
+      "course_code": "MATH 1242",
+      "department": "MATH",
+      "title": "Transitional Calculus",
+      "credit_hours": "5",
+      "description": "Intended to make the transition from <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> to <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>. Topics are similar to <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> but recognizing different backgrounds of students in <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> versus <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit will not be given for both <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> and MATH 1242. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: B or better in <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, or B or better in <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"other_requirement\", \"description\": \"B or better\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"other_requirement\", \"description\": \"B or better\"}]}]}",
+      "other_requirements": "Open to Degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "CHEM 1150",
+      "course_code": "CHEM 1150",
+      "department": "CHEM",
+      "title": "Outline: Organic & BIOC w/lab",
+      "credit_hours": "4",
+      "description": "Broad overview of most important facts and principles of organic and biochemistry and interrelationships between these branches of chemistry. Credit not awarded for both CHEM 1150 and <a href=\"/search/?p=CHEM%201152\" data-action=\"result-detail\" data-group=\"code:CHEM 1152\" >CHEM 1152</a>, <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\" >CHEM 1580</a>, or <a href=\"/search/?p=CHEM%201582\" data-action=\"result-detail\" data-group=\"code:CHEM 1582\" >CHEM 1582</a>. Prerequisite: <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\"  class=\"notoffered\">CHEM 1100</a> or <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1400\"}]}",
+      "other_requirements": "Must register for a CHEM 1150 lab, L01 - L06; $85 fee: Chem Lab Supplies; Open to Degree and PACE students; Cross listed with CHEM 1152A; total enrollment cap = 142",
+      "external": false
     },
     {
       "id": "PHYS 1650",
@@ -607,309 +431,558 @@
       "external": true
     },
     {
-      "id": "CHEM 1070",
-      "course_code": "CHEM 1070",
+      "id": "CHEM 7491",
+      "course_code": "CHEM 7491",
       "department": "CHEM",
-      "title": "Discovering Chemistry",
-      "credit_hours": "1",
-      "description": "First-year Chemistry majors will gain an understanding of some of the core concepts and vocabulary in the discipline and be introduced to the scientific research going on in the department. Showcases academic and student services resources on campus. Provides an opportunity to meet and interact with other first-year students in the major.",
+      "title": "Doctoral Dissertation Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Doctoral Dissertation.",
       "prereq_expression": null,
-      "other_requirements": "FTFY CHEM majors only",
+      "other_requirements": "Graduate standing only",
+      "external": false
+    },
+    {
+      "id": "CHEM 3320",
+      "course_code": "CHEM 3320",
+      "department": "CHEM",
+      "title": "Instrumental Analysis",
+      "credit_hours": "3",
+      "description": "Systematic survey of modern methods of chemical analysis. Fundamental principles and applications of spectroscopy, electrochemistry, and separation techniques. Credit not awarded for both CHEM 3320 and <a href=\"/search/?p=CHEM%205320\" data-action=\"result-detail\" data-group=\"code:CHEM 5320\" >CHEM 5320</a>. Prerequisite: <a href=\"/search/?p=CHEM%202310\" data-action=\"result-detail\" data-group=\"code:CHEM 2310\"  class=\"notoffered\">CHEM 2310</a>. Pre/Co-requisite: <a href=\"/search/?p=CHEM%202600\" data-action=\"result-detail\" data-group=\"code:CHEM 2600\"  class=\"notoffered\">CHEM 2600</a> is strongly recommended.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 2310\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 2600\"}, {\"type\": \"course\", \"code\": \"CHEM 3610\"}]}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "CHEM 1500",
+      "course_code": "CHEM 1500",
+      "department": "CHEM",
+      "title": "Organic Chemistry for Majors 1",
+      "credit_hours": "4",
+      "description": "An exploration of the basic principles of Organic Chemistry including structure, bonding, conformational analysis, stereochemistry and reactivity. Designed for Chemistry and Biochemistry majors who have a strong high school chemistry background.",
+      "prereq_expression": null,
+      "other_requirements": "PACE students by permission and override. CHEM and BICM majors only; $85 fee for lab supplies. Must register for CHEM 1500 lab L01-L05.",
+      "external": false
+    },
+    {
+      "id": "CHEM 2580",
+      "course_code": "CHEM 2580",
+      "department": "CHEM",
+      "title": "Organic Chemistry 1",
+      "credit_hours": "4",
+      "description": "Properties and reactivity of organic compounds with consideration of bonding, stereochemistry, and reaction mechanisms. For premedical and biological sciences students. Credit not awarded for both CHEM 2580 and <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\"  class=\"notoffered\">CHEM 1580</a>, <a href=\"/search/?p=CHEM%201582\" data-action=\"result-detail\" data-group=\"code:CHEM 1582\"  class=\"notoffered\">CHEM 1582</a>, or <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\" >CHEM 1500</a>. Prerequisite: <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a> or <a href=\"/search/?p=CHEM%201455\" data-action=\"result-detail\" data-group=\"code:CHEM 1455\"  class=\"notoffered\">CHEM 1455</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}]}",
+      "other_requirements": "$85 fee for lab supplies; Must register for a CHEM 2580 lab L01-L23; Degree students only; Post Bac Pre Med students register for CHEM 2580 ZRA-ZRC",
+      "external": false
+    },
+    {
+      "id": "CHEM 2600",
+      "course_code": "CHEM 2600",
+      "department": "CHEM",
+      "title": "Physical Chem for Life Science",
+      "credit_hours": "3",
+      "description": "Introduction to physical chemistry concepts spanning thermodynamics, solution equilibrium, enzyme kinetics, and other topics. Appropriate for students from Biochemistry and other life science disciplines. Background in calculus and physics is required. Prerequisites: <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>, <a href=\"/search/?p=CHEM%201455\" data-action=\"result-detail\" data-group=\"code:CHEM 1455\"  class=\"notoffered\">CHEM 1455</a>, or <a href=\"/search/?p=CHEM%201460\" data-action=\"result-detail\" data-group=\"code:CHEM 1460\"  class=\"notoffered\">CHEM 1460</a>; <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a>, <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>, or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>; <a href=\"/search/?p=PHYS%201400\" data-action=\"result-detail\" data-group=\"code:PHYS 1400\" >PHYS 1400</a>, <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>, or <a href=\"/search/?p=PHYS%201600\" data-action=\"result-detail\" data-group=\"code:PHYS 1600\" >PHYS 1600</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}, {\"type\": \"course\", \"code\": \"CHEM 1460\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1400\"}, {\"type\": \"course\", \"code\": \"PHYS 1500\"}, {\"type\": \"course\", \"code\": \"PHYS 1600\"}]}]}",
+      "other_requirements": "Background in calculus and physics is required. PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "CHEM 2605",
+      "course_code": "CHEM 2605",
+      "department": "CHEM",
+      "title": "Physical Chemistry Lab",
+      "credit_hours": "1",
+      "description": "Laboratory course following <a href=\"/search/?p=CHEM%202600\" data-action=\"result-detail\" data-group=\"code:CHEM 2600\"  class=\"notoffered\">CHEM 2600</a>. Topics include quantum chemistry and thermodynamics. Prerequisites: <a href=\"/search/?p=CHEM%201550\" data-action=\"result-detail\" data-group=\"code:CHEM 1550\" >CHEM 1550</a> or <a href=\"/search/?p=CHEM%202585\" data-action=\"result-detail\" data-group=\"code:CHEM 2585\" >CHEM 2585</a>; <a href=\"/search/?p=CHEM%202600\" data-action=\"result-detail\" data-group=\"code:CHEM 2600\"  class=\"notoffered\">CHEM 2600</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1550\"}, {\"type\": \"course\", \"code\": \"CHEM 2585\"}]}, {\"type\": \"course\", \"code\": \"CHEM 2600\"}]}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CHEM 2014",
+      "course_code": "CHEM 2014",
+      "department": "CHEM",
+      "title": "Professional Development",
+      "credit_hours": "1",
+      "description": "Skills necessary for senior Chemistry majors to transition to postgraduate careers, including resume and proposal writing, presentations, and other techniques. Prerequisite: <a href=\"/search/?p=CHEM%202012\" data-action=\"result-detail\" data-group=\"code:CHEM 2012\"  class=\"notoffered\">CHEM 2012</a> or <a href=\"/search/?p=CHEM%202020\" data-action=\"result-detail\" data-group=\"code:CHEM 2020\"  class=\"notoffered\">CHEM 2020</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 2012\"}, {\"type\": \"course\", \"code\": \"CHEM 2020\"}]}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CHEM 3993",
+      "course_code": "CHEM 3993",
+      "department": "CHEM",
+      "title": "Independent Study",
+      "credit_hours": "2",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required. Offered at department discretion.",
+      "external": false
+    },
+    {
+      "id": "CHEM 6410",
+      "course_code": "CHEM 6410",
+      "department": "CHEM",
+      "title": "Organometallic Chemistry",
+      "credit_hours": "3",
+      "description": "Synthesis, structure, bonding, properties, reactions, and applications of organometallic systems; mechanisms of organometallic reactions including oxidative addition and insertion reactions with applications in catalysis. Prerequisite: Chemistry Graduate student.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"CHEM 6410\"}",
+      "other_requirements": "Chemistry Graduate student.",
+      "external": false
+    },
+    {
+      "id": "PHYS 1600",
+      "course_code": "PHYS 1600",
+      "department": "PHYS",
+      "title": "Fundamentals of Physics I",
+      "credit_hours": "4",
+      "description": "Calculus-based introduction to kinematics, dynamics, oscillations, thermal physics. For students in the natural sciences. With lab. Credit not awarded for both PHYS 1600 and <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>. Pre/co-requisite: Credit or concurrent enrollment in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "other_requirements": "Credit or concurrent enrollment in MATH 1234. Open to Degree and PACE students. Credit not awarded for both PHYS 1600 and PHYS 1500.",
+      "external": true
+    },
+    {
+      "id": "MATH 1224",
+      "course_code": "MATH 1224",
+      "department": "MATH",
+      "title": "Fundamentals of Calculus II",
+      "credit_hours": "3",
+      "description": "Techniques and applications of integration. An introduction to multi-variable calculus: partial derivatives and double integrals. Prerequisite: <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "other_requirements": "Open to Degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "PHYS 1550",
+      "course_code": "PHYS 1550",
+      "department": "PHYS",
+      "title": "Physics for Engineers II",
+      "credit_hours": "3",
+      "description": "Electricity, magnetism, electromagnetic waves, optics. Without lab. Accompanying optional problem-solving session: <a href=\"/search/?p=PHYS%201560\" data-action=\"result-detail\" data-group=\"code:PHYS 1560\" >PHYS 1560</a>. Prerequisites: <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>; <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Co-requisite: <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1500\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}]}",
+      "other_requirements": "CEMS students only",
+      "external": true
+    },
+    {
+      "id": "MATH 2248",
+      "course_code": "MATH 2248",
+      "department": "MATH",
+      "title": "Calculus III",
+      "credit_hours": "4",
+      "description": "Vector-valued functions. Calculus of functions of several variables: partial derivatives, gradient, divergence, curl, multiple integrals, line integrals, Stokes' and Green's theorems. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "C- or better in MATH 1248 or MATH 1242",
+      "external": true
+    },
+    {
+      "id": "CHEM 6300",
+      "course_code": "CHEM 6300",
+      "department": "CHEM",
+      "title": "Analytical Spectroscopy",
+      "credit_hours": "3",
+      "description": "Selected topics of current interest in analytical chemistry. New techniques and methodologies, especially in chemical instrumentation. See Schedule of Courses for specific titles. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Graduate student.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"GRADUATE STUDENT\"}",
+      "other_requirements": "Graduate standing required",
+      "external": false
+    },
+    {
+      "id": "CHEM 2585",
+      "course_code": "CHEM 2585",
+      "department": "CHEM",
+      "title": "Organic Chemistry 2",
+      "credit_hours": "4",
+      "description": "Reactivity of organic compounds and applications to synthesis. Spectroscopy is discussed in relation to compound characterization. For premedical and biological sciences students. Credit not awarded for both CHEM 2585 and <a href=\"/search/?p=CHEM%201550\" data-action=\"result-detail\" data-group=\"code:CHEM 1550\" >CHEM 1550</a>.  Prerequisite: <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a> or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\"  class=\"notoffered\">CHEM 2580</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1500\"}, {\"type\": \"course\", \"code\": \"CHEM 2580\"}]}",
+      "other_requirements": "Must register for a CHEM 2585 lab, L01-L20; Degree students only even after level restrictions removed; Post Bac Pre Med students register for CHEM 2585 ZRA; Fee: $85",
+      "external": false
+    },
+    {
+      "id": "CHEM 1102",
+      "course_code": "CHEM 1102",
+      "department": "CHEM",
+      "title": "Outline: General Chem",
+      "credit_hours": "3",
+      "description": "One-semester survey of principles and concepts of general chemistry, topics covered include bonding, mole ratios, equilibrium, and nuclear chemistry. No laboratory. Credit not awarded for both CHEM 1102 and <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\" >CHEM 1100</a>, <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, or <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Credit not awarded for both CHEM 1102 and CHEM 1100, CHEM 1400, or CHEM 1405.",
+      "external": false
+    },
+    {
+      "id": "CHEM 6392",
+      "course_code": "CHEM 6392",
+      "department": "CHEM",
+      "title": "Master's Lit Project Research",
+      "credit_hours": "9",
+      "description": "Reading and literature research culminating in the preparation of a comprehensive and critical review of a topic of current interest in Chemistry.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
       "external": false
     }
   ],
   "edges": [
     {
       "source": "CHEM 1070",
-      "target": "CHEM 3610"
+      "target": "CHEM 3610",
+      "group": "CHEM 3610__g0"
     },
     {
       "source": "CHEM 1100",
-      "target": "CHEM 1150"
+      "target": "CHEM 1150",
+      "group": "CHEM 1150__g0"
     },
     {
       "source": "CHEM 1100",
-      "target": "CHEM 1152"
+      "target": "CHEM 1152",
+      "group": "CHEM 1152__g0"
     },
     {
       "source": "CHEM 1100",
-      "target": "CHEM 1580"
+      "target": "CHEM 1580",
+      "group": "CHEM 1580__g0"
     },
     {
       "source": "CHEM 1100",
-      "target": "CHEM 1582"
+      "target": "CHEM 1582",
+      "group": "CHEM 1582__g0"
     },
     {
       "source": "CHEM 1102",
-      "target": "CHEM 1152"
+      "target": "CHEM 1152",
+      "group": "CHEM 1152__g0"
     },
     {
       "source": "CHEM 1102",
-      "target": "CHEM 1582"
+      "target": "CHEM 1582",
+      "group": "CHEM 1582__g0"
     },
     {
       "source": "CHEM 1400",
-      "target": "CHEM 1150"
+      "target": "CHEM 1150",
+      "group": "CHEM 1150__g0"
     },
     {
       "source": "CHEM 1400",
-      "target": "CHEM 1152"
+      "target": "CHEM 1152",
+      "group": "CHEM 1152__g0"
     },
     {
       "source": "CHEM 1400",
-      "target": "CHEM 1450"
+      "target": "CHEM 1450",
+      "group": "CHEM 1450__g0"
     },
     {
       "source": "CHEM 1410",
-      "target": "CHEM 1450"
+      "target": "CHEM 1450",
+      "group": "CHEM 1450__g0"
     },
     {
       "source": "CHEM 1410",
-      "target": "CHEM 1460"
+      "target": "CHEM 1460",
+      "group": null
     },
     {
       "source": "CHEM 1450",
-      "target": "CHEM 1580"
+      "target": "CHEM 1580",
+      "group": "CHEM 1580__g0"
     },
     {
       "source": "CHEM 1450",
-      "target": "CHEM 1582"
+      "target": "CHEM 1582",
+      "group": "CHEM 1582__g0"
     },
     {
       "source": "CHEM 1450",
-      "target": "CHEM 2310"
+      "target": "CHEM 2310",
+      "group": "CHEM 2310__g0"
     },
     {
       "source": "CHEM 1450",
-      "target": "CHEM 2580"
+      "target": "CHEM 2580",
+      "group": "CHEM 2580__g0"
     },
     {
       "source": "CHEM 1450",
-      "target": "CHEM 2600"
+      "target": "CHEM 2600",
+      "group": "CHEM 2600__g0"
     },
     {
       "source": "CHEM 1450",
-      "target": "CHEM 3602"
+      "target": "CHEM 3602",
+      "group": "CHEM 3602__g0"
     },
     {
       "source": "CHEM 1450",
-      "target": "CHEM 3610"
+      "target": "CHEM 3610",
+      "group": "CHEM 3610__g0"
     },
     {
       "source": "CHEM 1460",
-      "target": "CHEM 2310"
+      "target": "CHEM 2310",
+      "group": "CHEM 2310__g0"
     },
     {
       "source": "CHEM 1460",
-      "target": "CHEM 2600"
+      "target": "CHEM 2600",
+      "group": "CHEM 2600__g0"
     },
     {
       "source": "CHEM 1460",
-      "target": "CHEM 3602"
+      "target": "CHEM 3602",
+      "group": "CHEM 3602__g0"
     },
     {
       "source": "CHEM 1500",
-      "target": "CHEM 1460"
+      "target": "CHEM 1460",
+      "group": null
     },
     {
       "source": "CHEM 1500",
-      "target": "CHEM 1550"
+      "target": "CHEM 1550",
+      "group": "CHEM 1550__g0"
     },
     {
       "source": "CHEM 1500",
-      "target": "CHEM 2400"
+      "target": "CHEM 2400",
+      "group": "CHEM 2400__g0"
     },
     {
       "source": "CHEM 1500",
-      "target": "CHEM 2585"
+      "target": "CHEM 2585",
+      "group": "CHEM 2585__g0"
     },
     {
       "source": "CHEM 1550",
-      "target": "CHEM 2020"
+      "target": "CHEM 2020",
+      "group": "CHEM 2020__g0"
     },
     {
       "source": "CHEM 1550",
-      "target": "CHEM 2050"
+      "target": "CHEM 2050",
+      "group": "CHEM 2050__g0"
     },
     {
       "source": "CHEM 1550",
-      "target": "CHEM 2605"
+      "target": "CHEM 2605",
+      "group": "CHEM 2605__g0"
     },
     {
       "source": "CHEM 2020",
-      "target": "CHEM 2014"
+      "target": "CHEM 2014",
+      "group": "CHEM 2014__g0"
     },
     {
       "source": "CHEM 2310",
-      "target": "CHEM 3320"
+      "target": "CHEM 3320",
+      "group": null
     },
     {
       "source": "CHEM 2580",
-      "target": "CHEM 2400"
+      "target": "CHEM 2400",
+      "group": "CHEM 2400__g0"
     },
     {
       "source": "CHEM 2580",
-      "target": "CHEM 2585"
+      "target": "CHEM 2585",
+      "group": "CHEM 2585__g0"
     },
     {
       "source": "CHEM 2585",
-      "target": "CHEM 2020"
+      "target": "CHEM 2020",
+      "group": "CHEM 2020__g0"
     },
     {
       "source": "CHEM 2585",
-      "target": "CHEM 2050"
+      "target": "CHEM 2050",
+      "group": "CHEM 2050__g0"
     },
     {
       "source": "CHEM 2585",
-      "target": "CHEM 2605"
+      "target": "CHEM 2605",
+      "group": "CHEM 2605__g0"
     },
     {
       "source": "CHEM 2600",
-      "target": "CHEM 2605"
+      "target": "CHEM 2605",
+      "group": null
     },
     {
       "source": "CHEM 2600",
-      "target": "CHEM 3320"
+      "target": "CHEM 3320",
+      "group": "CHEM 3320__g0"
     },
     {
       "source": "CHEM 3320",
-      "target": "CHEM 3325"
+      "target": "CHEM 3325",
+      "group": null
     },
     {
       "source": "CHEM 3320",
-      "target": "CHEM 5320"
+      "target": "CHEM 5320",
+      "group": null
     },
     {
       "source": "CHEM 3610",
-      "target": "CHEM 3320"
+      "target": "CHEM 3320",
+      "group": "CHEM 3320__g0"
     },
     {
       "source": "CHEM 3610",
-      "target": "CHEM 3620"
+      "target": "CHEM 3620",
+      "group": null
     },
     {
       "source": "CHEM 6410",
-      "target": "CHEM 6410"
+      "target": "CHEM 6410",
+      "group": null
     },
     {
       "source": "CHEM 7010",
-      "target": "CHEM 7015"
+      "target": "CHEM 7015",
+      "group": null
     },
     {
       "source": "MATH 1224",
-      "target": "CHEM 2600"
+      "target": "CHEM 2600",
+      "group": "CHEM 2600__g1"
     },
     {
       "source": "MATH 1224",
-      "target": "CHEM 3610"
+      "target": "CHEM 3610",
+      "group": "CHEM 3610__g1"
     },
     {
       "source": "MATH 1224",
-      "target": "MATH 1242"
+      "target": "MATH 1242",
+      "group": "MATH 1242__g0"
     },
     {
       "source": "MATH 1242",
-      "target": "CHEM 2600"
+      "target": "CHEM 2600",
+      "group": "CHEM 2600__g1"
     },
     {
       "source": "MATH 1242",
-      "target": "CHEM 3610"
+      "target": "CHEM 3610",
+      "group": "CHEM 3610__g1"
     },
     {
       "source": "MATH 1242",
-      "target": "MATH 2248"
+      "target": "MATH 2248",
+      "group": "MATH 2248__g0"
     },
     {
       "source": "MATH 1242",
-      "target": "PHYS 1500"
+      "target": "PHYS 1500",
+      "group": "PHYS 1500__g0"
     },
     {
       "source": "MATH 1242",
-      "target": "PHYS 1550"
+      "target": "PHYS 1550",
+      "group": "PHYS 1550__g0"
     },
     {
       "source": "MATH 1248",
-      "target": "CHEM 2600"
+      "target": "CHEM 2600",
+      "group": "CHEM 2600__g1"
     },
     {
       "source": "MATH 1248",
-      "target": "CHEM 3602"
+      "target": "CHEM 3602",
+      "group": null
     },
     {
       "source": "MATH 1248",
-      "target": "CHEM 3610"
+      "target": "CHEM 3610",
+      "group": "CHEM 3610__g1"
     },
     {
       "source": "MATH 1248",
-      "target": "MATH 2248"
+      "target": "MATH 2248",
+      "group": "MATH 2248__g0"
     },
     {
       "source": "MATH 1248",
-      "target": "PHYS 1550"
+      "target": "PHYS 1550",
+      "group": "PHYS 1550__g0"
     },
     {
       "source": "MATH 1248",
-      "target": "PHYS 1650"
+      "target": "PHYS 1650",
+      "group": "PHYS 1650__g1"
     },
     {
       "source": "MATH 2248",
-      "target": "CHEM 3620"
+      "target": "CHEM 3620",
+      "group": null
     },
     {
       "source": "PHYS 1400",
-      "target": "CHEM 2600"
+      "target": "CHEM 2600",
+      "group": "CHEM 2600__g2"
     },
     {
       "source": "PHYS 1400",
-      "target": "PHYS 1450"
+      "target": "PHYS 1450",
+      "group": "PHYS 1450__g0"
     },
     {
       "source": "PHYS 1450",
-      "target": "CHEM 3610"
+      "target": "CHEM 3610",
+      "group": "CHEM 3610__g2"
     },
     {
       "source": "PHYS 1500",
-      "target": "CHEM 2600"
+      "target": "CHEM 2600",
+      "group": "CHEM 2600__g2"
     },
     {
       "source": "PHYS 1500",
-      "target": "PHYS 1450"
+      "target": "PHYS 1450",
+      "group": "PHYS 1450__g0"
     },
     {
       "source": "PHYS 1500",
-      "target": "PHYS 1550"
+      "target": "PHYS 1550",
+      "group": null
     },
     {
       "source": "PHYS 1500",
-      "target": "PHYS 1650"
+      "target": "PHYS 1650",
+      "group": "PHYS 1650__g0"
     },
     {
       "source": "PHYS 1550",
-      "target": "CHEM 3610"
+      "target": "CHEM 3610",
+      "group": "CHEM 3610__g2"
     },
     {
       "source": "PHYS 1550",
-      "target": "CHEM 3620"
+      "target": "CHEM 3620",
+      "group": "CHEM 3620__g0"
     },
     {
       "source": "PHYS 1600",
-      "target": "CHEM 2600"
+      "target": "CHEM 2600",
+      "group": "CHEM 2600__g2"
     },
     {
       "source": "PHYS 1600",
-      "target": "PHYS 1450"
+      "target": "PHYS 1450",
+      "group": "PHYS 1450__g0"
     },
     {
       "source": "PHYS 1600",
-      "target": "PHYS 1650"
+      "target": "PHYS 1650",
+      "group": "PHYS 1650__g0"
     },
     {
       "source": "PHYS 1650",
-      "target": "CHEM 3610"
+      "target": "CHEM 3610",
+      "group": "CHEM 3610__g2"
     },
     {
       "source": "PHYS 1650",
-      "target": "CHEM 3620"
+      "target": "CHEM 3620",
+      "group": "CHEM 3620__g0"
     }
   ]
 }

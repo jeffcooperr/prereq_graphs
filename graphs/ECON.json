@@ -2,6 +2,50 @@
   "department": "ECON",
   "nodes": [
     {
+      "id": "ECON 4990",
+      "course_code": "ECON 4990",
+      "department": "ECON",
+      "title": "Machine Learning for Economic",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 2400\"}, {\"type\": \"course\", \"code\": \"ECON 2450\"}]}, {\"type\": \"course\", \"code\": \"STAT 1410\"}]}",
+      "other_requirements": "See Schedule of Courses for specific titles.",
+      "external": false
+    },
+    {
+      "id": "ECON 2190",
+      "course_code": "ECON 2190",
+      "department": "ECON",
+      "title": "Fed Challenge",
+      "credit_hours": "1",
+      "description": "Provides students with supervision and training to participate in the Fed Challenge, a debate/presentation competition organized by the Federal Reserve Board with a focus on monetary policy. Prerequisite: <a href=\"/search/?p=ECON%202400\" data-action=\"result-detail\" data-group=\"code:ECON 2400\" >ECON 2400</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"ECON 2400\"}",
+      "other_requirements": "Instructor Permission Only",
+      "external": false
+    },
+    {
+      "id": "ECON 4996",
+      "course_code": "ECON 4996",
+      "department": "ECON",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ECON 2210",
+      "course_code": "ECON 2210",
+      "department": "ECON",
+      "title": "Public Policy",
+      "credit_hours": "3",
+      "description": "Revenues and expenditures of federal, state, and local governments and intergovernmental relationships; the effects of expenditures and taxation upon individuals, business institutions, and the national economy. Prerequisites: <a href=\"/search/?p=ECON%201400\" data-action=\"result-detail\" data-group=\"code:ECON 1400\" >ECON 1400</a>, <a href=\"/search/?p=ECON%201450\" data-action=\"result-detail\" data-group=\"code:ECON 1450\" >ECON 1450</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 1400\"}, {\"type\": \"course\", \"code\": \"ECON 1450\"}]}",
+      "other_requirements": "PACE students with permission and override.",
+      "external": false
+    },
+    {
       "id": "ECON 2700",
       "course_code": "ECON 2700",
       "department": "ECON",
@@ -10,6 +54,17 @@
       "description": "Focus on the internal organization of firms and their strategic choices under imperfectly competitive market structures, as well as welfare implications and public policy responses to imperfect competition. Topics covered may include the theory of the firm, theories of oligopoly, and public policy responses to address imperfect competition, such as natural monopoly regulation and antitrust law. Prerequisites: <a href=\"/search/?p=ECON%201400\" data-action=\"result-detail\" data-group=\"code:ECON 1400\" >ECON 1400</a>, <a href=\"/search/?p=ECON%201450\" data-action=\"result-detail\" data-group=\"code:ECON 1450\" >ECON 1450</a>.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 1400\"}, {\"type\": \"course\", \"code\": \"ECON 1450\"}]}",
       "other_requirements": "PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "ECON 2993",
+      "course_code": "ECON 2993",
+      "department": "ECON",
+      "title": "IS:Enviro Econ & Policy",
+      "credit_hours": "3",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required. Offered at department discretion.",
       "external": false
     },
     {
@@ -35,25 +90,14 @@
       "external": false
     },
     {
-      "id": "ECON 1023",
-      "course_code": "ECON 1023",
+      "id": "ECON 3500",
+      "course_code": "ECON 3500",
       "department": "ECON",
-      "title": "LASP:EconomicsofClimateChange",
+      "title": "Econometrics & Applications",
       "credit_hours": "3",
-      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences). Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program.",
-      "prereq_expression": null,
-      "other_requirements": "Enrollment in the appropriate Liberal Arts Scholars Program. LASP students only. Earth & Environment Scholars only. Instructor Permission.",
-      "external": false
-    },
-    {
-      "id": "ECON 2990",
-      "course_code": "ECON 2990",
-      "department": "ECON",
-      "title": "Behavioral Economics",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 1400\"}, {\"type\": \"course\", \"code\": \"ECON 1450\"}]}",
-      "other_requirements": "PACE students with permission and override.",
+      "description": "A combination of economic theory, mathematics, and statistics for testing economic hypothesis and developing economic models. Conceptual development and applications. Prerequisites: <a href=\"/search/?p=ECON%202400\" data-action=\"result-detail\" data-group=\"code:ECON 2400\" >ECON 2400</a>, <a href=\"/search/?p=ECON%202450\" data-action=\"result-detail\" data-group=\"code:ECON 2450\" >ECON 2450</a>, <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 2400\"}, {\"type\": \"course\", \"code\": \"ECON 2450\"}, {\"type\": \"course\", \"code\": \"STAT 1410\"}]}",
+      "other_requirements": "Prereqs enforced by the system:ECON 2400ANDECON 2450;andSTAT 1410. This course covers the statistical techniques used in economics for estimating, testing, and analyzing economic relationships. We begin with a review of probability and statistics, then develop the linear regression model: OLS estimation, hypothesis testing, multiple regression, dummy variables, misspecification, and heteroskedasticity. The course also introduces causal inference and covers key research designs including panel data methods, difference-in-differences, instrumental variables, and regression discontinuity. Students will work with statistical software throughout the semester and will complete a short empirical research paper. This is a demanding, quantitative course. Students are expected to attend class regularly, start assignments early, and invest significant time in problem sets, coding exercises, and their research paper.",
       "external": false
     },
     {
@@ -68,15 +112,114 @@
       "external": false
     },
     {
-      "id": "ECON 3500",
-      "course_code": "ECON 3500",
+      "id": "ECON 1010",
+      "course_code": "ECON 1010",
       "department": "ECON",
-      "title": "Econometrics & Applications",
+      "title": "FYS:Econ Risky Health Behavior",
       "credit_hours": "3",
-      "description": "A combination of economic theory, mathematics, and statistics for testing economic hypothesis and developing economic models. Conceptual development and applications. Prerequisites: <a href=\"/search/?p=ECON%202400\" data-action=\"result-detail\" data-group=\"code:ECON 2400\" >ECON 2400</a>, <a href=\"/search/?p=ECON%202450\" data-action=\"result-detail\" data-group=\"code:ECON 2450\" >ECON 2450</a>, <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 2400\"}, {\"type\": \"course\", \"code\": \"ECON 2450\"}, {\"type\": \"course\", \"code\": \"STAT 1410\"}]}",
-      "other_requirements": "Prereqs enforced by the system:ECON 2400ANDECON 2450;andSTAT 1410. This course covers the statistical techniques used in economics for estimating, testing, and analyzing economic relationships. We begin with a review of probability and statistics, then develop the linear regression model: OLS estimation, hypothesis testing, multiple regression, dummy variables, misspecification, and heteroskedasticity. The course also introduces causal inference and covers key research designs including panel data methods, difference-in-differences, instrumental variables, and regression discontinuity. Students will work with statistical software throughout the semester and will complete a short empirical research paper. This is a demanding, quantitative course. Students are expected to attend class regularly, start assignments early, and invest significant time in problem sets, coding exercises, and their research paper.",
+      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
+    },
+    {
+      "id": "MATH 1212",
+      "course_code": "MATH 1212",
+      "department": "MATH",
+      "title": "Fundamentals of Calculus I",
+      "credit_hours": "3",
+      "description": "Introduction to limits and differential/integral calculus with a wide variety of applications. Students interested in intensive use of mathematics should take <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit not awarded for both MATH 1212 and <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>.  See <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201012\" data-action=\"result-detail\" data-group=\"code:MATH 1012\" >MATH 1012</a> or C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a>, or a score of 61 or higher on the placement assessment.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1012\"}, {\"type\": \"course\", \"code\": \"MATH 1034\"}]}",
+      "other_requirements": "C- or better in MATH 1012 or C- or better in MATH 1034, or a score of 61 or higher on the placement assessment. Prereqs enforced by the system: MATH 1012 or MATH 1034 or ALEKS MPA of at least 61; Open to Degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "ECON 2510",
+      "course_code": "ECON 2510",
+      "department": "ECON",
+      "title": "Using Data for Economic Policy",
+      "credit_hours": "3",
+      "description": "How to locate, use, and present economic data to understand economic issues, problems, and policy, and integrate data into written and oral presentations. Prerequisites: <a href=\"/search/?p=ECON%201400\" data-action=\"result-detail\" data-group=\"code:ECON 1400\" >ECON 1400</a>, <a href=\"/search/?p=ECON%201450\" data-action=\"result-detail\" data-group=\"code:ECON 1450\" >ECON 1450</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 1400\"}, {\"type\": \"course\", \"code\": \"ECON 1450\"}]}",
+      "other_requirements": "PACE students with permission and override. This course assumes a basic working knowledge of Excel, Word, and standard web navigation. In Excel, students should already know how to perform basic mathematical operations, sort data, cut, copy, and paste, create and edit basic charts and graphs, and adjust formatting in spreadsheets and graphs. In Word, students should be able to create and format a document and insert and format tables and graphs within it.",
+      "external": false
+    },
+    {
+      "id": "ECON 1200",
+      "course_code": "ECON 1200",
+      "department": "ECON",
+      "title": "Experimental Economics",
+      "credit_hours": "3",
+      "description": "Representative topics: policy issues and debates such as social welfare programs, health policy, energy and climate policy, minimum wage, housing and zoning laws, education policy, poverty alleviation and discrimination, and regulations and institutions more broadly. Examines the role of government interventions and how incentives shape individual consumer and firm behavior under different market structures. For students from any discipline.  Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ECON 3100",
+      "course_code": "ECON 3100",
+      "department": "ECON",
+      "title": "SustainabilityandPublicFinance",
+      "credit_hours": "3",
+      "description": "Topics such as national economic policies, income, wealth and welfare, financial markets and the macroeconomy, central banking, and other issues concerning macroeconomics and money. Topics vary by offering; periodic offering at intervals that may exceed four years. May be repeated for credit with different content. Prerequisites: <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, <a href=\"/search/?p=ECON%202400\" data-action=\"result-detail\" data-group=\"code:ECON 2400\" >ECON 2400</a>, and <a href=\"/search/?p=ECON%202450\" data-action=\"result-detail\" data-group=\"code:ECON 2450\" >ECON 2450</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"ECON 2400\"}, {\"type\": \"course\", \"code\": \"ECON 2450\"}]}",
+      "other_requirements": "PACE students with permission and override. Instructor permission HYBRID COURSE: The course will be delivered half remotely, half in person.",
+      "external": false
+    },
+    {
+      "id": "ECON 4500",
+      "course_code": "ECON 4500",
+      "department": "ECON",
+      "title": "Advanced Economic Analysis",
+      "credit_hours": "3",
+      "description": "Covers advanced methods of empirical economic analysis including limited dependent variables, time series analysis and causal inference methods. Topics include randomized controlled trials, difference-in-differences, instrumental variables, regression discontinuity designs, and frameworks for causal reasoning such as directed acyclic graphs. Emphasis is placed on both theoretical foundations and applied data analysis, with applications to empirical research and policy evaluation. Prerequisite: <a href=\"/search/?p=ECON%202500\" data-action=\"result-detail\" data-group=\"code:ECON 2500\"  class=\"notoffered\">ECON 2500</a> or <a href=\"/search/?p=ECON%203500\" data-action=\"result-detail\" data-group=\"code:ECON 3500\" >ECON 3500</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 2500\"}, {\"type\": \"course\", \"code\": \"ECON 3500\"}]}",
+      "other_requirements": "ECON 3500; PACE students with permission and override. Instructor permission This seminar is dedicated to reading, discussing and writing about academic research in economics. Much of the research we will study involves the formulation and testing of hypotheses using economic data and econometric tools. We will carry out econometric exercises in class. As such, econometrics is a prerequisite for the course. This course is a seminar format. Students should expect to spend 6-8 hours a week on coursework outside of class, with additional time for the semester-long term paper.",
+      "external": false
+    },
+    {
+      "id": "ECON 2450",
+      "course_code": "ECON 2450",
+      "department": "ECON",
+      "title": "Microeconomic Theory",
+      "credit_hours": "3",
+      "description": "Analysis of consumer demand, supply, market price under competitive conditions and monopolistic influences, and the theory of income distribution. Prerequisites: <a href=\"/search/?p=ECON%201400\" data-action=\"result-detail\" data-group=\"code:ECON 1400\" >ECON 1400</a>, <a href=\"/search/?p=ECON%201450\" data-action=\"result-detail\" data-group=\"code:ECON 1450\" >ECON 1450</a>, <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>; or Health &amp; Society major or minor, Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 1400\"}, {\"type\": \"course\", \"code\": \"ECON 1450\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}]}]}",
+      "other_requirements": "Health & Society major or minor, Instructor permission. PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "ECON 2990",
+      "course_code": "ECON 2990",
+      "department": "ECON",
+      "title": "Behavioral Economics",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 1400\"}, {\"type\": \"course\", \"code\": \"ECON 1450\"}]}",
+      "other_requirements": "PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "ECON 4800",
+      "course_code": "ECON 4800",
+      "department": "ECON",
+      "title": "Environmental Economics",
+      "credit_hours": "3",
+      "description": "Explores fundamental issues in the field of environmental economics, such as policy instrument choice, theories of regulation, regulation-competitiveness relationship, and cost-benefit analysis. Includes a substantial writing component. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, <a href=\"/search/?p=ECON%202400\" data-action=\"result-detail\" data-group=\"code:ECON 2400\" >ECON 2400</a>, <a href=\"/search/?p=ECON%202450\" data-action=\"result-detail\" data-group=\"code:ECON 2450\" >ECON 2450</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 2400\"}, {\"type\": \"course\", \"code\": \"ECON 2450\"}]}]}",
+      "other_requirements": "PACE students with permission and override. Requires strong analytic and numerical skills and working knowledge of Excel.",
+      "external": false
+    },
+    {
+      "id": "STAT 1410",
+      "course_code": "STAT 1410",
+      "department": "STAT",
+      "title": "Basic Statistical Methods 1",
+      "credit_hours": "3",
+      "description": "Foundational course for students taking further quantitative courses. Exploratory data analysis, probability distributions, estimation, hypothesis testing. Introductory regression, experimentation, contingency tables, and nonparametrics. Computer software used. Credit not awarded for more than one of STAT 1410 or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Credit not awarded for more than one of STAT 1410 or STAT 2430. Open to Degree and PACE students.",
+      "external": true
     },
     {
       "id": "ECON 4994",
@@ -101,124 +244,14 @@
       "external": false
     },
     {
-      "id": "ECON 4800",
-      "course_code": "ECON 4800",
+      "id": "ECON 2400",
+      "course_code": "ECON 2400",
       "department": "ECON",
-      "title": "Environmental Economics",
+      "title": "Macroeconomic Theory",
       "credit_hours": "3",
-      "description": "Explores fundamental issues in the field of environmental economics, such as policy instrument choice, theories of regulation, regulation-competitiveness relationship, and cost-benefit analysis. Includes a substantial writing component. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, <a href=\"/search/?p=ECON%202400\" data-action=\"result-detail\" data-group=\"code:ECON 2400\" >ECON 2400</a>, <a href=\"/search/?p=ECON%202450\" data-action=\"result-detail\" data-group=\"code:ECON 2450\" >ECON 2450</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 2400\"}, {\"type\": \"course\", \"code\": \"ECON 2450\"}]}]}",
-      "other_requirements": "PACE students with permission and override. Requires strong analytic and numerical skills and working knowledge of Excel.",
-      "external": false
-    },
-    {
-      "id": "ECON 3450",
-      "course_code": "ECON 3450",
-      "department": "ECON",
-      "title": "Advanced Micro Theory",
-      "credit_hours": "3",
-      "description": "Advanced topics in microeconomic theory, including general equilibrium in exchange and production economies; the first and second welfare theorems; choice under risk; information and insurance; and key concepts in game theory with applications to imperfectly competitive market structures and other topics. Prerequisites: <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, <a href=\"/search/?p=ECON%202400\" data-action=\"result-detail\" data-group=\"code:ECON 2400\" >ECON 2400</a>, <a href=\"/search/?p=ECON%202450\" data-action=\"result-detail\" data-group=\"code:ECON 2450\" >ECON 2450</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"ECON 2400\"}, {\"type\": \"course\", \"code\": \"ECON 2450\"}]}",
-      "other_requirements": "Prereqs enforced by the system:STAT 1410,ECON 2400,ECON 2450 This is course covers advanced topics in microeconomic theory. It is a sequel to EC 2450 (i.e. EC 2450 is a pre-requisite. You must take it BEFORe enrolling in this class). Topics covered include a review of the theory of the consumer and producer, general equilibrium in exchange and production economies; the first and second welfare theorems; choice under risk; information and insurance; and key concepts in game theory with applications to imperfectly competitive market structures and other topics. You will be expected to attend class on a regular basis, take notes, and keep up with readings (i.e. the textbook and/or other assigned readings). You should expect to do approximately 2-3 hours of independent study for every hour of class time. While attendance is not taken, students who skip class tend to do very poorly on the tests and homework assignments.",
-      "external": false
-    },
-    {
-      "id": "ECON 2750",
-      "course_code": "ECON 2750",
-      "department": "ECON",
-      "title": "Law and Economics",
-      "credit_hours": "3",
-      "description": "Economic analysis of the law, including property, contracts, torts and criminal law. Covers accident and malpractice compensation, product liability, breach of contract, deterrence of crime. Prerequisites: <a href=\"/search/?p=ECON%201400\" data-action=\"result-detail\" data-group=\"code:ECON 1400\" >ECON 1400</a>, <a href=\"/search/?p=ECON%201450\" data-action=\"result-detail\" data-group=\"code:ECON 1450\" >ECON 1450</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 1400\"}, {\"type\": \"course\", \"code\": \"ECON 1450\"}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "ECON 2450",
-      "course_code": "ECON 2450",
-      "department": "ECON",
-      "title": "Microeconomic Theory",
-      "credit_hours": "3",
-      "description": "Analysis of consumer demand, supply, market price under competitive conditions and monopolistic influences, and the theory of income distribution. Prerequisites: <a href=\"/search/?p=ECON%201400\" data-action=\"result-detail\" data-group=\"code:ECON 1400\" >ECON 1400</a>, <a href=\"/search/?p=ECON%201450\" data-action=\"result-detail\" data-group=\"code:ECON 1450\" >ECON 1450</a>, <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>; or Health &amp; Society major or minor, Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 1400\"}, {\"type\": \"course\", \"code\": \"ECON 1450\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}]}]}",
-      "other_requirements": "Health & Society major or minor, Instructor permission. PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "ECON 4200",
-      "course_code": "ECON 4200",
-      "department": "ECON",
-      "title": "Economics of Education",
-      "credit_hours": "3",
-      "description": "Topics from microeconomics and fields applying it, such as game theory, health economics, environmental economics, the Vermont economy and urban and regional economy, and urban and regional economics. Includes a substantial writing component. Topics vary by offering; periodic offering at intervals that may exceed four years. May be repeated for credit with different content. Prerequisites: <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, <a href=\"/search/?p=ECON%202400\" data-action=\"result-detail\" data-group=\"code:ECON 2400\" >ECON 2400</a>, and <a href=\"/search/?p=ECON%202450\" data-action=\"result-detail\" data-group=\"code:ECON 2450\" >ECON 2450</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"ECON 2400\"}, {\"type\": \"course\", \"code\": \"ECON 2450\"}]}",
-      "other_requirements": "PACE students with permission and override. Instructor permission",
-      "external": false
-    },
-    {
-      "id": "STAT 1410",
-      "course_code": "STAT 1410",
-      "department": "STAT",
-      "title": "Basic Statistical Methods 1",
-      "credit_hours": "3",
-      "description": "Foundational course for students taking further quantitative courses. Exploratory data analysis, probability distributions, estimation, hypothesis testing. Introductory regression, experimentation, contingency tables, and nonparametrics. Computer software used. Credit not awarded for more than one of STAT 1410 or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Credit not awarded for more than one of STAT 1410 or STAT 2430. Open to Degree and PACE students.",
-      "external": true
-    },
-    {
-      "id": "ECON 2993",
-      "course_code": "ECON 2993",
-      "department": "ECON",
-      "title": "IS:Enviro Econ & Policy",
-      "credit_hours": "3",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required. Offered at department discretion.",
-      "external": false
-    },
-    {
-      "id": "MATH 1212",
-      "course_code": "MATH 1212",
-      "department": "MATH",
-      "title": "Fundamentals of Calculus I",
-      "credit_hours": "3",
-      "description": "Introduction to limits and differential/integral calculus with a wide variety of applications. Students interested in intensive use of mathematics should take <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit not awarded for both MATH 1212 and <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>.  See <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201012\" data-action=\"result-detail\" data-group=\"code:MATH 1012\" >MATH 1012</a> or C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a>, or a score of 61 or higher on the placement assessment.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1012\"}, {\"type\": \"course\", \"code\": \"MATH 1034\"}]}",
-      "other_requirements": "C- or better in MATH 1012 or C- or better in MATH 1034, or a score of 61 or higher on the placement assessment. Prereqs enforced by the system: MATH 1012 or MATH 1034 or ALEKS MPA of at least 61; Open to Degree and PACE students",
-      "external": true
-    },
-    {
-      "id": "ECON 4500",
-      "course_code": "ECON 4500",
-      "department": "ECON",
-      "title": "Advanced Economic Analysis",
-      "credit_hours": "3",
-      "description": "Covers advanced methods of empirical economic analysis including limited dependent variables, time series analysis and causal inference methods. Topics include randomized controlled trials, difference-in-differences, instrumental variables, regression discontinuity designs, and frameworks for causal reasoning such as directed acyclic graphs. Emphasis is placed on both theoretical foundations and applied data analysis, with applications to empirical research and policy evaluation. Prerequisite: <a href=\"/search/?p=ECON%202500\" data-action=\"result-detail\" data-group=\"code:ECON 2500\"  class=\"notoffered\">ECON 2500</a> or <a href=\"/search/?p=ECON%203500\" data-action=\"result-detail\" data-group=\"code:ECON 3500\" >ECON 3500</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 2500\"}, {\"type\": \"course\", \"code\": \"ECON 3500\"}]}",
-      "other_requirements": "ECON 3500; PACE students with permission and override. Instructor permission This seminar is dedicated to reading, discussing and writing about academic research in economics. Much of the research we will study involves the formulation and testing of hypotheses using economic data and econometric tools. We will carry out econometric exercises in class. As such, econometrics is a prerequisite for the course. This course is a seminar format. Students should expect to spend 6-8 hours a week on coursework outside of class, with additional time for the semester-long term paper.",
-      "external": false
-    },
-    {
-      "id": "ECON 2210",
-      "course_code": "ECON 2210",
-      "department": "ECON",
-      "title": "Public Policy",
-      "credit_hours": "3",
-      "description": "Revenues and expenditures of federal, state, and local governments and intergovernmental relationships; the effects of expenditures and taxation upon individuals, business institutions, and the national economy. Prerequisites: <a href=\"/search/?p=ECON%201400\" data-action=\"result-detail\" data-group=\"code:ECON 1400\" >ECON 1400</a>, <a href=\"/search/?p=ECON%201450\" data-action=\"result-detail\" data-group=\"code:ECON 1450\" >ECON 1450</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 1400\"}, {\"type\": \"course\", \"code\": \"ECON 1450\"}]}",
+      "description": "Keynesian and other theories of the macroeconomy. Government policies in relation to the problems of employment, price stability, and growth. Prerequisites: <a href=\"/search/?p=ECON%201400\" data-action=\"result-detail\" data-group=\"code:ECON 1400\" >ECON 1400</a>, <a href=\"/search/?p=ECON%201450\" data-action=\"result-detail\" data-group=\"code:ECON 1450\" >ECON 1450</a>; <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 1400\"}, {\"type\": \"course\", \"code\": \"ECON 1450\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}]}",
       "other_requirements": "PACE students with permission and override.",
-      "external": false
-    },
-    {
-      "id": "ECON 3100",
-      "course_code": "ECON 3100",
-      "department": "ECON",
-      "title": "SustainabilityandPublicFinance",
-      "credit_hours": "3",
-      "description": "Topics such as national economic policies, income, wealth and welfare, financial markets and the macroeconomy, central banking, and other issues concerning macroeconomics and money. Topics vary by offering; periodic offering at intervals that may exceed four years. May be repeated for credit with different content. Prerequisites: <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, <a href=\"/search/?p=ECON%202400\" data-action=\"result-detail\" data-group=\"code:ECON 2400\" >ECON 2400</a>, and <a href=\"/search/?p=ECON%202450\" data-action=\"result-detail\" data-group=\"code:ECON 2450\" >ECON 2450</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"ECON 2400\"}, {\"type\": \"course\", \"code\": \"ECON 2450\"}]}",
-      "other_requirements": "PACE students with permission and override. Instructor permission HYBRID COURSE: The course will be delivered half remotely, half in person.",
       "external": false
     },
     {
@@ -233,47 +266,25 @@
       "external": false
     },
     {
-      "id": "ECON 2190",
-      "course_code": "ECON 2190",
+      "id": "ECON 2750",
+      "course_code": "ECON 2750",
       "department": "ECON",
-      "title": "Fed Challenge",
-      "credit_hours": "1",
-      "description": "Provides students with supervision and training to participate in the Fed Challenge, a debate/presentation competition organized by the Federal Reserve Board with a focus on monetary policy. Prerequisite: <a href=\"/search/?p=ECON%202400\" data-action=\"result-detail\" data-group=\"code:ECON 2400\" >ECON 2400</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"ECON 2400\"}",
-      "other_requirements": "Instructor Permission Only",
-      "external": false
-    },
-    {
-      "id": "ECON 2600",
-      "course_code": "ECON 2600",
-      "department": "ECON",
-      "title": "Labor Economics",
+      "title": "Law and Economics",
       "credit_hours": "3",
-      "description": "The economics of work, including wage determination, unemployment, productivity, discrimination, unions, and policy issues. Prerequisites: <a href=\"/search/?p=ECON%201400\" data-action=\"result-detail\" data-group=\"code:ECON 1400\" >ECON 1400</a>, <a href=\"/search/?p=ECON%201450\" data-action=\"result-detail\" data-group=\"code:ECON 1450\" >ECON 1450</a>.",
+      "description": "Economic analysis of the law, including property, contracts, torts and criminal law. Covers accident and malpractice compensation, product liability, breach of contract, deterrence of crime. Prerequisites: <a href=\"/search/?p=ECON%201400\" data-action=\"result-detail\" data-group=\"code:ECON 1400\" >ECON 1400</a>, <a href=\"/search/?p=ECON%201450\" data-action=\"result-detail\" data-group=\"code:ECON 1450\" >ECON 1450</a>.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 1400\"}, {\"type\": \"course\", \"code\": \"ECON 1450\"}]}",
-      "other_requirements": "PACE students with permission and override.",
+      "other_requirements": "PACE students with permission and override",
       "external": false
     },
     {
-      "id": "ECON 1010",
-      "course_code": "ECON 1010",
+      "id": "ECON 3450",
+      "course_code": "ECON 3450",
       "department": "ECON",
-      "title": "FYS:Econ Risky Health Behavior",
+      "title": "Advanced Micro Theory",
       "credit_hours": "3",
-      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "ECON 4996",
-      "course_code": "ECON 4996",
-      "department": "ECON",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "description": "Advanced topics in microeconomic theory, including general equilibrium in exchange and production economies; the first and second welfare theorems; choice under risk; information and insurance; and key concepts in game theory with applications to imperfectly competitive market structures and other topics. Prerequisites: <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, <a href=\"/search/?p=ECON%202400\" data-action=\"result-detail\" data-group=\"code:ECON 2400\" >ECON 2400</a>, <a href=\"/search/?p=ECON%202450\" data-action=\"result-detail\" data-group=\"code:ECON 2450\" >ECON 2450</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"ECON 2400\"}, {\"type\": \"course\", \"code\": \"ECON 2450\"}]}",
+      "other_requirements": "Prereqs enforced by the system:STAT 1410,ECON 2400,ECON 2450 This is course covers advanced topics in microeconomic theory. It is a sequel to EC 2450 (i.e. EC 2450 is a pre-requisite. You must take it BEFORe enrolling in this class). Topics covered include a review of the theory of the consumer and producer, general equilibrium in exchange and production economies; the first and second welfare theorems; choice under risk; information and insurance; and key concepts in game theory with applications to imperfectly competitive market structures and other topics. You will be expected to attend class on a regular basis, take notes, and keep up with readings (i.e. the textbook and/or other assigned readings). You should expect to do approximately 2-3 hours of independent study for every hour of class time. While attendance is not taken, students who skip class tend to do very poorly on the tests and homework assignments.",
       "external": false
     },
     {
@@ -288,17 +299,6 @@
       "external": false
     },
     {
-      "id": "ECON 2510",
-      "course_code": "ECON 2510",
-      "department": "ECON",
-      "title": "Using Data for Economic Policy",
-      "credit_hours": "3",
-      "description": "How to locate, use, and present economic data to understand economic issues, problems, and policy, and integrate data into written and oral presentations. Prerequisites: <a href=\"/search/?p=ECON%201400\" data-action=\"result-detail\" data-group=\"code:ECON 1400\" >ECON 1400</a>, <a href=\"/search/?p=ECON%201450\" data-action=\"result-detail\" data-group=\"code:ECON 1450\" >ECON 1450</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 1400\"}, {\"type\": \"course\", \"code\": \"ECON 1450\"}]}",
-      "other_requirements": "PACE students with permission and override. This course assumes a basic working knowledge of Excel, Word, and standard web navigation. In Excel, students should already know how to perform basic mathematical operations, sort data, cut, copy, and paste, create and edit basic charts and graphs, and adjust formatting in spreadsheets and graphs. In Word, students should be able to create and format a document and insert and format tables and graphs within it.",
-      "external": false
-    },
-    {
       "id": "MATH 1234",
       "course_code": "MATH 1234",
       "department": "MATH",
@@ -310,219 +310,264 @@
       "external": true
     },
     {
-      "id": "ECON 1200",
-      "course_code": "ECON 1200",
+      "id": "ECON 2600",
+      "course_code": "ECON 2600",
       "department": "ECON",
-      "title": "Experimental Economics",
+      "title": "Labor Economics",
       "credit_hours": "3",
-      "description": "Representative topics: policy issues and debates such as social welfare programs, health policy, energy and climate policy, minimum wage, housing and zoning laws, education policy, poverty alleviation and discrimination, and regulations and institutions more broadly. Examines the role of government interventions and how incentives shape individual consumer and firm behavior under different market structures. For students from any discipline.  Topics vary by offering; periodic offering at intervals that may exceed four years.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "ECON 4990",
-      "course_code": "ECON 4990",
-      "department": "ECON",
-      "title": "Machine Learning for Economic",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 2400\"}, {\"type\": \"course\", \"code\": \"ECON 2450\"}]}, {\"type\": \"course\", \"code\": \"STAT 1410\"}]}",
-      "other_requirements": "See Schedule of Courses for specific titles.",
-      "external": false
-    },
-    {
-      "id": "ECON 2400",
-      "course_code": "ECON 2400",
-      "department": "ECON",
-      "title": "Macroeconomic Theory",
-      "credit_hours": "3",
-      "description": "Keynesian and other theories of the macroeconomy. Government policies in relation to the problems of employment, price stability, and growth. Prerequisites: <a href=\"/search/?p=ECON%201400\" data-action=\"result-detail\" data-group=\"code:ECON 1400\" >ECON 1400</a>, <a href=\"/search/?p=ECON%201450\" data-action=\"result-detail\" data-group=\"code:ECON 1450\" >ECON 1450</a>; <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 1400\"}, {\"type\": \"course\", \"code\": \"ECON 1450\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}]}",
+      "description": "The economics of work, including wage determination, unemployment, productivity, discrimination, unions, and policy issues. Prerequisites: <a href=\"/search/?p=ECON%201400\" data-action=\"result-detail\" data-group=\"code:ECON 1400\" >ECON 1400</a>, <a href=\"/search/?p=ECON%201450\" data-action=\"result-detail\" data-group=\"code:ECON 1450\" >ECON 1450</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECON 1400\"}, {\"type\": \"course\", \"code\": \"ECON 1450\"}]}",
       "other_requirements": "PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "ECON 4200",
+      "course_code": "ECON 4200",
+      "department": "ECON",
+      "title": "Economics of Education",
+      "credit_hours": "3",
+      "description": "Topics from microeconomics and fields applying it, such as game theory, health economics, environmental economics, the Vermont economy and urban and regional economy, and urban and regional economics. Includes a substantial writing component. Topics vary by offering; periodic offering at intervals that may exceed four years. May be repeated for credit with different content. Prerequisites: <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a>, <a href=\"/search/?p=ECON%202400\" data-action=\"result-detail\" data-group=\"code:ECON 2400\" >ECON 2400</a>, and <a href=\"/search/?p=ECON%202450\" data-action=\"result-detail\" data-group=\"code:ECON 2450\" >ECON 2450</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"ECON 2400\"}, {\"type\": \"course\", \"code\": \"ECON 2450\"}]}",
+      "other_requirements": "PACE students with permission and override. Instructor permission",
+      "external": false
+    },
+    {
+      "id": "ECON 1023",
+      "course_code": "ECON 1023",
+      "department": "ECON",
+      "title": "LASP:EconomicsofClimateChange",
+      "credit_hours": "3",
+      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences). Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program.",
+      "prereq_expression": null,
+      "other_requirements": "Enrollment in the appropriate Liberal Arts Scholars Program. LASP students only. Earth & Environment Scholars only. Instructor Permission.",
       "external": false
     }
   ],
   "edges": [
     {
       "source": "ECON 1400",
-      "target": "ECON 2210"
+      "target": "ECON 2210",
+      "group": null
     },
     {
       "source": "ECON 1400",
-      "target": "ECON 2240"
+      "target": "ECON 2240",
+      "group": null
     },
     {
       "source": "ECON 1400",
-      "target": "ECON 2400"
+      "target": "ECON 2400",
+      "group": null
     },
     {
       "source": "ECON 1400",
-      "target": "ECON 2450"
+      "target": "ECON 2450",
+      "group": "ECON 2450__g0"
     },
     {
       "source": "ECON 1400",
-      "target": "ECON 2510"
+      "target": "ECON 2510",
+      "group": null
     },
     {
       "source": "ECON 1400",
-      "target": "ECON 2600"
+      "target": "ECON 2600",
+      "group": null
     },
     {
       "source": "ECON 1400",
-      "target": "ECON 2700"
+      "target": "ECON 2700",
+      "group": null
     },
     {
       "source": "ECON 1400",
-      "target": "ECON 2750"
+      "target": "ECON 2750",
+      "group": null
     },
     {
       "source": "ECON 1400",
-      "target": "ECON 2990"
+      "target": "ECON 2990",
+      "group": null
     },
     {
       "source": "ECON 1450",
-      "target": "ECON 2210"
+      "target": "ECON 2210",
+      "group": null
     },
     {
       "source": "ECON 1450",
-      "target": "ECON 2240"
+      "target": "ECON 2240",
+      "group": null
     },
     {
       "source": "ECON 1450",
-      "target": "ECON 2400"
+      "target": "ECON 2400",
+      "group": null
     },
     {
       "source": "ECON 1450",
-      "target": "ECON 2450"
+      "target": "ECON 2450",
+      "group": "ECON 2450__g0"
     },
     {
       "source": "ECON 1450",
-      "target": "ECON 2510"
+      "target": "ECON 2510",
+      "group": null
     },
     {
       "source": "ECON 1450",
-      "target": "ECON 2600"
+      "target": "ECON 2600",
+      "group": null
     },
     {
       "source": "ECON 1450",
-      "target": "ECON 2700"
+      "target": "ECON 2700",
+      "group": null
     },
     {
       "source": "ECON 1450",
-      "target": "ECON 2750"
+      "target": "ECON 2750",
+      "group": null
     },
     {
       "source": "ECON 1450",
-      "target": "ECON 2990"
+      "target": "ECON 2990",
+      "group": null
     },
     {
       "source": "ECON 2400",
-      "target": "ECON 2190"
+      "target": "ECON 2190",
+      "group": null
     },
     {
       "source": "ECON 2400",
-      "target": "ECON 3100"
+      "target": "ECON 3100",
+      "group": null
     },
     {
       "source": "ECON 2400",
-      "target": "ECON 3450"
+      "target": "ECON 3450",
+      "group": null
     },
     {
       "source": "ECON 2400",
-      "target": "ECON 3500"
+      "target": "ECON 3500",
+      "group": null
     },
     {
       "source": "ECON 2400",
-      "target": "ECON 4200"
+      "target": "ECON 4200",
+      "group": null
     },
     {
       "source": "ECON 2400",
-      "target": "ECON 4800"
+      "target": "ECON 4800",
+      "group": null
     },
     {
       "source": "ECON 2400",
-      "target": "ECON 4850"
+      "target": "ECON 4850",
+      "group": null
     },
     {
       "source": "ECON 2400",
-      "target": "ECON 4990"
+      "target": "ECON 4990",
+      "group": null
     },
     {
       "source": "ECON 2450",
-      "target": "ECON 3100"
+      "target": "ECON 3100",
+      "group": null
     },
     {
       "source": "ECON 2450",
-      "target": "ECON 3450"
+      "target": "ECON 3450",
+      "group": null
     },
     {
       "source": "ECON 2450",
-      "target": "ECON 3500"
+      "target": "ECON 3500",
+      "group": null
     },
     {
       "source": "ECON 2450",
-      "target": "ECON 4200"
+      "target": "ECON 4200",
+      "group": null
     },
     {
       "source": "ECON 2450",
-      "target": "ECON 4800"
+      "target": "ECON 4800",
+      "group": null
     },
     {
       "source": "ECON 2450",
-      "target": "ECON 4850"
+      "target": "ECON 4850",
+      "group": null
     },
     {
       "source": "ECON 2450",
-      "target": "ECON 4990"
+      "target": "ECON 4990",
+      "group": null
     },
     {
       "source": "ECON 3500",
-      "target": "ECON 4500"
+      "target": "ECON 4500",
+      "group": "ECON 4500__g0"
     },
     {
       "source": "MATH 1212",
-      "target": "ECON 2400"
+      "target": "ECON 2400",
+      "group": "ECON 2400__g0"
     },
     {
       "source": "MATH 1212",
-      "target": "ECON 2450"
+      "target": "ECON 2450",
+      "group": "ECON 2450__g0"
     },
     {
       "source": "MATH 1234",
-      "target": "ECON 2400"
+      "target": "ECON 2400",
+      "group": "ECON 2400__g0"
     },
     {
       "source": "MATH 1234",
-      "target": "ECON 2450"
+      "target": "ECON 2450",
+      "group": "ECON 2450__g0"
     },
     {
       "source": "STAT 1410",
-      "target": "ECON 3100"
+      "target": "ECON 3100",
+      "group": null
     },
     {
       "source": "STAT 1410",
-      "target": "ECON 3450"
+      "target": "ECON 3450",
+      "group": null
     },
     {
       "source": "STAT 1410",
-      "target": "ECON 3500"
+      "target": "ECON 3500",
+      "group": null
     },
     {
       "source": "STAT 1410",
-      "target": "ECON 4200"
+      "target": "ECON 4200",
+      "group": null
     },
     {
       "source": "STAT 1410",
-      "target": "ECON 4800"
+      "target": "ECON 4800",
+      "group": null
     },
     {
       "source": "STAT 1410",
-      "target": "ECON 4850"
+      "target": "ECON 4850",
+      "group": null
     },
     {
       "source": "STAT 1410",
-      "target": "ECON 4990"
+      "target": "ECON 4990",
+      "group": null
     }
   ]
 }

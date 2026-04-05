@@ -2,14 +2,14 @@
   "department": "ENGR",
   "nodes": [
     {
-      "id": "ENGR 1020",
-      "course_code": "ENGR 1020",
+      "id": "ENGR 2140",
+      "course_code": "ENGR 2140",
       "department": "ENGR",
-      "title": "Graphical Communication",
-      "credit_hours": "2",
-      "description": "Project-based course. Principles of computer-aided drafting/design; production of engineering drawings including: orthographic, auxiliary, section, pictorials and dimensioning, graphics and charts; applications in specific engineering disciplines.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "title": "Advanced 3D Drafting",
+      "credit_hours": "3",
+      "description": "Creation of geometric solid representations of physical objects using three dimensional CAD. Introduces parametric design; analysis tools; assembly simulation; dimension methods &amp; standards; tolerances &amp; geometric tolerancing. Further addresses the design for manufacturing of machined parts; sheet metal; mold design. Prerequisite: <a href=\"/search/?p=ENGR%201020\" data-action=\"result-detail\" data-group=\"code:ENGR 1020\" >ENGR 1020</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ENGR 1020\"}, {\"type\": \"other\", \"description\": \"Instructor permission\"}]}",
+      "other_requirements": "Open to degree and PACE students",
       "external": false
     },
     {
@@ -24,25 +24,27 @@
       "external": false
     },
     {
-      "id": "ENGR 2140",
-      "course_code": "ENGR 2140",
+      "id": "ENGR 1020",
+      "course_code": "ENGR 1020",
       "department": "ENGR",
-      "title": "Advanced 3D Drafting",
-      "credit_hours": "3",
-      "description": "Creation of geometric solid representations of physical objects using three dimensional CAD. Introduces parametric design; analysis tools; assembly simulation; dimension methods &amp; standards; tolerances &amp; geometric tolerancing. Further addresses the design for manufacturing of machined parts; sheet metal; mold design. Prerequisite: <a href=\"/search/?p=ENGR%201020\" data-action=\"result-detail\" data-group=\"code:ENGR 1020\" >ENGR 1020</a> or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ENGR 1020\"}, {\"type\": \"other\", \"description\": \"Instructor permission\"}]}",
-      "other_requirements": "Open to degree and PACE students",
+      "title": "Graphical Communication",
+      "credit_hours": "2",
+      "description": "Project-based course. Principles of computer-aided drafting/design; production of engineering drawings including: orthographic, auxiliary, section, pictorials and dimensioning, graphics and charts; applications in specific engineering disciplines.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     }
   ],
   "edges": [
     {
       "source": "ENGR 1020",
-      "target": "ENGR 2120"
+      "target": "ENGR 2120",
+      "group": "ENGR 2120__g0"
     },
     {
       "source": "ENGR 1020",
-      "target": "ENGR 2140"
+      "target": "ENGR 2140",
+      "group": "ENGR 2140__g0"
     }
   ]
 }

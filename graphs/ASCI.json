@@ -2,14 +2,124 @@
   "department": "ASCI",
   "nodes": [
     {
-      "id": "ASCI 3300",
-      "course_code": "ASCI 3300",
+      "id": "ASCI 3030",
+      "course_code": "ASCI 3030",
       "department": "ASCI",
-      "title": "CREAM Advising",
-      "credit_hours": "4",
-      "description": "Augments learning acquired during previous CREAM experience; students provide technical, logistical, organizational support to the current group of CREAM students. Prerequisite: <a href=\"/search/?p=ASCI%202300\" data-action=\"result-detail\" data-group=\"code:ASCI 2300\"  class=\"notoffered\">ASCI 2300</a> or <a href=\"/search/?p=ASCI%202310\" data-action=\"result-detail\" data-group=\"code:ASCI 2310\" >ASCI 2310</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2300\"}, {\"type\": \"course\", \"code\": \"ASCI 2310\"}]}",
-      "other_requirements": "Instructor Permission required; Open to degree and PACE students",
+      "title": "CL:Applied Animal Behavior",
+      "credit_hours": "3",
+      "description": "Uses a scientific approach to answer fundamental questions about animal behavior such as how and why animals behave a particular way; primarily taught from an applied perspective using knowledge to investigate and solve practical, real-world problems. Students will learn how to observe and record behavior and apply this knowledge to a semester-long project. Broad areas of behavior including communication, feeding and social behavior will also be explored. Prerequisite: <a href=\"/search/?p=ASCI%202130\" data-action=\"result-detail\" data-group=\"code:ASCI 2130\"  class=\"notoffered\">ASCI 2130</a>. Pre/Co-requisites: <a href=\"/search/?p=ASCI%201990\" data-action=\"result-detail\" data-group=\"code:ASCI 1990\" >ASCI 1990</a> recommended when the topic is research skills.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2130\"}, {\"type\": \"course\", \"code\": \"ASCI 1990\"}]}",
+      "other_requirements": "instructor permission. ASCI 1990 Introduction to Research Skills is a suggested pre-requisite for this class. Students are responsible for their own transportation.",
+      "external": false
+    },
+    {
+      "id": "ASCI 3995",
+      "course_code": "ASCI 3995",
+      "department": "ASCI",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor Permission required",
+      "external": false
+    },
+    {
+      "id": "ASCI 3150",
+      "course_code": "ASCI 3150",
+      "department": "ASCI",
+      "title": "Physiology of Reproduction",
+      "credit_hours": "3",
+      "description": "Fundamental principles of the physiology of reproduction with emphasis on, but not limited to, farm animals. Prerequisite: <a href=\"/search/?p=ASCI%202110\" data-action=\"result-detail\" data-group=\"code:ASCI 2110\"  class=\"notoffered\">ASCI 2110</a>, <a href=\"/search/?p=ASCI%202120\" data-action=\"result-detail\" data-group=\"code:ASCI 2120\" >ASCI 2120</a>; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2110\"}, {\"type\": \"course\", \"code\": \"ASCI 2120\"}]}, {\"type\": \"course\", \"code\": \"ASCI 2105\"}]}",
+      "other_requirements": "Instructor permission",
+      "external": false
+    },
+    {
+      "id": "ASCI 2600",
+      "course_code": "ASCI 2600",
+      "department": "ASCI",
+      "title": "Zoos, Exotics & Endang Species",
+      "credit_hours": "3",
+      "description": "From gorillas to golden lion tamarinds, how human attitudes, activities, utilization, and management strategies impact wild and captive animal populations. Prerequisites: <a href=\"/search/?p=ASCI%201000\" data-action=\"result-detail\" data-group=\"code:ASCI 1000\" >ASCI 1000</a>; <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 1000\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}]}]}",
+      "other_requirements": "Prereqs enforced by the system",
+      "external": false
+    },
+    {
+      "id": "ASCI 2330",
+      "course_code": "ASCI 2330",
+      "department": "ASCI",
+      "title": "Winter Dairy Travel Course",
+      "credit_hours": "1",
+      "description": "An extended field trip to a variety of dairy farms and dairy related businesses in the Northeast with students and faculty from other New England land grant institutions including UCONN, UNH, UMASS Amherst, URI, and UMaine. Offered over winter break, a different area is visited annually. Prerequisite: <a href=\"/search/?p=ASCI%201000\" data-action=\"result-detail\" data-group=\"code:ASCI 1000\" >ASCI 1000</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"ASCI 1000\"}",
+      "other_requirements": "PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "ASCI 2490",
+      "course_code": "ASCI 2490",
+      "department": "ASCI",
+      "title": "Equine Practicum",
+      "credit_hours": "2",
+      "description": "Geared towards students with little to no horse experience, focuses on hands-on skills at both the UVM Horse Barn and the UVM Morgan Horse Farm. Students will meet weekly at the UVM Horse Barn to gain experience with haltering, grooming, leading, lunging, and assessing horses. Includes learning how to identify horses, disciplines, and physical condition. Prerequisite: <a href=\"/search/?p=ASCI%201000\" data-action=\"result-detail\" data-group=\"code:ASCI 1000\" >ASCI 1000</a> or <a href=\"/search/?p=ASCI%201400\" data-action=\"result-detail\" data-group=\"code:ASCI 1400\" >ASCI 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 1000\"}, {\"type\": \"course\", \"code\": \"ASCI 1400\"}]}",
+      "other_requirements": "Open to degree and PACE students. Some Saturday meetings TBD. Students will be responsible for their own transportation to and from the farm.",
+      "external": false
+    },
+    {
+      "id": "ASCI 2995",
+      "course_code": "ASCI 2995",
+      "department": "ASCI",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisites: Junior standing; Department Chair permission.",
+      "prereq_expression": null,
+      "other_requirements": "Junior standing; Department Chair permission. Instructor Permission required",
+      "external": false
+    },
+    {
+      "id": "ASCI 3280",
+      "course_code": "ASCI 3280",
+      "department": "ASCI",
+      "title": "Clin Topics:Livestock Medicine",
+      "credit_hours": "3",
+      "description": "An advanced study of diseases in cattle, sheep, goats, and pigs, emphasizing disease detection, pathobiology, treatment and prevention. Prerequisites: <a href=\"/search/?p=ASCI%202180\" data-action=\"result-detail\" data-group=\"code:ASCI 2180\"  class=\"notoffered\">ASCI 2180</a>, <a href=\"/search/?p=ASCI%202110\" data-action=\"result-detail\" data-group=\"code:ASCI 2110\" >ASCI 2110</a>, <a href=\"/search/?p=ASCI%202120\" data-action=\"result-detail\" data-group=\"code:ASCI 2120\"  class=\"notoffered\">ASCI 2120</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2180\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2105\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2110\"}, {\"type\": \"course\", \"code\": \"ASCI 2120\"}]}]}]}",
+      "other_requirements": "Junior standing and Instructor Permission Required",
+      "external": false
+    },
+    {
+      "id": "ASCI 1090",
+      "course_code": "ASCI 1090",
+      "department": "ASCI",
+      "title": "One Health: an Exploration",
+      "credit_hours": "3",
+      "description": "Explores the interconnection of human, animal, and environmental health, covering topics like pollution, zoonoses, and comparative medicine. Examines the science behind these issues and what can be done about them and the role of other factors such as economics, culture, and the skills needed to tackle them.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ASCI 1040",
+      "course_code": "ASCI 1040",
+      "department": "ASCI",
+      "title": "Intro to Animal Nutrition",
+      "credit_hours": "3",
+      "description": "Comprehensive study of specific nutrients in terms of their digestion, availability, function, and utilization in animals.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ASCI 1450",
+      "course_code": "ASCI 1450",
+      "department": "ASCI",
+      "title": "Horse Barn Cooperative",
+      "credit_hours": "1",
+      "description": "Develops skills in the practical aspects of equine management of individual horses and horses maintained in a group setting using hands-on experiences and peer teaching. Students care for their own horse or an Animal Science horse. Prerequisites: For students currently accepted into the UVM Horse Barn Cooperative Program or currently enrolled in <a href=\"/search/?p=ASCI%202400\" data-action=\"result-detail\" data-group=\"code:ASCI 2400\" >ASCI 2400</a>; Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2400\"}, {\"type\": \"other_requirement\", \"value\": \"UVM Horse Barn Cooperative Program acceptance\"}]}",
+      "other_requirements": "Instructor permission",
       "external": false
     },
     {
@@ -24,69 +134,14 @@
       "external": false
     },
     {
-      "id": "ASCI 2160",
-      "course_code": "ASCI 2160",
+      "id": "ASCI 2480",
+      "course_code": "ASCI 2480",
       "department": "ASCI",
-      "title": "Animal Genetics",
+      "title": "Horse Health and Disease",
       "credit_hours": "3",
-      "description": "The study of DNA with an emphasis in genetics of animal species, included but not limited to livestock and companion animals. Topics include patterns of inheritance, molecular genetics, gene regulation, biotechnology, genomics, population and quantitative genetics. Prerequisite: <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}",
-      "other_requirements": "Prereqs enforced by the system:BIOL 1400orBIOL 1450orBCOR 1450orBCOR 1425orBCOR 1400; Open to degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "CHEM 1100",
-      "course_code": "CHEM 1100",
-      "department": "CHEM",
-      "title": "Outline: General Chem w/lab",
-      "credit_hours": "4",
-      "description": "One-semester survey of principles and concepts of general chemistry, topics covered include bonding, mole ratios, equilibrium, and nuclear chemistry. Credit not awarded for both CHEM 1100 and <a href=\"/search/?p=CHEM%201102\" data-action=\"result-detail\" data-group=\"code:CHEM 1102\" >CHEM 1102</a>, <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, or <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Credit not awarded for both CHEM 1100 and CHEM 1102, CHEM 1400, or CHEM 1405. $60 fee for lab supplies; Colocated with CHEM 1102A; Must register for CHEM 1100 lab L01-L07; Non-CAS, non - BSAD students only; Open to degree and PACE students.",
-      "external": true
-    },
-    {
-      "id": "ASCI 1500",
-      "course_code": "ASCI 1500",
-      "department": "ASCI",
-      "title": "Intro to the Cat and Dog",
-      "credit_hours": "3",
-      "description": "This is a whirlwind tour of the science of our best friends - the cat and dog! Students will learn about different aspects of our most popular companion species, such as their history, biology, behavior, and health.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "ASCI 2300",
-      "course_code": "ASCI 2300",
-      "department": "ASCI",
-      "title": "CREAM 1",
-      "credit_hours": "4",
-      "description": "The first of a two-course sequence. Students perform the work and make the financial and management decisions associated with the CREAM dairy herd. Prerequisites: <a href=\"/search/?p=ASCI%201000\" data-action=\"result-detail\" data-group=\"code:ASCI 1000\" >ASCI 1000</a> or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 1000\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
-      "other_requirements": "Instructor permission required; PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "ASCI 3160",
-      "course_code": "ASCI 3160",
-      "department": "ASCI",
-      "title": "Bovine Reproduction Workshop",
-      "credit_hours": "1",
-      "description": "Laboratory for fundamental principles of the physiology of reproduction with emphasis on, but not limited to, farm animals. Must be taken concurrently with <a href=\"/search/?p=ASCI%203150\" data-action=\"result-detail\" data-group=\"code:ASCI 3150\" >ASCI 3150</a>. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=ASCI%202110\" data-action=\"result-detail\" data-group=\"code:ASCI 2110\"  class=\"notoffered\">ASCI 2110</a>, <a href=\"/search/?p=ASCI%202120\" data-action=\"result-detail\" data-group=\"code:ASCI 2120\" >ASCI 2120</a>; or Instructor permission. Co-requisite: <a href=\"/search/?p=ASCI%203150\" data-action=\"result-detail\" data-group=\"code:ASCI 3150\" >ASCI 3150</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2110\"}, {\"type\": \"course\", \"code\": \"ASCI 2120\"}]}, {\"type\": \"course\", \"code\": \"ASCI 2105\"}]}",
-      "other_requirements": "Instructor permission. Co-requisite: ASCI 3150. Instructor Permission Required. Pre- and Post-Online work, (spring break dates TBD- 2 days), 8 am 3 pm both days; for the course such as readings, info session, and a debriefing will occur. Transportation provided from Miller farm leaving at 8 am to Kayhart dairy in W Addison VT returning no later than 3pm both days. Students must provide their own coveralls and boots but learning materials will be provided. Course Fee: $165. Open to Degree and PACE students. This is a 2 day course over spring break. Students must attend two consecutive days the week of spring break (exact dates TBD). This course occurs at an off campus farm (transportation provided) both days from ~8-4 pm. Students will meet at the Miller Farm to then head off campus. Attend 2 day off campus workshop over spring break to complete Artificial Insemination training through GENEX.",
-      "external": false
-    },
-    {
-      "id": "ASCI 1100",
-      "course_code": "ASCI 1100",
-      "department": "ASCI",
-      "title": "The World of Working Animals",
-      "credit_hours": "3",
-      "description": "Explores the diversity of working animals including many lesser known animals such as landmine-sniffing Gambian pouched rats and military marine mammals, the people with which they work, the context of their job, the human-animal bonds that are formed, and some of the challenges faced.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "description": "After an introduction to equine anatomy and physiology, students are presented with common diseases and their corresponding description, cause, clinical signs, diagnosis, treatment, prognosis and prevention. Weekly small-group case studies highlight core principles. Optional hands-on opportunities at UVM Horse Barn. Prerequisite: <a href=\"/search/?p=ASCI%201000\" data-action=\"result-detail\" data-group=\"code:ASCI 1000\" >ASCI 1000</a> or <a href=\"/search/?p=ASCI%201400\" data-action=\"result-detail\" data-group=\"code:ASCI 1400\" >ASCI 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 1000\"}, {\"type\": \"course\", \"code\": \"ASCI 1400\"}]}",
+      "other_requirements": "Prereqs enforced by the system: Open to degree and PACE students",
       "external": false
     },
     {
@@ -98,28 +153,6 @@
       "description": "Discusses the principles of meeting the nutrient requirements of animals, including an introduction to feedstuffs, animal metabolism and feed formulation for domestic or captive vertebrate animals. Prerequisites: <a href=\"/search/?p=ASCI%201040\" data-action=\"result-detail\" data-group=\"code:ASCI 1040\" >ASCI 1040</a>, <a href=\"/search/?p=ASCI%202110\" data-action=\"result-detail\" data-group=\"code:ASCI 2110\"  class=\"notoffered\">ASCI 2110</a>; or Instructor permission. Pre/co-requisite: <a href=\"/search/?p=ASCI%202120\" data-action=\"result-detail\" data-group=\"code:ASCI 2120\" >ASCI 2120</a>.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 1040\"}, {\"type\": \"course\", \"code\": \"ASCI 2110\"}]}, {\"type\": \"course\", \"code\": \"ASCI 2120\"}]}]}",
       "other_requirements": "Instructor permission. Must register for a lab L01-L04. Open to Degree and PACE students.",
-      "external": false
-    },
-    {
-      "id": "ASCI 3030",
-      "course_code": "ASCI 3030",
-      "department": "ASCI",
-      "title": "CL:Applied Animal Behavior",
-      "credit_hours": "3",
-      "description": "Uses a scientific approach to answer fundamental questions about animal behavior such as how and why animals behave a particular way; primarily taught from an applied perspective using knowledge to investigate and solve practical, real-world problems. Students will learn how to observe and record behavior and apply this knowledge to a semester-long project. Broad areas of behavior including communication, feeding and social behavior will also be explored. Prerequisite: <a href=\"/search/?p=ASCI%202130\" data-action=\"result-detail\" data-group=\"code:ASCI 2130\"  class=\"notoffered\">ASCI 2130</a>. Pre/Co-requisites: <a href=\"/search/?p=ASCI%201990\" data-action=\"result-detail\" data-group=\"code:ASCI 1990\" >ASCI 1990</a> recommended when the topic is research skills.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2130\"}, {\"type\": \"course\", \"code\": \"ASCI 1990\"}]}",
-      "other_requirements": "instructor permission. ASCI 1990 Introduction to Research Skills is a suggested pre-requisite for this class. Students are responsible for their own transportation.",
-      "external": false
-    },
-    {
-      "id": "ASCI 2330",
-      "course_code": "ASCI 2330",
-      "department": "ASCI",
-      "title": "Winter Dairy Travel Course",
-      "credit_hours": "1",
-      "description": "An extended field trip to a variety of dairy farms and dairy related businesses in the Northeast with students and faculty from other New England land grant institutions including UCONN, UNH, UMASS Amherst, URI, and UMaine. Offered over winter break, a different area is visited annually. Prerequisite: <a href=\"/search/?p=ASCI%201000\" data-action=\"result-detail\" data-group=\"code:ASCI 1000\" >ASCI 1000</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"ASCI 1000\"}",
-      "other_requirements": "PACE students by permission and override.",
       "external": false
     },
     {
@@ -145,201 +178,14 @@
       "external": false
     },
     {
-      "id": "BIOL 1450",
-      "course_code": "BIOL 1450",
-      "department": "BIOL",
-      "title": "Principles of Biology 2",
-      "credit_hours": "4",
-      "description": "Principles of organismal biology; nature of scientific inquiry, plant form and function, pollination ecology, animal phylogeny illustrated by comparative anatomy and physiology; animal behavior. Credit not awarded for both BIOL 1450 and <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>.",
-      "prereq_expression": null,
-      "other_requirements": "ASCI, BIOL, BISC, MGEN, MICR, NEUR, PBIO, ZOOL majors should register for BCOR 1450; Degree students only even after level restrictions removed; Post Bac Pre med students register for BIOL 1450",
-      "external": true
-    },
-    {
-      "id": "ASCI 1000",
-      "course_code": "ASCI 1000",
+      "id": "ASCI 3450",
+      "course_code": "ASCI 3450",
       "department": "ASCI",
-      "title": "Introductory Animal Sciences",
-      "credit_hours": "3",
-      "description": "An overview of the genetics, nutrition, reproduction, and management of livestock and recreation species; introduction to animal behavior, animal disease, and biotechnology. Prerequisite: Animal Science major, minor, or Instructor permission.",
-      "prereq_expression": null,
-      "other_requirements": "Animal Science major, minor, or Instructor permission. Must register for an ASCI 1000 lab; ASCI first-year students only; Materials fee: $51; One mandatory Wed seminar",
-      "external": false
-    },
-    {
-      "id": "BIOL 1400",
-      "course_code": "BIOL 1400",
-      "department": "BIOL",
-      "title": "Principles of Biology 1",
-      "credit_hours": "4",
-      "description": "Principles of cellular biochemistry; cell biology; genetics and evolution. Topics: biochemistry; metabolism, cell structure/function; respiration; photosynthesis; molecular, Mendelian and population genetics; genetics of evolution. Credit not awarded for both BIOL 1400 and <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Credit not awarded for both BIOL 1400 and BCOR 1400 or BCOR 1425. Must register for a BIOL 1400 lab; Lab supply fee: $30; Degree students only even after level restrictions removed; Post Bac Pre Med & PACE students register for BIOL 1400 ZRA Colocated with BIOL 1400 ZRA",
-      "external": true
-    },
-    {
-      "id": "ASCI 2994",
-      "course_code": "ASCI 2994",
-      "department": "ASCI",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor Permission required; Offered for 1-3 variable PACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "ASCI 2600",
-      "course_code": "ASCI 2600",
-      "department": "ASCI",
-      "title": "Zoos, Exotics & Endang Species",
-      "credit_hours": "3",
-      "description": "From gorillas to golden lion tamarinds, how human attitudes, activities, utilization, and management strategies impact wild and captive animal populations. Prerequisites: <a href=\"/search/?p=ASCI%201000\" data-action=\"result-detail\" data-group=\"code:ASCI 1000\" >ASCI 1000</a>; <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 1000\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}]}]}",
-      "other_requirements": "Prereqs enforced by the system",
-      "external": false
-    },
-    {
-      "id": "ASCI 3150",
-      "course_code": "ASCI 3150",
-      "department": "ASCI",
-      "title": "Physiology of Reproduction",
-      "credit_hours": "3",
-      "description": "Fundamental principles of the physiology of reproduction with emphasis on, but not limited to, farm animals. Prerequisite: <a href=\"/search/?p=ASCI%202110\" data-action=\"result-detail\" data-group=\"code:ASCI 2110\"  class=\"notoffered\">ASCI 2110</a>, <a href=\"/search/?p=ASCI%202120\" data-action=\"result-detail\" data-group=\"code:ASCI 2120\" >ASCI 2120</a>; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2110\"}, {\"type\": \"course\", \"code\": \"ASCI 2120\"}]}, {\"type\": \"course\", \"code\": \"ASCI 2105\"}]}",
-      "other_requirements": "Instructor permission",
-      "external": false
-    },
-    {
-      "id": "ASCI 4996",
-      "course_code": "ASCI 4996",
-      "department": "ASCI",
-      "title": "Honors",
+      "title": "Equine Mgmt and Programming",
       "credit_hours": "1 to 6",
-      "description": "Honors course.",
+      "description": "Designed for the leadership groups in the Hardacre Equine Center. Students who are on the Horse Barn Executive Committee, Equus Advisors, and Dressage Team Captains are required to participate. Topics include equine nutrition, farm management, equine health and wellness, pasture management, equine equipment management and selection, and biosecurity protocols. Depending on the student's role there are additional horse care, teaching, and student management responsibilities. Prerequisite: Instructor permission.",
       "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "ASCI 2993",
-      "course_code": "ASCI 2993",
-      "department": "ASCI",
-      "title": "Independent Study",
-      "credit_hours": "1 to 18",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor Permission required. Offered at department discretion.",
-      "external": false
-    },
-    {
-      "id": "ASCI 2180",
-      "course_code": "ASCI 2180",
-      "department": "ASCI",
-      "title": "Appl Animal Health",
-      "credit_hours": "3",
-      "description": "A study of small and large domestic animal diseases. Natural response to disease, methods of diagnosis, control, and treatment. Prerequisite: <a href=\"/search/?p=ASCI%201000\" data-action=\"result-detail\" data-group=\"code:ASCI 1000\" >ASCI 1000</a>, a Biology course, or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 1000\"}, {\"type\": \"course\", \"code\": \"Biology\"}]}",
-      "other_requirements": "Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "ASCI 2470",
-      "course_code": "ASCI 2470",
-      "department": "ASCI",
-      "title": "Equine Enterprise Management",
-      "credit_hours": "3",
-      "description": "Provides guidelines for understanding risks, liabilities and other pertinent topics necessary for running a successful equine-related business. Prerequisite: <a href=\"/search/?p=ASCI%201000\" data-action=\"result-detail\" data-group=\"code:ASCI 1000\" >ASCI 1000</a> or <a href=\"/search/?p=ASCI%201400\" data-action=\"result-detail\" data-group=\"code:ASCI 1400\" >ASCI 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 1000\"}, {\"type\": \"course\", \"code\": \"ASCI 1400\"}]}",
-      "other_requirements": "Instructor permission",
-      "external": false
-    },
-    {
-      "id": "ASCI 1510",
-      "course_code": "ASCI 1510",
-      "department": "ASCI",
-      "title": "Understanding & Speaking Dog",
-      "credit_hours": "3",
-      "description": "With dogs as a model, explores the impact of genetic modification and selection, neonatal to adult development of the brain, the science of how the brain learns, human involvement and its impact, and the factual language of dogs. Prerequisite: Animal Science major or minor, Psychological Science major.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI\"}, {\"type\": \"course\", \"code\": \"PSYC\"}]}",
-      "other_requirements": "Animal Science major or minor, Psychological Science major. The ability to be near live demo dogs is required. Open to Degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "ASCI 3600",
-      "course_code": "ASCI 3600",
-      "department": "ASCI",
-      "title": "Advanced Zoo Topics",
-      "credit_hours": "3",
-      "description": "An exploration of modern zoo philosophy and ethics and the extent of human intervention necessary for the preservation of endangered species. Prerequisites: <a href=\"/search/?p=ASCI%202600\" data-action=\"result-detail\" data-group=\"code:ASCI 2600\" >ASCI 2600</a> or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2600\"}, {\"type\": \"other\", \"value\": \"Instructor permission\"}]}",
-      "other_requirements": "Prereqs enforced by the system:ASCI 2600;\nOpen to degree and PACE students;\nFee: $200.00",
-      "external": false
-    },
-    {
-      "id": "ASCI 3490",
-      "course_code": "ASCI 3490",
-      "department": "ASCI",
-      "title": "Lameness in Horses",
-      "credit_hours": "4",
-      "description": "Focuses on normal equine anatomy related to movement and what happens when horses are injured. Students learn common causes of lameness, as well as how to diagnose, treat, and prevent those causes. Labs are hands-on with horses. Prerequisites: <a href=\"/search/?p=ASCI%202480\" data-action=\"result-detail\" data-group=\"code:ASCI 2480\"  class=\"notoffered\">ASCI 2480</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2480\"}, {\"type\": \"other\", \"description\": \"instructor permission\"}]}",
-      "other_requirements": "Online work before Lec/Lab is required. Open to Degree and PACE Students",
-      "external": false
-    },
-    {
-      "id": "ASCI 3991",
-      "course_code": "ASCI 3991",
-      "department": "ASCI",
-      "title": "Internship",
-      "credit_hours": "1 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor Permission required. Requires a faculty mentor and chair approval. Open to degree and PACE students.",
-      "external": false
-    },
-    {
-      "id": "ASCI 3355",
-      "course_code": "ASCI 3355",
-      "department": "ASCI",
-      "title": "Advanced Dairy Management",
-      "credit_hours": "15",
-      "description": "An intensive, residential program at the Miner Institute providing an in-depth experiential program in the management of the dairy herd. Prerequisite: Junior standing or Farms 2+2 enrollment.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"JUNIOR STANDING\"}, {\"type\": \"course\", \"code\": \"FARMS 2+2\"}]}",
-      "other_requirements": "Meets at WH Miner Agricultural Institute in Chazy, NY;",
-      "external": false
-    },
-    {
-      "id": "ASCI 2110",
-      "course_code": "ASCI 2110",
-      "department": "ASCI",
-      "title": "Animal Anatomy",
-      "credit_hours": "4",
-      "description": "A comprehensive study of anatomical structure of vertebrate animals with emphasis on domestic animals. Taught from a systemic anatomy approach and incorporating microscopic and developmental anatomy, comparative vertebrate anatomy, and applied/clinical anatomy. Some physiology will be introduced to reinforce the link between structure and function. Prerequisites: <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>; <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\" >CHEM 1100</a> or <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1400\"}]}]}",
-      "other_requirements": "Must register for a lab: A01 - A05; or Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "ASCI 2480",
-      "course_code": "ASCI 2480",
-      "department": "ASCI",
-      "title": "Horse Health and Disease",
-      "credit_hours": "3",
-      "description": "After an introduction to equine anatomy and physiology, students are presented with common diseases and their corresponding description, cause, clinical signs, diagnosis, treatment, prognosis and prevention. Weekly small-group case studies highlight core principles. Optional hands-on opportunities at UVM Horse Barn. Prerequisite: <a href=\"/search/?p=ASCI%201000\" data-action=\"result-detail\" data-group=\"code:ASCI 1000\" >ASCI 1000</a> or <a href=\"/search/?p=ASCI%201400\" data-action=\"result-detail\" data-group=\"code:ASCI 1400\" >ASCI 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 1000\"}, {\"type\": \"course\", \"code\": \"ASCI 1400\"}]}",
-      "other_requirements": "Prereqs enforced by the system: Open to degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "ASCI 3470",
-      "course_code": "ASCI 3470",
-      "department": "ASCI",
-      "title": "Equine Industry Issues",
-      "credit_hours": "3",
-      "description": "Case-based course enhances students' abilities to integrate information, use logical thought processes, and produce concise, organized solutions to real problems, from individual horses to industry-wide. Prerequisites: <a href=\"/search/?p=ASCI%202470\" data-action=\"result-detail\" data-group=\"code:ASCI 2470\"  class=\"notoffered\">ASCI 2470</a>, <a href=\"/search/?p=ASCI%202400\" data-action=\"result-detail\" data-group=\"code:ASCI 2400\" >ASCI 2400</a>, <a href=\"/search/?p=ASCI%202130\" data-action=\"result-detail\" data-group=\"code:ASCI 2130\" >ASCI 2130</a>, or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2470\"}, {\"type\": \"course\", \"code\": \"ASCI 2400\"}, {\"type\": \"course\", \"code\": \"ASCI 2130\"}]}",
-      "other_requirements": "Instructor permission",
+      "other_requirements": "Instructor permission. Students who are on the Horse Barn Executive Committee, Equus Advisors, and Dressage Team Captains are required to participate.",
       "external": false
     },
     {
@@ -354,39 +200,6 @@
       "external": false
     },
     {
-      "id": "ASCI 3995",
-      "course_code": "ASCI 3995",
-      "department": "ASCI",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor Permission required",
-      "external": false
-    },
-    {
-      "id": "ASCI 1991",
-      "course_code": "ASCI 1991",
-      "department": "ASCI",
-      "title": "Internship",
-      "credit_hours": "1 to 3",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required. Learning contract must be done before add drop. Please plan ahead! Please contact ASCI.INT@uvm.edu for overrides. PACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "ASCI 2995",
-      "course_code": "ASCI 2995",
-      "department": "ASCI",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisites: Junior standing; Department Chair permission.",
-      "prereq_expression": null,
-      "other_requirements": "Junior standing; Department Chair permission. Instructor Permission required",
-      "external": false
-    },
-    {
       "id": "BCOR 1425",
       "course_code": "BCOR 1425",
       "department": "BCOR",
@@ -398,58 +211,47 @@
       "external": true
     },
     {
-      "id": "ASCI 3450",
-      "course_code": "ASCI 3450",
+      "id": "ASCI 3470",
+      "course_code": "ASCI 3470",
       "department": "ASCI",
-      "title": "Equine Mgmt and Programming",
-      "credit_hours": "1 to 6",
-      "description": "Designed for the leadership groups in the Hardacre Equine Center. Students who are on the Horse Barn Executive Committee, Equus Advisors, and Dressage Team Captains are required to participate. Topics include equine nutrition, farm management, equine health and wellness, pasture management, equine equipment management and selection, and biosecurity protocols. Depending on the student's role there are additional horse care, teaching, and student management responsibilities. Prerequisite: Instructor permission.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission. Students who are on the Horse Barn Executive Committee, Equus Advisors, and Dressage Team Captains are required to participate.",
+      "title": "Equine Industry Issues",
+      "credit_hours": "3",
+      "description": "Case-based course enhances students' abilities to integrate information, use logical thought processes, and produce concise, organized solutions to real problems, from individual horses to industry-wide. Prerequisites: <a href=\"/search/?p=ASCI%202470\" data-action=\"result-detail\" data-group=\"code:ASCI 2470\"  class=\"notoffered\">ASCI 2470</a>, <a href=\"/search/?p=ASCI%202400\" data-action=\"result-detail\" data-group=\"code:ASCI 2400\" >ASCI 2400</a>, <a href=\"/search/?p=ASCI%202130\" data-action=\"result-detail\" data-group=\"code:ASCI 2130\" >ASCI 2130</a>, or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2470\"}, {\"type\": \"course\", \"code\": \"ASCI 2400\"}, {\"type\": \"course\", \"code\": \"ASCI 2130\"}]}",
+      "other_requirements": "Instructor permission",
       "external": false
     },
     {
-      "id": "ANPS 1190",
-      "course_code": "ANPS 1190",
-      "department": "ANPS",
-      "title": "Ugr Hum Anatomy & Physiology 1",
+      "id": "ASCI 3480",
+      "course_code": "ASCI 3480",
+      "department": "ASCI",
+      "title": "Clin Topics Equine Med & Surg",
+      "credit_hours": "3",
+      "description": "Students work through medical and surgical cases from chief complaint to treatment, prognosis and prevention. Diagnostic techniques and treatment options prioritized. Hands-on opportunities include physical, orthopedic, and neurologic exams, as well as field trips to local equine facilities and the UVM Morgan Horse Farm. Prerequisite: <a href=\"/search/?p=ASCI%202480\" data-action=\"result-detail\" data-group=\"code:ASCI 2480\" >ASCI 2480</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"ASCI 2480\"}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CHEM 1100",
+      "course_code": "CHEM 1100",
+      "department": "CHEM",
+      "title": "Outline: General Chem w/lab",
       "credit_hours": "4",
-      "description": "Part I of two-semester course sequence. Structure and function of human body.",
+      "description": "One-semester survey of principles and concepts of general chemistry, topics covered include bonding, mole ratios, equilibrium, and nuclear chemistry. Credit not awarded for both CHEM 1100 and <a href=\"/search/?p=CHEM%201102\" data-action=\"result-detail\" data-group=\"code:CHEM 1102\" >CHEM 1102</a>, <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, or <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>.",
       "prereq_expression": null,
-      "other_requirements": "Prereg limited to: BMCS, BIOM, CSD, EMS, EXSC, HSCI, MLS, MRS, NFS, NMT, PE, PHS, PRNU majors only. Degree students only even after major restrictions lifted.",
+      "other_requirements": "Credit not awarded for both CHEM 1100 and CHEM 1102, CHEM 1400, or CHEM 1405. $60 fee for lab supplies; Colocated with CHEM 1102A; Must register for CHEM 1100 lab L01-L07; Non-CAS, non - BSAD students only; Open to degree and PACE students.",
       "external": true
     },
     {
-      "id": "ASCI 3180",
-      "course_code": "ASCI 3180",
+      "id": "ASCI 2130",
+      "course_code": "ASCI 2130",
       "department": "ASCI",
-      "title": "Endocrinology",
+      "title": "Animals in Soc/Animal Welfare",
       "credit_hours": "3",
-      "description": "Physiology of endocrine and autocrine/paracrine systems and growth factors. Prerequisites: <a href=\"/search/?p=ASCI%202120\" data-action=\"result-detail\" data-group=\"code:ASCI 2120\"  class=\"notoffered\">ASCI 2120</a>; <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a> and <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a> and <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a> and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, or <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> and <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2120\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}]}]}",
-      "other_requirements": "Prereqs enforced by the system. Open to degree and PACE students. This upper level course is for students with good background in biology, physiology, and anatomy.",
-      "external": false
-    },
-    {
-      "id": "ASCI 2120",
-      "course_code": "ASCI 2120",
-      "department": "ASCI",
-      "title": "General Physiology",
-      "credit_hours": "3",
-      "description": "A comprehensive review of the physiology of mammalian animals. Prerequisites: <a href=\"/search/?p=ASCI%202110\" data-action=\"result-detail\" data-group=\"code:ASCI 2110\"  class=\"notoffered\">ASCI 2110</a>, or <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\"  class=\"notoffered\">ANPS 1190</a> and <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\" >ANPS 1200</a>; <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\"  class=\"notoffered\">BIOL 1400</a>, or <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\"  class=\"notoffered\">BCOR 1400</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2110\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}]}]}",
-      "other_requirements": "iClicker is required for all students to be used for in class practice. Students are expected to read the assigned materials of anatomy of each system prior to class time and take a prelecture quiz using Blackboard (counts 5% of your final points). You should also read it thoroughly after the lecture and outline the material from the book. Taking exams provides a valuable opportunity to review material you have learned in class and to examine the depth with which you understand concepts. Studying for exams can involve a lot of memorization. Take home assignments are the \u201ctest yourself\u201d questions in your text book covered in each lecture. You do not need to turn the assignments in, but regularly, some exam questions will be directly taken from those questions. No cell phone should be used during class and exams. Personal computer may be used during lectures at the last rows of classroom. For students who take exams at the Exam Proctoring Center, please book your times overlapped with the class exam times unless they are not possible with acceptable reasons.",
-      "external": false
-    },
-    {
-      "id": "ASCI 1090",
-      "course_code": "ASCI 1090",
-      "department": "ASCI",
-      "title": "One Health: an Exploration",
-      "credit_hours": "3",
-      "description": "Explores the interconnection of human, animal, and environmental health, covering topics like pollution, zoonoses, and comparative medicine. Examines the science behind these issues and what can be done about them and the role of other factors such as economics, culture, and the skills needed to tackle them.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "description": "Designed to heighten awareness and understanding of human-animal relationships in society, agriculture, and science. Pre/Co-requisites: <a href=\"/search/?p=ASCI%201000\" data-action=\"result-detail\" data-group=\"code:ASCI 1000\" >ASCI 1000</a>, <a href=\"/search/?p=ASCI%201400\" data-action=\"result-detail\" data-group=\"code:ASCI 1400\" >ASCI 1400</a>, or <a href=\"/search/?p=ASCI%201500\" data-action=\"result-detail\" data-group=\"code:ASCI 1500\"  class=\"notoffered\">ASCI 1500</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 1000\"}, {\"type\": \"course\", \"code\": \"ASCI 1400\"}, {\"type\": \"course\", \"code\": \"ASCI 1500\"}]}",
+      "other_requirements": "Sophomore standing or above; or instructor permission, ASCI majors and minors",
       "external": false
     },
     {
@@ -464,12 +266,111 @@
       "external": false
     },
     {
-      "id": "ASCI 1990",
-      "course_code": "ASCI 1990",
+      "id": "ASCI 2470",
+      "course_code": "ASCI 2470",
       "department": "ASCI",
-      "title": "Intro to Dairy Management",
+      "title": "Equine Enterprise Management",
       "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
+      "description": "Provides guidelines for understanding risks, liabilities and other pertinent topics necessary for running a successful equine-related business. Prerequisite: <a href=\"/search/?p=ASCI%201000\" data-action=\"result-detail\" data-group=\"code:ASCI 1000\" >ASCI 1000</a> or <a href=\"/search/?p=ASCI%201400\" data-action=\"result-detail\" data-group=\"code:ASCI 1400\" >ASCI 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 1000\"}, {\"type\": \"course\", \"code\": \"ASCI 1400\"}]}",
+      "other_requirements": "Instructor permission",
+      "external": false
+    },
+    {
+      "id": "ASCI 2180",
+      "course_code": "ASCI 2180",
+      "department": "ASCI",
+      "title": "Appl Animal Health",
+      "credit_hours": "3",
+      "description": "A study of small and large domestic animal diseases. Natural response to disease, methods of diagnosis, control, and treatment. Prerequisite: <a href=\"/search/?p=ASCI%201000\" data-action=\"result-detail\" data-group=\"code:ASCI 1000\" >ASCI 1000</a>, a Biology course, or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 1000\"}, {\"type\": \"course\", \"code\": \"Biology\"}]}",
+      "other_requirements": "Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "ASCI 1510",
+      "course_code": "ASCI 1510",
+      "department": "ASCI",
+      "title": "Understanding & Speaking Dog",
+      "credit_hours": "3",
+      "description": "With dogs as a model, explores the impact of genetic modification and selection, neonatal to adult development of the brain, the science of how the brain learns, human involvement and its impact, and the factual language of dogs. Prerequisite: Animal Science major or minor, Psychological Science major.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI\"}, {\"type\": \"course\", \"code\": \"PSYC\"}]}",
+      "other_requirements": "Animal Science major or minor, Psychological Science major. The ability to be near live demo dogs is required. Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "ASCI 2991",
+      "course_code": "ASCI 2991",
+      "department": "ASCI",
+      "title": "Int:Morgan HorseFarmInternship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Prerequisite: Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission. Instructor permission Required. Learning contact must be in before add drop. Please plan ahead! Please contact ASCI.INT@uvm.edu for overrides",
+      "external": false
+    },
+    {
+      "id": "ASCI 1000",
+      "course_code": "ASCI 1000",
+      "department": "ASCI",
+      "title": "Introductory Animal Sciences",
+      "credit_hours": "3",
+      "description": "An overview of the genetics, nutrition, reproduction, and management of livestock and recreation species; introduction to animal behavior, animal disease, and biotechnology. Prerequisite: Animal Science major, minor, or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Animal Science major, minor, or Instructor permission. Must register for an ASCI 1000 lab; ASCI first-year students only; Materials fee: $51; One mandatory Wed seminar",
+      "external": false
+    },
+    {
+      "id": "ASCI 1100",
+      "course_code": "ASCI 1100",
+      "department": "ASCI",
+      "title": "The World of Working Animals",
+      "credit_hours": "3",
+      "description": "Explores the diversity of working animals including many lesser known animals such as landmine-sniffing Gambian pouched rats and military marine mammals, the people with which they work, the context of their job, the human-animal bonds that are formed, and some of the challenges faced.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ASCI 2300",
+      "course_code": "ASCI 2300",
+      "department": "ASCI",
+      "title": "CREAM 1",
+      "credit_hours": "4",
+      "description": "The first of a two-course sequence. Students perform the work and make the financial and management decisions associated with the CREAM dairy herd. Prerequisites: <a href=\"/search/?p=ASCI%201000\" data-action=\"result-detail\" data-group=\"code:ASCI 1000\" >ASCI 1000</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 1000\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
+      "other_requirements": "Instructor permission required; PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "ASCI 3600",
+      "course_code": "ASCI 3600",
+      "department": "ASCI",
+      "title": "Advanced Zoo Topics",
+      "credit_hours": "3",
+      "description": "An exploration of modern zoo philosophy and ethics and the extent of human intervention necessary for the preservation of endangered species. Prerequisites: <a href=\"/search/?p=ASCI%202600\" data-action=\"result-detail\" data-group=\"code:ASCI 2600\" >ASCI 2600</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2600\"}, {\"type\": \"other\", \"value\": \"Instructor permission\"}]}",
+      "other_requirements": "Prereqs enforced by the system:ASCI 2600;\nOpen to degree and PACE students;\nFee: $200.00",
+      "external": false
+    },
+    {
+      "id": "ASCI 3180",
+      "course_code": "ASCI 3180",
+      "department": "ASCI",
+      "title": "Endocrinology",
+      "credit_hours": "3",
+      "description": "Physiology of endocrine and autocrine/paracrine systems and growth factors. Prerequisites: <a href=\"/search/?p=ASCI%202120\" data-action=\"result-detail\" data-group=\"code:ASCI 2120\"  class=\"notoffered\">ASCI 2120</a>; <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a> and <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a> and <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a> and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, or <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> and <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2120\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}]}]}",
+      "other_requirements": "Prereqs enforced by the system. Open to degree and PACE students. This upper level course is for students with good background in biology, physiology, and anatomy.",
+      "external": false
+    },
+    {
+      "id": "ASCI 4996",
+      "course_code": "ASCI 4996",
+      "department": "ASCI",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "Honors course.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -486,14 +387,69 @@
       "external": true
     },
     {
-      "id": "ASCI 2490",
-      "course_code": "ASCI 2490",
+      "id": "ASCI 2160",
+      "course_code": "ASCI 2160",
       "department": "ASCI",
-      "title": "Equine Practicum",
-      "credit_hours": "2",
-      "description": "Geared towards students with little to no horse experience, focuses on hands-on skills at both the UVM Horse Barn and the UVM Morgan Horse Farm. Students will meet weekly at the UVM Horse Barn to gain experience with haltering, grooming, leading, lunging, and assessing horses. Includes learning how to identify horses, disciplines, and physical condition. Prerequisite: <a href=\"/search/?p=ASCI%201000\" data-action=\"result-detail\" data-group=\"code:ASCI 1000\" >ASCI 1000</a> or <a href=\"/search/?p=ASCI%201400\" data-action=\"result-detail\" data-group=\"code:ASCI 1400\" >ASCI 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 1000\"}, {\"type\": \"course\", \"code\": \"ASCI 1400\"}]}",
-      "other_requirements": "Open to degree and PACE students. Some Saturday meetings TBD. Students will be responsible for their own transportation to and from the farm.",
+      "title": "Animal Genetics",
+      "credit_hours": "3",
+      "description": "The study of DNA with an emphasis in genetics of animal species, included but not limited to livestock and companion animals. Topics include patterns of inheritance, molecular genetics, gene regulation, biotechnology, genomics, population and quantitative genetics. Prerequisite: <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}",
+      "other_requirements": "Prereqs enforced by the system:BIOL 1400orBIOL 1450orBCOR 1450orBCOR 1425orBCOR 1400; Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "ASCI 2110",
+      "course_code": "ASCI 2110",
+      "department": "ASCI",
+      "title": "Animal Anatomy",
+      "credit_hours": "4",
+      "description": "A comprehensive study of anatomical structure of vertebrate animals with emphasis on domestic animals. Taught from a systemic anatomy approach and incorporating microscopic and developmental anatomy, comparative vertebrate anatomy, and applied/clinical anatomy. Some physiology will be introduced to reinforce the link between structure and function. Prerequisites: <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>; <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\" >CHEM 1100</a> or <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1400\"}]}]}",
+      "other_requirements": "Must register for a lab: A01 - A05; or Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "ASCI 2993",
+      "course_code": "ASCI 2993",
+      "department": "ASCI",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor Permission required. Offered at department discretion.",
+      "external": false
+    },
+    {
+      "id": "ASCI 3991",
+      "course_code": "ASCI 3991",
+      "department": "ASCI",
+      "title": "Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor Permission required. Requires a faculty mentor and chair approval. Open to degree and PACE students.",
+      "external": false
+    },
+    {
+      "id": "ASCI 3160",
+      "course_code": "ASCI 3160",
+      "department": "ASCI",
+      "title": "Bovine Reproduction Workshop",
+      "credit_hours": "1",
+      "description": "Laboratory for fundamental principles of the physiology of reproduction with emphasis on, but not limited to, farm animals. Must be taken concurrently with <a href=\"/search/?p=ASCI%203150\" data-action=\"result-detail\" data-group=\"code:ASCI 3150\" >ASCI 3150</a>. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=ASCI%202110\" data-action=\"result-detail\" data-group=\"code:ASCI 2110\"  class=\"notoffered\">ASCI 2110</a>, <a href=\"/search/?p=ASCI%202120\" data-action=\"result-detail\" data-group=\"code:ASCI 2120\" >ASCI 2120</a>; or Instructor permission. Co-requisite: <a href=\"/search/?p=ASCI%203150\" data-action=\"result-detail\" data-group=\"code:ASCI 3150\" >ASCI 3150</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2110\"}, {\"type\": \"course\", \"code\": \"ASCI 2120\"}]}, {\"type\": \"course\", \"code\": \"ASCI 2105\"}]}",
+      "other_requirements": "Instructor permission. Co-requisite: ASCI 3150. Instructor Permission Required. Pre- and Post-Online work, (spring break dates TBD- 2 days), 8 am 3 pm both days; for the course such as readings, info session, and a debriefing will occur. Transportation provided from Miller farm leaving at 8 am to Kayhart dairy in W Addison VT returning no later than 3pm both days. Students must provide their own coveralls and boots but learning materials will be provided. Course Fee: $165. Open to Degree and PACE students. This is a 2 day course over spring break. Students must attend two consecutive days the week of spring break (exact dates TBD). This course occurs at an off campus farm (transportation provided) both days from ~8-4 pm. Students will meet at the Miller Farm to then head off campus. Attend 2 day off campus workshop over spring break to complete Artificial Insemination training through GENEX.",
+      "external": false
+    },
+    {
+      "id": "ASCI 1990",
+      "course_code": "ASCI 1990",
+      "department": "ASCI",
+      "title": "Intro to Dairy Management",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     },
     {
@@ -508,17 +464,6 @@
       "external": false
     },
     {
-      "id": "ASCI 2130",
-      "course_code": "ASCI 2130",
-      "department": "ASCI",
-      "title": "Animals in Soc/Animal Welfare",
-      "credit_hours": "3",
-      "description": "Designed to heighten awareness and understanding of human-animal relationships in society, agriculture, and science. Pre/Co-requisites: <a href=\"/search/?p=ASCI%201000\" data-action=\"result-detail\" data-group=\"code:ASCI 1000\" >ASCI 1000</a>, <a href=\"/search/?p=ASCI%201400\" data-action=\"result-detail\" data-group=\"code:ASCI 1400\" >ASCI 1400</a>, or <a href=\"/search/?p=ASCI%201500\" data-action=\"result-detail\" data-group=\"code:ASCI 1500\"  class=\"notoffered\">ASCI 1500</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 1000\"}, {\"type\": \"course\", \"code\": \"ASCI 1400\"}, {\"type\": \"course\", \"code\": \"ASCI 1500\"}]}",
-      "other_requirements": "Sophomore standing or above; or instructor permission, ASCI majors and minors",
-      "external": false
-    },
-    {
       "id": "ASCI 2310",
       "course_code": "ASCI 2310",
       "department": "ASCI",
@@ -530,80 +475,47 @@
       "external": false
     },
     {
-      "id": "BCOR 1450",
-      "course_code": "BCOR 1450",
-      "department": "BCOR",
-      "title": "Exploring Biology 2",
-      "credit_hours": "4",
-      "description": "An evolutionary perspective to exploring biology. Topics include: patterns of inheritance, Darwinian evolution, evolution of biodiversity, ecology of organisms, human effects on biological systems. Credit not awarded for both BCOR 1450 and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "ASCI 1450",
-      "course_code": "ASCI 1450",
+      "id": "ASCI 2994",
+      "course_code": "ASCI 2994",
       "department": "ASCI",
-      "title": "Horse Barn Cooperative",
-      "credit_hours": "1",
-      "description": "Develops skills in the practical aspects of equine management of individual horses and horses maintained in a group setting using hands-on experiences and peer teaching. Students care for their own horse or an Animal Science horse. Prerequisites: For students currently accepted into the UVM Horse Barn Cooperative Program or currently enrolled in <a href=\"/search/?p=ASCI%202400\" data-action=\"result-detail\" data-group=\"code:ASCI 2400\" >ASCI 2400</a>; Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2400\"}, {\"type\": \"other_requirement\", \"value\": \"UVM Horse Barn Cooperative Program acceptance\"}]}",
-      "other_requirements": "Instructor permission",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor Permission required; Offered for 1-3 variable PACE students by permission and override",
       "external": false
     },
     {
-      "id": "BCOR 1400",
-      "course_code": "BCOR 1400",
-      "department": "BCOR",
-      "title": "Exploring Biology 1",
+      "id": "BIOL 1450",
+      "course_code": "BIOL 1450",
+      "department": "BIOL",
+      "title": "Principles of Biology 2",
       "credit_hours": "4",
-      "description": "Exploring biology from cells to organisms.  Topics include origins of life, ancestral organisms, uni- and multi- cellular energetics, evolution of respiration and metabolism, and the genetic code. Credit not awarded for both BCOR 1400 and <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
+      "description": "Principles of organismal biology; nature of scientific inquiry, plant form and function, pollination ecology, animal phylogeny illustrated by comparative anatomy and physiology; animal behavior. Credit not awarded for both BIOL 1450 and <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>.",
       "prereq_expression": null,
-      "other_requirements": null,
+      "other_requirements": "ASCI, BIOL, BISC, MGEN, MICR, NEUR, PBIO, ZOOL majors should register for BCOR 1450; Degree students only even after level restrictions removed; Post Bac Pre med students register for BIOL 1450",
       "external": true
     },
     {
-      "id": "ANPS 1200",
-      "course_code": "ANPS 1200",
-      "department": "ANPS",
-      "title": "Ugr Hum Anatomy & Physiology 2",
-      "credit_hours": "4",
-      "description": "Part II of two-semester course sequence. Structure and function of human body. Prerequisite: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\"  class=\"notoffered\">ANPS 1190</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"ANPS 1190\"}",
-      "other_requirements": "Common hour exams are held 5:30-7:00pm on these Mondays: 2/9, 3/2, and 4/6. BIOM,CSD,DIET,DNFS,EXSC,HSCI,MLS,NFS, PE, PHS, MRS, PRNU; Majors only until Dec. 2nd, Please contact Patrick Mullen (patrick.c.mullen@uvm.edu) with any questions; Class meets 3x a week with online lab comprising 4th credit; Degree students only even after level restrictions removed; PACE students register for ANPS 1200 ZRA; Prereq enforced by the system:ANPS 1190.",
-      "external": true
-    },
-    {
-      "id": "ASCI 3480",
-      "course_code": "ASCI 3480",
+      "id": "ASCI 1500",
+      "course_code": "ASCI 1500",
       "department": "ASCI",
-      "title": "Clin Topics Equine Med & Surg",
+      "title": "Intro to the Cat and Dog",
       "credit_hours": "3",
-      "description": "Students work through medical and surgical cases from chief complaint to treatment, prognosis and prevention. Diagnostic techniques and treatment options prioritized. Hands-on opportunities include physical, orthopedic, and neurologic exams, as well as field trips to local equine facilities and the UVM Morgan Horse Farm. Prerequisite: <a href=\"/search/?p=ASCI%202480\" data-action=\"result-detail\" data-group=\"code:ASCI 2480\" >ASCI 2480</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"ASCI 2480\"}",
+      "description": "This is a whirlwind tour of the science of our best friends - the cat and dog! Students will learn about different aspects of our most popular companion species, such as their history, biology, behavior, and health.",
+      "prereq_expression": null,
       "other_requirements": null,
       "external": false
     },
     {
-      "id": "ASCI 2991",
-      "course_code": "ASCI 2991",
+      "id": "ASCI 3355",
+      "course_code": "ASCI 3355",
       "department": "ASCI",
-      "title": "Int:Morgan HorseFarmInternship",
-      "credit_hours": "1 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Prerequisite: Instructor permission.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission. Instructor permission Required. Learning contact must be in before add drop. Please plan ahead! Please contact ASCI.INT@uvm.edu for overrides",
-      "external": false
-    },
-    {
-      "id": "ASCI 3280",
-      "course_code": "ASCI 3280",
-      "department": "ASCI",
-      "title": "Clin Topics:Livestock Medicine",
-      "credit_hours": "3",
-      "description": "An advanced study of diseases in cattle, sheep, goats, and pigs, emphasizing disease detection, pathobiology, treatment and prevention. Prerequisites: <a href=\"/search/?p=ASCI%202180\" data-action=\"result-detail\" data-group=\"code:ASCI 2180\"  class=\"notoffered\">ASCI 2180</a>, <a href=\"/search/?p=ASCI%202110\" data-action=\"result-detail\" data-group=\"code:ASCI 2110\" >ASCI 2110</a>, <a href=\"/search/?p=ASCI%202120\" data-action=\"result-detail\" data-group=\"code:ASCI 2120\"  class=\"notoffered\">ASCI 2120</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2180\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2105\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2110\"}, {\"type\": \"course\", \"code\": \"ASCI 2120\"}]}]}]}",
-      "other_requirements": "Junior standing and Instructor Permission Required",
+      "title": "Advanced Dairy Management",
+      "credit_hours": "15",
+      "description": "An intensive, residential program at the Miner Institute providing an in-depth experiential program in the management of the dairy herd. Prerequisite: Junior standing or Farms 2+2 enrollment.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"JUNIOR STANDING\"}, {\"type\": \"course\", \"code\": \"FARMS 2+2\"}]}",
+      "other_requirements": "Meets at WH Miner Agricultural Institute in Chazy, NY;",
       "external": false
     },
     {
@@ -618,269 +530,420 @@
       "external": false
     },
     {
-      "id": "ASCI 1040",
-      "course_code": "ASCI 1040",
+      "id": "ANPS 1190",
+      "course_code": "ANPS 1190",
+      "department": "ANPS",
+      "title": "Ugr Hum Anatomy & Physiology 1",
+      "credit_hours": "4",
+      "description": "Part I of two-semester course sequence. Structure and function of human body.",
+      "prereq_expression": null,
+      "other_requirements": "Prereg limited to: BMCS, BIOM, CSD, EMS, EXSC, HSCI, MLS, MRS, NFS, NMT, PE, PHS, PRNU majors only. Degree students only even after major restrictions lifted.",
+      "external": true
+    },
+    {
+      "id": "ASCI 2120",
+      "course_code": "ASCI 2120",
       "department": "ASCI",
-      "title": "Intro to Animal Nutrition",
+      "title": "General Physiology",
       "credit_hours": "3",
-      "description": "Comprehensive study of specific nutrients in terms of their digestion, availability, function, and utilization in animals.",
+      "description": "A comprehensive review of the physiology of mammalian animals. Prerequisites: <a href=\"/search/?p=ASCI%202110\" data-action=\"result-detail\" data-group=\"code:ASCI 2110\"  class=\"notoffered\">ASCI 2110</a>, or <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\"  class=\"notoffered\">ANPS 1190</a> and <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\" >ANPS 1200</a>; <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\"  class=\"notoffered\">BIOL 1400</a>, or <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\"  class=\"notoffered\">BCOR 1400</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2110\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}]}]}",
+      "other_requirements": "iClicker is required for all students to be used for in class practice. Students are expected to read the assigned materials of anatomy of each system prior to class time and take a prelecture quiz using Blackboard (counts 5% of your final points). You should also read it thoroughly after the lecture and outline the material from the book. Taking exams provides a valuable opportunity to review material you have learned in class and to examine the depth with which you understand concepts. Studying for exams can involve a lot of memorization. Take home assignments are the \u201ctest yourself\u201d questions in your text book covered in each lecture. You do not need to turn the assignments in, but regularly, some exam questions will be directly taken from those questions. No cell phone should be used during class and exams. Personal computer may be used during lectures at the last rows of classroom. For students who take exams at the Exam Proctoring Center, please book your times overlapped with the class exam times unless they are not possible with acceptable reasons.",
+      "external": false
+    },
+    {
+      "id": "BIOL 1400",
+      "course_code": "BIOL 1400",
+      "department": "BIOL",
+      "title": "Principles of Biology 1",
+      "credit_hours": "4",
+      "description": "Principles of cellular biochemistry; cell biology; genetics and evolution. Topics: biochemistry; metabolism, cell structure/function; respiration; photosynthesis; molecular, Mendelian and population genetics; genetics of evolution. Credit not awarded for both BIOL 1400 and <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Credit not awarded for both BIOL 1400 and BCOR 1400 or BCOR 1425. Must register for a BIOL 1400 lab; Lab supply fee: $30; Degree students only even after level restrictions removed; Post Bac Pre Med & PACE students register for BIOL 1400 ZRA Colocated with BIOL 1400 ZRA",
+      "external": true
+    },
+    {
+      "id": "ASCI 3490",
+      "course_code": "ASCI 3490",
+      "department": "ASCI",
+      "title": "Lameness in Horses",
+      "credit_hours": "4",
+      "description": "Focuses on normal equine anatomy related to movement and what happens when horses are injured. Students learn common causes of lameness, as well as how to diagnose, treat, and prevent those causes. Labs are hands-on with horses. Prerequisites: <a href=\"/search/?p=ASCI%202480\" data-action=\"result-detail\" data-group=\"code:ASCI 2480\"  class=\"notoffered\">ASCI 2480</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2480\"}, {\"type\": \"other\", \"description\": \"instructor permission\"}]}",
+      "other_requirements": "Online work before Lec/Lab is required. Open to Degree and PACE Students",
+      "external": false
+    },
+    {
+      "id": "ASCI 3300",
+      "course_code": "ASCI 3300",
+      "department": "ASCI",
+      "title": "CREAM Advising",
+      "credit_hours": "4",
+      "description": "Augments learning acquired during previous CREAM experience; students provide technical, logistical, organizational support to the current group of CREAM students. Prerequisite: <a href=\"/search/?p=ASCI%202300\" data-action=\"result-detail\" data-group=\"code:ASCI 2300\"  class=\"notoffered\">ASCI 2300</a> or <a href=\"/search/?p=ASCI%202310\" data-action=\"result-detail\" data-group=\"code:ASCI 2310\" >ASCI 2310</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASCI 2300\"}, {\"type\": \"course\", \"code\": \"ASCI 2310\"}]}",
+      "other_requirements": "Instructor Permission required; Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "ASCI 1991",
+      "course_code": "ASCI 1991",
+      "department": "ASCI",
+      "title": "Internship",
+      "credit_hours": "1 to 3",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required. Learning contract must be done before add drop. Please plan ahead! Please contact ASCI.INT@uvm.edu for overrides. PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "BCOR 1400",
+      "course_code": "BCOR 1400",
+      "department": "BCOR",
+      "title": "Exploring Biology 1",
+      "credit_hours": "4",
+      "description": "Exploring biology from cells to organisms.  Topics include origins of life, ancestral organisms, uni- and multi- cellular energetics, evolution of respiration and metabolism, and the genetic code. Credit not awarded for both BCOR 1400 and <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
+      "external": true
+    },
+    {
+      "id": "BCOR 1450",
+      "course_code": "BCOR 1450",
+      "department": "BCOR",
+      "title": "Exploring Biology 2",
+      "credit_hours": "4",
+      "description": "An evolutionary perspective to exploring biology. Topics include: patterns of inheritance, Darwinian evolution, evolution of biodiversity, ecology of organisms, human effects on biological systems. Credit not awarded for both BCOR 1450 and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "ANPS 1200",
+      "course_code": "ANPS 1200",
+      "department": "ANPS",
+      "title": "Ugr Hum Anatomy & Physiology 2",
+      "credit_hours": "4",
+      "description": "Part II of two-semester course sequence. Structure and function of human body. Prerequisite: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\"  class=\"notoffered\">ANPS 1190</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"ANPS 1190\"}",
+      "other_requirements": "Common hour exams are held 5:30-7:00pm on these Mondays: 2/9, 3/2, and 4/6. BIOM,CSD,DIET,DNFS,EXSC,HSCI,MLS,NFS, PE, PHS, MRS, PRNU; Majors only until Dec. 2nd, Please contact Patrick Mullen (patrick.c.mullen@uvm.edu) with any questions; Class meets 3x a week with online lab comprising 4th credit; Degree students only even after level restrictions removed; PACE students register for ANPS 1200 ZRA; Prereq enforced by the system:ANPS 1190.",
+      "external": true
     }
   ],
   "edges": [
     {
       "source": "ANPS 1190",
-      "target": "ANPS 1200"
+      "target": "ANPS 1200",
+      "group": null
     },
     {
       "source": "ANPS 1190",
-      "target": "ASCI 2120"
+      "target": "ASCI 2120",
+      "group": "ASCI 2120__g0"
     },
     {
       "source": "ANPS 1200",
-      "target": "ASCI 2120"
+      "target": "ASCI 2120",
+      "group": "ASCI 2120__g0"
     },
     {
       "source": "ASCI 1000",
-      "target": "ASCI 2000"
+      "target": "ASCI 2000",
+      "group": null
     },
     {
       "source": "ASCI 1000",
-      "target": "ASCI 2130"
+      "target": "ASCI 2130",
+      "group": "ASCI 2130__g0"
     },
     {
       "source": "ASCI 1000",
-      "target": "ASCI 2180"
+      "target": "ASCI 2180",
+      "group": "ASCI 2180__g0"
     },
     {
       "source": "ASCI 1000",
-      "target": "ASCI 2300"
+      "target": "ASCI 2300",
+      "group": "ASCI 2300__g0"
     },
     {
       "source": "ASCI 1000",
-      "target": "ASCI 2330"
+      "target": "ASCI 2330",
+      "group": null
     },
     {
       "source": "ASCI 1000",
-      "target": "ASCI 2400"
+      "target": "ASCI 2400",
+      "group": "ASCI 2400__g0"
     },
     {
       "source": "ASCI 1000",
-      "target": "ASCI 2470"
+      "target": "ASCI 2470",
+      "group": "ASCI 2470__g0"
     },
     {
       "source": "ASCI 1000",
-      "target": "ASCI 2480"
+      "target": "ASCI 2480",
+      "group": "ASCI 2480__g0"
     },
     {
       "source": "ASCI 1000",
-      "target": "ASCI 2490"
+      "target": "ASCI 2490",
+      "group": "ASCI 2490__g0"
     },
     {
       "source": "ASCI 1000",
-      "target": "ASCI 2600"
+      "target": "ASCI 2600",
+      "group": null
     },
     {
       "source": "ASCI 1040",
-      "target": "ASCI 3040"
+      "target": "ASCI 3040",
+      "group": "ASCI 3040__g0"
     },
     {
       "source": "ASCI 1400",
-      "target": "ASCI 2130"
+      "target": "ASCI 2130",
+      "group": "ASCI 2130__g0"
     },
     {
       "source": "ASCI 1400",
-      "target": "ASCI 2400"
+      "target": "ASCI 2400",
+      "group": "ASCI 2400__g0"
     },
     {
       "source": "ASCI 1400",
-      "target": "ASCI 2470"
+      "target": "ASCI 2470",
+      "group": "ASCI 2470__g0"
     },
     {
       "source": "ASCI 1400",
-      "target": "ASCI 2480"
+      "target": "ASCI 2480",
+      "group": "ASCI 2480__g0"
     },
     {
       "source": "ASCI 1400",
-      "target": "ASCI 2490"
+      "target": "ASCI 2490",
+      "group": "ASCI 2490__g0"
     },
     {
       "source": "ASCI 1500",
-      "target": "ASCI 2130"
+      "target": "ASCI 2130",
+      "group": "ASCI 2130__g0"
     },
     {
       "source": "ASCI 1990",
-      "target": "ASCI 3030"
+      "target": "ASCI 3030",
+      "group": "ASCI 3030__g0"
     },
     {
       "source": "ASCI 2110",
-      "target": "ASCI 2120"
+      "target": "ASCI 2120",
+      "group": "ASCI 2120__g0"
     },
     {
       "source": "ASCI 2110",
-      "target": "ASCI 3040"
+      "target": "ASCI 3040",
+      "group": "ASCI 3040__g0"
     },
     {
       "source": "ASCI 2110",
-      "target": "ASCI 3150"
+      "target": "ASCI 3150",
+      "group": "ASCI 3150__g0"
     },
     {
       "source": "ASCI 2110",
-      "target": "ASCI 3160"
+      "target": "ASCI 3160",
+      "group": "ASCI 3160__g0"
     },
     {
       "source": "ASCI 2110",
-      "target": "ASCI 3280"
+      "target": "ASCI 3280",
+      "group": "ASCI 3280__g0"
     },
     {
       "source": "ASCI 2120",
-      "target": "ASCI 3040"
+      "target": "ASCI 3040",
+      "group": "ASCI 3040__g0"
     },
     {
       "source": "ASCI 2120",
-      "target": "ASCI 3150"
+      "target": "ASCI 3150",
+      "group": "ASCI 3150__g0"
     },
     {
       "source": "ASCI 2120",
-      "target": "ASCI 3160"
+      "target": "ASCI 3160",
+      "group": "ASCI 3160__g0"
     },
     {
       "source": "ASCI 2120",
-      "target": "ASCI 3180"
+      "target": "ASCI 3180",
+      "group": null
     },
     {
       "source": "ASCI 2120",
-      "target": "ASCI 3280"
+      "target": "ASCI 3280",
+      "group": "ASCI 3280__g0"
     },
     {
       "source": "ASCI 2130",
-      "target": "ASCI 2990"
+      "target": "ASCI 2990",
+      "group": null
     },
     {
       "source": "ASCI 2130",
-      "target": "ASCI 3030"
+      "target": "ASCI 3030",
+      "group": "ASCI 3030__g0"
     },
     {
       "source": "ASCI 2130",
-      "target": "ASCI 3470"
+      "target": "ASCI 3470",
+      "group": "ASCI 3470__g0"
     },
     {
       "source": "ASCI 2180",
-      "target": "ASCI 3280"
+      "target": "ASCI 3280",
+      "group": null
     },
     {
       "source": "ASCI 2300",
-      "target": "ASCI 2310"
+      "target": "ASCI 2310",
+      "group": null
     },
     {
       "source": "ASCI 2300",
-      "target": "ASCI 3300"
+      "target": "ASCI 3300",
+      "group": "ASCI 3300__g0"
     },
     {
       "source": "ASCI 2310",
-      "target": "ASCI 3300"
+      "target": "ASCI 3300",
+      "group": "ASCI 3300__g0"
     },
     {
       "source": "ASCI 2400",
-      "target": "ASCI 1450"
+      "target": "ASCI 1450",
+      "group": "ASCI 1450__g0"
     },
     {
       "source": "ASCI 2400",
-      "target": "ASCI 3470"
+      "target": "ASCI 3470",
+      "group": "ASCI 3470__g0"
     },
     {
       "source": "ASCI 2470",
-      "target": "ASCI 3470"
+      "target": "ASCI 3470",
+      "group": "ASCI 3470__g0"
     },
     {
       "source": "ASCI 2480",
-      "target": "ASCI 3480"
+      "target": "ASCI 3480",
+      "group": null
     },
     {
       "source": "ASCI 2480",
-      "target": "ASCI 3490"
+      "target": "ASCI 3490",
+      "group": "ASCI 3490__g0"
     },
     {
       "source": "ASCI 2600",
-      "target": "ASCI 3600"
+      "target": "ASCI 3600",
+      "group": "ASCI 3600__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "ASCI 2110"
+      "target": "ASCI 2110",
+      "group": "ASCI 2110__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "ASCI 2120"
+      "target": "ASCI 2120",
+      "group": "ASCI 2120__g1"
     },
     {
       "source": "BCOR 1400",
-      "target": "ASCI 2160"
+      "target": "ASCI 2160",
+      "group": "ASCI 2160__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "ASCI 2600"
+      "target": "ASCI 2600",
+      "group": "ASCI 2600__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "ASCI 3180"
+      "target": "ASCI 3180",
+      "group": "ASCI 3180__g0"
     },
     {
       "source": "BCOR 1425",
-      "target": "ASCI 2160"
+      "target": "ASCI 2160",
+      "group": "ASCI 2160__g0"
     },
     {
       "source": "BCOR 1425",
-      "target": "ASCI 3180"
+      "target": "ASCI 3180",
+      "group": "ASCI 3180__g0"
     },
     {
       "source": "BCOR 1450",
-      "target": "ASCI 2160"
+      "target": "ASCI 2160",
+      "group": "ASCI 2160__g0"
     },
     {
       "source": "BCOR 1450",
-      "target": "ASCI 3180"
+      "target": "ASCI 3180",
+      "group": "ASCI 3180__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "ASCI 2110"
+      "target": "ASCI 2110",
+      "group": "ASCI 2110__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "ASCI 2120"
+      "target": "ASCI 2120",
+      "group": "ASCI 2120__g1"
     },
     {
       "source": "BIOL 1400",
-      "target": "ASCI 2160"
+      "target": "ASCI 2160",
+      "group": "ASCI 2160__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "ASCI 2600"
+      "target": "ASCI 2600",
+      "group": "ASCI 2600__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "ASCI 3180"
+      "target": "ASCI 3180",
+      "group": "ASCI 3180__g0"
     },
     {
       "source": "BIOL 1450",
-      "target": "ASCI 2160"
+      "target": "ASCI 2160",
+      "group": "ASCI 2160__g0"
     },
     {
       "source": "BIOL 1450",
-      "target": "ASCI 3180"
+      "target": "ASCI 3180",
+      "group": "ASCI 3180__g0"
     },
     {
       "source": "CHEM 1100",
-      "target": "ASCI 2110"
+      "target": "ASCI 2110",
+      "group": "ASCI 2110__g1"
     },
     {
       "source": "CHEM 1400",
-      "target": "ASCI 2110"
+      "target": "ASCI 2110",
+      "group": "ASCI 2110__g1"
     },
     {
       "source": "CHEM 1400",
-      "target": "BCOR 1425"
+      "target": "BCOR 1425",
+      "group": "BCOR 1425__g0"
     }
   ]
 }

@@ -2,36 +2,14 @@
   "department": "EDHI",
   "nodes": [
     {
-      "id": "EDHI 6310",
-      "course_code": "EDHI 6310",
+      "id": "EDHI 1120",
+      "course_code": "EDHI 1120",
       "department": "EDHI",
-      "title": "Student Development Theory",
+      "title": "Data Ltrcy to PromoteChange",
       "credit_hours": "3",
-      "description": "Explores student development theories and research relevant to student learning and personal development; includes the ability to apply theory to improve and inform student affairs and teaching practice.",
+      "description": "The purpose of this course is to teach data literacy to promote change. Universities are important contexts for student success, yet few individuals receive formal education to understand university structures and how decisions are made. Together, we will focus on how to use university data to present data-informed solutions to problems at UVM.",
       "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EDHI 6110",
-      "course_code": "EDHI 6110",
-      "department": "EDHI",
-      "title": "Foundations & Functions of CSP",
-      "credit_hours": "3",
-      "description": "Overview of the work of the student affairs profession, including philosophical base, historical development, current practices, and future trends. Prerequisite: Higher Education &amp; Student Affairs student.",
-      "prereq_expression": null,
-      "other_requirements": "Higher Education & Student Affairs student. Open to Graduate and PACE students only.",
-      "external": false
-    },
-    {
-      "id": "EDHI 6220",
-      "course_code": "EDHI 6220",
-      "department": "EDHI",
-      "title": "Problems in Education",
-      "credit_hours": "3",
-      "description": "Individual work on a research problem selected by the student in consultation with a staff member. Prerequisite: Twelve hours in education and related areas; endorsement by a sponsoring faculty member.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDHI 6220\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDHI 6220\"}, {\"type\": \"course\", \"code\": \"EDHI 6220\"}, {\"type\": \"course\", \"code\": \"EDHI 6220\"}, {\"type\": \"course\", \"code\": \"EDHI 6220\"}]}]}",
-      "other_requirements": "Twelve hours in education and related areas; endorsement by a sponsoring faculty member. Open to Degree and PACE students",
+      "other_requirements": "PACE students by permission and override",
       "external": false
     },
     {
@@ -43,6 +21,50 @@
       "description": "Introduction to concepts of administration and organization as applied to contemporary higher education setting. Characteristics of organizations, dynamic elements of administration, and theories and processes of change.",
       "prereq_expression": null,
       "other_requirements": "Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "EDHI 6210",
+      "course_code": "EDHI 6210",
+      "department": "EDHI",
+      "title": "College Students and Contexts",
+      "credit_hours": "3",
+      "description": "An overview of college and university contexts, including the impact of various environments on student success.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "EDHI 1020",
+      "course_code": "EDHI 1020",
+      "department": "EDHI",
+      "title": "Student Athlete Development",
+      "credit_hours": "1",
+      "description": "Explores the college transition and experience for student-athletes and provides personal and community development for first year students participating and/or interested in collegiate athletics. Includes exploration of challenges and trends in college athletics, values and decision-making, policies, and campus resources. Incorporates reflection, peer engagement, and experiential activities.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PACE 1000\"}, {\"type\": \"course\", \"code\": \"PACE 1001\"}]}",
+      "other_requirements": "by permission and override",
+      "external": false
+    },
+    {
+      "id": "EDHI 6310",
+      "course_code": "EDHI 6310",
+      "department": "EDHI",
+      "title": "Student Development Theory",
+      "credit_hours": "3",
+      "description": "Explores student development theories and research relevant to student learning and personal development; includes the ability to apply theory to improve and inform student affairs and teaching practice.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "EDHI 6420",
+      "course_code": "EDHI 6420",
+      "department": "EDHI",
+      "title": "Capstone:Eth,Val&Mean/High Ed",
+      "credit_hours": "3",
+      "description": "An applied student affairs seminar featuring ethical problem-solving, appreciation of religious pluralism, and approaches to facilitating the search for moral and spiritual meaning in the American university.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     },
     {
@@ -68,36 +90,36 @@
       "external": false
     },
     {
-      "id": "EDHI 6210",
-      "course_code": "EDHI 6210",
+      "id": "EDHI 6320",
+      "course_code": "EDHI 6320",
       "department": "EDHI",
-      "title": "College Students and Contexts",
+      "title": "Higher Education Law",
       "credit_hours": "3",
-      "description": "An overview of college and university contexts, including the impact of various environments on student success.",
+      "description": "Examines the relationship between higher education and the law, including how various substantive areas of the law affect colleges/universities and their stakeholders. Focuses on the major topical areas, key concepts, sociocultural contexts, and precedential cases pertinent to the law and higher education.",
       "prereq_expression": null,
-      "other_requirements": null,
+      "other_requirements": "Open to Graduate and PACE students only.",
       "external": false
     },
     {
-      "id": "EDHI 6420",
-      "course_code": "EDHI 6420",
+      "id": "EDHI 6110",
+      "course_code": "EDHI 6110",
       "department": "EDHI",
-      "title": "Capstone:Eth,Val&Mean/High Ed",
+      "title": "Foundations & Functions of CSP",
       "credit_hours": "3",
-      "description": "An applied student affairs seminar featuring ethical problem-solving, appreciation of religious pluralism, and approaches to facilitating the search for moral and spiritual meaning in the American university.",
+      "description": "Overview of the work of the student affairs profession, including philosophical base, historical development, current practices, and future trends. Prerequisite: Higher Education &amp; Student Affairs student.",
       "prereq_expression": null,
-      "other_requirements": null,
+      "other_requirements": "Higher Education & Student Affairs student. Open to Graduate and PACE students only.",
       "external": false
     },
     {
-      "id": "EDHI 6890",
-      "course_code": "EDHI 6890",
+      "id": "EDHI 6230",
+      "course_code": "EDHI 6230",
       "department": "EDHI",
-      "title": "Professional Practice in HESA",
+      "title": "Teaching and Learning in HE",
       "credit_hours": "3",
-      "description": "Professional Practice in Higher Education serves as a foundation for applying theoretical and conceptual knowledge to the everyday work of educators in various higher education spaces. It includes robust field-based opportunities for students to explore functional areas in the academy, agencies, and/or other organizations that support higher education and student affairs administration. Prerequisites: Higher Education &amp; Student Affairs Administration student.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HESA\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PACE\"}, {\"type\": \"course\", \"code\": \"permission\"}]}]}",
-      "other_requirements": "Higher Education & Student Affairs Administration student. PACE students by permission and override",
+      "description": "In-depth overview of the pedagogy of teaching in higher education. Evidence-based research findings that inform teaching will be explored. The frameworks of High Impact Educational Practices, Universal Design for Learning, as well as Backward Design will scaffold the participant's design of a course syllabus, course learning activities, and student assessments.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     },
     {
@@ -112,58 +134,38 @@
       "external": false
     },
     {
-      "id": "EDHI 6320",
-      "course_code": "EDHI 6320",
+      "id": "EDHI 6220",
+      "course_code": "EDHI 6220",
       "department": "EDHI",
-      "title": "Higher Education Law",
+      "title": "Problems in Education",
       "credit_hours": "3",
-      "description": "Examines the relationship between higher education and the law, including how various substantive areas of the law affect colleges/universities and their stakeholders. Focuses on the major topical areas, key concepts, sociocultural contexts, and precedential cases pertinent to the law and higher education.",
-      "prereq_expression": null,
-      "other_requirements": "Open to Graduate and PACE students only.",
+      "description": "Individual work on a research problem selected by the student in consultation with a staff member. Prerequisite: Twelve hours in education and related areas; endorsement by a sponsoring faculty member.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDHI 6220\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDHI 6220\"}, {\"type\": \"course\", \"code\": \"EDHI 6220\"}, {\"type\": \"course\", \"code\": \"EDHI 6220\"}, {\"type\": \"course\", \"code\": \"EDHI 6220\"}]}]}",
+      "other_requirements": "Twelve hours in education and related areas; endorsement by a sponsoring faculty member. Open to Degree and PACE students",
       "external": false
     },
     {
-      "id": "EDHI 1120",
-      "course_code": "EDHI 1120",
+      "id": "EDHI 6890",
+      "course_code": "EDHI 6890",
       "department": "EDHI",
-      "title": "Data Ltrcy to PromoteChange",
+      "title": "Professional Practice in HESA",
       "credit_hours": "3",
-      "description": "The purpose of this course is to teach data literacy to promote change. Universities are important contexts for student success, yet few individuals receive formal education to understand university structures and how decisions are made. Together, we will focus on how to use university data to present data-informed solutions to problems at UVM.",
-      "prereq_expression": null,
-      "other_requirements": "PACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "EDHI 1020",
-      "course_code": "EDHI 1020",
-      "department": "EDHI",
-      "title": "Student Athlete Development",
-      "credit_hours": "1",
-      "description": "Explores the college transition and experience for student-athletes and provides personal and community development for first year students participating and/or interested in collegiate athletics. Includes exploration of challenges and trends in college athletics, values and decision-making, policies, and campus resources. Incorporates reflection, peer engagement, and experiential activities.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PACE 1000\"}, {\"type\": \"course\", \"code\": \"PACE 1001\"}]}",
-      "other_requirements": "by permission and override",
-      "external": false
-    },
-    {
-      "id": "EDHI 6230",
-      "course_code": "EDHI 6230",
-      "department": "EDHI",
-      "title": "Teaching and Learning in HE",
-      "credit_hours": "3",
-      "description": "In-depth overview of the pedagogy of teaching in higher education. Evidence-based research findings that inform teaching will be explored. The frameworks of High Impact Educational Practices, Universal Design for Learning, as well as Backward Design will scaffold the participant's design of a course syllabus, course learning activities, and student assessments.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "description": "Professional Practice in Higher Education serves as a foundation for applying theoretical and conceptual knowledge to the everyday work of educators in various higher education spaces. It includes robust field-based opportunities for students to explore functional areas in the academy, agencies, and/or other organizations that support higher education and student affairs administration. Prerequisites: Higher Education &amp; Student Affairs Administration student.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HESA\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PACE\"}, {\"type\": \"course\", \"code\": \"permission\"}]}]}",
+      "other_requirements": "Higher Education & Student Affairs Administration student. PACE students by permission and override",
       "external": false
     }
   ],
   "edges": [
     {
       "source": "EDHI 1110",
-      "target": "EDHI 1110"
+      "target": "EDHI 1110",
+      "group": "EDHI 1110__g0"
     },
     {
       "source": "EDHI 6220",
-      "target": "EDHI 6220"
+      "target": "EDHI 6220",
+      "group": "EDHI 6220__g0"
     }
   ]
 }

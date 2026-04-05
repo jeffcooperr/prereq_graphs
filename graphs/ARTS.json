@@ -2,223 +2,25 @@
   "department": "ARTS",
   "nodes": [
     {
-      "id": "ARTS 4994",
-      "course_code": "ARTS 4994",
+      "id": "ARTS 3910",
+      "course_code": "ARTS 3910",
       "department": "ARTS",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2000\"}, {\"type\": \"course\", \"code\": \"ARTS 2001\"}, {\"type\": \"course\", \"code\": \"ARTS 2002\"}, {\"type\": \"course\", \"code\": \"ARTS 2003\"}, {\"type\": \"course\", \"code\": \"ARTS 2004\"}, {\"type\": \"course\", \"code\": \"ARTS 2005\"}]}]}",
-      "other_requirements": "Minimum Sophomore standing; Application required, seehttps://www.uvm.edu/cas/art/student-forms-and-contractsfor application form.",
+      "title": "SL:INTN: Comm Engaged Arts",
+      "credit_hours": "3",
+      "description": "Service-learning course in which students will complete a semester-long internship at a community field site along with a weekly seminar that supports community engaged work. Internship sites are individualized based on students' interests and may include galleries, art studios, arts advocacy programs, afterschool programs, or other related sites. Prerequisites: <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a> or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
+      "other_requirements": "minimum Junior standing. Instructor permission required, Art Education students only, except by permission, space permitting",
       "external": false
     },
     {
-      "id": "ARTS 2620",
-      "course_code": "ARTS 2620",
+      "id": "ARTS 2750",
+      "course_code": "ARTS 2750",
       "department": "ARTS",
-      "title": "Digital Fabrication",
+      "title": "Sculpture",
       "credit_hours": "3",
-      "description": "Hands-on experience with digital fabrication technologies (both hardware and software) that are popular with contemporary artists; opportunities to practice design iteration and rapid prototyping and experiment with art-making practices such as tessellation, 3D Imaging, generative design, artificial life and interaction design. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\"  class=\"notoffered\">ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>; or Computer Science major or College of Engineering &amp; Mathematical Sciences student; minimum Junior standing. Cross-listed with: <a href=\"/search/?p=CIS%202460\" data-action=\"result-detail\" data-group=\"code:CIS 2460\" >CIS 2460</a>.",
+      "description": "Introduction to making and critiquing sculpture. Using visual elements of sculpture and concepts of 3D design, students establish a foundation for individualized inquiry and experimentation. Conceptual, practical, and analytical skills are developed through presentations, research, writing, problem solving, and critiques. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
-      "other_requirements": "Computer Science major or College of Engineering & Mathematical Sciences student; minimum Junior standing. SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Fee: $55; PACE students with permission and override.",
-      "external": false
-    },
-    {
-      "id": "ARTS 1014",
-      "course_code": "ARTS 1014",
-      "department": "ARTS",
-      "title": "FYS Perspectives on Art Making",
-      "credit_hours": "4",
-      "description": "Introduction to contemporary art practice in various media. Explores method and meaning in art making, the role of experimentation, and the translation of experience into artwork. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "ARTS 2510",
-      "course_code": "ARTS 2510",
-      "department": "ARTS",
-      "title": "Photography",
-      "credit_hours": "3",
-      "description": "Introduction to making black-and-white photographs, emphasizing craft and conceptual problem solving. Students gain skill in camera operation, printing, and producing work of an individual nature. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>, <a href=\"/search/?p=FTS%201420\" data-action=\"result-detail\" data-group=\"code:FTS 1420\" >FTS 1420</a>, or <a href=\"/search/?p=FTS%201430\" data-action=\"result-detail\" data-group=\"code:FTS 1430\"  class=\"notoffered\">FTS 1430</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}",
-      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH and RDS minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $120.00",
-      "external": false
-    },
-    {
-      "id": "FTS 1430",
-      "course_code": "FTS 1430",
-      "department": "FTS",
-      "title": "Contemporary Cinema",
-      "credit_hours": "3",
-      "description": "Introduction to basic film history, theory, and analytical skills. An historical overview of contemporary international cinema.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "ARTS 3750",
-      "course_code": "ARTS 3750",
-      "department": "ARTS",
-      "title": "Advanced Sculpture",
-      "credit_hours": "3",
-      "description": "Advanced investigation of sculpture. Students develop a personal and disciplined approach to making art through independent exploration within a structured environment. Students design individual projects that include aspects of research and writing. Group discussion and analysis of work are ongoing. Prerequisite: <a href=\"/search/?p=ARTS%202750\" data-action=\"result-detail\" data-group=\"code:ARTS 2750\" >ARTS 2750</a>, <a href=\"/search/?p=ARTS%202710\" data-action=\"result-detail\" data-group=\"code:ARTS 2710\" >ARTS 2710</a>, or <a href=\"/search/?p=ARTS%202720\" data-action=\"result-detail\" data-group=\"code:ARTS 2720\" >ARTS 2720</a>; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2750\"}, {\"type\": \"course\", \"code\": \"ARTS 2710\"}, {\"type\": \"course\", \"code\": \"ARTS 2720\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2710\"}, {\"type\": \"course\", \"code\": \"ARTS 2720\"}, {\"type\": \"course\", \"code\": \"ARTS 2750\"}]}]}",
-      "other_requirements": "minimum Junior standing. SART, AHST and ARTE majors only until after the third day of registration; then ARTS and AHST minors may also enroll; beginning Monday April 13th any student may enroll space permitting.",
-      "external": false
-    },
-    {
-      "id": "ARTS 2210",
-      "course_code": "ARTS 2210",
-      "department": "ARTS",
-      "title": "Painting: Observation & Image",
-      "credit_hours": "3",
-      "description": "Exploration of the formal and conceptual practices of painting. Introduction of historical genres and issues in painting such as still life, figuration, and abstraction. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\"  class=\"notoffered\">ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
-      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $310.00",
-      "external": false
-    },
-    {
-      "id": "ARTS 2720",
-      "course_code": "ARTS 2720",
-      "department": "ARTS",
-      "title": "Clay: Wheel Throwing",
-      "credit_hours": "3",
-      "description": "Development of throwing skills and the capacity to create a range of forms. Investigation of surface treatment techniques such as slip painting and glazing. Low-fire and stoneware firing. Related clay and glaze technology. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
-      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS , ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. Fee: $55.00 PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "ARTS 2640",
-      "course_code": "ARTS 2640",
-      "department": "ARTS",
-      "title": "Introduction to Video Art",
-      "credit_hours": "3",
-      "description": "Study of the conceptual and technical aspects of experimental and avant-garde film and video through exercises, viewing, reading and discussion, and creating films. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>, <a href=\"/search/?p=ARTS%201600\" data-action=\"result-detail\" data-group=\"code:ARTS 1600\"  class=\"notoffered\">ARTS 1600</a>, <a href=\"/search/?p=FTS%201420\" data-action=\"result-detail\" data-group=\"code:FTS 1420\" >FTS 1420</a>, or <a href=\"/search/?p=FTS%201430\" data-action=\"result-detail\" data-group=\"code:FTS 1430\"  class=\"notoffered\">FTS 1430</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}, {\"type\": \"course\", \"code\": \"ARTS 1600\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}",
-      "other_requirements": "SART, AHST, ARTE, FTS majors only during the first week of registration; CAS ARTS, ARTH and RDS, FTS minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $45.00",
-      "external": false
-    },
-    {
-      "id": "ARTS 2881",
-      "course_code": "ARTS 2881",
-      "department": "ARTS",
-      "title": "Cur&Practice: Elementary Art",
-      "credit_hours": "4",
-      "description": "Study and implementation of curriculum. Students work directly in a school classroom. Lectures and discussions. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Eighteen hours in Studio Art; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2881\"}]}",
-      "other_requirements": "Eighteen hours in Studio Art; minimum Junior standing. Art Education majors only; Junior standing; Course fee: $25",
-      "external": false
-    },
-    {
-      "id": "ARTS 4885",
-      "course_code": "ARTS 4885",
-      "department": "ARTS",
-      "title": "Teaching Internship Seminar",
-      "credit_hours": "3",
-      "description": "Supports <a href=\"/search/?p=ARTS%204881\" data-action=\"result-detail\" data-group=\"code:ARTS 4881\" >ARTS 4881</a> Internship: Student Teaching. Addresses pertinent issues in preK-12 art education teaching and learning, while preparing students to construct their licensure portfolios and enter the profession in school and community settings. Prerequisites: <a href=\"/search/?p=ARTS%202881\" data-action=\"result-detail\" data-group=\"code:ARTS 2881\" >ARTS 2881</a> Sections A and B, <a href=\"/search/?p=ARTS%204870\" data-action=\"result-detail\" data-group=\"code:ARTS 4870\"  class=\"notoffered\">ARTS 4870</a>. Co-requisite: <a href=\"/search/?p=ARTS%204881\" data-action=\"result-detail\" data-group=\"code:ARTS 4881\" >ARTS 4881</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2881\"}, {\"type\": \"course\", \"code\": \"ARTS 4870\"}]}",
-      "other_requirements": "ARTE majors only; Senior standing; Enroll in conjunction with ARTS 4881 Section A",
-      "external": false
-    },
-    {
-      "id": "ARTS 2200",
-      "course_code": "ARTS 2200",
-      "department": "ARTS",
-      "title": "Representing Landscapes",
-      "credit_hours": "3",
-      "description": "Topics exploring themes in painting at the intermediate level. Students will learn and work through technical, formal, and conceptual issues about painting. Representative topics: Representing Landscapes; Collage and Assemblage; Watercolor Painting. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
-      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS SART, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Course fee: $225.00",
-      "external": false
-    },
-    {
-      "id": "ARTS 4996",
-      "course_code": "ARTS 4996",
-      "department": "ARTS",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission, For CAS students pursuing College Honors",
-      "external": false
-    },
-    {
-      "id": "ARTS 2100",
-      "course_code": "ARTS 2100",
-      "department": "ARTS",
-      "title": "Intermediate Drawing",
-      "credit_hours": "3",
-      "description": "Intensive investigation of drawing and elements related to the discipline. Focus on expanding techniques and developing strategies for making drawings. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\"  class=\"notoffered\">ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
-      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS , ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $105.00",
-      "external": false
-    },
-    {
-      "id": "ARTS 1400",
-      "course_code": "ARTS 1400",
-      "department": "ARTS",
-      "title": "Perspectives on Art Making",
-      "credit_hours": "4",
-      "description": "Introduction to contemporary art practice in various media. Explores method and meaning in art making, the role of experimentation, and the translation of experience into artwork. Credit not awarded for both ARTS 1400 and <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>.",
-      "prereq_expression": null,
-      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed.",
-      "external": false
-    },
-    {
-      "id": "ARTS 3500",
-      "course_code": "ARTS 3500",
-      "department": "ARTS",
-      "title": "Advanced Photography",
-      "credit_hours": "3",
-      "description": "Continuation of <a href=\"/search/?p=ARTS%202510\" data-action=\"result-detail\" data-group=\"code:ARTS 2510\" >ARTS 2510</a> and <a href=\"/search/?p=ARTS%202520\" data-action=\"result-detail\" data-group=\"code:ARTS 2520\" >ARTS 2520</a>, exploring the implications of photography and encouraging students to use the medium to better understand their relationship to the world. Prerequisites: <a href=\"/search/?p=ARTS%202510\" data-action=\"result-detail\" data-group=\"code:ARTS 2510\" >ARTS 2510</a> or <a href=\"/search/?p=ARTS%202520\" data-action=\"result-detail\" data-group=\"code:ARTS 2520\" >ARTS 2520</a>; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2510\"}, {\"type\": \"course\", \"code\": \"ARTS 2520\"}]}",
-      "other_requirements": "Minimum Junior standing; SART, AHST, ARTE majors only during the week of registration; SART, ARTH, ARTS minors will be able to enroll, space permitting, the Friday afternoon of the week of registration; PACE students with permission and override.",
-      "external": false
-    },
-    {
-      "id": "ARTS 2220",
-      "course_code": "ARTS 2220",
-      "department": "ARTS",
-      "title": "Painting: Color and Invention",
-      "credit_hours": "3",
-      "description": "Exploration of the role of color in painting. Projects will foster comprehension of color vocabulary and a critical understanding necessary for the effective use of color. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
-      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $310.00",
-      "external": false
-    },
-    {
-      "id": "ARTS 2040",
-      "course_code": "ARTS 2040",
-      "department": "ARTS",
-      "title": "Printing in Public Spaces",
-      "credit_hours": "3",
-      "description": "Exploration of various themes and/or media. Representative topics: Making Artist's Books; Gesamkunstwerk from Scratch. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
-      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $100.00",
-      "external": false
-    },
-    {
-      "id": "ARTS 2410",
-      "course_code": "ARTS 2410",
-      "department": "ARTS",
-      "title": "Graphic Design",
-      "credit_hours": "3",
-      "description": "The application of graphic design principles to practical problems, including the impact of popular design on society, and the exploration of visual elements in contemporary printing processes. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
-      "other_requirements": "SART, ARTH, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $45.00",
-      "external": false
-    },
-    {
-      "id": "ARTS 2600",
-      "course_code": "ARTS 2600",
-      "department": "ARTS",
-      "title": "Digital Art and Ecology",
-      "credit_hours": "3",
-      "description": "Topics exploring themes in digital art at the intermediate level. Representative topics: Art &amp; Intelligent Machines. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
-      "other_requirements": "SART, AHST, ARTE majors only during the week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $100.00",
+      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $130.00",
       "external": false
     },
     {
@@ -230,61 +32,6 @@
       "description": "Intense investigations of drawing and elements that relate to that discipline. Emphasis on conceptual method, contemporary techniques, and both objective and non-objective source material. Prerequisite: <a href=\"/search/?p=ARTS%202100\" data-action=\"result-detail\" data-group=\"code:ARTS 2100\" >ARTS 2100</a>, <a href=\"/search/?p=ARTS%202110\" data-action=\"result-detail\" data-group=\"code:ARTS 2110\"  class=\"notoffered\">ARTS 2110</a>, or <a href=\"/search/?p=ARTS%202220\" data-action=\"result-detail\" data-group=\"code:ARTS 2220\" >ARTS 2220</a>; minimum Junior standing.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2100\"}, {\"type\": \"course\", \"code\": \"ARTS 2110\"}, {\"type\": \"course\", \"code\": \"ARTS 2220\"}]}]}",
       "other_requirements": "minimum Junior standing; SART, AHST ARTE majors only during the week of registration; SART, ARTH, ARTS minors will be able to enroll, space permitting, the Friday afternoon of the week of registration; PACE students with permission and override. Minimum Junior standing; Fee: $105.00",
-      "external": false
-    },
-    {
-      "id": "ARTS 3200",
-      "course_code": "ARTS 3200",
-      "department": "ARTS",
-      "title": "Projects in Painting",
-      "credit_hours": "3",
-      "description": "Further exploration of formal and conceptual concerns through studio work and critique. Each student will develop a coherent body of paintings. Prerequisite: <a href=\"/search/?p=ARTS%202100\" data-action=\"result-detail\" data-group=\"code:ARTS 2100\"  class=\"notoffered\">ARTS 2100</a>, <a href=\"/search/?p=ARTS%202210\" data-action=\"result-detail\" data-group=\"code:ARTS 2210\"  class=\"notoffered\">ARTS 2210</a>, <a href=\"/search/?p=ARTS%202200\" data-action=\"result-detail\" data-group=\"code:ARTS 2200\" >ARTS 2200</a>, or <a href=\"/search/?p=ARTS%202220\" data-action=\"result-detail\" data-group=\"code:ARTS 2220\" >ARTS 2220</a>; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2100\"}, {\"type\": \"course\", \"code\": \"ARTS 2210\"}, {\"type\": \"course\", \"code\": \"ARTS 2200\"}, {\"type\": \"course\", \"code\": \"ARTS 2220\"}]}",
-      "other_requirements": "Minimum Junior standing; SART, AHST and ARTE majors only until after the third day of registration; then ARTS and AHST minors may also enroll; beginning Monday April 13th any student may enroll space permitting. PACE students by permission and override. Fee $310",
-      "external": false
-    },
-    {
-      "id": "ARTS 2320",
-      "course_code": "ARTS 2320",
-      "department": "ARTS",
-      "title": "Printmaking: Silkscreen",
-      "credit_hours": "3",
-      "description": "Studio class focusing on procedures in stencil printing that use photo-silkscreen technology. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
-      "other_requirements": "SART, AHST and ARTE majors only until after the third day of registration; then ARTS and AHST minors may also enroll; beginning Monday April 13th any student may enroll space permitting.\nMinimum sophomore standing;\nPACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "ARTS 3995",
-      "course_code": "ARTS 3995",
-      "department": "ARTS",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2000\"}, {\"type\": \"course\", \"code\": \"ARTS 2000\"}, {\"type\": \"course\", \"code\": \"ARTS 2000\"}, {\"type\": \"course\", \"code\": \"ARTS 2000\"}, {\"type\": \"course\", \"code\": \"ARTS 2000\"}, {\"type\": \"course\", \"code\": \"ARTS 2000\"}]}]}",
-      "other_requirements": "Faculty sponsor; Minimum Junior standing; Application required, seehttps://www.uvm.edu/cas/art/student-forms-and-contractsfor application form.",
-      "external": false
-    },
-    {
-      "id": "ARTS 2710",
-      "course_code": "ARTS 2710",
-      "department": "ARTS",
-      "title": "Clay: Hand Building",
-      "credit_hours": "3",
-      "description": "Investigation of surfaces and three-dimensional forms. Focus on variety of construction methods, surface treatment, and firing techniques. Related clay and glaze technology. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}]}",
-      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS , ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing; PACE students with permission and override.",
-      "external": false
-    },
-    {
-      "id": "ARTS 3910",
-      "course_code": "ARTS 3910",
-      "department": "ARTS",
-      "title": "SL:INTN: Comm Engaged Arts",
-      "credit_hours": "3",
-      "description": "Service-learning course in which students will complete a semester-long internship at a community field site along with a weekly seminar that supports community engaged work. Internship sites are individualized based on students' interests and may include galleries, art studios, arts advocacy programs, afterschool programs, or other related sites. Prerequisites: <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a> or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
-      "other_requirements": "minimum Junior standing. Instructor permission required, Art Education students only, except by permission, space permitting",
       "external": false
     },
     {
@@ -310,58 +57,25 @@
       "external": false
     },
     {
-      "id": "ARTS 1100",
-      "course_code": "ARTS 1100",
+      "id": "ARTS 3995",
+      "course_code": "ARTS 3995",
       "department": "ARTS",
-      "title": "Drawing",
-      "credit_hours": "4",
-      "description": "Introductory study of visual experience through drawing and its transformation of the three-dimensional visual world onto a two-dimensional surface. Emphasis varies with Instructor. Credit not awarded for both ARTS 1100 and <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2000\"}, {\"type\": \"course\", \"code\": \"ARTS 2000\"}, {\"type\": \"course\", \"code\": \"ARTS 2000\"}, {\"type\": \"course\", \"code\": \"ARTS 2000\"}, {\"type\": \"course\", \"code\": \"ARTS 2000\"}, {\"type\": \"course\", \"code\": \"ARTS 2000\"}]}]}",
+      "other_requirements": "Faculty sponsor; Minimum Junior standing; Application required, seehttps://www.uvm.edu/cas/art/student-forms-and-contractsfor application form.",
       "external": false
     },
     {
-      "id": "ARTS 2630",
-      "course_code": "ARTS 2630",
+      "id": "ARTS 2520",
+      "course_code": "ARTS 2520",
       "department": "ARTS",
-      "title": "Animation for Artists",
+      "title": "Color Photography",
       "credit_hours": "3",
-      "description": "Topics exploring themes in film and video at the intermediate level. Students will work with non-traditional approaches to moving image arts and the dialogues around them. Representative topic: Animation for Artists. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>, <a href=\"/search/?p=ARTS%201600\" data-action=\"result-detail\" data-group=\"code:ARTS 1600\"  class=\"notoffered\">ARTS 1600</a>, <a href=\"/search/?p=FTS%201020\" data-action=\"result-detail\" data-group=\"code:FTS 1020\"  class=\"notoffered\">FTS 1020</a>, or <a href=\"/search/?p=FTS%201430\" data-action=\"result-detail\" data-group=\"code:FTS 1430\"  class=\"notoffered\">FTS 1430</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}, {\"type\": \"course\", \"code\": \"ARTS 1600\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}]}",
-      "other_requirements": "SART, AHST and ARTE majors only until after the third day of\nregistration; then ARTS and AHST minors may also enroll; \nbeginning Monday April 13th any student may enroll space\npermitting.\nMinimum sophomore standing;\nPACE students by permission and override.\nFee: $73.00",
-      "external": false
-    },
-    {
-      "id": "ARTS 2750",
-      "course_code": "ARTS 2750",
-      "department": "ARTS",
-      "title": "Sculpture",
-      "credit_hours": "3",
-      "description": "Introduction to making and critiquing sculpture. Using visual elements of sculpture and concepts of 3D design, students establish a foundation for individualized inquiry and experimentation. Conceptual, practical, and analytical skills are developed through presentations, research, writing, problem solving, and critiques. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
+      "description": "Use of digital cameras, Adobe Photoshop, and inkjet printing processes as means for description, analysis, and expression of experience. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
-      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $130.00",
-      "external": false
-    },
-    {
-      "id": "FTS 1420",
-      "course_code": "FTS 1420",
-      "department": "FTS",
-      "title": "Classical Cinema",
-      "credit_hours": "3",
-      "description": "Introduction to basic film history, theory, and analytical skills. An historical overview of classical international cinema.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "ARTS 2030",
-      "course_code": "ARTS 2030",
-      "department": "ARTS",
-      "title": "Sound Art",
-      "credit_hours": "3",
-      "description": "Students will work with interdisciplinary approaches to art subjects. Representative topics: Multi-Media Documentary; Socially-Engaged Art. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
-      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $140.00",
+      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH and RDS minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $120.00",
       "external": false
     },
     {
@@ -376,47 +90,135 @@
       "external": false
     },
     {
-      "id": "ARTS 4870",
-      "course_code": "ARTS 4870",
+      "id": "ARTS 2510",
+      "course_code": "ARTS 2510",
       "department": "ARTS",
-      "title": "Current Issues in Art Ed",
+      "title": "Photography",
       "credit_hours": "3",
-      "description": "Research and discussion of issues relevant to contemporary art and the teaching of art. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Senior standing or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 4870\"}]}",
-      "other_requirements": "Senior standing or Instructor permission; Art Education Majors only. Course fee: $25.00",
+      "description": "Introduction to making black-and-white photographs, emphasizing craft and conceptual problem solving. Students gain skill in camera operation, printing, and producing work of an individual nature. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>, <a href=\"/search/?p=FTS%201420\" data-action=\"result-detail\" data-group=\"code:FTS 1420\" >FTS 1420</a>, or <a href=\"/search/?p=FTS%201430\" data-action=\"result-detail\" data-group=\"code:FTS 1430\"  class=\"notoffered\">FTS 1430</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}",
+      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH and RDS minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $120.00",
       "external": false
     },
     {
-      "id": "ARTS 4881",
-      "course_code": "ARTS 4881",
-      "department": "ARTS",
-      "title": "Internship: Student Teaching",
-      "credit_hours": "12",
-      "description": "Provides an opportunity for continuous contacts with the same group of students over a relatively long period of time. In addition, candidates continually interact with field site personnel in various phases of the total program. Provides a directed and supervised field experience. Prerequisites: Senior standing in Art Education major, PRAXIS Core, completion of all course requirements, GPA of at least 3. Co-requisites: <a href=\"/search/?p=EDSC%205230\" data-action=\"result-detail\" data-group=\"code:EDSC 5230\"  class=\"notoffered\">EDSC 5230</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2881A\"}, {\"type\": \"course\", \"code\": \"ARTS 2881B\"}]}",
-      "other_requirements": "Senior standing in Art Education major, PRAXIS Core, completion of all course requirements, GPA of at least 3. Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "ARTS 3300",
-      "course_code": "ARTS 3300",
-      "department": "ARTS",
-      "title": "Projects in Printmaking",
+      "id": "FTS 1430",
+      "course_code": "FTS 1430",
+      "department": "FTS",
+      "title": "Contemporary Cinema",
       "credit_hours": "3",
-      "description": "Students conceive, research, develop, and realize their own projects in the print studio. Prerequisites: <a href=\"/search/?p=ARTS%202300\" data-action=\"result-detail\" data-group=\"code:ARTS 2300\" >ARTS 2300</a>, <a href=\"/search/?p=ARTS%202310\" data-action=\"result-detail\" data-group=\"code:ARTS 2310\"  class=\"notoffered\">ARTS 2310</a>, or <a href=\"/search/?p=ARTS%202320\" data-action=\"result-detail\" data-group=\"code:ARTS 2320\"  class=\"notoffered\">ARTS 2320</a>; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2300\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2310\"}, {\"type\": \"course\", \"code\": \"ARTS 2320\"}]}]}",
-      "other_requirements": "Minimum Junior standing; SART, AHST,ARTE majors only during the week of registration SART, ARTH, ARTS minors will be able to enroll, space permitting, the Friday afternoon of the week of registration PACE students with permission and override. Fee: $150.00",
-      "external": false
-    },
-    {
-      "id": "ARTS 1990",
-      "course_code": "ARTS 1990",
-      "department": "ARTS",
-      "title": "Professional Practices",
-      "credit_hours": "1",
-      "description": "See Schedule of Courses for specific titles.",
+      "description": "Introduction to basic film history, theory, and analytical skills. An historical overview of contemporary international cinema.",
       "prereq_expression": null,
       "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "ARTS 4996",
+      "course_code": "ARTS 4996",
+      "department": "ARTS",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission, For CAS students pursuing College Honors",
+      "external": false
+    },
+    {
+      "id": "ARTS 2220",
+      "course_code": "ARTS 2220",
+      "department": "ARTS",
+      "title": "Painting: Color and Invention",
+      "credit_hours": "3",
+      "description": "Exploration of the role of color in painting. Projects will foster comprehension of color vocabulary and a critical understanding necessary for the effective use of color. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
+      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $310.00",
+      "external": false
+    },
+    {
+      "id": "ARTS 2200",
+      "course_code": "ARTS 2200",
+      "department": "ARTS",
+      "title": "Representing Landscapes",
+      "credit_hours": "3",
+      "description": "Topics exploring themes in painting at the intermediate level. Students will learn and work through technical, formal, and conceptual issues about painting. Representative topics: Representing Landscapes; Collage and Assemblage; Watercolor Painting. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
+      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS SART, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Course fee: $225.00",
+      "external": false
+    },
+    {
+      "id": "ARTS 3200",
+      "course_code": "ARTS 3200",
+      "department": "ARTS",
+      "title": "Projects in Painting",
+      "credit_hours": "3",
+      "description": "Further exploration of formal and conceptual concerns through studio work and critique. Each student will develop a coherent body of paintings. Prerequisite: <a href=\"/search/?p=ARTS%202100\" data-action=\"result-detail\" data-group=\"code:ARTS 2100\"  class=\"notoffered\">ARTS 2100</a>, <a href=\"/search/?p=ARTS%202210\" data-action=\"result-detail\" data-group=\"code:ARTS 2210\"  class=\"notoffered\">ARTS 2210</a>, <a href=\"/search/?p=ARTS%202200\" data-action=\"result-detail\" data-group=\"code:ARTS 2200\" >ARTS 2200</a>, or <a href=\"/search/?p=ARTS%202220\" data-action=\"result-detail\" data-group=\"code:ARTS 2220\" >ARTS 2220</a>; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2100\"}, {\"type\": \"course\", \"code\": \"ARTS 2210\"}, {\"type\": \"course\", \"code\": \"ARTS 2200\"}, {\"type\": \"course\", \"code\": \"ARTS 2220\"}]}",
+      "other_requirements": "Minimum Junior standing; SART, AHST and ARTE majors only until after the third day of registration; then ARTS and AHST minors may also enroll; beginning Monday April 13th any student may enroll space permitting. PACE students by permission and override. Fee $310",
+      "external": false
+    },
+    {
+      "id": "ARTS 2100",
+      "course_code": "ARTS 2100",
+      "department": "ARTS",
+      "title": "Intermediate Drawing",
+      "credit_hours": "3",
+      "description": "Intensive investigation of drawing and elements related to the discipline. Focus on expanding techniques and developing strategies for making drawings. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\"  class=\"notoffered\">ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
+      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS , ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $105.00",
+      "external": false
+    },
+    {
+      "id": "ARTS 1014",
+      "course_code": "ARTS 1014",
+      "department": "ARTS",
+      "title": "FYS Perspectives on Art Making",
+      "credit_hours": "4",
+      "description": "Introduction to contemporary art practice in various media. Explores method and meaning in art making, the role of experimentation, and the translation of experience into artwork. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ARTS 2040",
+      "course_code": "ARTS 2040",
+      "department": "ARTS",
+      "title": "Printing in Public Spaces",
+      "credit_hours": "3",
+      "description": "Exploration of various themes and/or media. Representative topics: Making Artist's Books; Gesamkunstwerk from Scratch. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
+      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $100.00",
+      "external": false
+    },
+    {
+      "id": "ARTS 3750",
+      "course_code": "ARTS 3750",
+      "department": "ARTS",
+      "title": "Advanced Sculpture",
+      "credit_hours": "3",
+      "description": "Advanced investigation of sculpture. Students develop a personal and disciplined approach to making art through independent exploration within a structured environment. Students design individual projects that include aspects of research and writing. Group discussion and analysis of work are ongoing. Prerequisite: <a href=\"/search/?p=ARTS%202750\" data-action=\"result-detail\" data-group=\"code:ARTS 2750\" >ARTS 2750</a>, <a href=\"/search/?p=ARTS%202710\" data-action=\"result-detail\" data-group=\"code:ARTS 2710\" >ARTS 2710</a>, or <a href=\"/search/?p=ARTS%202720\" data-action=\"result-detail\" data-group=\"code:ARTS 2720\" >ARTS 2720</a>; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2750\"}, {\"type\": \"course\", \"code\": \"ARTS 2710\"}, {\"type\": \"course\", \"code\": \"ARTS 2720\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2710\"}, {\"type\": \"course\", \"code\": \"ARTS 2720\"}, {\"type\": \"course\", \"code\": \"ARTS 2750\"}]}]}",
+      "other_requirements": "minimum Junior standing. SART, AHST and ARTE majors only until after the third day of registration; then ARTS and AHST minors may also enroll; beginning Monday April 13th any student may enroll space permitting.",
+      "external": false
+    },
+    {
+      "id": "ARTS 2640",
+      "course_code": "ARTS 2640",
+      "department": "ARTS",
+      "title": "Introduction to Video Art",
+      "credit_hours": "3",
+      "description": "Study of the conceptual and technical aspects of experimental and avant-garde film and video through exercises, viewing, reading and discussion, and creating films. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>, <a href=\"/search/?p=ARTS%201600\" data-action=\"result-detail\" data-group=\"code:ARTS 1600\"  class=\"notoffered\">ARTS 1600</a>, <a href=\"/search/?p=FTS%201420\" data-action=\"result-detail\" data-group=\"code:FTS 1420\" >FTS 1420</a>, or <a href=\"/search/?p=FTS%201430\" data-action=\"result-detail\" data-group=\"code:FTS 1430\"  class=\"notoffered\">FTS 1430</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}, {\"type\": \"course\", \"code\": \"ARTS 1600\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}",
+      "other_requirements": "SART, AHST, ARTE, FTS majors only during the first week of registration; CAS ARTS, ARTH and RDS, FTS minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $45.00",
+      "external": false
+    },
+    {
+      "id": "ARTS 2320",
+      "course_code": "ARTS 2320",
+      "department": "ARTS",
+      "title": "Printmaking: Silkscreen",
+      "credit_hours": "3",
+      "description": "Studio class focusing on procedures in stencil printing that use photo-silkscreen technology. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
+      "other_requirements": "SART, AHST and ARTE majors only until after the third day of registration; then ARTS and AHST minors may also enroll; beginning Monday April 13th any student may enroll space permitting.\nMinimum sophomore standing;\nPACE students by permission and override.",
       "external": false
     },
     {
@@ -431,357 +233,640 @@
       "external": false
     },
     {
-      "id": "ARTS 2520",
-      "course_code": "ARTS 2520",
-      "department": "ARTS",
-      "title": "Color Photography",
+      "id": "FTS 1420",
+      "course_code": "FTS 1420",
+      "department": "FTS",
+      "title": "Classical Cinema",
       "credit_hours": "3",
-      "description": "Use of digital cameras, Adobe Photoshop, and inkjet printing processes as means for description, analysis, and expression of experience. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
+      "description": "Introduction to basic film history, theory, and analytical skills. An historical overview of classical international cinema.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "ARTS 4881",
+      "course_code": "ARTS 4881",
+      "department": "ARTS",
+      "title": "Internship: Student Teaching",
+      "credit_hours": "12",
+      "description": "Provides an opportunity for continuous contacts with the same group of students over a relatively long period of time. In addition, candidates continually interact with field site personnel in various phases of the total program. Provides a directed and supervised field experience. Prerequisites: Senior standing in Art Education major, PRAXIS Core, completion of all course requirements, GPA of at least 3. Co-requisites: <a href=\"/search/?p=EDSC%205230\" data-action=\"result-detail\" data-group=\"code:EDSC 5230\"  class=\"notoffered\">EDSC 5230</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2881A\"}, {\"type\": \"course\", \"code\": \"ARTS 2881B\"}]}",
+      "other_requirements": "Senior standing in Art Education major, PRAXIS Core, completion of all course requirements, GPA of at least 3. Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "ARTS 3500",
+      "course_code": "ARTS 3500",
+      "department": "ARTS",
+      "title": "Advanced Photography",
+      "credit_hours": "3",
+      "description": "Continuation of <a href=\"/search/?p=ARTS%202510\" data-action=\"result-detail\" data-group=\"code:ARTS 2510\" >ARTS 2510</a> and <a href=\"/search/?p=ARTS%202520\" data-action=\"result-detail\" data-group=\"code:ARTS 2520\" >ARTS 2520</a>, exploring the implications of photography and encouraging students to use the medium to better understand their relationship to the world. Prerequisites: <a href=\"/search/?p=ARTS%202510\" data-action=\"result-detail\" data-group=\"code:ARTS 2510\" >ARTS 2510</a> or <a href=\"/search/?p=ARTS%202520\" data-action=\"result-detail\" data-group=\"code:ARTS 2520\" >ARTS 2520</a>; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2510\"}, {\"type\": \"course\", \"code\": \"ARTS 2520\"}]}",
+      "other_requirements": "Minimum Junior standing; SART, AHST, ARTE majors only during the week of registration; SART, ARTH, ARTS minors will be able to enroll, space permitting, the Friday afternoon of the week of registration; PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "ARTS 1100",
+      "course_code": "ARTS 1100",
+      "department": "ARTS",
+      "title": "Drawing",
+      "credit_hours": "4",
+      "description": "Introductory study of visual experience through drawing and its transformation of the three-dimensional visual world onto a two-dimensional surface. Emphasis varies with Instructor. Credit not awarded for both ARTS 1100 and <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ARTS 2030",
+      "course_code": "ARTS 2030",
+      "department": "ARTS",
+      "title": "Sound Art",
+      "credit_hours": "3",
+      "description": "Students will work with interdisciplinary approaches to art subjects. Representative topics: Multi-Media Documentary; Socially-Engaged Art. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
-      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH and RDS minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $120.00",
+      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $140.00",
+      "external": false
+    },
+    {
+      "id": "ARTS 2410",
+      "course_code": "ARTS 2410",
+      "department": "ARTS",
+      "title": "Graphic Design",
+      "credit_hours": "3",
+      "description": "The application of graphic design principles to practical problems, including the impact of popular design on society, and the exploration of visual elements in contemporary printing processes. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
+      "other_requirements": "SART, ARTH, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $45.00",
+      "external": false
+    },
+    {
+      "id": "ARTS 2600",
+      "course_code": "ARTS 2600",
+      "department": "ARTS",
+      "title": "Digital Art and Ecology",
+      "credit_hours": "3",
+      "description": "Topics exploring themes in digital art at the intermediate level. Representative topics: Art &amp; Intelligent Machines. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
+      "other_requirements": "SART, AHST, ARTE majors only during the week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $100.00",
+      "external": false
+    },
+    {
+      "id": "ARTS 4885",
+      "course_code": "ARTS 4885",
+      "department": "ARTS",
+      "title": "Teaching Internship Seminar",
+      "credit_hours": "3",
+      "description": "Supports <a href=\"/search/?p=ARTS%204881\" data-action=\"result-detail\" data-group=\"code:ARTS 4881\" >ARTS 4881</a> Internship: Student Teaching. Addresses pertinent issues in preK-12 art education teaching and learning, while preparing students to construct their licensure portfolios and enter the profession in school and community settings. Prerequisites: <a href=\"/search/?p=ARTS%202881\" data-action=\"result-detail\" data-group=\"code:ARTS 2881\" >ARTS 2881</a> Sections A and B, <a href=\"/search/?p=ARTS%204870\" data-action=\"result-detail\" data-group=\"code:ARTS 4870\"  class=\"notoffered\">ARTS 4870</a>. Co-requisite: <a href=\"/search/?p=ARTS%204881\" data-action=\"result-detail\" data-group=\"code:ARTS 4881\" >ARTS 4881</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2881\"}, {\"type\": \"course\", \"code\": \"ARTS 4870\"}]}",
+      "other_requirements": "ARTE majors only; Senior standing; Enroll in conjunction with ARTS 4881 Section A",
+      "external": false
+    },
+    {
+      "id": "ARTS 2620",
+      "course_code": "ARTS 2620",
+      "department": "ARTS",
+      "title": "Digital Fabrication",
+      "credit_hours": "3",
+      "description": "Hands-on experience with digital fabrication technologies (both hardware and software) that are popular with contemporary artists; opportunities to practice design iteration and rapid prototyping and experiment with art-making practices such as tessellation, 3D Imaging, generative design, artificial life and interaction design. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\"  class=\"notoffered\">ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>; or Computer Science major or College of Engineering &amp; Mathematical Sciences student; minimum Junior standing. Cross-listed with: <a href=\"/search/?p=CIS%202460\" data-action=\"result-detail\" data-group=\"code:CIS 2460\" >CIS 2460</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
+      "other_requirements": "Computer Science major or College of Engineering & Mathematical Sciences student; minimum Junior standing. SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Fee: $55; PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "ARTS 2210",
+      "course_code": "ARTS 2210",
+      "department": "ARTS",
+      "title": "Painting: Observation & Image",
+      "credit_hours": "3",
+      "description": "Exploration of the formal and conceptual practices of painting. Introduction of historical genres and issues in painting such as still life, figuration, and abstraction. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\"  class=\"notoffered\">ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
+      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $310.00",
+      "external": false
+    },
+    {
+      "id": "ARTS 2710",
+      "course_code": "ARTS 2710",
+      "department": "ARTS",
+      "title": "Clay: Hand Building",
+      "credit_hours": "3",
+      "description": "Investigation of surfaces and three-dimensional forms. Focus on variety of construction methods, surface treatment, and firing techniques. Related clay and glaze technology. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}]}",
+      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS , ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing; PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "ARTS 4870",
+      "course_code": "ARTS 4870",
+      "department": "ARTS",
+      "title": "Current Issues in Art Ed",
+      "credit_hours": "3",
+      "description": "Research and discussion of issues relevant to contemporary art and the teaching of art. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Senior standing or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 4870\"}]}",
+      "other_requirements": "Senior standing or Instructor permission; Art Education Majors only. Course fee: $25.00",
+      "external": false
+    },
+    {
+      "id": "ARTS 2630",
+      "course_code": "ARTS 2630",
+      "department": "ARTS",
+      "title": "Animation for Artists",
+      "credit_hours": "3",
+      "description": "Topics exploring themes in film and video at the intermediate level. Students will work with non-traditional approaches to moving image arts and the dialogues around them. Representative topic: Animation for Artists. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>, <a href=\"/search/?p=ARTS%201600\" data-action=\"result-detail\" data-group=\"code:ARTS 1600\"  class=\"notoffered\">ARTS 1600</a>, <a href=\"/search/?p=FTS%201020\" data-action=\"result-detail\" data-group=\"code:FTS 1020\"  class=\"notoffered\">FTS 1020</a>, or <a href=\"/search/?p=FTS%201430\" data-action=\"result-detail\" data-group=\"code:FTS 1430\"  class=\"notoffered\">FTS 1430</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}, {\"type\": \"course\", \"code\": \"ARTS 1600\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}]}",
+      "other_requirements": "SART, AHST and ARTE majors only until after the third day of\nregistration; then ARTS and AHST minors may also enroll; \nbeginning Monday April 13th any student may enroll space\npermitting.\nMinimum sophomore standing;\nPACE students by permission and override.\nFee: $73.00",
+      "external": false
+    },
+    {
+      "id": "ARTS 2881",
+      "course_code": "ARTS 2881",
+      "department": "ARTS",
+      "title": "Cur&Practice: Elementary Art",
+      "credit_hours": "4",
+      "description": "Study and implementation of curriculum. Students work directly in a school classroom. Lectures and discussions. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Eighteen hours in Studio Art; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2881\"}]}",
+      "other_requirements": "Eighteen hours in Studio Art; minimum Junior standing. Art Education majors only; Junior standing; Course fee: $25",
+      "external": false
+    },
+    {
+      "id": "ARTS 4994",
+      "course_code": "ARTS 4994",
+      "department": "ARTS",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2000\"}, {\"type\": \"course\", \"code\": \"ARTS 2001\"}, {\"type\": \"course\", \"code\": \"ARTS 2002\"}, {\"type\": \"course\", \"code\": \"ARTS 2003\"}, {\"type\": \"course\", \"code\": \"ARTS 2004\"}, {\"type\": \"course\", \"code\": \"ARTS 2005\"}]}]}",
+      "other_requirements": "Minimum Sophomore standing; Application required, seehttps://www.uvm.edu/cas/art/student-forms-and-contractsfor application form.",
+      "external": false
+    },
+    {
+      "id": "ARTS 1990",
+      "course_code": "ARTS 1990",
+      "department": "ARTS",
+      "title": "Professional Practices",
+      "credit_hours": "1",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ARTS 1400",
+      "course_code": "ARTS 1400",
+      "department": "ARTS",
+      "title": "Perspectives on Art Making",
+      "credit_hours": "4",
+      "description": "Introduction to contemporary art practice in various media. Explores method and meaning in art making, the role of experimentation, and the translation of experience into artwork. Credit not awarded for both ARTS 1400 and <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>.",
+      "prereq_expression": null,
+      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed.",
+      "external": false
+    },
+    {
+      "id": "ARTS 2720",
+      "course_code": "ARTS 2720",
+      "department": "ARTS",
+      "title": "Clay: Wheel Throwing",
+      "credit_hours": "3",
+      "description": "Development of throwing skills and the capacity to create a range of forms. Investigation of surface treatment techniques such as slip painting and glazing. Low-fire and stoneware firing. Related clay and glaze technology. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
+      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS , ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. Fee: $55.00 PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "ARTS 3300",
+      "course_code": "ARTS 3300",
+      "department": "ARTS",
+      "title": "Projects in Printmaking",
+      "credit_hours": "3",
+      "description": "Students conceive, research, develop, and realize their own projects in the print studio. Prerequisites: <a href=\"/search/?p=ARTS%202300\" data-action=\"result-detail\" data-group=\"code:ARTS 2300\" >ARTS 2300</a>, <a href=\"/search/?p=ARTS%202310\" data-action=\"result-detail\" data-group=\"code:ARTS 2310\"  class=\"notoffered\">ARTS 2310</a>, or <a href=\"/search/?p=ARTS%202320\" data-action=\"result-detail\" data-group=\"code:ARTS 2320\"  class=\"notoffered\">ARTS 2320</a>; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2300\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2310\"}, {\"type\": \"course\", \"code\": \"ARTS 2320\"}]}]}",
+      "other_requirements": "Minimum Junior standing; SART, AHST,ARTE majors only during the week of registration SART, ARTH, ARTS minors will be able to enroll, space permitting, the Friday afternoon of the week of registration PACE students with permission and override. Fee: $150.00",
       "external": false
     }
   ],
   "edges": [
     {
       "source": "ARTS 1014",
-      "target": "ARTS 2030"
+      "target": "ARTS 2030",
+      "group": "ARTS 2030__g0"
     },
     {
       "source": "ARTS 1014",
-      "target": "ARTS 2040"
+      "target": "ARTS 2040",
+      "group": "ARTS 2040__g0"
     },
     {
       "source": "ARTS 1014",
-      "target": "ARTS 2100"
+      "target": "ARTS 2100",
+      "group": "ARTS 2100__g0"
     },
     {
       "source": "ARTS 1014",
-      "target": "ARTS 2110"
+      "target": "ARTS 2110",
+      "group": "ARTS 2110__g0"
     },
     {
       "source": "ARTS 1014",
-      "target": "ARTS 2200"
+      "target": "ARTS 2200",
+      "group": "ARTS 2200__g0"
     },
     {
       "source": "ARTS 1014",
-      "target": "ARTS 2210"
+      "target": "ARTS 2210",
+      "group": "ARTS 2210__g0"
     },
     {
       "source": "ARTS 1014",
-      "target": "ARTS 2220"
+      "target": "ARTS 2220",
+      "group": "ARTS 2220__g0"
     },
     {
       "source": "ARTS 1014",
-      "target": "ARTS 2300"
+      "target": "ARTS 2300",
+      "group": "ARTS 2300__g0"
     },
     {
       "source": "ARTS 1014",
-      "target": "ARTS 2320"
+      "target": "ARTS 2320",
+      "group": "ARTS 2320__g0"
     },
     {
       "source": "ARTS 1014",
-      "target": "ARTS 2410"
+      "target": "ARTS 2410",
+      "group": "ARTS 2410__g0"
     },
     {
       "source": "ARTS 1014",
-      "target": "ARTS 2510"
+      "target": "ARTS 2510",
+      "group": "ARTS 2510__g0"
     },
     {
       "source": "ARTS 1014",
-      "target": "ARTS 2520"
+      "target": "ARTS 2520",
+      "group": "ARTS 2520__g0"
     },
     {
       "source": "ARTS 1014",
-      "target": "ARTS 2620"
+      "target": "ARTS 2620",
+      "group": "ARTS 2620__g0"
     },
     {
       "source": "ARTS 1014",
-      "target": "ARTS 2630"
+      "target": "ARTS 2630",
+      "group": "ARTS 2630__g0"
     },
     {
       "source": "ARTS 1014",
-      "target": "ARTS 2640"
+      "target": "ARTS 2640",
+      "group": "ARTS 2640__g0"
     },
     {
       "source": "ARTS 1014",
-      "target": "ARTS 2710"
+      "target": "ARTS 2710",
+      "group": "ARTS 2710__g0"
     },
     {
       "source": "ARTS 1014",
-      "target": "ARTS 2720"
+      "target": "ARTS 2720",
+      "group": "ARTS 2720__g0"
     },
     {
       "source": "ARTS 1014",
-      "target": "ARTS 2750"
+      "target": "ARTS 2750",
+      "group": "ARTS 2750__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2030"
+      "target": "ARTS 2030",
+      "group": "ARTS 2030__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2040"
+      "target": "ARTS 2040",
+      "group": "ARTS 2040__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2100"
+      "target": "ARTS 2100",
+      "group": "ARTS 2100__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2110"
+      "target": "ARTS 2110",
+      "group": "ARTS 2110__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2200"
+      "target": "ARTS 2200",
+      "group": "ARTS 2200__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2210"
+      "target": "ARTS 2210",
+      "group": "ARTS 2210__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2220"
+      "target": "ARTS 2220",
+      "group": "ARTS 2220__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2300"
+      "target": "ARTS 2300",
+      "group": "ARTS 2300__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2320"
+      "target": "ARTS 2320",
+      "group": "ARTS 2320__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2410"
+      "target": "ARTS 2410",
+      "group": "ARTS 2410__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2510"
+      "target": "ARTS 2510",
+      "group": "ARTS 2510__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2520"
+      "target": "ARTS 2520",
+      "group": "ARTS 2520__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2600"
+      "target": "ARTS 2600",
+      "group": "ARTS 2600__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2620"
+      "target": "ARTS 2620",
+      "group": "ARTS 2620__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2630"
+      "target": "ARTS 2630",
+      "group": "ARTS 2630__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2640"
+      "target": "ARTS 2640",
+      "group": "ARTS 2640__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2710"
+      "target": "ARTS 2710",
+      "group": "ARTS 2710__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2720"
+      "target": "ARTS 2720",
+      "group": "ARTS 2720__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 2750"
+      "target": "ARTS 2750",
+      "group": "ARTS 2750__g0"
     },
     {
       "source": "ARTS 1100",
-      "target": "ARTS 3910"
+      "target": "ARTS 3910",
+      "group": null
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2030"
+      "target": "ARTS 2030",
+      "group": "ARTS 2030__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2040"
+      "target": "ARTS 2040",
+      "group": "ARTS 2040__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2100"
+      "target": "ARTS 2100",
+      "group": "ARTS 2100__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2110"
+      "target": "ARTS 2110",
+      "group": "ARTS 2110__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2200"
+      "target": "ARTS 2200",
+      "group": "ARTS 2200__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2210"
+      "target": "ARTS 2210",
+      "group": "ARTS 2210__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2220"
+      "target": "ARTS 2220",
+      "group": "ARTS 2220__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2300"
+      "target": "ARTS 2300",
+      "group": "ARTS 2300__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2320"
+      "target": "ARTS 2320",
+      "group": "ARTS 2320__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2410"
+      "target": "ARTS 2410",
+      "group": "ARTS 2410__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2510"
+      "target": "ARTS 2510",
+      "group": "ARTS 2510__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2520"
+      "target": "ARTS 2520",
+      "group": "ARTS 2520__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2600"
+      "target": "ARTS 2600",
+      "group": "ARTS 2600__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2620"
+      "target": "ARTS 2620",
+      "group": "ARTS 2620__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2630"
+      "target": "ARTS 2630",
+      "group": "ARTS 2630__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2640"
+      "target": "ARTS 2640",
+      "group": "ARTS 2640__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2710"
+      "target": "ARTS 2710",
+      "group": "ARTS 2710__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2720"
+      "target": "ARTS 2720",
+      "group": "ARTS 2720__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 2750"
+      "target": "ARTS 2750",
+      "group": "ARTS 2750__g0"
     },
     {
       "source": "ARTS 1400",
-      "target": "ARTS 3910"
+      "target": "ARTS 3910",
+      "group": null
     },
     {
       "source": "ARTS 2100",
-      "target": "ARTS 3100"
+      "target": "ARTS 3100",
+      "group": "ARTS 3100__g0"
     },
     {
       "source": "ARTS 2100",
-      "target": "ARTS 3200"
+      "target": "ARTS 3200",
+      "group": "ARTS 3200__g0"
     },
     {
       "source": "ARTS 2110",
-      "target": "ARTS 3100"
+      "target": "ARTS 3100",
+      "group": "ARTS 3100__g0"
     },
     {
       "source": "ARTS 2200",
-      "target": "ARTS 3200"
+      "target": "ARTS 3200",
+      "group": "ARTS 3200__g0"
     },
     {
       "source": "ARTS 2210",
-      "target": "ARTS 3200"
+      "target": "ARTS 3200",
+      "group": "ARTS 3200__g0"
     },
     {
       "source": "ARTS 2220",
-      "target": "ARTS 3100"
+      "target": "ARTS 3100",
+      "group": "ARTS 3100__g0"
     },
     {
       "source": "ARTS 2220",
-      "target": "ARTS 3200"
+      "target": "ARTS 3200",
+      "group": "ARTS 3200__g0"
     },
     {
       "source": "ARTS 2300",
-      "target": "ARTS 3300"
+      "target": "ARTS 3300",
+      "group": "ARTS 3300__g0"
     },
     {
       "source": "ARTS 2320",
-      "target": "ARTS 3300"
+      "target": "ARTS 3300",
+      "group": "ARTS 3300__g0"
     },
     {
       "source": "ARTS 2410",
-      "target": "ARTS 3600"
+      "target": "ARTS 3600",
+      "group": "ARTS 3600__g0"
     },
     {
       "source": "ARTS 2510",
-      "target": "ARTS 3500"
+      "target": "ARTS 3500",
+      "group": "ARTS 3500__g0"
     },
     {
       "source": "ARTS 2520",
-      "target": "ARTS 3500"
+      "target": "ARTS 3500",
+      "group": "ARTS 3500__g0"
     },
     {
       "source": "ARTS 2520",
-      "target": "ARTS 3600"
+      "target": "ARTS 3600",
+      "group": "ARTS 3600__g0"
     },
     {
       "source": "ARTS 2600",
-      "target": "ARTS 3600"
+      "target": "ARTS 3600",
+      "group": "ARTS 3600__g0"
     },
     {
       "source": "ARTS 2710",
-      "target": "ARTS 3750"
+      "target": "ARTS 3750",
+      "group": "ARTS 3750__g1"
     },
     {
       "source": "ARTS 2720",
-      "target": "ARTS 3750"
+      "target": "ARTS 3750",
+      "group": "ARTS 3750__g1"
     },
     {
       "source": "ARTS 2750",
-      "target": "ARTS 3750"
+      "target": "ARTS 3750",
+      "group": "ARTS 3750__g1"
     },
     {
       "source": "ARTS 2881",
-      "target": "ARTS 2881"
+      "target": "ARTS 2881",
+      "group": "ARTS 2881__g0"
     },
     {
       "source": "ARTS 2881",
-      "target": "ARTS 4885"
+      "target": "ARTS 4885",
+      "group": null
     },
     {
       "source": "ARTS 4870",
-      "target": "ARTS 4870"
+      "target": "ARTS 4870",
+      "group": "ARTS 4870__g0"
     },
     {
       "source": "ARTS 4870",
-      "target": "ARTS 4885"
+      "target": "ARTS 4885",
+      "group": null
     },
     {
       "source": "FTS 1420",
-      "target": "ARTS 2510"
+      "target": "ARTS 2510",
+      "group": "ARTS 2510__g0"
     },
     {
       "source": "FTS 1420",
-      "target": "ARTS 2630"
+      "target": "ARTS 2630",
+      "group": "ARTS 2630__g0"
     },
     {
       "source": "FTS 1420",
-      "target": "ARTS 2640"
+      "target": "ARTS 2640",
+      "group": "ARTS 2640__g0"
     },
     {
       "source": "FTS 1430",
-      "target": "ARTS 2510"
+      "target": "ARTS 2510",
+      "group": "ARTS 2510__g0"
     },
     {
       "source": "FTS 1430",
-      "target": "ARTS 2630"
+      "target": "ARTS 2630",
+      "group": "ARTS 2630__g0"
     },
     {
       "source": "FTS 1430",
-      "target": "ARTS 2640"
+      "target": "ARTS 2640",
+      "group": "ARTS 2640__g0"
     }
   ]
 }

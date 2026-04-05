@@ -2,25 +2,25 @@
   "department": "LAT",
   "nodes": [
     {
-      "id": "LAT 2100",
-      "course_code": "LAT 2100",
+      "id": "LAT 4994",
+      "course_code": "LAT 4994",
       "department": "LAT",
-      "title": "Intermediate Latin I",
-      "credit_hours": "3",
-      "description": "Selections from Cicero and other prose authors. Prerequisite: <a href=\"/search/?p=LAT%201200\" data-action=\"result-detail\" data-group=\"code:LAT 1200\"  class=\"notoffered\">LAT 1200</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 1100\"}, {\"type\": \"course\", \"code\": \"LAT 1200\"}]}",
-      "other_requirements": "instructor permission",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     },
     {
-      "id": "LAT 5650",
-      "course_code": "LAT 5650",
+      "id": "LAT 3100",
+      "course_code": "LAT 3100",
       "department": "LAT",
-      "title": "Topics in Roman Poetry",
+      "title": "Survey of Latin Literature",
       "credit_hours": "3",
-      "description": "Representative topics: Roman Epic Poetry (Lucretius, Vergil, Ovid), Roman Lyric Poets (Catullus, Horace, Propertius, and Tibullus), Roman Comedy (Plautus and Terence), Satire (Horace, Persius, Juvenal, Petronius). May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Credit not awarded for both LAT 5650 and <a href=\"/search/?p=LAT%204650\" data-action=\"result-detail\" data-group=\"code:LAT 4650\"  class=\"notoffered\">LAT 4650</a>. Prerequisite: Classics Graduate student.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 4650\"}]}",
-      "other_requirements": "Classics Graduate student.",
+      "description": "Selections from principal Roman authors. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=LAT%202100\" data-action=\"result-detail\" data-group=\"code:LAT 2100\" >LAT 2100</a>, <a href=\"/search/?p=LAT%202200\" data-action=\"result-detail\" data-group=\"code:LAT 2200\"  class=\"notoffered\">LAT 2200</a>, or equivalent.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 2100\"}, {\"type\": \"course\", \"code\": \"LAT 2200\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 2100\"}, {\"type\": \"course\", \"code\": \"LAT 2200\"}]}]}",
+      "other_requirements": "instructor permission",
       "external": false
     },
     {
@@ -35,13 +35,35 @@
       "external": false
     },
     {
-      "id": "LAT 1200",
-      "course_code": "LAT 1200",
+      "id": "LAT 1100",
+      "course_code": "LAT 1100",
       "department": "LAT",
-      "title": "Elementary Latin II",
+      "title": "Elementary Latin I",
       "credit_hours": "4",
-      "description": "For students who present less than two years of high school Latin. Prerequisite: <a href=\"/search/?p=LAT%201100\" data-action=\"result-detail\" data-group=\"code:LAT 1100\"  class=\"notoffered\">LAT 1100</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 1100\"}, {\"type\": \"course\", \"code\": \"LAT 1100\"}]}",
+      "description": "For students who present less than two years of high school Latin.",
+      "prereq_expression": null,
+      "other_requirements": "For students who present less than two years of high school Latin. Open to Degree and PACE students; Co-requisite: LAT 1100 L01 or LAT 1100 L02",
+      "external": false
+    },
+    {
+      "id": "LAT 2200",
+      "course_code": "LAT 2200",
+      "department": "LAT",
+      "title": "Intermediate Latin II",
+      "credit_hours": "3",
+      "description": "Selections from Vergil and Ovid. Prerequisite: <a href=\"/search/?p=LAT%201200\" data-action=\"result-detail\" data-group=\"code:LAT 1200\" >LAT 1200</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 1200\"}, {\"type\": \"course\", \"code\": \"LAT 2100\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "LAT 2100",
+      "course_code": "LAT 2100",
+      "department": "LAT",
+      "title": "Intermediate Latin I",
+      "credit_hours": "3",
+      "description": "Selections from Cicero and other prose authors. Prerequisite: <a href=\"/search/?p=LAT%201200\" data-action=\"result-detail\" data-group=\"code:LAT 1200\"  class=\"notoffered\">LAT 1200</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 1100\"}, {\"type\": \"course\", \"code\": \"LAT 1200\"}]}",
       "other_requirements": "instructor permission",
       "external": false
     },
@@ -57,86 +79,73 @@
       "external": false
     },
     {
-      "id": "LAT 1100",
-      "course_code": "LAT 1100",
+      "id": "LAT 1200",
+      "course_code": "LAT 1200",
       "department": "LAT",
-      "title": "Elementary Latin I",
+      "title": "Elementary Latin II",
       "credit_hours": "4",
-      "description": "For students who present less than two years of high school Latin.",
-      "prereq_expression": null,
-      "other_requirements": "For students who present less than two years of high school Latin. Open to Degree and PACE students; Co-requisite: LAT 1100 L01 or LAT 1100 L02",
-      "external": false
-    },
-    {
-      "id": "LAT 3100",
-      "course_code": "LAT 3100",
-      "department": "LAT",
-      "title": "Survey of Latin Literature",
-      "credit_hours": "3",
-      "description": "Selections from principal Roman authors. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=LAT%202100\" data-action=\"result-detail\" data-group=\"code:LAT 2100\" >LAT 2100</a>, <a href=\"/search/?p=LAT%202200\" data-action=\"result-detail\" data-group=\"code:LAT 2200\"  class=\"notoffered\">LAT 2200</a>, or equivalent.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 2100\"}, {\"type\": \"course\", \"code\": \"LAT 2200\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 2100\"}, {\"type\": \"course\", \"code\": \"LAT 2200\"}]}]}",
+      "description": "For students who present less than two years of high school Latin. Prerequisite: <a href=\"/search/?p=LAT%201100\" data-action=\"result-detail\" data-group=\"code:LAT 1100\"  class=\"notoffered\">LAT 1100</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 1100\"}, {\"type\": \"course\", \"code\": \"LAT 1100\"}]}",
       "other_requirements": "instructor permission",
       "external": false
     },
     {
-      "id": "LAT 2200",
-      "course_code": "LAT 2200",
+      "id": "LAT 5650",
+      "course_code": "LAT 5650",
       "department": "LAT",
-      "title": "Intermediate Latin II",
+      "title": "Topics in Roman Poetry",
       "credit_hours": "3",
-      "description": "Selections from Vergil and Ovid. Prerequisite: <a href=\"/search/?p=LAT%201200\" data-action=\"result-detail\" data-group=\"code:LAT 1200\" >LAT 1200</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 1200\"}, {\"type\": \"course\", \"code\": \"LAT 2100\"}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "LAT 4994",
-      "course_code": "LAT 4994",
-      "department": "LAT",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "description": "Representative topics: Roman Epic Poetry (Lucretius, Vergil, Ovid), Roman Lyric Poets (Catullus, Horace, Propertius, and Tibullus), Roman Comedy (Plautus and Terence), Satire (Horace, Persius, Juvenal, Petronius). May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Credit not awarded for both LAT 5650 and <a href=\"/search/?p=LAT%204650\" data-action=\"result-detail\" data-group=\"code:LAT 4650\"  class=\"notoffered\">LAT 4650</a>. Prerequisite: Classics Graduate student.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 4650\"}]}",
+      "other_requirements": "Classics Graduate student.",
       "external": false
     }
   ],
   "edges": [
     {
       "source": "LAT 1100",
-      "target": "LAT 1200"
+      "target": "LAT 1200",
+      "group": "LAT 1200__g0"
     },
     {
       "source": "LAT 1100",
-      "target": "LAT 2100"
+      "target": "LAT 2100",
+      "group": "LAT 2100__g0"
     },
     {
       "source": "LAT 1200",
-      "target": "LAT 2100"
+      "target": "LAT 2100",
+      "group": "LAT 2100__g0"
     },
     {
       "source": "LAT 1200",
-      "target": "LAT 2200"
+      "target": "LAT 2200",
+      "group": "LAT 2200__g0"
     },
     {
       "source": "LAT 2100",
-      "target": "LAT 2200"
+      "target": "LAT 2200",
+      "group": "LAT 2200__g0"
     },
     {
       "source": "LAT 2100",
-      "target": "LAT 3100"
+      "target": "LAT 3100",
+      "group": "LAT 3100__g1"
     },
     {
       "source": "LAT 2100",
-      "target": "LAT 4600"
+      "target": "LAT 4600",
+      "group": "LAT 4600__g0"
     },
     {
       "source": "LAT 2200",
-      "target": "LAT 3100"
+      "target": "LAT 3100",
+      "group": "LAT 3100__g1"
     },
     {
       "source": "LAT 2200",
-      "target": "LAT 4600"
+      "target": "LAT 4600",
+      "group": "LAT 4600__g0"
     }
   ]
 }

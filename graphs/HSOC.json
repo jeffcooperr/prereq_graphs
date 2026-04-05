@@ -2,14 +2,14 @@
   "department": "HSOC",
   "nodes": [
     {
-      "id": "HSOC 1700",
-      "course_code": "HSOC 1700",
+      "id": "HSOC 2991",
+      "course_code": "HSOC 2991",
       "department": "HSOC",
-      "title": "Global Health Devel & Diversit",
-      "credit_hours": "3",
-      "description": "An anthropological exploration of connections between global health, economic development, and cultural diversity in contemporary times. Considers ways in which informed global citizens can make a positive difference in human health, taking socioeconomic and cultural diversity into account. Cross-listed with: <a href=\"/search/?p=ANTH%201190\" data-action=\"result-detail\" data-group=\"code:ANTH 1190\" >ANTH 1190</a>.",
+      "title": "Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
-      "other_requirements": null,
+      "other_requirements": "Instructor permission required",
       "external": false
     },
     {
@@ -24,14 +24,14 @@
       "external": false
     },
     {
-      "id": "HSOC 4995",
-      "course_code": "HSOC 4995",
+      "id": "HSOC 1700",
+      "course_code": "HSOC 1700",
       "department": "HSOC",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "title": "Global Health Devel & Diversit",
+      "credit_hours": "3",
+      "description": "An anthropological exploration of connections between global health, economic development, and cultural diversity in contemporary times. Considers ways in which informed global citizens can make a positive difference in human health, taking socioeconomic and cultural diversity into account. Cross-listed with: <a href=\"/search/?p=ANTH%201190\" data-action=\"result-detail\" data-group=\"code:ANTH 1190\" >ANTH 1190</a>.",
       "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
+      "other_requirements": null,
       "external": false
     },
     {
@@ -46,12 +46,34 @@
       "external": false
     },
     {
-      "id": "HSOC 2991",
-      "course_code": "HSOC 2991",
+      "id": "HSOC 3994",
+      "course_code": "HSOC 3994",
       "department": "HSOC",
-      "title": "Internship",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "HSOC 4995",
+      "course_code": "HSOC 4995",
+      "department": "HSOC",
+      "title": "Undergraduate Research",
       "credit_hours": "1 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "HSOC 3995",
+      "course_code": "HSOC 3995",
+      "department": "HSOC",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": "Instructor permission required",
       "external": false
@@ -68,34 +90,12 @@
       "external": false
     },
     {
-      "id": "HSOC 3994",
-      "course_code": "HSOC 3994",
-      "department": "HSOC",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
       "id": "HSOC 4991",
       "course_code": "HSOC 4991",
       "department": "HSOC",
       "title": "Internship",
       "credit_hours": "1 to 18",
       "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "HSOC 3995",
-      "course_code": "HSOC 3995",
-      "department": "HSOC",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": "Instructor permission required",
       "external": false

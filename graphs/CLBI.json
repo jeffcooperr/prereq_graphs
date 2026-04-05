@@ -2,17 +2,6 @@
   "department": "CLBI",
   "nodes": [
     {
-      "id": "CLBI 6010",
-      "course_code": "CLBI 6010",
-      "department": "CLBI",
-      "title": "Cell Biology",
-      "credit_hours": "3",
-      "description": "Advanced survey of cell organelles, their composition, origin, and the relationship between their structure and function. Emphasis on recent literature and current controversies. Prerequisites: <a href=\"/search/?p=CHEM%202585\" data-action=\"result-detail\" data-group=\"code:CHEM 2585\" >CHEM 2585</a>; Biology Graduate student; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 2585\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"Biology Graduate student\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}]}",
-      "other_requirements": "Graduate students only",
-      "external": false
-    },
-    {
       "id": "CLBI 7010",
       "course_code": "CLBI 7010",
       "department": "CLBI",
@@ -21,28 +10,6 @@
       "description": "Runs concurrently with <a href=\"/search/?p=CLBI%206010\" data-action=\"result-detail\" data-group=\"code:CLBI 6010\" >CLBI 6010</a> and utilizes primary literature and an active, discussion-based approach to provide intensive study in the logic, critical thinking, and experimental design &amp; interpretation. Co-requisite: <a href=\"/search/?p=CLBI%206010\" data-action=\"result-detail\" data-group=\"code:CLBI 6010\" >CLBI 6010</a>.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CLBI 6010\"}, {\"type\": \"course\", \"code\": \"CLBI 6010\"}]}",
       "other_requirements": "Graduate students only",
-      "external": false
-    },
-    {
-      "id": "CLBI 7020",
-      "course_code": "CLBI 7020",
-      "department": "CLBI",
-      "title": "Biomedical Data Analysis",
-      "credit_hours": "2",
-      "description": "Introduction to qualitative, quantitative and statistical analysis for cell, molecular, and biomedical sciences. The practical philosophy underlying data presentation and interpretation will be emphasized via problem solving in and outside of class time.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "CLBI 6080",
-      "course_code": "CLBI 6080",
-      "department": "CLBI",
-      "title": "Seminar",
-      "credit_hours": "1",
-      "description": "One hour.",
-      "prereq_expression": null,
-      "other_requirements": null,
       "external": false
     },
     {
@@ -57,15 +24,15 @@
       "external": false
     },
     {
-      "id": "CHEM 2585",
-      "course_code": "CHEM 2585",
-      "department": "CHEM",
-      "title": "Organic Chemistry 2",
-      "credit_hours": "4",
-      "description": "Reactivity of organic compounds and applications to synthesis. Spectroscopy is discussed in relation to compound characterization. For premedical and biological sciences students. Credit not awarded for both CHEM 2585 and <a href=\"/search/?p=CHEM%201550\" data-action=\"result-detail\" data-group=\"code:CHEM 1550\" >CHEM 1550</a>.  Prerequisite: <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a> or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\"  class=\"notoffered\">CHEM 2580</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1500\"}, {\"type\": \"course\", \"code\": \"CHEM 2580\"}]}",
-      "other_requirements": "Must register for a CHEM 2585 lab, L01-L20; Degree students only even after level restrictions removed; Post Bac Pre Med students register for CHEM 2585 ZRA; Fee: $85",
-      "external": true
+      "id": "CLBI 7020",
+      "course_code": "CLBI 7020",
+      "department": "CLBI",
+      "title": "Biomedical Data Analysis",
+      "credit_hours": "2",
+      "description": "Introduction to qualitative, quantitative and statistical analysis for cell, molecular, and biomedical sciences. The practical philosophy underlying data presentation and interpretation will be emphasized via problem solving in and outside of class time.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
     },
     {
       "id": "CLBI 6391",
@@ -77,6 +44,28 @@
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
+    },
+    {
+      "id": "CLBI 6010",
+      "course_code": "CLBI 6010",
+      "department": "CLBI",
+      "title": "Cell Biology",
+      "credit_hours": "3",
+      "description": "Advanced survey of cell organelles, their composition, origin, and the relationship between their structure and function. Emphasis on recent literature and current controversies. Prerequisites: <a href=\"/search/?p=CHEM%202585\" data-action=\"result-detail\" data-group=\"code:CHEM 2585\" >CHEM 2585</a>; Biology Graduate student; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 2585\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"Biology Graduate student\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}]}",
+      "other_requirements": "Graduate students only",
+      "external": false
+    },
+    {
+      "id": "CHEM 2585",
+      "course_code": "CHEM 2585",
+      "department": "CHEM",
+      "title": "Organic Chemistry 2",
+      "credit_hours": "4",
+      "description": "Reactivity of organic compounds and applications to synthesis. Spectroscopy is discussed in relation to compound characterization. For premedical and biological sciences students. Credit not awarded for both CHEM 2585 and <a href=\"/search/?p=CHEM%201550\" data-action=\"result-detail\" data-group=\"code:CHEM 1550\" >CHEM 1550</a>.  Prerequisite: <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a> or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\"  class=\"notoffered\">CHEM 2580</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1500\"}, {\"type\": \"course\", \"code\": \"CHEM 2580\"}]}",
+      "other_requirements": "Must register for a CHEM 2585 lab, L01-L20; Degree students only even after level restrictions removed; Post Bac Pre Med students register for CHEM 2585 ZRA; Fee: $85",
+      "external": true
     },
     {
       "id": "CLBI 6020",
@@ -99,16 +88,29 @@
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
+    },
+    {
+      "id": "CLBI 6080",
+      "course_code": "CLBI 6080",
+      "department": "CLBI",
+      "title": "Seminar",
+      "credit_hours": "1",
+      "description": "One hour.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
     }
   ],
   "edges": [
     {
       "source": "CHEM 2585",
-      "target": "CLBI 6010"
+      "target": "CLBI 6010",
+      "group": null
     },
     {
       "source": "CLBI 6010",
-      "target": "CLBI 7010"
+      "target": "CLBI 7010",
+      "group": "CLBI 7010__g0"
     }
   ]
 }

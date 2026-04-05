@@ -34,19 +34,94 @@ def load_data(conn):
 
     return courses, prereqs, edges
 
+def collapse_large_or(tree, known_courses, max_size=8):
+    """
+    Replace OR nodes with more than max_size direct course operands with an
+    other_requirement. Handles cases like 'any ENGL course 1010-1990' where
+    Gemini enumerates hundreds of course codes literally.
+    Only counts courses that actually exist in the database.
+    """
+    if not tree or not isinstance(tree, dict):
+        return tree
+    t = tree.get("type")
+    operands = tree.get("operands", [])
+    if t == "OR":
+        course_ops = [o for o in operands if o.get("type") == "course"]
+        real_ops = [o for o in course_ops if o.get("code") in known_courses]
+        if len(course_ops) > max_size:
+            from collections import Counter
+            depts = Counter(o.get("code", "").split()[0] for o in course_ops if o.get("code"))
+            main_dept = depts.most_common(1)[0][0] if depts else "course"
+            count = len(real_ops)
+            desc = f"Any {main_dept} course" + (f" ({count} available)" if count > 0 else "")
+            return {"type": "other_requirement", "description": desc}
+        return {**tree, "operands": [collapse_large_or(o, known_courses, max_size) for o in operands]}
+    if t == "AND":
+        return {**tree, "operands": [collapse_large_or(o, known_courses, max_size) for o in operands]}
+    return tree
+
+def get_edge_groups(tree, course_code):
+    """
+    Walk the prereq tree and return a dict mapping prereq_code -> group_id.
+    group_id is None for required (AND) edges.
+    group_id is a unique string for each OR group.
+    """
+    groups = {}
+    counter = [0]
+
+    def walk(node, current_group):
+        t = node.get("type")
+        if t == "course":
+            code = node.get("code")
+            if code:
+                groups[code] = current_group
+        elif t == "AND":
+            for operand in node.get("operands", []):
+                walk(operand, current_group)
+        elif t == "OR":
+            if current_group is not None:
+                # Already inside an OR context — inherit the group
+                for operand in node.get("operands", []):
+                    walk(operand, current_group)
+            else:
+                # New top-level OR group
+                gid = f"{course_code}__g{counter[0]}"
+                counter[0] += 1
+                for operand in node.get("operands", []):
+                    walk(operand, gid)
+
+    walk(tree, None)
+    return groups
+
 def build_graph(courses, prereqs, edges):
     G = nx.DiGraph()
 
     for code, meta in courses.items():
         G.add_node(code, **meta)
         if code in prereqs:
-            G.nodes[code]["prereq_expression"] = prereqs[code]["expression"]
+            # Collapse oversized OR groups before storing
+            expr = prereqs[code]["expression"]
+            if expr:
+                try:
+                    tree = json.loads(expr) if isinstance(expr, str) else expr
+                    tree = collapse_large_or(tree, courses)
+                    expr = json.dumps(tree)
+                except Exception:
+                    pass
+            G.nodes[code]["prereq_expression"] = expr
             G.nodes[code]["other_requirements"] = prereqs[code]["other"]
 
     for course_code, prereq_code in edges:
-        # Only add edge if both nodes exist in our course list
         if course_code in courses and prereq_code in courses:
-            G.add_edge(prereq_code, course_code)  # prereq → course
+            group = None
+            expr = G.nodes[course_code].get("prereq_expression")
+            if expr:
+                try:
+                    tree = json.loads(expr) if isinstance(expr, str) else expr
+                    group = get_edge_groups(tree, course_code).get(prereq_code)
+                except Exception:
+                    pass
+            G.add_edge(prereq_code, course_code, group=group)
 
     return G
 
@@ -81,9 +156,9 @@ def export_department(G, department, out_dir):
         })
 
     edges = []
-    for src, tgt in G.edges():
+    for src, tgt, data in G.edges(data=True):
         if src in all_nodes and tgt in all_nodes:
-            edges.append({"source": src, "target": tgt})
+            edges.append({"source": src, "target": tgt, "group": data.get("group")})
 
     out = {"department": department, "nodes": nodes, "edges": edges}
     path = os.path.join(out_dir, f"{department}.json")

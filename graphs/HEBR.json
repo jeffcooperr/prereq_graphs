@@ -2,17 +2,6 @@
   "department": "HEBR",
   "nodes": [
     {
-      "id": "HEBR 1100",
-      "course_code": "HEBR 1100",
-      "department": "HEBR",
-      "title": "Elementary Hebrew I",
-      "credit_hours": "4",
-      "description": "The spoken language of everyday use with oral, aural, and written practice in speaking, reading, and comprehension.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
       "id": "HEBR 2100",
       "course_code": "HEBR 2100",
       "department": "HEBR",
@@ -21,17 +10,6 @@
       "description": "Reading, translation, and discussion in Hebrew of texts selected to show the development of Hebrew culture from Biblical times to the present. Prerequisite: <a href=\"/search/?p=HEBR%201200\" data-action=\"result-detail\" data-group=\"code:HEBR 1200\"  class=\"notoffered\">HEBR 1200</a> or equivalent.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HEBR 1200\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
       "other_requirements": "Open to degree and PACE students; Colocated with HEBR 3150; Total combined enrollment: 35",
-      "external": false
-    },
-    {
-      "id": "HEBR 2200",
-      "course_code": "HEBR 2200",
-      "department": "HEBR",
-      "title": "Intermediate Hebrew II",
-      "credit_hours": "3",
-      "description": "Reading, translation, and discussion in Hebrew of texts selected to show the development of Hebrew culture from Biblical times to the present. Prerequisite: <a href=\"/search/?p=HEBR%202100\" data-action=\"result-detail\" data-group=\"code:HEBR 2100\"  class=\"notoffered\">HEBR 2100</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HEBR 2100\"}, {\"type\": \"course\", \"code\": \"HEBR 2100\"}]}",
-      "other_requirements": "equivalent; Colocated withHEBR 3150Total combined enrollment: 25; PACE students with permission and override",
       "external": false
     },
     {
@@ -55,24 +33,50 @@
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HEBR 1100\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
       "other_requirements": "Open to Degree and PACE students",
       "external": false
+    },
+    {
+      "id": "HEBR 2200",
+      "course_code": "HEBR 2200",
+      "department": "HEBR",
+      "title": "Intermediate Hebrew II",
+      "credit_hours": "3",
+      "description": "Reading, translation, and discussion in Hebrew of texts selected to show the development of Hebrew culture from Biblical times to the present. Prerequisite: <a href=\"/search/?p=HEBR%202100\" data-action=\"result-detail\" data-group=\"code:HEBR 2100\"  class=\"notoffered\">HEBR 2100</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HEBR 2100\"}, {\"type\": \"course\", \"code\": \"HEBR 2100\"}]}",
+      "other_requirements": "equivalent; Colocated withHEBR 3150Total combined enrollment: 25; PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "HEBR 1100",
+      "course_code": "HEBR 1100",
+      "department": "HEBR",
+      "title": "Elementary Hebrew I",
+      "credit_hours": "4",
+      "description": "The spoken language of everyday use with oral, aural, and written practice in speaking, reading, and comprehension.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
     }
   ],
   "edges": [
     {
       "source": "HEBR 1100",
-      "target": "HEBR 1200"
+      "target": "HEBR 1200",
+      "group": "HEBR 1200__g0"
     },
     {
       "source": "HEBR 1200",
-      "target": "HEBR 2100"
+      "target": "HEBR 2100",
+      "group": "HEBR 2100__g0"
     },
     {
       "source": "HEBR 2100",
-      "target": "HEBR 2200"
+      "target": "HEBR 2200",
+      "group": "HEBR 2200__g0"
     },
     {
       "source": "HEBR 2100",
-      "target": "HEBR 3150"
+      "target": "HEBR 3150",
+      "group": "HEBR 3150__g0"
     }
   ]
 }

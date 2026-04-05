@@ -2,25 +2,14 @@
   "department": "SOA",
   "nodes": [
     {
-      "id": "SOA 4994",
-      "course_code": "SOA 4994",
+      "id": "SOA 3991",
+      "course_code": "SOA 3991",
       "department": "SOA",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "title": "Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded.  Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "SOA 3995",
-      "course_code": "SOA 3995",
-      "department": "SOA",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required. Offered at department discretion.",
       "external": false
     },
     {
@@ -35,14 +24,25 @@
       "external": false
     },
     {
-      "id": "SOA 3991",
-      "course_code": "SOA 3991",
+      "id": "SOA 2990",
+      "course_code": "SOA 2990",
       "department": "SOA",
-      "title": "Internship",
-      "credit_hours": "1 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded.  Offered at department discretion.",
+      "title": "Museum Practices",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
       "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
+      "other_requirements": "PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "SOA 3995",
+      "course_code": "SOA 3995",
+      "department": "SOA",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required. Offered at department discretion.",
       "external": false
     },
     {
@@ -57,14 +57,14 @@
       "external": false
     },
     {
-      "id": "SOA 2990",
-      "course_code": "SOA 2990",
+      "id": "SOA 4994",
+      "course_code": "SOA 4994",
       "department": "SOA",
-      "title": "Museum Practices",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
-      "other_requirements": "PACE students by permission and override",
+      "other_requirements": "Instructor permission required",
       "external": false
     }
   ],

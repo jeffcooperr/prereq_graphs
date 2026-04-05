@@ -2,36 +2,14 @@
   "department": "EDSP",
   "nodes": [
     {
-      "id": "EDSP 7250",
-      "course_code": "EDSP 7250",
+      "id": "EDSP 5300",
+      "course_code": "EDSP 5300",
       "department": "EDSP",
-      "title": "Psycho-Ed and Single Case",
+      "title": "The Trauma Lens",
       "credit_hours": "3",
-      "description": "Contextual factors and social determinants of health and education, including racism, poverty, trauma, and other adversities, place children and youth at risk for emotional and behavioral difficulties (EBD). Addresses the psycho-education of children and youth with EBD and introduces students to single-case design research methodology. Prerequisite: Social-Emotional-Behavioral Health &amp; Inclusive Education student or Instructor permission.",
-      "prereq_expression": null,
-      "other_requirements": "Social-Emotional-Behavioral Health & Inclusive Education student or Instructor permission. Special Education Doctoral Course; SHIE PhD Students only or instructor permission.",
-      "external": false
-    },
-    {
-      "id": "ECLD 1560",
-      "course_code": "ECLD 1560",
-      "department": "ECLD",
-      "title": "Lang Policy Issues,Race&Sch",
-      "credit_hours": "3",
-      "description": "Explores the theories, practices, and policies related to race and language, and how they impact the working, teaching, and learning of English learners in multilingual and multicultural settings.",
+      "description": "Provides the theoretical foundation and conceptual frameworks that relate to building resilience for children, youth and families who have experienced trauma and adversity. Aims to help in-service and pre- service professionals in education, child welfare, health, and mental health gain a common language and knowledge base that will support equitable service delivery through the use of collaborative, family engaged, &amp; trauma responsive practices. Cross-listed with: <a href=\"/search/?p=CNSL%205300\" data-action=\"result-detail\" data-group=\"code:CNSL 5300\" >CNSL 5300</a>.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "EDSP 1000",
-      "course_code": "EDSP 1000",
-      "department": "EDSP",
-      "title": "Topics in Special Ed. Careers",
-      "credit_hours": "1",
-      "description": "Familiarizes students enrolled in the UVM Special Education major (BSEd) with the field of Special Education, namely career paths post-college. The main knowledge areas covered relate to the four Special Education BSEd age bands. Prerequisites: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a> or Instructor permission; Special Education major.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
-      "other_requirements": "Special Education major. CESS Students Only, or Instructor Permission.",
       "external": false
     },
     {
@@ -46,25 +24,14 @@
       "external": false
     },
     {
-      "id": "EDSP 5120",
-      "course_code": "EDSP 5120",
+      "id": "EDSP 7491",
+      "course_code": "EDSP 7491",
       "department": "EDSP",
-      "title": "Assessment in Special Ed",
-      "credit_hours": "3",
-      "description": "Course covers assessment knowledge and skills essential for special educators, including test selection, administration and scoring, and legal issues related to special education assessment. Prerequisite: Admission to graduate program in Special Education or  Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 5120\"}, {\"type\": \"course\", \"code\": \"SPED Master's\"}, {\"type\": \"course\", \"code\": \"SPED2 minors\"}, {\"type\": \"course\", \"code\": \"PACE students\"}]}",
-      "other_requirements": "Admission to graduate program in Special Education or Instructor permission; Synchronous Online Course; Open to Degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "EDSP 6991",
-      "course_code": "EDSP 6991",
-      "department": "EDSP",
-      "title": "Internship: Student Teaching",
+      "title": "Doctoral Dissertation Research",
       "credit_hours": "1 to 18",
-      "description": "Supervised graduate internship in school setting addressing special educator licensure standards. Prerequisites: At least 18 credits of EDSP graduate coursework; Special Education Graduate student; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 6991\"}]}",
-      "other_requirements": "At least 18 credits of EDSP graduate coursework; Special Education Graduate student; or Instructor permission. EDSP Master's students only; Variable credits 1 to 6",
+      "description": "Research for the Doctoral Dissertation.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     },
     {
@@ -79,37 +46,26 @@
       "external": false
     },
     {
-      "id": "EDSP 6340",
-      "course_code": "EDSP 6340",
+      "id": "EDSP 5120",
+      "course_code": "EDSP 5120",
       "department": "EDSP",
-      "title": "Restorative&Trma Pract w/Child",
+      "title": "Assessment in Special Ed",
       "credit_hours": "3",
-      "description": "An introduction to evidence-informed, restorative and trauma-informed approaches that support the social-emotional health for school-aged children and youth who have experienced trauma and adversity. Students will gain a toolbox of knowledge, practice and skills they can apply to their direct practice with children and families.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "description": "Course covers assessment knowledge and skills essential for special educators, including test selection, administration and scoring, and legal issues related to special education assessment. Prerequisite: Admission to graduate program in Special Education or  Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 5120\"}, {\"type\": \"course\", \"code\": \"SPED Master's\"}, {\"type\": \"course\", \"code\": \"SPED2 minors\"}, {\"type\": \"course\", \"code\": \"PACE students\"}]}",
+      "other_requirements": "Admission to graduate program in Special Education or Instructor permission; Synchronous Online Course; Open to Degree and PACE students",
       "external": false
     },
     {
-      "id": "EDSP 5110",
-      "course_code": "EDSP 5110",
+      "id": "EDSP 7993",
+      "course_code": "EDSP 7993",
       "department": "EDSP",
-      "title": "Meeting Inst Needs/All Stdnts",
+      "title": "Independent Study",
       "credit_hours": "3",
-      "description": "Students apply principles of learning and social development to improve academic and social skills of all individuals with a focus on those who present academic and behavioral challenges. Prerequisite: Instructor permission.",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
-      "other_requirements": "Instructor permission. Graduate Students or Endorsement Minors (SPED2) only, or instructor permission.",
+      "other_requirements": "Instructor permission required. Offered at department discretion.",
       "external": false
-    },
-    {
-      "id": "CSD 2010",
-      "course_code": "CSD 2010",
-      "department": "CSD",
-      "title": "Speech & Hearing Science",
-      "credit_hours": "4",
-      "description": "Structure and function of the respiratory, phonatory, articulatory, and hearing systems, coupled with models of speech and hearing as part of human communication. Prerequisites: Communication Sciences &amp; Disorders, Education major or minor, Neuroscience major; minimum Sophomore standing; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CSD 2010\"}, {\"type\": \"course\", \"code\": \"ED 2010\"}, {\"type\": \"course\", \"code\": \"NEUR 2010\"}]}",
-      "other_requirements": "minimum Sophomore standing; or Instructor permission. CSD, ECP, ECSP, ELK6, FCSE, PE, SEE, NEUR majors and CSD minors only;\nMust register for one of CSD 2010 labs L01-L03;",
-      "external": true
     },
     {
       "id": "EDSP 2520",
@@ -123,36 +79,91 @@
       "external": false
     },
     {
-      "id": "EDSP 7994",
-      "course_code": "EDSP 7994",
+      "id": "EDSP 6180",
+      "course_code": "EDSP 6180",
       "department": "EDSP",
-      "title": "Teaching Assistantship",
+      "title": "Relational Behavior Support",
       "credit_hours": "3",
-      "description": "Student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "description": "Instruction for learners with disabilities emphasizing learning principles, applied behavior analysis, and research-based interventions. Interventions focus on teaching new skills as well as analyzing and addressing maladaptive behaviors. Emphasizes applying these approaches in inclusive educational environments. Prerequisite: Special Education Graduate student or Instructor permission.",
       "prereq_expression": null,
-      "other_requirements": "Student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion. Instructor permission required",
+      "other_requirements": "Special Education Graduate student or Instructor permission. EDSP Master's students only or instructor permission",
       "external": false
     },
     {
-      "id": "EDSP 6150",
-      "course_code": "EDSP 6150",
+      "id": "EDSP 6140",
+      "course_code": "EDSP 6140",
       "department": "EDSP",
-      "title": "Curr & Tech Spec Ed: Math",
+      "title": "Curr & Tech Spec Ed: Literacy",
       "credit_hours": "3",
-      "description": "Curricular and assessment areas essential to math development for students with disabilities. Development, adaptation of curricula and assessment in elementary and secondary education for students with mild, moderate, and severe disabilities. Prerequisite: Special Education Graduate student or Instructor permission.",
-      "prereq_expression": null,
-      "other_requirements": "Special Education Graduate student or Instructor permission. Open to Graduate or PACE students.",
+      "description": "Curricular and assessment areas essential to literacy development for students with disabilities. Development, adaptation of curricula and assessment in elementary and secondary education for students with mild, moderate, and severe disabilities. Prerequisite: Special Education Graduate student or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 6140\"}, {\"type\": \"course\", \"code\": \"EDSP 6140\"}]}",
+      "other_requirements": "Special Education Graduate student or Instructor permission.",
       "external": false
     },
     {
-      "id": "EDSP 3160",
-      "course_code": "EDSP 3160",
+      "id": "EDSP 6990",
+      "course_code": "EDSP 6990",
       "department": "EDSP",
-      "title": "Advanced Literacy Intervention",
+      "title": "Portfolio Seminar",
+      "credit_hours": "2",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "EDSP 5250",
+      "course_code": "EDSP 5250",
+      "department": "EDSP",
+      "title": "Gr Culture of Disability",
       "credit_hours": "3",
-      "description": "Further develops appropriate procedures, strategies, and lesson planning for teaching literacy skills to students with disabilities.  Explicit and systematic instruction of advanced phonics, comprehension, and writing skills will be emphasized, along with a focus on evidence-based practice (e.g. science of reading) and explicit instruction for literacy, reading comprehension, and writing interventions within the context of multi-tiered systems of support. A methods course. Prerequisites: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>, <a href=\"/search/?p=EDSP%202160\" data-action=\"result-detail\" data-group=\"code:EDSP 2160\"  class=\"notoffered\">EDSP 2160</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}, {\"type\": \"course\", \"code\": \"EDSP 2160\"}]}",
-      "other_requirements": "Special Ed Majors or minors only. Requires Junior or Senior standing or instructor permission",
+      "description": "Focus on theoretical questions of how societies understand disability and its consequences for social justice, by examining the multiple determinants of the societal construction of disability. Credit not awarded for both EDSP 5250 and <a href=\"/search/?p=EDSP%203250\" data-action=\"result-detail\" data-group=\"code:EDSP 3250\"  class=\"notoffered\">EDSP 3250</a>. Pre/Co-requisites: <a href=\"/search/?p=EDSP%202170\" data-action=\"result-detail\" data-group=\"code:EDSP 2170\" >EDSP 2170</a>, <a href=\"/search/?p=CSD%202010\" data-action=\"result-detail\" data-group=\"code:CSD 2010\" >CSD 2010</a>, <a href=\"/search/?p=ASL%202990\" data-action=\"result-detail\" data-group=\"code:ASL 2990\"  class=\"notoffered\">ASL 2990</a>; Graduate student; or Instructor permission. Cross-listed with: <a href=\"/search/?p=CSD%205740\" data-action=\"result-detail\" data-group=\"code:CSD 5740\" >CSD 5740</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 2170\"}, {\"type\": \"course\", \"code\": \"CSD 2010\"}, {\"type\": \"course\", \"code\": \"ASL 2990\"}]}]}",
+      "other_requirements": "Graduate student; or Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "EDSP 3250",
+      "course_code": "EDSP 3250",
+      "department": "EDSP",
+      "title": "Culture of Disability",
+      "credit_hours": "3",
+      "description": "Examines the social and cultural experience of disability in different times and cultures. As an introduction to Disability Studies, topics covered will include foundational concepts/vocabulary, the influence of cultural beliefs, personal narratives, education, healthcare, social services, self-advocacy and the disability rights movement. Credit not awarded for both EDSP 3250 and <a href=\"/search/?p=EDSP%205250\" data-action=\"result-detail\" data-group=\"code:EDSP 5250\"  class=\"notoffered\">EDSP 5250</a>. Pre/Co-requisites: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>, <a href=\"/search/?p=ASL%201990\" data-action=\"result-detail\" data-group=\"code:ASL 1990\"  class=\"notoffered\">ASL 1990</a>; or Instructor permission. Cross-listed with: <a href=\"/search/?p=CSD%203200\" data-action=\"result-detail\" data-group=\"code:CSD 3200\" >CSD 3200</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}, {\"type\": \"course\", \"code\": \"ASL 1990\"}]}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
+      "other_requirements": "Juniors or Seniors only, or instructor permission.",
+      "external": false
+    },
+    {
+      "id": "EDSP 6340",
+      "course_code": "EDSP 6340",
+      "department": "EDSP",
+      "title": "Restorative&Trma Pract w/Child",
+      "credit_hours": "3",
+      "description": "An introduction to evidence-informed, restorative and trauma-informed approaches that support the social-emotional health for school-aged children and youth who have experienced trauma and adversity. Students will gain a toolbox of knowledge, practice and skills they can apply to their direct practice with children and families.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "EDSP 5130",
+      "course_code": "EDSP 5130",
+      "department": "EDSP",
+      "title": "Severe Disabil Char&Intervent",
+      "credit_hours": "3",
+      "description": "Physical, sensory, health, intellectual and behavioral characteristics of developmental disabilities. Educational approaches and supports from various professional disciplines to educate students with severe disabilities.",
+      "prereq_expression": null,
+      "other_requirements": "Sp.Ed. Graduate students only or instructor permission; Class attendance and participation; Individual and Group Work; Synchronous and Asynchronous on line",
+      "external": false
+    },
+    {
+      "id": "EDSP 3150",
+      "course_code": "EDSP 3150",
+      "department": "EDSP",
+      "title": "Math Interventions: K-21",
+      "credit_hours": "3",
+      "description": "Curricular and assessment areas essential to math development for students with disabilities. Development, adaptation of curricula and assessment in elementary and secondary education for students with mild, moderate, and severe disabilities. A focus on research-based mathematical intervention. Prerequisite: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}, {\"type\": \"course\", \"code\": \"EDSP 1050\"}]}",
+      "other_requirements": "Instructor permission",
       "external": false
     },
     {
@@ -167,34 +178,78 @@
       "external": false
     },
     {
-      "id": "EDSP 1050",
-      "course_code": "EDSP 1050",
+      "id": "EDSP 6190",
+      "course_code": "EDSP 6190",
       "department": "EDSP",
-      "title": "Iss Aff Persons W/Disabil",
-      "credit_hours": "3",
-      "description": "Students study the effects of discrimination, advocacy, litigation and sociological perspectives on disabilities. History, current legislation, and family issues for children and adults are emphasized.",
-      "prereq_expression": null,
-      "other_requirements": "Only open to CESS first-time first-years or by instructor permission; PACE students by permission and override.",
+      "title": "Special Ed Internship Seminar",
+      "credit_hours": "1",
+      "description": "Accompanies the student teaching experience. Intended to help develop a community of practice with peers, reinforce and review what has been learned in other special education courses, and promote reflection and problem solving regarding the internship experiences. Co-requisite: <a href=\"/search/?p=EDSP%206991\" data-action=\"result-detail\" data-group=\"code:EDSP 6991\" >EDSP 6991</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"EDSP 6991\"}",
+      "other_requirements": "EDSP Masters students only.",
       "external": false
     },
     {
-      "id": "EDSP 6130",
-      "course_code": "EDSP 6130",
+      "id": "EDSP 7994",
+      "course_code": "EDSP 7994",
       "department": "EDSP",
-      "title": "Collaborative Consultation",
+      "title": "Teaching Assistantship",
       "credit_hours": "3",
-      "description": "Adult development and group dynamics theory provide the knowledge base for collaborating with parents and teachers to meet the diverse needs of students with disabilities. Cross-listed with: <a href=\"/search/?p=EDLP%206200\" data-action=\"result-detail\" data-group=\"code:EDLP 6200\" >EDLP 6200</a>.",
+      "description": "Student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion. Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "CSD 2010",
+      "course_code": "CSD 2010",
+      "department": "CSD",
+      "title": "Speech & Hearing Science",
+      "credit_hours": "4",
+      "description": "Structure and function of the respiratory, phonatory, articulatory, and hearing systems, coupled with models of speech and hearing as part of human communication. Prerequisites: Communication Sciences &amp; Disorders, Education major or minor, Neuroscience major; minimum Sophomore standing; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CSD 2010\"}, {\"type\": \"course\", \"code\": \"ED 2010\"}, {\"type\": \"course\", \"code\": \"NEUR 2010\"}]}",
+      "other_requirements": "minimum Sophomore standing; or Instructor permission. CSD, ECP, ECSP, ELK6, FCSE, PE, SEE, NEUR majors and CSD minors only;\nMust register for one of CSD 2010 labs L01-L03;",
+      "external": true
+    },
+    {
+      "id": "EDSP 3230",
+      "course_code": "EDSP 3230",
+      "department": "EDSP",
+      "title": "Collab&Cmmunication in Sch&Com",
+      "credit_hours": "3",
+      "description": "Focuses on the science of collaboration and communication and provide students the opportunities to learn about and apply collaborative theory to home, school and community settings. Prerequisite: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"EDSP 1050\"}",
+      "other_requirements": "Open to Special Ed Majors or Minors;",
+      "external": false
+    },
+    {
+      "id": "ECLD 1560",
+      "course_code": "ECLD 1560",
+      "department": "ECLD",
+      "title": "Lang Policy Issues,Race&Sch",
+      "credit_hours": "3",
+      "description": "Explores the theories, practices, and policies related to race and language, and how they impact the working, teaching, and learning of English learners in multilingual and multicultural settings.",
       "prereq_expression": null,
       "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "EDSP 7250",
+      "course_code": "EDSP 7250",
+      "department": "EDSP",
+      "title": "Psycho-Ed and Single Case",
+      "credit_hours": "3",
+      "description": "Contextual factors and social determinants of health and education, including racism, poverty, trauma, and other adversities, place children and youth at risk for emotional and behavioral difficulties (EBD). Addresses the psycho-education of children and youth with EBD and introduces students to single-case design research methodology. Prerequisite: Social-Emotional-Behavioral Health &amp; Inclusive Education student or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Social-Emotional-Behavioral Health & Inclusive Education student or Instructor permission. Special Education Doctoral Course; SHIE PhD Students only or instructor permission.",
       "external": false
     },
     {
-      "id": "EDSP 3140",
-      "course_code": "EDSP 3140",
+      "id": "EDSP 2990",
+      "course_code": "EDSP 2990",
       "department": "EDSP",
-      "title": "Literacy Interventions: K-21",
-      "credit_hours": "3",
-      "description": null,
+      "title": "Navigating Emotion in Teaching",
+      "credit_hours": "1",
+      "description": "See Schedule of Course for specific title.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -211,36 +266,25 @@
       "external": false
     },
     {
-      "id": "EDSP 6140",
-      "course_code": "EDSP 6140",
+      "id": "EDSP 3120",
+      "course_code": "EDSP 3120",
       "department": "EDSP",
-      "title": "Curr & Tech Spec Ed: Literacy",
+      "title": "Assessment in Special Ed: K-21",
       "credit_hours": "3",
-      "description": "Curricular and assessment areas essential to literacy development for students with disabilities. Development, adaptation of curricula and assessment in elementary and secondary education for students with mild, moderate, and severe disabilities. Prerequisite: Special Education Graduate student or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 6140\"}, {\"type\": \"course\", \"code\": \"EDSP 6140\"}]}",
-      "other_requirements": "Special Education Graduate student or Instructor permission.",
+      "description": "Emphasizes professional, legal, and ethical practices related to assessment. Simulations, case study activities, and test administration activities are used to allow participants to gain an entry level proficiency in selecting, administering, scoring &amp; interpreting results for the purposes of determining special education eligibility, informing decisions related to instruction and intervention within an MTSS. Prerequisites: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>; Special Education minor licensure track; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}, {\"type\": \"course\", \"code\": \"Special Education minor licensure track\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
+      "other_requirements": "Special Ed majors or minors only. Requires Junior or Senior standing or Instructor Permission. Includes online asynchronous work.",
       "external": false
     },
     {
-      "id": "EDSP 3000",
-      "course_code": "EDSP 3000",
+      "id": "EDSP 1050",
+      "course_code": "EDSP 1050",
       "department": "EDSP",
-      "title": "Contemporary Issues",
+      "title": "Iss Aff Persons W/Disabil",
       "credit_hours": "3",
-      "description": "Designed so that its content and structure may accommodate special issues outside the boundaries of an existing course. Prerequisite: Twelve hours in education and related areas.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 3000\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1234\"}, {\"type\": \"course\", \"code\": \"EDSP 2345\"}, {\"type\": \"course\", \"code\": \"EDSP 3456\"}]}]}",
-      "other_requirements": "Twelve hours in education and related areas. Open to Special Ed Majors.",
-      "external": false
-    },
-    {
-      "id": "EDSP 5130",
-      "course_code": "EDSP 5130",
-      "department": "EDSP",
-      "title": "Severe Disabil Char&Intervent",
-      "credit_hours": "3",
-      "description": "Physical, sensory, health, intellectual and behavioral characteristics of developmental disabilities. Educational approaches and supports from various professional disciplines to educate students with severe disabilities.",
+      "description": "Students study the effects of discrimination, advocacy, litigation and sociological perspectives on disabilities. History, current legislation, and family issues for children and adults are emphasized.",
       "prereq_expression": null,
-      "other_requirements": "Sp.Ed. Graduate students only or instructor permission; Class attendance and participation; Individual and Group Work; Synchronous and Asynchronous on line",
+      "other_requirements": "Only open to CESS first-time first-years or by instructor permission; PACE students by permission and override.",
       "external": false
     },
     {
@@ -255,45 +299,34 @@
       "external": false
     },
     {
-      "id": "EDSP 7491",
-      "course_code": "EDSP 7491",
+      "id": "EDSP 3110",
+      "course_code": "EDSP 3110",
       "department": "EDSP",
-      "title": "Doctoral Dissertation Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Doctoral Dissertation.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EDSP 3120",
-      "course_code": "EDSP 3120",
-      "department": "EDSP",
-      "title": "Assessment in Special Ed: K-21",
+      "title": "Mtg Instrctl Needs All Stdnts",
       "credit_hours": "3",
-      "description": "Emphasizes professional, legal, and ethical practices related to assessment. Simulations, case study activities, and test administration activities are used to allow participants to gain an entry level proficiency in selecting, administering, scoring &amp; interpreting results for the purposes of determining special education eligibility, informing decisions related to instruction and intervention within an MTSS. Prerequisites: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>; Special Education minor licensure track; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}, {\"type\": \"course\", \"code\": \"Special Education minor licensure track\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
-      "other_requirements": "Special Ed majors or minors only. Requires Junior or Senior standing or Instructor Permission. Includes online asynchronous work.",
+      "description": "The design and implementation of research-based practices supporting student achievement in inclusive settings. Explores research-based practices related to inclusion of students with disabilities in general education classrooms. Primary focus is on students with moderate to severe disabilities. Prerequisites: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>; Special Education minor; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}, {\"type\": \"course\", \"code\": \"Special Education minor\"}]}]}",
+      "other_requirements": "Instructor permission. Special Ed majors or minors only. Requires junior or senior",
       "external": false
     },
     {
-      "id": "EDSP 2990",
-      "course_code": "EDSP 2990",
+      "id": "EDSP 2170",
+      "course_code": "EDSP 2170",
       "department": "EDSP",
-      "title": "Navigating Emotion in Teaching",
-      "credit_hours": "1",
-      "description": "See Schedule of Course for specific title.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "title": "Behavior Intervention",
+      "credit_hours": "3",
+      "description": "Discussion of theories and models developed for behavior management, and the translation of those theories into practical intervention techniques, both for the individual student and classroom groups. Emphasis on the use of interpersonal relationships as a means of changing child and youth behavior. Emphasizes culturally responsive practice in relationship to behavioral intervention. Prerequisite: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}]}",
+      "other_requirements": "EDSP majors only; Includes asynchronous online work. All Monday class sessions are asynchronous online. All Wednesdays are in person. This is a hybrid course that will be structured by weekly modules with online work due on Mondays and then weekly face to face class sessions on Wednesdays. This course is open to EDSP majors, minors or instructor permission and is recommend for teacher education special education minors.",
       "external": false
     },
     {
-      "id": "EDSP 3991",
-      "course_code": "EDSP 3991",
+      "id": "EDSP 3140",
+      "course_code": "EDSP 3140",
       "department": "EDSP",
-      "title": "Internship",
-      "credit_hours": "1 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded.  Offered at department discretion.",
+      "title": "Literacy Interventions: K-21",
+      "credit_hours": "3",
+      "description": null,
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -310,113 +343,25 @@
       "external": false
     },
     {
-      "id": "EDSP 6990",
-      "course_code": "EDSP 6990",
+      "id": "EDSP 3991",
+      "course_code": "EDSP 3991",
       "department": "EDSP",
-      "title": "Portfolio Seminar",
-      "credit_hours": "2",
-      "description": "See Schedule of Courses for specific titles.",
+      "title": "Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded.  Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
     },
     {
-      "id": "EDSP 5300",
-      "course_code": "EDSP 5300",
+      "id": "EDSP 6130",
+      "course_code": "EDSP 6130",
       "department": "EDSP",
-      "title": "The Trauma Lens",
+      "title": "Collaborative Consultation",
       "credit_hours": "3",
-      "description": "Provides the theoretical foundation and conceptual frameworks that relate to building resilience for children, youth and families who have experienced trauma and adversity. Aims to help in-service and pre- service professionals in education, child welfare, health, and mental health gain a common language and knowledge base that will support equitable service delivery through the use of collaborative, family engaged, &amp; trauma responsive practices. Cross-listed with: <a href=\"/search/?p=CNSL%205300\" data-action=\"result-detail\" data-group=\"code:CNSL 5300\" >CNSL 5300</a>.",
+      "description": "Adult development and group dynamics theory provide the knowledge base for collaborating with parents and teachers to meet the diverse needs of students with disabilities. Cross-listed with: <a href=\"/search/?p=EDLP%206200\" data-action=\"result-detail\" data-group=\"code:EDLP 6200\" >EDLP 6200</a>.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EDSP 3230",
-      "course_code": "EDSP 3230",
-      "department": "EDSP",
-      "title": "Collab&Cmmunication in Sch&Com",
-      "credit_hours": "3",
-      "description": "Focuses on the science of collaboration and communication and provide students the opportunities to learn about and apply collaborative theory to home, school and community settings. Prerequisite: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"EDSP 1050\"}",
-      "other_requirements": "Open to Special Ed Majors or Minors;",
-      "external": false
-    },
-    {
-      "id": "EDSP 3150",
-      "course_code": "EDSP 3150",
-      "department": "EDSP",
-      "title": "Math Interventions: K-21",
-      "credit_hours": "3",
-      "description": "Curricular and assessment areas essential to math development for students with disabilities. Development, adaptation of curricula and assessment in elementary and secondary education for students with mild, moderate, and severe disabilities. A focus on research-based mathematical intervention. Prerequisite: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a> or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}, {\"type\": \"course\", \"code\": \"EDSP 1050\"}]}",
-      "other_requirements": "Instructor permission",
-      "external": false
-    },
-    {
-      "id": "EDSP 3994",
-      "course_code": "EDSP 3994",
-      "department": "EDSP",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "EDSP 6180",
-      "course_code": "EDSP 6180",
-      "department": "EDSP",
-      "title": "Relational Behavior Support",
-      "credit_hours": "3",
-      "description": "Instruction for learners with disabilities emphasizing learning principles, applied behavior analysis, and research-based interventions. Interventions focus on teaching new skills as well as analyzing and addressing maladaptive behaviors. Emphasizes applying these approaches in inclusive educational environments. Prerequisite: Special Education Graduate student or Instructor permission.",
-      "prereq_expression": null,
-      "other_requirements": "Special Education Graduate student or Instructor permission. EDSP Master's students only or instructor permission",
-      "external": false
-    },
-    {
-      "id": "EDSP 5250",
-      "course_code": "EDSP 5250",
-      "department": "EDSP",
-      "title": "Gr Culture of Disability",
-      "credit_hours": "3",
-      "description": "Focus on theoretical questions of how societies understand disability and its consequences for social justice, by examining the multiple determinants of the societal construction of disability. Credit not awarded for both EDSP 5250 and <a href=\"/search/?p=EDSP%203250\" data-action=\"result-detail\" data-group=\"code:EDSP 3250\"  class=\"notoffered\">EDSP 3250</a>. Pre/Co-requisites: <a href=\"/search/?p=EDSP%202170\" data-action=\"result-detail\" data-group=\"code:EDSP 2170\" >EDSP 2170</a>, <a href=\"/search/?p=CSD%202010\" data-action=\"result-detail\" data-group=\"code:CSD 2010\" >CSD 2010</a>, <a href=\"/search/?p=ASL%202990\" data-action=\"result-detail\" data-group=\"code:ASL 2990\"  class=\"notoffered\">ASL 2990</a>; Graduate student; or Instructor permission. Cross-listed with: <a href=\"/search/?p=CSD%205740\" data-action=\"result-detail\" data-group=\"code:CSD 5740\" >CSD 5740</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 2170\"}, {\"type\": \"course\", \"code\": \"CSD 2010\"}, {\"type\": \"course\", \"code\": \"ASL 2990\"}]}]}",
-      "other_requirements": "Graduate student; or Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "EDSP 7993",
-      "course_code": "EDSP 7993",
-      "department": "EDSP",
-      "title": "Independent Study",
-      "credit_hours": "3",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required. Offered at department discretion.",
-      "external": false
-    },
-    {
-      "id": "EDSP 6190",
-      "course_code": "EDSP 6190",
-      "department": "EDSP",
-      "title": "Special Ed Internship Seminar",
-      "credit_hours": "1",
-      "description": "Accompanies the student teaching experience. Intended to help develop a community of practice with peers, reinforce and review what has been learned in other special education courses, and promote reflection and problem solving regarding the internship experiences. Co-requisite: <a href=\"/search/?p=EDSP%206991\" data-action=\"result-detail\" data-group=\"code:EDSP 6991\" >EDSP 6991</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"EDSP 6991\"}",
-      "other_requirements": "EDSP Masters students only.",
-      "external": false
-    },
-    {
-      "id": "EDSP 3250",
-      "course_code": "EDSP 3250",
-      "department": "EDSP",
-      "title": "Culture of Disability",
-      "credit_hours": "3",
-      "description": "Examines the social and cultural experience of disability in different times and cultures. As an introduction to Disability Studies, topics covered will include foundational concepts/vocabulary, the influence of cultural beliefs, personal narratives, education, healthcare, social services, self-advocacy and the disability rights movement. Credit not awarded for both EDSP 3250 and <a href=\"/search/?p=EDSP%205250\" data-action=\"result-detail\" data-group=\"code:EDSP 5250\"  class=\"notoffered\">EDSP 5250</a>. Pre/Co-requisites: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>, <a href=\"/search/?p=ASL%201990\" data-action=\"result-detail\" data-group=\"code:ASL 1990\"  class=\"notoffered\">ASL 1990</a>; or Instructor permission. Cross-listed with: <a href=\"/search/?p=CSD%203200\" data-action=\"result-detail\" data-group=\"code:CSD 3200\" >CSD 3200</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}, {\"type\": \"course\", \"code\": \"ASL 1990\"}]}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
-      "other_requirements": "Juniors or Seniors only, or instructor permission.",
       "external": false
     },
     {
@@ -442,120 +387,198 @@
       "external": false
     },
     {
-      "id": "EDSP 3110",
-      "course_code": "EDSP 3110",
+      "id": "EDSP 3000",
+      "course_code": "EDSP 3000",
       "department": "EDSP",
-      "title": "Mtg Instrctl Needs All Stdnts",
+      "title": "Contemporary Issues",
       "credit_hours": "3",
-      "description": "The design and implementation of research-based practices supporting student achievement in inclusive settings. Explores research-based practices related to inclusion of students with disabilities in general education classrooms. Primary focus is on students with moderate to severe disabilities. Prerequisites: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>; Special Education minor; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}, {\"type\": \"course\", \"code\": \"Special Education minor\"}]}]}",
-      "other_requirements": "Instructor permission. Special Ed majors or minors only. Requires junior or senior",
+      "description": "Designed so that its content and structure may accommodate special issues outside the boundaries of an existing course. Prerequisite: Twelve hours in education and related areas.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 3000\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1234\"}, {\"type\": \"course\", \"code\": \"EDSP 2345\"}, {\"type\": \"course\", \"code\": \"EDSP 3456\"}]}]}",
+      "other_requirements": "Twelve hours in education and related areas. Open to Special Ed Majors.",
       "external": false
     },
     {
-      "id": "EDSP 2170",
-      "course_code": "EDSP 2170",
+      "id": "EDSP 3160",
+      "course_code": "EDSP 3160",
       "department": "EDSP",
-      "title": "Behavior Intervention",
+      "title": "Advanced Literacy Intervention",
       "credit_hours": "3",
-      "description": "Discussion of theories and models developed for behavior management, and the translation of those theories into practical intervention techniques, both for the individual student and classroom groups. Emphasis on the use of interpersonal relationships as a means of changing child and youth behavior. Emphasizes culturally responsive practice in relationship to behavioral intervention. Prerequisite: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}]}",
-      "other_requirements": "EDSP majors only; Includes asynchronous online work. All Monday class sessions are asynchronous online. All Wednesdays are in person. This is a hybrid course that will be structured by weekly modules with online work due on Mondays and then weekly face to face class sessions on Wednesdays. This course is open to EDSP majors, minors or instructor permission and is recommend for teacher education special education minors.",
+      "description": "Further develops appropriate procedures, strategies, and lesson planning for teaching literacy skills to students with disabilities.  Explicit and systematic instruction of advanced phonics, comprehension, and writing skills will be emphasized, along with a focus on evidence-based practice (e.g. science of reading) and explicit instruction for literacy, reading comprehension, and writing interventions within the context of multi-tiered systems of support. A methods course. Prerequisites: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>, <a href=\"/search/?p=EDSP%202160\" data-action=\"result-detail\" data-group=\"code:EDSP 2160\"  class=\"notoffered\">EDSP 2160</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}, {\"type\": \"course\", \"code\": \"EDSP 2160\"}]}",
+      "other_requirements": "Special Ed Majors or minors only. Requires Junior or Senior standing or instructor permission",
+      "external": false
+    },
+    {
+      "id": "EDSP 5110",
+      "course_code": "EDSP 5110",
+      "department": "EDSP",
+      "title": "Meeting Inst Needs/All Stdnts",
+      "credit_hours": "3",
+      "description": "Students apply principles of learning and social development to improve academic and social skills of all individuals with a focus on those who present academic and behavioral challenges. Prerequisite: Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission. Graduate Students or Endorsement Minors (SPED2) only, or instructor permission.",
+      "external": false
+    },
+    {
+      "id": "EDSP 6150",
+      "course_code": "EDSP 6150",
+      "department": "EDSP",
+      "title": "Curr & Tech Spec Ed: Math",
+      "credit_hours": "3",
+      "description": "Curricular and assessment areas essential to math development for students with disabilities. Development, adaptation of curricula and assessment in elementary and secondary education for students with mild, moderate, and severe disabilities. Prerequisite: Special Education Graduate student or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Special Education Graduate student or Instructor permission. Open to Graduate or PACE students.",
+      "external": false
+    },
+    {
+      "id": "EDSP 3994",
+      "course_code": "EDSP 3994",
+      "department": "EDSP",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "EDSP 6991",
+      "course_code": "EDSP 6991",
+      "department": "EDSP",
+      "title": "Internship: Student Teaching",
+      "credit_hours": "1 to 18",
+      "description": "Supervised graduate internship in school setting addressing special educator licensure standards. Prerequisites: At least 18 credits of EDSP graduate coursework; Special Education Graduate student; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 6991\"}]}",
+      "other_requirements": "At least 18 credits of EDSP graduate coursework; Special Education Graduate student; or Instructor permission. EDSP Master's students only; Variable credits 1 to 6",
+      "external": false
+    },
+    {
+      "id": "EDSP 1000",
+      "course_code": "EDSP 1000",
+      "department": "EDSP",
+      "title": "Topics in Special Ed. Careers",
+      "credit_hours": "1",
+      "description": "Familiarizes students enrolled in the UVM Special Education major (BSEd) with the field of Special Education, namely career paths post-college. The main knowledge areas covered relate to the four Special Education BSEd age bands. Prerequisites: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a> or Instructor permission; Special Education major.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
+      "other_requirements": "Special Education major. CESS Students Only, or Instructor Permission.",
       "external": false
     }
   ],
   "edges": [
     {
       "source": "CSD 2010",
-      "target": "CSD 2010"
+      "target": "CSD 2010",
+      "group": "CSD 2010__g0"
     },
     {
       "source": "CSD 2010",
-      "target": "EDSP 5250"
+      "target": "EDSP 5250",
+      "group": "EDSP 5250__g0"
     },
     {
       "source": "ECLD 1560",
-      "target": "EDSP 3040"
+      "target": "EDSP 3040",
+      "group": "EDSP 3040__g0"
     },
     {
       "source": "EDSP 1050",
-      "target": "EDSP 1000"
+      "target": "EDSP 1000",
+      "group": "EDSP 1000__g0"
     },
     {
       "source": "EDSP 1050",
-      "target": "EDSP 2170"
+      "target": "EDSP 2170",
+      "group": null
     },
     {
       "source": "EDSP 1050",
-      "target": "EDSP 2520"
+      "target": "EDSP 2520",
+      "group": null
     },
     {
       "source": "EDSP 1050",
-      "target": "EDSP 3040"
+      "target": "EDSP 3040",
+      "group": "EDSP 3040__g0"
     },
     {
       "source": "EDSP 1050",
-      "target": "EDSP 3110"
+      "target": "EDSP 3110",
+      "group": "EDSP 3110__g0"
     },
     {
       "source": "EDSP 1050",
-      "target": "EDSP 3120"
+      "target": "EDSP 3120",
+      "group": "EDSP 3120__g0"
     },
     {
       "source": "EDSP 1050",
-      "target": "EDSP 3150"
+      "target": "EDSP 3150",
+      "group": "EDSP 3150__g0"
     },
     {
       "source": "EDSP 1050",
-      "target": "EDSP 3160"
+      "target": "EDSP 3160",
+      "group": null
     },
     {
       "source": "EDSP 1050",
-      "target": "EDSP 3230"
+      "target": "EDSP 3230",
+      "group": null
     },
     {
       "source": "EDSP 1050",
-      "target": "EDSP 3250"
+      "target": "EDSP 3250",
+      "group": "EDSP 3250__g0"
     },
     {
       "source": "EDSP 1050",
-      "target": "EDSP 3899"
+      "target": "EDSP 3899",
+      "group": null
     },
     {
       "source": "EDSP 1050",
-      "target": "EDSP 3980"
+      "target": "EDSP 3980",
+      "group": null
     },
     {
       "source": "EDSP 2170",
-      "target": "EDSP 3899"
+      "target": "EDSP 3899",
+      "group": null
     },
     {
       "source": "EDSP 2170",
-      "target": "EDSP 5250"
+      "target": "EDSP 5250",
+      "group": "EDSP 5250__g0"
     },
     {
       "source": "EDSP 3000",
-      "target": "EDSP 3000"
+      "target": "EDSP 3000",
+      "group": null
     },
     {
       "source": "EDSP 5100",
-      "target": "EDSP 5100"
+      "target": "EDSP 5100",
+      "group": "EDSP 5100__g0"
     },
     {
       "source": "EDSP 5120",
-      "target": "EDSP 5120"
+      "target": "EDSP 5120",
+      "group": "EDSP 5120__g0"
     },
     {
       "source": "EDSP 6140",
-      "target": "EDSP 6140"
+      "target": "EDSP 6140",
+      "group": "EDSP 6140__g0"
     },
     {
       "source": "EDSP 6991",
-      "target": "EDSP 6190"
+      "target": "EDSP 6190",
+      "group": null
     },
     {
       "source": "EDSP 6991",
-      "target": "EDSP 6991"
+      "target": "EDSP 6991",
+      "group": null
     }
   ]
 }

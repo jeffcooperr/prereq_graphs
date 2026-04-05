@@ -2,25 +2,25 @@
   "department": "FREN",
   "nodes": [
     {
-      "id": "FREN 4550",
-      "course_code": "FREN 4550",
+      "id": "FREN 4996",
+      "course_code": "FREN 4996",
       "department": "FREN",
-      "title": "French Cinema in Hollywood",
-      "credit_hours": "3",
-      "description": "Advanced study of French culture and literature. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=FREN%203610\" data-action=\"result-detail\" data-group=\"code:FREN 3610\" >FREN 3610</a> or <a href=\"/search/?p=FREN%203620\" data-action=\"result-detail\" data-group=\"code:FREN 3620\"  class=\"notoffered\">FREN 3620</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FREN 3610\"}, {\"type\": \"course\", \"code\": \"FREN 3620\"}]}",
-      "other_requirements": "PACE students by permission and override",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion. For CAS students pursuing College Honors PACE students by permission and override",
       "external": false
     },
     {
-      "id": "FREN 2100",
-      "course_code": "FREN 2100",
+      "id": "FREN 2200",
+      "course_code": "FREN 2200",
       "department": "FREN",
-      "title": "Intermediate French I",
+      "title": "Intermediate French II",
       "credit_hours": "3",
-      "description": "Review of grammar, moving toward increased proficiency in composition, listening comprehension, pronunciation, speaking, reading, and writing. Emphasis on cultural context. Compositions, oral practice, reading. Students may take 1 French course numbered between 2100 and 2109 for credit. Credit not awarded for FREN 2100 following receipt of credit for any FREN course numbered <a href=\"/search/?p=FREN%202200\" data-action=\"result-detail\" data-group=\"code:FREN 2200\" >FREN 2200</a> or above. Prerequisite: <a href=\"/search/?p=FREN%201200\" data-action=\"result-detail\" data-group=\"code:FREN 1200\" >FREN 1200</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FREN 1200\"}, {\"type\": \"course\", \"code\": \"FREN 1200\"}]}",
-      "other_requirements": "equivalent",
+      "description": "Continues building on skills from <a href=\"/search/?p=FREN%202100\" data-action=\"result-detail\" data-group=\"code:FREN 2100\" >FREN 2100</a>. Cultural context, grammar review, moving toward increased proficiency in listening comprehension, pronunciation, speaking, reading, and writing. More extensive and sophisticated readings and compositions than in <a href=\"/search/?p=FREN%202100\" data-action=\"result-detail\" data-group=\"code:FREN 2100\" >FREN 2100</a>. Students may take 1 French course numbered between 2200 and <a href=\"/search/?p=FREN%202209\" data-action=\"result-detail\" data-group=\"code:FREN 2209\"  class=\"notoffered\">2209</a> for credit. Credit not awarded for FREN 2200 following receipt of credit for any FREN course numbered <a href=\"/search/?p=FREN%203110\" data-action=\"result-detail\" data-group=\"code:FREN 3110\" >FREN 3110</a> or above. Prerequisite: <a href=\"/search/?p=FREN%202100\" data-action=\"result-detail\" data-group=\"code:FREN 2100\" >FREN 2100</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FREN 2100\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
+      "other_requirements": "Open to degree and PACE students",
       "external": false
     },
     {
@@ -31,6 +31,28 @@
       "credit_hours": "3",
       "description": "Study of selected aspects of France today. Improvement of language skills; emphasis on reading, writing, and analysis of a variety of materials, including literature, journalism, and images. Pre/co-requisite: <a href=\"/search/?p=FREN%203110\" data-action=\"result-detail\" data-group=\"code:FREN 3110\" >FREN 3110</a>.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"FREN 3110\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FREN 3110\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"FREN 3110\"}, {\"type\": \"other_requirement\", \"value\": \"PACE students with permission and override\"}]}]}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "FREN 3115",
+      "course_code": "FREN 3115",
+      "department": "FREN",
+      "title": "Focus on Oral Expression",
+      "credit_hours": "3",
+      "description": "Guided practice of oral-aural skills through vocabulary and pronunciation exercises, readings, and oral presentations. Writing exercises reinforce oral work. Prerequisite: <a href=\"/search/?p=FREN%202200\" data-action=\"result-detail\" data-group=\"code:FREN 2200\" >FREN 2200</a> or equivalent; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FREN 2200\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"FREN 2200\"}, {\"type\": \"course\", \"code\": \"PACE\"}]}]}",
+      "other_requirements": "equivalent; or Instructor permission. PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "FREN 4990",
+      "course_code": "FREN 4990",
+      "department": "FREN",
+      "title": "Le Pouvoir du \"Je\"",
+      "credit_hours": "3",
+      "description": "Advanced courses or seminars on topics beyond the scope of existing departmental offerings. See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"FREN 3110\"}, {\"type\": \"course\", \"code\": \"FREN 3990A\"}]}",
       "other_requirements": "PACE students with permission and override",
       "external": false
     },
@@ -46,6 +68,28 @@
       "external": false
     },
     {
+      "id": "FREN 3620",
+      "course_code": "FREN 3620",
+      "department": "FREN",
+      "title": "French Lit in Context II",
+      "credit_hours": "3",
+      "description": "A study of significant texts in the history of French literature from the French Revolution to the present, in their historical and cultural contexts. Prerequisite: <a href=\"/search/?p=FREN%203110\" data-action=\"result-detail\" data-group=\"code:FREN 3110\" >FREN 3110</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"FREN 3110\"}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "FREN 3110",
+      "course_code": "FREN 3110",
+      "department": "FREN",
+      "title": "Writing Workshop",
+      "credit_hours": "3",
+      "description": "Improvement of functional skills: writing, listening, and speaking. Development of techniques to explain, elaborate, support opinions, convince, and persuade in both writing and speaking. Prerequisite: <a href=\"/search/?p=FREN%202200\" data-action=\"result-detail\" data-group=\"code:FREN 2200\" >FREN 2200</a> or equivalent; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FREN 2200\"}, {\"type\": \"course\", \"code\": \"FREN 2200\"}]}",
+      "other_requirements": "equivalent; or Instructor permission. PACE students by permission and override",
+      "external": false
+    },
+    {
       "id": "FREN 1100",
       "course_code": "FREN 1100",
       "department": "FREN",
@@ -57,39 +101,6 @@
       "external": false
     },
     {
-      "id": "FREN 2200",
-      "course_code": "FREN 2200",
-      "department": "FREN",
-      "title": "Intermediate French II",
-      "credit_hours": "3",
-      "description": "Continues building on skills from <a href=\"/search/?p=FREN%202100\" data-action=\"result-detail\" data-group=\"code:FREN 2100\" >FREN 2100</a>. Cultural context, grammar review, moving toward increased proficiency in listening comprehension, pronunciation, speaking, reading, and writing. More extensive and sophisticated readings and compositions than in <a href=\"/search/?p=FREN%202100\" data-action=\"result-detail\" data-group=\"code:FREN 2100\" >FREN 2100</a>. Students may take 1 French course numbered between 2200 and <a href=\"/search/?p=FREN%202209\" data-action=\"result-detail\" data-group=\"code:FREN 2209\"  class=\"notoffered\">2209</a> for credit. Credit not awarded for FREN 2200 following receipt of credit for any FREN course numbered <a href=\"/search/?p=FREN%203110\" data-action=\"result-detail\" data-group=\"code:FREN 3110\" >FREN 3110</a> or above. Prerequisite: <a href=\"/search/?p=FREN%202100\" data-action=\"result-detail\" data-group=\"code:FREN 2100\" >FREN 2100</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FREN 2100\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
-      "other_requirements": "Open to degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "FREN 4996",
-      "course_code": "FREN 4996",
-      "department": "FREN",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion. For CAS students pursuing College Honors PACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "FREN 3115",
-      "course_code": "FREN 3115",
-      "department": "FREN",
-      "title": "Focus on Oral Expression",
-      "credit_hours": "3",
-      "description": "Guided practice of oral-aural skills through vocabulary and pronunciation exercises, readings, and oral presentations. Writing exercises reinforce oral work. Prerequisite: <a href=\"/search/?p=FREN%202200\" data-action=\"result-detail\" data-group=\"code:FREN 2200\" >FREN 2200</a> or equivalent; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FREN 2200\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"FREN 2200\"}, {\"type\": \"course\", \"code\": \"PACE\"}]}]}",
-      "other_requirements": "equivalent; or Instructor permission. PACE students by permission and override",
-      "external": false
-    },
-    {
       "id": "FREN 3610",
       "course_code": "FREN 3610",
       "department": "FREN",
@@ -97,6 +108,28 @@
       "credit_hours": "3",
       "description": "A study of significant texts in the history of French literature from the Middle Ages through the 18th century, in their historical and cultural contexts. Prerequisite: <a href=\"/search/?p=FREN%203110\" data-action=\"result-detail\" data-group=\"code:FREN 3110\" >FREN 3110</a>.",
       "prereq_expression": "{\"type\": \"course\", \"code\": \"FREN 3110\"}",
+      "other_requirements": "PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "FREN 2100",
+      "course_code": "FREN 2100",
+      "department": "FREN",
+      "title": "Intermediate French I",
+      "credit_hours": "3",
+      "description": "Review of grammar, moving toward increased proficiency in composition, listening comprehension, pronunciation, speaking, reading, and writing. Emphasis on cultural context. Compositions, oral practice, reading. Students may take 1 French course numbered between 2100 and 2109 for credit. Credit not awarded for FREN 2100 following receipt of credit for any FREN course numbered <a href=\"/search/?p=FREN%202200\" data-action=\"result-detail\" data-group=\"code:FREN 2200\" >FREN 2200</a> or above. Prerequisite: <a href=\"/search/?p=FREN%201200\" data-action=\"result-detail\" data-group=\"code:FREN 1200\" >FREN 1200</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FREN 1200\"}, {\"type\": \"course\", \"code\": \"FREN 1200\"}]}",
+      "other_requirements": "equivalent",
+      "external": false
+    },
+    {
+      "id": "FREN 4550",
+      "course_code": "FREN 4550",
+      "department": "FREN",
+      "title": "French Cinema in Hollywood",
+      "credit_hours": "3",
+      "description": "Advanced study of French culture and literature. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=FREN%203610\" data-action=\"result-detail\" data-group=\"code:FREN 3610\" >FREN 3610</a> or <a href=\"/search/?p=FREN%203620\" data-action=\"result-detail\" data-group=\"code:FREN 3620\"  class=\"notoffered\">FREN 3620</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FREN 3610\"}, {\"type\": \"course\", \"code\": \"FREN 3620\"}]}",
       "other_requirements": "PACE students by permission and override",
       "external": false
     },
@@ -112,17 +145,6 @@
       "external": false
     },
     {
-      "id": "FREN 3620",
-      "course_code": "FREN 3620",
-      "department": "FREN",
-      "title": "French Lit in Context II",
-      "credit_hours": "3",
-      "description": "A study of significant texts in the history of French literature from the French Revolution to the present, in their historical and cultural contexts. Prerequisite: <a href=\"/search/?p=FREN%203110\" data-action=\"result-detail\" data-group=\"code:FREN 3110\" >FREN 3110</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"FREN 3110\"}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
       "id": "FREN 1200",
       "course_code": "FREN 1200",
       "department": "FREN",
@@ -132,86 +154,78 @@
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FREN 1100\"}, {\"type\": \"other\", \"value\": \"equivalent\"}]}",
       "other_requirements": "Within three months prior to enrolling in your first language class at UVM, you need to take the online placement test (even if you haven't studied the language) and enroll in the course level recommended. Note that if you enroll in a class without taking the test, or enroll in a class below your recommended level, the system will disenroll you from the course (you will receive an email notification if this occurs). Find the placement test at go.uvm.edu/flp",
       "external": false
-    },
-    {
-      "id": "FREN 4990",
-      "course_code": "FREN 4990",
-      "department": "FREN",
-      "title": "Le Pouvoir du \"Je\"",
-      "credit_hours": "3",
-      "description": "Advanced courses or seminars on topics beyond the scope of existing departmental offerings. See Schedule of Courses for specific titles.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"FREN 3110\"}, {\"type\": \"course\", \"code\": \"FREN 3990A\"}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "FREN 3110",
-      "course_code": "FREN 3110",
-      "department": "FREN",
-      "title": "Writing Workshop",
-      "credit_hours": "3",
-      "description": "Improvement of functional skills: writing, listening, and speaking. Development of techniques to explain, elaborate, support opinions, convince, and persuade in both writing and speaking. Prerequisite: <a href=\"/search/?p=FREN%202200\" data-action=\"result-detail\" data-group=\"code:FREN 2200\" >FREN 2200</a> or equivalent; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"FREN 2200\"}, {\"type\": \"course\", \"code\": \"FREN 2200\"}]}",
-      "other_requirements": "equivalent; or Instructor permission. PACE students by permission and override",
-      "external": false
     }
   ],
   "edges": [
     {
       "source": "FREN 1100",
-      "target": "FREN 1200"
+      "target": "FREN 1200",
+      "group": "FREN 1200__g0"
     },
     {
       "source": "FREN 1200",
-      "target": "FREN 2100"
+      "target": "FREN 2100",
+      "group": "FREN 2100__g0"
     },
     {
       "source": "FREN 2100",
-      "target": "FREN 2200"
+      "target": "FREN 2200",
+      "group": "FREN 2200__g0"
     },
     {
       "source": "FREN 2200",
-      "target": "FREN 3110"
+      "target": "FREN 3110",
+      "group": "FREN 3110__g0"
     },
     {
       "source": "FREN 2200",
-      "target": "FREN 3115"
+      "target": "FREN 3115",
+      "group": "FREN 3115__g0"
     },
     {
       "source": "FREN 3110",
-      "target": "FREN 3410"
+      "target": "FREN 3410",
+      "group": "FREN 3410__g0"
     },
     {
       "source": "FREN 3110",
-      "target": "FREN 3610"
+      "target": "FREN 3610",
+      "group": null
     },
     {
       "source": "FREN 3110",
-      "target": "FREN 3620"
+      "target": "FREN 3620",
+      "group": null
     },
     {
       "source": "FREN 3110",
-      "target": "FREN 3990"
+      "target": "FREN 3990",
+      "group": "FREN 3990__g0"
     },
     {
       "source": "FREN 3110",
-      "target": "FREN 4990"
+      "target": "FREN 4990",
+      "group": null
     },
     {
       "source": "FREN 3610",
-      "target": "FREN 3550"
+      "target": "FREN 3550",
+      "group": "FREN 3550__g0"
     },
     {
       "source": "FREN 3610",
-      "target": "FREN 4550"
+      "target": "FREN 4550",
+      "group": "FREN 4550__g0"
     },
     {
       "source": "FREN 3620",
-      "target": "FREN 3550"
+      "target": "FREN 3550",
+      "group": "FREN 3550__g0"
     },
     {
       "source": "FREN 3620",
-      "target": "FREN 4550"
+      "target": "FREN 4550",
+      "group": "FREN 4550__g0"
     }
   ]
 }

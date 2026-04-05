@@ -13,14 +13,14 @@
       "external": false
     },
     {
-      "id": "MUE 2200",
-      "course_code": "MUE 2200",
+      "id": "MUE 2111",
+      "course_code": "MUE 2111",
       "department": "MUE",
-      "title": "University Concert Band",
-      "credit_hours": "1 to 2",
-      "description": "Large woodwind, brass, and percussion ensemble. Repertoire chosen from the standard literature as well as contemporary music, with emphasis on the art of ensemble playing. Open to students from all majors and colleges. Audition for placement. With Instructor permission, students with a different participation level may register for one credit. Prerequisite: Placement audition.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"MUE 2200\"}",
-      "other_requirements": "Placement audition required; PACE students by permission and override. With Instructor permission, students with a different participation level may register for one credit.",
+      "title": "Latin Jazz Ensemble",
+      "credit_hours": "1.5",
+      "description": "Small music ensembles including the following sections: (A) Pep Band; (B) Jazz Guitar Ensemble; (C) Latin Jazz Ensemble; (D) Percussion Ensemble; (E) Nonet; (F) Jazz Combo. See the expanded course descriptions for more ensemble-specific details. Audition for placement. Prerequisite: Placement audition.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MUE 2111\"}",
+      "other_requirements": "Placement audition. Audition required before enrollment confirmed. PACE students by permission and override.",
       "external": false
     },
     {
@@ -35,17 +35,6 @@
       "external": false
     },
     {
-      "id": "MUE 2125",
-      "course_code": "MUE 2125",
-      "department": "MUE",
-      "title": "Jazz Vocal Ensemble",
-      "credit_hours": "1.5",
-      "description": "Nine to sixteen vocalists (SATB), a cappella or accompanied by piano or rhythm section, performing arrangements of standard songs and jazz tunes. Open to students from all majors and colleges. Audition for placement. Prerequisite: Placement audition.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MUE 2125\"}]}",
-      "other_requirements": "Placement audition. Audition required before enrollment confirmed. PACE students by permission and override.",
-      "external": false
-    },
-    {
       "id": "MUE 3300",
       "course_code": "MUE 3300",
       "department": "MUE",
@@ -54,6 +43,28 @@
       "description": "Mixed, select SATB chamber choir. Performing vocal music from the medieval period to the present. Open to students from all majors and colleges. Audition required for admission. Prerequisite: Placement audition.",
       "prereq_expression": "{\"type\": \"course\", \"code\": \"MUE 3300\"}",
       "other_requirements": "Placement audition. Open to students from all majors and colleges. Audition required for admission. PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "MUE 3111",
+      "course_code": "MUE 3111",
+      "department": "MUE",
+      "title": "Advanced Small Ensembles",
+      "credit_hours": "1.5",
+      "description": "Small music ensembles including the following sections: (A) Post Bop Ensemble; (B) Chamber Orchestra. See the expanded course descriptions for more ensemble-specific details. Audition required for admission. Prerequisite: Placement audition.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MUE 3111\"}",
+      "other_requirements": "Placement audition. Audition required before enrollment confirmed; PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "MUE 2200",
+      "course_code": "MUE 2200",
+      "department": "MUE",
+      "title": "University Concert Band",
+      "credit_hours": "1 to 2",
+      "description": "Large woodwind, brass, and percussion ensemble. Repertoire chosen from the standard literature as well as contemporary music, with emphasis on the art of ensemble playing. Open to students from all majors and colleges. Audition for placement. With Instructor permission, students with a different participation level may register for one credit. Prerequisite: Placement audition.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MUE 2200\"}",
+      "other_requirements": "Placement audition required; PACE students by permission and override. With Instructor permission, students with a different participation level may register for one credit.",
       "external": false
     },
     {
@@ -68,17 +79,6 @@
       "external": false
     },
     {
-      "id": "MUE 2111",
-      "course_code": "MUE 2111",
-      "department": "MUE",
-      "title": "Latin Jazz Ensemble",
-      "credit_hours": "1.5",
-      "description": "Small music ensembles including the following sections: (A) Pep Band; (B) Jazz Guitar Ensemble; (C) Latin Jazz Ensemble; (D) Percussion Ensemble; (E) Nonet; (F) Jazz Combo. See the expanded course descriptions for more ensemble-specific details. Audition for placement. Prerequisite: Placement audition.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"MUE 2111\"}",
-      "other_requirements": "Placement audition. Audition required before enrollment confirmed. PACE students by permission and override.",
-      "external": false
-    },
-    {
       "id": "MUE 2300",
       "course_code": "MUE 2300",
       "department": "MUE",
@@ -90,49 +90,57 @@
       "external": false
     },
     {
-      "id": "MUE 3111",
-      "course_code": "MUE 3111",
+      "id": "MUE 2125",
+      "course_code": "MUE 2125",
       "department": "MUE",
-      "title": "Advanced Small Ensembles",
+      "title": "Jazz Vocal Ensemble",
       "credit_hours": "1.5",
-      "description": "Small music ensembles including the following sections: (A) Post Bop Ensemble; (B) Chamber Orchestra. See the expanded course descriptions for more ensemble-specific details. Audition required for admission. Prerequisite: Placement audition.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"MUE 3111\"}",
-      "other_requirements": "Placement audition. Audition required before enrollment confirmed; PACE students by permission and override",
+      "description": "Nine to sixteen vocalists (SATB), a cappella or accompanied by piano or rhythm section, performing arrangements of standard songs and jazz tunes. Open to students from all majors and colleges. Audition for placement. Prerequisite: Placement audition.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MUE 2125\"}]}",
+      "other_requirements": "Placement audition. Audition required before enrollment confirmed. PACE students by permission and override.",
       "external": false
     }
   ],
   "edges": [
     {
       "source": "MUE 2111",
-      "target": "MUE 2111"
+      "target": "MUE 2111",
+      "group": null
     },
     {
       "source": "MUE 2125",
-      "target": "MUE 2125"
+      "target": "MUE 2125",
+      "group": "MUE 2125__g0"
     },
     {
       "source": "MUE 2200",
-      "target": "MUE 2200"
+      "target": "MUE 2200",
+      "group": null
     },
     {
       "source": "MUE 2200",
-      "target": "MUE 3200"
+      "target": "MUE 3200",
+      "group": "MUE 3200__g0"
     },
     {
       "source": "MUE 2400",
-      "target": "MUE 2400"
+      "target": "MUE 2400",
+      "group": null
     },
     {
       "source": "MUE 2500",
-      "target": "MUE 2500"
+      "target": "MUE 2500",
+      "group": null
     },
     {
       "source": "MUE 3111",
-      "target": "MUE 3111"
+      "target": "MUE 3111",
+      "group": null
     },
     {
       "source": "MUE 3300",
-      "target": "MUE 3300"
+      "target": "MUE 3300",
+      "group": null
     }
   ]
 }

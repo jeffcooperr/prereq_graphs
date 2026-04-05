@@ -2,17 +2,6 @@
   "department": "EDLI",
   "nodes": [
     {
-      "id": "EDLI 6760",
-      "course_code": "EDLI 6760",
-      "department": "EDLI",
-      "title": "Information Sources & Services",
-      "credit_hours": "3",
-      "description": "Focuses on the librarian's role in curating, using, teaching, evaluating, and providing service with multimedia reference materials for the physical and virtual library learning spaces to meet the needs of a diverse learning community.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
       "id": "EDLI 6730",
       "course_code": "EDLI 6730",
       "department": "EDLI",
@@ -30,6 +19,17 @@
       "title": "Soc Justice in Schl Libraries",
       "credit_hours": "3",
       "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "EDLI 6760",
+      "course_code": "EDLI 6760",
+      "department": "EDLI",
+      "title": "Information Sources & Services",
+      "credit_hours": "3",
+      "description": "Focuses on the librarian's role in curating, using, teaching, evaluating, and providing service with multimedia reference materials for the physical and virtual library learning spaces to meet the needs of a diverse learning community.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false

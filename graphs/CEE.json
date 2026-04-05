@@ -2,212 +2,47 @@
   "department": "CEE",
   "nodes": [
     {
-      "id": "CEE 3815",
-      "course_code": "CEE 3815",
+      "id": "CEE 2993",
+      "course_code": "CEE 2993",
       "department": "CEE",
-      "title": "Geoenvironmental Engineering",
-      "credit_hours": "3",
-      "description": "Covers basic characteristics of soils (physical, mechanical, hydraulic, geochemistry); soil classifications; seepage and groundwater flow; contaminant transport in soil and groundwater; leakage in waste disposal and containment systems; the effective stress principle; consolidation and settlement analysis in landfills. Credit not awarded for both <a href=\"/search/?p=CEE%203800\" data-action=\"result-detail\" data-group=\"code:CEE 3800\"  class=\"notoffered\">CEE 3800</a> and CEE 3815. Prerequisites: <a href=\"/search/?p=CEE%201150\" data-action=\"result-detail\" data-group=\"code:CEE 1150\" >CEE 1150</a> with grade C- or better or <a href=\"/search/?p=CEE%201100\" data-action=\"result-detail\" data-group=\"code:CEE 1100\" >CEE 1100</a> with grade C- or better.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 1150\"}, {\"type\": \"course\", \"code\": \"CEE 1100\"}]}",
-      "other_requirements": "Prerequisites: CEE 1150 with grade C- or better or CEE 1100 with grade C- or better. Prereqs enforced by the system:CEE 1150orCEE 1100with grade C- or better; Pre/Coreq:CEE 2100orME 1140. Class attendance is mandatory. Class presentation on assigned topics related to the course material requires group work, and therefore, an active and equitable participation in expected from each student. The students are expected to actively participate in class discussions on the assigned case studies and evaluate their peers while presenting their work.",
-      "external": false
-    },
-    {
-      "id": "CEE 3530",
-      "course_code": "CEE 3530",
-      "department": "CEE",
-      "title": "Environmental Quanti. Analysis",
-      "credit_hours": "4",
-      "description": "Focuses on chemical, biochemical and physical processes; diffusion, equilibria, reaction kinetics, acids/bases, colloids, air/water exchange; laboratories demonstrate standard environmental engineering techniques; project-based. Prerequisites: <a href=\"/search/?p=CEE%202120\" data-action=\"result-detail\" data-group=\"code:CEE 2120\" >CEE 2120</a> with C- or better; <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a> or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a>. Co-requisite: <a href=\"/search/?p=CEE%203510\" data-action=\"result-detail\" data-group=\"code:CEE 3510\" >CEE 3510</a> or <a href=\"/search/?p=CEE%203515\" data-action=\"result-detail\" data-group=\"code:CEE 3515\"  class=\"notoffered\">CEE 3515</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 2120\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"STAT 2430\"}]}]}",
-      "other_requirements": "CEE 2120 with C- or better; Must register for lab",
-      "external": false
-    },
-    {
-      "id": "CEE 5730",
-      "course_code": "CEE 5730",
-      "department": "CEE",
-      "title": "Structural Design - Wood",
-      "credit_hours": "3",
-      "description": "Analysis and design of solid and glue laminated timber members and structural systems including tension members, beams, columns, beam-columns, diaphragms, shear walls, and connections; LRFD and ASD design methods; application of IBC for timber systems; current developments in wood design/construction; project-based. Prerequisite: Graduate student or Instructor permission; content knowledge of structural analysis (such as <a href=\"/search/?p=CEE%203700\" data-action=\"result-detail\" data-group=\"code:CEE 3700\" >CEE 3700</a>) assumed.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3700\"}]}]}",
-      "other_requirements": "Graduate student or Instructor permission; content knowledge of structural analysis assumed. Graduate student only or Instructor Permission; Design Elective (CE, EENV); Elective (CE, EENV)",
-      "external": false
-    },
-    {
-      "id": "CEE 6392",
-      "course_code": "CEE 6392",
-      "department": "CEE",
-      "title": "Master's Project Research",
-      "credit_hours": "1 to 6",
-      "description": "Independent project related to Civil &amp; Environmental Engineering under the supervision of a Civil &amp; Environmental Engineering faculty member, concluding with a written technical report and an oral presentation to a committee of two Civil &amp; Environmental Engineering faculty members. Prerequisite: Permission of Civil &amp; Environmental Engineering Graduate Coordinator or Civil &amp; Environmental Engineering Department Chair.",
-      "prereq_expression": null,
-      "other_requirements": "Permission of Civil & Environmental Engineering Graduate Coordinator or Civil & Environmental Engineering Department Chair. Graduate Standing only",
-      "external": false
-    },
-    {
-      "id": "CEE 3510",
-      "course_code": "CEE 3510",
-      "department": "CEE",
-      "title": "Water Quality Engineering",
-      "credit_hours": "3",
-      "description": "Fundamentals and design of sustainable systems for stormwater, drinking water, and wastewater treatment in urban and rural settings. Project-based. Credit not awarded for both CEE 3510 and <a href=\"/search/?p=CEE%203515\" data-action=\"result-detail\" data-group=\"code:CEE 3515\"  class=\"notoffered\">CEE 3515</a>. Prerequisite: <a href=\"/search/?p=CEE%202120\" data-action=\"result-detail\" data-group=\"code:CEE 2120\" >CEE 2120</a> with a grade of C- or better.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"CEE 2120\"}",
-      "other_requirements": "grade of C- or better; in-person attendance is required. No video recordings will be made or shared.",
-      "external": false
-    },
-    {
-      "id": "CEE 5440",
-      "course_code": "CEE 5440",
-      "department": "CEE",
-      "title": "Transport Plan Demand Modeling",
-      "credit_hours": "3",
-      "description": "Study of transportation planning theory and policy; methods used to collect and evaluate household travel behavior; design of household travel surveys; methods used to forecast household travel demand, destination choice; travel mode choice, and transportation network flows; mathematical methods common to travel modeling. Applications to both transportation planning practice and research. Credit not awarded for both CEE 5440 and <a href=\"/search/?p=CEE%204440\" data-action=\"result-detail\" data-group=\"code:CEE 4440\" >CEE 4440</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "MATH 2522",
-      "course_code": "MATH 2522",
-      "department": "MATH",
-      "title": "Applied Linear Algebra",
-      "credit_hours": "3",
-      "description": "Vectors, matrices, linear independence, vector spaces (with focus on real n-space), determinants, linear transformations, eigenvalues and eigenvectors. Applications from engineering and the sciences incorporated through required computer assignments. Credit not given for both MATH 2522 and <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>. Prerequisite: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
-      "other_requirements": "Credit not given for both MATH 2522 and MATH 2544. Open to Degree and PACE students. System waitlisting enabled for this section. This is a lecture-based course. Topics will be presented with a level of depth and rigor appropriate for students pursuing degrees in technical fields such as engineering, computer science, or the physical sciences. Math Majors should take Math 2544 Linear Algebra. Materials: WebAssign access for Linear Algebra with Applications, 9th edition, by Garreth Williams ISBN 1284154696 . WebAssign includes access to an e-text, as well as homework exercises. Matlab Assignments: No prior experience with Matlab is assumed. Matlab is used throughout the course and is available on the UVM CEMS computers and it can be downloaded from:https://www.uvm.edu/cems/installing_matlab_students",
-      "external": true
-    },
-    {
-      "id": "MATH 2248",
-      "course_code": "MATH 2248",
-      "department": "MATH",
-      "title": "Calculus III",
-      "credit_hours": "4",
-      "description": "Vector-valued functions. Calculus of functions of several variables: partial derivatives, gradient, divergence, curl, multiple integrals, line integrals, Stokes' and Green's theorems. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
-      "other_requirements": "C- or better in MATH 1248 or MATH 1242",
-      "external": true
-    },
-    {
-      "id": "CEE 3415",
-      "course_code": "CEE 3415",
-      "department": "CEE",
-      "title": "Transportation Climate Environ",
-      "credit_hours": "3",
-      "description": "Transportation systems planning, analysis, and design with foci on climate and environmental impacts. Credit not awarded for both CEE 3415 and <a href=\"/search/?p=CEE%203400\" data-action=\"result-detail\" data-group=\"code:CEE 3400\"  class=\"notoffered\">CEE 3400</a>. Prerequisites: Engineering major; minimum Sophomore standing; or Instructor permission. Co-requisite: <a href=\"/search/?p=CEE%202000\" data-action=\"result-detail\" data-group=\"code:CEE 2000\"  class=\"notoffered\">CEE 2000</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Engineering major; minimum Sophomore standing; or Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "CEE 7491",
-      "course_code": "CEE 7491",
-      "department": "CEE",
-      "title": "Doctoral Dissertation Research",
+      "title": "IS:Landscape DsgnCollaboration",
       "credit_hours": "1 to 18",
-      "description": "Research for the Doctoral Dissertation.",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisites: Senior standing; Department permission.",
       "prereq_expression": null,
-      "other_requirements": "Graduate standing only",
+      "other_requirements": "Senior standing; Department permission. Instructor permission required; Available credits 1-2",
       "external": false
     },
     {
-      "id": "CEE 4810",
-      "course_code": "CEE 4810",
+      "id": "CEE 1100",
+      "course_code": "CEE 1100",
       "department": "CEE",
-      "title": "Geotechnical Design",
+      "title": "Statics",
       "credit_hours": "3",
-      "description": "Bearing capacity, lateral earth pressures, slope stability; analysis and design of shallow and deep foundations, retaining structures, and slopes; project-based. Prerequisite: <a href=\"/search/?p=CEE%203800\" data-action=\"result-detail\" data-group=\"code:CEE 3800\"  class=\"notoffered\">CEE 3800</a> or <a href=\"/search/?p=CEE%203815\" data-action=\"result-detail\" data-group=\"code:CEE 3815\" >CEE 3815</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3800\"}, {\"type\": \"course\", \"code\": \"CEE 3815\"}]}",
-      "other_requirements": null,
+      "description": "Fundamentals of statics; composition and resolution of forces; the analysis of force systems in two and three dimensions; and centroids and moments of inertia. Credit not awarded for both CEE 1100 and <a href=\"/search/?p=CEE%201150\" data-action=\"result-detail\" data-group=\"code:CEE 1150\" >CEE 1150</a>. Prerequisites: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>; <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}, {\"type\": \"course\", \"code\": \"PHYS 1500\"}]}",
+      "other_requirements": "Must also register for recitation R01; Credit not awarded for both CEE 1100 and CEE 1150; Credit not awarded for both CEE 1000 and CEE 1150",
       "external": false
     },
     {
-      "id": "CEE 7993",
-      "course_code": "CEE 7993",
+      "id": "CEE 1150",
+      "course_code": "CEE 1150",
       "department": "CEE",
-      "title": "IS:Environmental LCA",
+      "title": "Applied Mechanics",
       "credit_hours": "3",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "description": "Introduction to statics, mechanics of materials, and heat transfer. Credit not awarded for both CEE 1150 and <a href=\"/search/?p=CEE%201100\" data-action=\"result-detail\" data-group=\"code:CEE 1100\" >CEE 1100</a>. Prerequisites: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>; <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}, {\"type\": \"course\", \"code\": \"PHYS 1500\"}]}",
+      "other_requirements": "Credit not awarded for both CEE 1150 and CEE 1100. Open to degree and PACE students",
       "external": false
     },
     {
-      "id": "CEE 1000",
-      "course_code": "CEE 1000",
+      "id": "CEE 2000",
+      "course_code": "CEE 2000",
       "department": "CEE",
-      "title": "Intro to Civil & Envir Engr",
-      "credit_hours": "2",
-      "description": "Introduction to Civil and Environmental Engineering, sustainability, ethics, systems thinking, teamwork in engineering, laboratories, computational exercises, and project-based.",
-      "prereq_expression": null,
-      "other_requirements": "Must register for a lab, L01-L04. Limit to CE, EENV, ENGR, EMGT majors, PACE students with instructor permission.",
-      "external": false
-    },
-    {
-      "id": "CEE 6610",
-      "course_code": "CEE 6610",
-      "department": "CEE",
-      "title": "Data Analytics Water Resources",
-      "credit_hours": "3",
-      "description": "Understanding and application of computational tools to the analysis of water resources data including: 1) autocorrelation or semivariograms to examine data structure; 2) kriging methods for data interpolation; 3) clustering and classification techniques for data exploration; and 4) Bayesian analyses to quantify uncertainty. Data analysis techniques are presented as a systems approach to site characterization, monitoring, remediation or restoration applications in groundwater or surface water settings recognized as components of the complex Earth system. Prerequisites: Content knowledge of statistics assumed; Graduate student.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 3600\"}, {\"type\": \"course\", \"code\": \"STAT 3600\"}]}, {\"type\": \"course\", \"code\": \"CS 1301\"}]}",
-      "other_requirements": "Graduate student. Knowledge of multivariate statistics and competence in a programming language.",
-      "external": false
-    },
-    {
-      "id": "CEE 2130",
-      "course_code": "CEE 2130",
-      "department": "CEE",
-      "title": "System Focused Design Engr",
-      "credit_hours": "3",
-      "description": "Systems-thinking applied to analysis and design of engineered systems and elements, including economic, social, and environmental aspects of sustainable designs within global contexts. Includes life-cycle cost analysis, uncertainty, risk, and engineering economics. Prerequisites: <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a> or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a> or <a href=\"/search/?p=STAT%202510\" data-action=\"result-detail\" data-group=\"code:STAT 2510\" >STAT 2510</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"STAT 2430\"}, {\"type\": \"course\", \"code\": \"STAT 2510\"}]}",
-      "other_requirements": "Instructor permission",
-      "external": false
-    },
-    {
-      "id": "CEE 5650",
-      "course_code": "CEE 5650",
-      "department": "CEE",
-      "title": "Groundwater Hydrolo & Modeling",
-      "credit_hours": "3",
-      "description": "Principles of ground water hydraulics, well characteristics, aquifers, and use of numerical methods to solve ground water flow problems. Modeling of groundwater and contamination remediation design. Credit not awarded for both CEE 5650 and <a href=\"/search/?p=CEE%204650\" data-action=\"result-detail\" data-group=\"code:CEE 4650\" >CEE 4650</a>. Prerequisites: Content knowledge hydraulics/fluid mechanics is assumed.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3600\"}, {\"type\": \"course\", \"code\": \"CEE 3615\"}]}",
-      "other_requirements": "Graduate standing or instructor permission; content knowledge of hydraulics/fluid mechanics (e.g. CEE 3600 or CEE 3615) assumed; Credit not awarded for both CEE 5650 and CEE 4650.",
-      "external": false
-    },
-    {
-      "id": "CEE 5620",
-      "course_code": "CEE 5620",
-      "department": "CEE",
-      "title": "Advanced Hydrology",
-      "credit_hours": "3",
-      "description": "Introduces computer modeling of hydrological systems. Project-based. Simple overland flow, flood routing, water quality, and groundwater models are developed using finite difference techniques. Stochastic hydrology and hydrologic time series analysis are also introduced. Prerequisite: Graduate student or Instructor permission; content knowledge of hydrology (such as <a href=\"/search/?p=CEE%204600\" data-action=\"result-detail\" data-group=\"code:CEE 4600\"  class=\"notoffered\">CEE 4600</a>) assumed.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 4600\"}, {\"type\": \"course\", \"code\": \"CEE 5600\"}]}",
-      "other_requirements": "Graduate student or Instructor permission; Graduate students only or Instructor permission",
-      "external": false
-    },
-    {
-      "id": "CEE 5993",
-      "course_code": "CEE 5993",
-      "department": "CEE",
-      "title": "IS:Advanced OxidationProcesses",
-      "credit_hours": "1",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "CEE 5660",
-      "course_code": "CEE 5660",
-      "department": "CEE",
-      "title": "Climate Change Impacts",
-      "credit_hours": "3",
-      "description": "Introduces the physical basis of climate change and explores a number of climate change impacts, particularly those that affect the built environment; primary focus on hydro-climate impacts, specifically flood risk, water resources, coastal flooding, and stormwater infrastructure; various modeling techniques are introduced and applied to engineering problems. Prerequisite: Graduate student or Instructor permission; programming skills (such as in Python or Matlab) and content knowledge of hydraulics/fluid mechanics (such as <a href=\"/search/?p=CEE%203600\" data-action=\"result-detail\" data-group=\"code:CEE 3600\"  class=\"notoffered\">CEE 3600</a>, <a href=\"/search/?p=CEE%203615\" data-action=\"result-detail\" data-group=\"code:CEE 3615\" >CEE 3615</a>, or <a href=\"/search/?p=ME%202230\" data-action=\"result-detail\" data-group=\"code:ME 2230\" >ME 2230</a>) assumed.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3600\"}, {\"type\": \"course\", \"code\": \"CEE 3615\"}, {\"type\": \"course\", \"code\": \"ME 2230\"}]}",
-      "other_requirements": "Graduate student or Instructor permission; programming skills (such as in Python or Matlab) and content knowledge of hydraulics/fluid mechanics assumed.",
+      "title": "Geomatics",
+      "credit_hours": "4",
+      "description": "An introduction to surveying including distance and angle measurements, leveling, traverse surveys, error propagation, topographical mapping, global positioning systems (GPS), and geographic information systems (GIS). Project-based. Prerequisites: <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a>, <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>; Sophomore standing.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1034\"}, {\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "other_requirements": "Sophomore standing. Must also register in lab L01-L03",
       "external": false
     },
     {
@@ -222,37 +57,26 @@
       "external": false
     },
     {
-      "id": "CEE 7980",
-      "course_code": "CEE 7980",
+      "id": "CEE 3700",
+      "course_code": "CEE 3700",
       "department": "CEE",
-      "title": "Applied Geostatistics",
+      "title": "Structural Analysis",
       "credit_hours": "3",
-      "description": "Introduction to the theory of regionalized variables, geostatistics (kriging techniques): special topics in multivariate analysis; Applications to real data subject to spatial variation are emphasized. Prerequisites: Programming skills (such as in Python or Matlab) and content knowledge of multivariate statistics (such as <a href=\"/search/?p=STAT%205230\" data-action=\"result-detail\" data-group=\"code:STAT 5230\"  class=\"notoffered\">STAT 5230</a>) are assumed. Cross-listed with: <a href=\"/search/?p=CSYS%207980\" data-action=\"result-detail\" data-group=\"code:CSYS 7980\" >CSYS 7980</a>, <a href=\"/search/?p=STAT%207980\" data-action=\"result-detail\" data-group=\"code:STAT 7980\" >STAT 7980</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 5230\"}]}",
-      "other_requirements": "Graduate standing; Programming skills (such as in Python or Matlab) and content knowledge of multivariate statistics are assumed. Cross-listed with CSYS 7980 and STAT 7980; Total combined enrollment: 40",
+      "description": "Analysis of statically determinate beams, frames, and trusses; expected loads, reactions; influence lines; moving loads; geometric methods for displacement calculations; introduction to matrix analysis for trusses. Prerequisites: <a href=\"/search/?p=CS%201210\" data-action=\"result-detail\" data-group=\"code:CS 1210\" >CS 1210</a>. Co-requisites: <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a> and <a href=\"/search/?p=MATH%203201\" data-action=\"result-detail\" data-group=\"code:MATH 3201\" >MATH 3201</a>; <a href=\"/search/?p=CEE%202100\" data-action=\"result-detail\" data-group=\"code:CEE 2100\"  class=\"notoffered\">CEE 2100</a> or <a href=\"/search/?p=ME%201140\" data-action=\"result-detail\" data-group=\"code:ME 1140\" >ME 1140</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CS 1210\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}, {\"type\": \"course\", \"code\": \"MATH 3201\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 2100\"}, {\"type\": \"course\", \"code\": \"ME 1140\"}]}]}",
+      "other_requirements": "Open to PACE students with instructor permission",
       "external": false
     },
     {
-      "id": "CEE 1994",
-      "course_code": "CEE 1994",
+      "id": "CEE 4600",
+      "course_code": "CEE 4600",
       "department": "CEE",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission",
+      "title": "Hydrology",
+      "credit_hours": "3",
+      "description": "Theory of precipitation, run-off, infiltration, and ground water; precipitation and run-off data; and application of data for use in development of water resources. Credit not awarded for both CEE 4600 and <a href=\"/search/?p=CEE%205600\" data-action=\"result-detail\" data-group=\"code:CEE 5600\" >CEE 5600</a>. Pre/Co-requisite: <a href=\"/search/?p=CEE%203600\" data-action=\"result-detail\" data-group=\"code:CEE 3600\"  class=\"notoffered\">CEE 3600</a> or <a href=\"/search/?p=CEE%203615\" data-action=\"result-detail\" data-group=\"code:CEE 3615\" >CEE 3615</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3600\"}, {\"type\": \"course\", \"code\": \"CEE 3615\"}]}",
+      "other_requirements": "Credit not awarded for both CEE 4600 and CEE 5600. Co-located with CEE 5600; Total combined enrollment: 40; Open to degree and PACE students; Tech elective for both CE and EnvE",
       "external": false
-    },
-    {
-      "id": "STAT 2430",
-      "course_code": "STAT 2430",
-      "department": "STAT",
-      "title": "Statistics for Engineering",
-      "credit_hours": "4",
-      "description": "Data analysis, probability models, parameter estimation, hypothesis testing. Multi- factor experimental design and regression analysis. Quality control, SPC, reliability. Engineering cases and project. Statistical analysis software. Credit not awarded for both <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a> and STAT 2430. Prerequisites: <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
-      "other_requirements": "Minimum sophomore standing; Open to Degree and PACE students",
-      "external": true
     },
     {
       "id": "CEE 4995",
@@ -263,127 +87,6 @@
       "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": "Instructor Permission",
-      "external": false
-    },
-    {
-      "id": "CEE 4730",
-      "course_code": "CEE 4730",
-      "department": "CEE",
-      "title": "Reinforced Concrete",
-      "credit_hours": "3",
-      "description": "Analysis of stresses in plain and reinforced concrete members; design of reinforced concrete structures; theory of prestressed concrete; project-based. Prerequisite: <a href=\"/search/?p=CEE%203700\" data-action=\"result-detail\" data-group=\"code:CEE 3700\" >CEE 3700</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"CEE 3700\"}",
-      "other_requirements": "Degree Elective (CE, EENV)",
-      "external": false
-    },
-    {
-      "id": "STAT 1410",
-      "course_code": "STAT 1410",
-      "department": "STAT",
-      "title": "Basic Statistical Methods 1",
-      "credit_hours": "3",
-      "description": "Foundational course for students taking further quantitative courses. Exploratory data analysis, probability distributions, estimation, hypothesis testing. Introductory regression, experimentation, contingency tables, and nonparametrics. Computer software used. Credit not awarded for more than one of STAT 1410 or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Credit not awarded for more than one of STAT 1410 or STAT 2430. Open to Degree and PACE students.",
-      "external": true
-    },
-    {
-      "id": "MATH 1248",
-      "course_code": "MATH 1248",
-      "department": "MATH",
-      "title": "Calculus II",
-      "credit_hours": "4",
-      "description": "Vectors and vector operations. Techniques and applications of integration. Polar coordinates, Taylor polynomials, sequences and series, power series. Credit will not be given for both MATH 1248 and <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 021\"}]}",
-      "other_requirements": "C- or better in MATH 1234. C- or better in MATH 021.",
-      "external": true
-    },
-    {
-      "id": "CEE 2993",
-      "course_code": "CEE 2993",
-      "department": "CEE",
-      "title": "IS:Landscape DsgnCollaboration",
-      "credit_hours": "1 to 18",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisites: Senior standing; Department permission.",
-      "prereq_expression": null,
-      "other_requirements": "Senior standing; Department permission. Instructor permission required; Available credits 1-2",
-      "external": false
-    },
-    {
-      "id": "CEE 4990",
-      "course_code": "CEE 4990",
-      "department": "CEE",
-      "title": "Transp. Eng. Applications",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "CEE 5700",
-      "course_code": "CEE 5700",
-      "department": "CEE",
-      "title": "Advanced Structural Analysis",
-      "credit_hours": "3",
-      "description": "Virtual work and strain energy theorems, matrix analysis of three-dimensional statically indeterminate frame and truss structures by the flexibility and stiffness method, stability and collapse mechanisms in structural systems. Project-based. Prerequisite: Graduate student or Instructor permission; content knowledge of structural analysis (such as <a href=\"/search/?p=CEE%203700\" data-action=\"result-detail\" data-group=\"code:CEE 3700\"  class=\"notoffered\">CEE 3700</a>) assumed.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3700\"}]}",
-      "other_requirements": "Graduate student or Instructor permission; content knowledge of structural analysis (such as CEE 3700) assumed. Graduate standing or instructor permission;",
-      "external": false
-    },
-    {
-      "id": "STAT 5230",
-      "course_code": "STAT 5230",
-      "department": "STAT",
-      "title": "Appld Multivariate Analysis",
-      "credit_hours": "3",
-      "description": "Multivariate normal distribution. Inference for mean vectors and covariance matrices. Multivariate analysis of variance (MANOVA), discrimination and classification, principal components, factor and cluster analysis. Prerequisite: Graduate student or Instructor permission; content knowledge of <a href=\"/search/?p=STAT%203210\" data-action=\"result-detail\" data-group=\"code:STAT 3210\" >STAT 3210</a> and <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a> assumed.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 3210\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}]}",
-      "other_requirements": "Graduate student or Instructor permission",
-      "external": true
-    },
-    {
-      "id": "CEE 6391",
-      "course_code": "CEE 6391",
-      "department": "CEE",
-      "title": "Master's Thesis Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Master's Thesis.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate standing only",
-      "external": false
-    },
-    {
-      "id": "MATH 2544",
-      "course_code": "MATH 2544",
-      "department": "MATH",
-      "title": "Linear Algebra",
-      "credit_hours": "3",
-      "description": "Vector spaces, linear independence, bases, linear transformations, matrices, determinants, change of basis characteristic equations, eigenvalues and eigenvectors, with applications. Emphasis on understanding and gaining facility with these concepts including proofs. Credit not given for both <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> and MATH 2544. Prerequisite: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Co-requisite: <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or <a href=\"/search/?p=MATH%202055\" data-action=\"result-detail\" data-group=\"code:MATH 2055\" >MATH 2055</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
-      "other_requirements": "Co-requisite: MATH 2248 or MATH 2055. Credit not given for both MATH 2522 and MATH 2544. Open to Degree and PACE students.",
-      "external": true
-    },
-    {
-      "id": "MATH 1234",
-      "course_code": "MATH 1234",
-      "department": "MATH",
-      "title": "Calculus I",
-      "credit_hours": "4",
-      "description": "Introduction to calculus of functions of one variable including: limits, continuity, techniques and applications of differentiation and integration. Credit not given for more than one course in the pair <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, MATH 1234 unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a> or a score of 76 or higher on the placement assessment.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1034\"}, {\"type\": \"other_requirement\", \"description\": \"ALEKS MPA of at least 76\"}]}",
-      "other_requirements": "C- or better in MATH 1034 or a score of 76 or higher on the placement assessment. Prereqs enforced by the system.",
-      "external": true
-    },
-    {
-      "id": "CEE 3520",
-      "course_code": "CEE 3520",
-      "department": "CEE",
-      "title": "Env Eng Chemistry & Microbio",
-      "credit_hours": "3",
-      "description": "Fundamentals of (bio)chemical transformations in water, soil, and air and applications for pollution prevention and remediation. Topics include chemical thermodynamics, acid-base, reduction-oxidation, dissolution-precipitation, kinetics, molecular biology, metabolism, and bioenergetics. Prerequisites: <a href=\"/search/?p=CEE%203510\" data-action=\"result-detail\" data-group=\"code:CEE 3510\" >CEE 3510</a> or <a href=\"/search/?p=CEE%203515\" data-action=\"result-detail\" data-group=\"code:CEE 3515\"  class=\"notoffered\">CEE 3515</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3510\"}, {\"type\": \"course\", \"code\": \"CEE 3515\"}]}",
-      "other_requirements": "Tech elective for both CE and EnvE",
       "external": false
     },
     {
@@ -398,70 +101,59 @@
       "external": false
     },
     {
-      "id": "CEE 3615",
-      "course_code": "CEE 3615",
+      "id": "CEE 7491",
+      "course_code": "CEE 7491",
       "department": "CEE",
-      "title": "Hydraulics for Environ Engnrg",
-      "credit_hours": "3",
-      "description": "The mechanics of incompressible fluids (fluid statics and fluid flow) with applications common in Environmental Engineering such as flow in open and closed conduits, open channel flow, stream power, flow meters, capillarity, and elements of hydraulic machinery (systems with turbines, pumps). Credit not awarded for both CEE 3615 and <a href=\"/search/?p=CEE%203600\" data-action=\"result-detail\" data-group=\"code:CEE 3600\"  class=\"notoffered\">CEE 3600</a>. Prerequisites: <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>; <a href=\"/search/?p=CEE%201100\" data-action=\"result-detail\" data-group=\"code:CEE 1100\" >CEE 1100</a> with grade C- or better or <a href=\"/search/?p=CEE%201150\" data-action=\"result-detail\" data-group=\"code:CEE 1150\" >CEE 1150</a> with grade C- or better. Co-requisite: <a href=\"/search/?p=CS%201210\" data-action=\"result-detail\" data-group=\"code:CS 1210\" >CS 1210</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2248\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 1100\"}, {\"type\": \"course\", \"code\": \"CEE 1150\"}]}]}",
-      "other_requirements": "grade C- or better",
+      "title": "Doctoral Dissertation Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Doctoral Dissertation.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate standing only",
       "external": false
     },
     {
-      "id": "CEE 5550",
-      "course_code": "CEE 5550",
-      "department": "CEE",
-      "title": "Phys/Chem Proc Water/Wstwater",
-      "credit_hours": "3",
-      "description": "Theory of physical/chemical processes for treating waters and wastewaters; reactor dynamics, mass transfer, adsorption, ion exchange, precipitation; project-based. Prerequisite: Graduate student or Instructor permission; content knowledge of water and wastewater engineering (such as <a href=\"/search/?p=CEE%203510\" data-action=\"result-detail\" data-group=\"code:CEE 3510\" >CEE 3510</a> or <a href=\"/search/?p=CEE%203515\" data-action=\"result-detail\" data-group=\"code:CEE 3515\"  class=\"notoffered\">CEE 3515</a>) assumed.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3510\"}, {\"type\": \"course\", \"code\": \"CEE 3515\"}]}",
-      "other_requirements": "Graduate student or Instructor permission; content knowledge of water and wastewater engineering assumed. Graduate standing or instructor permission",
-      "external": false
-    },
-    {
-      "id": "CEE 4570",
-      "course_code": "CEE 4570",
-      "department": "CEE",
-      "title": "Sustain Resource Recovery Dsgn",
-      "credit_hours": "3",
-      "description": "Solid waste engineering with an emphasis on engineering strategies to create more circular economies. Course topics include landfilling, recycling, incineration, composting, anaerobic digestion, technoeconomic analysis, and environmental life cycle assessment. Project based. Prerequisite: <a href=\"/search/?p=CEE%202120\" data-action=\"result-detail\" data-group=\"code:CEE 2120\" >CEE 2120</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"CEE 2120\"}",
-      "other_requirements": "Open to degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "ME 2230",
-      "course_code": "ME 2230",
-      "department": "ME",
-      "title": "Fluid Mechanics",
-      "credit_hours": "3",
-      "description": "Fluid pressure distributions; integral control volume systems; differential relations for a fluid particle; dimensional similarity; viscous flow in ducts; boundary layer flows; inviscid incompressible flows. Prerequisites: <a href=\"/search/?p=ME%201120\" data-action=\"result-detail\" data-group=\"code:ME 1120\" >ME 1120</a>, <a href=\"/search/?p=ME%201140\" data-action=\"result-detail\" data-group=\"code:ME 1140\" >ME 1140</a> or <a href=\"/search/?p=CEE%202100\" data-action=\"result-detail\" data-group=\"code:CEE 2100\" >CEE 2100</a>, <a href=\"/search/?p=ME%201210\" data-action=\"result-detail\" data-group=\"code:ME 1210\" >ME 1210</a>, <a href=\"/search/?p=MATH%203201\" data-action=\"result-detail\" data-group=\"code:MATH 3201\" >MATH 3201</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ME 1120\"}, {\"type\": \"course\", \"code\": \"ME 1140\"}, {\"type\": \"course\", \"code\": \"CEE 2100\"}]}, {\"type\": \"course\", \"code\": \"ME 1210\"}, {\"type\": \"course\", \"code\": \"MATH 3201\"}]}",
-      "other_requirements": "Dynamics, Solid Mechanics / Strength of Materials, Thermodynamics, & Differential Equations",
+      "id": "PHYS 1500",
+      "course_code": "PHYS 1500",
+      "department": "PHYS",
+      "title": "Physics for Engineers I",
+      "credit_hours": "4",
+      "description": "Mechanics including oscillations and waves. With lab. Accompanying optional problem-solving session: <a href=\"/search/?p=PHYS%201510\" data-action=\"result-detail\" data-group=\"code:PHYS 1510\" >PHYS 1510</a>. Prerequisite: <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "School of Engineering students only: CEMS-undeclared, BIOM, CE, EE, EENV, EMGT, ME, CS, DS, MATH; Open to Degree and PACE students;",
       "external": true
     },
     {
-      "id": "CEE 2120",
-      "course_code": "CEE 2120",
-      "department": "CEE",
-      "title": "Environmental Systems",
+      "id": "CS 1210",
+      "course_code": "CS 1210",
+      "department": "CS",
+      "title": "Comp Prog I: for CS majors",
       "credit_hours": "3",
-      "description": "Systems thinking and the systems approach as applied to environmental systems; sustainability, mass and energy balances, kinetics, ecosystem health and the public welfare, environmental risk, green engineering, water and wastewater treatment, air resources engineering, solid-waste management. Prerequisites: <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>; <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}]}",
-      "other_requirements": "Prereqs enforced by the system:CHEM 1400;MATH 1212orMATH 1234",
+      "description": "Introduction to algorithmic problem solving and computer programming. Designed to provide a foundation for further studies in computer science.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "CEE 3815",
+      "course_code": "CEE 3815",
+      "department": "CEE",
+      "title": "Geoenvironmental Engineering",
+      "credit_hours": "3",
+      "description": "Covers basic characteristics of soils (physical, mechanical, hydraulic, geochemistry); soil classifications; seepage and groundwater flow; contaminant transport in soil and groundwater; leakage in waste disposal and containment systems; the effective stress principle; consolidation and settlement analysis in landfills. Credit not awarded for both <a href=\"/search/?p=CEE%203800\" data-action=\"result-detail\" data-group=\"code:CEE 3800\"  class=\"notoffered\">CEE 3800</a> and CEE 3815. Prerequisites: <a href=\"/search/?p=CEE%201150\" data-action=\"result-detail\" data-group=\"code:CEE 1150\" >CEE 1150</a> with grade C- or better or <a href=\"/search/?p=CEE%201100\" data-action=\"result-detail\" data-group=\"code:CEE 1100\" >CEE 1100</a> with grade C- or better.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 1150\"}, {\"type\": \"course\", \"code\": \"CEE 1100\"}]}",
+      "other_requirements": "Prerequisites: CEE 1150 with grade C- or better or CEE 1100 with grade C- or better. Prereqs enforced by the system:CEE 1150orCEE 1100with grade C- or better; Pre/Coreq:CEE 2100orME 1140. Class attendance is mandatory. Class presentation on assigned topics related to the course material requires group work, and therefore, an active and equitable participation in expected from each student. The students are expected to actively participate in class discussions on the assigned case studies and evaluate their peers while presenting their work.",
       "external": false
     },
     {
-      "id": "CEE 6990",
-      "course_code": "CEE 6990",
-      "department": "CEE",
-      "title": "Adv Environmental Engineering",
+      "id": "MATH 1212",
+      "course_code": "MATH 1212",
+      "department": "MATH",
+      "title": "Fundamentals of Calculus I",
       "credit_hours": "3",
-      "description": "Advanced topics in recently developed technical areas.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate standing",
-      "external": false
+      "description": "Introduction to limits and differential/integral calculus with a wide variety of applications. Students interested in intensive use of mathematics should take <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit not awarded for both MATH 1212 and <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>.  See <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201012\" data-action=\"result-detail\" data-group=\"code:MATH 1012\" >MATH 1012</a> or C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a>, or a score of 61 or higher on the placement assessment.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1012\"}, {\"type\": \"course\", \"code\": \"MATH 1034\"}]}",
+      "other_requirements": "C- or better in MATH 1012 or C- or better in MATH 1034, or a score of 61 or higher on the placement assessment. Prereqs enforced by the system: MATH 1012 or MATH 1034 or ALEKS MPA of at least 61; Open to Degree and PACE students",
+      "external": true
     },
     {
       "id": "MATH 3201",
@@ -475,14 +167,311 @@
       "external": true
     },
     {
-      "id": "CEE 1150",
-      "course_code": "CEE 1150",
+      "id": "CEE 6392",
+      "course_code": "CEE 6392",
       "department": "CEE",
-      "title": "Applied Mechanics",
+      "title": "Master's Project Research",
+      "credit_hours": "1 to 6",
+      "description": "Independent project related to Civil &amp; Environmental Engineering under the supervision of a Civil &amp; Environmental Engineering faculty member, concluding with a written technical report and an oral presentation to a committee of two Civil &amp; Environmental Engineering faculty members. Prerequisite: Permission of Civil &amp; Environmental Engineering Graduate Coordinator or Civil &amp; Environmental Engineering Department Chair.",
+      "prereq_expression": null,
+      "other_requirements": "Permission of Civil & Environmental Engineering Graduate Coordinator or Civil & Environmental Engineering Department Chair. Graduate Standing only",
+      "external": false
+    },
+    {
+      "id": "CEE 7980",
+      "course_code": "CEE 7980",
+      "department": "CEE",
+      "title": "Applied Geostatistics",
       "credit_hours": "3",
-      "description": "Introduction to statics, mechanics of materials, and heat transfer. Credit not awarded for both CEE 1150 and <a href=\"/search/?p=CEE%201100\" data-action=\"result-detail\" data-group=\"code:CEE 1100\" >CEE 1100</a>. Prerequisites: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>; <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}, {\"type\": \"course\", \"code\": \"PHYS 1500\"}]}",
-      "other_requirements": "Credit not awarded for both CEE 1150 and CEE 1100. Open to degree and PACE students",
+      "description": "Introduction to the theory of regionalized variables, geostatistics (kriging techniques): special topics in multivariate analysis; Applications to real data subject to spatial variation are emphasized. Prerequisites: Programming skills (such as in Python or Matlab) and content knowledge of multivariate statistics (such as <a href=\"/search/?p=STAT%205230\" data-action=\"result-detail\" data-group=\"code:STAT 5230\"  class=\"notoffered\">STAT 5230</a>) are assumed. Cross-listed with: <a href=\"/search/?p=CSYS%207980\" data-action=\"result-detail\" data-group=\"code:CSYS 7980\" >CSYS 7980</a>, <a href=\"/search/?p=STAT%207980\" data-action=\"result-detail\" data-group=\"code:STAT 7980\" >STAT 7980</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 5230\"}]}",
+      "other_requirements": "Graduate standing; Programming skills (such as in Python or Matlab) and content knowledge of multivariate statistics are assumed. Cross-listed with CSYS 7980 and STAT 7980; Total combined enrollment: 40",
+      "external": false
+    },
+    {
+      "id": "CEE 5993",
+      "course_code": "CEE 5993",
+      "department": "CEE",
+      "title": "IS:Advanced OxidationProcesses",
+      "credit_hours": "1",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CEE 3510",
+      "course_code": "CEE 3510",
+      "department": "CEE",
+      "title": "Water Quality Engineering",
+      "credit_hours": "3",
+      "description": "Fundamentals and design of sustainable systems for stormwater, drinking water, and wastewater treatment in urban and rural settings. Project-based. Credit not awarded for both CEE 3510 and <a href=\"/search/?p=CEE%203515\" data-action=\"result-detail\" data-group=\"code:CEE 3515\"  class=\"notoffered\">CEE 3515</a>. Prerequisite: <a href=\"/search/?p=CEE%202120\" data-action=\"result-detail\" data-group=\"code:CEE 2120\" >CEE 2120</a> with a grade of C- or better.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"CEE 2120\"}",
+      "other_requirements": "grade of C- or better; in-person attendance is required. No video recordings will be made or shared.",
+      "external": false
+    },
+    {
+      "id": "CEE 3415",
+      "course_code": "CEE 3415",
+      "department": "CEE",
+      "title": "Transportation Climate Environ",
+      "credit_hours": "3",
+      "description": "Transportation systems planning, analysis, and design with foci on climate and environmental impacts. Credit not awarded for both CEE 3415 and <a href=\"/search/?p=CEE%203400\" data-action=\"result-detail\" data-group=\"code:CEE 3400\"  class=\"notoffered\">CEE 3400</a>. Prerequisites: Engineering major; minimum Sophomore standing; or Instructor permission. Co-requisite: <a href=\"/search/?p=CEE%202000\" data-action=\"result-detail\" data-group=\"code:CEE 2000\"  class=\"notoffered\">CEE 2000</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Engineering major; minimum Sophomore standing; or Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "CEE 3615",
+      "course_code": "CEE 3615",
+      "department": "CEE",
+      "title": "Hydraulics for Environ Engnrg",
+      "credit_hours": "3",
+      "description": "The mechanics of incompressible fluids (fluid statics and fluid flow) with applications common in Environmental Engineering such as flow in open and closed conduits, open channel flow, stream power, flow meters, capillarity, and elements of hydraulic machinery (systems with turbines, pumps). Credit not awarded for both CEE 3615 and <a href=\"/search/?p=CEE%203600\" data-action=\"result-detail\" data-group=\"code:CEE 3600\"  class=\"notoffered\">CEE 3600</a>. Prerequisites: <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>; <a href=\"/search/?p=CEE%201100\" data-action=\"result-detail\" data-group=\"code:CEE 1100\" >CEE 1100</a> with grade C- or better or <a href=\"/search/?p=CEE%201150\" data-action=\"result-detail\" data-group=\"code:CEE 1150\" >CEE 1150</a> with grade C- or better. Co-requisite: <a href=\"/search/?p=CS%201210\" data-action=\"result-detail\" data-group=\"code:CS 1210\" >CS 1210</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2248\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 1100\"}, {\"type\": \"course\", \"code\": \"CEE 1150\"}]}]}",
+      "other_requirements": "grade C- or better",
+      "external": false
+    },
+    {
+      "id": "CEE 4450",
+      "course_code": "CEE 4450",
+      "department": "CEE",
+      "title": "GIS Sustainable Transport Plan",
+      "credit_hours": "3",
+      "description": "Students will learn to use spatial analysis methods to support sustainable transportation and land use planning. Topics include spatial data types, mapping and data visualization, spatial operations and analysis, and network analysis. In-class examples and exercises will include applications related to transportation, land use, sustainability, planning, and equity. Credit not awarded for both CEE 4450 and <a href=\"/search/?p=CEE%205450\" data-action=\"result-detail\" data-group=\"code:CEE 5450\"  class=\"notoffered\">CEE 5450</a>. Prerequisite: <a href=\"/search/?p=CEE%203400\" data-action=\"result-detail\" data-group=\"code:CEE 3400\" >CEE 3400</a> or <a href=\"/search/?p=CEE%203415\" data-action=\"result-detail\" data-group=\"code:CEE 3415\"  class=\"notoffered\">CEE 3415</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3400\"}, {\"type\": \"course\", \"code\": \"CEE 3415\"}]}",
+      "other_requirements": "Instructor permission",
+      "external": false
+    },
+    {
+      "id": "CEE 3990",
+      "course_code": "CEE 3990",
+      "department": "CEE",
+      "title": "Energy Policy and Economics",
+      "credit_hours": "3",
+      "description": "Content is dictated by expanding professional interest in newly developing, or recently developed, technical areas in which there is particular need or opportunity. Prerequisite: Senior standing.",
+      "prereq_expression": null,
+      "other_requirements": "Senior standing. Minimum sophomore standing or Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "STAT 1410",
+      "course_code": "STAT 1410",
+      "department": "STAT",
+      "title": "Basic Statistical Methods 1",
+      "credit_hours": "3",
+      "description": "Foundational course for students taking further quantitative courses. Exploratory data analysis, probability distributions, estimation, hypothesis testing. Introductory regression, experimentation, contingency tables, and nonparametrics. Computer software used. Credit not awarded for more than one of STAT 1410 or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Credit not awarded for more than one of STAT 1410 or STAT 2430. Open to Degree and PACE students.",
+      "external": true
+    },
+    {
+      "id": "CEE 3520",
+      "course_code": "CEE 3520",
+      "department": "CEE",
+      "title": "Env Eng Chemistry & Microbio",
+      "credit_hours": "3",
+      "description": "Fundamentals of (bio)chemical transformations in water, soil, and air and applications for pollution prevention and remediation. Topics include chemical thermodynamics, acid-base, reduction-oxidation, dissolution-precipitation, kinetics, molecular biology, metabolism, and bioenergetics. Prerequisites: <a href=\"/search/?p=CEE%203510\" data-action=\"result-detail\" data-group=\"code:CEE 3510\" >CEE 3510</a> or <a href=\"/search/?p=CEE%203515\" data-action=\"result-detail\" data-group=\"code:CEE 3515\"  class=\"notoffered\">CEE 3515</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3510\"}, {\"type\": \"course\", \"code\": \"CEE 3515\"}]}",
+      "other_requirements": "Tech elective for both CE and EnvE",
+      "external": false
+    },
+    {
+      "id": "CEE 4990",
+      "course_code": "CEE 4990",
+      "department": "CEE",
+      "title": "Transp. Eng. Applications",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "STAT 5230",
+      "course_code": "STAT 5230",
+      "department": "STAT",
+      "title": "Appld Multivariate Analysis",
+      "credit_hours": "3",
+      "description": "Multivariate normal distribution. Inference for mean vectors and covariance matrices. Multivariate analysis of variance (MANOVA), discrimination and classification, principal components, factor and cluster analysis. Prerequisite: Graduate student or Instructor permission; content knowledge of <a href=\"/search/?p=STAT%203210\" data-action=\"result-detail\" data-group=\"code:STAT 3210\" >STAT 3210</a> and <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a> assumed.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 3210\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}]}",
+      "other_requirements": "Graduate student or Instructor permission",
+      "external": true
+    },
+    {
+      "id": "CEE 4950",
+      "course_code": "CEE 4950",
+      "department": "CEE",
+      "title": "SL:Capstone Design",
+      "credit_hours": "3",
+      "description": "Student teams will integrate the multiple areas of specialization in Civil/Environmental Engineering in comprehensive design experience; professional practice; ethics; written and oral presentations to professional review panels. Prerequisites: Civil Engineering, Environmental Engineering, or Engineering Management major; minimum Senior standing. Co-requisite: <a href=\"/search/?p=CEE%202130\" data-action=\"result-detail\" data-group=\"code:CEE 2130\" >CEE 2130</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CIVIL ENGINEERING\"}, {\"type\": \"course\", \"code\": \"ENVIRONMENTAL ENGINEERING\"}, {\"type\": \"course\", \"code\": \"ENGINEERING MANAGEMENT\"}]}",
+      "other_requirements": "minimum Senior standing.",
+      "external": false
+    },
+    {
+      "id": "CEE 4730",
+      "course_code": "CEE 4730",
+      "department": "CEE",
+      "title": "Reinforced Concrete",
+      "credit_hours": "3",
+      "description": "Analysis of stresses in plain and reinforced concrete members; design of reinforced concrete structures; theory of prestressed concrete; project-based. Prerequisite: <a href=\"/search/?p=CEE%203700\" data-action=\"result-detail\" data-group=\"code:CEE 3700\" >CEE 3700</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"CEE 3700\"}",
+      "other_requirements": "Degree Elective (CE, EENV)",
+      "external": false
+    },
+    {
+      "id": "MATH 2544",
+      "course_code": "MATH 2544",
+      "department": "MATH",
+      "title": "Linear Algebra",
+      "credit_hours": "3",
+      "description": "Vector spaces, linear independence, bases, linear transformations, matrices, determinants, change of basis characteristic equations, eigenvalues and eigenvectors, with applications. Emphasis on understanding and gaining facility with these concepts including proofs. Credit not given for both <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> and MATH 2544. Prerequisite: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Co-requisite: <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or <a href=\"/search/?p=MATH%202055\" data-action=\"result-detail\" data-group=\"code:MATH 2055\" >MATH 2055</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "Co-requisite: MATH 2248 or MATH 2055. Credit not given for both MATH 2522 and MATH 2544. Open to Degree and PACE students.",
+      "external": true
+    },
+    {
+      "id": "CEE 6391",
+      "course_code": "CEE 6391",
+      "department": "CEE",
+      "title": "Master's Thesis Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Master's Thesis.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate standing only",
+      "external": false
+    },
+    {
+      "id": "MATH 1234",
+      "course_code": "MATH 1234",
+      "department": "MATH",
+      "title": "Calculus I",
+      "credit_hours": "4",
+      "description": "Introduction to calculus of functions of one variable including: limits, continuity, techniques and applications of differentiation and integration. Credit not given for more than one course in the pair <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, MATH 1234 unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a> or a score of 76 or higher on the placement assessment.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1034\"}, {\"type\": \"other_requirement\", \"description\": \"ALEKS MPA of at least 76\"}]}",
+      "other_requirements": "C- or better in MATH 1034 or a score of 76 or higher on the placement assessment. Prereqs enforced by the system.",
+      "external": true
+    },
+    {
+      "id": "CEE 6990",
+      "course_code": "CEE 6990",
+      "department": "CEE",
+      "title": "Adv Environmental Engineering",
+      "credit_hours": "3",
+      "description": "Advanced topics in recently developed technical areas.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate standing",
+      "external": false
+    },
+    {
+      "id": "CEE 5730",
+      "course_code": "CEE 5730",
+      "department": "CEE",
+      "title": "Structural Design - Wood",
+      "credit_hours": "3",
+      "description": "Analysis and design of solid and glue laminated timber members and structural systems including tension members, beams, columns, beam-columns, diaphragms, shear walls, and connections; LRFD and ASD design methods; application of IBC for timber systems; current developments in wood design/construction; project-based. Prerequisite: Graduate student or Instructor permission; content knowledge of structural analysis (such as <a href=\"/search/?p=CEE%203700\" data-action=\"result-detail\" data-group=\"code:CEE 3700\" >CEE 3700</a>) assumed.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3700\"}]}]}",
+      "other_requirements": "Graduate student or Instructor permission; content knowledge of structural analysis assumed. Graduate student only or Instructor Permission; Design Elective (CE, EENV); Elective (CE, EENV)",
+      "external": false
+    },
+    {
+      "id": "CEE 7993",
+      "course_code": "CEE 7993",
+      "department": "CEE",
+      "title": "IS:Environmental LCA",
+      "credit_hours": "3",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "MATH 1248",
+      "course_code": "MATH 1248",
+      "department": "MATH",
+      "title": "Calculus II",
+      "credit_hours": "4",
+      "description": "Vectors and vector operations. Techniques and applications of integration. Polar coordinates, Taylor polynomials, sequences and series, power series. Credit will not be given for both MATH 1248 and <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 021\"}]}",
+      "other_requirements": "C- or better in MATH 1234. C- or better in MATH 021.",
+      "external": true
+    },
+    {
+      "id": "CEE 5550",
+      "course_code": "CEE 5550",
+      "department": "CEE",
+      "title": "Phys/Chem Proc Water/Wstwater",
+      "credit_hours": "3",
+      "description": "Theory of physical/chemical processes for treating waters and wastewaters; reactor dynamics, mass transfer, adsorption, ion exchange, precipitation; project-based. Prerequisite: Graduate student or Instructor permission; content knowledge of water and wastewater engineering (such as <a href=\"/search/?p=CEE%203510\" data-action=\"result-detail\" data-group=\"code:CEE 3510\" >CEE 3510</a> or <a href=\"/search/?p=CEE%203515\" data-action=\"result-detail\" data-group=\"code:CEE 3515\"  class=\"notoffered\">CEE 3515</a>) assumed.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3510\"}, {\"type\": \"course\", \"code\": \"CEE 3515\"}]}",
+      "other_requirements": "Graduate student or Instructor permission; content knowledge of water and wastewater engineering assumed. Graduate standing or instructor permission",
+      "external": false
+    },
+    {
+      "id": "STAT 2510",
+      "course_code": "STAT 2510",
+      "department": "STAT",
+      "title": "Applied Probability",
+      "credit_hours": "3",
+      "description": "Foundations of probability, conditioning, and independence. Business, computing, biological, engineering reliability, and quality control applications. Classical discrete and continuous models. Pseudo-random number generation. Prerequisites: <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a> or <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "Prereqs enforced by the system:MATH 1224orMATH 1248orMATH 1242;",
+      "external": true
+    },
+    {
+      "id": "MATH 2522",
+      "course_code": "MATH 2522",
+      "department": "MATH",
+      "title": "Applied Linear Algebra",
+      "credit_hours": "3",
+      "description": "Vectors, matrices, linear independence, vector spaces (with focus on real n-space), determinants, linear transformations, eigenvalues and eigenvectors. Applications from engineering and the sciences incorporated through required computer assignments. Credit not given for both MATH 2522 and <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>. Prerequisite: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "Credit not given for both MATH 2522 and MATH 2544. Open to Degree and PACE students. System waitlisting enabled for this section. This is a lecture-based course. Topics will be presented with a level of depth and rigor appropriate for students pursuing degrees in technical fields such as engineering, computer science, or the physical sciences. Math Majors should take Math 2544 Linear Algebra. Materials: WebAssign access for Linear Algebra with Applications, 9th edition, by Garreth Williams ISBN 1284154696 . WebAssign includes access to an e-text, as well as homework exercises. Matlab Assignments: No prior experience with Matlab is assumed. Matlab is used throughout the course and is available on the UVM CEMS computers and it can be downloaded from:https://www.uvm.edu/cems/installing_matlab_students",
+      "external": true
+    },
+    {
+      "id": "CEE 5980",
+      "course_code": "CEE 5980",
+      "department": "CEE",
+      "title": "Numerical Methods for Engineer",
+      "credit_hours": "3",
+      "description": "Foundational concepts of numerical integration, numerical differentiation, and numerical approximation and solution of differential and partial differential equations of the type encountered in the analysis of engineering problems and data processing; project-based. Prerequisite: Graduate student or Instructor permission; content knowledge of calculus through differential equations (such as <a href=\"/search/?p=MATH%203201\" data-action=\"result-detail\" data-group=\"code:MATH 3201\" >MATH 3201</a>) and linear algebra (such as <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>) assumed. Cross-listed with: <a href=\"/search/?p=ME%205980\" data-action=\"result-detail\" data-group=\"code:ME 5980\" >ME 5980</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 3201\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}]}",
+      "other_requirements": "Graduate student or Instructor permission; content knowledge of calculus through differential equations and linear algebra assumed. Graduate students only or Instructor permission; content knowledge of calculus through differential equations and linear algebra assumed; Elective (CE, EENV)",
+      "external": false
+    },
+    {
+      "id": "CEE 2130",
+      "course_code": "CEE 2130",
+      "department": "CEE",
+      "title": "System Focused Design Engr",
+      "credit_hours": "3",
+      "description": "Systems-thinking applied to analysis and design of engineered systems and elements, including economic, social, and environmental aspects of sustainable designs within global contexts. Includes life-cycle cost analysis, uncertainty, risk, and engineering economics. Prerequisites: <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a> or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a> or <a href=\"/search/?p=STAT%202510\" data-action=\"result-detail\" data-group=\"code:STAT 2510\" >STAT 2510</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"STAT 2430\"}, {\"type\": \"course\", \"code\": \"STAT 2510\"}]}",
+      "other_requirements": "Instructor permission",
+      "external": false
+    },
+    {
+      "id": "CEE 3010",
+      "course_code": "CEE 3010",
+      "department": "CEE",
+      "title": "Materials and Structures Lab",
+      "credit_hours": "3",
+      "description": "Experimental stress analysis methods; experimental verification of static force-displacement relationship for beams, frames, and trusses; fundamental mechanical properties of metals, plastics, and wood; effects of size, shape, method, speed of loading and strain history on these properties. Co-requisites: <a href=\"/search/?p=CEE%202100\" data-action=\"result-detail\" data-group=\"code:CEE 2100\"  class=\"notoffered\">CEE 2100</a> or <a href=\"/search/?p=ME%201140\" data-action=\"result-detail\" data-group=\"code:ME 1140\" >ME 1140</a>, and <a href=\"/search/?p=CEE%203700\" data-action=\"result-detail\" data-group=\"code:CEE 3700\" >CEE 3700</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 2100\"}, {\"type\": \"course\", \"code\": \"ME 1140\"}]}, {\"type\": \"course\", \"code\": \"CEE 3700\"}]}",
+      "other_requirements": "Must register for lab A01 or A02",
+      "external": false
+    },
+    {
+      "id": "CEE 1000",
+      "course_code": "CEE 1000",
+      "department": "CEE",
+      "title": "Intro to Civil & Envir Engr",
+      "credit_hours": "2",
+      "description": "Introduction to Civil and Environmental Engineering, sustainability, ethics, systems thinking, teamwork in engineering, laboratories, computational exercises, and project-based.",
+      "prereq_expression": null,
+      "other_requirements": "Must register for a lab, L01-L04. Limit to CE, EENV, ENGR, EMGT majors, PACE students with instructor permission.",
       "external": false
     },
     {
@@ -497,45 +486,23 @@
       "external": false
     },
     {
-      "id": "ME 1140",
-      "course_code": "ME 1140",
-      "department": "ME",
-      "title": "Mechanics of Solids",
-      "credit_hours": "3",
-      "description": "Stress, strain, temperature relationships, torsion, bending stresses and deflections. Columns, joints, thin-walled cylinders. Combined stresses and Mohr's circle. Prerequisites: <a href=\"/search/?p=CEE%201100\" data-action=\"result-detail\" data-group=\"code:CEE 1100\" >CEE 1100</a> with a grade of C- or better or <a href=\"/search/?p=CEE%201150\" data-action=\"result-detail\" data-group=\"code:CEE 1150\" >CEE 1150</a> with a grade of C- or better. Cross-listed with: <a href=\"/search/?p=CEE%202100\" data-action=\"result-detail\" data-group=\"code:CEE 2100\" >CEE 2100</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 1100\"}, {\"type\": \"course\", \"code\": \"CEE 1150\"}]}",
-      "other_requirements": "grade of C- or better for CEE 1100 or CEE 1150",
-      "external": true
-    },
-    {
-      "id": "CEE 3800",
-      "course_code": "CEE 3800",
+      "id": "CEE 5440",
+      "course_code": "CEE 5440",
       "department": "CEE",
-      "title": "Geotechnical Engineering",
+      "title": "Transport Plan Demand Modeling",
       "credit_hours": "3",
-      "description": "Covers basic characteristics of geological materials; soil classifications; physical, mechanical, and hydraulic properties; the effective stress principle; seepage; consolidation; stress distribution; settlement analysis; and shear strength of soils. Credit not awarded for both CEE 3800 and <a href=\"/search/?p=CEE%203815\" data-action=\"result-detail\" data-group=\"code:CEE 3815\"  class=\"notoffered\">CEE 3815</a>. Prerequisites: <a href=\"/search/?p=CEE%201150\" data-action=\"result-detail\" data-group=\"code:CEE 1150\" >CEE 1150</a> with grade C- or better or <a href=\"/search/?p=CEE%201100\" data-action=\"result-detail\" data-group=\"code:CEE 1100\" >CEE 1100</a> with grade C- or better.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 1150\"}, {\"type\": \"course\", \"code\": \"CEE 1100\"}]}",
-      "other_requirements": "grade C- or better",
+      "description": "Study of transportation planning theory and policy; methods used to collect and evaluate household travel behavior; design of household travel surveys; methods used to forecast household travel demand, destination choice; travel mode choice, and transportation network flows; mathematical methods common to travel modeling. Applications to both transportation planning practice and research. Credit not awarded for both CEE 5440 and <a href=\"/search/?p=CEE%204440\" data-action=\"result-detail\" data-group=\"code:CEE 4440\" >CEE 4440</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     },
     {
-      "id": "MATH 1034",
-      "course_code": "MATH 1034",
-      "department": "MATH",
-      "title": "Pre-Calculus Mathematics",
-      "credit_hours": "3",
-      "description": "Skills in working with numerical, algebraic, and trigonometric expressions are developed in preparation for <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. May not be taken for credit concurrently with, or following receipt of, credit for any mathematics course numbered <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> or above. Prerequisite: Two years of secondary school algebra; one year of secondary school geometry.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
-      "other_requirements": "Two years of secondary school algebra; one year of secondary school geometry. Open to Degree and PACE students",
-      "external": true
-    },
-    {
-      "id": "CS 1210",
-      "course_code": "CS 1210",
-      "department": "CS",
-      "title": "Comp Prog I: for CS majors",
-      "credit_hours": "3",
-      "description": "Introduction to algorithmic problem solving and computer programming. Designed to provide a foundation for further studies in computer science.",
+      "id": "CHEM 1400",
+      "course_code": "CHEM 1400",
+      "department": "CHEM",
+      "title": "General Chemistry 1",
+      "credit_hours": "4",
+      "description": "First semester of a two-semester sequence. Topics include matter, stoichiometry, gas laws, thermochemistry, quantum theory, atomic structure, electronic configurations, bonding, and intermolecular forces. Credit not awarded for both CHEM 1400 and <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\" >CHEM 1100</a>, <a href=\"/search/?p=CHEM%201102\" data-action=\"result-detail\" data-group=\"code:CHEM 1102\" >CHEM 1102</a>, or <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": true
@@ -552,14 +519,14 @@
       "external": false
     },
     {
-      "id": "CEE 3010",
-      "course_code": "CEE 3010",
+      "id": "CEE 5600",
+      "course_code": "CEE 5600",
       "department": "CEE",
-      "title": "Materials and Structures Lab",
+      "title": "Principles of Hydrology",
       "credit_hours": "3",
-      "description": "Experimental stress analysis methods; experimental verification of static force-displacement relationship for beams, frames, and trusses; fundamental mechanical properties of metals, plastics, and wood; effects of size, shape, method, speed of loading and strain history on these properties. Co-requisites: <a href=\"/search/?p=CEE%202100\" data-action=\"result-detail\" data-group=\"code:CEE 2100\"  class=\"notoffered\">CEE 2100</a> or <a href=\"/search/?p=ME%201140\" data-action=\"result-detail\" data-group=\"code:ME 1140\" >ME 1140</a>, and <a href=\"/search/?p=CEE%203700\" data-action=\"result-detail\" data-group=\"code:CEE 3700\" >CEE 3700</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 2100\"}, {\"type\": \"course\", \"code\": \"ME 1140\"}]}, {\"type\": \"course\", \"code\": \"CEE 3700\"}]}",
-      "other_requirements": "Must register for lab A01 or A02",
+      "description": "Understanding and applying theory of precipitation, run-off, infiltration, and ground water; precipitation and run-off data; application of data for use in development of water resources; review and synthesis of relevant scientific literature. Credit not awarded for both CEE 5600 and <a href=\"/search/?p=CEE%204600\" data-action=\"result-detail\" data-group=\"code:CEE 4600\" >CEE 4600</a>. Prerequisites: Content knowledge of hydraulics/fluid mechanics assumed.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 4600\"}]}",
+      "other_requirements": "Content knowledge of hydraulics/fluid mechanics assumed.",
       "external": false
     },
     {
@@ -574,201 +541,25 @@
       "external": true
     },
     {
-      "id": "CEE 5980",
-      "course_code": "CEE 5980",
-      "department": "CEE",
-      "title": "Numerical Methods for Engineer",
-      "credit_hours": "3",
-      "description": "Foundational concepts of numerical integration, numerical differentiation, and numerical approximation and solution of differential and partial differential equations of the type encountered in the analysis of engineering problems and data processing; project-based. Prerequisite: Graduate student or Instructor permission; content knowledge of calculus through differential equations (such as <a href=\"/search/?p=MATH%203201\" data-action=\"result-detail\" data-group=\"code:MATH 3201\" >MATH 3201</a>) and linear algebra (such as <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>) assumed. Cross-listed with: <a href=\"/search/?p=ME%205980\" data-action=\"result-detail\" data-group=\"code:ME 5980\" >ME 5980</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 3201\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}]}",
-      "other_requirements": "Graduate student or Instructor permission; content knowledge of calculus through differential equations and linear algebra assumed. Graduate students only or Instructor permission; content knowledge of calculus through differential equations and linear algebra assumed; Elective (CE, EENV)",
-      "external": false
-    },
-    {
-      "id": "CEE 3610",
-      "course_code": "CEE 3610",
-      "department": "CEE",
-      "title": "Hydraulics Lab",
-      "credit_hours": "2",
-      "description": "Performing various laboratory studies of flow and hydraulic machinery determine index; computer modeling of hydraulic systems; associated laboratory and project report writing and presentations. Co-requisites: <a href=\"/search/?p=CEE%203600\" data-action=\"result-detail\" data-group=\"code:CEE 3600\"  class=\"notoffered\">CEE 3600</a> or <a href=\"/search/?p=CEE%203615\" data-action=\"result-detail\" data-group=\"code:CEE 3615\" >CEE 3615</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3600\"}, {\"type\": \"course\", \"code\": \"CEE 3615\"}]}",
-      "other_requirements": "Must register for CEE 3610 recitation",
-      "external": false
-    },
-    {
-      "id": "CEE 4950",
-      "course_code": "CEE 4950",
-      "department": "CEE",
-      "title": "SL:Capstone Design",
-      "credit_hours": "3",
-      "description": "Student teams will integrate the multiple areas of specialization in Civil/Environmental Engineering in comprehensive design experience; professional practice; ethics; written and oral presentations to professional review panels. Prerequisites: Civil Engineering, Environmental Engineering, or Engineering Management major; minimum Senior standing. Co-requisite: <a href=\"/search/?p=CEE%202130\" data-action=\"result-detail\" data-group=\"code:CEE 2130\" >CEE 2130</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CIVIL ENGINEERING\"}, {\"type\": \"course\", \"code\": \"ENVIRONMENTAL ENGINEERING\"}, {\"type\": \"course\", \"code\": \"ENGINEERING MANAGEMENT\"}]}",
-      "other_requirements": "minimum Senior standing.",
-      "external": false
-    },
-    {
-      "id": "CEE 4720",
-      "course_code": "CEE 4720",
-      "department": "CEE",
-      "title": "Structural Steel Design",
-      "credit_hours": "3",
-      "description": "Theory and design of steel structures including flexural members, axially loaded members and combined stress members; design of composite members; plastic analysis and design; project-based. Prerequisite: <a href=\"/search/?p=CEE%203700\" data-action=\"result-detail\" data-group=\"code:CEE 3700\"  class=\"notoffered\">CEE 3700</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"CEE 3700\"}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "CEE 1100",
-      "course_code": "CEE 1100",
-      "department": "CEE",
-      "title": "Statics",
-      "credit_hours": "3",
-      "description": "Fundamentals of statics; composition and resolution of forces; the analysis of force systems in two and three dimensions; and centroids and moments of inertia. Credit not awarded for both CEE 1100 and <a href=\"/search/?p=CEE%201150\" data-action=\"result-detail\" data-group=\"code:CEE 1150\" >CEE 1150</a>. Prerequisites: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>; <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}, {\"type\": \"course\", \"code\": \"PHYS 1500\"}]}",
-      "other_requirements": "Must also register for recitation R01; Credit not awarded for both CEE 1100 and CEE 1150; Credit not awarded for both CEE 1000 and CEE 1150",
-      "external": false
-    },
-    {
-      "id": "CHEM 1400",
-      "course_code": "CHEM 1400",
-      "department": "CHEM",
-      "title": "General Chemistry 1",
-      "credit_hours": "4",
-      "description": "First semester of a two-semester sequence. Topics include matter, stoichiometry, gas laws, thermochemistry, quantum theory, atomic structure, electronic configurations, bonding, and intermolecular forces. Credit not awarded for both CHEM 1400 and <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\" >CHEM 1100</a>, <a href=\"/search/?p=CHEM%201102\" data-action=\"result-detail\" data-group=\"code:CHEM 1102\" >CHEM 1102</a>, or <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "CEE 3600",
-      "course_code": "CEE 3600",
-      "department": "CEE",
-      "title": "Hydraulics",
-      "credit_hours": "3",
-      "description": "Provides an understanding of the mechanics of incompressible fluids (fluid statics and fluid flow) with a focus on applications common in Civil and Environmental Engineering such as flow meters, flow in closed conduits, and elements of hydraulic machinery (systems with pumps, cavitation, NPSH). Credit not awarded for both CEE 3600 and <a href=\"/search/?p=CEE%203615\" data-action=\"result-detail\" data-group=\"code:CEE 3615\"  class=\"notoffered\">CEE 3615</a>. Prerequisites: <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>; <a href=\"/search/?p=CEE%201100\" data-action=\"result-detail\" data-group=\"code:CEE 1100\" >CEE 1100</a> with a grade of C- or better or <a href=\"/search/?p=CEE%201150\" data-action=\"result-detail\" data-group=\"code:CEE 1150\" >CEE 1150</a> with C- or better. Co-requisite: <a href=\"/search/?p=CS%201210\" data-action=\"result-detail\" data-group=\"code:CS 1210\" >CS 1210</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2248\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 1100\"}, {\"type\": \"course\", \"code\": \"CEE 1150\"}]}]}",
-      "other_requirements": "Prerequisites are enforced by the system: MATH 2248; CEE 1100 or CEE 1150 both with grade C- or better.",
-      "external": false
-    },
-    {
-      "id": "STAT 2510",
-      "course_code": "STAT 2510",
-      "department": "STAT",
-      "title": "Applied Probability",
-      "credit_hours": "3",
-      "description": "Foundations of probability, conditioning, and independence. Business, computing, biological, engineering reliability, and quality control applications. Classical discrete and continuous models. Pseudo-random number generation. Prerequisites: <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a> or <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
-      "other_requirements": "Prereqs enforced by the system:MATH 1224orMATH 1248orMATH 1242;",
-      "external": true
-    },
-    {
-      "id": "CEE 1900",
-      "course_code": "CEE 1900",
-      "department": "CEE",
-      "title": "Career Preparation",
-      "credit_hours": "1",
-      "description": "Teaches students how to combine their curricula and development of key transferable skills to become civil or environmental engineering professionals; includes the path to professional engineering licensure and eventual leadership as a professional; preparation for internship/job search, interviews, and Fundamentals of Engineering examination. Prerequisites: Civil Engineering or Environmental Engineering major; minimum Sophomore standing; or Instructor permission.",
-      "prereq_expression": null,
-      "other_requirements": "Civil Engineering or Environmental Engineering major; minimum Sophomore standing; or Instructor permission",
-      "external": false
-    },
-    {
-      "id": "PHYS 1500",
-      "course_code": "PHYS 1500",
-      "department": "PHYS",
-      "title": "Physics for Engineers I",
-      "credit_hours": "4",
-      "description": "Mechanics including oscillations and waves. With lab. Accompanying optional problem-solving session: <a href=\"/search/?p=PHYS%201510\" data-action=\"result-detail\" data-group=\"code:PHYS 1510\" >PHYS 1510</a>. Prerequisite: <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
-      "other_requirements": "School of Engineering students only: CEMS-undeclared, BIOM, CE, EE, EENV, EMGT, ME, CS, DS, MATH; Open to Degree and PACE students;",
-      "external": true
-    },
-    {
-      "id": "CEE 4440",
-      "course_code": "CEE 4440",
-      "department": "CEE",
-      "title": "Transportation Demand Models",
-      "credit_hours": "3",
-      "description": "Study of specific methods used to analyze travel demand, travel behavior and network flows; process of travel demand modeling; collection, analysis and expansion of survey data and travel data; mathematical methods common to travel modeling. Credit not awarded for both CEE 4440 and <a href=\"/search/?p=CEE%205440\" data-action=\"result-detail\" data-group=\"code:CEE 5440\" >CEE 5440</a>. Prerequisite: <a href=\"/search/?p=CEE%203400\" data-action=\"result-detail\" data-group=\"code:CEE 3400\"  class=\"notoffered\">CEE 3400</a> or <a href=\"/search/?p=CEE%203415\" data-action=\"result-detail\" data-group=\"code:CEE 3415\" >CEE 3415</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3400\"}, {\"type\": \"course\", \"code\": \"CEE 3415\"}]}",
-      "other_requirements": "Credit not awarded for both CEE 4440 and CEE 5440.",
-      "external": false
-    },
-    {
-      "id": "CEE 3700",
-      "course_code": "CEE 3700",
-      "department": "CEE",
-      "title": "Structural Analysis",
-      "credit_hours": "3",
-      "description": "Analysis of statically determinate beams, frames, and trusses; expected loads, reactions; influence lines; moving loads; geometric methods for displacement calculations; introduction to matrix analysis for trusses. Prerequisites: <a href=\"/search/?p=CS%201210\" data-action=\"result-detail\" data-group=\"code:CS 1210\" >CS 1210</a>. Co-requisites: <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a> and <a href=\"/search/?p=MATH%203201\" data-action=\"result-detail\" data-group=\"code:MATH 3201\" >MATH 3201</a>; <a href=\"/search/?p=CEE%202100\" data-action=\"result-detail\" data-group=\"code:CEE 2100\"  class=\"notoffered\">CEE 2100</a> or <a href=\"/search/?p=ME%201140\" data-action=\"result-detail\" data-group=\"code:ME 1140\" >ME 1140</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CS 1210\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}, {\"type\": \"course\", \"code\": \"MATH 3201\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 2100\"}, {\"type\": \"course\", \"code\": \"ME 1140\"}]}]}",
-      "other_requirements": "Open to PACE students with instructor permission",
-      "external": false
-    },
-    {
-      "id": "CEE 3990",
-      "course_code": "CEE 3990",
-      "department": "CEE",
-      "title": "Energy Policy and Economics",
-      "credit_hours": "3",
-      "description": "Content is dictated by expanding professional interest in newly developing, or recently developed, technical areas in which there is particular need or opportunity. Prerequisite: Senior standing.",
-      "prereq_expression": null,
-      "other_requirements": "Senior standing. Minimum sophomore standing or Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "CEE 5600",
-      "course_code": "CEE 5600",
-      "department": "CEE",
-      "title": "Principles of Hydrology",
-      "credit_hours": "3",
-      "description": "Understanding and applying theory of precipitation, run-off, infiltration, and ground water; precipitation and run-off data; application of data for use in development of water resources; review and synthesis of relevant scientific literature. Credit not awarded for both CEE 5600 and <a href=\"/search/?p=CEE%204600\" data-action=\"result-detail\" data-group=\"code:CEE 4600\" >CEE 4600</a>. Prerequisites: Content knowledge of hydraulics/fluid mechanics assumed.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 4600\"}]}",
-      "other_requirements": "Content knowledge of hydraulics/fluid mechanics assumed.",
-      "external": false
-    },
-    {
-      "id": "CEE 3400",
-      "course_code": "CEE 3400",
-      "department": "CEE",
-      "title": "Transportation Systems",
-      "credit_hours": "3",
-      "description": "Transportation systems planning, analysis, and design with foci on safety, modeling, decision support, and environmental impacts. Credit not awarded for both CEE 3400 and <a href=\"/search/?p=CEE%203415\" data-action=\"result-detail\" data-group=\"code:CEE 3415\"  class=\"notoffered\">CEE 3415</a>. Prerequisites: Engineering major; minimum Sophomore standing; or Instructor permission. Co-requisite: <a href=\"/search/?p=CEE%202000\" data-action=\"result-detail\" data-group=\"code:CEE 2000\" >CEE 2000</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 2000\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3415\"}, {\"type\": \"course\", \"code\": \"CEE 2000\"}]}]}",
-      "other_requirements": "Engineering major; minimum Sophomore standing; or Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "CEE 4600",
-      "course_code": "CEE 4600",
-      "department": "CEE",
-      "title": "Hydrology",
-      "credit_hours": "3",
-      "description": "Theory of precipitation, run-off, infiltration, and ground water; precipitation and run-off data; and application of data for use in development of water resources. Credit not awarded for both CEE 4600 and <a href=\"/search/?p=CEE%205600\" data-action=\"result-detail\" data-group=\"code:CEE 5600\" >CEE 5600</a>. Pre/Co-requisite: <a href=\"/search/?p=CEE%203600\" data-action=\"result-detail\" data-group=\"code:CEE 3600\"  class=\"notoffered\">CEE 3600</a> or <a href=\"/search/?p=CEE%203615\" data-action=\"result-detail\" data-group=\"code:CEE 3615\" >CEE 3615</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3600\"}, {\"type\": \"course\", \"code\": \"CEE 3615\"}]}",
-      "other_requirements": "Credit not awarded for both CEE 4600 and CEE 5600. Co-located with CEE 5600; Total combined enrollment: 40; Open to degree and PACE students; Tech elective for both CE and EnvE",
-      "external": false
-    },
-    {
-      "id": "CEE 2000",
-      "course_code": "CEE 2000",
-      "department": "CEE",
-      "title": "Geomatics",
-      "credit_hours": "4",
-      "description": "An introduction to surveying including distance and angle measurements, leveling, traverse surveys, error propagation, topographical mapping, global positioning systems (GPS), and geographic information systems (GIS). Project-based. Prerequisites: <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a>, <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>; Sophomore standing.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1034\"}, {\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
-      "other_requirements": "Sophomore standing. Must also register in lab L01-L03",
-      "external": false
-    },
-    {
-      "id": "MATH 1212",
-      "course_code": "MATH 1212",
+      "id": "MATH 1034",
+      "course_code": "MATH 1034",
       "department": "MATH",
-      "title": "Fundamentals of Calculus I",
+      "title": "Pre-Calculus Mathematics",
       "credit_hours": "3",
-      "description": "Introduction to limits and differential/integral calculus with a wide variety of applications. Students interested in intensive use of mathematics should take <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit not awarded for both MATH 1212 and <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>.  See <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201012\" data-action=\"result-detail\" data-group=\"code:MATH 1012\" >MATH 1012</a> or C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a>, or a score of 61 or higher on the placement assessment.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1012\"}, {\"type\": \"course\", \"code\": \"MATH 1034\"}]}",
-      "other_requirements": "C- or better in MATH 1012 or C- or better in MATH 1034, or a score of 61 or higher on the placement assessment. Prereqs enforced by the system: MATH 1012 or MATH 1034 or ALEKS MPA of at least 61; Open to Degree and PACE students",
+      "description": "Skills in working with numerical, algebraic, and trigonometric expressions are developed in preparation for <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. May not be taken for credit concurrently with, or following receipt of, credit for any mathematics course numbered <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> or above. Prerequisite: Two years of secondary school algebra; one year of secondary school geometry.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "other_requirements": "Two years of secondary school algebra; one year of secondary school geometry. Open to Degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "STAT 2430",
+      "course_code": "STAT 2430",
+      "department": "STAT",
+      "title": "Statistics for Engineering",
+      "credit_hours": "4",
+      "description": "Data analysis, probability models, parameter estimation, hypothesis testing. Multi- factor experimental design and regression analysis. Quality control, SPC, reliability. Engineering cases and project. Statistical analysis software. Credit not awarded for both <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a> and STAT 2430. Prerequisites: <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "other_requirements": "Minimum sophomore standing; Open to Degree and PACE students",
       "external": true
     },
     {
@@ -783,14 +574,102 @@
       "external": false
     },
     {
-      "id": "CEE 4450",
-      "course_code": "CEE 4450",
+      "id": "CEE 3800",
+      "course_code": "CEE 3800",
       "department": "CEE",
-      "title": "GIS Sustainable Transport Plan",
+      "title": "Geotechnical Engineering",
       "credit_hours": "3",
-      "description": "Students will learn to use spatial analysis methods to support sustainable transportation and land use planning. Topics include spatial data types, mapping and data visualization, spatial operations and analysis, and network analysis. In-class examples and exercises will include applications related to transportation, land use, sustainability, planning, and equity. Credit not awarded for both CEE 4450 and <a href=\"/search/?p=CEE%205450\" data-action=\"result-detail\" data-group=\"code:CEE 5450\"  class=\"notoffered\">CEE 5450</a>. Prerequisite: <a href=\"/search/?p=CEE%203400\" data-action=\"result-detail\" data-group=\"code:CEE 3400\" >CEE 3400</a> or <a href=\"/search/?p=CEE%203415\" data-action=\"result-detail\" data-group=\"code:CEE 3415\"  class=\"notoffered\">CEE 3415</a> or Instructor permission.",
+      "description": "Covers basic characteristics of geological materials; soil classifications; physical, mechanical, and hydraulic properties; the effective stress principle; seepage; consolidation; stress distribution; settlement analysis; and shear strength of soils. Credit not awarded for both CEE 3800 and <a href=\"/search/?p=CEE%203815\" data-action=\"result-detail\" data-group=\"code:CEE 3815\"  class=\"notoffered\">CEE 3815</a>. Prerequisites: <a href=\"/search/?p=CEE%201150\" data-action=\"result-detail\" data-group=\"code:CEE 1150\" >CEE 1150</a> with grade C- or better or <a href=\"/search/?p=CEE%201100\" data-action=\"result-detail\" data-group=\"code:CEE 1100\" >CEE 1100</a> with grade C- or better.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 1150\"}, {\"type\": \"course\", \"code\": \"CEE 1100\"}]}",
+      "other_requirements": "grade C- or better",
+      "external": false
+    },
+    {
+      "id": "ME 2230",
+      "course_code": "ME 2230",
+      "department": "ME",
+      "title": "Fluid Mechanics",
+      "credit_hours": "3",
+      "description": "Fluid pressure distributions; integral control volume systems; differential relations for a fluid particle; dimensional similarity; viscous flow in ducts; boundary layer flows; inviscid incompressible flows. Prerequisites: <a href=\"/search/?p=ME%201120\" data-action=\"result-detail\" data-group=\"code:ME 1120\" >ME 1120</a>, <a href=\"/search/?p=ME%201140\" data-action=\"result-detail\" data-group=\"code:ME 1140\" >ME 1140</a> or <a href=\"/search/?p=CEE%202100\" data-action=\"result-detail\" data-group=\"code:CEE 2100\" >CEE 2100</a>, <a href=\"/search/?p=ME%201210\" data-action=\"result-detail\" data-group=\"code:ME 1210\" >ME 1210</a>, <a href=\"/search/?p=MATH%203201\" data-action=\"result-detail\" data-group=\"code:MATH 3201\" >MATH 3201</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ME 1120\"}, {\"type\": \"course\", \"code\": \"ME 1140\"}, {\"type\": \"course\", \"code\": \"CEE 2100\"}]}, {\"type\": \"course\", \"code\": \"ME 1210\"}, {\"type\": \"course\", \"code\": \"MATH 3201\"}]}",
+      "other_requirements": "Dynamics, Solid Mechanics / Strength of Materials, Thermodynamics, & Differential Equations",
+      "external": true
+    },
+    {
+      "id": "CEE 3610",
+      "course_code": "CEE 3610",
+      "department": "CEE",
+      "title": "Hydraulics Lab",
+      "credit_hours": "2",
+      "description": "Performing various laboratory studies of flow and hydraulic machinery determine index; computer modeling of hydraulic systems; associated laboratory and project report writing and presentations. Co-requisites: <a href=\"/search/?p=CEE%203600\" data-action=\"result-detail\" data-group=\"code:CEE 3600\"  class=\"notoffered\">CEE 3600</a> or <a href=\"/search/?p=CEE%203615\" data-action=\"result-detail\" data-group=\"code:CEE 3615\" >CEE 3615</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3600\"}, {\"type\": \"course\", \"code\": \"CEE 3615\"}]}",
+      "other_requirements": "Must register for CEE 3610 recitation",
+      "external": false
+    },
+    {
+      "id": "CEE 2120",
+      "course_code": "CEE 2120",
+      "department": "CEE",
+      "title": "Environmental Systems",
+      "credit_hours": "3",
+      "description": "Systems thinking and the systems approach as applied to environmental systems; sustainability, mass and energy balances, kinetics, ecosystem health and the public welfare, environmental risk, green engineering, water and wastewater treatment, air resources engineering, solid-waste management. Prerequisites: <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>; <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}]}",
+      "other_requirements": "Prereqs enforced by the system:CHEM 1400;MATH 1212orMATH 1234",
+      "external": false
+    },
+    {
+      "id": "CEE 5660",
+      "course_code": "CEE 5660",
+      "department": "CEE",
+      "title": "Climate Change Impacts",
+      "credit_hours": "3",
+      "description": "Introduces the physical basis of climate change and explores a number of climate change impacts, particularly those that affect the built environment; primary focus on hydro-climate impacts, specifically flood risk, water resources, coastal flooding, and stormwater infrastructure; various modeling techniques are introduced and applied to engineering problems. Prerequisite: Graduate student or Instructor permission; programming skills (such as in Python or Matlab) and content knowledge of hydraulics/fluid mechanics (such as <a href=\"/search/?p=CEE%203600\" data-action=\"result-detail\" data-group=\"code:CEE 3600\"  class=\"notoffered\">CEE 3600</a>, <a href=\"/search/?p=CEE%203615\" data-action=\"result-detail\" data-group=\"code:CEE 3615\" >CEE 3615</a>, or <a href=\"/search/?p=ME%202230\" data-action=\"result-detail\" data-group=\"code:ME 2230\" >ME 2230</a>) assumed.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3600\"}, {\"type\": \"course\", \"code\": \"CEE 3615\"}, {\"type\": \"course\", \"code\": \"ME 2230\"}]}",
+      "other_requirements": "Graduate student or Instructor permission; programming skills (such as in Python or Matlab) and content knowledge of hydraulics/fluid mechanics assumed.",
+      "external": false
+    },
+    {
+      "id": "CEE 5620",
+      "course_code": "CEE 5620",
+      "department": "CEE",
+      "title": "Advanced Hydrology",
+      "credit_hours": "3",
+      "description": "Introduces computer modeling of hydrological systems. Project-based. Simple overland flow, flood routing, water quality, and groundwater models are developed using finite difference techniques. Stochastic hydrology and hydrologic time series analysis are also introduced. Prerequisite: Graduate student or Instructor permission; content knowledge of hydrology (such as <a href=\"/search/?p=CEE%204600\" data-action=\"result-detail\" data-group=\"code:CEE 4600\"  class=\"notoffered\">CEE 4600</a>) assumed.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 4600\"}, {\"type\": \"course\", \"code\": \"CEE 5600\"}]}",
+      "other_requirements": "Graduate student or Instructor permission; Graduate students only or Instructor permission",
+      "external": false
+    },
+    {
+      "id": "CEE 3600",
+      "course_code": "CEE 3600",
+      "department": "CEE",
+      "title": "Hydraulics",
+      "credit_hours": "3",
+      "description": "Provides an understanding of the mechanics of incompressible fluids (fluid statics and fluid flow) with a focus on applications common in Civil and Environmental Engineering such as flow meters, flow in closed conduits, and elements of hydraulic machinery (systems with pumps, cavitation, NPSH). Credit not awarded for both CEE 3600 and <a href=\"/search/?p=CEE%203615\" data-action=\"result-detail\" data-group=\"code:CEE 3615\"  class=\"notoffered\">CEE 3615</a>. Prerequisites: <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>; <a href=\"/search/?p=CEE%201100\" data-action=\"result-detail\" data-group=\"code:CEE 1100\" >CEE 1100</a> with a grade of C- or better or <a href=\"/search/?p=CEE%201150\" data-action=\"result-detail\" data-group=\"code:CEE 1150\" >CEE 1150</a> with C- or better. Co-requisite: <a href=\"/search/?p=CS%201210\" data-action=\"result-detail\" data-group=\"code:CS 1210\" >CS 1210</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2248\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 1100\"}, {\"type\": \"course\", \"code\": \"CEE 1150\"}]}]}",
+      "other_requirements": "Prerequisites are enforced by the system: MATH 2248; CEE 1100 or CEE 1150 both with grade C- or better.",
+      "external": false
+    },
+    {
+      "id": "CEE 4570",
+      "course_code": "CEE 4570",
+      "department": "CEE",
+      "title": "Sustain Resource Recovery Dsgn",
+      "credit_hours": "3",
+      "description": "Solid waste engineering with an emphasis on engineering strategies to create more circular economies. Course topics include landfilling, recycling, incineration, composting, anaerobic digestion, technoeconomic analysis, and environmental life cycle assessment. Project based. Prerequisite: <a href=\"/search/?p=CEE%202120\" data-action=\"result-detail\" data-group=\"code:CEE 2120\" >CEE 2120</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"CEE 2120\"}",
+      "other_requirements": "Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "CEE 4440",
+      "course_code": "CEE 4440",
+      "department": "CEE",
+      "title": "Transportation Demand Models",
+      "credit_hours": "3",
+      "description": "Study of specific methods used to analyze travel demand, travel behavior and network flows; process of travel demand modeling; collection, analysis and expansion of survey data and travel data; mathematical methods common to travel modeling. Credit not awarded for both CEE 4440 and <a href=\"/search/?p=CEE%205440\" data-action=\"result-detail\" data-group=\"code:CEE 5440\" >CEE 5440</a>. Prerequisite: <a href=\"/search/?p=CEE%203400\" data-action=\"result-detail\" data-group=\"code:CEE 3400\"  class=\"notoffered\">CEE 3400</a> or <a href=\"/search/?p=CEE%203415\" data-action=\"result-detail\" data-group=\"code:CEE 3415\" >CEE 3415</a>.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3400\"}, {\"type\": \"course\", \"code\": \"CEE 3415\"}]}",
-      "other_requirements": "Instructor permission",
+      "other_requirements": "Credit not awarded for both CEE 4440 and CEE 5440.",
       "external": false
     },
     {
@@ -803,416 +682,639 @@
       "prereq_expression": null,
       "other_requirements": "Civil & Environmental Engineering Graduate student. Graduate standing in Civil and Environmental Engineering",
       "external": false
+    },
+    {
+      "id": "CEE 3400",
+      "course_code": "CEE 3400",
+      "department": "CEE",
+      "title": "Transportation Systems",
+      "credit_hours": "3",
+      "description": "Transportation systems planning, analysis, and design with foci on safety, modeling, decision support, and environmental impacts. Credit not awarded for both CEE 3400 and <a href=\"/search/?p=CEE%203415\" data-action=\"result-detail\" data-group=\"code:CEE 3415\"  class=\"notoffered\">CEE 3415</a>. Prerequisites: Engineering major; minimum Sophomore standing; or Instructor permission. Co-requisite: <a href=\"/search/?p=CEE%202000\" data-action=\"result-detail\" data-group=\"code:CEE 2000\" >CEE 2000</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 2000\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3415\"}, {\"type\": \"course\", \"code\": \"CEE 2000\"}]}]}",
+      "other_requirements": "Engineering major; minimum Sophomore standing; or Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "CEE 5700",
+      "course_code": "CEE 5700",
+      "department": "CEE",
+      "title": "Advanced Structural Analysis",
+      "credit_hours": "3",
+      "description": "Virtual work and strain energy theorems, matrix analysis of three-dimensional statically indeterminate frame and truss structures by the flexibility and stiffness method, stability and collapse mechanisms in structural systems. Project-based. Prerequisite: Graduate student or Instructor permission; content knowledge of structural analysis (such as <a href=\"/search/?p=CEE%203700\" data-action=\"result-detail\" data-group=\"code:CEE 3700\"  class=\"notoffered\">CEE 3700</a>) assumed.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3700\"}]}",
+      "other_requirements": "Graduate student or Instructor permission; content knowledge of structural analysis (such as CEE 3700) assumed. Graduate standing or instructor permission;",
+      "external": false
+    },
+    {
+      "id": "ME 1140",
+      "course_code": "ME 1140",
+      "department": "ME",
+      "title": "Mechanics of Solids",
+      "credit_hours": "3",
+      "description": "Stress, strain, temperature relationships, torsion, bending stresses and deflections. Columns, joints, thin-walled cylinders. Combined stresses and Mohr's circle. Prerequisites: <a href=\"/search/?p=CEE%201100\" data-action=\"result-detail\" data-group=\"code:CEE 1100\" >CEE 1100</a> with a grade of C- or better or <a href=\"/search/?p=CEE%201150\" data-action=\"result-detail\" data-group=\"code:CEE 1150\" >CEE 1150</a> with a grade of C- or better. Cross-listed with: <a href=\"/search/?p=CEE%202100\" data-action=\"result-detail\" data-group=\"code:CEE 2100\" >CEE 2100</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 1100\"}, {\"type\": \"course\", \"code\": \"CEE 1150\"}]}",
+      "other_requirements": "grade of C- or better for CEE 1100 or CEE 1150",
+      "external": true
+    },
+    {
+      "id": "MATH 2248",
+      "course_code": "MATH 2248",
+      "department": "MATH",
+      "title": "Calculus III",
+      "credit_hours": "4",
+      "description": "Vector-valued functions. Calculus of functions of several variables: partial derivatives, gradient, divergence, curl, multiple integrals, line integrals, Stokes' and Green's theorems. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "C- or better in MATH 1248 or MATH 1242",
+      "external": true
+    },
+    {
+      "id": "CEE 4810",
+      "course_code": "CEE 4810",
+      "department": "CEE",
+      "title": "Geotechnical Design",
+      "credit_hours": "3",
+      "description": "Bearing capacity, lateral earth pressures, slope stability; analysis and design of shallow and deep foundations, retaining structures, and slopes; project-based. Prerequisite: <a href=\"/search/?p=CEE%203800\" data-action=\"result-detail\" data-group=\"code:CEE 3800\"  class=\"notoffered\">CEE 3800</a> or <a href=\"/search/?p=CEE%203815\" data-action=\"result-detail\" data-group=\"code:CEE 3815\" >CEE 3815</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3800\"}, {\"type\": \"course\", \"code\": \"CEE 3815\"}]}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CEE 6610",
+      "course_code": "CEE 6610",
+      "department": "CEE",
+      "title": "Data Analytics Water Resources",
+      "credit_hours": "3",
+      "description": "Understanding and application of computational tools to the analysis of water resources data including: 1) autocorrelation or semivariograms to examine data structure; 2) kriging methods for data interpolation; 3) clustering and classification techniques for data exploration; and 4) Bayesian analyses to quantify uncertainty. Data analysis techniques are presented as a systems approach to site characterization, monitoring, remediation or restoration applications in groundwater or surface water settings recognized as components of the complex Earth system. Prerequisites: Content knowledge of statistics assumed; Graduate student.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 3600\"}, {\"type\": \"course\", \"code\": \"STAT 3600\"}]}, {\"type\": \"course\", \"code\": \"CS 1301\"}]}",
+      "other_requirements": "Graduate student. Knowledge of multivariate statistics and competence in a programming language.",
+      "external": false
+    },
+    {
+      "id": "CEE 4720",
+      "course_code": "CEE 4720",
+      "department": "CEE",
+      "title": "Structural Steel Design",
+      "credit_hours": "3",
+      "description": "Theory and design of steel structures including flexural members, axially loaded members and combined stress members; design of composite members; plastic analysis and design; project-based. Prerequisite: <a href=\"/search/?p=CEE%203700\" data-action=\"result-detail\" data-group=\"code:CEE 3700\"  class=\"notoffered\">CEE 3700</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"CEE 3700\"}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CEE 5650",
+      "course_code": "CEE 5650",
+      "department": "CEE",
+      "title": "Groundwater Hydrolo & Modeling",
+      "credit_hours": "3",
+      "description": "Principles of ground water hydraulics, well characteristics, aquifers, and use of numerical methods to solve ground water flow problems. Modeling of groundwater and contamination remediation design. Credit not awarded for both CEE 5650 and <a href=\"/search/?p=CEE%204650\" data-action=\"result-detail\" data-group=\"code:CEE 4650\" >CEE 4650</a>. Prerequisites: Content knowledge hydraulics/fluid mechanics is assumed.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 3600\"}, {\"type\": \"course\", \"code\": \"CEE 3615\"}]}",
+      "other_requirements": "Graduate standing or instructor permission; content knowledge of hydraulics/fluid mechanics (e.g. CEE 3600 or CEE 3615) assumed; Credit not awarded for both CEE 5650 and CEE 4650.",
+      "external": false
+    },
+    {
+      "id": "CEE 3530",
+      "course_code": "CEE 3530",
+      "department": "CEE",
+      "title": "Environmental Quanti. Analysis",
+      "credit_hours": "4",
+      "description": "Focuses on chemical, biochemical and physical processes; diffusion, equilibria, reaction kinetics, acids/bases, colloids, air/water exchange; laboratories demonstrate standard environmental engineering techniques; project-based. Prerequisites: <a href=\"/search/?p=CEE%202120\" data-action=\"result-detail\" data-group=\"code:CEE 2120\" >CEE 2120</a> with C- or better; <a href=\"/search/?p=STAT%201410\" data-action=\"result-detail\" data-group=\"code:STAT 1410\" >STAT 1410</a> or <a href=\"/search/?p=STAT%202430\" data-action=\"result-detail\" data-group=\"code:STAT 2430\" >STAT 2430</a>. Co-requisite: <a href=\"/search/?p=CEE%203510\" data-action=\"result-detail\" data-group=\"code:CEE 3510\" >CEE 3510</a> or <a href=\"/search/?p=CEE%203515\" data-action=\"result-detail\" data-group=\"code:CEE 3515\"  class=\"notoffered\">CEE 3515</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CEE 2120\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"STAT 1410\"}, {\"type\": \"course\", \"code\": \"STAT 2430\"}]}]}",
+      "other_requirements": "CEE 2120 with C- or better; Must register for lab",
+      "external": false
+    },
+    {
+      "id": "CEE 1994",
+      "course_code": "CEE 1994",
+      "department": "CEE",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission",
+      "external": false
+    },
+    {
+      "id": "CEE 1900",
+      "course_code": "CEE 1900",
+      "department": "CEE",
+      "title": "Career Preparation",
+      "credit_hours": "1",
+      "description": "Teaches students how to combine their curricula and development of key transferable skills to become civil or environmental engineering professionals; includes the path to professional engineering licensure and eventual leadership as a professional; preparation for internship/job search, interviews, and Fundamentals of Engineering examination. Prerequisites: Civil Engineering or Environmental Engineering major; minimum Sophomore standing; or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Civil Engineering or Environmental Engineering major; minimum Sophomore standing; or Instructor permission",
+      "external": false
     }
   ],
   "edges": [
     {
       "source": "CEE 1100",
-      "target": "CEE 2100"
+      "target": "CEE 2100",
+      "group": "CEE 2100__g0"
     },
     {
       "source": "CEE 1100",
-      "target": "CEE 3600"
+      "target": "CEE 3600",
+      "group": "CEE 3600__g0"
     },
     {
       "source": "CEE 1100",
-      "target": "CEE 3615"
+      "target": "CEE 3615",
+      "group": "CEE 3615__g0"
     },
     {
       "source": "CEE 1100",
-      "target": "CEE 3800"
+      "target": "CEE 3800",
+      "group": "CEE 3800__g0"
     },
     {
       "source": "CEE 1100",
-      "target": "CEE 3810"
+      "target": "CEE 3810",
+      "group": "CEE 3810__g0"
     },
     {
       "source": "CEE 1100",
-      "target": "CEE 3815"
+      "target": "CEE 3815",
+      "group": "CEE 3815__g0"
     },
     {
       "source": "CEE 1100",
-      "target": "ME 1140"
+      "target": "ME 1140",
+      "group": "ME 1140__g0"
     },
     {
       "source": "CEE 1150",
-      "target": "CEE 2100"
+      "target": "CEE 2100",
+      "group": "CEE 2100__g0"
     },
     {
       "source": "CEE 1150",
-      "target": "CEE 3600"
+      "target": "CEE 3600",
+      "group": "CEE 3600__g0"
     },
     {
       "source": "CEE 1150",
-      "target": "CEE 3615"
+      "target": "CEE 3615",
+      "group": "CEE 3615__g0"
     },
     {
       "source": "CEE 1150",
-      "target": "CEE 3800"
+      "target": "CEE 3800",
+      "group": "CEE 3800__g0"
     },
     {
       "source": "CEE 1150",
-      "target": "CEE 3810"
+      "target": "CEE 3810",
+      "group": "CEE 3810__g0"
     },
     {
       "source": "CEE 1150",
-      "target": "CEE 3815"
+      "target": "CEE 3815",
+      "group": "CEE 3815__g0"
     },
     {
       "source": "CEE 1150",
-      "target": "ME 1140"
+      "target": "ME 1140",
+      "group": "ME 1140__g0"
     },
     {
       "source": "CEE 2000",
-      "target": "CEE 3400"
+      "target": "CEE 3400",
+      "group": "CEE 3400__g0"
     },
     {
       "source": "CEE 2100",
-      "target": "CEE 3010"
+      "target": "CEE 3010",
+      "group": "CEE 3010__g0"
     },
     {
       "source": "CEE 2100",
-      "target": "CEE 3700"
+      "target": "CEE 3700",
+      "group": "CEE 3700__g1"
     },
     {
       "source": "CEE 2100",
-      "target": "ME 2230"
+      "target": "ME 2230",
+      "group": "ME 2230__g0"
     },
     {
       "source": "CEE 2120",
-      "target": "CEE 3510"
+      "target": "CEE 3510",
+      "group": null
     },
     {
       "source": "CEE 2120",
-      "target": "CEE 3530"
+      "target": "CEE 3530",
+      "group": null
     },
     {
       "source": "CEE 2120",
-      "target": "CEE 4570"
+      "target": "CEE 4570",
+      "group": null
     },
     {
       "source": "CEE 3400",
-      "target": "CEE 4440"
+      "target": "CEE 4440",
+      "group": "CEE 4440__g0"
     },
     {
       "source": "CEE 3400",
-      "target": "CEE 4450"
+      "target": "CEE 4450",
+      "group": "CEE 4450__g0"
     },
     {
       "source": "CEE 3415",
-      "target": "CEE 3400"
+      "target": "CEE 3400",
+      "group": "CEE 3400__g0"
     },
     {
       "source": "CEE 3415",
-      "target": "CEE 4440"
+      "target": "CEE 4440",
+      "group": "CEE 4440__g0"
     },
     {
       "source": "CEE 3415",
-      "target": "CEE 4450"
+      "target": "CEE 4450",
+      "group": "CEE 4450__g0"
     },
     {
       "source": "CEE 3510",
-      "target": "CEE 3520"
+      "target": "CEE 3520",
+      "group": "CEE 3520__g0"
     },
     {
       "source": "CEE 3510",
-      "target": "CEE 5550"
+      "target": "CEE 5550",
+      "group": "CEE 5550__g0"
     },
     {
       "source": "CEE 3600",
-      "target": "CEE 3610"
+      "target": "CEE 3610",
+      "group": "CEE 3610__g0"
     },
     {
       "source": "CEE 3600",
-      "target": "CEE 4600"
+      "target": "CEE 4600",
+      "group": "CEE 4600__g0"
     },
     {
       "source": "CEE 3600",
-      "target": "CEE 4650"
+      "target": "CEE 4650",
+      "group": "CEE 4650__g0"
     },
     {
       "source": "CEE 3600",
-      "target": "CEE 5650"
+      "target": "CEE 5650",
+      "group": "CEE 5650__g0"
     },
     {
       "source": "CEE 3600",
-      "target": "CEE 5660"
+      "target": "CEE 5660",
+      "group": "CEE 5660__g0"
     },
     {
       "source": "CEE 3615",
-      "target": "CEE 3610"
+      "target": "CEE 3610",
+      "group": "CEE 3610__g0"
     },
     {
       "source": "CEE 3615",
-      "target": "CEE 4600"
+      "target": "CEE 4600",
+      "group": "CEE 4600__g0"
     },
     {
       "source": "CEE 3615",
-      "target": "CEE 4650"
+      "target": "CEE 4650",
+      "group": "CEE 4650__g0"
     },
     {
       "source": "CEE 3615",
-      "target": "CEE 5650"
+      "target": "CEE 5650",
+      "group": "CEE 5650__g0"
     },
     {
       "source": "CEE 3615",
-      "target": "CEE 5660"
+      "target": "CEE 5660",
+      "group": "CEE 5660__g0"
     },
     {
       "source": "CEE 3700",
-      "target": "CEE 3010"
+      "target": "CEE 3010",
+      "group": null
     },
     {
       "source": "CEE 3700",
-      "target": "CEE 4720"
+      "target": "CEE 4720",
+      "group": null
     },
     {
       "source": "CEE 3700",
-      "target": "CEE 4730"
+      "target": "CEE 4730",
+      "group": null
     },
     {
       "source": "CEE 3700",
-      "target": "CEE 5700"
+      "target": "CEE 5700",
+      "group": "CEE 5700__g0"
     },
     {
       "source": "CEE 3700",
-      "target": "CEE 5730"
+      "target": "CEE 5730",
+      "group": "CEE 5730__g0"
     },
     {
       "source": "CEE 3800",
-      "target": "CEE 4810"
+      "target": "CEE 4810",
+      "group": "CEE 4810__g0"
     },
     {
       "source": "CEE 3800",
-      "target": "CEE 5850"
+      "target": "CEE 5850",
+      "group": "CEE 5850__g0"
     },
     {
       "source": "CEE 3815",
-      "target": "CEE 4810"
+      "target": "CEE 4810",
+      "group": "CEE 4810__g0"
     },
     {
       "source": "CEE 3815",
-      "target": "CEE 5850"
+      "target": "CEE 5850",
+      "group": "CEE 5850__g0"
     },
     {
       "source": "CEE 4600",
-      "target": "CEE 5600"
+      "target": "CEE 5600",
+      "group": null
     },
     {
       "source": "CEE 4600",
-      "target": "CEE 5620"
+      "target": "CEE 5620",
+      "group": "CEE 5620__g0"
     },
     {
       "source": "CEE 5600",
-      "target": "CEE 5620"
+      "target": "CEE 5620",
+      "group": "CEE 5620__g0"
     },
     {
       "source": "CHEM 1400",
-      "target": "CEE 2120"
+      "target": "CEE 2120",
+      "group": null
     },
     {
       "source": "CS 1210",
-      "target": "CEE 3700"
+      "target": "CEE 3700",
+      "group": null
     },
     {
       "source": "MATH 1034",
-      "target": "CEE 2000"
+      "target": "CEE 2000",
+      "group": "CEE 2000__g0"
     },
     {
       "source": "MATH 1034",
-      "target": "MATH 1212"
+      "target": "MATH 1212",
+      "group": "MATH 1212__g0"
     },
     {
       "source": "MATH 1034",
-      "target": "MATH 1234"
+      "target": "MATH 1234",
+      "group": "MATH 1234__g0"
     },
     {
       "source": "MATH 1212",
-      "target": "CEE 2000"
+      "target": "CEE 2000",
+      "group": "CEE 2000__g0"
     },
     {
       "source": "MATH 1212",
-      "target": "CEE 2120"
+      "target": "CEE 2120",
+      "group": "CEE 2120__g0"
     },
     {
       "source": "MATH 1212",
-      "target": "MATH 1242"
+      "target": "MATH 1242",
+      "group": "MATH 1242__g0"
     },
     {
       "source": "MATH 1212",
-      "target": "STAT 2430"
+      "target": "STAT 2430",
+      "group": "STAT 2430__g0"
     },
     {
       "source": "MATH 1234",
-      "target": "CEE 2000"
+      "target": "CEE 2000",
+      "group": "CEE 2000__g0"
     },
     {
       "source": "MATH 1234",
-      "target": "CEE 2120"
+      "target": "CEE 2120",
+      "group": "CEE 2120__g0"
     },
     {
       "source": "MATH 1234",
-      "target": "MATH 1034"
+      "target": "MATH 1034",
+      "group": null
     },
     {
       "source": "MATH 1234",
-      "target": "MATH 1248"
+      "target": "MATH 1248",
+      "group": "MATH 1248__g0"
     },
     {
       "source": "MATH 1234",
-      "target": "PHYS 1500"
+      "target": "PHYS 1500",
+      "group": "PHYS 1500__g0"
     },
     {
       "source": "MATH 1234",
-      "target": "STAT 2430"
+      "target": "STAT 2430",
+      "group": "STAT 2430__g0"
     },
     {
       "source": "MATH 1242",
-      "target": "CEE 1100"
+      "target": "CEE 1100",
+      "group": "CEE 1100__g0"
     },
     {
       "source": "MATH 1242",
-      "target": "CEE 1150"
+      "target": "CEE 1150",
+      "group": "CEE 1150__g0"
     },
     {
       "source": "MATH 1242",
-      "target": "MATH 2248"
+      "target": "MATH 2248",
+      "group": "MATH 2248__g0"
     },
     {
       "source": "MATH 1242",
-      "target": "MATH 2522"
+      "target": "MATH 2522",
+      "group": "MATH 2522__g0"
     },
     {
       "source": "MATH 1242",
-      "target": "MATH 2544"
+      "target": "MATH 2544",
+      "group": "MATH 2544__g0"
     },
     {
       "source": "MATH 1242",
-      "target": "PHYS 1500"
+      "target": "PHYS 1500",
+      "group": "PHYS 1500__g0"
     },
     {
       "source": "MATH 1242",
-      "target": "STAT 2510"
+      "target": "STAT 2510",
+      "group": "STAT 2510__g0"
     },
     {
       "source": "MATH 1248",
-      "target": "CEE 1100"
+      "target": "CEE 1100",
+      "group": "CEE 1100__g0"
     },
     {
       "source": "MATH 1248",
-      "target": "CEE 1150"
+      "target": "CEE 1150",
+      "group": "CEE 1150__g0"
     },
     {
       "source": "MATH 1248",
-      "target": "MATH 2248"
+      "target": "MATH 2248",
+      "group": "MATH 2248__g0"
     },
     {
       "source": "MATH 1248",
-      "target": "MATH 2522"
+      "target": "MATH 2522",
+      "group": "MATH 2522__g0"
     },
     {
       "source": "MATH 1248",
-      "target": "MATH 2544"
+      "target": "MATH 2544",
+      "group": "MATH 2544__g0"
     },
     {
       "source": "MATH 1248",
-      "target": "STAT 2510"
+      "target": "STAT 2510",
+      "group": "STAT 2510__g0"
     },
     {
       "source": "MATH 2248",
-      "target": "CEE 3600"
+      "target": "CEE 3600",
+      "group": null
     },
     {
       "source": "MATH 2248",
-      "target": "CEE 3615"
+      "target": "CEE 3615",
+      "group": null
     },
     {
       "source": "MATH 2248",
-      "target": "MATH 3201"
+      "target": "MATH 3201",
+      "group": null
     },
     {
       "source": "MATH 2522",
-      "target": "CEE 3700"
+      "target": "CEE 3700",
+      "group": "CEE 3700__g0"
     },
     {
       "source": "MATH 2522",
-      "target": "CEE 5980"
+      "target": "CEE 5980",
+      "group": "CEE 5980__g0"
     },
     {
       "source": "MATH 2522",
-      "target": "STAT 5230"
+      "target": "STAT 5230",
+      "group": "STAT 5230__g0"
     },
     {
       "source": "MATH 2544",
-      "target": "CEE 3700"
+      "target": "CEE 3700",
+      "group": "CEE 3700__g0"
     },
     {
       "source": "MATH 2544",
-      "target": "CEE 5980"
+      "target": "CEE 5980",
+      "group": "CEE 5980__g0"
     },
     {
       "source": "MATH 2544",
-      "target": "STAT 5230"
+      "target": "STAT 5230",
+      "group": "STAT 5230__g0"
     },
     {
       "source": "MATH 3201",
-      "target": "CEE 3700"
+      "target": "CEE 3700",
+      "group": null
     },
     {
       "source": "MATH 3201",
-      "target": "CEE 5980"
+      "target": "CEE 5980",
+      "group": null
     },
     {
       "source": "MATH 3201",
-      "target": "ME 2230"
+      "target": "ME 2230",
+      "group": null
     },
     {
       "source": "ME 1140",
-      "target": "CEE 3010"
+      "target": "CEE 3010",
+      "group": "CEE 3010__g0"
     },
     {
       "source": "ME 1140",
-      "target": "CEE 3700"
+      "target": "CEE 3700",
+      "group": "CEE 3700__g1"
     },
     {
       "source": "ME 1140",
-      "target": "ME 2230"
+      "target": "ME 2230",
+      "group": "ME 2230__g0"
     },
     {
       "source": "ME 2230",
-      "target": "CEE 5660"
+      "target": "CEE 5660",
+      "group": "CEE 5660__g0"
     },
     {
       "source": "PHYS 1500",
-      "target": "CEE 1100"
+      "target": "CEE 1100",
+      "group": null
     },
     {
       "source": "PHYS 1500",
-      "target": "CEE 1150"
+      "target": "CEE 1150",
+      "group": null
     },
     {
       "source": "STAT 1410",
-      "target": "CEE 2130"
+      "target": "CEE 2130",
+      "group": "CEE 2130__g0"
     },
     {
       "source": "STAT 1410",
-      "target": "CEE 3530"
+      "target": "CEE 3530",
+      "group": "CEE 3530__g0"
     },
     {
       "source": "STAT 2430",
-      "target": "CEE 2130"
+      "target": "CEE 2130",
+      "group": "CEE 2130__g0"
     },
     {
       "source": "STAT 2430",
-      "target": "CEE 3530"
+      "target": "CEE 3530",
+      "group": "CEE 3530__g0"
     },
     {
       "source": "STAT 2510",
-      "target": "CEE 2130"
+      "target": "CEE 2130",
+      "group": "CEE 2130__g0"
     },
     {
       "source": "STAT 5230",
-      "target": "CEE 7980"
+      "target": "CEE 7980",
+      "group": null
     }
   ]
 }

@@ -2,146 +2,14 @@
   "department": "EDML",
   "nodes": [
     {
-      "id": "EDML 3600",
-      "course_code": "EDML 3600",
+      "id": "EDML 3590",
+      "course_code": "EDML 3590",
       "department": "EDML",
-      "title": "Teaching Young Adolescents",
-      "credit_hours": "3",
-      "description": "Focus on understanding and reflecting on an integrative and developmental approach to the design of middle level curriculum, as well as teaching in one area of specialization.",
-      "prereq_expression": null,
-      "other_requirements": "Undergrad EDML majors only with minimum junior standing",
-      "external": false
-    },
-    {
-      "id": "EDML 5860",
-      "course_code": "EDML 5860",
-      "department": "EDML",
-      "title": "ML Internship Seminar",
-      "credit_hours": "3",
-      "description": "Supports students engaged in their student teaching semester. Develop, share, and critically evaluate portfolio work.  Process challenges experienced in the field. Credit not awarded for both EDML 5860 and <a href=\"/search/?p=EDML%204860\" data-action=\"result-detail\" data-group=\"code:EDML 4860\"  class=\"notoffered\">EDML 4860</a>. Prerequisite: <a href=\"/search/?p=EDML%205992\" data-action=\"result-detail\" data-group=\"code:EDML 5992\"  class=\"notoffered\">EDML 5992</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"EDML 5992\"}",
-      "other_requirements": "EDML Seniors & MAT students; Take concurrently with ML Student Teaching:EDML 4991 or 6991.",
-      "external": false
-    },
-    {
-      "id": "EDML 5600",
-      "course_code": "EDML 5600",
-      "department": "EDML",
-      "title": "Middle Grades Integ Curr & Ped",
-      "credit_hours": "3",
-      "description": "Applies frameworks to design culturally responsive, developmentally appropriate curriculum and assessments for young adolescents. Drawing on Successful Middle Schools (Bishop &amp; Harrison), focuses on applying project-based, place-based, and personalized learning approaches to creating units that are challenging, exploratory, integrative, and diverse. Course is aligned with the Vermont Middle Grades Endorsement. Prerequisite: Graduate student or Instructor permission.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate student or Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "EDTE 1610",
-      "course_code": "EDTE 1610",
-      "department": "EDTE",
-      "title": "CL:Foundations of PBE",
+      "title": "SL:Place-BasedMidLevPracticum",
       "credit_hours": "4",
-      "description": "Introduces the principles and practices of place-based education. Students learn to design place-based curriculum and educative materials from an interdisciplinary analysis of specific places. Cross-listed with: <a href=\"/search/?p=SEP%201610\" data-action=\"result-detail\" data-group=\"code:SEP 1610\" >SEP 1610</a>.",
+      "description": "A service-learning course designed around an immersive experience in place-based education practices with young adolescents (grades 5-9). Place-based education (PBE) is an approach to learning that takes advantage of geography to create authentic, meaningful and engaging personalized learning for students. Through a combination of on-campus seminars, field-based trips and middle level classroom teaching, participants will experience, analyze, design and teach authentic place and community-based learning experiences. Pre/Co-requisite: Sophomore standing.",
       "prereq_expression": null,
-      "other_requirements": "Instructor Permission Required; Priority registration for students enrolled in PBE certificate. Then open to Degree & PACE students; Cross listed with SEP 1610A",
-      "external": true
-    },
-    {
-      "id": "EDML 6991",
-      "course_code": "EDML 6991",
-      "department": "EDML",
-      "title": "Internship: Student Teaching",
-      "credit_hours": "9",
-      "description": "A full-semester, full-time, full-day, clinical component of the teacher preparation program. Provides students with a carefully mentored experience to help develop and enhance the knowledge, skills, and dispositions necessary to positively impact student learning and development. Prerequisites: <a href=\"/search/?p=EDML%206070\" data-action=\"result-detail\" data-group=\"code:EDML 6070\"  class=\"notoffered\">EDML 6070</a>, <a href=\"/search/?p=EDML%205890\" data-action=\"result-detail\" data-group=\"code:EDML 5890\" >EDML 5890</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDML 6070\"}, {\"type\": \"course\", \"code\": \"EDML 5890\"}]}",
-      "other_requirements": "EDML MAT Students Only; Location: Off site at various schools; Take concurrently with Student Teaching SeminarEDML 5830",
-      "external": false
-    },
-    {
-      "id": "EDML 3700",
-      "course_code": "EDML 3700",
-      "department": "EDML",
-      "title": "Middle School Org & Pedagogy",
-      "credit_hours": "3",
-      "description": "Focuses on exploring theory and practice in responsive school organization for young adolescents, including interdisciplinary/partner teaming, block scheduling, and teacher advisories, as well as teaching lessons in one area of specialization. Credit not awarded for both EDML 3700 and <a href=\"/search/?p=EDML%205700\" data-action=\"result-detail\" data-group=\"code:EDML 5700\" >EDML 5700</a>. Pre/co-requisite: <a href=\"/search/?p=EDML%201890\" data-action=\"result-detail\" data-group=\"code:EDML 1890\"  class=\"notoffered\">EDML 1890</a>, <a href=\"/search/?p=EDML%202890\" data-action=\"result-detail\" data-group=\"code:EDML 2890\"  class=\"notoffered\">EDML 2890</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDML 1890\"}, {\"type\": \"course\", \"code\": \"EDML 2890\"}]}",
-      "other_requirements": "Open to Degree and PACE Students",
-      "external": false
-    },
-    {
-      "id": "EDML 6220",
-      "course_code": "EDML 6220",
-      "department": "EDML",
-      "title": "Social Justice Teaching & Adv",
-      "credit_hours": "3",
-      "description": "Examines social justice issues in education and explores what it means to engage in social justice teaching and advocacy. Critically examines the roles of power, oppression, and privilege in education as students strive to envision ways to disrupt injustice and create a better, more just educational system. Prerequisite: Graduate student or Instructor permission.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate student or Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "EDML 2890",
-      "course_code": "EDML 2890",
-      "department": "EDML",
-      "title": "Teachers & Teaching Process",
-      "credit_hours": "3",
-      "description": "Examines professional responsibilities of middle level teachers as defined by Vermont and national standards via classroom observations.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EDML 5700",
-      "course_code": "EDML 5700",
-      "department": "EDML",
-      "title": "Middle Grades Organization",
-      "credit_hours": "3",
-      "description": "Contemporary middle level schools are structured specifically to respond to the unique nature of young adolescents. Explores these structures in relation to middle schoolers' developmental and cultural needs. Topics include personalization, teaming, grouping, scheduling, transition planning, and family involvement. Credit not awarded for both EDML 5700 and <a href=\"/search/?p=EDML%203700\" data-action=\"result-detail\" data-group=\"code:EDML 3700\" >EDML 3700</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EDML 4890",
-      "course_code": "EDML 4890",
-      "department": "EDML",
-      "title": "Practicum II: Equ MG Learn Env",
-      "credit_hours": "6",
-      "description": "Teaching practicum on middle level team in one of two areas of academic concentration, acquiring knowledge of and skills in curriculum, pedagogy, and assessment. Prerequisite: Admission to Middle Level Professional program. Pre/Co-requisite: Admission to Middle Level Professional Program.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDML 4890\"}]}",
-      "other_requirements": "Admission to Middle Level Professional program; EDML majors; senior standing; course fee: $40.00",
-      "external": false
-    },
-    {
-      "id": "EDML 5890",
-      "course_code": "EDML 5890",
-      "department": "EDML",
-      "title": "Equitable MG Learning Environ",
-      "credit_hours": "4",
-      "description": "Provides a school-based teaching and learning experience that will continue into student teaching in the following term.  Through  internship and weekly course meetings, provides an opportunity to design and engage in practices that are appropriate for the diverse experiences and identities of young adolescent learners. Credit not awarded for both EDML 5890 and <a href=\"/search/?p=EDML%203890\" data-action=\"result-detail\" data-group=\"code:EDML 3890\"  class=\"notoffered\">EDML 3890</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EDML 3770",
-      "course_code": "EDML 3770",
-      "department": "EDML",
-      "title": "SL:Young AdolescentELA Methods",
-      "credit_hours": "3",
-      "description": "Examines young adolescent literature and research-based instructional practices for supporting students with reading and writing in middle grades English Language Arts. Credit not awarded for both EDML 3770 and <a href=\"/search/?p=EDML%205770\" data-action=\"result-detail\" data-group=\"code:EDML 5770\"  class=\"notoffered\">EDML 5770</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Open to Degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "EDML 3220",
-      "course_code": "EDML 3220",
-      "department": "EDML",
-      "title": "CL:Social Justice Education",
-      "credit_hours": "3",
-      "description": "Examines social justice issues in education and explores what it means to be a social justice educator. Students will critically reflect, analyze relevant cases, and engage in social justice advocacy. Pre/Co-requisites: <a href=\"/search/?p=EDML%203770\" data-action=\"result-detail\" data-group=\"code:EDML 3770\" >EDML 3770</a> or <a href=\"/search/?p=EDML%203890\" data-action=\"result-detail\" data-group=\"code:EDML 3890\"  class=\"notoffered\">EDML 3890</a> or <a href=\"/search/?p=EDML%203990\" data-action=\"result-detail\" data-group=\"code:EDML 3990\"  class=\"notoffered\">EDML 3990</a> or <a href=\"/search/?p=EDTE%201610\" data-action=\"result-detail\" data-group=\"code:EDTE 1610\" >EDTE 1610</a> or <a href=\"/search/?p=NR%201610\" data-action=\"result-detail\" data-group=\"code:NR 1610\"  class=\"notoffered\">NR 1610</a> or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDML 3770\"}, {\"type\": \"course\", \"code\": \"EDML 3890\"}, {\"type\": \"course\", \"code\": \"EDML 3990\"}, {\"type\": \"course\", \"code\": \"EDTE 1610\"}, {\"type\": \"course\", \"code\": \"NR 1610\"}]}",
-      "other_requirements": "Instructor permission. Open to degree and PACE students",
+      "other_requirements": "Sophomore standing. Open to all majors; Minimum Sophomore standing; On Campus & Off site school and community locations.",
       "external": false
     },
     {
@@ -156,14 +24,36 @@
       "external": false
     },
     {
-      "id": "EDML 3590",
-      "course_code": "EDML 3590",
+      "id": "EDML 6220",
+      "course_code": "EDML 6220",
       "department": "EDML",
-      "title": "SL:Place-BasedMidLevPracticum",
-      "credit_hours": "4",
-      "description": "A service-learning course designed around an immersive experience in place-based education practices with young adolescents (grades 5-9). Place-based education (PBE) is an approach to learning that takes advantage of geography to create authentic, meaningful and engaging personalized learning for students. Through a combination of on-campus seminars, field-based trips and middle level classroom teaching, participants will experience, analyze, design and teach authentic place and community-based learning experiences. Pre/Co-requisite: Sophomore standing.",
+      "title": "Social Justice Teaching & Adv",
+      "credit_hours": "3",
+      "description": "Examines social justice issues in education and explores what it means to engage in social justice teaching and advocacy. Critically examines the roles of power, oppression, and privilege in education as students strive to envision ways to disrupt injustice and create a better, more just educational system. Prerequisite: Graduate student or Instructor permission.",
       "prereq_expression": null,
-      "other_requirements": "Sophomore standing. Open to all majors; Minimum Sophomore standing; On Campus & Off site school and community locations.",
+      "other_requirements": "Graduate student or Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "EDML 3770",
+      "course_code": "EDML 3770",
+      "department": "EDML",
+      "title": "SL:Young AdolescentELA Methods",
+      "credit_hours": "3",
+      "description": "Examines young adolescent literature and research-based instructional practices for supporting students with reading and writing in middle grades English Language Arts. Credit not awarded for both EDML 3770 and <a href=\"/search/?p=EDML%205770\" data-action=\"result-detail\" data-group=\"code:EDML 5770\"  class=\"notoffered\">EDML 5770</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "EDML 5700",
+      "course_code": "EDML 5700",
+      "department": "EDML",
+      "title": "Middle Grades Organization",
+      "credit_hours": "3",
+      "description": "Contemporary middle level schools are structured specifically to respond to the unique nature of young adolescents. Explores these structures in relation to middle schoolers' developmental and cultural needs. Topics include personalization, teaming, grouping, scheduling, transition planning, and family involvement. Credit not awarded for both EDML 5700 and <a href=\"/search/?p=EDML%203700\" data-action=\"result-detail\" data-group=\"code:EDML 3700\" >EDML 3700</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     },
     {
@@ -176,40 +66,158 @@
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
+    },
+    {
+      "id": "EDML 3700",
+      "course_code": "EDML 3700",
+      "department": "EDML",
+      "title": "Middle School Org & Pedagogy",
+      "credit_hours": "3",
+      "description": "Focuses on exploring theory and practice in responsive school organization for young adolescents, including interdisciplinary/partner teaming, block scheduling, and teacher advisories, as well as teaching lessons in one area of specialization. Credit not awarded for both EDML 3700 and <a href=\"/search/?p=EDML%205700\" data-action=\"result-detail\" data-group=\"code:EDML 5700\" >EDML 5700</a>. Pre/co-requisite: <a href=\"/search/?p=EDML%201890\" data-action=\"result-detail\" data-group=\"code:EDML 1890\"  class=\"notoffered\">EDML 1890</a>, <a href=\"/search/?p=EDML%202890\" data-action=\"result-detail\" data-group=\"code:EDML 2890\"  class=\"notoffered\">EDML 2890</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDML 1890\"}, {\"type\": \"course\", \"code\": \"EDML 2890\"}]}",
+      "other_requirements": "Open to Degree and PACE Students",
+      "external": false
+    },
+    {
+      "id": "EDML 3220",
+      "course_code": "EDML 3220",
+      "department": "EDML",
+      "title": "CL:Social Justice Education",
+      "credit_hours": "3",
+      "description": "Examines social justice issues in education and explores what it means to be a social justice educator. Students will critically reflect, analyze relevant cases, and engage in social justice advocacy. Pre/Co-requisites: <a href=\"/search/?p=EDML%203770\" data-action=\"result-detail\" data-group=\"code:EDML 3770\" >EDML 3770</a> or <a href=\"/search/?p=EDML%203890\" data-action=\"result-detail\" data-group=\"code:EDML 3890\"  class=\"notoffered\">EDML 3890</a> or <a href=\"/search/?p=EDML%203990\" data-action=\"result-detail\" data-group=\"code:EDML 3990\"  class=\"notoffered\">EDML 3990</a> or <a href=\"/search/?p=EDTE%201610\" data-action=\"result-detail\" data-group=\"code:EDTE 1610\" >EDTE 1610</a> or <a href=\"/search/?p=NR%201610\" data-action=\"result-detail\" data-group=\"code:NR 1610\"  class=\"notoffered\">NR 1610</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDML 3770\"}, {\"type\": \"course\", \"code\": \"EDML 3890\"}, {\"type\": \"course\", \"code\": \"EDML 3990\"}, {\"type\": \"course\", \"code\": \"EDTE 1610\"}, {\"type\": \"course\", \"code\": \"NR 1610\"}]}",
+      "other_requirements": "Instructor permission. Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "EDML 3600",
+      "course_code": "EDML 3600",
+      "department": "EDML",
+      "title": "Teaching Young Adolescents",
+      "credit_hours": "3",
+      "description": "Focus on understanding and reflecting on an integrative and developmental approach to the design of middle level curriculum, as well as teaching in one area of specialization.",
+      "prereq_expression": null,
+      "other_requirements": "Undergrad EDML majors only with minimum junior standing",
+      "external": false
+    },
+    {
+      "id": "EDML 4890",
+      "course_code": "EDML 4890",
+      "department": "EDML",
+      "title": "Practicum II: Equ MG Learn Env",
+      "credit_hours": "6",
+      "description": "Teaching practicum on middle level team in one of two areas of academic concentration, acquiring knowledge of and skills in curriculum, pedagogy, and assessment. Prerequisite: Admission to Middle Level Professional program. Pre/Co-requisite: Admission to Middle Level Professional Program.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDML 4890\"}]}",
+      "other_requirements": "Admission to Middle Level Professional program; EDML majors; senior standing; course fee: $40.00",
+      "external": false
+    },
+    {
+      "id": "EDTE 1610",
+      "course_code": "EDTE 1610",
+      "department": "EDTE",
+      "title": "CL:Foundations of PBE",
+      "credit_hours": "4",
+      "description": "Introduces the principles and practices of place-based education. Students learn to design place-based curriculum and educative materials from an interdisciplinary analysis of specific places. Cross-listed with: <a href=\"/search/?p=SEP%201610\" data-action=\"result-detail\" data-group=\"code:SEP 1610\" >SEP 1610</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor Permission Required; Priority registration for students enrolled in PBE certificate. Then open to Degree & PACE students; Cross listed with SEP 1610A",
+      "external": true
+    },
+    {
+      "id": "EDML 2890",
+      "course_code": "EDML 2890",
+      "department": "EDML",
+      "title": "Teachers & Teaching Process",
+      "credit_hours": "3",
+      "description": "Examines professional responsibilities of middle level teachers as defined by Vermont and national standards via classroom observations.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "EDML 5600",
+      "course_code": "EDML 5600",
+      "department": "EDML",
+      "title": "Middle Grades Integ Curr & Ped",
+      "credit_hours": "3",
+      "description": "Applies frameworks to design culturally responsive, developmentally appropriate curriculum and assessments for young adolescents. Drawing on Successful Middle Schools (Bishop &amp; Harrison), focuses on applying project-based, place-based, and personalized learning approaches to creating units that are challenging, exploratory, integrative, and diverse. Course is aligned with the Vermont Middle Grades Endorsement. Prerequisite: Graduate student or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate student or Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "EDML 5890",
+      "course_code": "EDML 5890",
+      "department": "EDML",
+      "title": "Equitable MG Learning Environ",
+      "credit_hours": "4",
+      "description": "Provides a school-based teaching and learning experience that will continue into student teaching in the following term.  Through  internship and weekly course meetings, provides an opportunity to design and engage in practices that are appropriate for the diverse experiences and identities of young adolescent learners. Credit not awarded for both EDML 5890 and <a href=\"/search/?p=EDML%203890\" data-action=\"result-detail\" data-group=\"code:EDML 3890\"  class=\"notoffered\">EDML 3890</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "EDML 5860",
+      "course_code": "EDML 5860",
+      "department": "EDML",
+      "title": "ML Internship Seminar",
+      "credit_hours": "3",
+      "description": "Supports students engaged in their student teaching semester. Develop, share, and critically evaluate portfolio work.  Process challenges experienced in the field. Credit not awarded for both EDML 5860 and <a href=\"/search/?p=EDML%204860\" data-action=\"result-detail\" data-group=\"code:EDML 4860\"  class=\"notoffered\">EDML 4860</a>. Prerequisite: <a href=\"/search/?p=EDML%205992\" data-action=\"result-detail\" data-group=\"code:EDML 5992\"  class=\"notoffered\">EDML 5992</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"EDML 5992\"}",
+      "other_requirements": "EDML Seniors & MAT students; Take concurrently with ML Student Teaching:EDML 4991 or 6991.",
+      "external": false
+    },
+    {
+      "id": "EDML 6991",
+      "course_code": "EDML 6991",
+      "department": "EDML",
+      "title": "Internship: Student Teaching",
+      "credit_hours": "9",
+      "description": "A full-semester, full-time, full-day, clinical component of the teacher preparation program. Provides students with a carefully mentored experience to help develop and enhance the knowledge, skills, and dispositions necessary to positively impact student learning and development. Prerequisites: <a href=\"/search/?p=EDML%206070\" data-action=\"result-detail\" data-group=\"code:EDML 6070\"  class=\"notoffered\">EDML 6070</a>, <a href=\"/search/?p=EDML%205890\" data-action=\"result-detail\" data-group=\"code:EDML 5890\" >EDML 5890</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDML 6070\"}, {\"type\": \"course\", \"code\": \"EDML 5890\"}]}",
+      "other_requirements": "EDML MAT Students Only; Location: Off site at various schools; Take concurrently with Student Teaching SeminarEDML 5830",
+      "external": false
     }
   ],
   "edges": [
     {
       "source": "EDML 2890",
-      "target": "EDML 3700"
+      "target": "EDML 3700",
+      "group": null
     },
     {
       "source": "EDML 3600",
-      "target": "EDML 4991"
+      "target": "EDML 4991",
+      "group": null
     },
     {
       "source": "EDML 3700",
-      "target": "EDML 4991"
+      "target": "EDML 4991",
+      "group": null
     },
     {
       "source": "EDML 3770",
-      "target": "EDML 3220"
+      "target": "EDML 3220",
+      "group": "EDML 3220__g0"
     },
     {
       "source": "EDML 4890",
-      "target": "EDML 4890"
+      "target": "EDML 4890",
+      "group": null
     },
     {
       "source": "EDML 4890",
-      "target": "EDML 4991"
+      "target": "EDML 4991",
+      "group": null
     },
     {
       "source": "EDML 5890",
-      "target": "EDML 6991"
+      "target": "EDML 6991",
+      "group": null
     },
     {
       "source": "EDTE 1610",
-      "target": "EDML 3220"
+      "target": "EDML 3220",
+      "group": "EDML 3220__g0"
     }
   ]
 }

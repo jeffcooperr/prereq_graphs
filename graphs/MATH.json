@@ -2,28 +2,6 @@
   "department": "MATH",
   "nodes": [
     {
-      "id": "MATH 2522",
-      "course_code": "MATH 2522",
-      "department": "MATH",
-      "title": "Applied Linear Algebra",
-      "credit_hours": "3",
-      "description": "Vectors, matrices, linear independence, vector spaces (with focus on real n-space), determinants, linear transformations, eigenvalues and eigenvectors. Applications from engineering and the sciences incorporated through required computer assignments. Credit not given for both MATH 2522 and <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>. Prerequisite: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
-      "other_requirements": "Credit not given for both MATH 2522 and MATH 2544. Open to Degree and PACE students. System waitlisting enabled for this section. This is a lecture-based course. Topics will be presented with a level of depth and rigor appropriate for students pursuing degrees in technical fields such as engineering, computer science, or the physical sciences. Math Majors should take Math 2544 Linear Algebra. Materials: WebAssign access for Linear Algebra with Applications, 9th edition, by Garreth Williams ISBN 1284154696 . WebAssign includes access to an e-text, as well as homework exercises. Matlab Assignments: No prior experience with Matlab is assumed. Matlab is used throughout the course and is available on the UVM CEMS computers and it can be downloaded from:https://www.uvm.edu/cems/installing_matlab_students",
-      "external": false
-    },
-    {
-      "id": "MATH 6391",
-      "course_code": "MATH 6391",
-      "department": "MATH",
-      "title": "Master's Thesis Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Master's Thesis.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
       "id": "MATH 5678",
       "course_code": "MATH 5678",
       "department": "MATH",
@@ -35,102 +13,14 @@
       "external": false
     },
     {
-      "id": "MATH 2248",
-      "course_code": "MATH 2248",
+      "id": "MATH 1088",
+      "course_code": "MATH 1088",
       "department": "MATH",
-      "title": "Calculus III",
-      "credit_hours": "4",
-      "description": "Vector-valued functions. Calculus of functions of several variables: partial derivatives, gradient, divergence, curl, multiple integrals, line integrals, Stokes' and Green's theorems. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
-      "other_requirements": "C- or better in MATH 1248 or MATH 1242",
-      "external": false
-    },
-    {
-      "id": "MATH 2678",
-      "course_code": "MATH 2678",
-      "department": "MATH",
-      "title": "Basic Combinatorial Theory",
+      "title": "Numbers for Naturalists",
       "credit_hours": "3",
-      "description": "Introduction to basic combinatorial principles emphasizing problem-solving techniques. Enumeration, generating functions, Fibonacci numbers, pigeonhole principle, inclusion-exclusion, and graph theory. Prerequisites: <a href=\"/search/?p=MATH%202055\" data-action=\"result-detail\" data-group=\"code:MATH 2055\" >MATH 2055</a> (preferred) or <a href=\"/search/?p=CS%201640\" data-action=\"result-detail\" data-group=\"code:CS 1640\" >CS 1640</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2055\"}, {\"type\": \"course\", \"code\": \"CS 1640\"}]}",
-      "other_requirements": "MATH 2055 (preferred). Prereqs enforced by the system. Open to Degree and PACE students.",
-      "external": false
-    },
-    {
-      "id": "MATH 3517",
-      "course_code": "MATH 3517",
-      "department": "MATH",
-      "title": "Elementary Number Theory",
-      "credit_hours": "3",
-      "description": "Divisibility, prime numbers, Diophantine equations, congruence of numbers, and methods of solving congruences. A significant portion of the course devoted to individual and/or team projects. Prerequisites: <a href=\"/search/?p=MATH%202055\" data-action=\"result-detail\" data-group=\"code:MATH 2055\" >MATH 2055</a> or <a href=\"/search/?p=CS%201640\" data-action=\"result-detail\" data-group=\"code:CS 1640\" >CS 1640</a>; <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>, <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a>, or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2055\"}, {\"type\": \"course\", \"code\": \"CS 1640\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2248\"}, {\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}]}",
-      "other_requirements": "Open to Degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "MATH 6551",
-      "course_code": "MATH 6551",
-      "department": "MATH",
-      "title": "Abstract Algebra III",
-      "credit_hours": "3",
-      "description": "Advanced group theory and field theory. Prerequisite: Two semesters of abstract algebra required.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 6551\"}]}",
-      "other_requirements": "Two semesters of abstract algebra required.",
-      "external": false
-    },
-    {
-      "id": "MATH 2993",
-      "course_code": "MATH 2993",
-      "department": "MATH",
-      "title": "IS in Multi-Calculus",
-      "credit_hours": "2",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Junior/Senior standing; approval of Department Chair.",
-      "prereq_expression": null,
-      "other_requirements": "Junior/Senior standing; approval of Department Chair. Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "MATH 6441",
-      "course_code": "MATH 6441",
-      "department": "MATH",
-      "title": "Theory of Func of Complex Var",
-      "credit_hours": "3",
-      "description": "Complex functions, differentiation and the Cauchy-Riemann equations, power and Laurent series, integration, calculus of residues, contour integration, isolated singularities, conformal mapping, harmonic functions. Prerequisite: Two semesters of real analysis required.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2248\"}, {\"type\": \"course\", \"code\": \"MATH 2249\"}]}",
-      "other_requirements": "Two semesters of real analysis required. Open to Degree and PACE students.",
-      "external": false
-    },
-    {
-      "id": "MATH 2055",
-      "course_code": "MATH 2055",
-      "department": "MATH",
-      "title": "Fundamentals of Mathematics",
-      "credit_hours": "3",
-      "description": "Emphasizing proofs, fundamental mathematical concepts and techniques are investigated within the context of number theory and other topics. Prerequisite: <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Credit not given for more than one of MATH 2055 and <a href=\"/search/?p=CS%201640\" data-action=\"result-detail\" data-group=\"code:CS 1640\" >CS 1640</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
-      "other_requirements": "Credit not given for more than one of MATH 2055 and CS 1640. Open to Degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "MATH 2001",
-      "course_code": "MATH 2001",
-      "department": "MATH",
-      "title": "Development of Mathematics",
-      "credit_hours": "3",
-      "description": "Project-based course. Historical development of mathematical sciences emphasizing interrelations among them. Individual assignments correspond to background and interests of students. Prerequisite: Nine hours of college mathematics.",
-      "prereq_expression": null,
-      "other_requirements": "Nine hours of college mathematics",
-      "external": false
-    },
-    {
-      "id": "MATH 6701",
-      "course_code": "MATH 6701",
-      "department": "MATH",
-      "title": "Principles of Complex Systms 1",
-      "credit_hours": "3",
-      "description": "Introduction to fundamental concepts of complex systems. Topics include: emergence, scaling phenomena, and mechanisms, multi-scale systems, failure, robustness, collective social phenomena, complex networks. Students from all disciplines welcomed. Pre/co-requisites: Calculus and statistics required; linear algebra, differential equations, and computer programming recommended but not required. Cross-listed with: <a href=\"/search/?p=CSYS%206701\" data-action=\"result-detail\" data-group=\"code:CSYS 6701\" >CSYS 6701</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"Calculus\"}, {\"type\": \"course\", \"code\": \"statistics\"}]}",
-      "other_requirements": "linear algebra, differential equations, and computer programming recommended but not required.",
+      "description": "Data, statistics, modeling, algebra, word problems, and calculus for students in the Rubenstein School of Environment and Natural Resources. Students who do well in the algebra section may continue with <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit not awarded to College of Engineering and Mathematical Sciences students. Prerequisite: Three years of high school math.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "other_requirements": "Three years of high school math. RSENR students only",
       "external": false
     },
     {
@@ -145,69 +35,14 @@
       "external": true
     },
     {
-      "id": "MATH 1248",
-      "course_code": "MATH 1248",
+      "id": "MATH 3230",
+      "course_code": "MATH 3230",
       "department": "MATH",
-      "title": "Calculus II",
-      "credit_hours": "4",
-      "description": "Vectors and vector operations. Techniques and applications of integration. Polar coordinates, Taylor polynomials, sequences and series, power series. Credit will not be given for both MATH 1248 and <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 021\"}]}",
-      "other_requirements": "C- or better in MATH 1234. C- or better in MATH 021.",
-      "external": false
-    },
-    {
-      "id": "MATH 4990",
-      "course_code": "MATH 4990",
-      "department": "MATH",
-      "title": "Math Models & Their Analysis",
+      "title": "Ordinary Diffrntl Equation",
       "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2248\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2524\"}]}]}",
-      "other_requirements": "Open to Degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "MATH 5230",
-      "course_code": "MATH 5230",
-      "department": "MATH",
-      "title": "Adv Ordinary Diff Equations",
-      "credit_hours": "3",
-      "description": "Linear and nonlinear systems, approximate solutions, existence, uniqueness, dependence on initial conditions, stability, asymptotic behavior, singularities, self-adjoint problems. Prerequisite: Graduate student or Instructor permission; knowledge of differential equations required.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate student or Instructor permission; knowledge of differential equations required. Open to Degree and PACE students;",
-      "external": false
-    },
-    {
-      "id": "MATH 5990",
-      "course_code": "MATH 5990",
-      "department": "MATH",
-      "title": "Smooth Manifolds",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 5990\"}, {\"type\": \"course\", \"code\": \"MATH 5990\"}]}",
-      "other_requirements": "Two semesters of real analysis, and other experience with point-set topology; Open to Degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "MATH 2551",
-      "course_code": "MATH 2551",
-      "department": "MATH",
-      "title": "Groups and Rings",
-      "credit_hours": "3",
-      "description": "An introduction to the basic concepts of abstract algebra emphasizing examples, including modular arithmetic, symmetric groups, cyclic groups, polynomial rings, homomorphisms, and isomorphisms. May not be taken concurrently with or after <a href=\"/search/?p=MATH%203551\" data-action=\"result-detail\" data-group=\"code:MATH 3551\" >MATH 3551</a>. Prerequisite: <a href=\"/search/?p=MATH%202055\" data-action=\"result-detail\" data-group=\"code:MATH 2055\" >MATH 2055</a> (preferred) or <a href=\"/search/?p=CS%201640\" data-action=\"result-detail\" data-group=\"code:CS 1640\" >CS 1640</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2055\"}, {\"type\": \"course\", \"code\": \"CS 1640\"}]}",
-      "other_requirements": "May not be taken concurrently with or after MATH 3551. MATH 2055 (preferred).",
-      "external": false
-    },
-    {
-      "id": "MATH 6713",
-      "course_code": "MATH 6713",
-      "department": "MATH",
-      "title": "Principles of Complex Systms 2",
-      "credit_hours": "3",
-      "description": "Detailed exploration of distribution, transportation, small-world, scale-free, social, biological, organizational networks; generative mechanisms; measurement and statistics of network properties; network dynamics; contagion processes. Students from all disciplines welcomed. Pre/co-requisites: <a href=\"/search/?p=MATH%206701\" data-action=\"result-detail\" data-group=\"code:MATH 6701\"  class=\"notoffered\">MATH 6701</a>, <a href=\"/search/?p=CSYS%206701\" data-action=\"result-detail\" data-group=\"code:CSYS 6701\"  class=\"notoffered\">CSYS 6701</a>, calculus, and statistics required. Cross-listed with: <a href=\"/search/?p=CSYS%206713\" data-action=\"result-detail\" data-group=\"code:CSYS 6713\" >CSYS 6713</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 6701\"}, {\"type\": \"course\", \"code\": \"CSYS 6701\"}]}",
-      "other_requirements": "calculus, and statistics required",
+      "description": "Solutions of linear ordinary differential equations, the Laplace transformation, and series solutions of differential equations. Prerequisite: <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>. Corequisite: <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>. Credit not granted for more than one of the courses MATH 3230 or <a href=\"/search/?p=MATH%203201\" data-action=\"result-detail\" data-group=\"code:MATH 3201\" >MATH 3201</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2248\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}]}",
+      "other_requirements": "Credit not granted for more than one of the courses MATH 3230 or MATH 3201. Students should have knowledge of calculus I and II (differential and integral calculus), and some sections of calculus III, before taking this class. Knowledge of linear algebra is also needed, but linear algebra can be a co-requisite. The solid knowledge of the material listed in the document at https://tlakoba.w3.uvm.edu/26_spring/math_3230/background.pdf is required for the student to be able to pass this course.",
       "external": false
     },
     {
@@ -222,23 +57,199 @@
       "external": false
     },
     {
-      "id": "MATH 6678",
-      "course_code": "MATH 6678",
+      "id": "MATH 1012",
+      "course_code": "MATH 1012",
       "department": "MATH",
-      "title": "Topics in Combinatorics",
+      "title": "College Algebra",
       "credit_hours": "3",
-      "description": "Topics will vary each semester and may include combinatorial designs, coding theory, topological graph theory, cryptography. Course is repeatable for credit. Prerequisite: <a href=\"/search/?p=MATH%203551\" data-action=\"result-detail\" data-group=\"code:MATH 3551\"  class=\"notoffered\">MATH 3551</a> or <a href=\"/search/?p=MATH%205678\" data-action=\"result-detail\" data-group=\"code:MATH 5678\"  class=\"notoffered\">MATH 5678</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 3551\"}, {\"type\": \"course\", \"code\": \"MATH 5678\"}]}",
+      "description": "Sets, relations, functions with particular attention to properties of algebraic, exponential, logarithmic functions, their graphs and applications in preparation for <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>. May not be taken for credit concurrently with, or following receipt of, credit for any mathematics course numbered <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or above. Pre/co-requisites: Two years of secondary school algebra; one year of secondary school geometry.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}]}",
+      "other_requirements": "Two years of secondary school algebra; one year of secondary school geometry.",
+      "external": false
+    },
+    {
+      "id": "MATH 1111",
+      "course_code": "MATH 1111",
+      "department": "MATH",
+      "title": "Elementary School Math",
+      "credit_hours": "3",
+      "description": "Operations with real numbers: decimals, fractions, percents, integers. Set operations, Venn diagrams, algebra, and problem solving provide background for future instruction in elementary/middle school mathematics. Prerequisite: Three years of secondary school math.",
+      "prereq_expression": null,
+      "other_requirements": "Three years of secondary school math. ECP, ECSP, EDML and ELK6 majors only. Instructor permission may be required. Contact krisan.geary@uvm.edu for more information.",
+      "external": false
+    },
+    {
+      "id": "MATH 5230",
+      "course_code": "MATH 5230",
+      "department": "MATH",
+      "title": "Adv Ordinary Diff Equations",
+      "credit_hours": "3",
+      "description": "Linear and nonlinear systems, approximate solutions, existence, uniqueness, dependence on initial conditions, stability, asymptotic behavior, singularities, self-adjoint problems. Prerequisite: Graduate student or Instructor permission; knowledge of differential equations required.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate student or Instructor permission; knowledge of differential equations required. Open to Degree and PACE students;",
+      "external": false
+    },
+    {
+      "id": "MATH 1212",
+      "course_code": "MATH 1212",
+      "department": "MATH",
+      "title": "Fundamentals of Calculus I",
+      "credit_hours": "3",
+      "description": "Introduction to limits and differential/integral calculus with a wide variety of applications. Students interested in intensive use of mathematics should take <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit not awarded for both MATH 1212 and <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>.  See <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201012\" data-action=\"result-detail\" data-group=\"code:MATH 1012\" >MATH 1012</a> or C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a>, or a score of 61 or higher on the placement assessment.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1012\"}, {\"type\": \"course\", \"code\": \"MATH 1034\"}]}",
+      "other_requirements": "C- or better in MATH 1012 or C- or better in MATH 1034, or a score of 61 or higher on the placement assessment. Prereqs enforced by the system: MATH 1012 or MATH 1034 or ALEKS MPA of at least 61; Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "MATH 2678",
+      "course_code": "MATH 2678",
+      "department": "MATH",
+      "title": "Basic Combinatorial Theory",
+      "credit_hours": "3",
+      "description": "Introduction to basic combinatorial principles emphasizing problem-solving techniques. Enumeration, generating functions, Fibonacci numbers, pigeonhole principle, inclusion-exclusion, and graph theory. Prerequisites: <a href=\"/search/?p=MATH%202055\" data-action=\"result-detail\" data-group=\"code:MATH 2055\" >MATH 2055</a> (preferred) or <a href=\"/search/?p=CS%201640\" data-action=\"result-detail\" data-group=\"code:CS 1640\" >CS 1640</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2055\"}, {\"type\": \"course\", \"code\": \"CS 1640\"}]}",
+      "other_requirements": "MATH 2055 (preferred). Prereqs enforced by the system. Open to Degree and PACE students.",
+      "external": false
+    },
+    {
+      "id": "MATH 5993",
+      "course_code": "MATH 5993",
+      "department": "MATH",
+      "title": "IS:Functional Analysis & PDE",
+      "credit_hours": "3",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
       "other_requirements": null,
       "external": false
     },
     {
-      "id": "MATH 6993",
-      "course_code": "MATH 6993",
+      "id": "MATH 3201",
+      "course_code": "MATH 3201",
       "department": "MATH",
-      "title": "IS:Numerical Diff Equations",
+      "title": "Adv Engineering Mathematics",
       "credit_hours": "3",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "description": "Differential equations, Laplace transforms, and systems of differential equations; brief introduction to Fourier series. Examples from engineering and physical sciences. Credit not granted for both <a href=\"/search/?p=MATH%203230\" data-action=\"result-detail\" data-group=\"code:MATH 3230\" >MATH 3230</a> and MATH 3201. No credit for Mathematics majors. Prerequisite: <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>. Co-requisites: Preferred: <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>; or <a href=\"/search/?p=MATH%202500\" data-action=\"result-detail\" data-group=\"code:MATH 2500\"  class=\"notoffered\">MATH 2500</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MATH 2248\"}",
+      "other_requirements": "Credit not granted for both MATH 3230 and MATH 3201. No credit for Mathematics majors. Co-requisites: Preferred: MATH 2522 or MATH 2544; or MATH 2500. Open to Degree and PACE students.",
+      "external": false
+    },
+    {
+      "id": "MATH 7491",
+      "course_code": "MATH 7491",
+      "department": "MATH",
+      "title": "Doctoral Dissertation Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Doctoral Dissertation.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "MATH 5990",
+      "course_code": "MATH 5990",
+      "department": "MATH",
+      "title": "Smooth Manifolds",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 5990\"}, {\"type\": \"course\", \"code\": \"MATH 5990\"}]}",
+      "other_requirements": "Two semesters of real analysis, and other experience with point-set topology; Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "MATH 2055",
+      "course_code": "MATH 2055",
+      "department": "MATH",
+      "title": "Fundamentals of Mathematics",
+      "credit_hours": "3",
+      "description": "Emphasizing proofs, fundamental mathematical concepts and techniques are investigated within the context of number theory and other topics. Prerequisite: <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Credit not given for more than one of MATH 2055 and <a href=\"/search/?p=CS%201640\" data-action=\"result-detail\" data-group=\"code:CS 1640\" >CS 1640</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "Credit not given for more than one of MATH 2055 and CS 1640. Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "MATH 6441",
+      "course_code": "MATH 6441",
+      "department": "MATH",
+      "title": "Theory of Func of Complex Var",
+      "credit_hours": "3",
+      "description": "Complex functions, differentiation and the Cauchy-Riemann equations, power and Laurent series, integration, calculus of residues, contour integration, isolated singularities, conformal mapping, harmonic functions. Prerequisite: Two semesters of real analysis required.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2248\"}, {\"type\": \"course\", \"code\": \"MATH 2249\"}]}",
+      "other_requirements": "Two semesters of real analysis required. Open to Degree and PACE students.",
+      "external": false
+    },
+    {
+      "id": "MATH 1077",
+      "course_code": "MATH 1077",
+      "department": "MATH",
+      "title": "Exploring Modern Mathematics",
+      "credit_hours": "3",
+      "description": "Introduction to mathematics of finite systems with applications, such as probability, statistics, graph theory, fair division and apportionment problems, voting systems. Prerequisites: Two years of secondary school algebra, <a href=\"/search/?p=MATH%201012\" data-action=\"result-detail\" data-group=\"code:MATH 1012\" >MATH 1012</a>, or <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1012\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1034\"}]}]}",
+      "other_requirements": "Two years of secondary school algebra. Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "MATH 2994",
+      "course_code": "MATH 2994",
+      "department": "MATH",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion. Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "MATH 6391",
+      "course_code": "MATH 6391",
+      "department": "MATH",
+      "title": "Master's Thesis Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Master's Thesis.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "MATH 2700",
+      "course_code": "MATH 2700",
+      "department": "MATH",
+      "title": "Fndmntls of Financial Math",
+      "credit_hours": "3",
+      "description": "Students will be introduced to the basic ideas and algebraic structures of interest theory, time-value of money, annuities, loans, bonds, cash-flows and portfolios. Prerequisites: <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a>, <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "Open to Degree and PACE students; Asynchronous online",
+      "external": false
+    },
+    {
+      "id": "MATH 6551",
+      "course_code": "MATH 6551",
+      "department": "MATH",
+      "title": "Abstract Algebra III",
+      "credit_hours": "3",
+      "description": "Advanced group theory and field theory. Prerequisite: Two semesters of abstract algebra required.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 6551\"}]}",
+      "other_requirements": "Two semesters of abstract algebra required.",
+      "external": false
+    },
+    {
+      "id": "MATH 2500",
+      "course_code": "MATH 2500",
+      "department": "MATH",
+      "title": "Eng Math Linear Algebra Lab",
+      "credit_hours": "1",
+      "description": "Survey of the fundamental concepts of linear algebra necessary to describe the solution space of a linear differential equation and for solving systems of linear differential equations. Credit not awarded following receipt of credit for <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>. Prerequisite: <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Co-requisites: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MATH 1234\"}",
+      "other_requirements": "Credit not awarded following receipt of credit for MATH 2522 or MATH 2544. Co-requisites: MATH 1248 or MATH 1242. Prereqs enforced by the system:MATH 1234; Coreq:MATH 1248or1242; Open to Degree and PACE students; Asynchronous online",
+      "external": false
+    },
+    {
+      "id": "MATH 7995",
+      "course_code": "MATH 7995",
+      "department": "MATH",
+      "title": "Graduate Independent Research",
+      "credit_hours": "1 to 18",
+      "description": "Graduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -266,58 +277,36 @@
       "external": false
     },
     {
-      "id": "MATH 2180",
-      "course_code": "MATH 2180",
+      "id": "MATH 1248",
+      "course_code": "MATH 1248",
       "department": "MATH",
-      "title": "Geometry for Educators",
-      "credit_hours": "3",
-      "description": "An examination of geometric relationships using reasoning and proof. Topics include Euclidean, non-Euclidean and finite geometries, affine transformations, constructions, and spatial geometry. Provides background for future instruction in middle and high school geometry. Credit not awarded for students majoring or minoring in Mathematics. Prerequisites: Three credits of Mathematics at <a href=\"/search/?p=MATH%201111\" data-action=\"result-detail\" data-group=\"code:MATH 1111\" >MATH 1111</a> or above, minimum Sophomore standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1111\"}]}",
-      "other_requirements": "Three credits of Mathematics at MATH 1111 or above, minimum Sophomore standing. ECP, ECSP, EDML, SE and ELK6 majors only; Open to degree and PACE students",
+      "title": "Calculus II",
+      "credit_hours": "4",
+      "description": "Vectors and vector operations. Techniques and applications of integration. Polar coordinates, Taylor polynomials, sequences and series, power series. Credit will not be given for both MATH 1248 and <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 021\"}]}",
+      "other_requirements": "C- or better in MATH 1234. C- or better in MATH 021.",
       "external": false
     },
     {
-      "id": "MATH 3990",
-      "course_code": "MATH 3990",
+      "id": "MATH 2522",
+      "course_code": "MATH 2522",
       "department": "MATH",
-      "title": "Math of Quantum Computing",
+      "title": "Applied Linear Algebra",
       "credit_hours": "3",
-      "description": "For advanced students in the indicated fields. Lectures, reports, and directed readings on advanced topics. Credit as arranged. Offered as occasion warrants.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2055\"}, {\"type\": \"course\", \"code\": \"CS 1640\"}]}]}",
-      "other_requirements": "For advanced students in the indicated fields. Lectures, reports, and directed readings on advanced topics. Credit as arranged. Offered as occasion warrants. Students should know linear algebra, and a little bit of trigonometry and modular arithmetic (\"numbers modulo n\").",
+      "description": "Vectors, matrices, linear independence, vector spaces (with focus on real n-space), determinants, linear transformations, eigenvalues and eigenvectors. Applications from engineering and the sciences incorporated through required computer assignments. Credit not given for both MATH 2522 and <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>. Prerequisite: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "Credit not given for both MATH 2522 and MATH 2544. Open to Degree and PACE students. System waitlisting enabled for this section. This is a lecture-based course. Topics will be presented with a level of depth and rigor appropriate for students pursuing degrees in technical fields such as engineering, computer science, or the physical sciences. Math Majors should take Math 2544 Linear Algebra. Materials: WebAssign access for Linear Algebra with Applications, 9th edition, by Garreth Williams ISBN 1284154696 . WebAssign includes access to an e-text, as well as homework exercises. Matlab Assignments: No prior experience with Matlab is assumed. Matlab is used throughout the course and is available on the UVM CEMS computers and it can be downloaded from:https://www.uvm.edu/cems/installing_matlab_students",
       "external": false
     },
     {
-      "id": "MATH 5993",
-      "course_code": "MATH 5993",
+      "id": "MATH 2993",
+      "course_code": "MATH 2993",
       "department": "MATH",
-      "title": "IS:Functional Analysis & PDE",
-      "credit_hours": "3",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "title": "IS in Multi-Calculus",
+      "credit_hours": "2",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Junior/Senior standing; approval of Department Chair.",
       "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "MATH 7995",
-      "course_code": "MATH 7995",
-      "department": "MATH",
-      "title": "Graduate Independent Research",
-      "credit_hours": "1 to 18",
-      "description": "Graduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "MATH 1111",
-      "course_code": "MATH 1111",
-      "department": "MATH",
-      "title": "Elementary School Math",
-      "credit_hours": "3",
-      "description": "Operations with real numbers: decimals, fractions, percents, integers. Set operations, Venn diagrams, algebra, and problem solving provide background for future instruction in elementary/middle school mathematics. Prerequisite: Three years of secondary school math.",
-      "prereq_expression": null,
-      "other_requirements": "Three years of secondary school math. ECP, ECSP, EDML and ELK6 majors only. Instructor permission may be required. Contact krisan.geary@uvm.edu for more information.",
+      "other_requirements": "Junior/Senior standing; approval of Department Chair. Instructor permission required",
       "external": false
     },
     {
@@ -332,91 +321,36 @@
       "external": false
     },
     {
-      "id": "MATH 1034",
-      "course_code": "MATH 1034",
+      "id": "MATH 6713",
+      "course_code": "MATH 6713",
       "department": "MATH",
-      "title": "Pre-Calculus Mathematics",
+      "title": "Principles of Complex Systms 2",
       "credit_hours": "3",
-      "description": "Skills in working with numerical, algebraic, and trigonometric expressions are developed in preparation for <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. May not be taken for credit concurrently with, or following receipt of, credit for any mathematics course numbered <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> or above. Prerequisite: Two years of secondary school algebra; one year of secondary school geometry.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
-      "other_requirements": "Two years of secondary school algebra; one year of secondary school geometry. Open to Degree and PACE students",
+      "description": "Detailed exploration of distribution, transportation, small-world, scale-free, social, biological, organizational networks; generative mechanisms; measurement and statistics of network properties; network dynamics; contagion processes. Students from all disciplines welcomed. Pre/co-requisites: <a href=\"/search/?p=MATH%206701\" data-action=\"result-detail\" data-group=\"code:MATH 6701\"  class=\"notoffered\">MATH 6701</a>, <a href=\"/search/?p=CSYS%206701\" data-action=\"result-detail\" data-group=\"code:CSYS 6701\"  class=\"notoffered\">CSYS 6701</a>, calculus, and statistics required. Cross-listed with: <a href=\"/search/?p=CSYS%206713\" data-action=\"result-detail\" data-group=\"code:CSYS 6713\" >CSYS 6713</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 6701\"}, {\"type\": \"course\", \"code\": \"CSYS 6701\"}]}",
+      "other_requirements": "calculus, and statistics required",
       "external": false
     },
     {
-      "id": "MATH 1088",
-      "course_code": "MATH 1088",
+      "id": "MATH 3517",
+      "course_code": "MATH 3517",
       "department": "MATH",
-      "title": "Numbers for Naturalists",
+      "title": "Elementary Number Theory",
       "credit_hours": "3",
-      "description": "Data, statistics, modeling, algebra, word problems, and calculus for students in the Rubenstein School of Environment and Natural Resources. Students who do well in the algebra section may continue with <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit not awarded to College of Engineering and Mathematical Sciences students. Prerequisite: Three years of high school math.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
-      "other_requirements": "Three years of high school math. RSENR students only",
-      "external": false
-    },
-    {
-      "id": "MATH 7491",
-      "course_code": "MATH 7491",
-      "department": "MATH",
-      "title": "Doctoral Dissertation Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Doctoral Dissertation.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "MATH 3230",
-      "course_code": "MATH 3230",
-      "department": "MATH",
-      "title": "Ordinary Diffrntl Equation",
-      "credit_hours": "3",
-      "description": "Solutions of linear ordinary differential equations, the Laplace transformation, and series solutions of differential equations. Prerequisite: <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>. Corequisite: <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>. Credit not granted for more than one of the courses MATH 3230 or <a href=\"/search/?p=MATH%203201\" data-action=\"result-detail\" data-group=\"code:MATH 3201\" >MATH 3201</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2248\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}]}",
-      "other_requirements": "Credit not granted for more than one of the courses MATH 3230 or MATH 3201. Students should have knowledge of calculus I and II (differential and integral calculus), and some sections of calculus III, before taking this class. Knowledge of linear algebra is also needed, but linear algebra can be a co-requisite. The solid knowledge of the material listed in the document at https://tlakoba.w3.uvm.edu/26_spring/math_3230/background.pdf is required for the student to be able to pass this course.",
-      "external": false
-    },
-    {
-      "id": "MATH 2111",
-      "course_code": "MATH 2111",
-      "department": "MATH",
-      "title": "Algebra for Educators",
-      "credit_hours": "3",
-      "description": "Algebraic concepts and relationships are explored and developed. Linear, quadratic, and exponential functions are featured.  Credit not awarded for students majoring or minoring in Mathematics. Prerequisite: 3 credits of Math numbered <a href=\"/search/?p=MATH%201111\" data-action=\"result-detail\" data-group=\"code:MATH 1111\"  class=\"notoffered\">MATH 1111</a> or above.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1111\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ECP\"}, {\"type\": \"course\", \"code\": \"ECSP\"}, {\"type\": \"course\", \"code\": \"EDML\"}, {\"type\": \"course\", \"code\": \"ELK6\"}]}]}",
-      "other_requirements": "3 credits of Math numbered MATH 1111 or above; ECP, ECSP, EDML and ELK6 majors only; Open to Degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "MATH 1012",
-      "course_code": "MATH 1012",
-      "department": "MATH",
-      "title": "College Algebra",
-      "credit_hours": "3",
-      "description": "Sets, relations, functions with particular attention to properties of algebraic, exponential, logarithmic functions, their graphs and applications in preparation for <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>. May not be taken for credit concurrently with, or following receipt of, credit for any mathematics course numbered <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or above. Pre/co-requisites: Two years of secondary school algebra; one year of secondary school geometry.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}]}",
-      "other_requirements": "Two years of secondary school algebra; one year of secondary school geometry.",
-      "external": false
-    },
-    {
-      "id": "MATH 1224",
-      "course_code": "MATH 1224",
-      "department": "MATH",
-      "title": "Fundamentals of Calculus II",
-      "credit_hours": "3",
-      "description": "Techniques and applications of integration. An introduction to multi-variable calculus: partial derivatives and double integrals. Prerequisite: <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "description": "Divisibility, prime numbers, Diophantine equations, congruence of numbers, and methods of solving congruences. A significant portion of the course devoted to individual and/or team projects. Prerequisites: <a href=\"/search/?p=MATH%202055\" data-action=\"result-detail\" data-group=\"code:MATH 2055\" >MATH 2055</a> or <a href=\"/search/?p=CS%201640\" data-action=\"result-detail\" data-group=\"code:CS 1640\" >CS 1640</a>; <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>, <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a>, or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2055\"}, {\"type\": \"course\", \"code\": \"CS 1640\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2248\"}, {\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}]}",
       "other_requirements": "Open to Degree and PACE students",
       "external": false
     },
     {
-      "id": "MATH 3468",
-      "course_code": "MATH 3468",
+      "id": "MATH 3990",
+      "course_code": "MATH 3990",
       "department": "MATH",
-      "title": "Anyl in Several Real Vars I",
+      "title": "Math of Quantum Computing",
       "credit_hours": "3",
-      "description": "Properties of the real numbers, basic topology of metric spaces, infinite sequences and series, continuity. Prerequisites: <a href=\"/search/?p=MATH%202468\" data-action=\"result-detail\" data-group=\"code:MATH 2468\"  class=\"notoffered\">MATH 2468</a> or <a href=\"/search/?p=MATH%202551\" data-action=\"result-detail\" data-group=\"code:MATH 2551\" >MATH 2551</a> or C- or better in <a href=\"/search/?p=MATH%202055\" data-action=\"result-detail\" data-group=\"code:MATH 2055\" >MATH 2055</a>; <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>; <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2468\"}, {\"type\": \"course\", \"code\": \"MATH 2551\"}, {\"type\": \"course\", \"code\": \"MATH 2055\"}]}, {\"type\": \"course\", \"code\": \"MATH 2248\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}]}",
-      "other_requirements": "C- or better in MATH 2055",
+      "description": "For advanced students in the indicated fields. Lectures, reports, and directed readings on advanced topics. Credit as arranged. Offered as occasion warrants.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2055\"}, {\"type\": \"course\", \"code\": \"CS 1640\"}]}]}",
+      "other_requirements": "For advanced students in the indicated fields. Lectures, reports, and directed readings on advanced topics. Credit as arranged. Offered as occasion warrants. Students should know linear algebra, and a little bit of trigonometry and modular arithmetic (\"numbers modulo n\").",
       "external": false
     },
     {
@@ -431,14 +365,25 @@
       "external": false
     },
     {
-      "id": "MATH 1077",
-      "course_code": "MATH 1077",
+      "id": "MATH 5766",
+      "course_code": "MATH 5766",
       "department": "MATH",
-      "title": "Exploring Modern Mathematics",
+      "title": "Gr Chaos,Fractals&Dynmcl Systm",
       "credit_hours": "3",
-      "description": "Introduction to mathematics of finite systems with applications, such as probability, statistics, graph theory, fair division and apportionment problems, voting systems. Prerequisites: Two years of secondary school algebra, <a href=\"/search/?p=MATH%201012\" data-action=\"result-detail\" data-group=\"code:MATH 1012\" >MATH 1012</a>, or <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1012\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1034\"}]}]}",
-      "other_requirements": "Two years of secondary school algebra. Open to Degree and PACE students",
+      "description": "Discrete and continuous dynamical systems, Julia sets, the Mandelbrot set, period doubling, renormalization, Henon map, phase plane analysis and Lorenz equations. Credit not awarded for both MATH 5766 and <a href=\"/search/?p=MATH%203766\" data-action=\"result-detail\" data-group=\"code:MATH 3766\"  class=\"notoffered\">MATH 3766</a>. Prerequisites: Graduate student or Instructor permission. Cross-listed with: <a href=\"/search/?p=CSYS%205766\" data-action=\"result-detail\" data-group=\"code:CSYS 5766\" >CSYS 5766</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate student or Instructor permission. The course requires some experience with Linear Algebra, and programing experience is suggested (but not required).",
+      "external": false
+    },
+    {
+      "id": "MATH 1034",
+      "course_code": "MATH 1034",
+      "department": "MATH",
+      "title": "Pre-Calculus Mathematics",
+      "credit_hours": "3",
+      "description": "Skills in working with numerical, algebraic, and trigonometric expressions are developed in preparation for <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. May not be taken for credit concurrently with, or following receipt of, credit for any mathematics course numbered <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> or above. Prerequisite: Two years of secondary school algebra; one year of secondary school geometry.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "other_requirements": "Two years of secondary school algebra; one year of secondary school geometry. Open to Degree and PACE students",
       "external": false
     },
     {
@@ -453,69 +398,36 @@
       "external": false
     },
     {
-      "id": "MATH 5766",
-      "course_code": "MATH 5766",
+      "id": "MATH 6993",
+      "course_code": "MATH 6993",
       "department": "MATH",
-      "title": "Gr Chaos,Fractals&Dynmcl Systm",
+      "title": "IS:Numerical Diff Equations",
       "credit_hours": "3",
-      "description": "Discrete and continuous dynamical systems, Julia sets, the Mandelbrot set, period doubling, renormalization, Henon map, phase plane analysis and Lorenz equations. Credit not awarded for both MATH 5766 and <a href=\"/search/?p=MATH%203766\" data-action=\"result-detail\" data-group=\"code:MATH 3766\"  class=\"notoffered\">MATH 3766</a>. Prerequisites: Graduate student or Instructor permission. Cross-listed with: <a href=\"/search/?p=CSYS%205766\" data-action=\"result-detail\" data-group=\"code:CSYS 5766\" >CSYS 5766</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate student or Instructor permission. The course requires some experience with Linear Algebra, and programing experience is suggested (but not required).",
-      "external": false
-    },
-    {
-      "id": "MATH 2500",
-      "course_code": "MATH 2500",
-      "department": "MATH",
-      "title": "Eng Math Linear Algebra Lab",
-      "credit_hours": "1",
-      "description": "Survey of the fundamental concepts of linear algebra necessary to describe the solution space of a linear differential equation and for solving systems of linear differential equations. Credit not awarded following receipt of credit for <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>. Prerequisite: <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Co-requisites: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"MATH 1234\"}",
-      "other_requirements": "Credit not awarded following receipt of credit for MATH 2522 or MATH 2544. Co-requisites: MATH 1248 or MATH 1242. Prereqs enforced by the system:MATH 1234; Coreq:MATH 1248or1242; Open to Degree and PACE students; Asynchronous online",
-      "external": false
-    },
-    {
-      "id": "MATH 2700",
-      "course_code": "MATH 2700",
-      "department": "MATH",
-      "title": "Fndmntls of Financial Math",
-      "credit_hours": "3",
-      "description": "Students will be introduced to the basic ideas and algebraic structures of interest theory, time-value of money, annuities, loans, bonds, cash-flows and portfolios. Prerequisites: <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a>, <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
-      "other_requirements": "Open to Degree and PACE students; Asynchronous online",
-      "external": false
-    },
-    {
-      "id": "MATH 2994",
-      "course_code": "MATH 2994",
-      "department": "MATH",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion. Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "MATH 4996",
-      "course_code": "MATH 4996",
-      "department": "MATH",
-      "title": "Undergraduate Honors Thesis",
-      "credit_hours": "1 to 6",
-      "description": "Program of reading and research culminating in written thesis and oral presentation. Honors notation appears on transcript and Commencement Program. Contact department chairperson for procedures.",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
     },
     {
-      "id": "MATH 3201",
-      "course_code": "MATH 3201",
+      "id": "MATH 3468",
+      "course_code": "MATH 3468",
       "department": "MATH",
-      "title": "Adv Engineering Mathematics",
+      "title": "Anyl in Several Real Vars I",
       "credit_hours": "3",
-      "description": "Differential equations, Laplace transforms, and systems of differential equations; brief introduction to Fourier series. Examples from engineering and physical sciences. Credit not granted for both <a href=\"/search/?p=MATH%203230\" data-action=\"result-detail\" data-group=\"code:MATH 3230\" >MATH 3230</a> and MATH 3201. No credit for Mathematics majors. Prerequisite: <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>. Co-requisites: Preferred: <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>; or <a href=\"/search/?p=MATH%202500\" data-action=\"result-detail\" data-group=\"code:MATH 2500\"  class=\"notoffered\">MATH 2500</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"MATH 2248\"}",
-      "other_requirements": "Credit not granted for both MATH 3230 and MATH 3201. No credit for Mathematics majors. Co-requisites: Preferred: MATH 2522 or MATH 2544; or MATH 2500. Open to Degree and PACE students.",
+      "description": "Properties of the real numbers, basic topology of metric spaces, infinite sequences and series, continuity. Prerequisites: <a href=\"/search/?p=MATH%202468\" data-action=\"result-detail\" data-group=\"code:MATH 2468\"  class=\"notoffered\">MATH 2468</a> or <a href=\"/search/?p=MATH%202551\" data-action=\"result-detail\" data-group=\"code:MATH 2551\" >MATH 2551</a> or C- or better in <a href=\"/search/?p=MATH%202055\" data-action=\"result-detail\" data-group=\"code:MATH 2055\" >MATH 2055</a>; <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>; <a href=\"/search/?p=MATH%202522\" data-action=\"result-detail\" data-group=\"code:MATH 2522\" >MATH 2522</a> or <a href=\"/search/?p=MATH%202544\" data-action=\"result-detail\" data-group=\"code:MATH 2544\" >MATH 2544</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2468\"}, {\"type\": \"course\", \"code\": \"MATH 2551\"}, {\"type\": \"course\", \"code\": \"MATH 2055\"}]}, {\"type\": \"course\", \"code\": \"MATH 2248\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2544\"}]}]}",
+      "other_requirements": "C- or better in MATH 2055",
+      "external": false
+    },
+    {
+      "id": "MATH 6678",
+      "course_code": "MATH 6678",
+      "department": "MATH",
+      "title": "Topics in Combinatorics",
+      "credit_hours": "3",
+      "description": "Topics will vary each semester and may include combinatorial designs, coding theory, topological graph theory, cryptography. Course is repeatable for credit. Prerequisite: <a href=\"/search/?p=MATH%203551\" data-action=\"result-detail\" data-group=\"code:MATH 3551\"  class=\"notoffered\">MATH 3551</a> or <a href=\"/search/?p=MATH%205678\" data-action=\"result-detail\" data-group=\"code:MATH 5678\"  class=\"notoffered\">MATH 5678</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 3551\"}, {\"type\": \"course\", \"code\": \"MATH 5678\"}]}",
+      "other_requirements": null,
       "external": false
     },
     {
@@ -530,281 +442,435 @@
       "external": true
     },
     {
-      "id": "MATH 1212",
-      "course_code": "MATH 1212",
+      "id": "MATH 2001",
+      "course_code": "MATH 2001",
       "department": "MATH",
-      "title": "Fundamentals of Calculus I",
+      "title": "Development of Mathematics",
       "credit_hours": "3",
-      "description": "Introduction to limits and differential/integral calculus with a wide variety of applications. Students interested in intensive use of mathematics should take <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit not awarded for both MATH 1212 and <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>.  See <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201012\" data-action=\"result-detail\" data-group=\"code:MATH 1012\" >MATH 1012</a> or C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a>, or a score of 61 or higher on the placement assessment.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1012\"}, {\"type\": \"course\", \"code\": \"MATH 1034\"}]}",
-      "other_requirements": "C- or better in MATH 1012 or C- or better in MATH 1034, or a score of 61 or higher on the placement assessment. Prereqs enforced by the system: MATH 1012 or MATH 1034 or ALEKS MPA of at least 61; Open to Degree and PACE students",
+      "description": "Project-based course. Historical development of mathematical sciences emphasizing interrelations among them. Individual assignments correspond to background and interests of students. Prerequisite: Nine hours of college mathematics.",
+      "prereq_expression": null,
+      "other_requirements": "Nine hours of college mathematics",
+      "external": false
+    },
+    {
+      "id": "MATH 2180",
+      "course_code": "MATH 2180",
+      "department": "MATH",
+      "title": "Geometry for Educators",
+      "credit_hours": "3",
+      "description": "An examination of geometric relationships using reasoning and proof. Topics include Euclidean, non-Euclidean and finite geometries, affine transformations, constructions, and spatial geometry. Provides background for future instruction in middle and high school geometry. Credit not awarded for students majoring or minoring in Mathematics. Prerequisites: Three credits of Mathematics at <a href=\"/search/?p=MATH%201111\" data-action=\"result-detail\" data-group=\"code:MATH 1111\" >MATH 1111</a> or above, minimum Sophomore standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1111\"}]}",
+      "other_requirements": "Three credits of Mathematics at MATH 1111 or above, minimum Sophomore standing. ECP, ECSP, EDML, SE and ELK6 majors only; Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "MATH 2551",
+      "course_code": "MATH 2551",
+      "department": "MATH",
+      "title": "Groups and Rings",
+      "credit_hours": "3",
+      "description": "An introduction to the basic concepts of abstract algebra emphasizing examples, including modular arithmetic, symmetric groups, cyclic groups, polynomial rings, homomorphisms, and isomorphisms. May not be taken concurrently with or after <a href=\"/search/?p=MATH%203551\" data-action=\"result-detail\" data-group=\"code:MATH 3551\" >MATH 3551</a>. Prerequisite: <a href=\"/search/?p=MATH%202055\" data-action=\"result-detail\" data-group=\"code:MATH 2055\" >MATH 2055</a> (preferred) or <a href=\"/search/?p=CS%201640\" data-action=\"result-detail\" data-group=\"code:CS 1640\" >CS 1640</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2055\"}, {\"type\": \"course\", \"code\": \"CS 1640\"}]}",
+      "other_requirements": "May not be taken concurrently with or after MATH 3551. MATH 2055 (preferred).",
+      "external": false
+    },
+    {
+      "id": "MATH 4990",
+      "course_code": "MATH 4990",
+      "department": "MATH",
+      "title": "Math Models & Their Analysis",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2248\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 2522\"}, {\"type\": \"course\", \"code\": \"MATH 2524\"}]}]}",
+      "other_requirements": "Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "MATH 1224",
+      "course_code": "MATH 1224",
+      "department": "MATH",
+      "title": "Fundamentals of Calculus II",
+      "credit_hours": "3",
+      "description": "Techniques and applications of integration. An introduction to multi-variable calculus: partial derivatives and double integrals. Prerequisite: <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "other_requirements": "Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "MATH 2248",
+      "course_code": "MATH 2248",
+      "department": "MATH",
+      "title": "Calculus III",
+      "credit_hours": "4",
+      "description": "Vector-valued functions. Calculus of functions of several variables: partial derivatives, gradient, divergence, curl, multiple integrals, line integrals, Stokes' and Green's theorems. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "C- or better in MATH 1248 or MATH 1242",
+      "external": false
+    },
+    {
+      "id": "MATH 2111",
+      "course_code": "MATH 2111",
+      "department": "MATH",
+      "title": "Algebra for Educators",
+      "credit_hours": "3",
+      "description": "Algebraic concepts and relationships are explored and developed. Linear, quadratic, and exponential functions are featured.  Credit not awarded for students majoring or minoring in Mathematics. Prerequisite: 3 credits of Math numbered <a href=\"/search/?p=MATH%201111\" data-action=\"result-detail\" data-group=\"code:MATH 1111\"  class=\"notoffered\">MATH 1111</a> or above.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1111\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ECP\"}, {\"type\": \"course\", \"code\": \"ECSP\"}, {\"type\": \"course\", \"code\": \"EDML\"}, {\"type\": \"course\", \"code\": \"ELK6\"}]}]}",
+      "other_requirements": "3 credits of Math numbered MATH 1111 or above; ECP, ECSP, EDML and ELK6 majors only; Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "MATH 6701",
+      "course_code": "MATH 6701",
+      "department": "MATH",
+      "title": "Principles of Complex Systms 1",
+      "credit_hours": "3",
+      "description": "Introduction to fundamental concepts of complex systems. Topics include: emergence, scaling phenomena, and mechanisms, multi-scale systems, failure, robustness, collective social phenomena, complex networks. Students from all disciplines welcomed. Pre/co-requisites: Calculus and statistics required; linear algebra, differential equations, and computer programming recommended but not required. Cross-listed with: <a href=\"/search/?p=CSYS%206701\" data-action=\"result-detail\" data-group=\"code:CSYS 6701\" >CSYS 6701</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"Calculus\"}, {\"type\": \"course\", \"code\": \"statistics\"}]}",
+      "other_requirements": "linear algebra, differential equations, and computer programming recommended but not required.",
+      "external": false
+    },
+    {
+      "id": "MATH 4996",
+      "course_code": "MATH 4996",
+      "department": "MATH",
+      "title": "Undergraduate Honors Thesis",
+      "credit_hours": "1 to 6",
+      "description": "Program of reading and research culminating in written thesis and oral presentation. Honors notation appears on transcript and Commencement Program. Contact department chairperson for procedures.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     }
   ],
   "edges": [
     {
       "source": "CS 1640",
-      "target": "MATH 2551"
+      "target": "MATH 2551",
+      "group": "MATH 2551__g0"
     },
     {
       "source": "CS 1640",
-      "target": "MATH 2678"
+      "target": "MATH 2678",
+      "group": "MATH 2678__g0"
     },
     {
       "source": "CS 1640",
-      "target": "MATH 3517"
+      "target": "MATH 3517",
+      "group": "MATH 3517__g0"
     },
     {
       "source": "CS 1640",
-      "target": "MATH 3990"
+      "target": "MATH 3990",
+      "group": "MATH 3990__g1"
     },
     {
       "source": "CSYS 6701",
-      "target": "MATH 6713"
+      "target": "MATH 6713",
+      "group": null
     },
     {
       "source": "MATH 1012",
-      "target": "MATH 1077"
+      "target": "MATH 1077",
+      "group": "MATH 1077__g0"
     },
     {
       "source": "MATH 1012",
-      "target": "MATH 1212"
+      "target": "MATH 1212",
+      "group": "MATH 1212__g0"
     },
     {
       "source": "MATH 1034",
-      "target": "MATH 1077"
+      "target": "MATH 1077",
+      "group": "MATH 1077__g0"
     },
     {
       "source": "MATH 1034",
-      "target": "MATH 1212"
+      "target": "MATH 1212",
+      "group": "MATH 1212__g0"
     },
     {
       "source": "MATH 1034",
-      "target": "MATH 1234"
+      "target": "MATH 1234",
+      "group": "MATH 1234__g0"
     },
     {
       "source": "MATH 1111",
-      "target": "MATH 2111"
+      "target": "MATH 2111",
+      "group": null
     },
     {
       "source": "MATH 1111",
-      "target": "MATH 2180"
+      "target": "MATH 2180",
+      "group": null
     },
     {
       "source": "MATH 1212",
-      "target": "MATH 1012"
+      "target": "MATH 1012",
+      "group": "MATH 1012__g0"
     },
     {
       "source": "MATH 1212",
-      "target": "MATH 1088"
+      "target": "MATH 1088",
+      "group": null
     },
     {
       "source": "MATH 1212",
-      "target": "MATH 1224"
+      "target": "MATH 1224",
+      "group": "MATH 1224__g0"
     },
     {
       "source": "MATH 1212",
-      "target": "MATH 1242"
+      "target": "MATH 1242",
+      "group": "MATH 1242__g0"
     },
     {
       "source": "MATH 1224",
-      "target": "MATH 1242"
+      "target": "MATH 1242",
+      "group": "MATH 1242__g0"
     },
     {
       "source": "MATH 1224",
-      "target": "MATH 2700"
+      "target": "MATH 2700",
+      "group": "MATH 2700__g0"
     },
     {
       "source": "MATH 1234",
-      "target": "CS 1640"
+      "target": "CS 1640",
+      "group": "CS 1640__g1"
     },
     {
       "source": "MATH 1234",
-      "target": "MATH 1034"
+      "target": "MATH 1034",
+      "group": null
     },
     {
       "source": "MATH 1234",
-      "target": "MATH 1088"
+      "target": "MATH 1088",
+      "group": null
     },
     {
       "source": "MATH 1234",
-      "target": "MATH 1224"
+      "target": "MATH 1224",
+      "group": "MATH 1224__g0"
     },
     {
       "source": "MATH 1234",
-      "target": "MATH 1248"
+      "target": "MATH 1248",
+      "group": "MATH 1248__g0"
     },
     {
       "source": "MATH 1234",
-      "target": "MATH 2055"
+      "target": "MATH 2055",
+      "group": "MATH 2055__g0"
     },
     {
       "source": "MATH 1234",
-      "target": "MATH 2500"
+      "target": "MATH 2500",
+      "group": null
     },
     {
       "source": "MATH 1242",
-      "target": "CS 1640"
+      "target": "CS 1640",
+      "group": "CS 1640__g1"
     },
     {
       "source": "MATH 1242",
-      "target": "MATH 2055"
+      "target": "MATH 2055",
+      "group": "MATH 2055__g0"
     },
     {
       "source": "MATH 1242",
-      "target": "MATH 2248"
+      "target": "MATH 2248",
+      "group": "MATH 2248__g0"
     },
     {
       "source": "MATH 1242",
-      "target": "MATH 2522"
+      "target": "MATH 2522",
+      "group": "MATH 2522__g0"
     },
     {
       "source": "MATH 1242",
-      "target": "MATH 2544"
+      "target": "MATH 2544",
+      "group": "MATH 2544__g0"
     },
     {
       "source": "MATH 1242",
-      "target": "MATH 2700"
+      "target": "MATH 2700",
+      "group": "MATH 2700__g0"
     },
     {
       "source": "MATH 1248",
-      "target": "MATH 2248"
+      "target": "MATH 2248",
+      "group": "MATH 2248__g0"
     },
     {
       "source": "MATH 1248",
-      "target": "MATH 2522"
+      "target": "MATH 2522",
+      "group": "MATH 2522__g0"
     },
     {
       "source": "MATH 1248",
-      "target": "MATH 2544"
+      "target": "MATH 2544",
+      "group": "MATH 2544__g0"
     },
     {
       "source": "MATH 1248",
-      "target": "MATH 2700"
+      "target": "MATH 2700",
+      "group": "MATH 2700__g0"
     },
     {
       "source": "MATH 2055",
-      "target": "MATH 2551"
+      "target": "MATH 2551",
+      "group": "MATH 2551__g0"
     },
     {
       "source": "MATH 2055",
-      "target": "MATH 2678"
+      "target": "MATH 2678",
+      "group": "MATH 2678__g0"
     },
     {
       "source": "MATH 2055",
-      "target": "MATH 3468"
+      "target": "MATH 3468",
+      "group": "MATH 3468__g0"
     },
     {
       "source": "MATH 2055",
-      "target": "MATH 3517"
+      "target": "MATH 3517",
+      "group": "MATH 3517__g0"
     },
     {
       "source": "MATH 2055",
-      "target": "MATH 3551"
+      "target": "MATH 3551",
+      "group": "MATH 3551__g0"
     },
     {
       "source": "MATH 2055",
-      "target": "MATH 3990"
+      "target": "MATH 3990",
+      "group": "MATH 3990__g1"
     },
     {
       "source": "MATH 2055",
-      "target": "MATH 5678"
+      "target": "MATH 5678",
+      "group": null
     },
     {
       "source": "MATH 2248",
-      "target": "MATH 3201"
+      "target": "MATH 3201",
+      "group": null
     },
     {
       "source": "MATH 2248",
-      "target": "MATH 3230"
+      "target": "MATH 3230",
+      "group": null
     },
     {
       "source": "MATH 2248",
-      "target": "MATH 3468"
+      "target": "MATH 3468",
+      "group": null
     },
     {
       "source": "MATH 2248",
-      "target": "MATH 3517"
+      "target": "MATH 3517",
+      "group": "MATH 3517__g1"
     },
     {
       "source": "MATH 2248",
-      "target": "MATH 4990"
+      "target": "MATH 4990",
+      "group": null
     },
     {
       "source": "MATH 2248",
-      "target": "MATH 6441"
+      "target": "MATH 6441",
+      "group": null
     },
     {
       "source": "MATH 2522",
-      "target": "MATH 3230"
+      "target": "MATH 3230",
+      "group": "MATH 3230__g0"
     },
     {
       "source": "MATH 2522",
-      "target": "MATH 3468"
+      "target": "MATH 3468",
+      "group": "MATH 3468__g1"
     },
     {
       "source": "MATH 2522",
-      "target": "MATH 3517"
+      "target": "MATH 3517",
+      "group": "MATH 3517__g1"
     },
     {
       "source": "MATH 2522",
-      "target": "MATH 3551"
+      "target": "MATH 3551",
+      "group": "MATH 3551__g1"
     },
     {
       "source": "MATH 2522",
-      "target": "MATH 3990"
+      "target": "MATH 3990",
+      "group": "MATH 3990__g0"
     },
     {
       "source": "MATH 2522",
-      "target": "MATH 4990"
+      "target": "MATH 4990",
+      "group": "MATH 4990__g0"
     },
     {
       "source": "MATH 2544",
-      "target": "MATH 3230"
+      "target": "MATH 3230",
+      "group": "MATH 3230__g0"
     },
     {
       "source": "MATH 2544",
-      "target": "MATH 3468"
+      "target": "MATH 3468",
+      "group": "MATH 3468__g1"
     },
     {
       "source": "MATH 2544",
-      "target": "MATH 3517"
+      "target": "MATH 3517",
+      "group": "MATH 3517__g1"
     },
     {
       "source": "MATH 2544",
-      "target": "MATH 3551"
+      "target": "MATH 3551",
+      "group": "MATH 3551__g1"
     },
     {
       "source": "MATH 2544",
-      "target": "MATH 3990"
+      "target": "MATH 3990",
+      "group": "MATH 3990__g0"
     },
     {
       "source": "MATH 2551",
-      "target": "MATH 3468"
+      "target": "MATH 3468",
+      "group": "MATH 3468__g0"
     },
     {
       "source": "MATH 2551",
-      "target": "MATH 3551"
+      "target": "MATH 3551",
+      "group": "MATH 3551__g0"
     },
     {
       "source": "MATH 3551",
-      "target": "MATH 6678"
+      "target": "MATH 6678",
+      "group": "MATH 6678__g0"
     },
     {
       "source": "MATH 5678",
-      "target": "MATH 6678"
+      "target": "MATH 6678",
+      "group": "MATH 6678__g0"
     },
     {
       "source": "MATH 5990",
-      "target": "MATH 5990"
+      "target": "MATH 5990",
+      "group": null
     },
     {
       "source": "MATH 6551",
-      "target": "MATH 6551"
+      "target": "MATH 6551",
+      "group": null
     },
     {
       "source": "MATH 6701",
-      "target": "MATH 6713"
+      "target": "MATH 6713",
+      "group": null
     }
   ]
 }

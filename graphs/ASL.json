@@ -2,13 +2,13 @@
   "department": "ASL",
   "nodes": [
     {
-      "id": "ASL 2994",
-      "course_code": "ASL 2994",
+      "id": "ASL 3200",
+      "course_code": "ASL 3200",
       "department": "ASL",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
+      "title": "American Sign Language VI",
+      "credit_hours": "3",
+      "description": "A continuation of ASL V. Focus on grammatical and linguistic aspects of ASL and the use of ASL discourses in formal settings. Prerequisite: <a href=\"/search/?p=ASL%203100\" data-action=\"result-detail\" data-group=\"code:ASL 3100\"  class=\"notoffered\">ASL 3100</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"ASL 3100\"}",
       "other_requirements": null,
       "external": false
     },
@@ -24,24 +24,24 @@
       "external": false
     },
     {
-      "id": "ASL 3300",
-      "course_code": "ASL 3300",
+      "id": "ASL 2200",
+      "course_code": "ASL 2200",
       "department": "ASL",
-      "title": "ASL Literature",
-      "credit_hours": "3",
-      "description": "Introduces students to ASL literature by exploring and examining a wide range of videos produced by Deaf artists. ASL literature covers classic and modern Deaf folklores, ASL storytelling/narratives, ASL poetry, Deaf humor, theatre, cinema, and other genres. Prerequisite: <a href=\"/search/?p=ASL%203100\" data-action=\"result-detail\" data-group=\"code:ASL 3100\"  class=\"notoffered\">ASL 3100</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"ASL 3100\"}",
-      "other_requirements": null,
+      "title": "American Sign Language IV",
+      "credit_hours": "4",
+      "description": "Expansion of ASL III. Intended to refine competence in receptive and expressive abilities through exposure to stylistic and regional ASL renditions. Deaf Community involvement. Prerequisites: <a href=\"/search/?p=ASL%202100\" data-action=\"result-detail\" data-group=\"code:ASL 2100\" >ASL 2100</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASL 2100\"}, {\"type\": \"course\", \"code\": \"ASL 2100\"}]}",
+      "other_requirements": "successful placement interview",
       "external": false
     },
     {
-      "id": "ASL 3200",
-      "course_code": "ASL 3200",
+      "id": "ASL 2994",
+      "course_code": "ASL 2994",
       "department": "ASL",
-      "title": "American Sign Language VI",
-      "credit_hours": "3",
-      "description": "A continuation of ASL V. Focus on grammatical and linguistic aspects of ASL and the use of ASL discourses in formal settings. Prerequisite: <a href=\"/search/?p=ASL%203100\" data-action=\"result-detail\" data-group=\"code:ASL 3100\"  class=\"notoffered\">ASL 3100</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"ASL 3100\"}",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
       "other_requirements": null,
       "external": false
     },
@@ -68,14 +68,25 @@
       "external": false
     },
     {
-      "id": "ASL 2100",
-      "course_code": "ASL 2100",
+      "id": "ASL 2300",
+      "course_code": "ASL 2300",
       "department": "ASL",
-      "title": "American Sign Language III",
-      "credit_hours": "4",
-      "description": "Stresses fluency of expressive and receptive skills for conversational competence. Introduces increasingly complex grammatical aspects. In-depth study of Deaf Culture. Prerequisites: <a href=\"/search/?p=ASL%201200\" data-action=\"result-detail\" data-group=\"code:ASL 1200\" >ASL 1200</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASL 1200\"}, {\"type\": \"course\", \"code\": \"ASL 1200\"}]}",
-      "other_requirements": "successful completion of placement interview; Open to Degree and PACE students.",
+      "title": "Understanding Deaf Culture",
+      "credit_hours": "3",
+      "description": "Provides students a comprehensive orientation to Deaf communities as linguistic and cultural minorities. Students will explore various aspects of American Deaf culture.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ASL 3300",
+      "course_code": "ASL 3300",
+      "department": "ASL",
+      "title": "ASL Literature",
+      "credit_hours": "3",
+      "description": "Introduces students to ASL literature by exploring and examining a wide range of videos produced by Deaf artists. ASL literature covers classic and modern Deaf folklores, ASL storytelling/narratives, ASL poetry, Deaf humor, theatre, cinema, and other genres. Prerequisite: <a href=\"/search/?p=ASL%203100\" data-action=\"result-detail\" data-group=\"code:ASL 3100\"  class=\"notoffered\">ASL 3100</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"ASL 3100\"}",
+      "other_requirements": null,
       "external": false
     },
     {
@@ -90,56 +101,52 @@
       "external": false
     },
     {
-      "id": "ASL 2200",
-      "course_code": "ASL 2200",
+      "id": "ASL 2100",
+      "course_code": "ASL 2100",
       "department": "ASL",
-      "title": "American Sign Language IV",
+      "title": "American Sign Language III",
       "credit_hours": "4",
-      "description": "Expansion of ASL III. Intended to refine competence in receptive and expressive abilities through exposure to stylistic and regional ASL renditions. Deaf Community involvement. Prerequisites: <a href=\"/search/?p=ASL%202100\" data-action=\"result-detail\" data-group=\"code:ASL 2100\" >ASL 2100</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASL 2100\"}, {\"type\": \"course\", \"code\": \"ASL 2100\"}]}",
-      "other_requirements": "successful placement interview",
-      "external": false
-    },
-    {
-      "id": "ASL 2300",
-      "course_code": "ASL 2300",
-      "department": "ASL",
-      "title": "Understanding Deaf Culture",
-      "credit_hours": "3",
-      "description": "Provides students a comprehensive orientation to Deaf communities as linguistic and cultural minorities. Students will explore various aspects of American Deaf culture.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "description": "Stresses fluency of expressive and receptive skills for conversational competence. Introduces increasingly complex grammatical aspects. In-depth study of Deaf Culture. Prerequisites: <a href=\"/search/?p=ASL%201200\" data-action=\"result-detail\" data-group=\"code:ASL 1200\" >ASL 1200</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASL 1200\"}, {\"type\": \"course\", \"code\": \"ASL 1200\"}]}",
+      "other_requirements": "successful completion of placement interview; Open to Degree and PACE students.",
       "external": false
     }
   ],
   "edges": [
     {
       "source": "ASL 1100",
-      "target": "ASL 1200"
+      "target": "ASL 1200",
+      "group": "ASL 1200__g0"
     },
     {
       "source": "ASL 1200",
-      "target": "ASL 2100"
+      "target": "ASL 2100",
+      "group": "ASL 2100__g0"
     },
     {
       "source": "ASL 2100",
-      "target": "ASL 2200"
+      "target": "ASL 2200",
+      "group": "ASL 2200__g0"
     },
     {
       "source": "ASL 2100",
-      "target": "ASL 3100"
+      "target": "ASL 3100",
+      "group": null
     },
     {
       "source": "ASL 2200",
-      "target": "ASL 3100"
+      "target": "ASL 3100",
+      "group": null
     },
     {
       "source": "ASL 3100",
-      "target": "ASL 3200"
+      "target": "ASL 3200",
+      "group": null
     },
     {
       "source": "ASL 3100",
-      "target": "ASL 3300"
+      "target": "ASL 3300",
+      "group": null
     }
   ]
 }

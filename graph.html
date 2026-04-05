@@ -65,7 +65,7 @@
   #stats {
     position: fixed;
     bottom: 28px;
-    left: 32px;
+    left: 64px;
     font-size: 0.65rem;
     color: var(--muted);
     letter-spacing: 0.1em;
@@ -104,14 +104,35 @@
     flex-shrink: 0;
   }
 
-  .legend-dot.internal {
-    background: var(--node-internal);
-    box-shadow: 0 0 8px var(--accent-glow);
-  }
+  .legend-dot.level-1000 { background: #4a9eff; box-shadow: 0 0 6px rgba(74,158,255,0.4); }
+  .legend-dot.level-2000 { background: #4adb8a; box-shadow: 0 0 6px rgba(74,219,138,0.4); }
+  .legend-dot.level-3000 { background: #f5c542; box-shadow: 0 0 6px rgba(245,197,66,0.4); }
+  .legend-dot.level-4000 { background: #ff8c42; box-shadow: 0 0 6px rgba(255,140,66,0.4); }
+  .legend-dot.level-5000 { background: #e05c8a; box-shadow: 0 0 6px rgba(224,92,138,0.4); }
 
   .legend-dot.external {
     background: var(--node-external);
     border: 1.5px solid var(--node-external-border);
+  }
+
+  .legend-line {
+    width: 22px;
+    height: 2px;
+    flex-shrink: 0;
+  }
+
+  .legend-line.and-line {
+    background: var(--edge);
+    opacity: 0.9;
+  }
+
+  .legend-line.or-line {
+    background: repeating-linear-gradient(
+      to right,
+      var(--edge) 0px, var(--edge) 5px,
+      transparent 5px, transparent 8px
+    );
+    opacity: 0.9;
   }
 
   svg {
@@ -129,7 +150,10 @@
     font-family: 'JetBrains Mono', monospace;
     font-size: 9px;
     font-weight: 600;
-    fill: var(--text);
+    fill: #fff;
+    stroke: rgba(0,0,0,0.65);
+    stroke-width: 3px;
+    paint-order: stroke fill;
     pointer-events: none;
     letter-spacing: 0.05em;
   }
@@ -139,6 +163,11 @@
     stroke: var(--edge);
     stroke-width: 1.2;
     transition: stroke 0.2s;
+  }
+
+  .link.or-edge {
+    stroke-dasharray: 5, 3;
+    stroke-opacity: 0.7;
   }
 
   .link.highlighted {
@@ -156,7 +185,146 @@
   }
 
   .link.dimmed {
-    stroke-opacity: 0.04;
+    opacity: 0.04;
+  }
+
+  /* My Courses mode — node states (fill set by JS, stroke/glow by CSS) */
+  .node.taken circle {
+    stroke: rgba(74,255,138,0.35) !important;
+    stroke-width: 1.5 !important;
+  }
+  .node.available circle {
+    stroke: #4aff8a !important;
+    stroke-width: 2.5 !important;
+    filter: drop-shadow(0 0 6px rgba(74,255,138,0.8));
+  }
+  .node.locked text { opacity: 0.3; }
+
+  /* My Courses panel */
+  #my-courses-panel {
+    position: fixed;
+    top: 0; left: 0;
+    width: 240px;
+    height: 100vh;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    z-index: 30;
+    transform: translateX(-100%);
+    transition: transform 0.25s ease;
+  }
+
+  #my-courses-panel.visible { transform: translateX(0); }
+
+  #mc-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 16px 14px;
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+
+  #mc-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #4aff8a;
+  }
+
+  #mc-clear {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  #mc-clear:hover { border-color: #4aff8a; color: #4aff8a; }
+
+  #mc-search {
+    margin: 10px 12px 4px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    padding: 6px 10px;
+    outline: none;
+    flex-shrink: 0;
+  }
+
+  #mc-search:focus { border-color: #4aff8a; }
+  #mc-search::placeholder { color: var(--muted); }
+
+  #mc-count {
+    font-size: 0.55rem;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+    padding: 4px 14px 8px;
+    flex-shrink: 0;
+  }
+
+  #mc-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 4px 0;
+  }
+
+  #mc-list::-webkit-scrollbar { width: 3px; }
+  #mc-list::-webkit-scrollbar-track { background: transparent; }
+  #mc-list::-webkit-scrollbar-thumb { background: var(--border); }
+
+  .mc-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 6px 14px;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .mc-item:hover { background: rgba(74,255,138,0.05); }
+  .mc-item.checked { background: rgba(74,255,138,0.04); }
+
+  .mc-check {
+    margin-top: 3px;
+    flex-shrink: 0;
+    accent-color: #4aff8a;
+    cursor: pointer;
+  }
+
+  .mc-code {
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.4;
+  }
+
+  .mc-title-text {
+    font-size: 0.55rem;
+    color: var(--muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 170px;
+  }
+
+  .mc-ext {
+    font-size: 0.5rem;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    padding: 0 3px;
+    letter-spacing: 0.08em;
+    vertical-align: middle;
   }
 
   #tooltip {
@@ -220,6 +388,45 @@
     margin-top: 8px;
     padding-top: 8px;
     border-top: 1px solid var(--border);
+  }
+
+  .tt-prereq-header {
+    font-size: 0.55rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border);
+    margin-bottom: 4px;
+  }
+
+  .tt-prereq-body {
+    font-size: 0.65rem;
+    line-height: 1.6;
+  }
+
+  .tt-prereq-group {
+    padding: 1px 0;
+  }
+
+  .tt-prereq-group::before {
+    content: '· ';
+    color: var(--muted);
+  }
+
+  .tt-prereq-course {
+    color: var(--accent);
+  }
+
+  .tt-prereq-or {
+    color: var(--muted);
+    font-size: 0.6rem;
+  }
+
+  .tt-prereq-other {
+    color: var(--muted);
+    font-style: italic;
   }
 
   .tt-external-badge {
@@ -301,6 +508,62 @@
     background: rgba(124,106,255,0.08);
   }
 
+  #my-courses-toggle {
+    position: fixed;
+    top: 130px;
+    right: 32px;
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    cursor: pointer;
+    z-index: 20;
+    transition: all 0.15s;
+  }
+
+  #my-courses-toggle:hover {
+    border-color: #4aff8a;
+    color: #4aff8a;
+  }
+
+  #my-courses-toggle.active {
+    border-color: #4aff8a;
+    color: #4aff8a;
+    background: rgba(74,255,138,0.08);
+  }
+
+  #plain-toggle {
+    position: fixed;
+    top: 94px;
+    right: 32px;
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    cursor: pointer;
+    z-index: 20;
+    transition: all 0.15s;
+  }
+
+  #plain-toggle:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  #plain-toggle.active {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(124,106,255,0.08);
+  }
+
   #layout-toggle {
     position: fixed;
     top: 58px;
@@ -353,7 +616,7 @@
 
   #instructions {
     position: fixed;
-    top: 80px;
+    top: 180px;
     right: 32px;
     font-size: 0.6rem;
     color: var(--muted);
@@ -364,7 +627,7 @@
     opacity: 0.6;
   }
 
-  #sidebar {
+#sidebar {
     position: fixed;
     top: 0; right: 0;
     width: 220px;
@@ -485,13 +748,255 @@
   }
 
   body.sidebar-open svg { width: calc(100vw - 220px); }
+  body.courses-open svg { margin-left: 240px; width: calc(100vw - 240px); }
+  body.courses-open.sidebar-open svg { width: calc(100vw - 460px); }
   body.sidebar-open #legend { right: 252px; }
   body.sidebar-open #change-dept { right: 252px; }
   body.sidebar-open #layout-toggle { right: 252px; }
+  body.sidebar-open #plain-toggle { right: 252px; }
+  body.sidebar-open #my-courses-toggle { right: 252px; }
   body.sidebar-open #instructions { right: 252px; }
+
+  /* Help button */
+  #help-btn {
+    position: fixed;
+    bottom: 28px;
+    left: 32px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s;
+    line-height: 1;
+    padding: 0;
+  }
+
+  #help-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    box-shadow: 0 0 10px var(--accent-glow);
+  }
+
+  /* Info overlay */
+  #info-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(10px);
+    z-index: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #info-overlay.hidden { display: none; }
+
+  #info-modal {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-top: 2px solid var(--accent);
+    width: 800px;
+    max-width: 96vw;
+    height: 88vh;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0 32px 80px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(124, 106, 255, 0.08);
+  }
+
+  #info-close {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: var(--muted);
+    font-size: 1.1rem;
+    cursor: pointer;
+    line-height: 1;
+    padding: 4px 6px;
+    transition: color 0.15s;
+    font-family: 'JetBrains Mono', monospace;
+    z-index: 1;
+  }
+
+  #info-close:hover { color: var(--text); }
+
+  #info-pages {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .info-page {
+    position: absolute;
+    inset: 0;
+    padding: 36px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(20px);
+    transition: opacity 0.22s ease, transform 0.22s ease;
+  }
+
+  .info-page.active {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+  }
+
+  .info-page.exit {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.15s ease, transform 0.15s ease;
+  }
+
+  .info-page-label {
+    font-size: 0.55rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 10px;
+  }
+
+  .info-page-title {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: var(--text);
+    letter-spacing: -0.03em;
+    margin-bottom: 24px;
+  }
+
+  .info-page-content {
+    flex: 1;
+    color: var(--muted);
+    font-size: 0.7rem;
+    line-height: 1.9;
+  }
+
+  #info-nav {
+    padding: 14px 40px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+
+  .info-nav-btn {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    padding: 6px 16px;
+    cursor: pointer;
+    transition: all 0.15s;
+    text-transform: uppercase;
+  }
+
+  .info-nav-btn:hover:not(:disabled) {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .info-nav-btn:disabled {
+    opacity: 0.2;
+    cursor: default;
+  }
+
+  #info-dots {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .info-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--border);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .info-dot.active {
+    background: var(--accent);
+    box-shadow: 0 0 6px var(--accent-glow);
+  }
+
+  .info-dot:hover:not(.active) {
+    background: var(--muted);
+  }
+
+  .info-page-content {
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+
+  .info-page-content p {
+    margin-bottom: 16px;
+  }
+
+  .info-page-content img {
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    display: block;
+    margin-top: 4px;
+    opacity: 0.9;
+  }
+
+  .info-caveat {
+    display: block;
+    font-size: 0.58rem;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    border-left: 2px solid var(--accent);
+    padding: 8px 12px;
+    margin-top: 4px;
+    line-height: 1.7;
+  }
+
+  .info-wip-badge {
+    display: inline-block;
+    font-size: 0.55rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    border: 1px solid rgba(124, 106, 255, 0.3);
+    padding: 3px 10px;
+    margin-bottom: 14px;
+  }
 </style>
 </head>
 <body>
+
+<div id="my-courses-panel">
+  <div id="mc-header">
+    <div id="mc-title">My Courses</div>
+    <button id="mc-clear">Clear</button>
+  </div>
+  <input id="mc-search" type="text" placeholder="Filter courses..." autocomplete="off">
+  <div id="mc-count"></div>
+  <div id="mc-list"></div>
+</div>
 
 <div id="dept-picker">
   <h2>Select Department</h2>
@@ -501,6 +1006,8 @@
 
 <button id="change-dept">Change Dept</button>
 <button id="layout-toggle">Hierarchy</button>
+<button id="plain-toggle">Plain</button>
+<button id="my-courses-toggle">My Courses</button>
 
 <div id="header">
   <div id="dept-label">—</div>
@@ -511,20 +1018,68 @@
   scroll to zoom<br>
   drag to pan<br>
   hover to inspect<br>
-  click to highlight
+  click · direct prereqs<br>
+  click again · full chain
 </div>
 
 <div id="stats"></div>
 
+<button id="help-btn">?</button>
+
+<div id="info-overlay" class="hidden">
+  <div id="info-modal">
+    <button id="info-close">×</button>
+    <div id="info-pages">
+      <div class="info-page active" data-page="0">
+        <div class="info-page-label">01 / 03</div>
+        <div class="info-page-title">Inspiration</div>
+        <div class="info-page-content">
+          <p>As a freshman I came across this CS prerequisite chart and found it useful. Seeing the full dependency tree helped me think ahead about what paths I could take as an undergrad. What surprised me was that this wasn't a standard feature for students in every department.</p>
+          <img src="images/cs_prereq_chart.png" alt="Original CS prerequisite chart" />
+        </div>
+      </div>
+      <div class="info-page" data-page="1">
+        <div class="info-page-label">02 / 03</div>
+        <div class="info-page-title">Method</div>
+        <div class="info-page-content">
+          <p>No structured prerequisite data was available, so I pulled from the Schedule of Courses, where each class description usually includes a brief note about prerequisites. That text is inconsistently formatted and not a trivial parsing problem, so I ran each course description through <span style="color:var(--text)">Gemini 2.5 Flash</span> to extract the relationships.</p>
+          <img src="images/example1.png" alt="Example course description with prerequisites" />
+          <p>Because this relies on an LLM interpreting free-form text, there's no guarantee every relationship was captured correctly. Treat the graphs as a helpful reference, not a source of truth. There can also be discrepancies within the same course description...</p>
+          <img src="images/example2.png" alt="Example course description with discrepancies" />
+          <p>Also note that classes are often listed as prereqs in the SOC, but may not actually be offered during either of the Fall/Spring 2026 semesters, which were used to build the graphs.</p>
+        </div>
+      </div>
+      <div class="info-page" data-page="2">
+        <div class="info-page-label">03 / 03</div>
+        <div class="info-page-title">Status</div>
+        <div class="info-page-content">
+          <div class="info-wip-badge">Work in progress</div>
+          <p>Until this is more polished and less overwhelming, think of it as an explorable visual; something to poke around in and get a feel for how courses connect across a department.</p>
+          <p>That said, browsing the prerequisite chains for your major could give you a useful head start when it comes time to pick classes. That's the goal, at least.</p>
+        </div>
+      </div>
+    </div>
+    <div id="info-nav">
+      <button class="info-nav-btn" id="info-prev" disabled>← Prev</button>
+      <div id="info-dots">
+        <span class="info-dot active" data-dot="0"></span>
+        <span class="info-dot" data-dot="1"></span>
+        <span class="info-dot" data-dot="2"></span>
+      </div>
+      <button class="info-nav-btn" id="info-next">Next →</button>
+    </div>
+  </div>
+</div>
+
 <div id="legend">
-  <div class="legend-item">
-    <div class="legend-dot internal"></div>
-    <span id="legend-dept-label">CS course</span>
-  </div>
-  <div class="legend-item">
-    <div class="legend-dot external"></div>
-    <span>External prereq</span>
-  </div>
+  <div class="legend-item"><div class="legend-dot level-1000"></div><span>1000-level</span></div>
+  <div class="legend-item"><div class="legend-dot level-2000"></div><span>2000-level</span></div>
+  <div class="legend-item"><div class="legend-dot level-3000"></div><span>3000-level</span></div>
+  <div class="legend-item"><div class="legend-dot level-4000"></div><span>4000-level</span></div>
+  <div class="legend-item"><div class="legend-dot level-5000"></div><span>5000+ (grad)</span></div>
+  <div class="legend-item"><div class="legend-dot external"></div><span>External prereq</span></div>
+  <div class="legend-item"><div class="legend-line and-line"></div><span>Required</span></div>
+  <div class="legend-item"><div class="legend-line or-line"></div><span>Same color = choose one</span></div>
 </div>
 
 <div id="tooltip"><div class="tooltip-inner"></div></div>
@@ -580,7 +1135,7 @@ function loadDept(dept) {
   document.getElementById('dept-picker').classList.add('hidden');
   document.getElementById('dept-label').textContent = dept;
   d3.select('#svg').selectAll('*').remove();
-  fetch(`graphs/${dept}.json`)
+  fetch(`graphs/${dept}.json?v=${Date.now()}`)
     .then(r => r.json())
     .then(data => render(data));
 }
@@ -662,9 +1217,120 @@ function populateSidebar(nodes, edges) {
   });
 }
 
+// OR group color palette — distinct from node level colors
+const OR_PALETTE = ['#d0d0d0','#888888','#b8b8b8','#686868','#a8a8a8','#c0c0c0','#787878','#989898'];
+
+function buildGroupColorMap(edges) {
+  // Per target node, assign sequential palette colors to each unique OR group
+  const targetGroups = {};
+  edges.forEach(e => {
+    if (!e.group) return;
+    const t = e.target;
+    if (!targetGroups[t]) targetGroups[t] = {};
+    if (!(e.group in targetGroups[t])) {
+      const idx = Object.keys(targetGroups[t]).length;
+      targetGroups[t][e.group] = OR_PALETTE[idx % OR_PALETTE.length];
+    }
+  });
+  // Flatten to group_id → color
+  const map = {};
+  Object.values(targetGroups).forEach(gmap => Object.assign(map, gmap));
+  return map;
+}
+
+function flattenAnd(node) {
+  // Recursively flatten nested AND nodes into a single list of operands
+  if (node.type !== 'AND') return [node];
+  return (node.operands || []).flatMap(o => flattenAnd(o));
+}
+
+function formatPrereqTree(tree) {
+  if (!tree) return '';
+  const t = tree.type;
+  if (t === 'course') return `<span class="tt-prereq-course">${tree.code || '?'}</span>`;
+  if (t === 'other_requirement') return `<span class="tt-prereq-other">${tree.description || ''}</span>`;
+  if (t === 'OR') {
+    const parts = (tree.operands || []).map(o => formatPrereqTree(o)).filter(s => s);
+    return parts.join('<span class="tt-prereq-or"> or </span>');
+  }
+  if (t === 'AND') {
+    return flattenAnd(tree)
+      .map(o => `<div class="tt-prereq-group">${formatPrereqTree(o)}</div>`)
+      .filter(s => s)
+      .join('');
+  }
+  return '';
+}
+
+function levelColor(courseCode) {
+  const num = parseInt((courseCode || '').replace(/[^0-9]/g, '').slice(-4));
+  if (num >= 5000) return '#e05c8a';
+  if (num >= 4000) return '#ff8c42';
+  if (num >= 3000) return '#f5c542';
+  if (num >= 2000) return '#4adb8a';
+  return '#4a9eff';
+}
+
+function levelStroke(courseCode) {
+  const num = parseInt((courseCode || '').replace(/[^0-9]/g, '').slice(-4));
+  if (num >= 5000) return 'rgba(224,92,138,0.5)';
+  if (num >= 4000) return 'rgba(255,140,66,0.5)';
+  if (num >= 3000) return 'rgba(245,197,66,0.5)';
+  if (num >= 2000) return 'rgba(74,219,138,0.5)';
+  return 'rgba(74,158,255,0.5)';
+}
+
 let layoutMode = 'web';
+let plainMode = false;
+let takenMode = false;
+const TAKEN_KEY = 'prereq_taken_courses';
+let takenCourses = new Set(JSON.parse(localStorage.getItem(TAKEN_KEY) || '[]'));
+function saveTaken() { localStorage.setItem(TAKEN_KEY, JSON.stringify([...takenCourses])); }
 let simulation = null;
 let graphState = null;
+
+function evalPrereqTree(node, takenSet) {
+  const t = node.type;
+  if (t === 'course') return takenSet.has(node.code);
+  if (t === 'other_requirement') return true; // can't evaluate, assume met
+  if (t === 'AND') return (node.operands || []).every(o => evalPrereqTree(o, takenSet));
+  if (t === 'OR') return (node.operands || []).some(o => evalPrereqTree(o, takenSet));
+  return true;
+}
+
+function isSatisfied(prereq_expression, takenSet) {
+  if (!prereq_expression) return true;
+  try {
+    const tree = typeof prereq_expression === 'string' ? JSON.parse(prereq_expression) : prereq_expression;
+    return evalPrereqTree(tree, takenSet);
+  } catch { return true; }
+}
+
+function updateAvailability() {
+  if (!graphState) return;
+  const { node } = graphState;
+  node.each(function(d) {
+    const el = d3.select(this);
+    if (d.external) {
+      const taken = takenCourses.has(d.id);
+      el.classed('taken', taken).classed('available', false).classed('locked', false);
+      if (taken) el.select('circle').attr('fill', '#1e4d35');
+      else el.select('circle').attr('fill', 'var(--node-external)');
+      return;
+    }
+    const taken = takenCourses.has(d.id);
+    const satisfied = !taken && isSatisfied(d.prereq_expression, takenCourses);
+    el.classed('taken', taken)
+      .classed('available', satisfied)
+      .classed('locked', !taken && !satisfied);
+
+    el.select('circle').attr('fill',
+      taken     ? '#1e4d35' :                                    // muted green — done
+      satisfied ? (plainMode ? 'var(--node-internal)' : levelColor(d.course_code)) :  // level color — unlocked
+                  '#1e1e2e'                                      // dark gray — locked
+    );
+  });
+}
 
 function updateLinkPaths() {
   const { link } = graphState;
@@ -773,9 +1439,10 @@ function render(data) {
   const external = nodes.filter(n => n.external).length;
   document.getElementById('stats').innerHTML =
     `<span>${internal}</span> ${data.department} courses &nbsp;·&nbsp; <span>${external}</span> external prereqs &nbsp;·&nbsp; <span>${edges.length}</span> edges`;
-  document.getElementById('legend-dept-label').textContent = `${data.department} course`;
 
   populateSidebar(nodes, edges);
+
+  const groupColorMap = buildGroupColorMap(edges);
 
   // Stop any running simulation
   if (simulation) { simulation.stop(); simulation = null; }
@@ -784,7 +1451,7 @@ function render(data) {
   const svg = d3.select('#svg');
   svg.selectAll('*').remove();
 
-  // Defs: arrowhead
+  // Defs: single arrowhead using context-stroke so it inherits edge color automatically
   const defs = svg.append('defs');
   defs.append('marker')
     .attr('id', 'arrow')
@@ -796,26 +1463,7 @@ function render(data) {
     .attr('orient', 'auto')
     .append('path')
     .attr('d', 'M0,-4L8,0L0,4')
-    .attr('fill', '#2a2a4a');
-
-  defs.append('marker')
-    .attr('id', 'arrow-highlight')
-    .attr('viewBox', '0 -4 8 8')
-    .attr('refX', 18)
-    .attr('refY', 0)
-    .attr('markerWidth', 6)
-    .attr('markerHeight', 6)
-    .attr('orient', 'auto')
-    .append('path')
-    .attr('d', 'M0,-4L8,0L0,4')
-    .attr('fill', '#7c6aff');
-
-  // Radial gradient for internal nodes
-  const grad = defs.append('radialGradient')
-    .attr('id', 'node-grad')
-    .attr('cx', '35%').attr('cy', '35%');
-  grad.append('stop').attr('offset', '0%').attr('stop-color', '#a090ff');
-  grad.append('stop').attr('offset', '100%').attr('stop-color', '#5040cc');
+    .attr('fill', 'context-stroke');
 
   const container = svg.append('g').attr('class', 'container');
 
@@ -828,7 +1476,8 @@ function render(data) {
     .selectAll('path')
     .data(edges)
     .join('path')
-    .attr('class', 'link')
+    .attr('class', d => d.group ? 'link or-edge' : 'link')
+    .style('stroke', d => d.group ? (groupColorMap[d.group] || OR_PALETTE[0]) : null)
     .attr('marker-end', 'url(#arrow)');
 
   // Nodes
@@ -857,8 +1506,8 @@ function render(data) {
 
   node.append('circle')
     .attr('r', d => d.external ? 7 : 11)
-    .attr('fill', d => d.external ? 'var(--node-external)' : 'url(#node-grad)')
-    .attr('stroke', d => d.external ? 'var(--node-external-border)' : 'rgba(180,160,255,0.4)')
+    .attr('fill', d => d.external ? 'var(--node-external)' : levelColor(d.course_code))
+    .attr('stroke', d => d.external ? 'var(--node-external-border)' : levelStroke(d.course_code))
     .attr('stroke-width', d => d.external ? 1.5 : 1);
 
   node.filter(d => !d.external)
@@ -866,6 +1515,7 @@ function render(data) {
     .attr('text-anchor', 'middle')
     .attr('dy', '0.35em')
     .text(d => d.course_code.split(' ')[1]); // just the number
+
 
   // Hover
   const tooltip = document.getElementById('tooltip');
@@ -883,56 +1533,111 @@ function render(data) {
       html += `<div class="tt-code">${d.course_code}</div>`;
       html += `<div class="tt-title">${d.title || '—'}</div>`;
       if (d.credit_hours) html += `<div class="tt-row"><span class="label">Credits</span><span class="value">${d.credit_hours}</span></div>`;
+      if (d.prereq_expression) {
+        try {
+          const tree = typeof d.prereq_expression === 'string' ? JSON.parse(d.prereq_expression) : d.prereq_expression;
+          const label = tree.type === 'OR' ? 'REQUIRES ONE OF' : 'REQUIRES';
+          html += `<div class="tt-prereq-header">${label}</div>`;
+          html += `<div class="tt-prereq-body">${formatPrereqTree(tree)}</div>`;
+        } catch(e) {}
+      }
       if (d.other_requirements) html += `<div class="tt-other">${d.other_requirements}</div>`;
       tooltipInner.innerHTML = html;
     })
     .on('mouseleave', () => { tooltip.style.opacity = 0; });
 
-  // Click to highlight
-  let selected = null;
-  node.on('click', (e, d) => {
-    e.stopPropagation();
-    if (selected === d.id) {
-      selected = null;
-      node.classed('dimmed', false);
-      link.classed('dimmed', false).classed('highlighted', false)
-        .attr('marker-end', 'url(#arrow)');
-      return;
-    }
-    selected = d.id;
-
-    const connected = new Set([d.id]);
-    edges.forEach(l => {
-      const s = l.source.id || l.source;
-      const t = l.target.id || l.target;
-      if (s === d.id || t === d.id) { connected.add(s); connected.add(t); }
+  // Build reverse adjacency for upstream path traversal
+  function getUpstreamPath(nodeId) {
+    const reverseAdj = {};
+    edges.forEach(e => {
+      const s = typeof e.source === 'object' ? e.source.id : e.source;
+      const t = typeof e.target === 'object' ? e.target.id : e.target;
+      if (!reverseAdj[t]) reverseAdj[t] = [];
+      reverseAdj[t].push(s);
     });
+    const path = new Set([nodeId]);
+    const queue = [nodeId];
+    while (queue.length) {
+      const curr = queue.shift();
+      (reverseAdj[curr] || []).forEach(prereq => {
+        if (!path.has(prereq)) { path.add(prereq); queue.push(prereq); }
+      });
+    }
+    return path;
+  }
 
-    node.classed('dimmed', n => !connected.has(n.id));
+  // Click once: direct neighbors. Click again: full upstream chain. Click again: deselect.
+  let selected = null;
+  let clickCount = 0;
+
+  function applyHighlight(nodeId, clickN) {
+    let highlighted;
+    if (clickN === 1) {
+      // Direct neighbors only
+      highlighted = new Set([nodeId]);
+      edges.forEach(l => {
+        const s = typeof l.source === 'object' ? l.source.id : l.source;
+        const t = typeof l.target === 'object' ? l.target.id : l.target;
+        if (s === nodeId || t === nodeId) { highlighted.add(s); highlighted.add(t); }
+      });
+    } else {
+      // Full upstream chain
+      highlighted = getUpstreamPath(nodeId);
+    }
+
+    node.classed('dimmed', n => !highlighted.has(n.id));
     link
       .classed('dimmed', l => {
-        const s = l.source.id || l.source, t = l.target.id || l.target;
-        return !(s === d.id || t === d.id);
+        const s = typeof l.source === 'object' ? l.source.id : l.source;
+        const t = typeof l.target === 'object' ? l.target.id : l.target;
+        return !(highlighted.has(s) && highlighted.has(t));
       })
       .classed('highlighted', l => {
-        const s = l.source.id || l.source, t = l.target.id || l.target;
-        return s === d.id || t === d.id;
+        const s = typeof l.source === 'object' ? l.source.id : l.source;
+        const t = typeof l.target === 'object' ? l.target.id : l.target;
+        return highlighted.has(s) && highlighted.has(t);
       })
-      .attr('marker-end', l => {
-        const s = l.source.id || l.source, t = l.target.id || l.target;
-        return (s === d.id || t === d.id) ? 'url(#arrow-highlight)' : 'url(#arrow)';
-      });
+      .attr('marker-end', 'url(#arrow)');
+  }
+
+  node.on('click', (e, d) => {
+    e.stopPropagation();
+
+    if (selected === d.id) {
+      clickCount++;
+      if (clickCount > 2) {
+        selected = null;
+        clickCount = 0;
+        node.classed('dimmed', false);
+        link.classed('dimmed', false).classed('highlighted', false)
+          .attr('marker-end', 'url(#arrow)');
+        return;
+      }
+    } else {
+      selected = d.id;
+      clickCount = 1;
+    }
+    applyHighlight(selected, clickCount);
   });
 
   svg.on('click', () => {
     selected = null;
+    clickCount = 0;
     node.classed('dimmed', false);
     link.classed('dimmed', false).classed('highlighted', false)
       .attr('marker-end', 'url(#arrow)');
   });
 
   // Store state and start with web layout
-  graphState = { graphNodes, edges, link, node, container, zoom, svg, W, H };
+  graphState = { graphNodes, edges, link, node, container, zoom, svg, W, H, groupColorMap };
+  plainMode = false;
+  document.getElementById('plain-toggle').textContent = 'Plain';
+  document.getElementById('plain-toggle').classList.remove('active');
+  takenMode = false;
+  document.getElementById('my-courses-toggle').classList.remove('active');
+  updateTakenCount();
+  document.getElementById('my-courses-panel').classList.remove('visible');
+  document.body.classList.remove('courses-open');
   layoutMode = 'web';
   document.getElementById('layout-toggle').textContent = 'Hierarchy';
   document.getElementById('layout-toggle').classList.remove('active');
@@ -944,6 +1649,160 @@ document.getElementById('layout-toggle').addEventListener('click', () => {
   if (layoutMode === 'web') applyTreeLayout();
   else applyForceLayout();
 });
+
+document.getElementById('plain-toggle').addEventListener('click', () => {
+  if (!graphState) return;
+  const { node, link, groupColorMap } = graphState;
+  plainMode = !plainMode;
+  const btn = document.getElementById('plain-toggle');
+
+  if (plainMode) {
+    btn.textContent = 'Styled';
+    btn.classList.add('active');
+    node.selectAll('circle')
+      .attr('fill', d => d.external ? 'var(--node-external)' : 'var(--node-internal)')
+      .attr('stroke', d => d.external ? 'var(--node-external-border)' : 'rgba(124,106,255,0.4)');
+    link.classed('or-edge', false).style('stroke', null);
+  } else {
+    btn.textContent = 'Plain';
+    btn.classList.remove('active');
+    node.selectAll('circle')
+      .attr('fill', d => d.external ? 'var(--node-external)' : levelColor(d.course_code))
+      .attr('stroke', d => d.external ? 'var(--node-external-border)' : levelStroke(d.course_code));
+    link
+      .classed('or-edge', d => !!d.group)
+      .style('stroke', d => d.group ? (groupColorMap[d.group] || OR_PALETTE[0]) : null);
+  }
+});
+
+function updateTakenCount() {
+  const visibleIds = graphState ? new Set(graphState.graphNodes.map(n => n.id)) : new Set();
+  const count = [...takenCourses].filter(id => visibleIds.has(id)).length;
+  document.getElementById('mc-count').textContent =
+    count > 0 ? `${count} course${count === 1 ? '' : 's'} taken` : '';
+  document.getElementById('my-courses-toggle').textContent =
+    count > 0 ? `My Courses (${count})` : 'My Courses';
+}
+
+function populateMyCourses() {
+  if (!graphState) return;
+  const { graphNodes } = graphState;
+  const list = document.getElementById('mc-list');
+  list.innerHTML = '';
+
+  const courses = [...graphNodes]
+    .sort((a, b) => a.course_code.localeCompare(b.course_code));
+
+  courses.forEach(n => {
+    const item = document.createElement('label');
+    item.className = 'mc-item' + (takenCourses.has(n.id) ? ' checked' : '');
+    item.innerHTML = `
+      <input type="checkbox" class="mc-check" value="${n.id}" ${takenCourses.has(n.id) ? 'checked' : ''}>
+      <div>
+        <div class="mc-code">${n.course_code}${n.external ? ' <span class="mc-ext">ext</span>' : ''}</div>
+        <div class="mc-title-text">${n.title || (n.external ? 'External prereq' : '—')}</div>
+      </div>`;
+    item.querySelector('input').addEventListener('change', e => {
+      if (e.target.checked) { takenCourses.add(n.id); item.classList.add('checked'); }
+      else { takenCourses.delete(n.id); item.classList.remove('checked'); }
+      saveTaken();
+      updateAvailability();
+      updateTakenCount();
+    });
+    list.appendChild(item);
+  });
+}
+
+document.getElementById('mc-search').addEventListener('input', e => {
+  const q = e.target.value.toLowerCase();
+  document.querySelectorAll('.mc-item').forEach(item => {
+    item.style.display = item.textContent.toLowerCase().includes(q) ? '' : 'none';
+  });
+});
+
+document.getElementById('mc-clear').addEventListener('click', () => {
+  takenCourses.clear();
+  saveTaken();
+  document.querySelectorAll('.mc-check').forEach(cb => cb.checked = false);
+  document.querySelectorAll('.mc-item').forEach(item => item.classList.remove('checked'));
+  updateAvailability();
+  updateTakenCount();
+});
+
+document.getElementById('my-courses-toggle').addEventListener('click', () => {
+  if (!graphState) return;
+  takenMode = !takenMode;
+  const btn = document.getElementById('my-courses-toggle');
+  const panel = document.getElementById('my-courses-panel');
+
+  if (takenMode) {
+    btn.classList.add('active');
+    panel.classList.add('visible');
+    document.body.classList.add('courses-open');
+    // Clear any active highlight
+    graphState.node.classed('dimmed', false);
+    graphState.link.classed('dimmed', false).classed('highlighted', false);
+    populateMyCourses();
+    updateAvailability();
+    updateTakenCount();
+  } else {
+    btn.textContent = 'My Courses';
+    btn.classList.remove('active');
+    panel.classList.remove('visible');
+    document.body.classList.remove('courses-open');
+    const { node, groupColorMap } = graphState;
+    node.classed('taken', false).classed('available', false).classed('locked', false);
+    node.selectAll('circle')
+      .attr('fill', d => d.external ? 'var(--node-external)' : (plainMode ? 'var(--node-internal)' : levelColor(d.course_code)))
+      .attr('stroke', d => d.external ? 'var(--node-external-border)' : (plainMode ? 'rgba(124,106,255,0.4)' : levelStroke(d.course_code)));
+  }
+});
+
+// Info overlay
+(function() {
+  const overlay = document.getElementById('info-overlay');
+  const pages = document.querySelectorAll('.info-page');
+  const dots = document.querySelectorAll('.info-dot');
+  const prevBtn = document.getElementById('info-prev');
+  const nextBtn = document.getElementById('info-next');
+  let current = 0;
+
+  function goTo(n) {
+    pages[current].classList.remove('active');
+    pages[current].classList.add('exit');
+    const exiting = pages[current];
+    setTimeout(() => exiting.classList.remove('exit'), 220);
+    current = n;
+    pages[current].classList.add('active');
+    dots.forEach((d, i) => d.classList.toggle('active', i === current));
+    prevBtn.disabled = current === 0;
+    nextBtn.disabled = current === pages.length - 1;
+  }
+
+  document.getElementById('help-btn').addEventListener('click', () => {
+    overlay.classList.remove('hidden');
+  });
+
+  document.getElementById('info-close').addEventListener('click', () => {
+    overlay.classList.add('hidden');
+  });
+
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) overlay.classList.add('hidden');
+  });
+
+  prevBtn.addEventListener('click', () => { if (current > 0) goTo(current - 1); });
+  nextBtn.addEventListener('click', () => { if (current < pages.length - 1) goTo(current + 1); });
+
+  dots.forEach((d, i) => d.addEventListener('click', () => goTo(i)));
+
+  document.addEventListener('keydown', (e) => {
+    if (overlay.classList.contains('hidden')) return;
+    if (e.key === 'Escape') overlay.classList.add('hidden');
+    if (e.key === 'ArrowRight' && current < pages.length - 1) goTo(current + 1);
+    if (e.key === 'ArrowLeft' && current > 0) goTo(current - 1);
+  });
+})();
 </script>
 </body>
 </html>

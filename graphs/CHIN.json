@@ -2,78 +2,12 @@
   "department": "CHIN",
   "nodes": [
     {
-      "id": "CHIN 1012",
-      "course_code": "CHIN 1012",
+      "id": "CHIN 3994",
+      "course_code": "CHIN 3994",
       "department": "CHIN",
-      "title": "FYS: Elements Chinese Culture",
-      "credit_hours": "3",
-      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
-      "prereq_expression": null,
-      "other_requirements": "CAS first time first year students only. HCOL students not eligible to enroll.",
-      "external": false
-    },
-    {
-      "id": "CHIN 2200",
-      "course_code": "CHIN 2200",
-      "department": "CHIN",
-      "title": "2nd Year College Chinese II",
-      "credit_hours": "4",
-      "description": "A continuation of <a href=\"/search/?p=CHIN%202100\" data-action=\"result-detail\" data-group=\"code:CHIN 2100\"  class=\"notoffered\">CHIN 2100</a> designed to help students finish learning basic Chinese grammar and gain more vocabulary for daily communication purposes. Prerequisite: <a href=\"/search/?p=CHIN%202100\" data-action=\"result-detail\" data-group=\"code:CHIN 2100\"  class=\"notoffered\">CHIN 2100</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHIN 2100\"}, {\"type\": \"course\", \"code\": \"CHIN 2100\"}]}",
-      "other_requirements": "instructor permission; PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "CHIN 3100",
-      "course_code": "CHIN 3100",
-      "department": "CHIN",
-      "title": "3rd Year College Chinese I",
-      "credit_hours": "3",
-      "description": "A continuation of <a href=\"/search/?p=CHIN%202200\" data-action=\"result-detail\" data-group=\"code:CHIN 2200\"  class=\"notoffered\">CHIN 2200</a> designed with structured readings with emphasis on complex sentence structures, vocabulary expansion, and increased fluency in self-expression. Prerequisite: <a href=\"/search/?p=CHIN%202200\" data-action=\"result-detail\" data-group=\"code:CHIN 2200\"  class=\"notoffered\">CHIN 2200</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHIN 2200\"}, {\"type\": \"course\", \"code\": \"CHIN 2200\"}]}",
-      "other_requirements": "Open to degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "CHIN 3110",
-      "course_code": "CHIN 3110",
-      "department": "CHIN",
-      "title": "Conversational Chinese",
-      "credit_hours": "3",
-      "description": "To develop students' communicative skills in Chinese by discussing Chinese texts and similar real-life situations. May repeat for credit with different content.  Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=CHIN%202200\" data-action=\"result-detail\" data-group=\"code:CHIN 2200\"  class=\"notoffered\">CHIN 2200</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"CHIN 2200\"}",
-      "other_requirements": "PACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "CHIN 4200",
-      "course_code": "CHIN 4200",
-      "department": "CHIN",
-      "title": "SL:4th Year College Chinese II",
-      "credit_hours": "3",
-      "description": "A continuation of <a href=\"/search/?p=CHIN%204100\" data-action=\"result-detail\" data-group=\"code:CHIN 4100\"  class=\"notoffered\">CHIN 4100</a> designed to improve oral and written proficiency through reading, discussing, and writing about more modern Chinese prose writings. Prerequisites: <a href=\"/search/?p=CHIN%204100\" data-action=\"result-detail\" data-group=\"code:CHIN 4100\"  class=\"notoffered\">CHIN 4100</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHIN 4100\"}, {\"type\": \"course\", \"code\": \"CHIN 4100\"}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "CHIN 2100",
-      "course_code": "CHIN 2100",
-      "department": "CHIN",
-      "title": "2nd Year College Chinese I",
-      "credit_hours": "4",
-      "description": "A continuation of <a href=\"/search/?p=CHIN%201200\" data-action=\"result-detail\" data-group=\"code:CHIN 1200\"  class=\"notoffered\">CHIN 1200</a> designed to give students more basic Chinese grammar and vocabulary for daily communication purposes. Prerequisite: <a href=\"/search/?p=CHIN%201200\" data-action=\"result-detail\" data-group=\"code:CHIN 1200\"  class=\"notoffered\">CHIN 1200</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHIN 1200\"}, {\"type\": \"course\", \"code\": \"CHIN 1100\"}]}",
-      "other_requirements": "Open to degree and PACE students; Fourth hour required online CHIN 1100",
-      "external": false
-    },
-    {
-      "id": "CHIN 4996",
-      "course_code": "CHIN 4996",
-      "department": "CHIN",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -90,28 +24,6 @@
       "external": false
     },
     {
-      "id": "CHIN 3200",
-      "course_code": "CHIN 3200",
-      "department": "CHIN",
-      "title": "3rd Year College Chinese II",
-      "credit_hours": "3",
-      "description": "A continuation of <a href=\"/search/?p=CHIN%203100\" data-action=\"result-detail\" data-group=\"code:CHIN 3100\"  class=\"notoffered\">CHIN 3100</a> designed with more structured readings with emphasis on complex sentence structures, vocabulary expansion, and increased fluency in self-expression. Prerequisite: <a href=\"/search/?p=CHIN%203100\" data-action=\"result-detail\" data-group=\"code:CHIN 3100\"  class=\"notoffered\">CHIN 3100</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHIN 3100\"}, {\"type\": \"course\", \"code\": \"CHIN 3200\"}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "CHIN 3994",
-      "course_code": "CHIN 3994",
-      "department": "CHIN",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
       "id": "CHIN 4020",
       "course_code": "CHIN 4020",
       "department": "CHIN",
@@ -120,6 +32,61 @@
       "description": "Through the reading and translation of stories and reports about countries around the world, enhances target language proficiency while developing a stronger sense of world citizenship, acquiring a more balanced global perspective, and gaining a deeper understanding of global issues. Prerequisite: <a href=\"/search/?p=CHIN%203100\" data-action=\"result-detail\" data-group=\"code:CHIN 3100\"  class=\"notoffered\">CHIN 3100</a> for native speakers of English; no prerequisite for native speakers of Chinese.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHIN 3100\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHIN 4020\"}, {\"type\": \"other\", \"description\": \"permission\"}]}]}",
       "other_requirements": "for native speakers of English; no prerequisite for native speakers of Chinese. Prereqs enforced by the system:CHIN 3100; PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "CHIN 3100",
+      "course_code": "CHIN 3100",
+      "department": "CHIN",
+      "title": "3rd Year College Chinese I",
+      "credit_hours": "3",
+      "description": "A continuation of <a href=\"/search/?p=CHIN%202200\" data-action=\"result-detail\" data-group=\"code:CHIN 2200\"  class=\"notoffered\">CHIN 2200</a> designed with structured readings with emphasis on complex sentence structures, vocabulary expansion, and increased fluency in self-expression. Prerequisite: <a href=\"/search/?p=CHIN%202200\" data-action=\"result-detail\" data-group=\"code:CHIN 2200\"  class=\"notoffered\">CHIN 2200</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHIN 2200\"}, {\"type\": \"course\", \"code\": \"CHIN 2200\"}]}",
+      "other_requirements": "Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "CHIN 1200",
+      "course_code": "CHIN 1200",
+      "department": "CHIN",
+      "title": "1st Year College Chinese II",
+      "credit_hours": "4",
+      "description": "A continuation of <a href=\"/search/?p=CHIN%201100\" data-action=\"result-detail\" data-group=\"code:CHIN 1100\"  class=\"notoffered\">CHIN 1100</a> designed to give students basic Chinese grammar and vocabulary for daily communication purposes. Prerequisite: <a href=\"/search/?p=CHIN%201100\" data-action=\"result-detail\" data-group=\"code:CHIN 1100\"  class=\"notoffered\">CHIN 1100</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHIN 1100\"}, {\"type\": \"course\", \"code\": \"instructor permission\"}]}",
+      "other_requirements": "Open to Degree and PACE students; Hybrid course; Fourth Hour Required Online",
+      "external": false
+    },
+    {
+      "id": "CHIN 1012",
+      "course_code": "CHIN 1012",
+      "department": "CHIN",
+      "title": "FYS: Elements Chinese Culture",
+      "credit_hours": "3",
+      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": "CAS first time first year students only. HCOL students not eligible to enroll.",
+      "external": false
+    },
+    {
+      "id": "CHIN 4200",
+      "course_code": "CHIN 4200",
+      "department": "CHIN",
+      "title": "SL:4th Year College Chinese II",
+      "credit_hours": "3",
+      "description": "A continuation of <a href=\"/search/?p=CHIN%204100\" data-action=\"result-detail\" data-group=\"code:CHIN 4100\"  class=\"notoffered\">CHIN 4100</a> designed to improve oral and written proficiency through reading, discussing, and writing about more modern Chinese prose writings. Prerequisites: <a href=\"/search/?p=CHIN%204100\" data-action=\"result-detail\" data-group=\"code:CHIN 4100\"  class=\"notoffered\">CHIN 4100</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHIN 4100\"}, {\"type\": \"course\", \"code\": \"CHIN 4100\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "CHIN 4996",
+      "course_code": "CHIN 4996",
+      "department": "CHIN",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     },
     {
@@ -134,65 +101,110 @@
       "external": false
     },
     {
-      "id": "CHIN 1200",
-      "course_code": "CHIN 1200",
+      "id": "CHIN 3200",
+      "course_code": "CHIN 3200",
       "department": "CHIN",
-      "title": "1st Year College Chinese II",
+      "title": "3rd Year College Chinese II",
+      "credit_hours": "3",
+      "description": "A continuation of <a href=\"/search/?p=CHIN%203100\" data-action=\"result-detail\" data-group=\"code:CHIN 3100\"  class=\"notoffered\">CHIN 3100</a> designed with more structured readings with emphasis on complex sentence structures, vocabulary expansion, and increased fluency in self-expression. Prerequisite: <a href=\"/search/?p=CHIN%203100\" data-action=\"result-detail\" data-group=\"code:CHIN 3100\"  class=\"notoffered\">CHIN 3100</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHIN 3100\"}, {\"type\": \"course\", \"code\": \"CHIN 3200\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "CHIN 3110",
+      "course_code": "CHIN 3110",
+      "department": "CHIN",
+      "title": "Conversational Chinese",
+      "credit_hours": "3",
+      "description": "To develop students' communicative skills in Chinese by discussing Chinese texts and similar real-life situations. May repeat for credit with different content.  Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=CHIN%202200\" data-action=\"result-detail\" data-group=\"code:CHIN 2200\"  class=\"notoffered\">CHIN 2200</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"CHIN 2200\"}",
+      "other_requirements": "PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "CHIN 2200",
+      "course_code": "CHIN 2200",
+      "department": "CHIN",
+      "title": "2nd Year College Chinese II",
       "credit_hours": "4",
-      "description": "A continuation of <a href=\"/search/?p=CHIN%201100\" data-action=\"result-detail\" data-group=\"code:CHIN 1100\"  class=\"notoffered\">CHIN 1100</a> designed to give students basic Chinese grammar and vocabulary for daily communication purposes. Prerequisite: <a href=\"/search/?p=CHIN%201100\" data-action=\"result-detail\" data-group=\"code:CHIN 1100\"  class=\"notoffered\">CHIN 1100</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHIN 1100\"}, {\"type\": \"course\", \"code\": \"instructor permission\"}]}",
-      "other_requirements": "Open to Degree and PACE students; Hybrid course; Fourth Hour Required Online",
+      "description": "A continuation of <a href=\"/search/?p=CHIN%202100\" data-action=\"result-detail\" data-group=\"code:CHIN 2100\"  class=\"notoffered\">CHIN 2100</a> designed to help students finish learning basic Chinese grammar and gain more vocabulary for daily communication purposes. Prerequisite: <a href=\"/search/?p=CHIN%202100\" data-action=\"result-detail\" data-group=\"code:CHIN 2100\"  class=\"notoffered\">CHIN 2100</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHIN 2100\"}, {\"type\": \"course\", \"code\": \"CHIN 2100\"}]}",
+      "other_requirements": "instructor permission; PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "CHIN 2100",
+      "course_code": "CHIN 2100",
+      "department": "CHIN",
+      "title": "2nd Year College Chinese I",
+      "credit_hours": "4",
+      "description": "A continuation of <a href=\"/search/?p=CHIN%201200\" data-action=\"result-detail\" data-group=\"code:CHIN 1200\"  class=\"notoffered\">CHIN 1200</a> designed to give students more basic Chinese grammar and vocabulary for daily communication purposes. Prerequisite: <a href=\"/search/?p=CHIN%201200\" data-action=\"result-detail\" data-group=\"code:CHIN 1200\"  class=\"notoffered\">CHIN 1200</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHIN 1200\"}, {\"type\": \"course\", \"code\": \"CHIN 1100\"}]}",
+      "other_requirements": "Open to degree and PACE students; Fourth hour required online CHIN 1100",
       "external": false
     }
   ],
   "edges": [
     {
       "source": "CHIN 1100",
-      "target": "CHIN 1200"
+      "target": "CHIN 1200",
+      "group": "CHIN 1200__g0"
     },
     {
       "source": "CHIN 1100",
-      "target": "CHIN 2100"
+      "target": "CHIN 2100",
+      "group": "CHIN 2100__g0"
     },
     {
       "source": "CHIN 1200",
-      "target": "CHIN 2100"
+      "target": "CHIN 2100",
+      "group": "CHIN 2100__g0"
     },
     {
       "source": "CHIN 2100",
-      "target": "CHIN 2200"
+      "target": "CHIN 2200",
+      "group": "CHIN 2200__g0"
     },
     {
       "source": "CHIN 2200",
-      "target": "CHIN 3100"
+      "target": "CHIN 3100",
+      "group": "CHIN 3100__g0"
     },
     {
       "source": "CHIN 2200",
-      "target": "CHIN 3110"
+      "target": "CHIN 3110",
+      "group": null
     },
     {
       "source": "CHIN 3100",
-      "target": "CHIN 3200"
+      "target": "CHIN 3200",
+      "group": "CHIN 3200__g0"
     },
     {
       "source": "CHIN 3100",
-      "target": "CHIN 4020"
+      "target": "CHIN 4020",
+      "group": "CHIN 4020__g0"
     },
     {
       "source": "CHIN 3200",
-      "target": "CHIN 3200"
+      "target": "CHIN 3200",
+      "group": "CHIN 3200__g0"
     },
     {
       "source": "CHIN 3200",
-      "target": "CHIN 4100"
+      "target": "CHIN 4100",
+      "group": "CHIN 4100__g0"
     },
     {
       "source": "CHIN 4020",
-      "target": "CHIN 4020"
+      "target": "CHIN 4020",
+      "group": "CHIN 4020__g0"
     },
     {
       "source": "CHIN 4100",
-      "target": "CHIN 4200"
+      "target": "CHIN 4200",
+      "group": "CHIN 4200__g0"
     }
   ]
 }

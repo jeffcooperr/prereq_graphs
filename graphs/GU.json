@@ -2,17 +2,6 @@
   "department": "GU",
   "nodes": [
     {
-      "id": "GU 1100",
-      "course_code": "GU 1100",
-      "department": "GU",
-      "title": "SGA Service Internship",
-      "credit_hours": "1",
-      "description": "Optional internship course for elected SGA representatives and officers. Coursework focuses on integrating insights from SGA service into other components of the college experience. Prerequisite: Instructor Permission.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor Permission. SGA Reps and Officers only.",
-      "external": false
-    },
-    {
       "id": "GU 1200",
       "course_code": "GU 1200",
       "department": "GU",
@@ -21,6 +10,17 @@
       "description": "StudyCATS program course including time management, study skills, and support resources. Prerequisite: StudyCATS participants.",
       "prereq_expression": "{\"type\": \"course\", \"code\": \"StudyCATS\"}",
       "other_requirements": "StudyCATS participants",
+      "external": false
+    },
+    {
+      "id": "GU 1100",
+      "course_code": "GU 1100",
+      "department": "GU",
+      "title": "SGA Service Internship",
+      "credit_hours": "1",
+      "description": "Optional internship course for elected SGA representatives and officers. Coursework focuses on integrating insights from SGA service into other components of the college experience. Prerequisite: Instructor Permission.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor Permission. SGA Reps and Officers only.",
       "external": false
     }
   ],

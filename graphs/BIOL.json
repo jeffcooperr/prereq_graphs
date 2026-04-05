@@ -2,80 +2,102 @@
   "department": "BIOL",
   "nodes": [
     {
-      "id": "BIOL 2990",
-      "course_code": "BIOL 2990",
+      "id": "BIOL 6993",
+      "course_code": "BIOL 6993",
       "department": "BIOL",
-      "title": "Sky Islands Biodiversity",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": null,
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "BIOL 4630",
-      "course_code": "BIOL 4630",
-      "department": "BIOL",
-      "title": "Adv Genetics Laboratory",
-      "credit_hours": "4",
-      "description": "Laboratory experiments to provide experience with modern genetic techniques. Bench work and data analysis emphasized. Prerequisite: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"BCOR 2300\"}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "BIOL 6100",
-      "course_code": "BIOL 6100",
-      "department": "BIOL",
-      "title": "Computational Biology",
-      "credit_hours": "4",
-      "description": "Basic programming methods in R, including functions, data types, graphics, file input and output; computational tools for reproducible research, including regular expressions, markdown, git, github, and shell commands; and advanced topics, including batch processing, structured programming, functional programming, and randomization tests. Prerequisite: Graduate student.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 6100\"}]}",
-      "other_requirements": "Graduate student. Graduate standing required; Undergraduates admitted by instructor permission;",
-      "external": false
-    },
-    {
-      "id": "BIOL 3991",
-      "course_code": "BIOL 3991",
-      "department": "BIOL",
-      "title": "Adv. Nat. Hist. Coll. Intnshp",
+      "title": "Independent Study",
       "credit_hours": "1 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 6993\"}]}",
+      "other_requirements": "Graduate standing only. Offered at department discretion.",
       "external": false
     },
     {
-      "id": "BIOL 1070",
-      "course_code": "BIOL 1070",
+      "id": "BIOL 3510",
+      "course_code": "BIOL 3510",
       "department": "BIOL",
-      "title": "First-year Biology Seminar",
-      "credit_hours": "1",
-      "description": "Introduces Biology majors to the science and practice of biology, with a particular focus on career development and information literacy skills in the life sciences.",
-      "prereq_expression": null,
-      "other_requirements": "CAS first year and sophomore BIOL or BISC majors only",
-      "external": false
-    },
-    {
-      "id": "BIOL 3560",
-      "course_code": "BIOL 3560",
-      "department": "BIOL",
-      "title": "Developmental Biology",
+      "title": "Model Systems in Neuroscience",
       "credit_hours": "3",
-      "description": "An analysis of the cellular, subcellular, molecular, and genetic mechanisms that operate during oogenesis and embryogenesis in invertebrate and vertebrate organisms. Prerequisites: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>, <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}]}",
-      "other_requirements": "PACE students with permission and override.",
+      "description": "Provides students a deeper level of scientific fluency with guidance on how to critically read and understand primary scientific literature and how to communicate those findings, using model systems as our guide. Prerequisites: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a> and (<a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a> or <a href=\"/search/?p=NSCI%202105\" data-action=\"result-detail\" data-group=\"code:NSCI 2105\" >NSCI 2105</a>).",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2500\"}, {\"type\": \"course\", \"code\": \"NSCI 2105\"}]}]}",
+      "other_requirements": "PACE students with permission and override",
       "external": false
     },
     {
-      "id": "BIOL 1310",
-      "course_code": "BIOL 1310",
+      "id": "BIOL 3400",
+      "course_code": "BIOL 3400",
       "department": "BIOL",
-      "title": "History of Life on Earth",
+      "title": "Ecological Parasitology",
       "credit_hours": "3",
-      "description": "For students with majors outside the sciences. Traces the interaction between physical conditions on earth and evolving life from the origin of the earth to the present. Primary learning objectives include being able to apply the scientific method as a way of understanding the world and to use this framework to understand how humans can have knowledge about past events that they cannot observe directly.",
+      "description": "Exploration of advanced topics in General Biology. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>, <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>, or <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2100\"}, {\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}]}",
+      "other_requirements": "Alternate prereq: NR 2030, email instructor for override. Junior or Senior standing only. PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "BIOL 4405",
+      "course_code": "BIOL 4405",
+      "department": "BIOL",
+      "title": "Comparative Physiology",
+      "credit_hours": "4",
+      "description": "Physiology at the organ, systems, and organismal levels. Capstone course to consolidate biological concepts. Prerequisites: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>; <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a> or <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2100\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}]}]}",
+      "other_requirements": "Must register for a BIOL 4405 lab A01-A06; PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "BIOL 6000",
+      "course_code": "BIOL 6000",
+      "department": "BIOL",
+      "title": "Professional Skills and Ethics",
+      "credit_hours": "2",
+      "description": "Seminar topics include mentor-mentee relationships, finding funding, grant writing, preparing posters and seminars, communicating how to be a successful teacher, Curriculum Vitae preparation, job finding and interviewing. Prerequisite: Life Sciences Graduate student.",
+      "prereq_expression": null,
+      "other_requirements": "Life Sciences Graduate student.",
+      "external": false
+    },
+    {
+      "id": "BIOL 1150",
+      "course_code": "BIOL 1150",
+      "department": "BIOL",
+      "title": "The Human Body w/lab",
+      "credit_hours": "4",
+      "description": "For nonscience majors. Introduction to basic human anatomy and organ system physiology emphasizing normal and diseased homeostatic mechanisms. With virtual laboratory. Credit not awarded for both BIOL 1150 and <a href=\"/search/?p=BIOL%201155\" data-action=\"result-detail\" data-group=\"code:BIOL 1155\" >BIOL 1155</a>.",
       "prereq_expression": null,
       "other_requirements": "Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "BIOL 2105",
+      "course_code": "BIOL 2105",
+      "department": "BIOL",
+      "title": "Introduction to Marine Science",
+      "credit_hours": "3",
+      "description": "An overview of concepts and process in oceanography, geology, ecology, evolution, organismal biology, and conservation. Some of the topics we will discuss in class include tsunamis, ocean chemistry and physics, and bioluminescence. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\"  class=\"notoffered\">BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\"  class=\"notoffered\">BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\"  class=\"notoffered\">BCOR 1425</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1000\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "BIOL 3505",
+      "course_code": "BIOL 3505",
+      "department": "BIOL",
+      "title": "Neurobiology",
+      "credit_hours": "3",
+      "description": "Focus on molecular and cellular aspects of the nervous system. Electrical signaling, synaptic transmission, signal transduction, neural development, plasticity, and disease. Credit not awarded for both BIOL 3505 and <a href=\"/search/?p=NSCI%203505\" data-action=\"result-detail\" data-group=\"code:NSCI 3505\"  class=\"notoffered\">NSCI 3505</a>. Prerequisite: <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"BCOR 2500\"}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "BIOL 1029",
+      "course_code": "BIOL 1029",
+      "department": "BIOL",
+      "title": "LASP Program CURE Lab",
+      "credit_hours": "1",
+      "description": "Explores how modern science evolves and how researchers build upon one another's contributions. This Course-based Undergraduate Research Experience (CURE) provides early opportunities to Life Science Scholars to participate in the scientific inquiry process by focusing on the first steps of scientific research: reading, analyzing, and synthesizing scientific literature; and asking scientific questions. Prerequisites: Enrollment in Liberal Arts Scholars Program for Life Science Scholars.",
+      "prereq_expression": null,
+      "other_requirements": "Enrollment in Liberal Arts Scholars Program for Life Science Scholars. LASP Life Science Scholars students only. Instructor permission required. This section is only for students in the Liberal Arts Scholars Program (LASP), Life Science Scholars (LSS) theme.",
       "external": false
     },
     {
@@ -90,14 +112,168 @@
       "external": false
     },
     {
-      "id": "BIOL 1105",
-      "course_code": "BIOL 1105",
+      "id": "BIOL 1155",
+      "course_code": "BIOL 1155",
       "department": "BIOL",
-      "title": "Human Biology",
+      "title": "The Human Body",
       "credit_hours": "3",
-      "description": "For nonscience majors. Selected biological topics relevant to humans, such as cancer, human genetics, environmental toxicants; biological concepts necessary for understanding these problems. No laboratory. Credit not awarded for both BIOL 1105 and <a href=\"/search/?p=BIOL%201100\" data-action=\"result-detail\" data-group=\"code:BIOL 1100\" >BIOL 1100</a>.",
+      "description": "For nonscience majors. Introduction to basic human anatomy and organ system physiology emphasizing normal homeostatic mechanisms and the changes that accompany common disorders and diseases.  No laboratory. Credit not awarded for both BIOL 1155 and <a href=\"/search/?p=BIOL%201150\" data-action=\"result-detail\" data-group=\"code:BIOL 1150\" >BIOL 1150</a>.",
       "prereq_expression": null,
-      "other_requirements": "For nonscience majors. Credit not awarded for both BIOL 1105 and BIOL 1100. Course will not count toward BIOL, BISC, NEUR, PBIO or ZOOL majors, and those students are restricted from enrolling. Asynchronous online; Degree students only; Colocated with BIOL 1105 OLR; total combined enrollment = 100",
+      "other_requirements": "Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "BIOL 2100",
+      "course_code": "BIOL 2100",
+      "department": "BIOL",
+      "title": "Soundscapes and Behavior Rsch",
+      "credit_hours": "4",
+      "description": "Students will participate in all aspects of a research project while learning to navigate the messiness of real-world data. Students will develop research questions on topics related to marine soundscape ecology, marine animal bioacoustics, and cetacean ecology, behavior, and conservation. Prerequisites: <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>, <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\"  class=\"notoffered\">BCOR 1425</a>; or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}]}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "BIOL 3105",
+      "course_code": "BIOL 3105",
+      "department": "BIOL",
+      "title": "Community Ecology",
+      "credit_hours": "3",
+      "description": "Theoretical and empirical analyses of community structure. Topics include population growth, metapopulation dynamics, competition, predation, species diversity, niches, disturbance succession, island biogeography, and conservation biology. Prerequisite: <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2100\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"JUNIOR\"}, {\"type\": \"course\", \"code\": \"SENIOR\"}]}]}",
+      "other_requirements": "minimum Junior standing. PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "BIOL 6005",
+      "course_code": "BIOL 6005",
+      "department": "BIOL",
+      "title": "Graduate Seminar",
+      "credit_hours": "1",
+      "description": "Weekly departmental seminar attended by all faculty and graduate students. Graduate students practice giving scientific talks, presenting annual research-in-progress updates and receiving feedback from their peers and faculty. Prerequisite: Life sciences Graduate student.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"BIOL 6005\"}",
+      "other_requirements": "Life sciences Graduate student. Graduate standing only",
+      "external": false
+    },
+    {
+      "id": "BCOR 2500",
+      "course_code": "BCOR 2500",
+      "department": "BCOR",
+      "title": "Molecular & Cell Biology w/lab",
+      "credit_hours": "4",
+      "description": "Explores the fundamental processes of life. Topics include cellular metabolism; structure and function of organelles; cell cycle; signal transduction; biology of cancer. <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\" >CHEM 2580</a>, <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a> recommended. Credit not awarded for both BCOR 2500 and <a href=\"/search/?p=BCOR%202505\" data-action=\"result-detail\" data-group=\"code:BCOR 2505\" >BCOR 2505</a>. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a> or <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\" >CHEM 1410</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1405\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}, {\"type\": \"course\", \"code\": \"CHEM 1460\"}]}]}",
+      "other_requirements": "For majors: ASCI, BICM, BIOL, BISC, ENSC, MGEN, MICR, NEUR, PBIO, ZOOL only. Minimum sophomore standing. If enrolling in CHEM 1450/1460, please request an override from Laura.A.Newman@uvm.edu. Degree students only even after level restrictions removed; Post Bac Pre Med students enroll in BCOR 2500 ZRA.",
+      "external": true
+    },
+    {
+      "id": "BIOL 4996",
+      "course_code": "BIOL 4996",
+      "department": "BIOL",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "BIOL 1310",
+      "course_code": "BIOL 1310",
+      "department": "BIOL",
+      "title": "History of Life on Earth",
+      "credit_hours": "3",
+      "description": "For students with majors outside the sciences. Traces the interaction between physical conditions on earth and evolving life from the origin of the earth to the present. Primary learning objectives include being able to apply the scientific method as a way of understanding the world and to use this framework to understand how humans can have knowledge about past events that they cannot observe directly.",
+      "prereq_expression": null,
+      "other_requirements": "Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "BIOL 3530",
+      "course_code": "BIOL 3530",
+      "department": "BIOL",
+      "title": "Cell Biology and Disease",
+      "credit_hours": "3",
+      "description": "Exploration of the fundamental molecular mechanisms that happens in a cell in different disease states. Diseases covered can include Multiple Sclerosis, Alzheimer's, Diabetes, and Osteoporosis. Emphasizes the cellular and molecular basis of these diseases. Prerequisites: <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a> or <a href=\"/search/?p=NSCI%202105\" data-action=\"result-detail\" data-group=\"code:NSCI 2105\" >NSCI 2105</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2500\"}, {\"type\": \"course\", \"code\": \"NSCI 2105\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "BIOL 3991",
+      "course_code": "BIOL 3991",
+      "department": "BIOL",
+      "title": "Adv. Nat. Hist. Coll. Intnshp",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "BIOL 7491",
+      "course_code": "BIOL 7491",
+      "department": "BIOL",
+      "title": "Doctoral Dissertation Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Doctoral Dissertation.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate standing only",
+      "external": false
+    },
+    {
+      "id": "BCOR 1425",
+      "course_code": "BCOR 1425",
+      "department": "BCOR",
+      "title": "Accelerated Biology",
+      "credit_hours": "4",
+      "description": "Selected topics from the full year of introductory biology, compressed into one semester. For students with demonstrated mastery of basic biology (e.g., AP credit).  Permission required. Credit not awarded for both BCOR 1425 and <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> or <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>. Pre/co-requisite: <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>, or <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\" >CHEM 1410</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1405\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}]}",
+      "other_requirements": "For students with demonstrated mastery of basic biology (e.g., AP credit). Permission required. Credit not awarded for both BCOR 1425 and BCOR 1400 or BIOL 1400. By invitation only; for FTFY students with AP score of 4. Instructor permission required. Must register for a BCOR 1425 lab. Must be enrolled in CHEM 1400 if have no CHEM credit.",
+      "external": true
+    },
+    {
+      "id": "BIOL 4075",
+      "course_code": "BIOL 4075",
+      "department": "BIOL",
+      "title": "Sr Seminar in Eco and Evo",
+      "credit_hours": "1",
+      "description": "The application of previous coursework knowledge and skills to current problems in conservation, agriculture, public health, and medicine where an eco-evolutionary approach can provide new and useful insights. Designed around student-led case studies in areas of active research, primary literature, experimental design, and data analysis. Prerequisites: Ecology and Evolutionary Biology concentration; Senior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 3070\"}, {\"type\": \"course\", \"code\": \"BIOL 3071\"}]}",
+      "other_requirements": "Ecology and Evolutionary Biology concentration; Senior standing.",
+      "external": false
+    },
+    {
+      "id": "NR 2030",
+      "course_code": "NR 2030",
+      "department": "NR",
+      "title": "Ecology, Ecosystems & Environ",
+      "credit_hours": "3",
+      "description": "Major ecological concepts and their application. Analysis of form, structure, and function of organisms, populations, communities, ecosystems, and landscapes. Prerequisites: RSENR students or Agroecology or Landscape Design or Environmental Studies majors; minimum Sophomore standing.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RSENR\"}, {\"type\": \"course\", \"code\": \"AGRO\"}, {\"type\": \"course\", \"code\": \"LNDS\"}, {\"type\": \"course\", \"code\": \"ENVS\"}]}",
+      "other_requirements": "minimum Sophomore standing",
+      "external": true
+    },
+    {
+      "id": "BIOL 1020",
+      "course_code": "BIOL 1020",
+      "department": "BIOL",
+      "title": "LASP:Human Evolution Camb-Pres",
+      "credit_hours": "3",
+      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences). Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program.",
+      "prereq_expression": null,
+      "other_requirements": "Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program. LASP Life Science Scholars only; Instructor permission",
+      "external": false
+    },
+    {
+      "id": "BIOL 3995",
+      "course_code": "BIOL 3995",
+      "department": "BIOL",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Pre/co-requisites: Minimum Junior standing; Department permission.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Junior standing; Department permission. Instructor permission required",
       "external": false
     },
     {
@@ -112,15 +288,334 @@
       "external": false
     },
     {
-      "id": "BIOL 4405",
-      "course_code": "BIOL 4405",
+      "id": "BIOL 1100",
+      "course_code": "BIOL 1100",
       "department": "BIOL",
-      "title": "Comparative Physiology",
+      "title": "Human Biology w/lab",
       "credit_hours": "4",
-      "description": "Physiology at the organ, systems, and organismal levels. Capstone course to consolidate biological concepts. Prerequisites: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>; <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a> or <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2100\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}]}]}",
-      "other_requirements": "Must register for a BIOL 4405 lab A01-A06; PACE students by permission and override",
+      "description": "For nonscience majors. Selected biological concepts and topics relevant to humans, such as cancer, human genetics, environmental toxicants. With virtual laboratory. Credit not awarded for both BIOL 1100 and <a href=\"/search/?p=BIOL%201105\" data-action=\"result-detail\" data-group=\"code:BIOL 1105\" >BIOL 1105</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
+    },
+    {
+      "id": "BIOL 2990",
+      "course_code": "BIOL 2990",
+      "department": "BIOL",
+      "title": "Sky Islands Biodiversity",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "BIOL 4260",
+      "course_code": "BIOL 4260",
+      "department": "BIOL",
+      "title": "Population Genetics",
+      "credit_hours": "4",
+      "description": "Exploration of the mathematical principles and biological assumptions that underpin the study of evolutionary processes, offering valuable insights into the origins and implications of heritable variation in nature. Prerequisites: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a> or <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"course\", \"code\": \"BCOR 2100\"}]}",
+      "other_requirements": "PACE students with permission and override. Students must enroll in L01 or L02.",
+      "external": false
+    },
+    {
+      "id": "BIOL 1070",
+      "course_code": "BIOL 1070",
+      "department": "BIOL",
+      "title": "First-year Biology Seminar",
+      "credit_hours": "1",
+      "description": "Introduces Biology majors to the science and practice of biology, with a particular focus on career development and information literacy skills in the life sciences.",
+      "prereq_expression": null,
+      "other_requirements": "CAS first year and sophomore BIOL or BISC majors only",
+      "external": false
+    },
+    {
+      "id": "BIOL 2991",
+      "course_code": "BIOL 2991",
+      "department": "BIOL",
+      "title": "Internship: Nat Hst Collection",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "BIOL 4080",
+      "course_code": "BIOL 4080",
+      "department": "BIOL",
+      "title": "Sr Seminar in Cell and Dev",
+      "credit_hours": "1",
+      "description": "In-depth study of core cell signaling pathways and their roles in developmental biology. Based on primary literature and covers historic and current articles; a required senior seminar for Biology (BA) majors with a concentration in Cell and Developmental Biology; relevant to any life science student seeking increased understanding in the topic. Prerequisites: Cell and Developmental Biology concentration; Senior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 4080\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 4080\"}, {\"type\": \"course\", \"code\": \"BISC 4080\"}]}]}",
+      "other_requirements": "Cell and Developmental Biology concentration; Senior standing. Senior standing required; Majors: Cell and Developmental Biology concentration; Or by instructor permission; all life science students with prerequisites and instructor permission, providing space, can enroll.",
+      "external": false
+    },
+    {
+      "id": "BIOL 4420",
+      "course_code": "BIOL 4420",
+      "department": "BIOL",
+      "title": "BioCUREs: Neurobio of Behavior",
+      "credit_hours": "4",
+      "description": "A Course-based Undergraduate Research Experience (or CURE), is a class where students actively participate in an original research project with unknown outcomes. Unlike traditional laboratory courses with pre-determined results, students work on real-world questions of interest to a Biology faculty member's research program, and their work contributes to the larger body of knowledge in the field. Topics vary by section. Prerequisites: Minimum Junior standing; <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>, <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>, or <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2100\"}, {\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}]}]}",
+      "other_requirements": "Minimum Junior standing",
+      "external": false
+    },
+    {
+      "id": "BIOL 5020",
+      "course_code": "BIOL 5020",
+      "department": "BIOL",
+      "title": "Eco&Evo Natural Selection",
+      "credit_hours": "1",
+      "description": "Exploration of topics in Ecology and Evolution. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"JUNIOR\"}]}",
+      "other_requirements": "Minimum Junior standing",
+      "external": false
+    },
+    {
+      "id": "BIOL 6015",
+      "course_code": "BIOL 6015",
+      "department": "BIOL",
+      "title": "Scientific Writing in Life Sci",
+      "credit_hours": "2",
+      "description": "Assignments and discussions help students understand the scientific method and develop strategies for writing well. By the end of the semester, thesis students will have a complete proposal for their graduate research project. Non-thesis students will generate a review article. Prerequisite: Life sciences Graduate student.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 6015\"}]}",
+      "other_requirements": "Life sciences Graduate student.",
+      "external": false
+    },
+    {
+      "id": "BIOL 6020",
+      "course_code": "BIOL 6020",
+      "department": "BIOL",
+      "title": "Foundations in Eco & Evo",
+      "credit_hours": "1",
+      "description": "Seminar focused on reading and discussing foundational papers in ecology and evolution. Specific topics will vary by instructor. Prerequisite: Life Sciences Graduate student.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 6020\"}]}",
+      "other_requirements": "Life Sciences Graduate student. Graduate standing only",
+      "external": false
+    },
+    {
+      "id": "BIOL 6391",
+      "course_code": "BIOL 6391",
+      "department": "BIOL",
+      "title": "Master's Thesis Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Master's Thesis.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate standing only",
+      "external": false
+    },
+    {
+      "id": "BIOL 6995",
+      "course_code": "BIOL 6995",
+      "department": "BIOL",
+      "title": "Graduate Independent Research",
+      "credit_hours": "1 to 18",
+      "description": "Graduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "BIOL 3560",
+      "course_code": "BIOL 3560",
+      "department": "BIOL",
+      "title": "Developmental Biology",
+      "credit_hours": "3",
+      "description": "An analysis of the cellular, subcellular, molecular, and genetic mechanisms that operate during oogenesis and embryogenesis in invertebrate and vertebrate organisms. Prerequisites: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>, <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}]}",
+      "other_requirements": "PACE students with permission and override.",
+      "external": false
+    },
+    {
+      "id": "BIOL 4400",
+      "course_code": "BIOL 4400",
+      "department": "BIOL",
+      "title": "Compar/Func Vertebrate Anatomy",
+      "credit_hours": "4",
+      "description": "Structure, function, and phylogeny, with evolutionary and functional trends of all chordate groups. Prerequisite: Two courses from <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>, <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>, <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"course\", \"code\": \"BCOR 2100\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}]}",
+      "other_requirements": "Must register for a lab: BIOL 4400 L02 or L03. PACE students with permission and override. Lab supply fee: $30.00",
+      "external": false
+    },
+    {
+      "id": "BCOR 2100",
+      "course_code": "BCOR 2100",
+      "department": "BCOR",
+      "title": "Ecology and Evolution",
+      "credit_hours": "4",
+      "description": "Ecosystem and community structure, population growth, species interactions and niche dynamics, population and chromosomal genetics, speciation in fossil records, ecology of animal behavior, applied ecology. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1000\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}]}",
+      "other_requirements": "PACE students with permission and override.",
+      "external": true
+    },
+    {
+      "id": "BIOL 3990",
+      "course_code": "BIOL 3990",
+      "department": "BIOL",
+      "title": "Intro to Ecological Genomics",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2100\"}, {\"type\": \"course\", \"code\": \"BCOR 2300\"}]}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "BIOL 2995",
+      "course_code": "BIOL 2995",
+      "department": "BIOL",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Pre/co-requisites: Junior/Senior standing; Department permission.",
+      "prereq_expression": null,
+      "other_requirements": "Junior/Senior standing; Department permission. Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "NSCI 2105",
+      "course_code": "NSCI 2105",
+      "department": "NSCI",
+      "title": "Exploring Neuroscience",
+      "credit_hours": "3",
+      "description": "In-depth survey of neuroscience topics, including neuron function, the anatomical and functional organization of the nervous system, and diseases of the nervous system. No laboratory. Credit not awarded for both <a href=\"/search/?p=NSCI%202100\" data-action=\"result-detail\" data-group=\"code:NSCI 2100\" >NSCI 2100</a> and NSCI 2105. Prerequisites: <a href=\"/search/?p=PSYS%201400\" data-action=\"result-detail\" data-group=\"code:PSYS 1400\" >PSYS 1400</a>; <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>; or <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>; or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>; or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>, <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; or <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a>, <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>. Co-requisite: <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PSYS 1400\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}]}]}",
+      "other_requirements": "Neuroscience majors and minors. PACE students with permission and override",
+      "external": true
+    },
+    {
+      "id": "BIOL 1010",
+      "course_code": "BIOL 1010",
+      "department": "BIOL",
+      "title": "FYS: Eugenics & Sci. Racism",
+      "credit_hours": "3",
+      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": "CAS first time first year students only; HCOL students not eligible to enroll",
+      "external": false
+    },
+    {
+      "id": "BIOL 1075",
+      "course_code": "BIOL 1075",
+      "department": "BIOL",
+      "title": "First-year Zoology Seminar",
+      "credit_hours": "1",
+      "description": "Introduces Zoology majors (B.A./B.S.) to the science and practice of zoology, with a particular focus on career development and information literacy skills in the life sciences.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "BCOR 2300",
+      "course_code": "BCOR 2300",
+      "department": "BCOR",
+      "title": "Genetics",
+      "credit_hours": "3",
+      "description": "The basis of inheritance, covering topics from classical genetics to modern molecular studies. Analysis of genetic data emphasized, from prokaryotic, animal, and plant systems.  Credit not awarded for both BCOR 2300 and <a href=\"/search/?p=ASCI%202160\" data-action=\"result-detail\" data-group=\"code:ASCI 2160\" >ASCI 2160</a>. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\" >CHEM 1100</a>, <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>, or <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\" >CHEM 1410</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1000\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1405\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}]}",
+      "other_requirements": "Degree students only even after level restrictions removed. Please email Laura.A.Newman@uvm.edu for all registration issues, including using BHSC 1340 in lieu of BIOL/BCOR. Must register for a discussion section A01-A09.",
+      "external": true
+    },
+    {
+      "id": "BIOL 4630",
+      "course_code": "BIOL 4630",
+      "department": "BIOL",
+      "title": "Adv Genetics Laboratory",
+      "credit_hours": "4",
+      "description": "Laboratory experiments to provide experience with modern genetic techniques. Bench work and data analysis emphasized. Prerequisite: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"BCOR 2300\"}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "BIOL 5030",
+      "course_code": "BIOL 5030",
+      "department": "BIOL",
+      "title": "Topics In: General Biology",
+      "credit_hours": "1",
+      "description": "Exploration of topics in a broad Biological context. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Minimum Junior standing.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Junior standing",
+      "external": false
+    },
+    {
+      "id": "BCOR 1450",
+      "course_code": "BCOR 1450",
+      "department": "BCOR",
+      "title": "Exploring Biology 2",
+      "credit_hours": "4",
+      "description": "An evolutionary perspective to exploring biology. Topics include: patterns of inheritance, Darwinian evolution, evolution of biodiversity, ecology of organisms, human effects on biological systems. Credit not awarded for both BCOR 1450 and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "BIOL 3165",
+      "course_code": "BIOL 3165",
+      "department": "BIOL",
+      "title": "Evolution",
+      "credit_hours": "3",
+      "description": "Basic concepts in evolution will be covered, including the causes of evolutionary change, speciation, phylogenetics, and the history of life. Prerequisite: <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2100\"}, {\"type\": \"course\", \"code\": \"NR 2030\"}]}",
+      "other_requirements": "email instructor for override. Junior or Senior standing only. PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "BIOL 1450",
+      "course_code": "BIOL 1450",
+      "department": "BIOL",
+      "title": "Principles of Biology 2",
+      "credit_hours": "4",
+      "description": "Principles of organismal biology; nature of scientific inquiry, plant form and function, pollination ecology, animal phylogeny illustrated by comparative anatomy and physiology; animal behavior. Credit not awarded for both BIOL 1450 and <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>.",
+      "prereq_expression": null,
+      "other_requirements": "ASCI, BIOL, BISC, MGEN, MICR, NEUR, PBIO, ZOOL majors should register for BCOR 1450; Degree students only even after level restrictions removed; Post Bac Pre med students register for BIOL 1450",
+      "external": false
+    },
+    {
+      "id": "BIOL 6010",
+      "course_code": "BIOL 6010",
+      "department": "BIOL",
+      "title": "Biology Seminar",
+      "credit_hours": "1",
+      "description": "Expert speakers are invited from within and outside UVM to present their research in the diverse fields of biology including cell, molecular and developmental biology, ecology, evolution, behavior and neuroscience. Prerequisite: Life sciences Graduate student.",
+      "prereq_expression": null,
+      "other_requirements": "Life sciences Graduate student. Graduate standing only or instructor permission",
+      "external": false
+    },
+    {
+      "id": "BIOL 1105",
+      "course_code": "BIOL 1105",
+      "department": "BIOL",
+      "title": "Human Biology",
+      "credit_hours": "3",
+      "description": "For nonscience majors. Selected biological topics relevant to humans, such as cancer, human genetics, environmental toxicants; biological concepts necessary for understanding these problems. No laboratory. Credit not awarded for both BIOL 1105 and <a href=\"/search/?p=BIOL%201100\" data-action=\"result-detail\" data-group=\"code:BIOL 1100\" >BIOL 1100</a>.",
+      "prereq_expression": null,
+      "other_requirements": "For nonscience majors. Credit not awarded for both BIOL 1105 and BIOL 1100. Course will not count toward BIOL, BISC, NEUR, PBIO or ZOOL majors, and those students are restricted from enrolling. Asynchronous online; Degree students only; Colocated with BIOL 1105 OLR; total combined enrollment = 100",
+      "external": false
+    },
+    {
+      "id": "BIOL 1400",
+      "course_code": "BIOL 1400",
+      "department": "BIOL",
+      "title": "Principles of Biology 1",
+      "credit_hours": "4",
+      "description": "Principles of cellular biochemistry; cell biology; genetics and evolution. Topics: biochemistry; metabolism, cell structure/function; respiration; photosynthesis; molecular, Mendelian and population genetics; genetics of evolution. Credit not awarded for both BIOL 1400 and <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Credit not awarded for both BIOL 1400 and BCOR 1400 or BCOR 1425. Must register for a BIOL 1400 lab; Lab supply fee: $30; Degree students only even after level restrictions removed; Post Bac Pre Med & PACE students register for BIOL 1400 ZRA Colocated with BIOL 1400 ZRA",
+      "external": false
+    },
+    {
+      "id": "BCOR 1400",
+      "course_code": "BCOR 1400",
+      "department": "BCOR",
+      "title": "Exploring Biology 1",
+      "credit_hours": "4",
+      "description": "Exploring biology from cells to organisms.  Topics include origins of life, ancestral organisms, uni- and multi- cellular energetics, evolution of respiration and metabolism, and the genetic code. Credit not awarded for both BCOR 1400 and <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
     },
     {
       "id": "BIOL 4990",
@@ -145,6 +640,17 @@
       "external": false
     },
     {
+      "id": "BIOL 3500",
+      "course_code": "BIOL 3500",
+      "department": "BIOL",
+      "title": "Neurodevelopment",
+      "credit_hours": "3",
+      "description": "Current topics in developmental neurobiology through lectures and discussions of primary literature. The course is designed for advanced undergraduate life science majors and graduate students in the biological sciences. Prerequisites: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>, <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
       "id": "BIOL 4245",
       "course_code": "BIOL 4245",
       "department": "BIOL",
@@ -156,190 +662,14 @@
       "external": false
     },
     {
-      "id": "BIOL 1450",
-      "course_code": "BIOL 1450",
+      "id": "BIOL 6100",
+      "course_code": "BIOL 6100",
       "department": "BIOL",
-      "title": "Principles of Biology 2",
+      "title": "Computational Biology",
       "credit_hours": "4",
-      "description": "Principles of organismal biology; nature of scientific inquiry, plant form and function, pollination ecology, animal phylogeny illustrated by comparative anatomy and physiology; animal behavior. Credit not awarded for both BIOL 1450 and <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>.",
-      "prereq_expression": null,
-      "other_requirements": "ASCI, BIOL, BISC, MGEN, MICR, NEUR, PBIO, ZOOL majors should register for BCOR 1450; Degree students only even after level restrictions removed; Post Bac Pre med students register for BIOL 1450",
-      "external": false
-    },
-    {
-      "id": "BIOL 1400",
-      "course_code": "BIOL 1400",
-      "department": "BIOL",
-      "title": "Principles of Biology 1",
-      "credit_hours": "4",
-      "description": "Principles of cellular biochemistry; cell biology; genetics and evolution. Topics: biochemistry; metabolism, cell structure/function; respiration; photosynthesis; molecular, Mendelian and population genetics; genetics of evolution. Credit not awarded for both BIOL 1400 and <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Credit not awarded for both BIOL 1400 and BCOR 1400 or BCOR 1425. Must register for a BIOL 1400 lab; Lab supply fee: $30; Degree students only even after level restrictions removed; Post Bac Pre Med & PACE students register for BIOL 1400 ZRA Colocated with BIOL 1400 ZRA",
-      "external": false
-    },
-    {
-      "id": "BIOL 6995",
-      "course_code": "BIOL 6995",
-      "department": "BIOL",
-      "title": "Graduate Independent Research",
-      "credit_hours": "1 to 18",
-      "description": "Graduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "NR 2030",
-      "course_code": "NR 2030",
-      "department": "NR",
-      "title": "Ecology, Ecosystems & Environ",
-      "credit_hours": "3",
-      "description": "Major ecological concepts and their application. Analysis of form, structure, and function of organisms, populations, communities, ecosystems, and landscapes. Prerequisites: RSENR students or Agroecology or Landscape Design or Environmental Studies majors; minimum Sophomore standing.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RSENR\"}, {\"type\": \"course\", \"code\": \"AGRO\"}, {\"type\": \"course\", \"code\": \"LNDS\"}, {\"type\": \"course\", \"code\": \"ENVS\"}]}",
-      "other_requirements": "minimum Sophomore standing",
-      "external": true
-    },
-    {
-      "id": "BIOL 3510",
-      "course_code": "BIOL 3510",
-      "department": "BIOL",
-      "title": "Model Systems in Neuroscience",
-      "credit_hours": "3",
-      "description": "Provides students a deeper level of scientific fluency with guidance on how to critically read and understand primary scientific literature and how to communicate those findings, using model systems as our guide. Prerequisites: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a> and (<a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a> or <a href=\"/search/?p=NSCI%202105\" data-action=\"result-detail\" data-group=\"code:NSCI 2105\" >NSCI 2105</a>).",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2500\"}, {\"type\": \"course\", \"code\": \"NSCI 2105\"}]}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "BIOL 6020",
-      "course_code": "BIOL 6020",
-      "department": "BIOL",
-      "title": "Foundations in Eco & Evo",
-      "credit_hours": "1",
-      "description": "Seminar focused on reading and discussing foundational papers in ecology and evolution. Specific topics will vary by instructor. Prerequisite: Life Sciences Graduate student.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 6020\"}]}",
-      "other_requirements": "Life Sciences Graduate student. Graduate standing only",
-      "external": false
-    },
-    {
-      "id": "BIOL 4996",
-      "course_code": "BIOL 4996",
-      "department": "BIOL",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "BIOL 3505",
-      "course_code": "BIOL 3505",
-      "department": "BIOL",
-      "title": "Neurobiology",
-      "credit_hours": "3",
-      "description": "Focus on molecular and cellular aspects of the nervous system. Electrical signaling, synaptic transmission, signal transduction, neural development, plasticity, and disease. Credit not awarded for both BIOL 3505 and <a href=\"/search/?p=NSCI%203505\" data-action=\"result-detail\" data-group=\"code:NSCI 3505\"  class=\"notoffered\">NSCI 3505</a>. Prerequisite: <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"BCOR 2500\"}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "BIOL 1150",
-      "course_code": "BIOL 1150",
-      "department": "BIOL",
-      "title": "The Human Body w/lab",
-      "credit_hours": "4",
-      "description": "For nonscience majors. Introduction to basic human anatomy and organ system physiology emphasizing normal and diseased homeostatic mechanisms. With virtual laboratory. Credit not awarded for both BIOL 1150 and <a href=\"/search/?p=BIOL%201155\" data-action=\"result-detail\" data-group=\"code:BIOL 1155\" >BIOL 1155</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Open to degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "BCOR 2300",
-      "course_code": "BCOR 2300",
-      "department": "BCOR",
-      "title": "Genetics",
-      "credit_hours": "3",
-      "description": "The basis of inheritance, covering topics from classical genetics to modern molecular studies. Analysis of genetic data emphasized, from prokaryotic, animal, and plant systems.  Credit not awarded for both BCOR 2300 and <a href=\"/search/?p=ASCI%202160\" data-action=\"result-detail\" data-group=\"code:ASCI 2160\" >ASCI 2160</a>. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\" >CHEM 1100</a>, <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>, or <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\" >CHEM 1410</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1000\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1405\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}]}",
-      "other_requirements": "Degree students only even after level restrictions removed. Please email Laura.A.Newman@uvm.edu for all registration issues, including using BHSC 1340 in lieu of BIOL/BCOR. Must register for a discussion section A01-A09.",
-      "external": true
-    },
-    {
-      "id": "BIOL 6005",
-      "course_code": "BIOL 6005",
-      "department": "BIOL",
-      "title": "Graduate Seminar",
-      "credit_hours": "1",
-      "description": "Weekly departmental seminar attended by all faculty and graduate students. Graduate students practice giving scientific talks, presenting annual research-in-progress updates and receiving feedback from their peers and faculty. Prerequisite: Life sciences Graduate student.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"BIOL 6005\"}",
-      "other_requirements": "Life sciences Graduate student. Graduate standing only",
-      "external": false
-    },
-    {
-      "id": "BIOL 4420",
-      "course_code": "BIOL 4420",
-      "department": "BIOL",
-      "title": "BioCUREs: Neurobio of Behavior",
-      "credit_hours": "4",
-      "description": "A Course-based Undergraduate Research Experience (or CURE), is a class where students actively participate in an original research project with unknown outcomes. Unlike traditional laboratory courses with pre-determined results, students work on real-world questions of interest to a Biology faculty member's research program, and their work contributes to the larger body of knowledge in the field. Topics vary by section. Prerequisites: Minimum Junior standing; <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>, <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>, or <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2100\"}, {\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}]}]}",
-      "other_requirements": "Minimum Junior standing",
-      "external": false
-    },
-    {
-      "id": "BIOL 3530",
-      "course_code": "BIOL 3530",
-      "department": "BIOL",
-      "title": "Cell Biology and Disease",
-      "credit_hours": "3",
-      "description": "Exploration of the fundamental molecular mechanisms that happens in a cell in different disease states. Diseases covered can include Multiple Sclerosis, Alzheimer's, Diabetes, and Osteoporosis. Emphasizes the cellular and molecular basis of these diseases. Prerequisites: <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a> or <a href=\"/search/?p=NSCI%202105\" data-action=\"result-detail\" data-group=\"code:NSCI 2105\" >NSCI 2105</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2500\"}, {\"type\": \"course\", \"code\": \"NSCI 2105\"}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "BIOL 1010",
-      "course_code": "BIOL 1010",
-      "department": "BIOL",
-      "title": "FYS: Eugenics & Sci. Racism",
-      "credit_hours": "3",
-      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
-      "prereq_expression": null,
-      "other_requirements": "CAS first time first year students only; HCOL students not eligible to enroll",
-      "external": false
-    },
-    {
-      "id": "BIOL 2991",
-      "course_code": "BIOL 2991",
-      "department": "BIOL",
-      "title": "Internship: Nat Hst Collection",
-      "credit_hours": "1 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "BIOL 4260",
-      "course_code": "BIOL 4260",
-      "department": "BIOL",
-      "title": "Population Genetics",
-      "credit_hours": "4",
-      "description": "Exploration of the mathematical principles and biological assumptions that underpin the study of evolutionary processes, offering valuable insights into the origins and implications of heritable variation in nature. Prerequisites: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a> or <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"course\", \"code\": \"BCOR 2100\"}]}",
-      "other_requirements": "PACE students with permission and override. Students must enroll in L01 or L02.",
-      "external": false
-    },
-    {
-      "id": "BIOL 4075",
-      "course_code": "BIOL 4075",
-      "department": "BIOL",
-      "title": "Sr Seminar in Eco and Evo",
-      "credit_hours": "1",
-      "description": "The application of previous coursework knowledge and skills to current problems in conservation, agriculture, public health, and medicine where an eco-evolutionary approach can provide new and useful insights. Designed around student-led case studies in areas of active research, primary literature, experimental design, and data analysis. Prerequisites: Ecology and Evolutionary Biology concentration; Senior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 3070\"}, {\"type\": \"course\", \"code\": \"BIOL 3071\"}]}",
-      "other_requirements": "Ecology and Evolutionary Biology concentration; Senior standing.",
+      "description": "Basic programming methods in R, including functions, data types, graphics, file input and output; computational tools for reproducible research, including regular expressions, markdown, git, github, and shell commands; and advanced topics, including batch processing, structured programming, functional programming, and randomization tests. Prerequisite: Graduate student.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 6100\"}]}",
+      "other_requirements": "Graduate student. Graduate standing required; Undergraduates admitted by instructor permission;",
       "external": false
     },
     {
@@ -352,642 +682,388 @@
       "prereq_expression": null,
       "other_requirements": "Instructor permission required. Consistent communication with course instructor is required.",
       "external": false
-    },
-    {
-      "id": "BIOL 3400",
-      "course_code": "BIOL 3400",
-      "department": "BIOL",
-      "title": "Ecological Parasitology",
-      "credit_hours": "3",
-      "description": "Exploration of advanced topics in General Biology. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>, <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>, or <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2100\"}, {\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}]}",
-      "other_requirements": "Alternate prereq: NR 2030, email instructor for override. Junior or Senior standing only. PACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "BIOL 4080",
-      "course_code": "BIOL 4080",
-      "department": "BIOL",
-      "title": "Sr Seminar in Cell and Dev",
-      "credit_hours": "1",
-      "description": "In-depth study of core cell signaling pathways and their roles in developmental biology. Based on primary literature and covers historic and current articles; a required senior seminar for Biology (BA) majors with a concentration in Cell and Developmental Biology; relevant to any life science student seeking increased understanding in the topic. Prerequisites: Cell and Developmental Biology concentration; Senior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 4080\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 4080\"}, {\"type\": \"course\", \"code\": \"BISC 4080\"}]}]}",
-      "other_requirements": "Cell and Developmental Biology concentration; Senior standing. Senior standing required; Majors: Cell and Developmental Biology concentration; Or by instructor permission; all life science students with prerequisites and instructor permission, providing space, can enroll.",
-      "external": false
-    },
-    {
-      "id": "BIOL 6010",
-      "course_code": "BIOL 6010",
-      "department": "BIOL",
-      "title": "Biology Seminar",
-      "credit_hours": "1",
-      "description": "Expert speakers are invited from within and outside UVM to present their research in the diverse fields of biology including cell, molecular and developmental biology, ecology, evolution, behavior and neuroscience. Prerequisite: Life sciences Graduate student.",
-      "prereq_expression": null,
-      "other_requirements": "Life sciences Graduate student. Graduate standing only or instructor permission",
-      "external": false
-    },
-    {
-      "id": "BIOL 2100",
-      "course_code": "BIOL 2100",
-      "department": "BIOL",
-      "title": "Soundscapes and Behavior Rsch",
-      "credit_hours": "4",
-      "description": "Students will participate in all aspects of a research project while learning to navigate the messiness of real-world data. Students will develop research questions on topics related to marine soundscape ecology, marine animal bioacoustics, and cetacean ecology, behavior, and conservation. Prerequisites: <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>, <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\"  class=\"notoffered\">BCOR 1425</a>; or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}]}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "BIOL 1029",
-      "course_code": "BIOL 1029",
-      "department": "BIOL",
-      "title": "LASP Program CURE Lab",
-      "credit_hours": "1",
-      "description": "Explores how modern science evolves and how researchers build upon one another's contributions. This Course-based Undergraduate Research Experience (CURE) provides early opportunities to Life Science Scholars to participate in the scientific inquiry process by focusing on the first steps of scientific research: reading, analyzing, and synthesizing scientific literature; and asking scientific questions. Prerequisites: Enrollment in Liberal Arts Scholars Program for Life Science Scholars.",
-      "prereq_expression": null,
-      "other_requirements": "Enrollment in Liberal Arts Scholars Program for Life Science Scholars. LASP Life Science Scholars students only. Instructor permission required. This section is only for students in the Liberal Arts Scholars Program (LASP), Life Science Scholars (LSS) theme.",
-      "external": false
-    },
-    {
-      "id": "BIOL 5030",
-      "course_code": "BIOL 5030",
-      "department": "BIOL",
-      "title": "Topics In: General Biology",
-      "credit_hours": "1",
-      "description": "Exploration of topics in a broad Biological context. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Minimum Junior standing.",
-      "prereq_expression": null,
-      "other_requirements": "Minimum Junior standing",
-      "external": false
-    },
-    {
-      "id": "BCOR 1425",
-      "course_code": "BCOR 1425",
-      "department": "BCOR",
-      "title": "Accelerated Biology",
-      "credit_hours": "4",
-      "description": "Selected topics from the full year of introductory biology, compressed into one semester. For students with demonstrated mastery of basic biology (e.g., AP credit).  Permission required. Credit not awarded for both BCOR 1425 and <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> or <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>. Pre/co-requisite: <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>, or <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\" >CHEM 1410</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1405\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}]}",
-      "other_requirements": "For students with demonstrated mastery of basic biology (e.g., AP credit). Permission required. Credit not awarded for both BCOR 1425 and BCOR 1400 or BIOL 1400. By invitation only; for FTFY students with AP score of 4. Instructor permission required. Must register for a BCOR 1425 lab. Must be enrolled in CHEM 1400 if have no CHEM credit.",
-      "external": true
-    },
-    {
-      "id": "BIOL 5020",
-      "course_code": "BIOL 5020",
-      "department": "BIOL",
-      "title": "Eco&Evo Natural Selection",
-      "credit_hours": "1",
-      "description": "Exploration of topics in Ecology and Evolution. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"JUNIOR\"}]}",
-      "other_requirements": "Minimum Junior standing",
-      "external": false
-    },
-    {
-      "id": "BIOL 6391",
-      "course_code": "BIOL 6391",
-      "department": "BIOL",
-      "title": "Master's Thesis Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Master's Thesis.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate standing only",
-      "external": false
-    },
-    {
-      "id": "BIOL 7491",
-      "course_code": "BIOL 7491",
-      "department": "BIOL",
-      "title": "Doctoral Dissertation Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Doctoral Dissertation.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate standing only",
-      "external": false
-    },
-    {
-      "id": "BIOL 4400",
-      "course_code": "BIOL 4400",
-      "department": "BIOL",
-      "title": "Compar/Func Vertebrate Anatomy",
-      "credit_hours": "4",
-      "description": "Structure, function, and phylogeny, with evolutionary and functional trends of all chordate groups. Prerequisite: Two courses from <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>, <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>, <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"course\", \"code\": \"BCOR 2100\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}]}",
-      "other_requirements": "Must register for a lab: BIOL 4400 L02 or L03. PACE students with permission and override. Lab supply fee: $30.00",
-      "external": false
-    },
-    {
-      "id": "BIOL 6000",
-      "course_code": "BIOL 6000",
-      "department": "BIOL",
-      "title": "Professional Skills and Ethics",
-      "credit_hours": "2",
-      "description": "Seminar topics include mentor-mentee relationships, finding funding, grant writing, preparing posters and seminars, communicating how to be a successful teacher, Curriculum Vitae preparation, job finding and interviewing. Prerequisite: Life Sciences Graduate student.",
-      "prereq_expression": null,
-      "other_requirements": "Life Sciences Graduate student.",
-      "external": false
-    },
-    {
-      "id": "NSCI 2105",
-      "course_code": "NSCI 2105",
-      "department": "NSCI",
-      "title": "Exploring Neuroscience",
-      "credit_hours": "3",
-      "description": "In-depth survey of neuroscience topics, including neuron function, the anatomical and functional organization of the nervous system, and diseases of the nervous system. No laboratory. Credit not awarded for both <a href=\"/search/?p=NSCI%202100\" data-action=\"result-detail\" data-group=\"code:NSCI 2100\" >NSCI 2100</a> and NSCI 2105. Prerequisites: <a href=\"/search/?p=PSYS%201400\" data-action=\"result-detail\" data-group=\"code:PSYS 1400\" >PSYS 1400</a>; <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>; or <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>; or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>; or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>, <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; or <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a>, <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>. Co-requisite: <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PSYS 1400\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}]}]}",
-      "other_requirements": "Neuroscience majors and minors. PACE students with permission and override",
-      "external": true
-    },
-    {
-      "id": "BIOL 6015",
-      "course_code": "BIOL 6015",
-      "department": "BIOL",
-      "title": "Scientific Writing in Life Sci",
-      "credit_hours": "2",
-      "description": "Assignments and discussions help students understand the scientific method and develop strategies for writing well. By the end of the semester, thesis students will have a complete proposal for their graduate research project. Non-thesis students will generate a review article. Prerequisite: Life sciences Graduate student.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 6015\"}]}",
-      "other_requirements": "Life sciences Graduate student.",
-      "external": false
-    },
-    {
-      "id": "BIOL 3500",
-      "course_code": "BIOL 3500",
-      "department": "BIOL",
-      "title": "Neurodevelopment",
-      "credit_hours": "3",
-      "description": "Current topics in developmental neurobiology through lectures and discussions of primary literature. The course is designed for advanced undergraduate life science majors and graduate students in the biological sciences. Prerequisites: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>, <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "BIOL 1100",
-      "course_code": "BIOL 1100",
-      "department": "BIOL",
-      "title": "Human Biology w/lab",
-      "credit_hours": "4",
-      "description": "For nonscience majors. Selected biological concepts and topics relevant to humans, such as cancer, human genetics, environmental toxicants. With virtual laboratory. Credit not awarded for both BIOL 1100 and <a href=\"/search/?p=BIOL%201105\" data-action=\"result-detail\" data-group=\"code:BIOL 1105\" >BIOL 1105</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "BIOL 3990",
-      "course_code": "BIOL 3990",
-      "department": "BIOL",
-      "title": "Intro to Ecological Genomics",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2100\"}, {\"type\": \"course\", \"code\": \"BCOR 2300\"}]}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "BIOL 6993",
-      "course_code": "BIOL 6993",
-      "department": "BIOL",
-      "title": "Independent Study",
-      "credit_hours": "1 to 18",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 6993\"}]}",
-      "other_requirements": "Graduate standing only. Offered at department discretion.",
-      "external": false
-    },
-    {
-      "id": "BIOL 1155",
-      "course_code": "BIOL 1155",
-      "department": "BIOL",
-      "title": "The Human Body",
-      "credit_hours": "3",
-      "description": "For nonscience majors. Introduction to basic human anatomy and organ system physiology emphasizing normal homeostatic mechanisms and the changes that accompany common disorders and diseases.  No laboratory. Credit not awarded for both BIOL 1155 and <a href=\"/search/?p=BIOL%201150\" data-action=\"result-detail\" data-group=\"code:BIOL 1150\" >BIOL 1150</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Open to degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "BCOR 1450",
-      "course_code": "BCOR 1450",
-      "department": "BCOR",
-      "title": "Exploring Biology 2",
-      "credit_hours": "4",
-      "description": "An evolutionary perspective to exploring biology. Topics include: patterns of inheritance, Darwinian evolution, evolution of biodiversity, ecology of organisms, human effects on biological systems. Credit not awarded for both BCOR 1450 and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "BIOL 3995",
-      "course_code": "BIOL 3995",
-      "department": "BIOL",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Pre/co-requisites: Minimum Junior standing; Department permission.",
-      "prereq_expression": null,
-      "other_requirements": "Minimum Junior standing; Department permission. Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "BIOL 3165",
-      "course_code": "BIOL 3165",
-      "department": "BIOL",
-      "title": "Evolution",
-      "credit_hours": "3",
-      "description": "Basic concepts in evolution will be covered, including the causes of evolutionary change, speciation, phylogenetics, and the history of life. Prerequisite: <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2100\"}, {\"type\": \"course\", \"code\": \"NR 2030\"}]}",
-      "other_requirements": "email instructor for override. Junior or Senior standing only. PACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "BCOR 2100",
-      "course_code": "BCOR 2100",
-      "department": "BCOR",
-      "title": "Ecology and Evolution",
-      "credit_hours": "4",
-      "description": "Ecosystem and community structure, population growth, species interactions and niche dynamics, population and chromosomal genetics, speciation in fossil records, ecology of animal behavior, applied ecology. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1000\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}]}",
-      "other_requirements": "PACE students with permission and override.",
-      "external": true
-    },
-    {
-      "id": "BCOR 1400",
-      "course_code": "BCOR 1400",
-      "department": "BCOR",
-      "title": "Exploring Biology 1",
-      "credit_hours": "4",
-      "description": "Exploring biology from cells to organisms.  Topics include origins of life, ancestral organisms, uni- and multi- cellular energetics, evolution of respiration and metabolism, and the genetic code. Credit not awarded for both BCOR 1400 and <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "BIOL 2105",
-      "course_code": "BIOL 2105",
-      "department": "BIOL",
-      "title": "Introduction to Marine Science",
-      "credit_hours": "3",
-      "description": "An overview of concepts and process in oceanography, geology, ecology, evolution, organismal biology, and conservation. Some of the topics we will discuss in class include tsunamis, ocean chemistry and physics, and bioluminescence. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\"  class=\"notoffered\">BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\"  class=\"notoffered\">BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\"  class=\"notoffered\">BCOR 1425</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1000\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "BIOL 2995",
-      "course_code": "BIOL 2995",
-      "department": "BIOL",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Pre/co-requisites: Junior/Senior standing; Department permission.",
-      "prereq_expression": null,
-      "other_requirements": "Junior/Senior standing; Department permission. Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "BIOL 1020",
-      "course_code": "BIOL 1020",
-      "department": "BIOL",
-      "title": "LASP:Human Evolution Camb-Pres",
-      "credit_hours": "3",
-      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences). Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program.",
-      "prereq_expression": null,
-      "other_requirements": "Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program. LASP Life Science Scholars only; Instructor permission",
-      "external": false
-    },
-    {
-      "id": "BIOL 3105",
-      "course_code": "BIOL 3105",
-      "department": "BIOL",
-      "title": "Community Ecology",
-      "credit_hours": "3",
-      "description": "Theoretical and empirical analyses of community structure. Topics include population growth, metapopulation dynamics, competition, predation, species diversity, niches, disturbance succession, island biogeography, and conservation biology. Prerequisite: <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2100\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"JUNIOR\"}, {\"type\": \"course\", \"code\": \"SENIOR\"}]}]}",
-      "other_requirements": "minimum Junior standing. PACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "BCOR 2500",
-      "course_code": "BCOR 2500",
-      "department": "BCOR",
-      "title": "Molecular & Cell Biology w/lab",
-      "credit_hours": "4",
-      "description": "Explores the fundamental processes of life. Topics include cellular metabolism; structure and function of organelles; cell cycle; signal transduction; biology of cancer. <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\" >CHEM 2580</a>, <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a> recommended. Credit not awarded for both BCOR 2500 and <a href=\"/search/?p=BCOR%202505\" data-action=\"result-detail\" data-group=\"code:BCOR 2505\" >BCOR 2505</a>. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a> or <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\" >CHEM 1410</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1405\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}, {\"type\": \"course\", \"code\": \"CHEM 1460\"}]}]}",
-      "other_requirements": "For majors: ASCI, BICM, BIOL, BISC, ENSC, MGEN, MICR, NEUR, PBIO, ZOOL only. Minimum sophomore standing. If enrolling in CHEM 1450/1460, please request an override from Laura.A.Newman@uvm.edu. Degree students only even after level restrictions removed; Post Bac Pre Med students enroll in BCOR 2500 ZRA.",
-      "external": true
-    },
-    {
-      "id": "BIOL 1075",
-      "course_code": "BIOL 1075",
-      "department": "BIOL",
-      "title": "First-year Zoology Seminar",
-      "credit_hours": "1",
-      "description": "Introduces Zoology majors (B.A./B.S.) to the science and practice of zoology, with a particular focus on career development and information literacy skills in the life sciences.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
     }
   ],
   "edges": [
     {
       "source": "BCOR 1400",
-      "target": "BCOR 2100"
+      "target": "BCOR 2100",
+      "group": "BCOR 2100__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "BCOR 2300"
+      "target": "BCOR 2300",
+      "group": "BCOR 2300__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "BCOR 2500"
+      "target": "BCOR 2500",
+      "group": "BCOR 2500__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "BIOL 2105"
+      "target": "BIOL 2105",
+      "group": "BIOL 2105__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "BIOL 2300"
+      "target": "BIOL 2300",
+      "group": "BIOL 2300__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "BIOL 4400"
+      "target": "BIOL 4400",
+      "group": "BIOL 4400__g1"
     },
     {
       "source": "BCOR 1400",
-      "target": "NSCI 2105"
+      "target": "NSCI 2105",
+      "group": "NSCI 2105__g0"
     },
     {
       "source": "BCOR 1425",
-      "target": "BCOR 2100"
+      "target": "BCOR 2100",
+      "group": "BCOR 2100__g1"
     },
     {
       "source": "BCOR 1425",
-      "target": "BCOR 2300"
+      "target": "BCOR 2300",
+      "group": "BCOR 2300__g1"
     },
     {
       "source": "BCOR 1425",
-      "target": "BCOR 2500"
+      "target": "BCOR 2500",
+      "group": "BCOR 2500__g0"
     },
     {
       "source": "BCOR 1425",
-      "target": "BIOL 2100"
+      "target": "BIOL 2100",
+      "group": "BIOL 2100__g0"
     },
     {
       "source": "BCOR 1425",
-      "target": "BIOL 2105"
+      "target": "BIOL 2105",
+      "group": "BIOL 2105__g1"
     },
     {
       "source": "BCOR 1425",
-      "target": "BIOL 2300"
+      "target": "BIOL 2300",
+      "group": "BIOL 2300__g1"
     },
     {
       "source": "BCOR 1425",
-      "target": "BIOL 4400"
+      "target": "BIOL 4400",
+      "group": "BIOL 4400__g1"
     },
     {
       "source": "BCOR 1425",
-      "target": "NSCI 2105"
+      "target": "NSCI 2105",
+      "group": "NSCI 2105__g0"
     },
     {
       "source": "BCOR 1450",
-      "target": "BCOR 2100"
+      "target": "BCOR 2100",
+      "group": "BCOR 2100__g1"
     },
     {
       "source": "BCOR 1450",
-      "target": "BCOR 2300"
+      "target": "BCOR 2300",
+      "group": "BCOR 2300__g1"
     },
     {
       "source": "BCOR 1450",
-      "target": "BCOR 2500"
+      "target": "BCOR 2500",
+      "group": "BCOR 2500__g0"
     },
     {
       "source": "BCOR 1450",
-      "target": "BIOL 2100"
+      "target": "BIOL 2100",
+      "group": "BIOL 2100__g0"
     },
     {
       "source": "BCOR 1450",
-      "target": "BIOL 2105"
+      "target": "BIOL 2105",
+      "group": "BIOL 2105__g1"
     },
     {
       "source": "BCOR 1450",
-      "target": "BIOL 2300"
+      "target": "BIOL 2300",
+      "group": "BIOL 2300__g1"
     },
     {
       "source": "BCOR 1450",
-      "target": "BIOL 4400"
+      "target": "BIOL 4400",
+      "group": "BIOL 4400__g1"
     },
     {
       "source": "BCOR 1450",
-      "target": "NSCI 2105"
+      "target": "NSCI 2105",
+      "group": "NSCI 2105__g0"
     },
     {
       "source": "BCOR 2100",
-      "target": "BIOL 3105"
+      "target": "BIOL 3105",
+      "group": null
     },
     {
       "source": "BCOR 2100",
-      "target": "BIOL 3165"
+      "target": "BIOL 3165",
+      "group": "BIOL 3165__g0"
     },
     {
       "source": "BCOR 2100",
-      "target": "BIOL 3400"
+      "target": "BIOL 3400",
+      "group": "BIOL 3400__g0"
     },
     {
       "source": "BCOR 2100",
-      "target": "BIOL 3990"
+      "target": "BIOL 3990",
+      "group": null
     },
     {
       "source": "BCOR 2100",
-      "target": "BIOL 4245"
+      "target": "BIOL 4245",
+      "group": "BIOL 4245__g0"
     },
     {
       "source": "BCOR 2100",
-      "target": "BIOL 4260"
+      "target": "BIOL 4260",
+      "group": "BIOL 4260__g0"
     },
     {
       "source": "BCOR 2100",
-      "target": "BIOL 4400"
+      "target": "BIOL 4400",
+      "group": "BIOL 4400__g0"
     },
     {
       "source": "BCOR 2100",
-      "target": "BIOL 4405"
+      "target": "BIOL 4405",
+      "group": "BIOL 4405__g0"
     },
     {
       "source": "BCOR 2100",
-      "target": "BIOL 4420"
+      "target": "BIOL 4420",
+      "group": "BIOL 4420__g0"
     },
     {
       "source": "BCOR 2300",
-      "target": "BIOL 3400"
+      "target": "BIOL 3400",
+      "group": "BIOL 3400__g0"
     },
     {
       "source": "BCOR 2300",
-      "target": "BIOL 3500"
+      "target": "BIOL 3500",
+      "group": null
     },
     {
       "source": "BCOR 2300",
-      "target": "BIOL 3510"
+      "target": "BIOL 3510",
+      "group": null
     },
     {
       "source": "BCOR 2300",
-      "target": "BIOL 3560"
+      "target": "BIOL 3560",
+      "group": null
     },
     {
       "source": "BCOR 2300",
-      "target": "BIOL 3990"
+      "target": "BIOL 3990",
+      "group": null
     },
     {
       "source": "BCOR 2300",
-      "target": "BIOL 4260"
+      "target": "BIOL 4260",
+      "group": "BIOL 4260__g0"
     },
     {
       "source": "BCOR 2300",
-      "target": "BIOL 4400"
+      "target": "BIOL 4400",
+      "group": "BIOL 4400__g0"
     },
     {
       "source": "BCOR 2300",
-      "target": "BIOL 4405"
+      "target": "BIOL 4405",
+      "group": null
     },
     {
       "source": "BCOR 2300",
-      "target": "BIOL 4420"
+      "target": "BIOL 4420",
+      "group": "BIOL 4420__g0"
     },
     {
       "source": "BCOR 2300",
-      "target": "BIOL 4630"
+      "target": "BIOL 4630",
+      "group": null
     },
     {
       "source": "BCOR 2500",
-      "target": "BIOL 3400"
+      "target": "BIOL 3400",
+      "group": "BIOL 3400__g0"
     },
     {
       "source": "BCOR 2500",
-      "target": "BIOL 3500"
+      "target": "BIOL 3500",
+      "group": null
     },
     {
       "source": "BCOR 2500",
-      "target": "BIOL 3505"
+      "target": "BIOL 3505",
+      "group": null
     },
     {
       "source": "BCOR 2500",
-      "target": "BIOL 3510"
+      "target": "BIOL 3510",
+      "group": "BIOL 3510__g0"
     },
     {
       "source": "BCOR 2500",
-      "target": "BIOL 3530"
+      "target": "BIOL 3530",
+      "group": "BIOL 3530__g0"
     },
     {
       "source": "BCOR 2500",
-      "target": "BIOL 3560"
+      "target": "BIOL 3560",
+      "group": null
     },
     {
       "source": "BCOR 2500",
-      "target": "BIOL 4400"
+      "target": "BIOL 4400",
+      "group": "BIOL 4400__g0"
     },
     {
       "source": "BCOR 2500",
-      "target": "BIOL 4405"
+      "target": "BIOL 4405",
+      "group": "BIOL 4405__g0"
     },
     {
       "source": "BCOR 2500",
-      "target": "BIOL 4420"
+      "target": "BIOL 4420",
+      "group": "BIOL 4420__g0"
     },
     {
       "source": "BIOL 1010",
-      "target": "BIOL 4990"
+      "target": "BIOL 4990",
+      "group": "BIOL 4990__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "BCOR 2100"
+      "target": "BCOR 2100",
+      "group": "BCOR 2100__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "BCOR 2300"
+      "target": "BCOR 2300",
+      "group": "BCOR 2300__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "BCOR 2500"
+      "target": "BCOR 2500",
+      "group": "BCOR 2500__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "BIOL 2105"
+      "target": "BIOL 2105",
+      "group": "BIOL 2105__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "BIOL 2300"
+      "target": "BIOL 2300",
+      "group": "BIOL 2300__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "NSCI 2105"
+      "target": "NSCI 2105",
+      "group": "NSCI 2105__g0"
     },
     {
       "source": "BIOL 1450",
-      "target": "BCOR 2100"
+      "target": "BCOR 2100",
+      "group": "BCOR 2100__g1"
     },
     {
       "source": "BIOL 1450",
-      "target": "BCOR 2300"
+      "target": "BCOR 2300",
+      "group": "BCOR 2300__g1"
     },
     {
       "source": "BIOL 1450",
-      "target": "BCOR 2500"
+      "target": "BCOR 2500",
+      "group": "BCOR 2500__g0"
     },
     {
       "source": "BIOL 1450",
-      "target": "BIOL 2100"
+      "target": "BIOL 2100",
+      "group": "BIOL 2100__g0"
     },
     {
       "source": "BIOL 1450",
-      "target": "BIOL 2105"
+      "target": "BIOL 2105",
+      "group": "BIOL 2105__g1"
     },
     {
       "source": "BIOL 1450",
-      "target": "BIOL 2300"
+      "target": "BIOL 2300",
+      "group": "BIOL 2300__g1"
     },
     {
       "source": "BIOL 1450",
-      "target": "NSCI 2105"
+      "target": "NSCI 2105",
+      "group": "NSCI 2105__g0"
     },
     {
       "source": "BIOL 4080",
-      "target": "BIOL 4080"
+      "target": "BIOL 4080",
+      "group": "BIOL 4080__g0"
     },
     {
       "source": "BIOL 4990",
-      "target": "BIOL 4990"
+      "target": "BIOL 4990",
+      "group": null
     },
     {
       "source": "BIOL 6005",
-      "target": "BIOL 6005"
+      "target": "BIOL 6005",
+      "group": null
     },
     {
       "source": "BIOL 6015",
-      "target": "BIOL 6015"
+      "target": "BIOL 6015",
+      "group": "BIOL 6015__g0"
     },
     {
       "source": "BIOL 6020",
-      "target": "BIOL 6020"
+      "target": "BIOL 6020",
+      "group": null
     },
     {
       "source": "BIOL 6100",
-      "target": "BIOL 6100"
+      "target": "BIOL 6100",
+      "group": null
     },
     {
       "source": "BIOL 6993",
-      "target": "BIOL 6993"
+      "target": "BIOL 6993",
+      "group": null
     },
     {
       "source": "NR 2030",
-      "target": "BIOL 3165"
+      "target": "BIOL 3165",
+      "group": "BIOL 3165__g0"
     },
     {
       "source": "NR 2030",
-      "target": "BIOL 4245"
+      "target": "BIOL 4245",
+      "group": "BIOL 4245__g0"
     },
     {
       "source": "NSCI 2105",
-      "target": "BIOL 3510"
+      "target": "BIOL 3510",
+      "group": "BIOL 3510__g0"
     },
     {
       "source": "NSCI 2105",
-      "target": "BIOL 3530"
+      "target": "BIOL 3530",
+      "group": "BIOL 3530__g0"
     }
   ]
 }

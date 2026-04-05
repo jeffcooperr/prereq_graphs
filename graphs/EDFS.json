@@ -2,14 +2,69 @@
   "department": "EDFS",
   "nodes": [
     {
-      "id": "EDFS 6993",
-      "course_code": "EDFS 6993",
+      "id": "EDFS 1010",
+      "course_code": "EDFS 1010",
       "department": "EDFS",
-      "title": "Independent Study",
+      "title": "Race and Racism in the U.S.",
       "credit_hours": "3",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "description": "Students will investigate the multi-faceted concepts of identity, racism, and the dynamics of power, privilege, and oppression in the United States.",
       "prereq_expression": null,
-      "other_requirements": "Instructor Permission Only. Offered at department discretion.",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "EDFS 3030",
+      "course_code": "EDFS 3030",
+      "department": "EDFS",
+      "title": "Soc, Hst & Phil Found of Educ",
+      "credit_hours": "3",
+      "description": "Critical examination of central educational/social issues and values with special emphasis on the struggle for justice and equality. Themes include schooling and social class, race, and gender; the purposes of education; and the responsibilities of teachers. Prerequisite: Completion of a 2000 level course.",
+      "prereq_expression": "{\"type\": \"other_requirement\", \"description\": \"Any EDFS course\"}",
+      "other_requirements": "Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "EDFS 3991",
+      "course_code": "EDFS 3991",
+      "department": "EDFS",
+      "title": "Internship",
+      "credit_hours": "3",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Prerequisite: Permission of the Coordinator of Professional Laboratory Experiences.",
+      "prereq_expression": null,
+      "other_requirements": "Permission of the Coordinator of Professional Laboratory Experiences.",
+      "external": false
+    },
+    {
+      "id": "EDFS 1991",
+      "course_code": "EDFS 1991",
+      "department": "EDFS",
+      "title": "Internship",
+      "credit_hours": "1 to 3",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDFS 1991\"}, {\"type\": \"course\", \"code\": \"Sophomore standing\"}]}",
+      "other_requirements": "Instructor permission; Students must be volunteering, tutoring, or working at a PreK-12 school setting.",
+      "external": false
+    },
+    {
+      "id": "EDFS 2995",
+      "course_code": "EDFS 2995",
+      "department": "EDFS",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "EDFS 6391",
+      "course_code": "EDFS 6391",
+      "department": "EDFS",
+      "title": "Master's Thesis Research",
+      "credit_hours": "6",
+      "description": "Research for the Master's Thesis. Thesis topic must be approved by a faculty committee.",
+      "prereq_expression": null,
+      "other_requirements": "Thesis topic must be approved by a faculty committee. Instructor Permission Only",
       "external": false
     },
     {
@@ -24,6 +79,17 @@
       "external": false
     },
     {
+      "id": "EDFS 1990",
+      "course_code": "EDFS 1990",
+      "department": "EDFS",
+      "title": "Unplugged",
+      "credit_hours": "3",
+      "description": "See Schedule of Course for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
       "id": "EDFS 7040",
       "course_code": "EDFS 7040",
       "department": "EDFS",
@@ -35,34 +101,12 @@
       "external": false
     },
     {
-      "id": "EDFS 2994",
-      "course_code": "EDFS 2994",
+      "id": "EDFS 3090",
+      "course_code": "EDFS 3090",
       "department": "EDFS",
-      "title": "Teach Asst: Foundations of Ed",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EDFS 3030",
-      "course_code": "EDFS 3030",
-      "department": "EDFS",
-      "title": "Soc, Hst & Phil Found of Educ",
+      "title": "Intro to Research Methods",
       "credit_hours": "3",
-      "description": "Critical examination of central educational/social issues and values with special emphasis on the struggle for justice and equality. Themes include schooling and social class, race, and gender; the purposes of education; and the responsibilities of teachers. Prerequisite: Completion of a 2000 level course.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDFS 2001\"}, {\"type\": \"course\", \"code\": \"EDFS 2002\"}, {\"type\": \"course\", \"code\": \"EDFS 2003\"}, {\"type\": \"course\", \"code\": \"EDFS 2004\"}, {\"type\": \"course\", \"code\": \"EDFS 2005\"}, {\"type\": \"course\", \"code\": \"EDFS 2006\"}, {\"type\": \"course\", \"code\": \"EDFS 2007\"}, {\"type\": \"course\", \"code\": \"EDFS 2008\"}, {\"type\": \"course\", \"code\": \"EDFS 2009\"}, {\"type\": \"course\", \"code\": \"EDFS 2010\"}, {\"type\": \"course\", \"code\": \"EDFS 2011\"}, {\"type\": \"course\", \"code\": \"EDFS 2012\"}, {\"type\": \"course\", \"code\": \"EDFS 2013\"}, {\"type\": \"course\", \"code\": \"EDFS 2014\"}, {\"type\": \"course\", \"code\": \"EDFS 2015\"}, {\"type\": \"course\", \"code\": \"EDFS 2016\"}, {\"type\": \"course\", \"code\": \"EDFS 2017\"}, {\"type\": \"course\", \"code\": \"EDFS 2018\"}, {\"type\": \"course\", \"code\": \"EDFS 2019\"}, {\"type\": \"course\", \"code\": \"EDFS 2020\"}, {\"type\": \"course\", \"code\": \"EDFS 2021\"}, {\"type\": \"course\", \"code\": \"EDFS 2022\"}, {\"type\": \"course\", \"code\": \"EDFS 2023\"}, {\"type\": \"course\", \"code\": \"EDFS 2024\"}, {\"type\": \"course\", \"code\": \"EDFS 2025\"}, {\"type\": \"course\", \"code\": \"EDFS 2026\"}, {\"type\": \"course\", \"code\": \"EDFS 2027\"}, {\"type\": \"course\", \"code\": \"EDFS 2028\"}, {\"type\": \"course\", \"code\": \"EDFS 2029\"}, {\"type\": \"course\", \"code\": \"EDFS 2030\"}, {\"type\": \"course\", \"code\": \"EDFS 2031\"}, {\"type\": \"course\", \"code\": \"EDFS 2032\"}, {\"type\": \"course\", \"code\": \"EDFS 2033\"}, {\"type\": \"course\", \"code\": \"EDFS 2034\"}, {\"type\": \"course\", \"code\": \"EDFS 2035\"}, {\"type\": \"course\", \"code\": \"EDFS 2036\"}, {\"type\": \"course\", \"code\": \"EDFS 2037\"}, {\"type\": \"course\", \"code\": \"EDFS 2038\"}, {\"type\": \"course\", \"code\": \"EDFS 2039\"}, {\"type\": \"course\", \"code\": \"EDFS 2040\"}, {\"type\": \"course\", \"code\": \"EDFS 2041\"}, {\"type\": \"course\", \"code\": \"EDFS 2042\"}, {\"type\": \"course\", \"code\": \"EDFS 2043\"}, {\"type\": \"course\", \"code\": \"EDFS 2044\"}, {\"type\": \"course\", \"code\": \"EDFS 2045\"}, {\"type\": \"course\", \"code\": \"EDFS 2046\"}, {\"type\": \"course\", \"code\": \"EDFS 2047\"}, {\"type\": \"course\", \"code\": \"EDFS 2048\"}, {\"type\": \"course\", \"code\": \"EDFS 2049\"}, {\"type\": \"course\", \"code\": \"EDFS 2050\"}, {\"type\": \"course\", \"code\": \"EDFS 2051\"}, {\"type\": \"course\", \"code\": \"EDFS 2052\"}, {\"type\": \"course\", \"code\": \"EDFS 2053\"}, {\"type\": \"course\", \"code\": \"EDFS 2054\"}, {\"type\": \"course\", \"code\": \"EDFS 2055\"}, {\"type\": \"course\", \"code\": \"EDFS 2056\"}, {\"type\": \"course\", \"code\": \"EDFS 2057\"}, {\"type\": \"course\", \"code\": \"EDFS 2058\"}, {\"type\": \"course\", \"code\": \"EDFS 2059\"}, {\"type\": \"course\", \"code\": \"EDFS 2060\"}, {\"type\": \"course\", \"code\": \"EDFS 2061\"}, {\"type\": \"course\", \"code\": \"EDFS 2062\"}, {\"type\": \"course\", \"code\": \"EDFS 2063\"}, {\"type\": \"course\", \"code\": \"EDFS 2064\"}, {\"type\": \"course\", \"code\": \"EDFS 2065\"}, {\"type\": \"course\", \"code\": \"EDFS 2066\"}, {\"type\": \"course\", \"code\": \"EDFS 2067\"}, {\"type\": \"course\", \"code\": \"EDFS 2068\"}, {\"type\": \"course\", \"code\": \"EDFS 2069\"}, {\"type\": \"course\", \"code\": \"EDFS 2070\"}, {\"type\": \"course\", \"code\": \"EDFS 2071\"}, {\"type\": \"course\", \"code\": \"EDFS 2072\"}, {\"type\": \"course\", \"code\": \"EDFS 2073\"}, {\"type\": \"course\", \"code\": \"EDFS 2074\"}, {\"type\": \"course\", \"code\": \"EDFS 2075\"}, {\"type\": \"course\", \"code\": \"EDFS 2076\"}, {\"type\": \"course\", \"code\": \"EDFS 2077\"}, {\"type\": \"course\", \"code\": \"EDFS 2078\"}, {\"type\": \"course\", \"code\": \"EDFS 2079\"}, {\"type\": \"course\", \"code\": \"EDFS 2080\"}, {\"type\": \"course\", \"code\": \"EDFS 2081\"}, {\"type\": \"course\", \"code\": \"EDFS 2082\"}, {\"type\": \"course\", \"code\": \"EDFS 2083\"}, {\"type\": \"course\", \"code\": \"EDFS 2084\"}, {\"type\": \"course\", \"code\": \"EDFS 2085\"}, {\"type\": \"course\", \"code\": \"EDFS 2086\"}, {\"type\": \"course\", \"code\": \"EDFS 2087\"}, {\"type\": \"course\", \"code\": \"EDFS 2088\"}, {\"type\": \"course\", \"code\": \"EDFS 2089\"}, {\"type\": \"course\", \"code\": \"EDFS 2090\"}, {\"type\": \"course\", \"code\": \"EDFS 2091\"}, {\"type\": \"course\", \"code\": \"EDFS 2092\"}, {\"type\": \"course\", \"code\": \"EDFS 2093\"}, {\"type\": \"course\", \"code\": \"EDFS 2094\"}, {\"type\": \"course\", \"code\": \"EDFS 2095\"}, {\"type\": \"course\", \"code\": \"EDFS 2096\"}, {\"type\": \"course\", \"code\": \"EDFS 2097\"}, {\"type\": \"course\", \"code\": \"EDFS 2098\"}, {\"type\": \"course\", \"code\": \"EDFS 2099\"}]}",
-      "other_requirements": "Open to degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "EDFS 1990",
-      "course_code": "EDFS 1990",
-      "department": "EDFS",
-      "title": "Unplugged",
-      "credit_hours": "3",
-      "description": "See Schedule of Course for specific titles.",
+      "description": "Seminars and research projects. Methods of historical, descriptive, experimental, quasi-experimental, field studies, and survey research.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -79,67 +123,23 @@
       "external": false
     },
     {
-      "id": "EDFS 3090",
-      "course_code": "EDFS 3090",
+      "id": "EDFS 6993",
+      "course_code": "EDFS 6993",
       "department": "EDFS",
-      "title": "Intro to Research Methods",
+      "title": "Independent Study",
       "credit_hours": "3",
-      "description": "Seminars and research projects. Methods of historical, descriptive, experimental, quasi-experimental, field studies, and survey research.",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
-      "other_requirements": null,
+      "other_requirements": "Instructor Permission Only. Offered at department discretion.",
       "external": false
     },
     {
-      "id": "EDFS 3991",
-      "course_code": "EDFS 3991",
+      "id": "EDFS 2994",
+      "course_code": "EDFS 2994",
       "department": "EDFS",
-      "title": "Internship",
-      "credit_hours": "3",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Prerequisite: Permission of the Coordinator of Professional Laboratory Experiences.",
-      "prereq_expression": null,
-      "other_requirements": "Permission of the Coordinator of Professional Laboratory Experiences.",
-      "external": false
-    },
-    {
-      "id": "EDFS 2995",
-      "course_code": "EDFS 2995",
-      "department": "EDFS",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "EDFS 1991",
-      "course_code": "EDFS 1991",
-      "department": "EDFS",
-      "title": "Internship",
+      "title": "Teach Asst: Foundations of Ed",
       "credit_hours": "1 to 3",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDFS 1991\"}, {\"type\": \"course\", \"code\": \"Sophomore standing\"}]}",
-      "other_requirements": "Instructor permission; Students must be volunteering, tutoring, or working at a PreK-12 school setting.",
-      "external": false
-    },
-    {
-      "id": "EDFS 6391",
-      "course_code": "EDFS 6391",
-      "department": "EDFS",
-      "title": "Master's Thesis Research",
-      "credit_hours": "6",
-      "description": "Research for the Master's Thesis. Thesis topic must be approved by a faculty committee.",
-      "prereq_expression": null,
-      "other_requirements": "Thesis topic must be approved by a faculty committee. Instructor Permission Only",
-      "external": false
-    },
-    {
-      "id": "EDFS 1010",
-      "course_code": "EDFS 1010",
-      "department": "EDFS",
-      "title": "Race and Racism in the U.S.",
-      "credit_hours": "3",
-      "description": "Students will investigate the multi-faceted concepts of identity, racism, and the dynamics of power, privilege, and oppression in the United States.",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -148,7 +148,8 @@
   "edges": [
     {
       "source": "EDFS 1991",
-      "target": "EDFS 1991"
+      "target": "EDFS 1991",
+      "group": "EDFS 1991__g0"
     }
   ]
 }

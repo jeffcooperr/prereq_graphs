@@ -2,14 +2,25 @@
   "department": "ECSP",
   "nodes": [
     {
-      "id": "ECSP 3120",
-      "course_code": "ECSP 3120",
+      "id": "ECSP 2100",
+      "course_code": "ECSP 2100",
       "department": "ECSP",
-      "title": "Assessment in EI/ECSE",
-      "credit_hours": "3 to 4",
-      "description": "Overview of the strengths and limitations of traditional and nontraditional assessments; legal responsibilities, eligibility, family, and cultural aspects. Three credits, four credits for Early Childhood Special Education majors with 30-hour field experience. Prerequisites: Early Childhood Special Education undergraduate students or with Instructor permission. Pre/Co-requisites: Early Childhood Special Education major; instructor permission required for Special Education minors.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ECSP 3120\"}, {\"type\": \"course\", \"code\": \"ECSP 3120\"}]}",
-      "other_requirements": "Instructor permission. Early Childhood Special Education undergraduate students or with Instructor permission. Pre/Co-requisites: Early Childhood Special Education major; instructor permission required for Special Education minors.",
+      "title": "Indiv Prac for Inclusion",
+      "credit_hours": "3",
+      "description": "Focuses on the learning and development needs of children with or AT - risk for disabilities and other diverse young learners within inclusive early childhood settings.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ECSP 2100\"}, {\"type\": \"course\", \"code\": \"SPED 2100\"}]}",
+      "other_requirements": "ECP majors or SPED minors only, or instructor permission.",
+      "external": false
+    },
+    {
+      "id": "ECSP 6991",
+      "course_code": "ECSP 6991",
+      "department": "ECSP",
+      "title": "Internship: EI/ECSE",
+      "credit_hours": "1 to 18",
+      "description": "Provides opportunity to integrate, deepen and challenge students' understanding of the multiple roles of early childhood special educators and early interventionists in their efforts to support infants, toddlers and/or preschoolers with diverse abilities and their families in a variety of contexts. Prerequisites: <a href=\"/search/?p=ECSP%205110\" data-action=\"result-detail\" data-group=\"code:ECSP 5110\"  class=\"notoffered\">ECSP 5110</a>, <a href=\"/search/?p=ECSP%206100\" data-action=\"result-detail\" data-group=\"code:ECSP 6100\" >ECSP 6100</a>, <a href=\"/search/?p=ECSP%206120\" data-action=\"result-detail\" data-group=\"code:ECSP 6120\"  class=\"notoffered\">ECSP 6120</a>. Pre/Co-requisites: <a href=\"/search/?p=ECSP%205110\" data-action=\"result-detail\" data-group=\"code:ECSP 5110\"  class=\"notoffered\">ECSP 5110</a>, <a href=\"/search/?p=ECSP%206100\" data-action=\"result-detail\" data-group=\"code:ECSP 6100\" >ECSP 6100</a>, <a href=\"/search/?p=ECSP%206120\" data-action=\"result-detail\" data-group=\"code:ECSP 6120\"  class=\"notoffered\">ECSP 6120</a>; Praxis Core requirement fulfilled; GPA of at least 3.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECSP 5110\"}, {\"type\": \"course\", \"code\": \"ECSP 6100\"}, {\"type\": \"course\", \"code\": \"ECSP 6120\"}]}",
+      "other_requirements": "Praxis Core requirement fulfilled; GPA of at least 3; Graduate Students Only",
       "external": false
     },
     {
@@ -35,44 +46,37 @@
       "external": false
     },
     {
-      "id": "ECSP 6991",
-      "course_code": "ECSP 6991",
+      "id": "ECSP 3120",
+      "course_code": "ECSP 3120",
       "department": "ECSP",
-      "title": "Internship: EI/ECSE",
-      "credit_hours": "1 to 18",
-      "description": "Provides opportunity to integrate, deepen and challenge students' understanding of the multiple roles of early childhood special educators and early interventionists in their efforts to support infants, toddlers and/or preschoolers with diverse abilities and their families in a variety of contexts. Prerequisites: <a href=\"/search/?p=ECSP%205110\" data-action=\"result-detail\" data-group=\"code:ECSP 5110\"  class=\"notoffered\">ECSP 5110</a>, <a href=\"/search/?p=ECSP%206100\" data-action=\"result-detail\" data-group=\"code:ECSP 6100\" >ECSP 6100</a>, <a href=\"/search/?p=ECSP%206120\" data-action=\"result-detail\" data-group=\"code:ECSP 6120\"  class=\"notoffered\">ECSP 6120</a>. Pre/Co-requisites: <a href=\"/search/?p=ECSP%205110\" data-action=\"result-detail\" data-group=\"code:ECSP 5110\"  class=\"notoffered\">ECSP 5110</a>, <a href=\"/search/?p=ECSP%206100\" data-action=\"result-detail\" data-group=\"code:ECSP 6100\" >ECSP 6100</a>, <a href=\"/search/?p=ECSP%206120\" data-action=\"result-detail\" data-group=\"code:ECSP 6120\"  class=\"notoffered\">ECSP 6120</a>; Praxis Core requirement fulfilled; GPA of at least 3.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECSP 5110\"}, {\"type\": \"course\", \"code\": \"ECSP 6100\"}, {\"type\": \"course\", \"code\": \"ECSP 6120\"}]}",
-      "other_requirements": "Praxis Core requirement fulfilled; GPA of at least 3; Graduate Students Only",
-      "external": false
-    },
-    {
-      "id": "ECSP 2100",
-      "course_code": "ECSP 2100",
-      "department": "ECSP",
-      "title": "Indiv Prac for Inclusion",
-      "credit_hours": "3",
-      "description": "Focuses on the learning and development needs of children with or AT - risk for disabilities and other diverse young learners within inclusive early childhood settings.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ECSP 2100\"}, {\"type\": \"course\", \"code\": \"SPED 2100\"}]}",
-      "other_requirements": "ECP majors or SPED minors only, or instructor permission.",
+      "title": "Assessment in EI/ECSE",
+      "credit_hours": "3 to 4",
+      "description": "Overview of the strengths and limitations of traditional and nontraditional assessments; legal responsibilities, eligibility, family, and cultural aspects. Three credits, four credits for Early Childhood Special Education majors with 30-hour field experience. Prerequisites: Early Childhood Special Education undergraduate students or with Instructor permission. Pre/Co-requisites: Early Childhood Special Education major; instructor permission required for Special Education minors.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ECSP 3120\"}, {\"type\": \"course\", \"code\": \"ECSP 3120\"}]}",
+      "other_requirements": "Instructor permission. Early Childhood Special Education undergraduate students or with Instructor permission. Pre/Co-requisites: Early Childhood Special Education major; instructor permission required for Special Education minors.",
       "external": false
     }
   ],
   "edges": [
     {
       "source": "ECSP 2100",
-      "target": "ECSP 2100"
+      "target": "ECSP 2100",
+      "group": "ECSP 2100__g0"
     },
     {
       "source": "ECSP 3120",
-      "target": "ECSP 3120"
+      "target": "ECSP 3120",
+      "group": "ECSP 3120__g0"
     },
     {
       "source": "ECSP 5110",
-      "target": "ECSP 6991"
+      "target": "ECSP 6991",
+      "group": null
     },
     {
       "source": "ECSP 6100",
-      "target": "ECSP 6991"
+      "target": "ECSP 6991",
+      "group": null
     }
   ]
 }

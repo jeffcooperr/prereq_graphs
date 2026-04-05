@@ -2,6 +2,50 @@
   "department": "GEOL",
   "nodes": [
     {
+      "id": "GEOL 3991",
+      "course_code": "GEOL 3991",
+      "department": "GEOL",
+      "title": "Internship",
+      "credit_hours": "3",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "GEOL 2410",
+      "course_code": "GEOL 2410",
+      "department": "GEOL",
+      "title": "Geohealth",
+      "credit_hours": "3",
+      "description": "Exploration of the relationships between human health and geologic processes and materials, highlighting interfaces between the geosphere, hydrosphere, atmosphere, and biosphere. Examination of links between geologic processes and potential health hazards to which humans are exposed by air, food, water, or soil. Application of foundations of geologic and geochemical knowledge that affect health outcomes to understand impacts of natural and anthropogenic processes on public health and issues related to testing and regulation. Prerequisites: A Catamount Core N1 or N2 course, <a href=\"/search/?p=ENVS%201500\" data-action=\"result-detail\" data-group=\"code:ENVS 1500\"  class=\"notoffered\">ENVS 1500</a>, <a href=\"/search/?p=HSCI%201100\" data-action=\"result-detail\" data-group=\"code:HSCI 1100\" >HSCI 1100</a>, or <a href=\"/search/?p=HSOC%201700\" data-action=\"result-detail\" data-group=\"code:HSOC 1700\"  class=\"notoffered\">HSOC 1700</a>. Cross-listed with: <a href=\"/search/?p=ENVS%202630\" data-action=\"result-detail\" data-group=\"code:ENVS 2630\" >ENVS 2630</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ENVS 1500\"}, {\"type\": \"course\", \"code\": \"HSCI 1100\"}, {\"type\": \"course\", \"code\": \"HSOC 1700\"}]}",
+      "other_requirements": "A Catamount Core N1 or N2 course, PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "HSCI 1100",
+      "course_code": "HSCI 1100",
+      "department": "HSCI",
+      "title": "CL:Introduction to Public Hlth",
+      "credit_hours": "3",
+      "description": "An introductory investigation of public health that explores the development and scope of the discipline of public health, and issues that have been raised with regard to the practice of public health.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "GEOL 3995",
+      "course_code": "GEOL 3995",
+      "department": "GEOL",
+      "title": "Undergraduate Research",
+      "credit_hours": "3",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
       "id": "GEOL 3515",
       "course_code": "GEOL 3515",
       "department": "GEOL",
@@ -24,17 +68,6 @@
       "external": false
     },
     {
-      "id": "GEOL 2405",
-      "course_code": "GEOL 2405",
-      "department": "GEOL",
-      "title": "Environmental Geochemistry",
-      "credit_hours": "3",
-      "description": "Application of many basic principles of chemistry to selected environmental problems in geosciences (e.g. acid mine drainage, carbon dynamics, weathering, and contaminant metal mobility). No laboratory. Credit not awarded for both GEOL 2405 and <a href=\"/search/?p=GEOL%203405\" data-action=\"result-detail\" data-group=\"code:GEOL 3405\"  class=\"notoffered\">GEOL 3405</a>. Prerequisite: A Catamount Core N1, N2, or MA course.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"Catamount Core N1\"}, {\"type\": \"course\", \"code\": \"Catamount Core N2\"}, {\"type\": \"course\", \"code\": \"Catamount Core MA\"}]}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
       "id": "GEOL 1040",
       "course_code": "GEOL 1040",
       "department": "GEOL",
@@ -46,56 +79,12 @@
       "external": false
     },
     {
-      "id": "GEOL 3995",
-      "course_code": "GEOL 3995",
-      "department": "GEOL",
-      "title": "Undergraduate Research",
-      "credit_hours": "3",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
       "id": "GEOL 4996",
       "course_code": "GEOL 4996",
       "department": "GEOL",
       "title": "Honors",
       "credit_hours": "1 to 6",
       "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "HSCI 1100",
-      "course_code": "HSCI 1100",
-      "department": "HSCI",
-      "title": "CL:Introduction to Public Hlth",
-      "credit_hours": "3",
-      "description": "An introductory investigation of public health that explores the development and scope of the discipline of public health, and issues that have been raised with regard to the practice of public health.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "GEOL 3105",
-      "course_code": "GEOL 3105",
-      "department": "GEOL",
-      "title": "Earth Materials w/lab",
-      "credit_hours": "4",
-      "description": "Exploration of the building blocks of the Earth (elements, minerals, and rocks) and their connection to the Earth's past, present, and possible sustainable future. With laboratory. Credit not awarded for both GEOL 3105 and <a href=\"/search/?p=GEOL%202105\" data-action=\"result-detail\" data-group=\"code:GEOL 2105\"  class=\"notoffered\">GEOL 2105</a>. Prerequisites: <a href=\"/search/?p=GEOL%201100\" data-action=\"result-detail\" data-group=\"code:GEOL 1100\"  class=\"notoffered\">GEOL 1100</a>, <a href=\"/search/?p=GEOL%201400\" data-action=\"result-detail\" data-group=\"code:GEOL 1400\" >GEOL 1400</a>, or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GEOL 1100\"}, {\"type\": \"course\", \"code\": \"GEOL 1400\"}]}",
-      "other_requirements": "Instructor permission. PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "GEOL 3991",
-      "course_code": "GEOL 3991",
-      "department": "GEOL",
-      "title": "Internship",
-      "credit_hours": "3",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": "Instructor permission required",
       "external": false
@@ -112,13 +101,24 @@
       "external": false
     },
     {
-      "id": "GEOL 6993",
-      "course_code": "GEOL 6993",
+      "id": "GEOL 4994",
+      "course_code": "GEOL 4994",
       "department": "GEOL",
-      "title": "Independent Study",
-      "credit_hours": "1 to 18",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "title": "Teaching Assistantship",
+      "credit_hours": "3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "GEOL 4110",
+      "course_code": "GEOL 4110",
+      "department": "GEOL",
+      "title": "Rock Chronicles",
+      "credit_hours": "3",
+      "description": "Learn to reconstruct sagas of the solid Earth using a wide variety of evidence, often cryptic, preserved by rocks over the course of their fascinating tectonic histories. Learn to apply fundamental concepts of metamorphism and deformation to the discovery and interpretation of mineral assemblages and textures as clues to these histories via microscopy and assorted analytical techniques. Further explore methods by which absolute timing and rates of geologic processes can be quantified. Prerequisite: <a href=\"/search/?p=GEOL%202105\" data-action=\"result-detail\" data-group=\"code:GEOL 2105\"  class=\"notoffered\">GEOL 2105</a> or <a href=\"/search/?p=GEOL%203105\" data-action=\"result-detail\" data-group=\"code:GEOL 3105\"  class=\"notoffered\">GEOL 3105</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GEOL 2105\"}, {\"type\": \"course\", \"code\": \"GEOL 3105\"}]}",
       "other_requirements": null,
       "external": false
     },
@@ -145,17 +145,6 @@
       "external": true
     },
     {
-      "id": "GEOL 4110",
-      "course_code": "GEOL 4110",
-      "department": "GEOL",
-      "title": "Rock Chronicles",
-      "credit_hours": "3",
-      "description": "Learn to reconstruct sagas of the solid Earth using a wide variety of evidence, often cryptic, preserved by rocks over the course of their fascinating tectonic histories. Learn to apply fundamental concepts of metamorphism and deformation to the discovery and interpretation of mineral assemblages and textures as clues to these histories via microscopy and assorted analytical techniques. Further explore methods by which absolute timing and rates of geologic processes can be quantified. Prerequisite: <a href=\"/search/?p=GEOL%202105\" data-action=\"result-detail\" data-group=\"code:GEOL 2105\"  class=\"notoffered\">GEOL 2105</a> or <a href=\"/search/?p=GEOL%203105\" data-action=\"result-detail\" data-group=\"code:GEOL 3105\"  class=\"notoffered\">GEOL 3105</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GEOL 2105\"}, {\"type\": \"course\", \"code\": \"GEOL 3105\"}]}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
       "id": "ENVS 1500",
       "course_code": "ENVS 1500",
       "department": "ENVS",
@@ -165,28 +154,6 @@
       "prereq_expression": null,
       "other_requirements": null,
       "external": true
-    },
-    {
-      "id": "GEOL 2525",
-      "course_code": "GEOL 2525",
-      "department": "GEOL",
-      "title": "Geocomputing",
-      "credit_hours": "3",
-      "description": "Introduction to a variety of computing tools commonly used in sciences and geosciences in particular. Hands-on experience; real data are used to resolve specific problems. Prerequisite: A Catamount Core N1 or N2 course.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GEOL 1010\"}, {\"type\": \"course\", \"code\": \"GEOL 1015\"}]}",
-      "other_requirements": "Minimum sophomore standing. PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "GEOL 2410",
-      "course_code": "GEOL 2410",
-      "department": "GEOL",
-      "title": "Geohealth",
-      "credit_hours": "3",
-      "description": "Exploration of the relationships between human health and geologic processes and materials, highlighting interfaces between the geosphere, hydrosphere, atmosphere, and biosphere. Examination of links between geologic processes and potential health hazards to which humans are exposed by air, food, water, or soil. Application of foundations of geologic and geochemical knowledge that affect health outcomes to understand impacts of natural and anthropogenic processes on public health and issues related to testing and regulation. Prerequisites: A Catamount Core N1 or N2 course, <a href=\"/search/?p=ENVS%201500\" data-action=\"result-detail\" data-group=\"code:ENVS 1500\"  class=\"notoffered\">ENVS 1500</a>, <a href=\"/search/?p=HSCI%201100\" data-action=\"result-detail\" data-group=\"code:HSCI 1100\" >HSCI 1100</a>, or <a href=\"/search/?p=HSOC%201700\" data-action=\"result-detail\" data-group=\"code:HSOC 1700\"  class=\"notoffered\">HSOC 1700</a>. Cross-listed with: <a href=\"/search/?p=ENVS%202630\" data-action=\"result-detail\" data-group=\"code:ENVS 2630\" >ENVS 2630</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ENVS 1500\"}, {\"type\": \"course\", \"code\": \"HSCI 1100\"}, {\"type\": \"course\", \"code\": \"HSOC 1700\"}]}",
-      "other_requirements": "A Catamount Core N1 or N2 course, PACE students with permission and override",
-      "external": false
     },
     {
       "id": "GEOG 1200",
@@ -211,53 +178,95 @@
       "external": false
     },
     {
-      "id": "GEOL 4994",
-      "course_code": "GEOL 4994",
+      "id": "GEOL 6993",
+      "course_code": "GEOL 6993",
       "department": "GEOL",
-      "title": "Teaching Assistantship",
-      "credit_hours": "3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GEOL 2405",
+      "course_code": "GEOL 2405",
+      "department": "GEOL",
+      "title": "Environmental Geochemistry",
+      "credit_hours": "3",
+      "description": "Application of many basic principles of chemistry to selected environmental problems in geosciences (e.g. acid mine drainage, carbon dynamics, weathering, and contaminant metal mobility). No laboratory. Credit not awarded for both GEOL 2405 and <a href=\"/search/?p=GEOL%203405\" data-action=\"result-detail\" data-group=\"code:GEOL 3405\"  class=\"notoffered\">GEOL 3405</a>. Prerequisite: A Catamount Core N1, N2, or MA course.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"Catamount Core N1\"}, {\"type\": \"course\", \"code\": \"Catamount Core N2\"}, {\"type\": \"course\", \"code\": \"Catamount Core MA\"}]}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GEOL 2525",
+      "course_code": "GEOL 2525",
+      "department": "GEOL",
+      "title": "Geocomputing",
+      "credit_hours": "3",
+      "description": "Introduction to a variety of computing tools commonly used in sciences and geosciences in particular. Hands-on experience; real data are used to resolve specific problems. Prerequisite: A Catamount Core N1 or N2 course.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GEOL 1010\"}, {\"type\": \"course\", \"code\": \"GEOL 1015\"}]}",
+      "other_requirements": "Minimum sophomore standing. PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "GEOL 3105",
+      "course_code": "GEOL 3105",
+      "department": "GEOL",
+      "title": "Earth Materials w/lab",
+      "credit_hours": "4",
+      "description": "Exploration of the building blocks of the Earth (elements, minerals, and rocks) and their connection to the Earth's past, present, and possible sustainable future. With laboratory. Credit not awarded for both GEOL 3105 and <a href=\"/search/?p=GEOL%202105\" data-action=\"result-detail\" data-group=\"code:GEOL 2105\"  class=\"notoffered\">GEOL 2105</a>. Prerequisites: <a href=\"/search/?p=GEOL%201100\" data-action=\"result-detail\" data-group=\"code:GEOL 1100\"  class=\"notoffered\">GEOL 1100</a>, <a href=\"/search/?p=GEOL%201400\" data-action=\"result-detail\" data-group=\"code:GEOL 1400\" >GEOL 1400</a>, or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GEOL 1100\"}, {\"type\": \"course\", \"code\": \"GEOL 1400\"}]}",
+      "other_requirements": "Instructor permission. PACE students with permission and override",
       "external": false
     }
   ],
   "edges": [
     {
       "source": "ENVS 1500",
-      "target": "GEOL 2410"
+      "target": "GEOL 2410",
+      "group": "GEOL 2410__g0"
     },
     {
       "source": "GEOG 1200",
-      "target": "GEOL 3515"
+      "target": "GEOL 3515",
+      "group": "GEOL 3515__g0"
     },
     {
       "source": "GEOL 1100",
-      "target": "GEOL 3105"
+      "target": "GEOL 3105",
+      "group": "GEOL 3105__g0"
     },
     {
       "source": "GEOL 1100",
-      "target": "GEOL 3515"
+      "target": "GEOL 3515",
+      "group": "GEOL 3515__g0"
     },
     {
       "source": "GEOL 1400",
-      "target": "GEOL 3105"
+      "target": "GEOL 3105",
+      "group": "GEOL 3105__g0"
     },
     {
       "source": "GEOL 1400",
-      "target": "GEOL 3515"
+      "target": "GEOL 3515",
+      "group": "GEOL 3515__g0"
     },
     {
       "source": "GEOL 3105",
-      "target": "GEOL 4110"
+      "target": "GEOL 4110",
+      "group": "GEOL 4110__g0"
     },
     {
       "source": "HSCI 1100",
-      "target": "GEOL 2410"
+      "target": "GEOL 2410",
+      "group": "GEOL 2410__g0"
     },
     {
       "source": "HSOC 1700",
-      "target": "GEOL 2410"
+      "target": "GEOL 2410",
+      "group": "GEOL 2410__g0"
     }
   ]
 }

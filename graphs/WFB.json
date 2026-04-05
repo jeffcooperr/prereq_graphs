@@ -2,25 +2,69 @@
   "department": "WFB",
   "nodes": [
     {
-      "id": "WFB 4610",
-      "course_code": "WFB 4610",
+      "id": "WFB 4830",
+      "course_code": "WFB 4830",
       "department": "WFB",
-      "title": "Fisheries Management",
-      "credit_hours": "3",
-      "description": "Principles of fisheries management, including population assessment, analytical methods, harvest allocation models, human dimensions, policy and emerging issues. Prerequisites: <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\"  class=\"notoffered\">BIOL 1400</a>, or <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\"  class=\"notoffered\">BCOR 1400</a>; <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a> or <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>; <a href=\"/search/?p=WFB%203610\" data-action=\"result-detail\" data-group=\"code:WFB 3610\"  class=\"notoffered\">WFB 3610</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}, {\"type\": \"course\", \"code\": \"WFB 3610\"}]}",
-      "other_requirements": "Students are expected to apply the skills learned in WFB 2170 (Scientific Writing) in all submitted assignments.",
+      "title": "Terrestrial Wildlife Ecology",
+      "credit_hours": "4",
+      "description": "Wildlife ecology with an emphasis on the management and conservation of species, populations, and ecosystems. Prerequisites: <a href=\"/search/?p=WFB%202740\" data-action=\"result-detail\" data-group=\"code:WFB 2740\"  class=\"notoffered\">WFB 2740</a>; <a href=\"/search/?p=NR%202030\" data-action=\"result-detail\" data-group=\"code:NR 2030\" >NR 2030</a> or <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"WFB 2740\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 2030\"}, {\"type\": \"course\", \"code\": \"BCOR 2100\"}]}]}",
+      "other_requirements": null,
       "external": false
     },
     {
-      "id": "WFB 4990",
-      "course_code": "WFB 4990",
+      "id": "WFB 3240",
+      "course_code": "WFB 3240",
       "department": "WFB",
-      "title": "SL:Applied Land Manag-Wildlif",
+      "title": "Conservation Biology",
       "credit_hours": "4",
-      "description": "See Schedule of Courses for specific titles.",
+      "description": "Conservation of biological diversity at genetic, species, ecosystem, and landscape levels. Emphasis on genetic diversity, population viability, endangered species, critical habitats, international implications. Discussion section covers basic genetic principles, population genetics, and population modeling. Prerequisites: <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>; <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, or <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}]}",
+      "other_requirements": "Must register for a Lab WFB 3240: A01,A02,A03;",
+      "external": false
+    },
+    {
+      "id": "WFB 4996",
+      "course_code": "WFB 4996",
+      "department": "WFB",
+      "title": "Wildlife & Fisheries Honors",
+      "credit_hours": "1 to 6",
+      "description": "Honors course.",
       "prereq_expression": null,
-      "other_requirements": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "WFB 3300",
+      "course_code": "WFB 3300",
+      "department": "WFB",
+      "title": "Human Wildlife Coexistence",
+      "credit_hours": "3",
+      "description": "Explores the challenges and opportunities of human-wildlife coexistence across ecological, cultural, ethical, and political dimensions. Students will engage with key theories, real-world case studies, creative reflections, and practitioner insights to better understand how humans and wildlife share space in today's changing world. Emphasizing sustainability, global citizenship, and the diversity of human experience, the course highlights cultural values, ethical complexities, and community contexts that shape coexistence practices around the world. Prerequisite: Minimum Junior standing.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Junior standing.",
+      "external": false
+    },
+    {
+      "id": "WFB 2740",
+      "course_code": "WFB 2740",
+      "department": "WFB",
+      "title": "Prin of Wildlife Management",
+      "credit_hours": "3",
+      "description": "Application of ecology and sociology to the management of wildlife populations and habitat; integration of wildlife management with demands for other resources; consideration of game species, endangered species, and biological diversity. Prerequisite: <a href=\"/search/?p=NR%202030\" data-action=\"result-detail\" data-group=\"code:NR 2030\" >NR 2030</a> or <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 2030\"}, {\"type\": \"course\", \"code\": \"BCOR 2100\"}]}",
+      "other_requirements": "Open to Degree and PACE students.",
+      "external": false
+    },
+    {
+      "id": "WFB 3996",
+      "course_code": "WFB 3996",
+      "department": "WFB",
+      "title": "Wildlife & Fisheries Honors",
+      "credit_hours": "1 to 6",
+      "description": "Honors project dealing with wildlife or fisheries biology.",
+      "prereq_expression": null,
+      "other_requirements": "Permission of Program Chair required; WFB majors only",
       "external": false
     },
     {
@@ -35,6 +79,105 @@
       "external": false
     },
     {
+      "id": "WFB 2410",
+      "course_code": "WFB 2410",
+      "department": "WFB",
+      "title": "Field Herpetology",
+      "credit_hours": "4",
+      "description": "Introduction to the identification, life histories, habitats, conservation, and field study of Vermont's reptiles and amphibians.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "BCOR 2100",
+      "course_code": "BCOR 2100",
+      "department": "BCOR",
+      "title": "Ecology and Evolution",
+      "credit_hours": "4",
+      "description": "Ecosystem and community structure, population growth, species interactions and niche dynamics, population and chromosomal genetics, speciation in fossil records, ecology of animal behavior, applied ecology. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1000\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}]}",
+      "other_requirements": "PACE students with permission and override.",
+      "external": true
+    },
+    {
+      "id": "WFB 1740",
+      "course_code": "WFB 1740",
+      "department": "WFB",
+      "title": "Wildlife Conservation",
+      "credit_hours": "3",
+      "description": "Historical and contemporary values of wildlife; impacts on habitats and populations; strategies for conservation, allocation, and use. Nonmajors only.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "WFB 2995",
+      "course_code": "WFB 2995",
+      "department": "WFB",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small research projects under the supervision of a faculty member for which credit is awarded. Formal report required. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum junior standing; Permission required (must submit project prospectus)",
+      "external": false
+    },
+    {
+      "id": "WFB 3993",
+      "course_code": "WFB 3993",
+      "department": "WFB",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Application and Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "BCOR 1450",
+      "course_code": "BCOR 1450",
+      "department": "BCOR",
+      "title": "Exploring Biology 2",
+      "credit_hours": "4",
+      "description": "An evolutionary perspective to exploring biology. Topics include: patterns of inheritance, Darwinian evolution, evolution of biodiversity, ecology of organisms, human effects on biological systems. Credit not awarded for both BCOR 1450 and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "WFB 3995",
+      "course_code": "WFB 3995",
+      "department": "WFB",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Junior standing; Permission required (must submit project prospectus)",
+      "external": false
+    },
+    {
+      "id": "WFB 4610",
+      "course_code": "WFB 4610",
+      "department": "WFB",
+      "title": "Fisheries Management",
+      "credit_hours": "3",
+      "description": "Principles of fisheries management, including population assessment, analytical methods, harvest allocation models, human dimensions, policy and emerging issues. Prerequisites: <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\"  class=\"notoffered\">BIOL 1400</a>, or <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\"  class=\"notoffered\">BCOR 1400</a>; <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a> or <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>; <a href=\"/search/?p=WFB%203610\" data-action=\"result-detail\" data-group=\"code:WFB 3610\"  class=\"notoffered\">WFB 3610</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}, {\"type\": \"course\", \"code\": \"WFB 3610\"}]}",
+      "other_requirements": "Students are expected to apply the skills learned in WFB 2170 (Scientific Writing) in all submitted assignments.",
+      "external": false
+    },
+    {
+      "id": "BIOL 1450",
+      "course_code": "BIOL 1450",
+      "department": "BIOL",
+      "title": "Principles of Biology 2",
+      "credit_hours": "4",
+      "description": "Principles of organismal biology; nature of scientific inquiry, plant form and function, pollination ecology, animal phylogeny illustrated by comparative anatomy and physiology; animal behavior. Credit not awarded for both BIOL 1450 and <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>.",
+      "prereq_expression": null,
+      "other_requirements": "ASCI, BIOL, BISC, MGEN, MICR, NEUR, PBIO, ZOOL majors should register for BCOR 1450; Degree students only even after level restrictions removed; Post Bac Pre med students register for BIOL 1450",
+      "external": true
+    },
+    {
       "id": "WFB 2993",
       "course_code": "WFB 2993",
       "department": "WFB",
@@ -43,6 +186,17 @@
       "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": "Instructor permission required and completion of an Experiential Learning plan required.",
+      "external": false
+    },
+    {
+      "id": "WFB 4750",
+      "course_code": "WFB 4750",
+      "department": "WFB",
+      "title": "Wildlife Behavior",
+      "credit_hours": "3",
+      "description": "Behavior and social organization of game and nongame species as they pertain to population management. Prerequisites: <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a> or <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>; <a href=\"/search/?p=NR%202030\" data-action=\"result-detail\" data-group=\"code:NR 2030\" >NR 2030</a> or <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 2030\"}, {\"type\": \"course\", \"code\": \"BCOR 2100\"}]}]}",
+      "other_requirements": "Open to Degree and PACE students.",
       "external": false
     },
     {
@@ -68,14 +222,36 @@
       "external": true
     },
     {
-      "id": "WFB 4996",
-      "course_code": "WFB 4996",
-      "department": "WFB",
-      "title": "Wildlife & Fisheries Honors",
-      "credit_hours": "1 to 6",
-      "description": "Honors course.",
+      "id": "BIOL 1400",
+      "course_code": "BIOL 1400",
+      "department": "BIOL",
+      "title": "Principles of Biology 1",
+      "credit_hours": "4",
+      "description": "Principles of cellular biochemistry; cell biology; genetics and evolution. Topics: biochemistry; metabolism, cell structure/function; respiration; photosynthesis; molecular, Mendelian and population genetics; genetics of evolution. Credit not awarded for both BIOL 1400 and <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
       "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
+      "other_requirements": "Credit not awarded for both BIOL 1400 and BCOR 1400 or BCOR 1425. Must register for a BIOL 1400 lab; Lab supply fee: $30; Degree students only even after level restrictions removed; Post Bac Pre Med & PACE students register for BIOL 1400 ZRA Colocated with BIOL 1400 ZRA",
+      "external": true
+    },
+    {
+      "id": "NR 2030",
+      "course_code": "NR 2030",
+      "department": "NR",
+      "title": "Ecology, Ecosystems & Environ",
+      "credit_hours": "3",
+      "description": "Major ecological concepts and their application. Analysis of form, structure, and function of organisms, populations, communities, ecosystems, and landscapes. Prerequisites: RSENR students or Agroecology or Landscape Design or Environmental Studies majors; minimum Sophomore standing.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RSENR\"}, {\"type\": \"course\", \"code\": \"AGRO\"}, {\"type\": \"course\", \"code\": \"LNDS\"}, {\"type\": \"course\", \"code\": \"ENVS\"}]}",
+      "other_requirements": "minimum Sophomore standing",
+      "external": true
+    },
+    {
+      "id": "WFB 2170",
+      "course_code": "WFB 2170",
+      "department": "WFB",
+      "title": "Scientific Writing and Interpr",
+      "credit_hours": "4",
+      "description": "Focus on effective communication within the genre of scientific research by focusing on technical writing, revising and editing, interpreting data, creating figures and tables, critically reading and data mining the literature, and producing an original scientific research manuscript. Prerequisites: <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a> or <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\"  class=\"notoffered\">BIOL 1400</a> or <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\"  class=\"notoffered\">BCOR 1400</a>; Wildlife and Fisheries Biology majors; Minimum Sophomore standing.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}]}",
+      "other_requirements": "Wildlife and Fisheries Biology majors; Minimum Sophomore standing. WFB Majors only.",
       "external": false
     },
     {
@@ -101,39 +277,6 @@
       "external": false
     },
     {
-      "id": "WFB 4750",
-      "course_code": "WFB 4750",
-      "department": "WFB",
-      "title": "Wildlife Behavior",
-      "credit_hours": "3",
-      "description": "Behavior and social organization of game and nongame species as they pertain to population management. Prerequisites: <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a> or <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>; <a href=\"/search/?p=NR%202030\" data-action=\"result-detail\" data-group=\"code:NR 2030\" >NR 2030</a> or <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 2030\"}, {\"type\": \"course\", \"code\": \"BCOR 2100\"}]}]}",
-      "other_requirements": "Open to Degree and PACE students.",
-      "external": false
-    },
-    {
-      "id": "BIOL 1450",
-      "course_code": "BIOL 1450",
-      "department": "BIOL",
-      "title": "Principles of Biology 2",
-      "credit_hours": "4",
-      "description": "Principles of organismal biology; nature of scientific inquiry, plant form and function, pollination ecology, animal phylogeny illustrated by comparative anatomy and physiology; animal behavior. Credit not awarded for both BIOL 1450 and <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>.",
-      "prereq_expression": null,
-      "other_requirements": "ASCI, BIOL, BISC, MGEN, MICR, NEUR, PBIO, ZOOL majors should register for BCOR 1450; Degree students only even after level restrictions removed; Post Bac Pre med students register for BIOL 1450",
-      "external": true
-    },
-    {
-      "id": "WFB 3993",
-      "course_code": "WFB 3993",
-      "department": "WFB",
-      "title": "Independent Study",
-      "credit_hours": "1 to 18",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Application and Instructor permission required",
-      "external": false
-    },
-    {
       "id": "WFB 2300",
       "course_code": "WFB 2300",
       "department": "WFB",
@@ -145,113 +288,25 @@
       "external": false
     },
     {
-      "id": "WFB 3240",
-      "course_code": "WFB 3240",
-      "department": "WFB",
-      "title": "Conservation Biology",
+      "id": "BCOR 1400",
+      "course_code": "BCOR 1400",
+      "department": "BCOR",
+      "title": "Exploring Biology 1",
       "credit_hours": "4",
-      "description": "Conservation of biological diversity at genetic, species, ecosystem, and landscape levels. Emphasis on genetic diversity, population viability, endangered species, critical habitats, international implications. Discussion section covers basic genetic principles, population genetics, and population modeling. Prerequisites: <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>; <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, or <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}]}",
-      "other_requirements": "Must register for a Lab WFB 3240: A01,A02,A03;",
-      "external": false
-    },
-    {
-      "id": "WFB 3996",
-      "course_code": "WFB 3996",
-      "department": "WFB",
-      "title": "Wildlife & Fisheries Honors",
-      "credit_hours": "1 to 6",
-      "description": "Honors project dealing with wildlife or fisheries biology.",
+      "description": "Exploring biology from cells to organisms.  Topics include origins of life, ancestral organisms, uni- and multi- cellular energetics, evolution of respiration and metabolism, and the genetic code. Credit not awarded for both BCOR 1400 and <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
       "prereq_expression": null,
-      "other_requirements": "Permission of Program Chair required; WFB majors only",
-      "external": false
-    },
-    {
-      "id": "BIOL 1400",
-      "course_code": "BIOL 1400",
-      "department": "BIOL",
-      "title": "Principles of Biology 1",
-      "credit_hours": "4",
-      "description": "Principles of cellular biochemistry; cell biology; genetics and evolution. Topics: biochemistry; metabolism, cell structure/function; respiration; photosynthesis; molecular, Mendelian and population genetics; genetics of evolution. Credit not awarded for both BIOL 1400 and <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Credit not awarded for both BIOL 1400 and BCOR 1400 or BCOR 1425. Must register for a BIOL 1400 lab; Lab supply fee: $30; Degree students only even after level restrictions removed; Post Bac Pre Med & PACE students register for BIOL 1400 ZRA Colocated with BIOL 1400 ZRA",
+      "other_requirements": null,
       "external": true
     },
     {
-      "id": "WFB 1740",
-      "course_code": "WFB 1740",
+      "id": "WFB 2990",
+      "course_code": "WFB 2990",
       "department": "WFB",
-      "title": "Wildlife Conservation",
+      "title": "Herpetology",
       "credit_hours": "3",
-      "description": "Historical and contemporary values of wildlife; impacts on habitats and populations; strategies for conservation, allocation, and use. Nonmajors only.",
+      "description": "See Schedule of Courses for specific titles.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "NR 2030",
-      "course_code": "NR 2030",
-      "department": "NR",
-      "title": "Ecology, Ecosystems & Environ",
-      "credit_hours": "3",
-      "description": "Major ecological concepts and their application. Analysis of form, structure, and function of organisms, populations, communities, ecosystems, and landscapes. Prerequisites: RSENR students or Agroecology or Landscape Design or Environmental Studies majors; minimum Sophomore standing.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RSENR\"}, {\"type\": \"course\", \"code\": \"AGRO\"}, {\"type\": \"course\", \"code\": \"LNDS\"}, {\"type\": \"course\", \"code\": \"ENVS\"}]}",
-      "other_requirements": "minimum Sophomore standing",
-      "external": true
-    },
-    {
-      "id": "WFB 2410",
-      "course_code": "WFB 2410",
-      "department": "WFB",
-      "title": "Field Herpetology",
-      "credit_hours": "4",
-      "description": "Introduction to the identification, life histories, habitats, conservation, and field study of Vermont's reptiles and amphibians.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "WFB 2170",
-      "course_code": "WFB 2170",
-      "department": "WFB",
-      "title": "Scientific Writing and Interpr",
-      "credit_hours": "4",
-      "description": "Focus on effective communication within the genre of scientific research by focusing on technical writing, revising and editing, interpreting data, creating figures and tables, critically reading and data mining the literature, and producing an original scientific research manuscript. Prerequisites: <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a> or <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\"  class=\"notoffered\">BIOL 1400</a> or <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\"  class=\"notoffered\">BCOR 1400</a>; Wildlife and Fisheries Biology majors; Minimum Sophomore standing.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1000\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1400\"}]}",
-      "other_requirements": "Wildlife and Fisheries Biology majors; Minimum Sophomore standing. WFB Majors only.",
-      "external": false
-    },
-    {
-      "id": "WFB 4830",
-      "course_code": "WFB 4830",
-      "department": "WFB",
-      "title": "Terrestrial Wildlife Ecology",
-      "credit_hours": "4",
-      "description": "Wildlife ecology with an emphasis on the management and conservation of species, populations, and ecosystems. Prerequisites: <a href=\"/search/?p=WFB%202740\" data-action=\"result-detail\" data-group=\"code:WFB 2740\"  class=\"notoffered\">WFB 2740</a>; <a href=\"/search/?p=NR%202030\" data-action=\"result-detail\" data-group=\"code:NR 2030\" >NR 2030</a> or <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"WFB 2740\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 2030\"}, {\"type\": \"course\", \"code\": \"BCOR 2100\"}]}]}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "WFB 2740",
-      "course_code": "WFB 2740",
-      "department": "WFB",
-      "title": "Prin of Wildlife Management",
-      "credit_hours": "3",
-      "description": "Application of ecology and sociology to the management of wildlife populations and habitat; integration of wildlife management with demands for other resources; consideration of game species, endangered species, and biological diversity. Prerequisite: <a href=\"/search/?p=NR%202030\" data-action=\"result-detail\" data-group=\"code:NR 2030\" >NR 2030</a> or <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 2030\"}, {\"type\": \"course\", \"code\": \"BCOR 2100\"}]}",
-      "other_requirements": "Open to Degree and PACE students.",
-      "external": false
-    },
-    {
-      "id": "WFB 2995",
-      "course_code": "WFB 2995",
-      "department": "WFB",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small research projects under the supervision of a faculty member for which credit is awarded. Formal report required. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Minimum junior standing; Permission required (must submit project prospectus)",
       "external": false
     },
     {
@@ -266,69 +321,14 @@
       "external": false
     },
     {
-      "id": "WFB 2990",
-      "course_code": "WFB 2990",
+      "id": "WFB 4990",
+      "course_code": "WFB 4990",
       "department": "WFB",
-      "title": "Herpetology",
-      "credit_hours": "3",
+      "title": "SL:Applied Land Manag-Wildlif",
+      "credit_hours": "4",
       "description": "See Schedule of Courses for specific titles.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "WFB 3300",
-      "course_code": "WFB 3300",
-      "department": "WFB",
-      "title": "Human Wildlife Coexistence",
-      "credit_hours": "3",
-      "description": "Explores the challenges and opportunities of human-wildlife coexistence across ecological, cultural, ethical, and political dimensions. Students will engage with key theories, real-world case studies, creative reflections, and practitioner insights to better understand how humans and wildlife share space in today's changing world. Emphasizing sustainability, global citizenship, and the diversity of human experience, the course highlights cultural values, ethical complexities, and community contexts that shape coexistence practices around the world. Prerequisite: Minimum Junior standing.",
-      "prereq_expression": null,
-      "other_requirements": "Minimum Junior standing.",
-      "external": false
-    },
-    {
-      "id": "BCOR 1450",
-      "course_code": "BCOR 1450",
-      "department": "BCOR",
-      "title": "Exploring Biology 2",
-      "credit_hours": "4",
-      "description": "An evolutionary perspective to exploring biology. Topics include: patterns of inheritance, Darwinian evolution, evolution of biodiversity, ecology of organisms, human effects on biological systems. Credit not awarded for both BCOR 1450 and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "BCOR 2100",
-      "course_code": "BCOR 2100",
-      "department": "BCOR",
-      "title": "Ecology and Evolution",
-      "credit_hours": "4",
-      "description": "Ecosystem and community structure, population growth, species interactions and niche dynamics, population and chromosomal genetics, speciation in fossil records, ecology of animal behavior, applied ecology. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1000\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}]}",
-      "other_requirements": "PACE students with permission and override.",
-      "external": true
-    },
-    {
-      "id": "BCOR 1400",
-      "course_code": "BCOR 1400",
-      "department": "BCOR",
-      "title": "Exploring Biology 1",
-      "credit_hours": "4",
-      "description": "Exploring biology from cells to organisms.  Topics include origins of life, ancestral organisms, uni- and multi- cellular energetics, evolution of respiration and metabolism, and the genetic code. Credit not awarded for both BCOR 1400 and <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "WFB 3995",
-      "course_code": "WFB 3995",
-      "department": "WFB",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Minimum Junior standing; Permission required (must submit project prospectus)",
       "external": false
     },
     {
@@ -346,175 +346,218 @@
   "edges": [
     {
       "source": "BCOR 1400",
-      "target": "BCOR 2100"
+      "target": "BCOR 2100",
+      "group": "BCOR 2100__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "WFB 2170"
+      "target": "WFB 2170",
+      "group": "WFB 2170__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "WFB 2300"
+      "target": "WFB 2300",
+      "group": "WFB 2300__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "WFB 3240"
+      "target": "WFB 3240",
+      "group": "WFB 3240__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "WFB 3610"
+      "target": "WFB 3610",
+      "group": "WFB 3610__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "WFB 4320"
+      "target": "WFB 4320",
+      "group": "WFB 4320__g2"
     },
     {
       "source": "BCOR 1400",
-      "target": "WFB 4610"
+      "target": "WFB 4610",
+      "group": "WFB 4610__g0"
     },
     {
       "source": "BCOR 1400",
-      "target": "WFB 4750"
+      "target": "WFB 4750",
+      "group": "WFB 4750__g0"
     },
     {
       "source": "BCOR 1425",
-      "target": "BCOR 2100"
+      "target": "BCOR 2100",
+      "group": "BCOR 2100__g1"
     },
     {
       "source": "BCOR 1425",
-      "target": "WFB 2300"
+      "target": "WFB 2300",
+      "group": "WFB 2300__g1"
     },
     {
       "source": "BCOR 1425",
-      "target": "WFB 3240"
+      "target": "WFB 3240",
+      "group": "WFB 3240__g1"
     },
     {
       "source": "BCOR 1425",
-      "target": "WFB 3610"
+      "target": "WFB 3610",
+      "group": "WFB 3610__g1"
     },
     {
       "source": "BCOR 1425",
-      "target": "WFB 4320"
+      "target": "WFB 4320",
+      "group": "WFB 4320__g1"
     },
     {
       "source": "BCOR 1450",
-      "target": "BCOR 2100"
+      "target": "BCOR 2100",
+      "group": "BCOR 2100__g1"
     },
     {
       "source": "BCOR 1450",
-      "target": "WFB 2300"
+      "target": "WFB 2300",
+      "group": "WFB 2300__g1"
     },
     {
       "source": "BCOR 1450",
-      "target": "WFB 3240"
+      "target": "WFB 3240",
+      "group": "WFB 3240__g1"
     },
     {
       "source": "BCOR 1450",
-      "target": "WFB 3610"
+      "target": "WFB 3610",
+      "group": "WFB 3610__g1"
     },
     {
       "source": "BCOR 1450",
-      "target": "WFB 4320"
+      "target": "WFB 4320",
+      "group": "WFB 4320__g2"
     },
     {
       "source": "BCOR 1450",
-      "target": "WFB 4610"
+      "target": "WFB 4610",
+      "group": "WFB 4610__g1"
     },
     {
       "source": "BCOR 1450",
-      "target": "WFB 4750"
+      "target": "WFB 4750",
+      "group": "WFB 4750__g1"
     },
     {
       "source": "BCOR 2100",
-      "target": "WFB 2740"
+      "target": "WFB 2740",
+      "group": "WFB 2740__g0"
     },
     {
       "source": "BCOR 2100",
-      "target": "WFB 4750"
+      "target": "WFB 4750",
+      "group": "WFB 4750__g2"
     },
     {
       "source": "BCOR 2100",
-      "target": "WFB 4830"
+      "target": "WFB 4830",
+      "group": "WFB 4830__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "BCOR 2100"
+      "target": "BCOR 2100",
+      "group": "BCOR 2100__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "WFB 2170"
+      "target": "WFB 2170",
+      "group": "WFB 2170__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "WFB 2300"
+      "target": "WFB 2300",
+      "group": "WFB 2300__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "WFB 3240"
+      "target": "WFB 3240",
+      "group": "WFB 3240__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "WFB 3610"
+      "target": "WFB 3610",
+      "group": "WFB 3610__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "WFB 4320"
+      "target": "WFB 4320",
+      "group": "WFB 4320__g2"
     },
     {
       "source": "BIOL 1400",
-      "target": "WFB 4610"
+      "target": "WFB 4610",
+      "group": "WFB 4610__g0"
     },
     {
       "source": "BIOL 1400",
-      "target": "WFB 4750"
+      "target": "WFB 4750",
+      "group": "WFB 4750__g0"
     },
     {
       "source": "BIOL 1450",
-      "target": "BCOR 2100"
+      "target": "BCOR 2100",
+      "group": "BCOR 2100__g1"
     },
     {
       "source": "BIOL 1450",
-      "target": "WFB 2300"
+      "target": "WFB 2300",
+      "group": "WFB 2300__g1"
     },
     {
       "source": "BIOL 1450",
-      "target": "WFB 3240"
+      "target": "WFB 3240",
+      "group": "WFB 3240__g1"
     },
     {
       "source": "BIOL 1450",
-      "target": "WFB 3610"
+      "target": "WFB 3610",
+      "group": "WFB 3610__g1"
     },
     {
       "source": "BIOL 1450",
-      "target": "WFB 4320"
+      "target": "WFB 4320",
+      "group": "WFB 4320__g2"
     },
     {
       "source": "BIOL 1450",
-      "target": "WFB 4610"
+      "target": "WFB 4610",
+      "group": "WFB 4610__g1"
     },
     {
       "source": "BIOL 1450",
-      "target": "WFB 4750"
+      "target": "WFB 4750",
+      "group": "WFB 4750__g1"
     },
     {
       "source": "NR 2030",
-      "target": "WFB 2740"
+      "target": "WFB 2740",
+      "group": "WFB 2740__g0"
     },
     {
       "source": "NR 2030",
-      "target": "WFB 4750"
+      "target": "WFB 4750",
+      "group": "WFB 4750__g2"
     },
     {
       "source": "NR 2030",
-      "target": "WFB 4830"
+      "target": "WFB 4830",
+      "group": "WFB 4830__g0"
     },
     {
       "source": "WFB 2740",
-      "target": "WFB 4830"
+      "target": "WFB 4830",
+      "group": null
     },
     {
       "source": "WFB 3610",
-      "target": "WFB 4610"
+      "target": "WFB 4610",
+      "group": null
     }
   ]
 }

@@ -2,6 +2,17 @@
   "department": "EMGT",
   "nodes": [
     {
+      "id": "EMGT 3051",
+      "course_code": "EMGT 3051",
+      "department": "EMGT",
+      "title": "Engineering Project Management",
+      "credit_hours": "3",
+      "description": "Principles of project management on designing, building/manufacturing engineering facilities, processes, products and structures; metrics for managing quality, schedule, and financial performance of projects; services and product procurement; project financial management; legal and insurance aspects. Prerequisites: Minimum Junior standing.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Junior standing",
+      "external": false
+    },
+    {
       "id": "EMGT 2041",
       "course_code": "EMGT 2041",
       "department": "EMGT",
@@ -55,27 +66,18 @@
       "prereq_expression": "{\"type\": \"course\", \"code\": \"EMGT 3061\"}",
       "other_requirements": "Senior standing",
       "external": false
-    },
-    {
-      "id": "EMGT 3051",
-      "course_code": "EMGT 3051",
-      "department": "EMGT",
-      "title": "Engineering Project Management",
-      "credit_hours": "3",
-      "description": "Principles of project management on designing, building/manufacturing engineering facilities, processes, products and structures; metrics for managing quality, schedule, and financial performance of projects; services and product procurement; project financial management; legal and insurance aspects. Prerequisites: Minimum Junior standing.",
-      "prereq_expression": null,
-      "other_requirements": "Minimum Junior standing",
-      "external": false
     }
   ],
   "edges": [
     {
       "source": "EMGT 3061",
-      "target": "EMGT 3061"
+      "target": "EMGT 3061",
+      "group": null
     },
     {
       "source": "MATH 1248",
-      "target": "EMGT 2041"
+      "target": "EMGT 2041",
+      "group": null
     }
   ]
 }

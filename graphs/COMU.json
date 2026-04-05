@@ -2,17 +2,6 @@
   "department": "COMU",
   "nodes": [
     {
-      "id": "COMU 2990",
-      "course_code": "COMU 2990",
-      "department": "COMU",
-      "title": "Music and Mental Health",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
       "id": "COMU 2994",
       "course_code": "COMU 2994",
       "department": "COMU",
@@ -24,12 +13,23 @@
       "external": false
     },
     {
-      "id": "COMU 1020",
-      "course_code": "COMU 1020",
+      "id": "COMU 2990",
+      "course_code": "COMU 2990",
       "department": "COMU",
-      "title": "Intro to Medical Imaging",
+      "title": "Music and Mental Health",
       "credit_hours": "3",
-      "description": "Medical imaging plays a central role in healthcare delivery. Students will learn about X-Ray, CT, MRI, PET, and ultrasound imaging. Their clinical applications and role in healthcare both in the US and around the world will be discussed.",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "COMU 1990",
+      "course_code": "COMU 1990",
+      "department": "COMU",
+      "title": "Horror in film Psych/Neuro/Soc",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -46,6 +46,17 @@
       "external": false
     },
     {
+      "id": "COMU 1010",
+      "course_code": "COMU 1010",
+      "department": "COMU",
+      "title": "Healthy Brains, Healthy Bodies",
+      "credit_hours": "3",
+      "description": "Introduces students to the science of brain health and supporting emotional wellbeing during the transition to college. Critically examines the evidence supporting wellness behaviors such as mindfulness, exercise, nutrition, relationships, music, and other practices.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
       "id": "COMU 2182",
       "course_code": "COMU 2182",
       "department": "COMU",
@@ -57,23 +68,12 @@
       "external": false
     },
     {
-      "id": "COMU 1990",
-      "course_code": "COMU 1990",
+      "id": "COMU 1020",
+      "course_code": "COMU 1020",
       "department": "COMU",
-      "title": "Horror in film Psych/Neuro/Soc",
+      "title": "Intro to Medical Imaging",
       "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "COMU 1010",
-      "course_code": "COMU 1010",
-      "department": "COMU",
-      "title": "Healthy Brains, Healthy Bodies",
-      "credit_hours": "3",
-      "description": "Introduces students to the science of brain health and supporting emotional wellbeing during the transition to college. Critically examines the evidence supporting wellness behaviors such as mindfulness, exercise, nutrition, relationships, music, and other practices.",
+      "description": "Medical imaging plays a central role in healthcare delivery. Students will learn about X-Ray, CT, MRI, PET, and ultrasound imaging. Their clinical applications and role in healthcare both in the US and around the world will be discussed.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -82,7 +82,8 @@
   "edges": [
     {
       "source": "COMU 1010",
-      "target": "COMU 2182"
+      "target": "COMU 2182",
+      "group": null
     }
   ]
 }

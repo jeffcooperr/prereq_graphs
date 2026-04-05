@@ -2,6 +2,17 @@
   "department": "SPAN",
   "nodes": [
     {
+      "id": "SPAN 1100",
+      "course_code": "SPAN 1100",
+      "department": "SPAN",
+      "title": "COIL: Elementary Spanish I",
+      "credit_hours": "4",
+      "description": "The fundamentals of Spanish grammar through composition, comprehension, pronunciation, speaking, reading, and writing in a cultural context. Classes are conducted in Spanish and students engage in active use of the language. No prior knowledge expected. Cannot be taken for credit after <a href=\"/search/?p=SPAN%201200\" data-action=\"result-detail\" data-group=\"code:SPAN 1200\" >SPAN 1200</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
       "id": "SPAN 1200",
       "course_code": "SPAN 1200",
       "department": "SPAN",
@@ -13,36 +24,14 @@
       "external": false
     },
     {
-      "id": "SPAN 4996",
-      "course_code": "SPAN 4996",
+      "id": "SPAN 3620",
+      "course_code": "SPAN 3620",
       "department": "SPAN",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required. For CAS students pursuing College Honors",
-      "external": false
-    },
-    {
-      "id": "LING 1500",
-      "course_code": "LING 1500",
-      "department": "LING",
-      "title": "Introduction to Linguistics",
+      "title": "Spain: Monarchy to Democracy",
       "credit_hours": "3",
-      "description": "Introduction to biological, cognitive, and cultural bases of human communication through language, and to modern linguistic theory. Assignments provide opportunities for critical thinking and writing.",
-      "prereq_expression": null,
-      "other_requirements": "Open to degree and PACE students",
-      "external": true
-    },
-    {
-      "id": "SPAN 2100",
-      "course_code": "SPAN 2100",
-      "department": "SPAN",
-      "title": "SL:Intermediate Spanish I",
-      "credit_hours": "3",
-      "description": "Significant review of grammar, moving toward increased proficiency in composition, listening comprehension, pronunciation, speaking, reading, and writing. Emphasis on cultural context. Compositions, oral practice, reading. Students may take 1 Spanish course numbered between 2100 and 2109 for credit. Credit not awarded for SPAN 2100 following receipt of credit for any SPAN course numbered <a href=\"/search/?p=SPAN%202200\" data-action=\"result-detail\" data-group=\"code:SPAN 2200\" >SPAN 2200</a> or above. Prerequisites: <a href=\"/search/?p=SPAN%201200\" data-action=\"result-detail\" data-group=\"code:SPAN 1200\" >SPAN 1200</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SPAN 1200\"}, {\"type\": \"course\", \"code\": \"SPAN 1200\"}]}",
-      "other_requirements": "equivalent; Open to degree and PACE students",
+      "description": "An introductory literature course; students read and analyze literature and film written and produced in Spain from the neoclassical period until the present day. Prerequisite: <a href=\"/search/?p=SPAN%203610\" data-action=\"result-detail\" data-group=\"code:SPAN 3610\" >SPAN 3610</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SPAN 3610\"}, {\"type\": \"course\", \"code\": \"SPAN 144\"}]}",
+      "other_requirements": "PACE students with permission and override",
       "external": false
     },
     {
@@ -57,6 +46,17 @@
       "external": false
     },
     {
+      "id": "SPAN 4993",
+      "course_code": "SPAN 4993",
+      "department": "SPAN",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Permission of chair required. Prerequisite: <a href=\"/search/?p=SPAN%203610\" data-action=\"result-detail\" data-group=\"code:SPAN 3610\" >SPAN 3610</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"SPAN 3610\"}",
+      "other_requirements": "Permission of chair required. Offered at department discretion.",
+      "external": false
+    },
+    {
       "id": "GRS 1500",
       "course_code": "GRS 1500",
       "department": "GRS",
@@ -68,14 +68,14 @@
       "external": true
     },
     {
-      "id": "SPAN 3610",
-      "course_code": "SPAN 3610",
+      "id": "SPAN 4996",
+      "course_code": "SPAN 4996",
       "department": "SPAN",
-      "title": "Analyzing Hispanic Literatures",
-      "credit_hours": "3",
-      "description": "Introduction to basic genres of Hispanic literatures (narrative, poetry, drama, essay); development of analytical and critical reading/discussion skills. Short analytical papers and ample class discussion. Prerequisite: <a href=\"/search/?p=SPAN%203110\" data-action=\"result-detail\" data-group=\"code:SPAN 3110\" >SPAN 3110</a> or concurrent enrollment with Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SPAN 3110\"}, {\"type\": \"course\", \"code\": \"SPAN 3110\"}]}",
-      "other_requirements": "Instructor permission, PACE students by permission and override, permission of the professor.",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required. For CAS students pursuing College Honors",
       "external": false
     },
     {
@@ -90,23 +90,12 @@
       "external": false
     },
     {
-      "id": "SPAN 3102",
-      "course_code": "SPAN 3102",
+      "id": "SPAN 4990",
+      "course_code": "SPAN 4990",
       "department": "SPAN",
-      "title": "CL:Race,Identity&Migrant Labor",
+      "title": "Border Literatures & Cultures",
       "credit_hours": "3",
-      "description": "Spanish composition and conversation course that explores the Mexican and Mexican-American experience in the United States during the nineteenth, twentieth, and twenty-first centuries and focuses on issues of sustainability, food sovereignty and institutionalized racism in service-learning and global contexts. Prerequisites: <a href=\"/search/?p=SPAN%202200\" data-action=\"result-detail\" data-group=\"code:SPAN 2200\" >SPAN 2200</a> or equivalent; <a href=\"/search/?p=GRS%201500\" data-action=\"result-detail\" data-group=\"code:GRS 1500\" >GRS 1500</a> recommended.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SPAN 2200\"}, {\"type\": \"course\", \"code\": \"GRS 1500\"}]}",
-      "other_requirements": "GRS 1500 recommended. PACE students with permission and override.  Students must take the online placement test and enroll in the course level recommended.",
-      "external": false
-    },
-    {
-      "id": "SPAN 3665",
-      "course_code": "SPAN 3665",
-      "department": "SPAN",
-      "title": "LatAm: Colonialism&Resistance",
-      "credit_hours": "3",
-      "description": "An introductory literature course; students read and analyze Latin American texts from the period before the conquest to the 1898 Spanish American War. Analyzes topics including ideology formation, the imposition of colonial difference and its continuation in coloniality. Prerequisite: <a href=\"/search/?p=SPAN%203610\" data-action=\"result-detail\" data-group=\"code:SPAN 3610\" >SPAN 3610</a>.",
+      "description": "See Schedule of Courses for specific titles. Prerequisite: <a href=\"/search/?p=SPAN%203610\" data-action=\"result-detail\" data-group=\"code:SPAN 3610\" >SPAN 3610</a>.",
       "prereq_expression": "{\"type\": \"course\", \"code\": \"SPAN 3610\"}",
       "other_requirements": "PACE students by permission and override.",
       "external": false
@@ -123,47 +112,80 @@
       "external": false
     },
     {
-      "id": "SPAN 1100",
-      "course_code": "SPAN 1100",
+      "id": "SPAN 2100",
+      "course_code": "SPAN 2100",
       "department": "SPAN",
-      "title": "COIL: Elementary Spanish I",
-      "credit_hours": "4",
-      "description": "The fundamentals of Spanish grammar through composition, comprehension, pronunciation, speaking, reading, and writing in a cultural context. Classes are conducted in Spanish and students engage in active use of the language. No prior knowledge expected. Cannot be taken for credit after <a href=\"/search/?p=SPAN%201200\" data-action=\"result-detail\" data-group=\"code:SPAN 1200\" >SPAN 1200</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "title": "SL:Intermediate Spanish I",
+      "credit_hours": "3",
+      "description": "Significant review of grammar, moving toward increased proficiency in composition, listening comprehension, pronunciation, speaking, reading, and writing. Emphasis on cultural context. Compositions, oral practice, reading. Students may take 1 Spanish course numbered between 2100 and 2109 for credit. Credit not awarded for SPAN 2100 following receipt of credit for any SPAN course numbered <a href=\"/search/?p=SPAN%202200\" data-action=\"result-detail\" data-group=\"code:SPAN 2200\" >SPAN 2200</a> or above. Prerequisites: <a href=\"/search/?p=SPAN%201200\" data-action=\"result-detail\" data-group=\"code:SPAN 1200\" >SPAN 1200</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SPAN 1200\"}, {\"type\": \"course\", \"code\": \"SPAN 1200\"}]}",
+      "other_requirements": "equivalent; Open to degree and PACE students",
       "external": false
     },
     {
-      "id": "SPAN 3620",
-      "course_code": "SPAN 3620",
+      "id": "SPAN 3665",
+      "course_code": "SPAN 3665",
       "department": "SPAN",
-      "title": "Spain: Monarchy to Democracy",
+      "title": "LatAm: Colonialism&Resistance",
       "credit_hours": "3",
-      "description": "An introductory literature course; students read and analyze literature and film written and produced in Spain from the neoclassical period until the present day. Prerequisite: <a href=\"/search/?p=SPAN%203610\" data-action=\"result-detail\" data-group=\"code:SPAN 3610\" >SPAN 3610</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SPAN 3610\"}, {\"type\": \"course\", \"code\": \"SPAN 144\"}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "SPAN 3991",
-      "course_code": "SPAN 3991",
-      "department": "SPAN",
-      "title": "Internship",
-      "credit_hours": "3",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "SPAN 4990",
-      "course_code": "SPAN 4990",
-      "department": "SPAN",
-      "title": "Border Literatures & Cultures",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles. Prerequisite: <a href=\"/search/?p=SPAN%203610\" data-action=\"result-detail\" data-group=\"code:SPAN 3610\" >SPAN 3610</a>.",
+      "description": "An introductory literature course; students read and analyze Latin American texts from the period before the conquest to the 1898 Spanish American War. Analyzes topics including ideology formation, the imposition of colonial difference and its continuation in coloniality. Prerequisite: <a href=\"/search/?p=SPAN%203610\" data-action=\"result-detail\" data-group=\"code:SPAN 3610\" >SPAN 3610</a>.",
       "prereq_expression": "{\"type\": \"course\", \"code\": \"SPAN 3610\"}",
       "other_requirements": "PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "SPAN 3610",
+      "course_code": "SPAN 3610",
+      "department": "SPAN",
+      "title": "Analyzing Hispanic Literatures",
+      "credit_hours": "3",
+      "description": "Introduction to basic genres of Hispanic literatures (narrative, poetry, drama, essay); development of analytical and critical reading/discussion skills. Short analytical papers and ample class discussion. Prerequisite: <a href=\"/search/?p=SPAN%203110\" data-action=\"result-detail\" data-group=\"code:SPAN 3110\" >SPAN 3110</a> or concurrent enrollment with Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SPAN 3110\"}, {\"type\": \"course\", \"code\": \"SPAN 3110\"}]}",
+      "other_requirements": "Instructor permission, PACE students by permission and override, permission of the professor.",
+      "external": false
+    },
+    {
+      "id": "SPAN 3102",
+      "course_code": "SPAN 3102",
+      "department": "SPAN",
+      "title": "CL:Race,Identity&Migrant Labor",
+      "credit_hours": "3",
+      "description": "Spanish composition and conversation course that explores the Mexican and Mexican-American experience in the United States during the nineteenth, twentieth, and twenty-first centuries and focuses on issues of sustainability, food sovereignty and institutionalized racism in service-learning and global contexts. Prerequisites: <a href=\"/search/?p=SPAN%202200\" data-action=\"result-detail\" data-group=\"code:SPAN 2200\" >SPAN 2200</a> or equivalent; <a href=\"/search/?p=GRS%201500\" data-action=\"result-detail\" data-group=\"code:GRS 1500\" >GRS 1500</a> recommended.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SPAN 2200\"}, {\"type\": \"course\", \"code\": \"GRS 1500\"}]}",
+      "other_requirements": "GRS 1500 recommended. PACE students with permission and override.  Students must take the online placement test and enroll in the course level recommended.",
+      "external": false
+    },
+    {
+      "id": "LING 1500",
+      "course_code": "LING 1500",
+      "department": "LING",
+      "title": "Introduction to Linguistics",
+      "credit_hours": "3",
+      "description": "Introduction to biological, cognitive, and cultural bases of human communication through language, and to modern linguistic theory. Assignments provide opportunities for critical thinking and writing.",
+      "prereq_expression": null,
+      "other_requirements": "Open to degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "SPAN 3110",
+      "course_code": "SPAN 3110",
+      "department": "SPAN",
+      "title": "Blk & Indig Women & the Nation",
+      "credit_hours": "3",
+      "description": "Writing practice, sentence structure, correct expression, and guided discussions in Spanish of cultural topics. A good command of basic grammar expected. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=SPAN%202200\" data-action=\"result-detail\" data-group=\"code:SPAN 2200\" >SPAN 2200</a> or equivalent; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SPAN 2200\"}, {\"type\": \"other\", \"value\": \"equivalent\"}]}",
+      "other_requirements": "Instructor permission. PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "SPAN 4675",
+      "course_code": "SPAN 4675",
+      "department": "SPAN",
+      "title": "Petroculture",
+      "credit_hours": "3",
+      "description": "Studies the theme of petroleum in Latin American culture. A principle theme is the analysis of the importance of petroleum in the creation of the modern, globalized world as well as the formation of global capitalism. Prerequisites: <a href=\"/search/?p=SPAN%203615\" data-action=\"result-detail\" data-group=\"code:SPAN 3615\" >SPAN 3615</a>, <a href=\"/search/?p=SPAN%203620\" data-action=\"result-detail\" data-group=\"code:SPAN 3620\"  class=\"notoffered\">SPAN 3620</a>, <a href=\"/search/?p=SPAN%203665\" data-action=\"result-detail\" data-group=\"code:SPAN 3665\" >SPAN 3665</a>, or <a href=\"/search/?p=SPAN%203670\" data-action=\"result-detail\" data-group=\"code:SPAN 3670\"  class=\"notoffered\">SPAN 3670</a>, or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SPAN 3615\"}, {\"type\": \"course\", \"code\": \"SPAN 3620\"}, {\"type\": \"course\", \"code\": \"SPAN 3665\"}, {\"type\": \"course\", \"code\": \"SPAN 3670\"}]}",
+      "other_requirements": "Instructor permission.",
       "external": false
     },
     {
@@ -178,28 +200,6 @@
       "external": false
     },
     {
-      "id": "SPAN 3110",
-      "course_code": "SPAN 3110",
-      "department": "SPAN",
-      "title": "Blk & Indig Women & the Nation",
-      "credit_hours": "3",
-      "description": "Writing practice, sentence structure, correct expression, and guided discussions in Spanish of cultural topics. A good command of basic grammar expected. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=SPAN%202200\" data-action=\"result-detail\" data-group=\"code:SPAN 2200\" >SPAN 2200</a> or equivalent; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SPAN 2200\"}, {\"type\": \"other\", \"value\": \"equivalent\"}]}",
-      "other_requirements": "Instructor permission. PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "SPAN 4993",
-      "course_code": "SPAN 4993",
-      "department": "SPAN",
-      "title": "Independent Study",
-      "credit_hours": "1 to 18",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Permission of chair required. Prerequisite: <a href=\"/search/?p=SPAN%203610\" data-action=\"result-detail\" data-group=\"code:SPAN 3610\" >SPAN 3610</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"SPAN 3610\"}",
-      "other_requirements": "Permission of chair required. Offered at department discretion.",
-      "external": false
-    },
-    {
       "id": "SPAN 4600",
       "course_code": "SPAN 4600",
       "department": "SPAN",
@@ -211,113 +211,137 @@
       "external": false
     },
     {
-      "id": "SPAN 4675",
-      "course_code": "SPAN 4675",
+      "id": "SPAN 3991",
+      "course_code": "SPAN 3991",
       "department": "SPAN",
-      "title": "Petroculture",
+      "title": "Internship",
       "credit_hours": "3",
-      "description": "Studies the theme of petroleum in Latin American culture. A principle theme is the analysis of the importance of petroleum in the creation of the modern, globalized world as well as the formation of global capitalism. Prerequisites: <a href=\"/search/?p=SPAN%203615\" data-action=\"result-detail\" data-group=\"code:SPAN 3615\" >SPAN 3615</a>, <a href=\"/search/?p=SPAN%203620\" data-action=\"result-detail\" data-group=\"code:SPAN 3620\"  class=\"notoffered\">SPAN 3620</a>, <a href=\"/search/?p=SPAN%203665\" data-action=\"result-detail\" data-group=\"code:SPAN 3665\" >SPAN 3665</a>, or <a href=\"/search/?p=SPAN%203670\" data-action=\"result-detail\" data-group=\"code:SPAN 3670\"  class=\"notoffered\">SPAN 3670</a>, or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SPAN 3615\"}, {\"type\": \"course\", \"code\": \"SPAN 3620\"}, {\"type\": \"course\", \"code\": \"SPAN 3665\"}, {\"type\": \"course\", \"code\": \"SPAN 3670\"}]}",
-      "other_requirements": "Instructor permission.",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
       "external": false
     }
   ],
   "edges": [
     {
       "source": "GRS 1500",
-      "target": "SPAN 3102"
+      "target": "SPAN 3102",
+      "group": "SPAN 3102__g0"
     },
     {
       "source": "LING 1500",
-      "target": "SPAN 3990"
+      "target": "SPAN 3990",
+      "group": "SPAN 3990__g0"
     },
     {
       "source": "SPAN 1100",
-      "target": "SPAN 1200"
+      "target": "SPAN 1200",
+      "group": "SPAN 1200__g0"
     },
     {
       "source": "SPAN 1200",
-      "target": "SPAN 2100"
+      "target": "SPAN 2100",
+      "group": "SPAN 2100__g0"
     },
     {
       "source": "SPAN 2100",
-      "target": "SPAN 2200"
+      "target": "SPAN 2200",
+      "group": "SPAN 2200__g0"
     },
     {
       "source": "SPAN 2200",
-      "target": "SPAN 3102"
+      "target": "SPAN 3102",
+      "group": "SPAN 3102__g0"
     },
     {
       "source": "SPAN 2200",
-      "target": "SPAN 3110"
+      "target": "SPAN 3110",
+      "group": "SPAN 3110__g0"
     },
     {
       "source": "SPAN 3110",
-      "target": "SPAN 3610"
+      "target": "SPAN 3610",
+      "group": "SPAN 3610__g0"
     },
     {
       "source": "SPAN 3610",
-      "target": "SPAN 3615"
+      "target": "SPAN 3615",
+      "group": null
     },
     {
       "source": "SPAN 3610",
-      "target": "SPAN 3620"
+      "target": "SPAN 3620",
+      "group": "SPAN 3620__g0"
     },
     {
       "source": "SPAN 3610",
-      "target": "SPAN 3665"
+      "target": "SPAN 3665",
+      "group": null
     },
     {
       "source": "SPAN 3610",
-      "target": "SPAN 3670"
+      "target": "SPAN 3670",
+      "group": "SPAN 3670__g0"
     },
     {
       "source": "SPAN 3610",
-      "target": "SPAN 3990"
+      "target": "SPAN 3990",
+      "group": "SPAN 3990__g0"
     },
     {
       "source": "SPAN 3610",
-      "target": "SPAN 4600"
+      "target": "SPAN 4600",
+      "group": "SPAN 4600__g0"
     },
     {
       "source": "SPAN 3610",
-      "target": "SPAN 4990"
+      "target": "SPAN 4990",
+      "group": null
     },
     {
       "source": "SPAN 3610",
-      "target": "SPAN 4993"
+      "target": "SPAN 4993",
+      "group": null
     },
     {
       "source": "SPAN 3615",
-      "target": "SPAN 4600"
+      "target": "SPAN 4600",
+      "group": "SPAN 4600__g0"
     },
     {
       "source": "SPAN 3615",
-      "target": "SPAN 4675"
+      "target": "SPAN 4675",
+      "group": "SPAN 4675__g0"
     },
     {
       "source": "SPAN 3620",
-      "target": "SPAN 4600"
+      "target": "SPAN 4600",
+      "group": "SPAN 4600__g0"
     },
     {
       "source": "SPAN 3620",
-      "target": "SPAN 4675"
+      "target": "SPAN 4675",
+      "group": "SPAN 4675__g0"
     },
     {
       "source": "SPAN 3665",
-      "target": "SPAN 4600"
+      "target": "SPAN 4600",
+      "group": "SPAN 4600__g0"
     },
     {
       "source": "SPAN 3665",
-      "target": "SPAN 4675"
+      "target": "SPAN 4675",
+      "group": "SPAN 4675__g0"
     },
     {
       "source": "SPAN 3670",
-      "target": "SPAN 4600"
+      "target": "SPAN 4600",
+      "group": "SPAN 4600__g0"
     },
     {
       "source": "SPAN 3670",
-      "target": "SPAN 4675"
+      "target": "SPAN 4675",
+      "group": "SPAN 4675__g0"
     }
   ]
 }

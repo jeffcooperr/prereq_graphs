@@ -2,25 +2,36 @@
   "department": "ARTH",
   "nodes": [
     {
-      "id": "ARTH 3000",
-      "course_code": "ARTH 3000",
+      "id": "ARTH 2990",
+      "course_code": "ARTH 2990",
       "department": "ARTH",
-      "title": "Art and its Destruction",
+      "title": "American Art 1850-present",
       "credit_hours": "3",
-      "description": "Advanced seminar for Art History majors. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: Six hours of 2000-level Art History, including three hours in the area of the seminar; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTH 2000\"}, {\"type\": \"course\", \"code\": \"ARTH 2000\"}, {\"type\": \"course\", \"code\": \"ARTH 2000\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTH 2000\"}, {\"type\": \"course\", \"code\": \"ARTH 2000\"}, {\"type\": \"course\", \"code\": \"ARTH 2000\"}]}]}",
-      "other_requirements": "minimum Junior standing",
+      "description": "Intermediate courses or seminars on topics beyond the scope of existing departmental offerings. See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTH 1410\"}, {\"type\": \"course\", \"code\": \"ARTH 1420\"}]}",
+      "other_requirements": "PACE students with permission and override.",
       "external": false
     },
     {
-      "id": "ARTH 1990",
-      "course_code": "ARTH 1990",
+      "id": "ARTS 2030",
+      "course_code": "ARTS 2030",
+      "department": "ARTS",
+      "title": "Sound Art",
+      "credit_hours": "3",
+      "description": "Students will work with interdisciplinary approaches to art subjects. Representative topics: Multi-Media Documentary; Socially-Engaged Art. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
+      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $140.00",
+      "external": true
+    },
+    {
+      "id": "ARTH 2600",
+      "course_code": "ARTH 2600",
       "department": "ARTH",
-      "title": "Writing About Art",
-      "credit_hours": "1",
-      "description": "Introductory courses or seminars on topics beyond the scope of existing departmental offerings. See Schedule of Courses for specific titles.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "title": "South Korean Postwar Art",
+      "credit_hours": "3",
+      "description": "A study of selected examples of recent and current art and/or architecture. Representative topic: Contemporary East Asian Art. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=ARTH%201018\" data-action=\"result-detail\" data-group=\"code:ARTH 1018\"  class=\"notoffered\">ARTH 1018</a>, <a href=\"/search/?p=ARTH%201420\" data-action=\"result-detail\" data-group=\"code:ARTH 1420\" >ARTH 1420</a>, <a href=\"/search/?p=FTS%201420\" data-action=\"result-detail\" data-group=\"code:FTS 1420\" >FTS 1420</a>, or <a href=\"/search/?p=FTS%201430\" data-action=\"result-detail\" data-group=\"code:FTS 1430\"  class=\"notoffered\">FTS 1430</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTH 1018\"}, {\"type\": \"course\", \"code\": \"ARTH 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}]}",
+      "other_requirements": "PACE students by permission and override.",
       "external": false
     },
     {
@@ -35,6 +46,17 @@
       "external": false
     },
     {
+      "id": "ARTH 4994",
+      "course_code": "ARTH 4994",
+      "department": "ARTH",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"other_requirement\", \"description\": \"Any ARTS course (2 available)\"}, {\"type\": \"course\", \"code\": \"ARTS 3000\"}]}",
+      "other_requirements": "faculty sponsor; minimum Junior standing; Application required, see https://www.uvm.edu/cas/art/student-forms-and-contracts for application form.",
+      "external": false
+    },
+    {
       "id": "ARTH 2870",
       "course_code": "ARTH 2870",
       "department": "ARTH",
@@ -46,14 +68,25 @@
       "external": false
     },
     {
-      "id": "ARTH 2602",
-      "course_code": "ARTH 2602",
+      "id": "ARTH 1990",
+      "course_code": "ARTH 1990",
       "department": "ARTH",
-      "title": "Contemp East Asian Art",
-      "credit_hours": "3",
-      "description": "A study of selected examples of recent and current art and/or architecture, with a focus on the diversity of human experience. Material emphasis and geographical focus will vary with instructor. Representative topics: East Asian Art's Dialogue with Traditions. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=ARTH%201018\" data-action=\"result-detail\" data-group=\"code:ARTH 1018\"  class=\"notoffered\">ARTH 1018</a>, <a href=\"/search/?p=ARTH%201420\" data-action=\"result-detail\" data-group=\"code:ARTH 1420\" >ARTH 1420</a>, <a href=\"/search/?p=FTS%201420\" data-action=\"result-detail\" data-group=\"code:FTS 1420\" >FTS 1420</a>, or <a href=\"/search/?p=FTS%201430\" data-action=\"result-detail\" data-group=\"code:FTS 1430\"  class=\"notoffered\">FTS 1430</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTH 1018\"}, {\"type\": \"course\", \"code\": \"ARTH 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}",
+      "title": "Writing About Art",
+      "credit_hours": "1",
+      "description": "Introductory courses or seminars on topics beyond the scope of existing departmental offerings. See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
       "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ARTH 3000",
+      "course_code": "ARTH 3000",
+      "department": "ARTH",
+      "title": "Art and its Destruction",
+      "credit_hours": "3",
+      "description": "Advanced seminar for Art History majors. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: Six hours of 2000-level Art History, including three hours in the area of the seminar; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTH 2000\"}, {\"type\": \"course\", \"code\": \"ARTH 2000\"}, {\"type\": \"course\", \"code\": \"ARTH 2000\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTH 2000\"}, {\"type\": \"course\", \"code\": \"ARTH 2000\"}, {\"type\": \"course\", \"code\": \"ARTH 2000\"}]}]}",
+      "other_requirements": "minimum Junior standing",
       "external": false
     },
     {
@@ -68,25 +101,36 @@
       "external": true
     },
     {
-      "id": "ARTH 2100",
-      "course_code": "ARTH 2100",
+      "id": "ARTH 4996",
+      "course_code": "ARTH 4996",
       "department": "ARTH",
-      "title": "Ancient Tombs and Temples",
-      "credit_hours": "3",
-      "description": "Topics examining the visual arts in the ancient world. Representative topics: Roman Art; Art and the Ancient Silk Road. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=ARTH%201016\" data-action=\"result-detail\" data-group=\"code:ARTH 1016\"  class=\"notoffered\">ARTH 1016</a> or <a href=\"/search/?p=ARTH%201410\" data-action=\"result-detail\" data-group=\"code:ARTH 1410\" >ARTH 1410</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTH 1016\"}, {\"type\": \"course\", \"code\": \"ARTH 1410\"}]}",
-      "other_requirements": "PACE students by permission and override",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     },
     {
-      "id": "ARTH 1420",
-      "course_code": "ARTH 1420",
+      "id": "ARTH 1020",
+      "course_code": "ARTH 1020",
       "department": "ARTH",
-      "title": "Art History after 1300",
+      "title": "LASP:ArtofConflict/Revolutions",
       "credit_hours": "3",
-      "description": "Introduction to the visual arts, primarily painting, sculpture, and architecture from the Renaissance to present. Credit not awarded for both ARTH 1420 and <a href=\"/search/?p=ARTH%201018\" data-action=\"result-detail\" data-group=\"code:ARTH 1018\"  class=\"notoffered\">ARTH 1018</a>.",
+      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences). Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program.",
       "prereq_expression": null,
-      "other_requirements": null,
+      "other_requirements": "LASP students only; Humanities Scholars only; Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "ARTH 2885",
+      "course_code": "ARTH 2885",
+      "department": "ARTH",
+      "title": "African-Amer Art History",
+      "credit_hours": "3",
+      "description": "Study of selected aspects of gender, race, or ethnicity in art, and/or of the contributions of women or ethnically diverse people to the visual arts. Material and emphasis vary with instructor. Representative topic: Women in Art. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Three hours in Art History.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTH 1234\"}, {\"type\": \"course\", \"code\": \"ARTH 1234\"}]}",
+      "other_requirements": "Three hours in Art History.",
       "external": false
     },
     {
@@ -96,6 +140,72 @@
       "title": " FYS: Art Crimes & Scandals",
       "credit_hours": "3",
       "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ARTH 2200",
+      "course_code": "ARTH 2200",
+      "department": "ARTH",
+      "title": "Indian and Islamic Art",
+      "credit_hours": "3",
+      "description": "Study of visual arts of the medieval period with variable themes and/or geographic lenses. Students will develop skills as visual investigators and responsible interpreters of the art. Representative topics: Global Middle Ages; Indian and Islamic Art. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=ARTH%201016\" data-action=\"result-detail\" data-group=\"code:ARTH 1016\"  class=\"notoffered\">ARTH 1016</a> or <a href=\"/search/?p=ARTH%201410\" data-action=\"result-detail\" data-group=\"code:ARTH 1410\" >ARTH 1410</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTH 1016\"}, {\"type\": \"course\", \"code\": \"ARTH 1410\"}]}",
+      "other_requirements": "PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "ARTH 2602",
+      "course_code": "ARTH 2602",
+      "department": "ARTH",
+      "title": "Contemp East Asian Art",
+      "credit_hours": "3",
+      "description": "A study of selected examples of recent and current art and/or architecture, with a focus on the diversity of human experience. Material emphasis and geographical focus will vary with instructor. Representative topics: East Asian Art's Dialogue with Traditions. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=ARTH%201018\" data-action=\"result-detail\" data-group=\"code:ARTH 1018\"  class=\"notoffered\">ARTH 1018</a>, <a href=\"/search/?p=ARTH%201420\" data-action=\"result-detail\" data-group=\"code:ARTH 1420\" >ARTH 1420</a>, <a href=\"/search/?p=FTS%201420\" data-action=\"result-detail\" data-group=\"code:FTS 1420\" >FTS 1420</a>, or <a href=\"/search/?p=FTS%201430\" data-action=\"result-detail\" data-group=\"code:FTS 1430\"  class=\"notoffered\">FTS 1430</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTH 1018\"}, {\"type\": \"course\", \"code\": \"ARTH 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ARTH 3991",
+      "course_code": "ARTH 3991",
+      "department": "ARTH",
+      "title": "CL:Int:Campus Art Projects",
+      "credit_hours": "3",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Prerequisites: Six hours of Art History courses at the 2000-level; Junior standing; departmental permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTH 2000\"}, {\"type\": \"course\", \"code\": \"ARTH 2000\"}, {\"type\": \"course\", \"code\": \"ARTH 2000\"}, {\"type\": \"course\", \"code\": \"ARTH 2000\"}, {\"type\": \"course\", \"code\": \"ARTH 2000\"}, {\"type\": \"course\", \"code\": \"ARTH 2000\"}]}",
+      "other_requirements": "Junior standing; departmental permission.",
+      "external": false
+    },
+    {
+      "id": "ARTS 2040",
+      "course_code": "ARTS 2040",
+      "department": "ARTS",
+      "title": "Printing in Public Spaces",
+      "credit_hours": "3",
+      "description": "Exploration of various themes and/or media. Representative topics: Making Artist's Books; Gesamkunstwerk from Scratch. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
+      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $100.00",
+      "external": true
+    },
+    {
+      "id": "ARTH 3995",
+      "course_code": "ARTH 3995",
+      "department": "ARTH",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Department permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"other_requirement\", \"description\": \"Any ARTS course\"}]}",
+      "other_requirements": "Department permission; faculty sponsor; minimum Junior standing; faculty advisor permission required. Contact instructor.",
+      "external": false
+    },
+    {
+      "id": "ARTH 1420",
+      "course_code": "ARTH 1420",
+      "department": "ARTH",
+      "title": "Art History after 1300",
+      "credit_hours": "3",
+      "description": "Introduction to the visual arts, primarily painting, sculpture, and architecture from the Renaissance to present. Credit not awarded for both ARTH 1420 and <a href=\"/search/?p=ARTH%201018\" data-action=\"result-detail\" data-group=\"code:ARTH 1018\"  class=\"notoffered\">ARTH 1018</a>.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -112,175 +222,77 @@
       "external": true
     },
     {
-      "id": "ARTH 1020",
-      "course_code": "ARTH 1020",
+      "id": "ARTH 2100",
+      "course_code": "ARTH 2100",
       "department": "ARTH",
-      "title": "LASP:ArtofConflict/Revolutions",
+      "title": "Ancient Tombs and Temples",
       "credit_hours": "3",
-      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences). Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program.",
-      "prereq_expression": null,
-      "other_requirements": "LASP students only; Humanities Scholars only; Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "ARTS 2030",
-      "course_code": "ARTS 2030",
-      "department": "ARTS",
-      "title": "Sound Art",
-      "credit_hours": "3",
-      "description": "Students will work with interdisciplinary approaches to art subjects. Representative topics: Multi-Media Documentary; Socially-Engaged Art. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
-      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $140.00",
-      "external": true
-    },
-    {
-      "id": "ARTH 3995",
-      "course_code": "ARTH 3995",
-      "department": "ARTH",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Department permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2000\"}, {\"type\": \"course\", \"code\": \"ARTS 2001\"}, {\"type\": \"course\", \"code\": \"ARTS 2002\"}, {\"type\": \"course\", \"code\": \"ARTS 2003\"}, {\"type\": \"course\", \"code\": \"ARTS 2004\"}, {\"type\": \"course\", \"code\": \"ARTS 2005\"}, {\"type\": \"course\", \"code\": \"ARTS 2006\"}, {\"type\": \"course\", \"code\": \"ARTS 2007\"}, {\"type\": \"course\", \"code\": \"ARTS 2008\"}, {\"type\": \"course\", \"code\": \"ARTS 2009\"}]}]}",
-      "other_requirements": "Department permission; faculty sponsor; minimum Junior standing; faculty advisor permission required. Contact instructor.",
-      "external": false
-    },
-    {
-      "id": "ARTH 2200",
-      "course_code": "ARTH 2200",
-      "department": "ARTH",
-      "title": "Indian and Islamic Art",
-      "credit_hours": "3",
-      "description": "Study of visual arts of the medieval period with variable themes and/or geographic lenses. Students will develop skills as visual investigators and responsible interpreters of the art. Representative topics: Global Middle Ages; Indian and Islamic Art. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=ARTH%201016\" data-action=\"result-detail\" data-group=\"code:ARTH 1016\"  class=\"notoffered\">ARTH 1016</a> or <a href=\"/search/?p=ARTH%201410\" data-action=\"result-detail\" data-group=\"code:ARTH 1410\" >ARTH 1410</a>.",
+      "description": "Topics examining the visual arts in the ancient world. Representative topics: Roman Art; Art and the Ancient Silk Road. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=ARTH%201016\" data-action=\"result-detail\" data-group=\"code:ARTH 1016\"  class=\"notoffered\">ARTH 1016</a> or <a href=\"/search/?p=ARTH%201410\" data-action=\"result-detail\" data-group=\"code:ARTH 1410\" >ARTH 1410</a>.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTH 1016\"}, {\"type\": \"course\", \"code\": \"ARTH 1410\"}]}",
-      "other_requirements": "PACE students by permission and override.",
+      "other_requirements": "PACE students by permission and override",
       "external": false
-    },
-    {
-      "id": "ARTH 2885",
-      "course_code": "ARTH 2885",
-      "department": "ARTH",
-      "title": "African-Amer Art History",
-      "credit_hours": "3",
-      "description": "Study of selected aspects of gender, race, or ethnicity in art, and/or of the contributions of women or ethnically diverse people to the visual arts. Material and emphasis vary with instructor. Representative topic: Women in Art. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Three hours in Art History.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTH 1234\"}, {\"type\": \"course\", \"code\": \"ARTH 1234\"}]}",
-      "other_requirements": "Three hours in Art History.",
-      "external": false
-    },
-    {
-      "id": "ARTH 4994",
-      "course_code": "ARTH 4994",
-      "department": "ARTH",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 2000\"}, {\"type\": \"course\", \"code\": \"ARTS 2001\"}, {\"type\": \"course\", \"code\": \"ARTS 2002\"}, {\"type\": \"course\", \"code\": \"ARTS 2003\"}, {\"type\": \"course\", \"code\": \"ARTS 2004\"}, {\"type\": \"course\", \"code\": \"ARTS 2005\"}, {\"type\": \"course\", \"code\": \"ARTS 2006\"}, {\"type\": \"course\", \"code\": \"ARTS 2007\"}, {\"type\": \"course\", \"code\": \"ARTS 2008\"}, {\"type\": \"course\", \"code\": \"ARTS 2009\"}, {\"type\": \"course\", \"code\": \"ARTS 2010\"}, {\"type\": \"course\", \"code\": \"ARTS 2011\"}, {\"type\": \"course\", \"code\": \"ARTS 2012\"}, {\"type\": \"course\", \"code\": \"ARTS 2013\"}, {\"type\": \"course\", \"code\": \"ARTS 2014\"}, {\"type\": \"course\", \"code\": \"ARTS 2015\"}, {\"type\": \"course\", \"code\": \"ARTS 2016\"}, {\"type\": \"course\", \"code\": \"ARTS 2017\"}, {\"type\": \"course\", \"code\": \"ARTS 2018\"}, {\"type\": \"course\", \"code\": \"ARTS 2019\"}, {\"type\": \"course\", \"code\": \"ARTS 2020\"}, {\"type\": \"course\", \"code\": \"ARTS 2021\"}, {\"type\": \"course\", \"code\": \"ARTS 2022\"}, {\"type\": \"course\", \"code\": \"ARTS 2023\"}, {\"type\": \"course\", \"code\": \"ARTS 2024\"}, {\"type\": \"course\", \"code\": \"ARTS 2025\"}, {\"type\": \"course\", \"code\": \"ARTS 2026\"}, {\"type\": \"course\", \"code\": \"ARTS 2027\"}, {\"type\": \"course\", \"code\": \"ARTS 2028\"}, {\"type\": \"course\", \"code\": \"ARTS 2029\"}, {\"type\": \"course\", \"code\": \"ARTS 2030\"}, {\"type\": \"course\", \"code\": \"ARTS 2031\"}, {\"type\": \"course\", \"code\": \"ARTS 2032\"}, {\"type\": \"course\", \"code\": \"ARTS 2033\"}, {\"type\": \"course\", \"code\": \"ARTS 2034\"}, {\"type\": \"course\", \"code\": \"ARTS 2035\"}, {\"type\": \"course\", \"code\": \"ARTS 2036\"}, {\"type\": \"course\", \"code\": \"ARTS 2037\"}, {\"type\": \"course\", \"code\": \"ARTS 2038\"}, {\"type\": \"course\", \"code\": \"ARTS 2039\"}, {\"type\": \"course\", \"code\": \"ARTS 2040\"}, {\"type\": \"course\", \"code\": \"ARTS 2041\"}, {\"type\": \"course\", \"code\": \"ARTS 2042\"}, {\"type\": \"course\", \"code\": \"ARTS 2043\"}, {\"type\": \"course\", \"code\": \"ARTS 2044\"}, {\"type\": \"course\", \"code\": \"ARTS 2045\"}, {\"type\": \"course\", \"code\": \"ARTS 2046\"}, {\"type\": \"course\", \"code\": \"ARTS 2047\"}, {\"type\": \"course\", \"code\": \"ARTS 2048\"}, {\"type\": \"course\", \"code\": \"ARTS 2049\"}, {\"type\": \"course\", \"code\": \"ARTS 2050\"}, {\"type\": \"course\", \"code\": \"ARTS 2051\"}, {\"type\": \"course\", \"code\": \"ARTS 2052\"}, {\"type\": \"course\", \"code\": \"ARTS 2053\"}, {\"type\": \"course\", \"code\": \"ARTS 2054\"}, {\"type\": \"course\", \"code\": \"ARTS 2055\"}, {\"type\": \"course\", \"code\": \"ARTS 2056\"}, {\"type\": \"course\", \"code\": \"ARTS 2057\"}, {\"type\": \"course\", \"code\": \"ARTS 2058\"}, {\"type\": \"course\", \"code\": \"ARTS 2059\"}, {\"type\": \"course\", \"code\": \"ARTS 2060\"}, {\"type\": \"course\", \"code\": \"ARTS 2061\"}, {\"type\": \"course\", \"code\": \"ARTS 2062\"}, {\"type\": \"course\", \"code\": \"ARTS 2063\"}, {\"type\": \"course\", \"code\": \"ARTS 2064\"}, {\"type\": \"course\", \"code\": \"ARTS 2065\"}, {\"type\": \"course\", \"code\": \"ARTS 2066\"}, {\"type\": \"course\", \"code\": \"ARTS 2067\"}, {\"type\": \"course\", \"code\": \"ARTS 2068\"}, {\"type\": \"course\", \"code\": \"ARTS 2069\"}, {\"type\": \"course\", \"code\": \"ARTS 2070\"}, {\"type\": \"course\", \"code\": \"ARTS 2071\"}, {\"type\": \"course\", \"code\": \"ARTS 2072\"}, {\"type\": \"course\", \"code\": \"ARTS 2073\"}, {\"type\": \"course\", \"code\": \"ARTS 2074\"}, {\"type\": \"course\", \"code\": \"ARTS 2075\"}, {\"type\": \"course\", \"code\": \"ARTS 2076\"}, {\"type\": \"course\", \"code\": \"ARTS 2077\"}, {\"type\": \"course\", \"code\": \"ARTS 2078\"}, {\"type\": \"course\", \"code\": \"ARTS 2079\"}, {\"type\": \"course\", \"code\": \"ARTS 2080\"}, {\"type\": \"course\", \"code\": \"ARTS 2081\"}, {\"type\": \"course\", \"code\": \"ARTS 2082\"}, {\"type\": \"course\", \"code\": \"ARTS 2083\"}, {\"type\": \"course\", \"code\": \"ARTS 2084\"}, {\"type\": \"course\", \"code\": \"ARTS 2085\"}, {\"type\": \"course\", \"code\": \"ARTS 2086\"}, {\"type\": \"course\", \"code\": \"ARTS 2087\"}, {\"type\": \"course\", \"code\": \"ARTS 2088\"}, {\"type\": \"course\", \"code\": \"ARTS 2089\"}, {\"type\": \"course\", \"code\": \"ARTS 2090\"}, {\"type\": \"course\", \"code\": \"ARTS 2091\"}, {\"type\": \"course\", \"code\": \"ARTS 2092\"}, {\"type\": \"course\", \"code\": \"ARTS 2093\"}, {\"type\": \"course\", \"code\": \"ARTS 2094\"}, {\"type\": \"course\", \"code\": \"ARTS 2095\"}, {\"type\": \"course\", \"code\": \"ARTS 2096\"}, {\"type\": \"course\", \"code\": \"ARTS 2097\"}, {\"type\": \"course\", \"code\": \"ARTS 2098\"}, {\"type\": \"course\", \"code\": \"ARTS 2099\"}]}, {\"type\": \"course\", \"code\": \"ARTS 3000\"}]}",
-      "other_requirements": "faculty sponsor; minimum Junior standing; Application required, see https://www.uvm.edu/cas/art/student-forms-and-contracts for application form.",
-      "external": false
-    },
-    {
-      "id": "ARTH 2990",
-      "course_code": "ARTH 2990",
-      "department": "ARTH",
-      "title": "American Art 1850-present",
-      "credit_hours": "3",
-      "description": "Intermediate courses or seminars on topics beyond the scope of existing departmental offerings. See Schedule of Courses for specific titles.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTH 1410\"}, {\"type\": \"course\", \"code\": \"ARTH 1420\"}]}",
-      "other_requirements": "PACE students with permission and override.",
-      "external": false
-    },
-    {
-      "id": "ARTH 3991",
-      "course_code": "ARTH 3991",
-      "department": "ARTH",
-      "title": "CL:Int:Campus Art Projects",
-      "credit_hours": "3",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Prerequisites: Six hours of Art History courses at the 2000-level; Junior standing; departmental permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTH 2000\"}, {\"type\": \"course\", \"code\": \"ARTH 2000\"}, {\"type\": \"course\", \"code\": \"ARTH 2000\"}, {\"type\": \"course\", \"code\": \"ARTH 2000\"}, {\"type\": \"course\", \"code\": \"ARTH 2000\"}, {\"type\": \"course\", \"code\": \"ARTH 2000\"}]}",
-      "other_requirements": "Junior standing; departmental permission.",
-      "external": false
-    },
-    {
-      "id": "ARTH 4996",
-      "course_code": "ARTH 4996",
-      "department": "ARTH",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "ARTH 2600",
-      "course_code": "ARTH 2600",
-      "department": "ARTH",
-      "title": "South Korean Postwar Art",
-      "credit_hours": "3",
-      "description": "A study of selected examples of recent and current art and/or architecture. Representative topic: Contemporary East Asian Art. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=ARTH%201018\" data-action=\"result-detail\" data-group=\"code:ARTH 1018\"  class=\"notoffered\">ARTH 1018</a>, <a href=\"/search/?p=ARTH%201420\" data-action=\"result-detail\" data-group=\"code:ARTH 1420\" >ARTH 1420</a>, <a href=\"/search/?p=FTS%201420\" data-action=\"result-detail\" data-group=\"code:FTS 1420\" >FTS 1420</a>, or <a href=\"/search/?p=FTS%201430\" data-action=\"result-detail\" data-group=\"code:FTS 1430\"  class=\"notoffered\">FTS 1430</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTH 1018\"}, {\"type\": \"course\", \"code\": \"ARTH 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1420\"}, {\"type\": \"course\", \"code\": \"FTS 1430\"}]}]}",
-      "other_requirements": "PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "ARTS 2040",
-      "course_code": "ARTS 2040",
-      "department": "ARTS",
-      "title": "Printing in Public Spaces",
-      "credit_hours": "3",
-      "description": "Exploration of various themes and/or media. Representative topics: Making Artist's Books; Gesamkunstwerk from Scratch. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}",
-      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed; Minimum sophomore standing. PACE students with permission and override. Fee: $100.00",
-      "external": true
     }
   ],
   "edges": [
     {
       "source": "ARTH 1410",
-      "target": "ARTH 2100"
+      "target": "ARTH 2100",
+      "group": "ARTH 2100__g0"
     },
     {
       "source": "ARTH 1410",
-      "target": "ARTH 2200"
+      "target": "ARTH 2200",
+      "group": "ARTH 2200__g0"
     },
     {
       "source": "ARTH 1410",
-      "target": "ARTH 2990"
+      "target": "ARTH 2990",
+      "group": "ARTH 2990__g0"
     },
     {
       "source": "ARTH 1420",
-      "target": "ARTH 2600"
+      "target": "ARTH 2600",
+      "group": "ARTH 2600__g0"
     },
     {
       "source": "ARTH 1420",
-      "target": "ARTH 2602"
+      "target": "ARTH 2602",
+      "group": "ARTH 2602__g0"
     },
     {
       "source": "ARTH 1420",
-      "target": "ARTH 2990"
+      "target": "ARTH 2990",
+      "group": "ARTH 2990__g0"
     },
     {
       "source": "ARTS 2030",
-      "target": "ARTH 4994"
+      "target": "ARTH 4994",
+      "group": null
     },
     {
       "source": "ARTS 2040",
-      "target": "ARTH 4994"
+      "target": "ARTH 4994",
+      "group": null
     },
     {
       "source": "FTS 1420",
-      "target": "ARTH 2600"
+      "target": "ARTH 2600",
+      "group": "ARTH 2600__g0"
     },
     {
       "source": "FTS 1420",
-      "target": "ARTH 2602"
+      "target": "ARTH 2602",
+      "group": "ARTH 2602__g0"
     },
     {
       "source": "FTS 1430",
-      "target": "ARTH 2600"
+      "target": "ARTH 2600",
+      "group": "ARTH 2600__g0"
     },
     {
       "source": "FTS 1430",
-      "target": "ARTH 2602"
+      "target": "ARTH 2602",
+      "group": "ARTH 2602__g0"
     }
   ]
 }

@@ -2,48 +2,15 @@
   "department": "EDEL",
   "nodes": [
     {
-      "id": "EDEL 2550",
-      "course_code": "EDEL 2550",
-      "department": "EDEL",
-      "title": "Teachers &the Teaching Process",
+      "id": "EDFS 3030",
+      "course_code": "EDFS 3030",
+      "department": "EDFS",
+      "title": "Soc, Hst & Phil Found of Educ",
       "credit_hours": "3",
-      "description": "Introduce the responsibilities of the teaching profession. Students observe and learn about different models of teaching while gaining teaching experience. Students become familiar with creating classroom environments that support all students in learning. Prerequisites: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>; <a href=\"/search/?p=EDFS%201020\" data-action=\"result-detail\" data-group=\"code:EDFS 1020\"  class=\"notoffered\">EDFS 1020</a> or <a href=\"/search/?p=EDFS%203030\" data-action=\"result-detail\" data-group=\"code:EDFS 3030\" >EDFS 3030</a>; <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a>, <a href=\"/search/?p=HDF%201050\" data-action=\"result-detail\" data-group=\"code:HDF 1050\" >HDF 1050</a>, or <a href=\"/search/?p=PSYS%202400\" data-action=\"result-detail\" data-group=\"code:PSYS 2400\" >PSYS 2400</a>. Co-requisites: <a href=\"/search/?p=EDEL%202570\" data-action=\"result-detail\" data-group=\"code:EDEL 2570\" >EDEL 2570</a>. Pre/Co-requisites: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>; <a href=\"/search/?p=EDFS%201020\" data-action=\"result-detail\" data-group=\"code:EDFS 1020\"  class=\"notoffered\">EDFS 1020</a> or <a href=\"/search/?p=EDFS%203030\" data-action=\"result-detail\" data-group=\"code:EDFS 3030\" >EDFS 3030</a>; <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a>, <a href=\"/search/?p=HDF%201050\" data-action=\"result-detail\" data-group=\"code:HDF 1050\" >HDF 1050</a>, or <a href=\"/search/?p=PSYS%202400\" data-action=\"result-detail\" data-group=\"code:PSYS 2400\" >PSYS 2400</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDFS 1020\"}, {\"type\": \"course\", \"code\": \"EDFS 3030\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1630\"}, {\"type\": \"course\", \"code\": \"HDF 1050\"}, {\"type\": \"course\", \"code\": \"PSYS 2400\"}]}]}",
-      "other_requirements": "school sites on 10 Thursdays; 2nd or 3rd year Elementary Education (ELK6) majors only; Taken concurrently with EDEL 2570 or EDEL 3760. Lab fee: $40.00. Class meets in designated off campus elementary",
-      "external": false
-    },
-    {
-      "id": "EDEL 3780",
-      "course_code": "EDEL 3780",
-      "department": "EDEL",
-      "title": "Teaching Math for Meaning",
-      "credit_hours": "3",
-      "description": "Methods of teaching mathematics in elementary school. Research base for how children learn mathematics and how math curriculum is organized. Special focus on teaching diverse groupings of learners. Prerequisite: Admission to Elementary Teacher Education Program; concurrent with <a href=\"/search/?p=EDEL%203750\" data-action=\"result-detail\" data-group=\"code:EDEL 3750\" >EDEL 3750</a>, <a href=\"/search/?p=EDEL%203760\" data-action=\"result-detail\" data-group=\"code:EDEL 3760\" >EDEL 3760</a>, <a href=\"/search/?p=EDEL%202570\" data-action=\"result-detail\" data-group=\"code:EDEL 2570\" >EDEL 2570</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 3750\"}, {\"type\": \"course\", \"code\": \"EDEL 3760\"}, {\"type\": \"course\", \"code\": \"EDEL 2570\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 3750\"}, {\"type\": \"course\", \"code\": \"EDEL 3770\"}, {\"type\": \"course\", \"code\": \"EDEL 4760\"}]}]}",
-      "other_requirements": "Admission to Elementary Teacher Education Program; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement",
-      "external": false
-    },
-    {
-      "id": "EDEL 3760",
-      "course_code": "EDEL 3760",
-      "department": "EDEL",
-      "title": "Language Arts&Literacy Skills",
-      "credit_hours": "3",
-      "description": "Cognitive research base for the social context of children's learning. Methods of language arts as literate activity. Emphasis on emergence of literacy in the child of special need. Prerequisites: Admission to Elementary Teacher Education Program; concurrent with <a href=\"/search/?p=EDEL%203780\" data-action=\"result-detail\" data-group=\"code:EDEL 3780\" >EDEL 3780</a>, <a href=\"/search/?p=EDEL%203750\" data-action=\"result-detail\" data-group=\"code:EDEL 3750\" >EDEL 3750</a>, <a href=\"/search/?p=EDEL%202570\" data-action=\"result-detail\" data-group=\"code:EDEL 2570\" >EDEL 2570</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 3780\"}, {\"type\": \"course\", \"code\": \"EDEL 3750\"}, {\"type\": \"course\", \"code\": \"EDEL 2570\"}, {\"type\": \"course\", \"code\": \"EDEL 2550\"}]}",
-      "other_requirements": "Admission to Elementary Teacher Education Program; ELK6 2nd yr, Admit to Teacher Education",
-      "external": false
-    },
-    {
-      "id": "EDEL 5050",
-      "course_code": "EDEL 5050",
-      "department": "EDEL",
-      "title": "Experiencing NZ Educ & Culture",
-      "credit_hours": "3",
-      "description": "Travel course that offers current educators and graduate students the opportunity to explore English and Maori educational facilities in and around Auckland, New Zealand. Educators will explore New Zealand culture, the Ministry of Education's current educational direction, and the cultural integration of Maori and Pakeha education. Participants will visit approximately nine different primary/intermediate schools. These schools will reflect the various decile levels present in New Zealand Education.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission only. Open to Graduate/PACE students.",
-      "external": false
+      "description": "Critical examination of central educational/social issues and values with special emphasis on the struggle for justice and equality. Themes include schooling and social class, race, and gender; the purposes of education; and the responsibilities of teachers. Prerequisite: Completion of a 2000 level course.",
+      "prereq_expression": "{\"type\": \"other_requirement\", \"description\": \"Any EDFS course\"}",
+      "other_requirements": "Open to degree and PACE students",
+      "external": true
     },
     {
       "id": "EDEL 4993",
@@ -54,50 +21,6 @@
       "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "EDEL 3990",
-      "course_code": "EDEL 3990",
-      "department": "EDEL",
-      "title": "Intrvn in the clssrm: Math SL",
-      "credit_hours": "1 to 18",
-      "description": "See Schedule of Course for specific titles.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 2550\"}, {\"type\": \"course\", \"code\": \"EDEL 2570\"}]}",
-      "other_requirements": "6 weeks of time in the community dates TBD.",
-      "external": false
-    },
-    {
-      "id": "EDEL 4880",
-      "course_code": "EDEL 4880",
-      "department": "EDEL",
-      "title": "Student Teaching Seminar",
-      "credit_hours": "3",
-      "description": "Designed to enhance elementary education licensure candidates' experience as full-time interns in K-6 classrooms. Candidates will learn to create productive classroom environments that support the social, emotional, and academic growth of all students. Prerequisites: <a href=\"/search/?p=EDEL%204760\" data-action=\"result-detail\" data-group=\"code:EDEL 4760\" >EDEL 4760</a>; Elementary Education (Grades K-6) major; Senior standing; admit to Student Teaching. Co-requisite: <a href=\"/search/?p=EDEL%204991\" data-action=\"result-detail\" data-group=\"code:EDEL 4991\" >EDEL 4991</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 4760\"}]}",
-      "other_requirements": "Elementary Education (Grades K-6) major; Senior standing; admit to Student Teaching. Concurrent with EDEL 4991",
-      "external": false
-    },
-    {
-      "id": "EDEL 3570",
-      "course_code": "EDEL 3570",
-      "department": "EDEL",
-      "title": "SU:Social Educ &Social Studies",
-      "credit_hours": "3",
-      "description": "Social Studies is the study of how humans have interacted with their environment and one another over time. The goal of teachers is to prepare students to be contributing and engaged citizens. Course covers how to teach social studies to children in a way that prepares them to be active citizens in a democratic and sustainable society. Focuses on elementary social studies standards, content, strategies, and resources. Pre/co-requisites: Teacher Education:Elementary Education major; <a href=\"/search/?p=EDEL%203550\" data-action=\"result-detail\" data-group=\"code:EDEL 3550\" >EDEL 3550</a>, <a href=\"/search/?p=EDEL%203580\" data-action=\"result-detail\" data-group=\"code:EDEL 3580\" >EDEL 3580</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 3550\"}, {\"type\": \"course\", \"code\": \"EDEL 3580\"}]}",
-      "other_requirements": "Teacher Education:Elementary Education major; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement; Concurrent with EDEL 3550 and EDEL 3580.",
-      "external": false
-    },
-    {
-      "id": "EDEL 3580",
-      "course_code": "EDEL 3580",
-      "department": "EDEL",
-      "title": "SL:Teaching Science forMeaning",
-      "credit_hours": "3",
-      "description": "Teaching K-6 science through inquiry. Use of constructivist pedagogy to develop lessons and activities that develop concepts from physical, earth, and life sciences. Pre/co-requisites: Admission to the Elementary Education Program; concurrent with <a href=\"/search/?p=EDEL%203550\" data-action=\"result-detail\" data-group=\"code:EDEL 3550\" >EDEL 3550</a> &amp; <a href=\"/search/?p=EDEL%203570\" data-action=\"result-detail\" data-group=\"code:EDEL 3570\" >EDEL 3570</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 3550\"}, {\"type\": \"course\", \"code\": \"EDEL 3570\"}]}",
-      "other_requirements": "Admission to the Elementary Education Program; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement; Co-located with EDEC 2510",
       "external": false
     },
     {
@@ -112,6 +35,28 @@
       "external": true
     },
     {
+      "id": "EDEL 3580",
+      "course_code": "EDEL 3580",
+      "department": "EDEL",
+      "title": "SL:Teaching Science forMeaning",
+      "credit_hours": "3",
+      "description": "Teaching K-6 science through inquiry. Use of constructivist pedagogy to develop lessons and activities that develop concepts from physical, earth, and life sciences. Pre/co-requisites: Admission to the Elementary Education Program; concurrent with <a href=\"/search/?p=EDEL%203550\" data-action=\"result-detail\" data-group=\"code:EDEL 3550\" >EDEL 3550</a> &amp; <a href=\"/search/?p=EDEL%203570\" data-action=\"result-detail\" data-group=\"code:EDEL 3570\" >EDEL 3570</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 3550\"}, {\"type\": \"course\", \"code\": \"EDEL 3570\"}]}",
+      "other_requirements": "Admission to the Elementary Education Program; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement; Co-located with EDEC 2510",
+      "external": false
+    },
+    {
+      "id": "EDEL 4880",
+      "course_code": "EDEL 4880",
+      "department": "EDEL",
+      "title": "Student Teaching Seminar",
+      "credit_hours": "3",
+      "description": "Designed to enhance elementary education licensure candidates' experience as full-time interns in K-6 classrooms. Candidates will learn to create productive classroom environments that support the social, emotional, and academic growth of all students. Prerequisites: <a href=\"/search/?p=EDEL%204760\" data-action=\"result-detail\" data-group=\"code:EDEL 4760\" >EDEL 4760</a>; Elementary Education (Grades K-6) major; Senior standing; admit to Student Teaching. Co-requisite: <a href=\"/search/?p=EDEL%204991\" data-action=\"result-detail\" data-group=\"code:EDEL 4991\" >EDEL 4991</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 4760\"}]}",
+      "other_requirements": "Elementary Education (Grades K-6) major; Senior standing; admit to Student Teaching. Concurrent with EDEL 4991",
+      "external": false
+    },
+    {
       "id": "EDEL 4760",
       "course_code": "EDEL 4760",
       "department": "EDEL",
@@ -120,39 +65,6 @@
       "description": "Extending and refining knowledge about reading, writing instruction, and assessment. Students will review literature, implement classroom-based assessment strategies, and develop lessons and units for literacy instruction. Prerequisites: <a href=\"/search/?p=EDEL%203750\" data-action=\"result-detail\" data-group=\"code:EDEL 3750\" >EDEL 3750</a>, <a href=\"/search/?p=EDEL%203760\" data-action=\"result-detail\" data-group=\"code:EDEL 3760\" >EDEL 3760</a>; Elementary Education Grades K-6) major; minimum Junior standing.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 3750\"}, {\"type\": \"course\", \"code\": \"EDEL 3760\"}]}, {\"type\": \"course\", \"code\": \"EDEL 3770\"}]}]}",
       "other_requirements": "Elementary Education Grades K-6) major; minimum Junior standing; instructor permission; ELK6 3rd or 4th yr; Taken concurrently with EDEL 3750, EDEL 3780, and EDEL 3770. Take prior to student teaching.",
-      "external": false
-    },
-    {
-      "id": "EDFS 3030",
-      "course_code": "EDFS 3030",
-      "department": "EDFS",
-      "title": "Soc, Hst & Phil Found of Educ",
-      "credit_hours": "3",
-      "description": "Critical examination of central educational/social issues and values with special emphasis on the struggle for justice and equality. Themes include schooling and social class, race, and gender; the purposes of education; and the responsibilities of teachers. Prerequisite: Completion of a 2000 level course.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDFS 2001\"}, {\"type\": \"course\", \"code\": \"EDFS 2002\"}, {\"type\": \"course\", \"code\": \"EDFS 2003\"}, {\"type\": \"course\", \"code\": \"EDFS 2004\"}, {\"type\": \"course\", \"code\": \"EDFS 2005\"}, {\"type\": \"course\", \"code\": \"EDFS 2006\"}, {\"type\": \"course\", \"code\": \"EDFS 2007\"}, {\"type\": \"course\", \"code\": \"EDFS 2008\"}, {\"type\": \"course\", \"code\": \"EDFS 2009\"}, {\"type\": \"course\", \"code\": \"EDFS 2010\"}, {\"type\": \"course\", \"code\": \"EDFS 2011\"}, {\"type\": \"course\", \"code\": \"EDFS 2012\"}, {\"type\": \"course\", \"code\": \"EDFS 2013\"}, {\"type\": \"course\", \"code\": \"EDFS 2014\"}, {\"type\": \"course\", \"code\": \"EDFS 2015\"}, {\"type\": \"course\", \"code\": \"EDFS 2016\"}, {\"type\": \"course\", \"code\": \"EDFS 2017\"}, {\"type\": \"course\", \"code\": \"EDFS 2018\"}, {\"type\": \"course\", \"code\": \"EDFS 2019\"}, {\"type\": \"course\", \"code\": \"EDFS 2020\"}, {\"type\": \"course\", \"code\": \"EDFS 2021\"}, {\"type\": \"course\", \"code\": \"EDFS 2022\"}, {\"type\": \"course\", \"code\": \"EDFS 2023\"}, {\"type\": \"course\", \"code\": \"EDFS 2024\"}, {\"type\": \"course\", \"code\": \"EDFS 2025\"}, {\"type\": \"course\", \"code\": \"EDFS 2026\"}, {\"type\": \"course\", \"code\": \"EDFS 2027\"}, {\"type\": \"course\", \"code\": \"EDFS 2028\"}, {\"type\": \"course\", \"code\": \"EDFS 2029\"}, {\"type\": \"course\", \"code\": \"EDFS 2030\"}, {\"type\": \"course\", \"code\": \"EDFS 2031\"}, {\"type\": \"course\", \"code\": \"EDFS 2032\"}, {\"type\": \"course\", \"code\": \"EDFS 2033\"}, {\"type\": \"course\", \"code\": \"EDFS 2034\"}, {\"type\": \"course\", \"code\": \"EDFS 2035\"}, {\"type\": \"course\", \"code\": \"EDFS 2036\"}, {\"type\": \"course\", \"code\": \"EDFS 2037\"}, {\"type\": \"course\", \"code\": \"EDFS 2038\"}, {\"type\": \"course\", \"code\": \"EDFS 2039\"}, {\"type\": \"course\", \"code\": \"EDFS 2040\"}, {\"type\": \"course\", \"code\": \"EDFS 2041\"}, {\"type\": \"course\", \"code\": \"EDFS 2042\"}, {\"type\": \"course\", \"code\": \"EDFS 2043\"}, {\"type\": \"course\", \"code\": \"EDFS 2044\"}, {\"type\": \"course\", \"code\": \"EDFS 2045\"}, {\"type\": \"course\", \"code\": \"EDFS 2046\"}, {\"type\": \"course\", \"code\": \"EDFS 2047\"}, {\"type\": \"course\", \"code\": \"EDFS 2048\"}, {\"type\": \"course\", \"code\": \"EDFS 2049\"}, {\"type\": \"course\", \"code\": \"EDFS 2050\"}, {\"type\": \"course\", \"code\": \"EDFS 2051\"}, {\"type\": \"course\", \"code\": \"EDFS 2052\"}, {\"type\": \"course\", \"code\": \"EDFS 2053\"}, {\"type\": \"course\", \"code\": \"EDFS 2054\"}, {\"type\": \"course\", \"code\": \"EDFS 2055\"}, {\"type\": \"course\", \"code\": \"EDFS 2056\"}, {\"type\": \"course\", \"code\": \"EDFS 2057\"}, {\"type\": \"course\", \"code\": \"EDFS 2058\"}, {\"type\": \"course\", \"code\": \"EDFS 2059\"}, {\"type\": \"course\", \"code\": \"EDFS 2060\"}, {\"type\": \"course\", \"code\": \"EDFS 2061\"}, {\"type\": \"course\", \"code\": \"EDFS 2062\"}, {\"type\": \"course\", \"code\": \"EDFS 2063\"}, {\"type\": \"course\", \"code\": \"EDFS 2064\"}, {\"type\": \"course\", \"code\": \"EDFS 2065\"}, {\"type\": \"course\", \"code\": \"EDFS 2066\"}, {\"type\": \"course\", \"code\": \"EDFS 2067\"}, {\"type\": \"course\", \"code\": \"EDFS 2068\"}, {\"type\": \"course\", \"code\": \"EDFS 2069\"}, {\"type\": \"course\", \"code\": \"EDFS 2070\"}, {\"type\": \"course\", \"code\": \"EDFS 2071\"}, {\"type\": \"course\", \"code\": \"EDFS 2072\"}, {\"type\": \"course\", \"code\": \"EDFS 2073\"}, {\"type\": \"course\", \"code\": \"EDFS 2074\"}, {\"type\": \"course\", \"code\": \"EDFS 2075\"}, {\"type\": \"course\", \"code\": \"EDFS 2076\"}, {\"type\": \"course\", \"code\": \"EDFS 2077\"}, {\"type\": \"course\", \"code\": \"EDFS 2078\"}, {\"type\": \"course\", \"code\": \"EDFS 2079\"}, {\"type\": \"course\", \"code\": \"EDFS 2080\"}, {\"type\": \"course\", \"code\": \"EDFS 2081\"}, {\"type\": \"course\", \"code\": \"EDFS 2082\"}, {\"type\": \"course\", \"code\": \"EDFS 2083\"}, {\"type\": \"course\", \"code\": \"EDFS 2084\"}, {\"type\": \"course\", \"code\": \"EDFS 2085\"}, {\"type\": \"course\", \"code\": \"EDFS 2086\"}, {\"type\": \"course\", \"code\": \"EDFS 2087\"}, {\"type\": \"course\", \"code\": \"EDFS 2088\"}, {\"type\": \"course\", \"code\": \"EDFS 2089\"}, {\"type\": \"course\", \"code\": \"EDFS 2090\"}, {\"type\": \"course\", \"code\": \"EDFS 2091\"}, {\"type\": \"course\", \"code\": \"EDFS 2092\"}, {\"type\": \"course\", \"code\": \"EDFS 2093\"}, {\"type\": \"course\", \"code\": \"EDFS 2094\"}, {\"type\": \"course\", \"code\": \"EDFS 2095\"}, {\"type\": \"course\", \"code\": \"EDFS 2096\"}, {\"type\": \"course\", \"code\": \"EDFS 2097\"}, {\"type\": \"course\", \"code\": \"EDFS 2098\"}, {\"type\": \"course\", \"code\": \"EDFS 2099\"}]}",
-      "other_requirements": "Open to degree and PACE students",
-      "external": true
-    },
-    {
-      "id": "EDEL 3750",
-      "course_code": "EDEL 3750",
-      "department": "EDEL",
-      "title": "Lab Experience in Literacy",
-      "credit_hours": "3",
-      "description": "Supervised practicum in a field site. Implementation of teaching methods from Literacy Block. Documentation of classroom work, child study, and development of portfolio. Prerequisite: Admission to Elementary Teacher Education Program; concurrent with <a href=\"/search/?p=EDEL%203780\" data-action=\"result-detail\" data-group=\"code:EDEL 3780\" >EDEL 3780</a>, <a href=\"/search/?p=EDEL%203760\" data-action=\"result-detail\" data-group=\"code:EDEL 3760\" >EDEL 3760</a>, <a href=\"/search/?p=EDEL%202570\" data-action=\"result-detail\" data-group=\"code:EDEL 2570\" >EDEL 2570</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 3780\"}, {\"type\": \"course\", \"code\": \"EDEL 3760\"}, {\"type\": \"course\", \"code\": \"EDEL 2570\"}, {\"type\": \"course\", \"code\": \"EDEL 3780\"}, {\"type\": \"course\", \"code\": \"EDEL 3760\"}, {\"type\": \"course\", \"code\": \"EDEL 3770\"}]}",
-      "other_requirements": "Admission to Elementary Teacher Education Program; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement; Class meets in designated off campus elementary school sites and on campus; Lab fee: $40.00",
-      "external": false
-    },
-    {
-      "id": "EDEL 2993",
-      "course_code": "EDEL 2993",
-      "department": "EDEL",
-      "title": "Independent Study",
-      "credit_hours": "1 to 18",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission only. Offered at department discretion.",
       "external": false
     },
     {
@@ -167,14 +79,14 @@
       "external": false
     },
     {
-      "id": "EDFS 1020",
-      "course_code": "EDFS 1020",
-      "department": "EDFS",
-      "title": "School and Society",
+      "id": "EDSP 1050",
+      "course_code": "EDSP 1050",
+      "department": "EDSP",
+      "title": "Iss Aff Persons W/Disabil",
       "credit_hours": "3",
-      "description": "As a foundational course in the College of Education and Social Services, this course investigates the interplay between schooling and society. We examine how children and youth are situated within the context of systems, including their families, communities, and the larger society, that influence their development and learning. We will explore the sociological purposes of schools, their historical development in the US, and the resulting inequitable impact of school organization and policy.",
+      "description": "Students study the effects of discrimination, advocacy, litigation and sociological perspectives on disabilities. History, current legislation, and family issues for children and adults are emphasized.",
       "prereq_expression": null,
-      "other_requirements": null,
+      "other_requirements": "Only open to CESS first-time first-years or by instructor permission; PACE students by permission and override.",
       "external": true
     },
     {
@@ -189,25 +101,69 @@
       "external": false
     },
     {
-      "id": "EDSP 1050",
-      "course_code": "EDSP 1050",
-      "department": "EDSP",
-      "title": "Iss Aff Persons W/Disabil",
+      "id": "EDEL 3760",
+      "course_code": "EDEL 3760",
+      "department": "EDEL",
+      "title": "Language Arts&Literacy Skills",
       "credit_hours": "3",
-      "description": "Students study the effects of discrimination, advocacy, litigation and sociological perspectives on disabilities. History, current legislation, and family issues for children and adults are emphasized.",
+      "description": "Cognitive research base for the social context of children's learning. Methods of language arts as literate activity. Emphasis on emergence of literacy in the child of special need. Prerequisites: Admission to Elementary Teacher Education Program; concurrent with <a href=\"/search/?p=EDEL%203780\" data-action=\"result-detail\" data-group=\"code:EDEL 3780\" >EDEL 3780</a>, <a href=\"/search/?p=EDEL%203750\" data-action=\"result-detail\" data-group=\"code:EDEL 3750\" >EDEL 3750</a>, <a href=\"/search/?p=EDEL%202570\" data-action=\"result-detail\" data-group=\"code:EDEL 2570\" >EDEL 2570</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 3780\"}, {\"type\": \"course\", \"code\": \"EDEL 3750\"}, {\"type\": \"course\", \"code\": \"EDEL 2570\"}, {\"type\": \"course\", \"code\": \"EDEL 2550\"}]}",
+      "other_requirements": "Admission to Elementary Teacher Education Program; ELK6 2nd yr, Admit to Teacher Education",
+      "external": false
+    },
+    {
+      "id": "EDFS 1020",
+      "course_code": "EDFS 1020",
+      "department": "EDFS",
+      "title": "School and Society",
+      "credit_hours": "3",
+      "description": "As a foundational course in the College of Education and Social Services, this course investigates the interplay between schooling and society. We examine how children and youth are situated within the context of systems, including their families, communities, and the larger society, that influence their development and learning. We will explore the sociological purposes of schools, their historical development in the US, and the resulting inequitable impact of school organization and policy.",
       "prereq_expression": null,
-      "other_requirements": "Only open to CESS first-time first-years or by instructor permission; PACE students by permission and override.",
+      "other_requirements": null,
       "external": true
     },
     {
-      "id": "EDEL 2570",
-      "course_code": "EDEL 2570",
+      "id": "EDEL 2993",
+      "course_code": "EDEL 2993",
       "department": "EDEL",
-      "title": "Mtg Needs of Diverse Learners",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission only. Offered at department discretion.",
+      "external": false
+    },
+    {
+      "id": "EDEL 5050",
+      "course_code": "EDEL 5050",
+      "department": "EDEL",
+      "title": "Experiencing NZ Educ & Culture",
       "credit_hours": "3",
-      "description": "Designed to familiarize students with different ways that that students learn. Supports educators' responsibility to create learning environments where all students are engaged and have equitable access to learning opportunities. Prerequisites: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>; <a href=\"/search/?p=EDFS%201020\" data-action=\"result-detail\" data-group=\"code:EDFS 1020\"  class=\"notoffered\">EDFS 1020</a> or <a href=\"/search/?p=EDFS%203030\" data-action=\"result-detail\" data-group=\"code:EDFS 3030\" >EDFS 3030</a>; <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a>, <a href=\"/search/?p=HDF%201050\" data-action=\"result-detail\" data-group=\"code:HDF 1050\" >HDF 1050</a>, or <a href=\"/search/?p=PSYS%202400\" data-action=\"result-detail\" data-group=\"code:PSYS 2400\" >PSYS 2400</a>. Co-requisites: <a href=\"/search/?p=EDEL%202550\" data-action=\"result-detail\" data-group=\"code:EDEL 2550\" >EDEL 2550</a>. Pre/co-requisites: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>; <a href=\"/search/?p=EDFS%201020\" data-action=\"result-detail\" data-group=\"code:EDFS 1020\"  class=\"notoffered\">EDFS 1020</a> or <a href=\"/search/?p=EDFS%203030\" data-action=\"result-detail\" data-group=\"code:EDFS 3030\" >EDFS 3030</a>; <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a>, <a href=\"/search/?p=HDF%201050\" data-action=\"result-detail\" data-group=\"code:HDF 1050\" >HDF 1050</a>, or <a href=\"/search/?p=PSYS%202400\" data-action=\"result-detail\" data-group=\"code:PSYS 2400\" >PSYS 2400</a>.",
+      "description": "Travel course that offers current educators and graduate students the opportunity to explore English and Maori educational facilities in and around Auckland, New Zealand. Educators will explore New Zealand culture, the Ministry of Education's current educational direction, and the cultural integration of Maori and Pakeha education. Participants will visit approximately nine different primary/intermediate schools. These schools will reflect the various decile levels present in New Zealand Education.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission only. Open to Graduate/PACE students.",
+      "external": false
+    },
+    {
+      "id": "EDEL 3780",
+      "course_code": "EDEL 3780",
+      "department": "EDEL",
+      "title": "Teaching Math for Meaning",
+      "credit_hours": "3",
+      "description": "Methods of teaching mathematics in elementary school. Research base for how children learn mathematics and how math curriculum is organized. Special focus on teaching diverse groupings of learners. Prerequisite: Admission to Elementary Teacher Education Program; concurrent with <a href=\"/search/?p=EDEL%203750\" data-action=\"result-detail\" data-group=\"code:EDEL 3750\" >EDEL 3750</a>, <a href=\"/search/?p=EDEL%203760\" data-action=\"result-detail\" data-group=\"code:EDEL 3760\" >EDEL 3760</a>, <a href=\"/search/?p=EDEL%202570\" data-action=\"result-detail\" data-group=\"code:EDEL 2570\" >EDEL 2570</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 3750\"}, {\"type\": \"course\", \"code\": \"EDEL 3760\"}, {\"type\": \"course\", \"code\": \"EDEL 2570\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 3750\"}, {\"type\": \"course\", \"code\": \"EDEL 3770\"}, {\"type\": \"course\", \"code\": \"EDEL 4760\"}]}]}",
+      "other_requirements": "Admission to Elementary Teacher Education Program; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement",
+      "external": false
+    },
+    {
+      "id": "EDEL 2550",
+      "course_code": "EDEL 2550",
+      "department": "EDEL",
+      "title": "Teachers &the Teaching Process",
+      "credit_hours": "3",
+      "description": "Introduce the responsibilities of the teaching profession. Students observe and learn about different models of teaching while gaining teaching experience. Students become familiar with creating classroom environments that support all students in learning. Prerequisites: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>; <a href=\"/search/?p=EDFS%201020\" data-action=\"result-detail\" data-group=\"code:EDFS 1020\"  class=\"notoffered\">EDFS 1020</a> or <a href=\"/search/?p=EDFS%203030\" data-action=\"result-detail\" data-group=\"code:EDFS 3030\" >EDFS 3030</a>; <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a>, <a href=\"/search/?p=HDF%201050\" data-action=\"result-detail\" data-group=\"code:HDF 1050\" >HDF 1050</a>, or <a href=\"/search/?p=PSYS%202400\" data-action=\"result-detail\" data-group=\"code:PSYS 2400\" >PSYS 2400</a>. Co-requisites: <a href=\"/search/?p=EDEL%202570\" data-action=\"result-detail\" data-group=\"code:EDEL 2570\" >EDEL 2570</a>. Pre/Co-requisites: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>; <a href=\"/search/?p=EDFS%201020\" data-action=\"result-detail\" data-group=\"code:EDFS 1020\"  class=\"notoffered\">EDFS 1020</a> or <a href=\"/search/?p=EDFS%203030\" data-action=\"result-detail\" data-group=\"code:EDFS 3030\" >EDFS 3030</a>; <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a>, <a href=\"/search/?p=HDF%201050\" data-action=\"result-detail\" data-group=\"code:HDF 1050\" >HDF 1050</a>, or <a href=\"/search/?p=PSYS%202400\" data-action=\"result-detail\" data-group=\"code:PSYS 2400\" >PSYS 2400</a>.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDFS 1020\"}, {\"type\": \"course\", \"code\": \"EDFS 3030\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1630\"}, {\"type\": \"course\", \"code\": \"HDF 1050\"}, {\"type\": \"course\", \"code\": \"PSYS 2400\"}]}]}",
-      "other_requirements": "2nd or 3rd Year Elementary Education (ELK6); Taken concurrently with EDEL 2550 and EDEL 3760",
+      "other_requirements": "school sites on 10 Thursdays; 2nd or 3rd year Elementary Education (ELK6) majors only; Taken concurrently with EDEL 2570 or EDEL 3760. Lab fee: $40.00. Class meets in designated off campus elementary",
       "external": false
     },
     {
@@ -222,15 +178,26 @@
       "external": false
     },
     {
-      "id": "EDEC 1630",
-      "course_code": "EDEC 1630",
-      "department": "EDEC",
-      "title": "Child Development",
+      "id": "EDEL 3990",
+      "course_code": "EDEL 3990",
+      "department": "EDEL",
+      "title": "Intrvn in the clssrm: Math SL",
+      "credit_hours": "1 to 18",
+      "description": "See Schedule of Course for specific titles.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 2550\"}, {\"type\": \"course\", \"code\": \"EDEL 2570\"}]}",
+      "other_requirements": "6 weeks of time in the community dates TBD.",
+      "external": false
+    },
+    {
+      "id": "EDEL 2570",
+      "course_code": "EDEL 2570",
+      "department": "EDEL",
+      "title": "Mtg Needs of Diverse Learners",
       "credit_hours": "3",
-      "description": "The biological, psychological, and social growth and development of children and their relationships with family, peers, and institutions.",
-      "prereq_expression": null,
-      "other_requirements": "Degree students only",
-      "external": true
+      "description": "Designed to familiarize students with different ways that that students learn. Supports educators' responsibility to create learning environments where all students are engaged and have equitable access to learning opportunities. Prerequisites: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>; <a href=\"/search/?p=EDFS%201020\" data-action=\"result-detail\" data-group=\"code:EDFS 1020\"  class=\"notoffered\">EDFS 1020</a> or <a href=\"/search/?p=EDFS%203030\" data-action=\"result-detail\" data-group=\"code:EDFS 3030\" >EDFS 3030</a>; <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a>, <a href=\"/search/?p=HDF%201050\" data-action=\"result-detail\" data-group=\"code:HDF 1050\" >HDF 1050</a>, or <a href=\"/search/?p=PSYS%202400\" data-action=\"result-detail\" data-group=\"code:PSYS 2400\" >PSYS 2400</a>. Co-requisites: <a href=\"/search/?p=EDEL%202550\" data-action=\"result-detail\" data-group=\"code:EDEL 2550\" >EDEL 2550</a>. Pre/co-requisites: <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>; <a href=\"/search/?p=EDFS%201020\" data-action=\"result-detail\" data-group=\"code:EDFS 1020\"  class=\"notoffered\">EDFS 1020</a> or <a href=\"/search/?p=EDFS%203030\" data-action=\"result-detail\" data-group=\"code:EDFS 3030\" >EDFS 3030</a>; <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a>, <a href=\"/search/?p=HDF%201050\" data-action=\"result-detail\" data-group=\"code:HDF 1050\" >HDF 1050</a>, or <a href=\"/search/?p=PSYS%202400\" data-action=\"result-detail\" data-group=\"code:PSYS 2400\" >PSYS 2400</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDSP 1050\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDFS 1020\"}, {\"type\": \"course\", \"code\": \"EDFS 3030\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1630\"}, {\"type\": \"course\", \"code\": \"HDF 1050\"}, {\"type\": \"course\", \"code\": \"PSYS 2400\"}]}]}",
+      "other_requirements": "2nd or 3rd Year Elementary Education (ELK6); Taken concurrently with EDEL 2550 and EDEL 3760",
+      "external": false
     },
     {
       "id": "PSYS 2400",
@@ -242,172 +209,246 @@
       "prereq_expression": "{\"type\": \"course\", \"code\": \"PSYS 1400\"}",
       "other_requirements": "PSYS majors and minors only; PACE students by permission and override.",
       "external": true
+    },
+    {
+      "id": "EDEL 3570",
+      "course_code": "EDEL 3570",
+      "department": "EDEL",
+      "title": "SU:Social Educ &Social Studies",
+      "credit_hours": "3",
+      "description": "Social Studies is the study of how humans have interacted with their environment and one another over time. The goal of teachers is to prepare students to be contributing and engaged citizens. Course covers how to teach social studies to children in a way that prepares them to be active citizens in a democratic and sustainable society. Focuses on elementary social studies standards, content, strategies, and resources. Pre/co-requisites: Teacher Education:Elementary Education major; <a href=\"/search/?p=EDEL%203550\" data-action=\"result-detail\" data-group=\"code:EDEL 3550\" >EDEL 3550</a>, <a href=\"/search/?p=EDEL%203580\" data-action=\"result-detail\" data-group=\"code:EDEL 3580\" >EDEL 3580</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 3550\"}, {\"type\": \"course\", \"code\": \"EDEL 3580\"}]}",
+      "other_requirements": "Teacher Education:Elementary Education major; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement; Concurrent with EDEL 3550 and EDEL 3580.",
+      "external": false
+    },
+    {
+      "id": "EDEC 1630",
+      "course_code": "EDEC 1630",
+      "department": "EDEC",
+      "title": "Child Development",
+      "credit_hours": "3",
+      "description": "The biological, psychological, and social growth and development of children and their relationships with family, peers, and institutions.",
+      "prereq_expression": null,
+      "other_requirements": "Degree students only",
+      "external": true
+    },
+    {
+      "id": "EDEL 3750",
+      "course_code": "EDEL 3750",
+      "department": "EDEL",
+      "title": "Lab Experience in Literacy",
+      "credit_hours": "3",
+      "description": "Supervised practicum in a field site. Implementation of teaching methods from Literacy Block. Documentation of classroom work, child study, and development of portfolio. Prerequisite: Admission to Elementary Teacher Education Program; concurrent with <a href=\"/search/?p=EDEL%203780\" data-action=\"result-detail\" data-group=\"code:EDEL 3780\" >EDEL 3780</a>, <a href=\"/search/?p=EDEL%203760\" data-action=\"result-detail\" data-group=\"code:EDEL 3760\" >EDEL 3760</a>, <a href=\"/search/?p=EDEL%202570\" data-action=\"result-detail\" data-group=\"code:EDEL 2570\" >EDEL 2570</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 3780\"}, {\"type\": \"course\", \"code\": \"EDEL 3760\"}, {\"type\": \"course\", \"code\": \"EDEL 2570\"}, {\"type\": \"course\", \"code\": \"EDEL 3780\"}, {\"type\": \"course\", \"code\": \"EDEL 3760\"}, {\"type\": \"course\", \"code\": \"EDEL 3770\"}]}",
+      "other_requirements": "Admission to Elementary Teacher Education Program; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement; Class meets in designated off campus elementary school sites and on campus; Lab fee: $40.00",
+      "external": false
     }
   ],
   "edges": [
     {
       "source": "EDEC 1630",
-      "target": "EDEL 2550"
+      "target": "EDEL 2550",
+      "group": "EDEL 2550__g1"
     },
     {
       "source": "EDEC 1630",
-      "target": "EDEL 2570"
+      "target": "EDEL 2570",
+      "group": "EDEL 2570__g1"
     },
     {
       "source": "EDEL 2550",
-      "target": "EDEL 3760"
+      "target": "EDEL 3760",
+      "group": null
     },
     {
       "source": "EDEL 2550",
-      "target": "EDEL 3990"
+      "target": "EDEL 3990",
+      "group": null
     },
     {
       "source": "EDEL 2570",
-      "target": "EDEL 3750"
+      "target": "EDEL 3750",
+      "group": null
     },
     {
       "source": "EDEL 2570",
-      "target": "EDEL 3760"
+      "target": "EDEL 3760",
+      "group": null
     },
     {
       "source": "EDEL 2570",
-      "target": "EDEL 3780"
+      "target": "EDEL 3780",
+      "group": null
     },
     {
       "source": "EDEL 2570",
-      "target": "EDEL 3990"
+      "target": "EDEL 3990",
+      "group": null
     },
     {
       "source": "EDEL 3550",
-      "target": "EDEL 3570"
+      "target": "EDEL 3570",
+      "group": null
     },
     {
       "source": "EDEL 3550",
-      "target": "EDEL 3580"
+      "target": "EDEL 3580",
+      "group": null
     },
     {
       "source": "EDEL 3570",
-      "target": "EDEL 3550"
+      "target": "EDEL 3550",
+      "group": null
     },
     {
       "source": "EDEL 3570",
-      "target": "EDEL 3580"
+      "target": "EDEL 3580",
+      "group": null
     },
     {
       "source": "EDEL 3580",
-      "target": "EDEL 3550"
+      "target": "EDEL 3550",
+      "group": null
     },
     {
       "source": "EDEL 3580",
-      "target": "EDEL 3570"
+      "target": "EDEL 3570",
+      "group": null
     },
     {
       "source": "EDEL 3750",
-      "target": "EDEL 3760"
+      "target": "EDEL 3760",
+      "group": null
     },
     {
       "source": "EDEL 3750",
-      "target": "EDEL 3770"
+      "target": "EDEL 3770",
+      "group": null
     },
     {
       "source": "EDEL 3750",
-      "target": "EDEL 3780"
+      "target": "EDEL 3780",
+      "group": "EDEL 3780__g0"
     },
     {
       "source": "EDEL 3750",
-      "target": "EDEL 4760"
+      "target": "EDEL 4760",
+      "group": "EDEL 4760__g0"
     },
     {
       "source": "EDEL 3760",
-      "target": "EDEL 3750"
+      "target": "EDEL 3750",
+      "group": null
     },
     {
       "source": "EDEL 3760",
-      "target": "EDEL 3780"
+      "target": "EDEL 3780",
+      "group": null
     },
     {
       "source": "EDEL 3760",
-      "target": "EDEL 4760"
+      "target": "EDEL 4760",
+      "group": "EDEL 4760__g0"
     },
     {
       "source": "EDEL 3770",
-      "target": "EDEL 3750"
+      "target": "EDEL 3750",
+      "group": null
     },
     {
       "source": "EDEL 3770",
-      "target": "EDEL 3780"
+      "target": "EDEL 3780",
+      "group": "EDEL 3780__g0"
     },
     {
       "source": "EDEL 3770",
-      "target": "EDEL 4760"
+      "target": "EDEL 4760",
+      "group": "EDEL 4760__g0"
     },
     {
       "source": "EDEL 3780",
-      "target": "EDEL 3750"
+      "target": "EDEL 3750",
+      "group": null
     },
     {
       "source": "EDEL 3780",
-      "target": "EDEL 3760"
+      "target": "EDEL 3760",
+      "group": null
     },
     {
       "source": "EDEL 3780",
-      "target": "EDEL 3770"
+      "target": "EDEL 3770",
+      "group": null
     },
     {
       "source": "EDEL 4760",
-      "target": "EDEL 3770"
+      "target": "EDEL 3770",
+      "group": null
     },
     {
       "source": "EDEL 4760",
-      "target": "EDEL 3780"
+      "target": "EDEL 3780",
+      "group": "EDEL 3780__g0"
     },
     {
       "source": "EDEL 4760",
-      "target": "EDEL 4880"
+      "target": "EDEL 4880",
+      "group": null
     },
     {
       "source": "EDEL 4760",
-      "target": "EDEL 4991"
+      "target": "EDEL 4991",
+      "group": null
     },
     {
       "source": "EDFS 1020",
-      "target": "EDEL 2550"
+      "target": "EDEL 2550",
+      "group": "EDEL 2550__g0"
     },
     {
       "source": "EDFS 1020",
-      "target": "EDEL 2570"
+      "target": "EDEL 2570",
+      "group": "EDEL 2570__g0"
     },
     {
       "source": "EDFS 3030",
-      "target": "EDEL 2550"
+      "target": "EDEL 2550",
+      "group": "EDEL 2550__g0"
     },
     {
       "source": "EDFS 3030",
-      "target": "EDEL 2570"
+      "target": "EDEL 2570",
+      "group": "EDEL 2570__g0"
     },
     {
       "source": "EDSP 1050",
-      "target": "EDEL 2550"
+      "target": "EDEL 2550",
+      "group": null
     },
     {
       "source": "EDSP 1050",
-      "target": "EDEL 2570"
+      "target": "EDEL 2570",
+      "group": null
     },
     {
       "source": "HDF 1050",
-      "target": "EDEL 2550"
+      "target": "EDEL 2550",
+      "group": "EDEL 2550__g1"
     },
     {
       "source": "HDF 1050",
-      "target": "EDEL 2570"
+      "target": "EDEL 2570",
+      "group": "EDEL 2570__g1"
     },
     {
       "source": "PSYS 2400",
-      "target": "EDEL 2550"
+      "target": "EDEL 2550",
+      "group": "EDEL 2550__g1"
     },
     {
       "source": "PSYS 2400",
-      "target": "EDEL 2570"
+      "target": "EDEL 2570",
+      "group": "EDEL 2570__g1"
     }
   ]
 }
