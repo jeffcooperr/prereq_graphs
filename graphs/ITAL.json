@@ -2,17 +2,6 @@
   "department": "ITAL",
   "nodes": [
     {
-      "id": "ITAL 2200",
-      "course_code": "ITAL 2200",
-      "department": "ITAL",
-      "title": "Intermediate Italian II",
-      "credit_hours": "3",
-      "description": "Continuation of <a href=\"/search/?p=ITAL%202100\" data-action=\"result-detail\" data-group=\"code:ITAL 2100\"  class=\"notoffered\">ITAL 2100</a>. Grammar review, moving toward increased proficiency in composition, comprehension, pronunciation, speaking, reading, and writing. Emphasis on cultural context. More extensive and sophisticated readings and compositions than in <a href=\"/search/?p=ITAL%202100\" data-action=\"result-detail\" data-group=\"code:ITAL 2100\"  class=\"notoffered\">ITAL 2100</a>.  Students may take 1 ITAL course numbered between 2200 and <a href=\"/search/?p=ITAL%202209\" data-action=\"result-detail\" data-group=\"code:ITAL 2209\"  class=\"notoffered\">2209</a> for credit. Credit not awarded for ITAL 2200 following receipt of credit for any ITAL course numbered <a href=\"/search/?p=ITAL%203110\" data-action=\"result-detail\" data-group=\"code:ITAL 3110\" >ITAL 3110</a> or above. Prerequisite: <a href=\"/search/?p=ITAL%202100\" data-action=\"result-detail\" data-group=\"code:ITAL 2100\"  class=\"notoffered\">ITAL 2100</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ITAL 2100\"}, {\"type\": \"course\", \"code\": \"ITAL 2100\"}]}",
-      "other_requirements": "equivalent; PACE students with permission and override",
-      "external": false
-    },
-    {
       "id": "ITAL 1100",
       "course_code": "ITAL 1100",
       "department": "ITAL",
@@ -24,17 +13,6 @@
       "external": false
     },
     {
-      "id": "ITAL 1200",
-      "course_code": "ITAL 1200",
-      "department": "ITAL",
-      "title": "Elementary Italian II",
-      "credit_hours": "4",
-      "description": "Continuation of <a href=\"/search/?p=ITAL%201100\" data-action=\"result-detail\" data-group=\"code:ITAL 1100\"  class=\"notoffered\">ITAL 1100</a>. Fundamentals of Italian composition, comprehension, pronunciation, speaking, reading, and writing in a cultural context. Classes are conducted in Italian and students engage in active use of the language. Credit not awarded for ITAL 1200 following receipt of credit for any ITAL course numbered <a href=\"/search/?p=ITAL%202100\" data-action=\"result-detail\" data-group=\"code:ITAL 2100\"  class=\"notoffered\">ITAL 2100</a> or above. Prerequisite: <a href=\"/search/?p=ITAL%201100\" data-action=\"result-detail\" data-group=\"code:ITAL 1100\"  class=\"notoffered\">ITAL 1100</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ITAL 1100\"}, {\"type\": \"course\", \"code\": \"ITAL 001\"}]}",
-      "other_requirements": "Open to Degree and PACE students; Credit not awarded for ITAL 1200 following receipt of credit for any ITAL course numbered ITAL 2100 or above.",
-      "external": false
-    },
-    {
       "id": "ITAL 3110",
       "course_code": "ITAL 3110",
       "department": "ITAL",
@@ -43,6 +21,28 @@
       "description": "Improvement of reading and writing skills through the analysis and discussion of increasingly complex texts -- literary, filmic, cultural. Prerequisite: <a href=\"/search/?p=ITAL%202200\" data-action=\"result-detail\" data-group=\"code:ITAL 2200\"  class=\"notoffered\">ITAL 2200</a> or equivalent.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ITAL 2200\"}, {\"type\": \"course\", \"code\": \"ITAL 2200\"}]}",
       "other_requirements": "by instructor permission; PACE students with permission and override; Instructor permission",
+      "external": false
+    },
+    {
+      "id": "ITAL 2200",
+      "course_code": "ITAL 2200",
+      "department": "ITAL",
+      "title": "Intermediate Italian II",
+      "credit_hours": "3",
+      "description": "Continuation of <a href=\"/search/?p=ITAL%202100\" data-action=\"result-detail\" data-group=\"code:ITAL 2100\"  class=\"notoffered\">ITAL 2100</a>. Grammar review, moving toward increased proficiency in composition, comprehension, pronunciation, speaking, reading, and writing. Emphasis on cultural context. More extensive and sophisticated readings and compositions than in <a href=\"/search/?p=ITAL%202100\" data-action=\"result-detail\" data-group=\"code:ITAL 2100\"  class=\"notoffered\">ITAL 2100</a>.  Students may take 1 ITAL course numbered between 2200 and <a href=\"/search/?p=ITAL%202209\" data-action=\"result-detail\" data-group=\"code:ITAL 2209\"  class=\"notoffered\">2209</a> for credit. Credit not awarded for ITAL 2200 following receipt of credit for any ITAL course numbered <a href=\"/search/?p=ITAL%203110\" data-action=\"result-detail\" data-group=\"code:ITAL 3110\" >ITAL 3110</a> or above. Prerequisite: <a href=\"/search/?p=ITAL%202100\" data-action=\"result-detail\" data-group=\"code:ITAL 2100\"  class=\"notoffered\">ITAL 2100</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ITAL 2100\"}, {\"type\": \"course\", \"code\": \"ITAL 2100\"}]}",
+      "other_requirements": "equivalent; PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "ITAL 1200",
+      "course_code": "ITAL 1200",
+      "department": "ITAL",
+      "title": "Elementary Italian II",
+      "credit_hours": "4",
+      "description": "Continuation of <a href=\"/search/?p=ITAL%201100\" data-action=\"result-detail\" data-group=\"code:ITAL 1100\"  class=\"notoffered\">ITAL 1100</a>. Fundamentals of Italian composition, comprehension, pronunciation, speaking, reading, and writing in a cultural context. Classes are conducted in Italian and students engage in active use of the language. Credit not awarded for ITAL 1200 following receipt of credit for any ITAL course numbered <a href=\"/search/?p=ITAL%202100\" data-action=\"result-detail\" data-group=\"code:ITAL 2100\"  class=\"notoffered\">ITAL 2100</a> or above. Prerequisite: <a href=\"/search/?p=ITAL%201100\" data-action=\"result-detail\" data-group=\"code:ITAL 1100\"  class=\"notoffered\">ITAL 1100</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ITAL 1100\"}, {\"type\": \"course\", \"code\": \"ITAL 001\"}]}",
+      "other_requirements": "Open to Degree and PACE students; Credit not awarded for ITAL 1200 following receipt of credit for any ITAL course numbered ITAL 2100 or above.",
       "external": false
     },
     {

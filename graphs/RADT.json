@@ -13,39 +13,6 @@
       "external": false
     },
     {
-      "id": "RADT 3710",
-      "course_code": "RADT 3710",
-      "department": "RADT",
-      "title": "Dosimetry",
-      "credit_hours": "3",
-      "description": "Treatment plan verification using three-dimensional computer models, simulation data, and knowledge of treatment unit capabilities. Prerequisites: <a href=\"/search/?p=RADT%203700\" data-action=\"result-detail\" data-group=\"code:RADT 3700\"  class=\"notoffered\">RADT 3700</a>, Radiation Therapy major.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"RADT 3700\"}, {\"type\": \"course\", \"code\": \"PHYS 1250\"}]}",
-      "other_requirements": "Radiation Therapy major; RADT and MRS majors only; Class will be held in Rowell 104",
-      "external": false
-    },
-    {
-      "id": "RADT 3440",
-      "course_code": "RADT 3440",
-      "department": "RADT",
-      "title": "Essentials of Patient Care",
-      "credit_hours": "3",
-      "description": "Presents all aspects of care associated with the treatment of cancer when patients receive Radiation Therapy. Prerequisites: <a href=\"/search/?p=RADT%202520\" data-action=\"result-detail\" data-group=\"code:RADT 2520\" >RADT 2520</a>, <a href=\"/search/?p=RADT%202850\" data-action=\"result-detail\" data-group=\"code:RADT 2850\"  class=\"notoffered\">RADT 2850</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"RADT 2520\"}, {\"type\": \"course\", \"code\": \"RADT 2850\"}]}",
-      "other_requirements": "RADT and MRS majors only",
-      "external": false
-    },
-    {
-      "id": "RADT 2870",
-      "course_code": "RADT 2870",
-      "department": "RADT",
-      "title": "Clinical Practicum II",
-      "credit_hours": "2.5",
-      "description": "Students participate and observe in the University of Vermont Medical Center Radiation Therapy Department. Prerequisite: <a href=\"/search/?p=RADT%202850\" data-action=\"result-detail\" data-group=\"code:RADT 2850\"  class=\"notoffered\">RADT 2850</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"RADT 2850\"}",
-      "other_requirements": "Immunization Tracking Fee: $25\nHIPAA/OSHA Fee: $14",
-      "external": false
-    },
-    {
       "id": "ANPS 1190",
       "course_code": "ANPS 1190",
       "department": "ANPS",
@@ -54,6 +21,17 @@
       "description": "Part I of two-semester course sequence. Structure and function of human body.",
       "prereq_expression": null,
       "other_requirements": "Prereg limited to: BMCS, BIOM, CSD, EMS, EXSC, HSCI, MLS, MRS, NFS, NMT, PE, PHS, PRNU majors only. Degree students only even after major restrictions lifted.",
+      "external": true
+    },
+    {
+      "id": "PHYS 1250",
+      "course_code": "PHYS 1250",
+      "department": "PHYS",
+      "title": "Conceptual Physics",
+      "credit_hours": "3",
+      "description": "One-semester conceptual survey. Topics selected from mechanics, electricity, magnetism and modern physics.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": true
     },
     {
@@ -68,6 +46,28 @@
       "external": false
     },
     {
+      "id": "BHSC 2750",
+      "course_code": "BHSC 2750",
+      "department": "BHSC",
+      "title": "Cross Sectional Imaging",
+      "credit_hours": "3",
+      "description": "Introduction to the radiographic anatomy and the various imaging modalities presently used to include diagnostic imaging, computed tomography (CT), magnetic resonance imaging (MRI), and nuclear medicine. Prerequisites: <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1200\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}",
+      "other_requirements": "other degree students with instructor permission",
+      "external": true
+    },
+    {
+      "id": "PHYS 1450",
+      "course_code": "PHYS 1450",
+      "department": "PHYS",
+      "title": "Elementary Physics II",
+      "credit_hours": "4",
+      "description": "Algebra-based survey of electricity, magnetism, optics and modern physics. Appropriate for students in health and life sciences. Counts as a lecture and lab.  Optional accompanying problem solving recitation: <a href=\"/search/?p=PHYS%201460\" data-action=\"result-detail\" data-group=\"code:PHYS 1460\" >PHYS 1460</a>. Prerequisites: <a href=\"/search/?p=PHYS%201400\" data-action=\"result-detail\" data-group=\"code:PHYS 1400\"  class=\"notoffered\">PHYS 1400</a>, <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>, or <a href=\"/search/?p=PHYS%201600\" data-action=\"result-detail\" data-group=\"code:PHYS 1600\"  class=\"notoffered\">PHYS 1600</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1400\"}, {\"type\": \"course\", \"code\": \"PHYS 1500\"}, {\"type\": \"course\", \"code\": \"PHYS 1600\"}]}",
+      "other_requirements": "Must register for labs L01 - L03; Open to Degree and PACE Students",
+      "external": true
+    },
+    {
       "id": "RADT 3850",
       "course_code": "RADT 3850",
       "department": "RADT",
@@ -76,6 +76,83 @@
       "description": "A continuation of <a href=\"/search/?p=RADT%202870\" data-action=\"result-detail\" data-group=\"code:RADT 2870\"  class=\"notoffered\">RADT 2870</a> emphasizing increasing clinical capabilities. Prerequisite: <a href=\"/search/?p=RADT%202870\" data-action=\"result-detail\" data-group=\"code:RADT 2870\"  class=\"notoffered\">RADT 2870</a>. Co-requisite: <a href=\"/search/?p=RADT%203770\" data-action=\"result-detail\" data-group=\"code:RADT 3770\" >RADT 3770</a>.",
       "prereq_expression": "{\"type\": \"course\", \"code\": \"RADT 2870\"}",
       "other_requirements": "MRS and RADT majors only; Held at UVMMC as Clinical Practicum; Radiation Safety Badge Fee: $23",
+      "external": false
+    },
+    {
+      "id": "RADT 3710",
+      "course_code": "RADT 3710",
+      "department": "RADT",
+      "title": "Dosimetry",
+      "credit_hours": "3",
+      "description": "Treatment plan verification using three-dimensional computer models, simulation data, and knowledge of treatment unit capabilities. Prerequisites: <a href=\"/search/?p=RADT%203700\" data-action=\"result-detail\" data-group=\"code:RADT 3700\"  class=\"notoffered\">RADT 3700</a>, Radiation Therapy major.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"RADT 3700\"}, {\"type\": \"course\", \"code\": \"PHYS 1250\"}]}",
+      "other_requirements": "Radiation Therapy major; RADT and MRS majors only; Class will be held in Rowell 104",
+      "external": false
+    },
+    {
+      "id": "RADT 3890",
+      "course_code": "RADT 3890",
+      "department": "RADT",
+      "title": "Qual Assurance&Treatment Plan",
+      "credit_hours": "2",
+      "description": "The integration of clinical oncology, radiobiology, dosimetry, and treatment planning, and how they affect patient outcomes. Prerequisites: <a href=\"/search/?p=RADT%203850\" data-action=\"result-detail\" data-group=\"code:RADT 3850\"  class=\"notoffered\">RADT 3850</a>, <a href=\"/search/?p=RADT%203770\" data-action=\"result-detail\" data-group=\"code:RADT 3770\"  class=\"notoffered\">RADT 3770</a>, <a href=\"/search/?p=RADT%203780\" data-action=\"result-detail\" data-group=\"code:RADT 3780\"  class=\"notoffered\">RADT 3780</a>; Senior standing. Co-requisite: <a href=\"/search/?p=RADT%203870\" data-action=\"result-detail\" data-group=\"code:RADT 3870\" >RADT 3870</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"RADT 3850\"}, {\"type\": \"course\", \"code\": \"RADT 3770\"}, {\"type\": \"course\", \"code\": \"RADT 3780\"}]}",
+      "other_requirements": "Senior standing",
+      "external": false
+    },
+    {
+      "id": "RADT 2850",
+      "course_code": "RADT 2850",
+      "department": "RADT",
+      "title": "Intro to Clinical Practice",
+      "credit_hours": "3",
+      "description": "Introduction to the clinical environment through activities which include patient care issues, treatment unit operations and manipulations and direct patient case. Includes a clinical practicum. Pre-requisite: <a href=\"/search/?p=RADT%202520\" data-action=\"result-detail\" data-group=\"code:RADT 2520\"  class=\"notoffered\">RADT 2520</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"RADT 2520\"}",
+      "other_requirements": "MRS and RADT majors ONLY; Radiation Safety Badge Fee: $28; Class will be held in Rowell 104; PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "RADT 3440",
+      "course_code": "RADT 3440",
+      "department": "RADT",
+      "title": "Essentials of Patient Care",
+      "credit_hours": "3",
+      "description": "Presents all aspects of care associated with the treatment of cancer when patients receive Radiation Therapy. Prerequisites: <a href=\"/search/?p=RADT%202520\" data-action=\"result-detail\" data-group=\"code:RADT 2520\" >RADT 2520</a>, <a href=\"/search/?p=RADT%202850\" data-action=\"result-detail\" data-group=\"code:RADT 2850\"  class=\"notoffered\">RADT 2850</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"RADT 2520\"}, {\"type\": \"course\", \"code\": \"RADT 2850\"}]}",
+      "other_requirements": "RADT and MRS majors only",
+      "external": false
+    },
+    {
+      "id": "RADT 3770",
+      "course_code": "RADT 3770",
+      "department": "RADT",
+      "title": "Techniques Radiation Therapy",
+      "credit_hours": "4",
+      "description": "Advanced theory and clinical application of radiotherapeutic techniques. Co-requisites: <a href=\"/search/?p=RADT%203850\" data-action=\"result-detail\" data-group=\"code:RADT 3850\" >RADT 3850</a>, <a href=\"/search/?p=RADT%203780\" data-action=\"result-detail\" data-group=\"code:RADT 3780\" >RADT 3780</a>, Radiation Therapy major.",
+      "prereq_expression": null,
+      "other_requirements": "Radiation Therapy major. Senior MRS and RADT students only; Concurrent enrollment in RADT 3850; Lab Fee: $100.00. Class will be held in Rowell 104",
+      "external": false
+    },
+    {
+      "id": "ANPS 1200",
+      "course_code": "ANPS 1200",
+      "department": "ANPS",
+      "title": "Ugr Hum Anatomy & Physiology 2",
+      "credit_hours": "4",
+      "description": "Part II of two-semester course sequence. Structure and function of human body. Prerequisite: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\"  class=\"notoffered\">ANPS 1190</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"ANPS 1190\"}",
+      "other_requirements": "Common hour exams are held 5:30-7:00pm on these Mondays: 2/9, 3/2, and 4/6. BIOM,CSD,DIET,DNFS,EXSC,HSCI,MLS,NFS, PE, PHS, MRS, PRNU; Majors only until Dec. 2nd, Please contact Patrick Mullen (patrick.c.mullen@uvm.edu) with any questions; Class meets 3x a week with online lab comprising 4th credit; Degree students only even after level restrictions removed; PACE students register for ANPS 1200 ZRA; Prereq enforced by the system:ANPS 1190.",
+      "external": true
+    },
+    {
+      "id": "RADT 3780",
+      "course_code": "RADT 3780",
+      "department": "RADT",
+      "title": "Senior Seminar in Rad Therapy",
+      "credit_hours": "2",
+      "description": "Evaluate current trends in advanced treatment techniques with the premise of clinical research and modern technology used in oncology. Helps prepare students for the American Registry of Radiologic Technologists national certification exam. Prerequisites: <a href=\"/search/?p=RADT%203440\" data-action=\"result-detail\" data-group=\"code:RADT 3440\"  class=\"notoffered\">RADT 3440</a>, <a href=\"/search/?p=RADT%203710\" data-action=\"result-detail\" data-group=\"code:RADT 3710\"  class=\"notoffered\">RADT 3710</a>. Co-requisites: <a href=\"/search/?p=RADT%203850\" data-action=\"result-detail\" data-group=\"code:RADT 3850\" >RADT 3850</a>, <a href=\"/search/?p=RADT%203770\" data-action=\"result-detail\" data-group=\"code:RADT 3770\" >RADT 3770</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"RADT 3440\"}, {\"type\": \"course\", \"code\": \"RADT 3710\"}]}",
+      "other_requirements": "MRS students only; Synchronous online course component; Class will meet in-person M 3:30 p.m.- 4:20 p.m.;",
       "external": false
     },
     {
@@ -101,102 +178,25 @@
       "external": false
     },
     {
-      "id": "RADT 3780",
-      "course_code": "RADT 3780",
+      "id": "RADT 2520",
+      "course_code": "RADT 2520",
       "department": "RADT",
-      "title": "Senior Seminar in Rad Therapy",
-      "credit_hours": "2",
-      "description": "Evaluate current trends in advanced treatment techniques with the premise of clinical research and modern technology used in oncology. Helps prepare students for the American Registry of Radiologic Technologists national certification exam. Prerequisites: <a href=\"/search/?p=RADT%203440\" data-action=\"result-detail\" data-group=\"code:RADT 3440\"  class=\"notoffered\">RADT 3440</a>, <a href=\"/search/?p=RADT%203710\" data-action=\"result-detail\" data-group=\"code:RADT 3710\"  class=\"notoffered\">RADT 3710</a>. Co-requisites: <a href=\"/search/?p=RADT%203850\" data-action=\"result-detail\" data-group=\"code:RADT 3850\" >RADT 3850</a>, <a href=\"/search/?p=RADT%203770\" data-action=\"result-detail\" data-group=\"code:RADT 3770\" >RADT 3770</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"RADT 3440\"}, {\"type\": \"course\", \"code\": \"RADT 3710\"}]}",
-      "other_requirements": "MRS students only; Synchronous online course component; Class will meet in-person M 3:30 p.m.- 4:20 p.m.;",
-      "external": false
-    },
-    {
-      "id": "RADT 3770",
-      "course_code": "RADT 3770",
-      "department": "RADT",
-      "title": "Techniques Radiation Therapy",
-      "credit_hours": "4",
-      "description": "Advanced theory and clinical application of radiotherapeutic techniques. Co-requisites: <a href=\"/search/?p=RADT%203850\" data-action=\"result-detail\" data-group=\"code:RADT 3850\" >RADT 3850</a>, <a href=\"/search/?p=RADT%203780\" data-action=\"result-detail\" data-group=\"code:RADT 3780\" >RADT 3780</a>, Radiation Therapy major.",
-      "prereq_expression": null,
-      "other_requirements": "Radiation Therapy major. Senior MRS and RADT students only; Concurrent enrollment in RADT 3850; Lab Fee: $100.00. Class will be held in Rowell 104",
-      "external": false
-    },
-    {
-      "id": "PHYS 1450",
-      "course_code": "PHYS 1450",
-      "department": "PHYS",
-      "title": "Elementary Physics II",
-      "credit_hours": "4",
-      "description": "Algebra-based survey of electricity, magnetism, optics and modern physics. Appropriate for students in health and life sciences. Counts as a lecture and lab.  Optional accompanying problem solving recitation: <a href=\"/search/?p=PHYS%201460\" data-action=\"result-detail\" data-group=\"code:PHYS 1460\" >PHYS 1460</a>. Prerequisites: <a href=\"/search/?p=PHYS%201400\" data-action=\"result-detail\" data-group=\"code:PHYS 1400\"  class=\"notoffered\">PHYS 1400</a>, <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>, or <a href=\"/search/?p=PHYS%201600\" data-action=\"result-detail\" data-group=\"code:PHYS 1600\"  class=\"notoffered\">PHYS 1600</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PHYS 1400\"}, {\"type\": \"course\", \"code\": \"PHYS 1500\"}, {\"type\": \"course\", \"code\": \"PHYS 1600\"}]}",
-      "other_requirements": "Must register for labs L01 - L03; Open to Degree and PACE Students",
-      "external": true
-    },
-    {
-      "id": "RADT 2850",
-      "course_code": "RADT 2850",
-      "department": "RADT",
-      "title": "Intro to Clinical Practice",
+      "title": "Prin of Radiation Therapy",
       "credit_hours": "3",
-      "description": "Introduction to the clinical environment through activities which include patient care issues, treatment unit operations and manipulations and direct patient case. Includes a clinical practicum. Pre-requisite: <a href=\"/search/?p=RADT%202520\" data-action=\"result-detail\" data-group=\"code:RADT 2520\"  class=\"notoffered\">RADT 2520</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"RADT 2520\"}",
-      "other_requirements": "MRS and RADT majors ONLY; Radiation Safety Badge Fee: $28; Class will be held in Rowell 104; PACE students by permission and override.",
+      "description": "Introduction to the practice and theory of radiation therapy. Co-requisite: <a href=\"/search/?p=BHSC%202400\" data-action=\"result-detail\" data-group=\"code:BHSC 2400\" >BHSC 2400</a> or Instructor permission for non-majors.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BHSC 2400\"}, {\"type\": \"course\", \"code\": \"MLS 2400\"}]}",
+      "other_requirements": "Instructor permission for non-majors, RADT, MRS majors only, or instructor permission. Open to Degree and PACE students.",
       "external": false
     },
     {
-      "id": "RADT 3890",
-      "course_code": "RADT 3890",
+      "id": "RADT 2870",
+      "course_code": "RADT 2870",
       "department": "RADT",
-      "title": "Qual Assurance&Treatment Plan",
-      "credit_hours": "2",
-      "description": "The integration of clinical oncology, radiobiology, dosimetry, and treatment planning, and how they affect patient outcomes. Prerequisites: <a href=\"/search/?p=RADT%203850\" data-action=\"result-detail\" data-group=\"code:RADT 3850\"  class=\"notoffered\">RADT 3850</a>, <a href=\"/search/?p=RADT%203770\" data-action=\"result-detail\" data-group=\"code:RADT 3770\"  class=\"notoffered\">RADT 3770</a>, <a href=\"/search/?p=RADT%203780\" data-action=\"result-detail\" data-group=\"code:RADT 3780\"  class=\"notoffered\">RADT 3780</a>; Senior standing. Co-requisite: <a href=\"/search/?p=RADT%203870\" data-action=\"result-detail\" data-group=\"code:RADT 3870\" >RADT 3870</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"RADT 3850\"}, {\"type\": \"course\", \"code\": \"RADT 3770\"}, {\"type\": \"course\", \"code\": \"RADT 3780\"}]}",
-      "other_requirements": "Senior standing",
-      "external": false
-    },
-    {
-      "id": "BHSC 2400",
-      "course_code": "BHSC 2400",
-      "department": "BHSC",
-      "title": "Radiation Science",
-      "credit_hours": "4",
-      "description": "Provides a broad based understanding of the fundamentals of radiation science including the ways in which radiation is produced and utilized, the principles of radioactive decay, radiation exposure, absorbed dose, shielding and detection of radiation. Prerequisite: <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Co-requisites: <a href=\"/search/?p=RADT%202520\" data-action=\"result-detail\" data-group=\"code:RADT 2520\"  class=\"notoffered\">RADT 2520</a> or Instructor permission for non-majors.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
-      "other_requirements": "Co-requisites: RADT 2520 or Instructor permission for non-majors. Open to degree and PACE students",
-      "external": true
-    },
-    {
-      "id": "PHYS 1400",
-      "course_code": "PHYS 1400",
-      "department": "PHYS",
-      "title": "Elementary Physics I",
-      "credit_hours": "4",
-      "description": "Algebra-based survey of mechanics, oscillations, waves and thermal physics. Appropriate for students in health and life sciences. Counts as lecture and lab. Optional accompanying problem solving recitation section: <a href=\"/search/?p=PHYS%201410\" data-action=\"result-detail\" data-group=\"code:PHYS 1410\" >PHYS 1410</a>. Prerequisites: High school algebra and trigonometry.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"High school algebra\"}, {\"type\": \"course\", \"code\": \"trigonometry\"}]}",
-      "other_requirements": "Must register for PHYS 1400 L01-L04; Open to degree and PACE students",
-      "external": true
-    },
-    {
-      "id": "ANPS 1200",
-      "course_code": "ANPS 1200",
-      "department": "ANPS",
-      "title": "Ugr Hum Anatomy & Physiology 2",
-      "credit_hours": "4",
-      "description": "Part II of two-semester course sequence. Structure and function of human body. Prerequisite: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\"  class=\"notoffered\">ANPS 1190</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"ANPS 1190\"}",
-      "other_requirements": "Common hour exams are held 5:30-7:00pm on these Mondays: 2/9, 3/2, and 4/6. BIOM,CSD,DIET,DNFS,EXSC,HSCI,MLS,NFS, PE, PHS, MRS, PRNU; Majors only until Dec. 2nd, Please contact Patrick Mullen (patrick.c.mullen@uvm.edu) with any questions; Class meets 3x a week with online lab comprising 4th credit; Degree students only even after level restrictions removed; PACE students register for ANPS 1200 ZRA; Prereq enforced by the system:ANPS 1190.",
-      "external": true
-    },
-    {
-      "id": "RADT 3880",
-      "course_code": "RADT 3880",
-      "department": "RADT",
-      "title": "Final Clinical Pract Overview",
-      "credit_hours": "2",
-      "description": "To orient the student to a new radiation oncology department; understand basic patient flow and essential equipment. The student is also responsible for completing all necessary orientation requirements at the organization, department level, or both. This includes understanding relevant policies and procedures and SOP's. Prerequisites: <a href=\"/search/?p=RADT%203710\" data-action=\"result-detail\" data-group=\"code:RADT 3710\" >RADT 3710</a>, <a href=\"/search/?p=RADT%202760\" data-action=\"result-detail\" data-group=\"code:RADT 2760\" >RADT 2760</a>, <a href=\"/search/?p=RADT%202870\" data-action=\"result-detail\" data-group=\"code:RADT 2870\" >RADT 2870</a>, <a href=\"/search/?p=RADT%203440\" data-action=\"result-detail\" data-group=\"code:RADT 3440\" >RADT 3440</a>; Senior standing.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RADT 3710\"}, {\"type\": \"course\", \"code\": \"RADT 2760\"}, {\"type\": \"course\", \"code\": \"RADT 2870\"}, {\"type\": \"course\", \"code\": \"RADT 3440\"}]}",
-      "other_requirements": "Senior standing; Immunization Tracking fee: $25; HIPAA/OSHA fee: $14",
+      "title": "Clinical Practicum II",
+      "credit_hours": "2.5",
+      "description": "Students participate and observe in the University of Vermont Medical Center Radiation Therapy Department. Prerequisite: <a href=\"/search/?p=RADT%202850\" data-action=\"result-detail\" data-group=\"code:RADT 2850\"  class=\"notoffered\">RADT 2850</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"RADT 2850\"}",
+      "other_requirements": "Immunization Tracking Fee: $25\nHIPAA/OSHA Fee: $14",
       "external": false
     },
     {
@@ -211,37 +211,37 @@
       "external": true
     },
     {
-      "id": "PHYS 1250",
-      "course_code": "PHYS 1250",
-      "department": "PHYS",
-      "title": "Conceptual Physics",
-      "credit_hours": "3",
-      "description": "One-semester conceptual survey. Topics selected from mechanics, electricity, magnetism and modern physics.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "BHSC 2750",
-      "course_code": "BHSC 2750",
+      "id": "BHSC 2400",
+      "course_code": "BHSC 2400",
       "department": "BHSC",
-      "title": "Cross Sectional Imaging",
-      "credit_hours": "3",
-      "description": "Introduction to the radiographic anatomy and the various imaging modalities presently used to include diagnostic imaging, computed tomography (CT), magnetic resonance imaging (MRI), and nuclear medicine. Prerequisites: <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1200\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}",
-      "other_requirements": "other degree students with instructor permission",
+      "title": "Radiation Science",
+      "credit_hours": "4",
+      "description": "Provides a broad based understanding of the fundamentals of radiation science including the ways in which radiation is produced and utilized, the principles of radioactive decay, radiation exposure, absorbed dose, shielding and detection of radiation. Prerequisite: <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Co-requisites: <a href=\"/search/?p=RADT%202520\" data-action=\"result-detail\" data-group=\"code:RADT 2520\"  class=\"notoffered\">RADT 2520</a> or Instructor permission for non-majors.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "other_requirements": "Co-requisites: RADT 2520 or Instructor permission for non-majors. Open to degree and PACE students",
       "external": true
     },
     {
-      "id": "RADT 2520",
-      "course_code": "RADT 2520",
+      "id": "RADT 3880",
+      "course_code": "RADT 3880",
       "department": "RADT",
-      "title": "Prin of Radiation Therapy",
-      "credit_hours": "3",
-      "description": "Introduction to the practice and theory of radiation therapy. Co-requisite: <a href=\"/search/?p=BHSC%202400\" data-action=\"result-detail\" data-group=\"code:BHSC 2400\" >BHSC 2400</a> or Instructor permission for non-majors.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BHSC 2400\"}, {\"type\": \"course\", \"code\": \"MLS 2400\"}]}",
-      "other_requirements": "Instructor permission for non-majors, RADT, MRS majors only, or instructor permission. Open to Degree and PACE students.",
+      "title": "Final Clinical Pract Overview",
+      "credit_hours": "2",
+      "description": "To orient the student to a new radiation oncology department; understand basic patient flow and essential equipment. The student is also responsible for completing all necessary orientation requirements at the organization, department level, or both. This includes understanding relevant policies and procedures and SOP's. Prerequisites: <a href=\"/search/?p=RADT%203710\" data-action=\"result-detail\" data-group=\"code:RADT 3710\" >RADT 3710</a>, <a href=\"/search/?p=RADT%202760\" data-action=\"result-detail\" data-group=\"code:RADT 2760\" >RADT 2760</a>, <a href=\"/search/?p=RADT%202870\" data-action=\"result-detail\" data-group=\"code:RADT 2870\" >RADT 2870</a>, <a href=\"/search/?p=RADT%203440\" data-action=\"result-detail\" data-group=\"code:RADT 3440\" >RADT 3440</a>; Senior standing.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RADT 3710\"}, {\"type\": \"course\", \"code\": \"RADT 2760\"}, {\"type\": \"course\", \"code\": \"RADT 2870\"}, {\"type\": \"course\", \"code\": \"RADT 3440\"}]}",
+      "other_requirements": "Senior standing; Immunization Tracking fee: $25; HIPAA/OSHA fee: $14",
       "external": false
+    },
+    {
+      "id": "PHYS 1400",
+      "course_code": "PHYS 1400",
+      "department": "PHYS",
+      "title": "Elementary Physics I",
+      "credit_hours": "4",
+      "description": "Algebra-based survey of mechanics, oscillations, waves and thermal physics. Appropriate for students in health and life sciences. Counts as lecture and lab. Optional accompanying problem solving recitation section: <a href=\"/search/?p=PHYS%201410\" data-action=\"result-detail\" data-group=\"code:PHYS 1410\" >PHYS 1410</a>. Prerequisites: High school algebra and trigonometry.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"High school algebra\"}, {\"type\": \"course\", \"code\": \"trigonometry\"}]}",
+      "other_requirements": "Must register for PHYS 1400 L01-L04; Open to degree and PACE students",
+      "external": true
     }
   ],
   "edges": [

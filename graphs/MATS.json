@@ -2,25 +2,14 @@
   "department": "MATS",
   "nodes": [
     {
-      "id": "MATS 5610",
-      "course_code": "MATS 5610",
+      "id": "MATS 5185",
+      "course_code": "MATS 5185",
       "department": "MATS",
-      "title": "Gr Chemical Thermodynamics",
-      "credit_hours": "3",
-      "description": "Calculus-based exploration of the fundamental principles of thermodynamics (gases, equilibrium, free energy, laws of thermodynamics, statistical thermodynamics, phase transitions, mixtures, chemical reactions, solids), from an interdisciplinary perspective. This topic is a cornerstone of many scientific and engineering disciplines. Appropriate for students in Chemistry and other STEM fields. Prerequisites: Graduate student or Instructor permission; content knowledge of general chemistry, calculus, and introductory physics (mechanics) assumed. Cross-listed with: <a href=\"/search/?p=CHEM%205610\" data-action=\"result-detail\" data-group=\"code:CHEM 5610\" >CHEM 5610</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"CHEM 5610\"}",
-      "other_requirements": "Graduate student or Instructor permission; content knowledge of general chemistry, calculus, and introductory physics (mechanics) assumed.",
-      "external": false
-    },
-    {
-      "id": "MATS 6391",
-      "course_code": "MATS 6391",
-      "department": "MATS",
-      "title": "Master's Thesis Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Master's Thesis.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "title": "Nano-analysis of Materials",
+      "credit_hours": "1",
+      "description": "Explores the theory and practical operation of advanced techniques to analyze the structure, composition, and surfaces of micro and nano-scale materials. Students will be  trained as users of a Field Emission Scanning Electron Microscope (FESEM) including x-ray elemental analysis. Credit not awarded for both <a href=\"/search/?p=PHYS%203175\" data-action=\"result-detail\" data-group=\"code:PHYS 3175\" >PHYS 3175</a> and <a href=\"/search/?p=PHYS%205185\" data-action=\"result-detail\" data-group=\"code:PHYS 5185\" >PHYS 5185</a>. Prerequisite: Graduate student in Physics, Materials Science, or related program, or Instructor permission. Cross-listed with: <a href=\"/search/?p=PHYS%205185\" data-action=\"result-detail\" data-group=\"code:PHYS 5185\" >PHYS 5185</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"PHYS 3500\"}",
+      "other_requirements": "Graduate student in Physics, Materials Science, or related program, or Instructor permission. Credit not awarded for both PHYS 3175 and PHYS 5185. Cross-listed with PHYS 5185; Total combined enrollment=12",
       "external": false
     },
     {
@@ -35,17 +24,6 @@
       "external": true
     },
     {
-      "id": "MATS 5185",
-      "course_code": "MATS 5185",
-      "department": "MATS",
-      "title": "Nano-analysis of Materials",
-      "credit_hours": "1",
-      "description": "Explores the theory and practical operation of advanced techniques to analyze the structure, composition, and surfaces of micro and nano-scale materials. Students will be  trained as users of a Field Emission Scanning Electron Microscope (FESEM) including x-ray elemental analysis. Credit not awarded for both <a href=\"/search/?p=PHYS%203175\" data-action=\"result-detail\" data-group=\"code:PHYS 3175\" >PHYS 3175</a> and <a href=\"/search/?p=PHYS%205185\" data-action=\"result-detail\" data-group=\"code:PHYS 5185\" >PHYS 5185</a>. Prerequisite: Graduate student in Physics, Materials Science, or related program, or Instructor permission. Cross-listed with: <a href=\"/search/?p=PHYS%205185\" data-action=\"result-detail\" data-group=\"code:PHYS 5185\" >PHYS 5185</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"PHYS 3500\"}",
-      "other_requirements": "Graduate student in Physics, Materials Science, or related program, or Instructor permission. Credit not awarded for both PHYS 3175 and PHYS 5185. Cross-listed with PHYS 5185; Total combined enrollment=12",
-      "external": false
-    },
-    {
       "id": "MATS 7491",
       "course_code": "MATS 7491",
       "department": "MATS",
@@ -54,6 +32,28 @@
       "description": "Research for the Doctoral Dissertation.",
       "prereq_expression": null,
       "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "MATS 6391",
+      "course_code": "MATS 6391",
+      "department": "MATS",
+      "title": "Master's Thesis Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Master's Thesis.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "MATS 5610",
+      "course_code": "MATS 5610",
+      "department": "MATS",
+      "title": "Gr Chemical Thermodynamics",
+      "credit_hours": "3",
+      "description": "Calculus-based exploration of the fundamental principles of thermodynamics (gases, equilibrium, free energy, laws of thermodynamics, statistical thermodynamics, phase transitions, mixtures, chemical reactions, solids), from an interdisciplinary perspective. This topic is a cornerstone of many scientific and engineering disciplines. Appropriate for students in Chemistry and other STEM fields. Prerequisites: Graduate student or Instructor permission; content knowledge of general chemistry, calculus, and introductory physics (mechanics) assumed. Cross-listed with: <a href=\"/search/?p=CHEM%205610\" data-action=\"result-detail\" data-group=\"code:CHEM 5610\" >CHEM 5610</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"CHEM 5610\"}",
+      "other_requirements": "Graduate student or Instructor permission; content knowledge of general chemistry, calculus, and introductory physics (mechanics) assumed.",
       "external": false
     },
     {

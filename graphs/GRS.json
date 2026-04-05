@@ -2,36 +2,14 @@
   "department": "GRS",
   "nodes": [
     {
-      "id": "GRS 1500",
-      "course_code": "GRS 1500",
+      "id": "GRS 1105",
+      "course_code": "GRS 1105",
       "department": "GRS",
-      "title": "Intro to Global Studies",
+      "title": "Connecting CulturesNew Zealand",
       "credit_hours": "3",
-      "description": "An interdisciplinary introduction to the social, political, economic, natural, and cultural dimensions of globalization and transnational interdependencies.",
+      "description": "Online component of select UVM Abroad programs. Course materials promote thoughtful reflection about our individual roles as members of a diverse and interconnected world community, together with readings and tools to deepen students' own cross-cultural engagement over the course of the semester. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate UVM Abroad program.",
       "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "GRS 2500",
-      "course_code": "GRS 2500",
-      "department": "GRS",
-      "title": "Theories & Methods in GS",
-      "credit_hours": "3",
-      "description": "Introduction to the key theories and methods that shape research in the field of Global Studies. Prerequisite: <a href=\"/search/?p=GRS%201500\" data-action=\"result-detail\" data-group=\"code:GRS 1500\" >GRS 1500</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"GRS 1500\"}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "GRS 3991",
-      "course_code": "GRS 3991",
-      "department": "GRS",
-      "title": "Internship",
-      "credit_hours": "1 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
+      "other_requirements": "Co-requisite: Enrollment in the appropriate UVM Abroad program. Instructor permission required; Reserved for participants in the designated UVM semester abroad program in New Zealand; Asynchronous online",
       "external": false
     },
     {
@@ -46,6 +24,28 @@
       "external": false
     },
     {
+      "id": "GRS 2500",
+      "course_code": "GRS 2500",
+      "department": "GRS",
+      "title": "Theories & Methods in GS",
+      "credit_hours": "3",
+      "description": "Introduction to the key theories and methods that shape research in the field of Global Studies. Prerequisite: <a href=\"/search/?p=GRS%201500\" data-action=\"result-detail\" data-group=\"code:GRS 1500\" >GRS 1500</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"GRS 1500\"}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GRS 3993",
+      "course_code": "GRS 3993",
+      "department": "GRS",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisites: Minimum Junior standing and permission of Program Director.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Junior standing and permission of Program Director. Instructor Permission Required",
+      "external": false
+    },
+    {
       "id": "GRS 4996",
       "course_code": "GRS 4996",
       "department": "GRS",
@@ -54,17 +54,6 @@
       "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "GRS 1105",
-      "course_code": "GRS 1105",
-      "department": "GRS",
-      "title": "Connecting CulturesNew Zealand",
-      "credit_hours": "3",
-      "description": "Online component of select UVM Abroad programs. Course materials promote thoughtful reflection about our individual roles as members of a diverse and interconnected world community, together with readings and tools to deepen students' own cross-cultural engagement over the course of the semester. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate UVM Abroad program.",
-      "prereq_expression": null,
-      "other_requirements": "Co-requisite: Enrollment in the appropriate UVM Abroad program. Instructor permission required; Reserved for participants in the designated UVM semester abroad program in New Zealand; Asynchronous online",
       "external": false
     },
     {
@@ -79,14 +68,25 @@
       "external": false
     },
     {
-      "id": "GRS 3993",
-      "course_code": "GRS 3993",
+      "id": "GRS 1500",
+      "course_code": "GRS 1500",
       "department": "GRS",
-      "title": "Independent Study",
-      "credit_hours": "1 to 18",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisites: Minimum Junior standing and permission of Program Director.",
+      "title": "Intro to Global Studies",
+      "credit_hours": "3",
+      "description": "An interdisciplinary introduction to the social, political, economic, natural, and cultural dimensions of globalization and transnational interdependencies.",
       "prereq_expression": null,
-      "other_requirements": "Minimum Junior standing and permission of Program Director. Instructor Permission Required",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GRS 3991",
+      "course_code": "GRS 3991",
+      "department": "GRS",
+      "title": "Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
       "external": false
     }
   ],

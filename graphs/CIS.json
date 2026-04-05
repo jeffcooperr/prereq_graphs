@@ -2,6 +2,17 @@
   "department": "CIS",
   "nodes": [
     {
+      "id": "CIS 2460",
+      "course_code": "CIS 2460",
+      "department": "CIS",
+      "title": "Digital Fabrication",
+      "credit_hours": "3",
+      "description": "Through hands-on experience students will practice with digital fabrication technologies (both hardware and software) that are popular with contemporary artists. Students will practice design iteration and rapid prototyping and experiment iwht art-making practices such as tessellation, 3D imaging, generative design, artificial life and interaction design. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\"  class=\"notoffered\">ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>; or Computer Science major or College of Engineering &amp; Mathematical Science student; minimum Junior standing. Cross-listed with: <a href=\"/search/?p=ARTS%202620\" data-action=\"result-detail\" data-group=\"code:ARTS 2620\" >ARTS 2620</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CIS 1010\"}, {\"type\": \"course\", \"code\": \"CEMS 1010\"}]}]}",
+      "other_requirements": "Computer Science major or College of Engineering & Mathematical Science student; minimum Junior standing.",
+      "external": false
+    },
+    {
       "id": "ARTS 1400",
       "course_code": "ARTS 1400",
       "department": "ARTS",
@@ -10,28 +21,6 @@
       "description": "Introduction to contemporary art practice in various media. Explores method and meaning in art making, the role of experimentation, and the translation of experience into artwork. Credit not awarded for both ARTS 1400 and <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>.",
       "prereq_expression": null,
       "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed.",
-      "external": true
-    },
-    {
-      "id": "ARTS 1014",
-      "course_code": "ARTS 1014",
-      "department": "ARTS",
-      "title": "FYS Perspectives on Art Making",
-      "credit_hours": "4",
-      "description": "Introduction to contemporary art practice in various media. Explores method and meaning in art making, the role of experimentation, and the translation of experience into artwork. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "ARTS 1100",
-      "course_code": "ARTS 1100",
-      "department": "ARTS",
-      "title": "Drawing",
-      "credit_hours": "4",
-      "description": "Introductory study of visual experience through drawing and its transformation of the three-dimensional visual world onto a two-dimensional surface. Emphasis varies with Instructor. Credit not awarded for both ARTS 1100 and <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
       "external": true
     },
     {
@@ -46,15 +35,26 @@
       "external": false
     },
     {
-      "id": "CIS 2460",
-      "course_code": "CIS 2460",
-      "department": "CIS",
-      "title": "Digital Fabrication",
-      "credit_hours": "3",
-      "description": "Through hands-on experience students will practice with digital fabrication technologies (both hardware and software) that are popular with contemporary artists. Students will practice design iteration and rapid prototyping and experiment iwht art-making practices such as tessellation, 3D imaging, generative design, artificial life and interaction design. Prerequisites: <a href=\"/search/?p=ARTS%201010\" data-action=\"result-detail\" data-group=\"code:ARTS 1010\"  class=\"notoffered\">ARTS 1010</a>, <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>, <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\"  class=\"notoffered\">ARTS 1014</a>, <a href=\"/search/?p=ARTS%201100\" data-action=\"result-detail\" data-group=\"code:ARTS 1100\" >ARTS 1100</a>, or <a href=\"/search/?p=ARTS%201400\" data-action=\"result-detail\" data-group=\"code:ARTS 1400\" >ARTS 1400</a>; or Computer Science major or College of Engineering &amp; Mathematical Science student; minimum Junior standing. Cross-listed with: <a href=\"/search/?p=ARTS%202620\" data-action=\"result-detail\" data-group=\"code:ARTS 2620\" >ARTS 2620</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CIS 1010\"}, {\"type\": \"course\", \"code\": \"CEMS 1010\"}]}]}",
-      "other_requirements": "Computer Science major or College of Engineering & Mathematical Science student; minimum Junior standing.",
-      "external": false
+      "id": "ARTS 1100",
+      "course_code": "ARTS 1100",
+      "department": "ARTS",
+      "title": "Drawing",
+      "credit_hours": "4",
+      "description": "Introductory study of visual experience through drawing and its transformation of the three-dimensional visual world onto a two-dimensional surface. Emphasis varies with Instructor. Credit not awarded for both ARTS 1100 and <a href=\"/search/?p=ARTS%201011\" data-action=\"result-detail\" data-group=\"code:ARTS 1011\"  class=\"notoffered\">ARTS 1011</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "ARTS 1014",
+      "course_code": "ARTS 1014",
+      "department": "ARTS",
+      "title": "FYS Perspectives on Art Making",
+      "credit_hours": "4",
+      "description": "Introduction to contemporary art practice in various media. Explores method and meaning in art making, the role of experimentation, and the translation of experience into artwork. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
     }
   ],
   "edges": [

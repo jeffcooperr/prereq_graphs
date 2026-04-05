@@ -24,14 +24,36 @@
       "external": false
     },
     {
-      "id": "NH 3996",
-      "course_code": "NH 3996",
+      "id": "NH 2991",
+      "course_code": "NH 2991",
       "department": "NH",
-      "title": "HC: Honors Project and Seminar",
-      "credit_hours": "1 to 6",
-      "description": "This course facilitates the Honors College project. All CNHS Honors College students must enroll.",
+      "title": "Int: NH Health Service Intern",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
-      "other_requirements": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "NH 3990",
+      "course_code": "NH 3990",
+      "department": "NH",
+      "title": "ST: Aging Well, Med Style",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required; Program Fee:  $$2,029 minus $450 deposit; OIE GoAbroad App Deadline: 11/18/2025; Out of Pocket expenses (approx. $190) are additional; Airfare is additional; Pre/Post departure meetings 1/27, 2/24 & 4/14/26",
+      "external": false
+    },
+    {
+      "id": "NH 2993",
+      "course_code": "NH 2993",
+      "department": "NH",
+      "title": "IS:HCOL Thesis Prep",
+      "credit_hours": "3",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
       "external": false
     },
     {
@@ -46,14 +68,14 @@
       "external": false
     },
     {
-      "id": "NH 2993",
-      "course_code": "NH 2993",
+      "id": "NH 3996",
+      "course_code": "NH 3996",
       "department": "NH",
-      "title": "IS:HCOL Thesis Prep",
-      "credit_hours": "3",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "title": "HC: Honors Project and Seminar",
+      "credit_hours": "1 to 6",
+      "description": "This course facilitates the Honors College project. All CNHS Honors College students must enroll.",
       "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
+      "other_requirements": null,
       "external": false
     },
     {
@@ -76,28 +98,6 @@
       "description": "A study of ethical principles and applications used to help resolve dilemmas in health care delivery. Introduction to ethical decision-making models used in the practice of modern health care.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "NH 3990",
-      "course_code": "NH 3990",
-      "department": "NH",
-      "title": "ST: Aging Well, Med Style",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required; Program Fee:  $$2,029 minus $450 deposit; OIE GoAbroad App Deadline: 11/18/2025; Out of Pocket expenses (approx. $190) are additional; Airfare is additional; Pre/Post departure meetings 1/27, 2/24 & 4/14/26",
-      "external": false
-    },
-    {
-      "id": "NH 2991",
-      "course_code": "NH 2991",
-      "department": "NH",
-      "title": "Int: NH Health Service Intern",
-      "credit_hours": "1 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
       "external": false
     }
   ],

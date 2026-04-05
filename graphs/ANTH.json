@@ -2,36 +2,14 @@
   "department": "ANTH",
   "nodes": [
     {
-      "id": "ANTH 2991",
-      "course_code": "ANTH 2991",
+      "id": "ANTH 2995",
+      "course_code": "ANTH 2995",
       "department": "ANTH",
-      "title": "Internship",
+      "title": "Undergraduate Research",
       "credit_hours": "1 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Prerequisite: Instructor permission.",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Instructor permission.",
       "prereq_expression": null,
       "other_requirements": "Instructor permission",
-      "external": false
-    },
-    {
-      "id": "ANTH 4991",
-      "course_code": "ANTH 4991",
-      "department": "ANTH",
-      "title": "Internship",
-      "credit_hours": "1 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Prerequisite: Instructor permission.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "ANTH 1190",
-      "course_code": "ANTH 1190",
-      "department": "ANTH",
-      "title": "Global Health Devel & Diversit",
-      "credit_hours": "3",
-      "description": "An anthropological exploration of connections between global health, economic development, and cultural diversity in contemporary times. Considers ways in which informed global citizens can make a positive difference in human health, taking socioeconomic and cultural diversity into account. Cross-listed with: <a href=\"/search/?p=HSOC%201700\" data-action=\"result-detail\" data-group=\"code:HSOC 1700\" >HSOC 1700</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
       "external": false
     },
     {
@@ -46,48 +24,26 @@
       "external": false
     },
     {
-      "id": "ANTH 2995",
-      "course_code": "ANTH 2995",
+      "id": "ANTH 2205",
+      "course_code": "ANTH 2205",
       "department": "ANTH",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Instructor permission.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission",
-      "external": false
-    },
-    {
-      "id": "ANTH 4996",
-      "course_code": "ANTH 4996",
-      "department": "ANTH",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "ANTH 2172",
-      "course_code": "ANTH 2172",
-      "department": "ANTH",
-      "title": "Psychological Anthropology",
+      "title": "Gender Sex Race & the Body",
       "credit_hours": "3",
-      "description": "Explores the contributions of anthropology to understanding the experience of psychological phenomena and mind across cultures. It will be a holistic introduction to the vibrant field of psychological anthropology, and it is designed to challenge preconceived notions about how culture affects people's behavior. Prerequisites: <a href=\"/search/?p=ANTH%201100\" data-action=\"result-detail\" data-group=\"code:ANTH 1100\" >ANTH 1100</a> or <a href=\"/search/?p=ANTH%201190\" data-action=\"result-detail\" data-group=\"code:ANTH 1190\" >ANTH 1190</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ANTH 1100\"}, {\"type\": \"course\", \"code\": \"ANTH 1190\"}]}",
+      "description": "Cross-cultural study of gender, sex, sexuality, and race including exploring the cultural construction of categories and cultural practices related to the body and gender, sex, sexuality, and race. Prerequisite: <a href=\"/search/?p=ANTH%201100\" data-action=\"result-detail\" data-group=\"code:ANTH 1100\" >ANTH 1100</a>, <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\"  class=\"notoffered\">GSWS 1010</a>, or <a href=\"/search/?p=GSWS%201500\" data-action=\"result-detail\" data-group=\"code:GSWS 1500\" >GSWS 1500</a>. Cross-listed with: <a href=\"/search/?p=GSWS%202715\" data-action=\"result-detail\" data-group=\"code:GSWS 2715\" >GSWS 2715</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ANTH 1100\"}, {\"type\": \"course\", \"code\": \"GSWS 1010\"}, {\"type\": \"course\", \"code\": \"GSWS 1500\"}]}",
       "other_requirements": "PACE students with permission and override",
       "external": false
     },
     {
-      "id": "GSWS 1010",
-      "course_code": "GSWS 1010",
-      "department": "GSWS",
-      "title": "FYS: Gend Sex Wmn's Stdy",
+      "id": "ANTH 2440",
+      "course_code": "ANTH 2440",
+      "department": "ANTH",
+      "title": "Primates and Anthropology",
       "credit_hours": "3",
-      "description": "Intensive first-year seminar introducing the field of Gender, Sexuality, and Women's Studies. Topics include key theoretical approaches to conceptualizing gender, sexuality, and power; how gender and sexuality are policed; and the relationship between gender, sexuality, and other social categories. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
+      "description": "A survey of behavior and anatomy of nonhuman primates (monkeys, apes and prosimians) from an anthropological perspective. Prerequisite: <a href=\"/search/?p=ANTH%201100\" data-action=\"result-detail\" data-group=\"code:ANTH 1100\" >ANTH 1100</a> or <a href=\"/search/?p=ANTH%201400\" data-action=\"result-detail\" data-group=\"code:ANTH 1400\"  class=\"notoffered\">ANTH 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ANTH 1100\"}, {\"type\": \"course\", \"code\": \"ANTH 1400\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
     },
     {
       "id": "ANTH 3990",
@@ -101,12 +57,45 @@
       "external": false
     },
     {
+      "id": "ANTH 2110",
+      "course_code": "ANTH 2110",
+      "department": "ANTH",
+      "title": "Black Feminist Anthropology",
+      "credit_hours": "3",
+      "description": "Explores intermediate level topics in cultural anthropology. May be repeated for credit with different content. Sample topics include: Cultural Anthropology in the Media, Indigenous Cultures and Social Change, Economic Anthropology. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=ANTH%201100\" data-action=\"result-detail\" data-group=\"code:ANTH 1100\" >ANTH 1100</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"ANTH 1100\"}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "ANTH 2810",
+      "course_code": "ANTH 2810",
+      "department": "ANTH",
+      "title": "Archaeology Headlines",
+      "credit_hours": "3",
+      "description": "Explores intermediate level topics in archaeology. May be repeated for credit with different content. Sample topics include: Archaeology of Disaster, Ruins, Archaeology in the Media. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=ANTH%201800\" data-action=\"result-detail\" data-group=\"code:ANTH 1800\" >ANTH 1800</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"ANTH 1800\"}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
       "id": "ANTH 1600",
       "course_code": "ANTH 1600",
       "department": "ANTH",
       "title": "Linguistic Anthropology",
       "credit_hours": "3",
       "description": "Introduction to linguistic anthropology, focusing on language and communication as they pertain to human culture and human social interaction.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ANTH 1100",
+      "course_code": "ANTH 1100",
+      "department": "ANTH",
+      "title": "Cultural Anthropology",
+      "credit_hours": "3",
+      "description": "Introduction to cultural anthropology, using fieldwork-based concepts and methods to study diverse cultural views and practices, varied forms of social organization, and contemporary global issues.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -123,6 +112,17 @@
       "external": false
     },
     {
+      "id": "ANTH 4996",
+      "course_code": "ANTH 4996",
+      "department": "ANTH",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
       "id": "ANTH 2994",
       "course_code": "ANTH 2994",
       "department": "ANTH",
@@ -134,25 +134,25 @@
       "external": false
     },
     {
-      "id": "ANTH 3000",
-      "course_code": "ANTH 3000",
-      "department": "ANTH",
-      "title": "Advanced Proseminar in Anthro",
-      "credit_hours": "1",
-      "description": "Designed to be taken in conjunction with any 3000-level class, this capstone pro-seminar in Anthropology will provide a forum for majors to build and package anthropological skill sets and to identify, explore, and plan for future educational and career opportunities. Prerequisites: Anthropology major; minimum Junior standing. Pre/co-requisite: Any three-credit 3000-level Anthropology course.",
+      "id": "GSWS 1010",
+      "course_code": "GSWS 1010",
+      "department": "GSWS",
+      "title": "FYS: Gend Sex Wmn's Stdy",
+      "credit_hours": "3",
+      "description": "Intensive first-year seminar introducing the field of Gender, Sexuality, and Women's Studies. Topics include key theoretical approaches to conceptualizing gender, sexuality, and power; how gender and sexuality are policed; and the relationship between gender, sexuality, and other social categories. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking.",
       "prereq_expression": null,
-      "other_requirements": "Anthropology major; minimum Junior standing.",
-      "external": false
+      "other_requirements": null,
+      "external": true
     },
     {
-      "id": "ANTH 2170",
-      "course_code": "ANTH 2170",
+      "id": "ANTH 1850",
+      "course_code": "ANTH 1850",
       "department": "ANTH",
-      "title": "Culture, Health and Healing",
+      "title": "Ruins",
       "credit_hours": "3",
-      "description": "Introduction to medical anthropology. Social and cultural perspectives on health and illness experiences, doctor-patient interactions, healing practices, and access to health and health care. Prerequisites: <a href=\"/search/?p=ANTH%201100\" data-action=\"result-detail\" data-group=\"code:ANTH 1100\" >ANTH 1100</a>, <a href=\"/search/?p=ANTH%201190\" data-action=\"result-detail\" data-group=\"code:ANTH 1190\" >ANTH 1190</a>, or three hours of Sociology.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ANTH 1100\"}, {\"type\": \"course\", \"code\": \"ANTH 1190\"}, {\"type\": \"course\", \"code\": \"SOC 1100\"}]}",
-      "other_requirements": "PACE students with permission and override",
+      "description": "Examination of ruins--abandoned places and things--through an anthropological lens. The survey ranges broadly from ancient sites to contemporary war zones, abandoned malls, and other familiar landscapes, with critical attention to the portrayal of ruins in film, photography, and other media.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     },
     {
@@ -167,80 +167,91 @@
       "external": false
     },
     {
-      "id": "ANTH 1100",
-      "course_code": "ANTH 1100",
+      "id": "ANTH 4991",
+      "course_code": "ANTH 4991",
       "department": "ANTH",
-      "title": "Cultural Anthropology",
+      "title": "Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Prerequisite: Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "ANTH 2170",
+      "course_code": "ANTH 2170",
+      "department": "ANTH",
+      "title": "Culture, Health and Healing",
       "credit_hours": "3",
-      "description": "Introduction to cultural anthropology, using fieldwork-based concepts and methods to study diverse cultural views and practices, varied forms of social organization, and contemporary global issues.",
+      "description": "Introduction to medical anthropology. Social and cultural perspectives on health and illness experiences, doctor-patient interactions, healing practices, and access to health and health care. Prerequisites: <a href=\"/search/?p=ANTH%201100\" data-action=\"result-detail\" data-group=\"code:ANTH 1100\" >ANTH 1100</a>, <a href=\"/search/?p=ANTH%201190\" data-action=\"result-detail\" data-group=\"code:ANTH 1190\" >ANTH 1190</a>, or three hours of Sociology.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ANTH 1100\"}, {\"type\": \"course\", \"code\": \"ANTH 1190\"}, {\"type\": \"course\", \"code\": \"SOC 1100\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "ANTH 2991",
+      "course_code": "ANTH 2991",
+      "department": "ANTH",
+      "title": "Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Prerequisite: Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission",
+      "external": false
+    },
+    {
+      "id": "ANTH 1140",
+      "course_code": "ANTH 1140",
+      "department": "ANTH",
+      "title": "Food and Culture",
+      "credit_hours": "3",
+      "description": "Examination of the cultivation, preparation, and consumption of food as rich symbolic processes through which humans interact with our natural and social environments.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
     },
     {
-      "id": "ANTH 4993",
-      "course_code": "ANTH 4993",
+      "id": "ANTH 2191",
+      "course_code": "ANTH 2191",
       "department": "ANTH",
-      "title": "Independent Study",
-      "credit_hours": "1 to 18",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Instructor permission.",
+      "title": "Foundations of Global Health",
+      "credit_hours": "3",
+      "description": "Explores global health and global health challenges affecting people primarily in developing or resource-constrained countries. Prerequisite: Minimum Sophomore standing. Cross-listed with: <a href=\"/search/?p=HSCI%202100\" data-action=\"result-detail\" data-group=\"code:HSCI 2100\" >HSCI 2100</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"HSCI 2100\"}",
+      "other_requirements": "Minimum Sophomore standing. ANTH and HSOC majors only during the week of registration, then ANTH and HSOC minors may also enroll; Degree students only; Cross listed listed with HSCI 2100A; Total combined enrollment: 60",
+      "external": false
+    },
+    {
+      "id": "ANTH 2172",
+      "course_code": "ANTH 2172",
+      "department": "ANTH",
+      "title": "Psychological Anthropology",
+      "credit_hours": "3",
+      "description": "Explores the contributions of anthropology to understanding the experience of psychological phenomena and mind across cultures. It will be a holistic introduction to the vibrant field of psychological anthropology, and it is designed to challenge preconceived notions about how culture affects people's behavior. Prerequisites: <a href=\"/search/?p=ANTH%201100\" data-action=\"result-detail\" data-group=\"code:ANTH 1100\" >ANTH 1100</a> or <a href=\"/search/?p=ANTH%201190\" data-action=\"result-detail\" data-group=\"code:ANTH 1190\" >ANTH 1190</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ANTH 1100\"}, {\"type\": \"course\", \"code\": \"ANTH 1190\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "ANTH 1190",
+      "course_code": "ANTH 1190",
+      "department": "ANTH",
+      "title": "Global Health Devel & Diversit",
+      "credit_hours": "3",
+      "description": "An anthropological exploration of connections between global health, economic development, and cultural diversity in contemporary times. Considers ways in which informed global citizens can make a positive difference in human health, taking socioeconomic and cultural diversity into account. Cross-listed with: <a href=\"/search/?p=HSOC%201700\" data-action=\"result-detail\" data-group=\"code:HSOC 1700\" >HSOC 1700</a>.",
       "prereq_expression": null,
-      "other_requirements": "Instructor permission. Instructor permission required",
+      "other_requirements": null,
       "external": false
     },
     {
-      "id": "ANTH 2440",
-      "course_code": "ANTH 2440",
+      "id": "ANTH 3000",
+      "course_code": "ANTH 3000",
       "department": "ANTH",
-      "title": "Primates and Anthropology",
-      "credit_hours": "3",
-      "description": "A survey of behavior and anatomy of nonhuman primates (monkeys, apes and prosimians) from an anthropological perspective. Prerequisite: <a href=\"/search/?p=ANTH%201100\" data-action=\"result-detail\" data-group=\"code:ANTH 1100\" >ANTH 1100</a> or <a href=\"/search/?p=ANTH%201400\" data-action=\"result-detail\" data-group=\"code:ANTH 1400\"  class=\"notoffered\">ANTH 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ANTH 1100\"}, {\"type\": \"course\", \"code\": \"ANTH 1400\"}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "ANTH 3145",
-      "course_code": "ANTH 3145",
-      "department": "ANTH",
-      "title": "Anthropology of Food and Labor",
-      "credit_hours": "3",
-      "description": "Unpacks the political, cultural, and economic dimensions of both local and global food systems through an investigation of the ways in which people work through, around, and with food in the public sphere. Prerequisites: <a href=\"/search/?p=ANTH%201100\" data-action=\"result-detail\" data-group=\"code:ANTH 1100\" >ANTH 1100</a>; one course at the 2000-level in cultural anthropology.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANTH 1100\"}, {\"type\": \"course\", \"code\": \"ANTH 2000\"}]}",
-      "other_requirements": "one course at the 2000-level in cultural anthropology",
-      "external": false
-    },
-    {
-      "id": "ANTH 2810",
-      "course_code": "ANTH 2810",
-      "department": "ANTH",
-      "title": "Archaeology Headlines",
-      "credit_hours": "3",
-      "description": "Explores intermediate level topics in archaeology. May be repeated for credit with different content. Sample topics include: Archaeology of Disaster, Ruins, Archaeology in the Media. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=ANTH%201800\" data-action=\"result-detail\" data-group=\"code:ANTH 1800\" >ANTH 1800</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"ANTH 1800\"}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "ANTH 2110",
-      "course_code": "ANTH 2110",
-      "department": "ANTH",
-      "title": "Black Feminist Anthropology",
-      "credit_hours": "3",
-      "description": "Explores intermediate level topics in cultural anthropology. May be repeated for credit with different content. Sample topics include: Cultural Anthropology in the Media, Indigenous Cultures and Social Change, Economic Anthropology. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=ANTH%201100\" data-action=\"result-detail\" data-group=\"code:ANTH 1100\" >ANTH 1100</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"ANTH 1100\"}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "ANTH 2990",
-      "course_code": "ANTH 2990",
-      "department": "ANTH",
-      "title": "Digital Anthropology",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ANTH 1100\"}, {\"type\": \"course\", \"code\": \"ANTH 1400\"}, {\"type\": \"course\", \"code\": \"ANTH 1800\"}]}",
-      "other_requirements": "See Schedule of Courses for specific titles. Special Topics courses cannot carry CC designations",
+      "title": "Advanced Proseminar in Anthro",
+      "credit_hours": "1",
+      "description": "Designed to be taken in conjunction with any 3000-level class, this capstone pro-seminar in Anthropology will provide a forum for majors to build and package anthropological skill sets and to identify, explore, and plan for future educational and career opportunities. Prerequisites: Anthropology major; minimum Junior standing. Pre/co-requisite: Any three-credit 3000-level Anthropology course.",
+      "prereq_expression": null,
+      "other_requirements": "Anthropology major; minimum Junior standing.",
       "external": false
     },
     {
@@ -266,14 +277,14 @@
       "external": false
     },
     {
-      "id": "ANTH 3130",
-      "course_code": "ANTH 3130",
+      "id": "ANTH 2990",
+      "course_code": "ANTH 2990",
       "department": "ANTH",
-      "title": "Ethnographic Field Methods",
+      "title": "Digital Anthropology",
       "credit_hours": "3",
-      "description": "Examination of theoretical and ethical premises of field work methodology with practical experience in research design, proposal writing, participant observation, interviewing, and qualitative data analysis. Prerequisite: <a href=\"/search/?p=ANTH%201100\" data-action=\"result-detail\" data-group=\"code:ANTH 1100\" >ANTH 1100</a>, one course at the <a href=\"/search/?p=ANTH%202000\" data-action=\"result-detail\" data-group=\"code:ANTH 2000\"  class=\"notoffered\">2000</a>-level in cultural anthropology.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANTH 1100\"}, {\"type\": \"course\", \"code\": \"ANTH 2000\"}]}",
-      "other_requirements": "one course at the 2000-level in cultural anthropology.",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ANTH 1100\"}, {\"type\": \"course\", \"code\": \"ANTH 1400\"}, {\"type\": \"course\", \"code\": \"ANTH 1800\"}]}",
+      "other_requirements": "See Schedule of Courses for specific titles. Special Topics courses cannot carry CC designations",
       "external": false
     },
     {
@@ -288,15 +299,15 @@
       "external": true
     },
     {
-      "id": "GSWS 1500",
-      "course_code": "GSWS 1500",
-      "department": "GSWS",
-      "title": "Intro to GSWS",
-      "credit_hours": "3",
-      "description": "Introduction to the field of gender, sexuality, and women's studies. Topics include key theoretical approaches to conceptualizing gender, sexuality, and power; how gender and sexuality are policed; and the relationship between gender, sexuality, and other social categories. Credit not awarded for both GSWS 1500 and <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\" >GSWS 1010</a>.",
+      "id": "ANTH 4993",
+      "course_code": "ANTH 4993",
+      "department": "ANTH",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Instructor permission.",
       "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
+      "other_requirements": "Instructor permission. Instructor permission required",
+      "external": false
     },
     {
       "id": "ANTH 4994",
@@ -310,37 +321,15 @@
       "external": false
     },
     {
-      "id": "ANTH 2191",
-      "course_code": "ANTH 2191",
-      "department": "ANTH",
-      "title": "Foundations of Global Health",
+      "id": "GSWS 1500",
+      "course_code": "GSWS 1500",
+      "department": "GSWS",
+      "title": "Intro to GSWS",
       "credit_hours": "3",
-      "description": "Explores global health and global health challenges affecting people primarily in developing or resource-constrained countries. Prerequisite: Minimum Sophomore standing. Cross-listed with: <a href=\"/search/?p=HSCI%202100\" data-action=\"result-detail\" data-group=\"code:HSCI 2100\" >HSCI 2100</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"HSCI 2100\"}",
-      "other_requirements": "Minimum Sophomore standing. ANTH and HSOC majors only during the week of registration, then ANTH and HSOC minors may also enroll; Degree students only; Cross listed listed with HSCI 2100A; Total combined enrollment: 60",
-      "external": false
-    },
-    {
-      "id": "ANTH 1140",
-      "course_code": "ANTH 1140",
-      "department": "ANTH",
-      "title": "Food and Culture",
-      "credit_hours": "3",
-      "description": "Examination of the cultivation, preparation, and consumption of food as rich symbolic processes through which humans interact with our natural and social environments.",
+      "description": "Introduction to the field of gender, sexuality, and women's studies. Topics include key theoretical approaches to conceptualizing gender, sexuality, and power; how gender and sexuality are policed; and the relationship between gender, sexuality, and other social categories. Credit not awarded for both GSWS 1500 and <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\" >GSWS 1010</a>.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "ANTH 2205",
-      "course_code": "ANTH 2205",
-      "department": "ANTH",
-      "title": "Gender Sex Race & the Body",
-      "credit_hours": "3",
-      "description": "Cross-cultural study of gender, sex, sexuality, and race including exploring the cultural construction of categories and cultural practices related to the body and gender, sex, sexuality, and race. Prerequisite: <a href=\"/search/?p=ANTH%201100\" data-action=\"result-detail\" data-group=\"code:ANTH 1100\" >ANTH 1100</a>, <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\"  class=\"notoffered\">GSWS 1010</a>, or <a href=\"/search/?p=GSWS%201500\" data-action=\"result-detail\" data-group=\"code:GSWS 1500\" >GSWS 1500</a>. Cross-listed with: <a href=\"/search/?p=GSWS%202715\" data-action=\"result-detail\" data-group=\"code:GSWS 2715\" >GSWS 2715</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ANTH 1100\"}, {\"type\": \"course\", \"code\": \"GSWS 1010\"}, {\"type\": \"course\", \"code\": \"GSWS 1500\"}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
+      "external": true
     },
     {
       "id": "ANTH 2220",
@@ -354,14 +343,25 @@
       "external": false
     },
     {
-      "id": "ANTH 1850",
-      "course_code": "ANTH 1850",
+      "id": "ANTH 3130",
+      "course_code": "ANTH 3130",
       "department": "ANTH",
-      "title": "Ruins",
+      "title": "Ethnographic Field Methods",
       "credit_hours": "3",
-      "description": "Examination of ruins--abandoned places and things--through an anthropological lens. The survey ranges broadly from ancient sites to contemporary war zones, abandoned malls, and other familiar landscapes, with critical attention to the portrayal of ruins in film, photography, and other media.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "description": "Examination of theoretical and ethical premises of field work methodology with practical experience in research design, proposal writing, participant observation, interviewing, and qualitative data analysis. Prerequisite: <a href=\"/search/?p=ANTH%201100\" data-action=\"result-detail\" data-group=\"code:ANTH 1100\" >ANTH 1100</a>, one course at the <a href=\"/search/?p=ANTH%202000\" data-action=\"result-detail\" data-group=\"code:ANTH 2000\"  class=\"notoffered\">2000</a>-level in cultural anthropology.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANTH 1100\"}, {\"type\": \"course\", \"code\": \"ANTH 2000\"}]}",
+      "other_requirements": "one course at the 2000-level in cultural anthropology.",
+      "external": false
+    },
+    {
+      "id": "ANTH 3145",
+      "course_code": "ANTH 3145",
+      "department": "ANTH",
+      "title": "Anthropology of Food and Labor",
+      "credit_hours": "3",
+      "description": "Unpacks the political, cultural, and economic dimensions of both local and global food systems through an investigation of the ways in which people work through, around, and with food in the public sphere. Prerequisites: <a href=\"/search/?p=ANTH%201100\" data-action=\"result-detail\" data-group=\"code:ANTH 1100\" >ANTH 1100</a>; one course at the 2000-level in cultural anthropology.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANTH 1100\"}, {\"type\": \"course\", \"code\": \"ANTH 2000\"}]}",
+      "other_requirements": "one course at the 2000-level in cultural anthropology",
       "external": false
     }
   ],

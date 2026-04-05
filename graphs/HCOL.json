@@ -2,17 +2,6 @@
   "department": "HCOL",
   "nodes": [
     {
-      "id": "HCOL 1000",
-      "course_code": "HCOL 1000",
-      "department": "HCOL",
-      "title": "Immig in Cross-Nat Perspective",
-      "credit_hours": "3",
-      "description": "The first course of a two-semester sequence required of all Honors College first-year students.  These seminars engage with a wide variety of contemporary social and ecological problems and share a focus on writing and information literacy. Topics vary by year. Prerequisite: Honors College First-Year standing.",
-      "prereq_expression": null,
-      "other_requirements": "Honors College First-Year standing. FY PLHC students only.",
-      "external": false
-    },
-    {
       "id": "HCOL 3881",
       "course_code": "HCOL 3881",
       "department": "HCOL",
@@ -24,14 +13,14 @@
       "external": false
     },
     {
-      "id": "HCOL 2000",
-      "course_code": "HCOL 2000",
+      "id": "HCOL 3883",
+      "course_code": "HCOL 3883",
       "department": "HCOL",
-      "title": "Culture Institut & Econ Growth",
-      "credit_hours": "3",
-      "description": "For Honors College sophomores, seminars that are typically discussion based, writing intensive, and multidisciplinary. Course content will vary from year to year. Prerequisite: Honors College student; Sophomore standing.",
+      "title": "HEC: Readings & Research",
+      "credit_hours": "1 to 3",
+      "description": "Focused and customized pre-thesis work in the form of a readings and research project, specifically contracted with a faculty member. Prerequisite: Honors College and College of Arts &amp; Sciences student.",
       "prereq_expression": null,
-      "other_requirements": "Honors College student; Sophomore standing. PLHC students only",
+      "other_requirements": "Honors College and College of Arts & Sciences student. CAS HCOL Junior Year requirement, Option C",
       "external": false
     },
     {
@@ -57,14 +46,14 @@
       "external": false
     },
     {
-      "id": "HCOL 2150",
-      "course_code": "HCOL 2150",
+      "id": "HCOL 1000",
+      "course_code": "HCOL 1000",
       "department": "HCOL",
-      "title": "Forging a US Civil Service",
+      "title": "Immig in Cross-Nat Perspective",
       "credit_hours": "3",
-      "description": "Patrick Leahy Honors College Sophomore Seminar that meets the elective requirement for the Theory, Policy, and Governance category of the Civic Engagement minor. Content varies by semester and Instructor.",
+      "description": "The first course of a two-semester sequence required of all Honors College first-year students.  These seminars engage with a wide variety of contemporary social and ecological problems and share a focus on writing and information literacy. Topics vary by year. Prerequisite: Honors College First-Year standing.",
       "prereq_expression": null,
-      "other_requirements": null,
+      "other_requirements": "Honors College First-Year standing. FY PLHC students only.",
       "external": false
     },
     {
@@ -79,28 +68,6 @@
       "external": false
     },
     {
-      "id": "HCOL 3000",
-      "course_code": "HCOL 3000",
-      "department": "HCOL",
-      "title": "Thesis Proposal Preparation",
-      "credit_hours": "1",
-      "description": "Designed to assist students in the production and submission of an Honors College thesis proposal. Prerequisites: Honors College and College of Arts &amp; Sciences student; minimum Junior standing.",
-      "prereq_expression": null,
-      "other_requirements": "Honors College and College of Arts & Sciences student; minimum Junior standing. CAS HCOL students only; Preparatory online (Brightspace) coursework will be required before the initial class meeting.",
-      "external": false
-    },
-    {
-      "id": "HCOL 2120",
-      "course_code": "HCOL 2120",
-      "department": "HCOL",
-      "title": "Why be Moral?",
-      "credit_hours": "3",
-      "description": "Patrick Leahy Honors College Sophomore Seminar that meets the elective requirement for the Ethical Deliberation category of the Civic Engagement minor. Content varies by semester and Instructor.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
       "id": "HCOL 4000",
       "course_code": "HCOL 4000",
       "department": "HCOL",
@@ -112,14 +79,14 @@
       "external": false
     },
     {
-      "id": "HCOL 2100",
-      "course_code": "HCOL 2100",
+      "id": "HCOL 2150",
+      "course_code": "HCOL 2150",
       "department": "HCOL",
-      "title": "Disability Studies & Media Rep",
+      "title": "Forging a US Civil Service",
       "credit_hours": "3",
-      "description": "Patrick Leahy Honors College Sophomore Seminar that meets the elective requirement for the Contemporary Challenges category of the Civic Engagement minor. Content varies by semester and Instructor.",
+      "description": "Patrick Leahy Honors College Sophomore Seminar that meets the elective requirement for the Theory, Policy, and Governance category of the Civic Engagement minor. Content varies by semester and Instructor.",
       "prereq_expression": null,
-      "other_requirements": "PLHC students only",
+      "other_requirements": null,
       "external": false
     },
     {
@@ -134,14 +101,25 @@
       "external": false
     },
     {
-      "id": "HCOL 3883",
-      "course_code": "HCOL 3883",
+      "id": "HCOL 3000",
+      "course_code": "HCOL 3000",
       "department": "HCOL",
-      "title": "HEC: Readings & Research",
-      "credit_hours": "1 to 3",
-      "description": "Focused and customized pre-thesis work in the form of a readings and research project, specifically contracted with a faculty member. Prerequisite: Honors College and College of Arts &amp; Sciences student.",
+      "title": "Thesis Proposal Preparation",
+      "credit_hours": "1",
+      "description": "Designed to assist students in the production and submission of an Honors College thesis proposal. Prerequisites: Honors College and College of Arts &amp; Sciences student; minimum Junior standing.",
       "prereq_expression": null,
-      "other_requirements": "Honors College and College of Arts & Sciences student. CAS HCOL Junior Year requirement, Option C",
+      "other_requirements": "Honors College and College of Arts & Sciences student; minimum Junior standing. CAS HCOL students only; Preparatory online (Brightspace) coursework will be required before the initial class meeting.",
+      "external": false
+    },
+    {
+      "id": "HCOL 2100",
+      "course_code": "HCOL 2100",
+      "department": "HCOL",
+      "title": "Disability Studies & Media Rep",
+      "credit_hours": "3",
+      "description": "Patrick Leahy Honors College Sophomore Seminar that meets the elective requirement for the Contemporary Challenges category of the Civic Engagement minor. Content varies by semester and Instructor.",
+      "prereq_expression": null,
+      "other_requirements": "PLHC students only",
       "external": false
     },
     {
@@ -153,6 +131,28 @@
       "description": "Second semester of two-semester sequence for Honors College first-year students focusing on collaborative group work and the presentation of research. Prerequisite: Honors College First-Year standing.",
       "prereq_expression": "{\"type\": \"course\", \"code\": \"PLHC\"}",
       "other_requirements": "Honors College First-Year standing. Must register for HCOL 1500 L01",
+      "external": false
+    },
+    {
+      "id": "HCOL 2120",
+      "course_code": "HCOL 2120",
+      "department": "HCOL",
+      "title": "Why be Moral?",
+      "credit_hours": "3",
+      "description": "Patrick Leahy Honors College Sophomore Seminar that meets the elective requirement for the Ethical Deliberation category of the Civic Engagement minor. Content varies by semester and Instructor.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HCOL 2000",
+      "course_code": "HCOL 2000",
+      "department": "HCOL",
+      "title": "Culture Institut & Econ Growth",
+      "credit_hours": "3",
+      "description": "For Honors College sophomores, seminars that are typically discussion based, writing intensive, and multidisciplinary. Course content will vary from year to year. Prerequisite: Honors College student; Sophomore standing.",
+      "prereq_expression": null,
+      "other_requirements": "Honors College student; Sophomore standing. PLHC students only",
       "external": false
     }
   ],

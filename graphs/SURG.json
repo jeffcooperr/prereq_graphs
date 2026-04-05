@@ -2,17 +2,6 @@
   "department": "SURG",
   "nodes": [
     {
-      "id": "SURG 3995",
-      "course_code": "SURG 3995",
-      "department": "SURG",
-      "title": "UGR:RNA Transitional Med Rsrch",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
       "id": "SURG 5100",
       "course_code": "SURG 5100",
       "department": "SURG",
@@ -21,6 +10,17 @@
       "description": "Provides a practical overview of the end-to-end process of bringing a therapeutic from concept to clinic and market. Covers target identification, lead optimization, preclinical development, formulation, clinical trial design, regulatory strategy, and manufacturing considerations. Emphasis is placed on translational science, risk management, and decision-making across development stages. Students gain insight into how scientific, regulatory, and commercial factors intersect to shape successful drug development programs in both small- and large-molecule therapeutics. Prerequisite: Biochemistry, Chemistry or Instructor permission.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOC 0000\"}, {\"type\": \"course\", \"code\": \"CHEM 0000\"}]}",
       "other_requirements": "Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "SURG 3995",
+      "course_code": "SURG 3995",
+      "department": "SURG",
+      "title": "UGR:RNA Transitional Med Rsrch",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     }
   ],

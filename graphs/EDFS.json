@@ -2,6 +2,17 @@
   "department": "EDFS",
   "nodes": [
     {
+      "id": "EDFS 1991",
+      "course_code": "EDFS 1991",
+      "department": "EDFS",
+      "title": "Internship",
+      "credit_hours": "1 to 3",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"Sophomore standing\"}",
+      "other_requirements": "Instructor permission; Students must be volunteering, tutoring, or working at a PreK-12 school setting.",
+      "external": false
+    },
+    {
       "id": "EDFS 6993",
       "course_code": "EDFS 6993",
       "department": "EDFS",
@@ -10,6 +21,28 @@
       "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": "Instructor Permission Only. Offered at department discretion.",
+      "external": false
+    },
+    {
+      "id": "EDFS 7040",
+      "course_code": "EDFS 7040",
+      "department": "EDFS",
+      "title": "Soc Process & Institutionl Chg",
+      "credit_hours": "3",
+      "description": "Critical analysis of theory and research related to justice, caring, and change in education and other social institutions. Focus: ideology, diversity, and management of knowledge.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"DOCTORAL STUDENTS\"}, {\"type\": \"other_requirement\", \"text\": \"Instructor Permission\"}]}",
+      "other_requirements": "Doctoral Students Only or Instructor Permission",
+      "external": false
+    },
+    {
+      "id": "EDFS 3030",
+      "course_code": "EDFS 3030",
+      "department": "EDFS",
+      "title": "Soc, Hst & Phil Found of Educ",
+      "credit_hours": "3",
+      "description": "Critical examination of central educational/social issues and values with special emphasis on the struggle for justice and equality. Themes include schooling and social class, race, and gender; the purposes of education; and the responsibilities of teachers. Prerequisite: Completion of a 2000 level course.",
+      "prereq_expression": "{\"type\": \"other_requirement\", \"description\": \"Any EDFS course\"}",
+      "other_requirements": "Open to degree and PACE students",
       "external": false
     },
     {
@@ -24,6 +57,17 @@
       "external": false
     },
     {
+      "id": "EDFS 3991",
+      "course_code": "EDFS 3991",
+      "department": "EDFS",
+      "title": "Internship",
+      "credit_hours": "3",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Prerequisite: Permission of the Coordinator of Professional Laboratory Experiences.",
+      "prereq_expression": null,
+      "other_requirements": "Permission of the Coordinator of Professional Laboratory Experiences.",
+      "external": false
+    },
+    {
       "id": "EDFS 6391",
       "course_code": "EDFS 6391",
       "department": "EDFS",
@@ -35,34 +79,23 @@
       "external": false
     },
     {
-      "id": "EDFS 1991",
-      "course_code": "EDFS 1991",
-      "department": "EDFS",
-      "title": "Internship",
-      "credit_hours": "1 to 3",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"Sophomore standing\"}",
-      "other_requirements": "Instructor permission; Students must be volunteering, tutoring, or working at a PreK-12 school setting.",
-      "external": false
-    },
-    {
-      "id": "EDFS 2995",
-      "course_code": "EDFS 2995",
-      "department": "EDFS",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
       "id": "EDFS 1020",
       "course_code": "EDFS 1020",
       "department": "EDFS",
       "title": "School and Society",
       "credit_hours": "3",
       "description": "As a foundational course in the College of Education and Social Services, this course investigates the interplay between schooling and society. We examine how children and youth are situated within the context of systems, including their families, communities, and the larger society, that influence their development and learning. We will explore the sociological purposes of schools, their historical development in the US, and the resulting inequitable impact of school organization and policy.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "EDFS 2994",
+      "course_code": "EDFS 2994",
+      "department": "EDFS",
+      "title": "Teach Asst: Foundations of Ed",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -79,50 +112,6 @@
       "external": false
     },
     {
-      "id": "EDFS 3030",
-      "course_code": "EDFS 3030",
-      "department": "EDFS",
-      "title": "Soc, Hst & Phil Found of Educ",
-      "credit_hours": "3",
-      "description": "Critical examination of central educational/social issues and values with special emphasis on the struggle for justice and equality. Themes include schooling and social class, race, and gender; the purposes of education; and the responsibilities of teachers. Prerequisite: Completion of a 2000 level course.",
-      "prereq_expression": "{\"type\": \"other_requirement\", \"description\": \"Any EDFS course\"}",
-      "other_requirements": "Open to degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "EDFS 7040",
-      "course_code": "EDFS 7040",
-      "department": "EDFS",
-      "title": "Soc Process & Institutionl Chg",
-      "credit_hours": "3",
-      "description": "Critical analysis of theory and research related to justice, caring, and change in education and other social institutions. Focus: ideology, diversity, and management of knowledge.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"DOCTORAL STUDENTS\"}, {\"type\": \"other_requirement\", \"text\": \"Instructor Permission\"}]}",
-      "other_requirements": "Doctoral Students Only or Instructor Permission",
-      "external": false
-    },
-    {
-      "id": "EDFS 1010",
-      "course_code": "EDFS 1010",
-      "department": "EDFS",
-      "title": "Race and Racism in the U.S.",
-      "credit_hours": "3",
-      "description": "Students will investigate the multi-faceted concepts of identity, racism, and the dynamics of power, privilege, and oppression in the United States.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EDFS 3991",
-      "course_code": "EDFS 3991",
-      "department": "EDFS",
-      "title": "Internship",
-      "credit_hours": "3",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Prerequisite: Permission of the Coordinator of Professional Laboratory Experiences.",
-      "prereq_expression": null,
-      "other_requirements": "Permission of the Coordinator of Professional Laboratory Experiences.",
-      "external": false
-    },
-    {
       "id": "EDFS 3090",
       "course_code": "EDFS 3090",
       "department": "EDFS",
@@ -134,12 +123,23 @@
       "external": false
     },
     {
-      "id": "EDFS 2994",
-      "course_code": "EDFS 2994",
+      "id": "EDFS 2995",
+      "course_code": "EDFS 2995",
       "department": "EDFS",
-      "title": "Teach Asst: Foundations of Ed",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "EDFS 1010",
+      "course_code": "EDFS 1010",
+      "department": "EDFS",
+      "title": "Race and Racism in the U.S.",
+      "credit_hours": "3",
+      "description": "Students will investigate the multi-faceted concepts of identity, racism, and the dynamics of power, privilege, and oppression in the United States.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false

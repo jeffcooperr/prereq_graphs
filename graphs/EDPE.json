@@ -2,12 +2,34 @@
   "department": "EDPE",
   "nodes": [
     {
+      "id": "EDPE 3650",
+      "course_code": "EDPE 3650",
+      "department": "EDPE",
+      "title": "Exercise & Sport Science",
+      "credit_hours": "3",
+      "description": "Discussion and integration of topics related to exercise physiology, kinesiology, motor learning, and sociocultural aspects of sport. Prerequisites: <a href=\"/search/?p=EDPE%202660\" data-action=\"result-detail\" data-group=\"code:EDPE 2660\"  class=\"notoffered\">EDPE 2660</a>, <a href=\"/search/?p=EDPE%202670\" data-action=\"result-detail\" data-group=\"code:EDPE 2670\"  class=\"notoffered\">EDPE 2670</a>, <a href=\"/search/?p=EDPE%203200\" data-action=\"result-detail\" data-group=\"code:EDPE 3200\" >EDPE 3200</a>; Senior standing; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDPE 2660\"}, {\"type\": \"course\", \"code\": \"EDPE 2670\"}, {\"type\": \"course\", \"code\": \"EDPE 3200\"}]}",
+      "other_requirements": "Senior standing; or Instructor permission. Open to degree and PACE students. Lecture and lab activities. Instructor permission only.",
+      "external": false
+    },
+    {
       "id": "EDPE 3200",
       "course_code": "EDPE 3200",
       "department": "EDPE",
       "title": "Sport in Society",
       "credit_hours": "3",
       "description": "Examines sport as a social institution, emphasizing interrelationships between sport and the social context in which it exists; analyzes functions and dysfunctions of sport in contemporary society.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "EDPE 4991",
+      "course_code": "EDPE 4991",
+      "department": "EDPE",
+      "title": "Internship: Student Teaching",
+      "credit_hours": "12",
+      "description": "Student teaching or some other on-site supervised experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team, for which academic credit is awarded.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -24,6 +46,17 @@
       "external": false
     },
     {
+      "id": "EDPE 1990",
+      "course_code": "EDPE 1990",
+      "department": "EDPE",
+      "title": "Fitness Education",
+      "credit_hours": "3",
+      "description": "See Schedule of Course for specific title.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
       "id": "EDPE 3670",
       "course_code": "EDPE 3670",
       "department": "EDPE",
@@ -32,6 +65,17 @@
       "description": "Introduction to the science and physiology behind strength training and conditioning, as well as the practical application of training principles. Focus includes muscle physiology, scientific readings on topics within the strength and conditioning field and the practical application of this knowledge. While a majority of the course is geared toward the training of athletes, all acquired skills can be used for training general population clients of all ages and for the reconditioning of injured athletes. Cross-listed with: <a href=\"/search/?p=EXSC%203670\" data-action=\"result-detail\" data-group=\"code:EXSC 3670\"  class=\"notoffered\">EXSC 3670</a>.",
       "prereq_expression": null,
       "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "EDPE 2993",
+      "course_code": "EDPE 2993",
+      "department": "EDPE",
+      "title": "Independent Study",
+      "credit_hours": "3",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission",
       "external": false
     },
     {
@@ -68,39 +112,6 @@
       "external": false
     },
     {
-      "id": "EDPE 4991",
-      "course_code": "EDPE 4991",
-      "department": "EDPE",
-      "title": "Internship: Student Teaching",
-      "credit_hours": "12",
-      "description": "Student teaching or some other on-site supervised experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team, for which academic credit is awarded.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EDPE 3650",
-      "course_code": "EDPE 3650",
-      "department": "EDPE",
-      "title": "Exercise & Sport Science",
-      "credit_hours": "3",
-      "description": "Discussion and integration of topics related to exercise physiology, kinesiology, motor learning, and sociocultural aspects of sport. Prerequisites: <a href=\"/search/?p=EDPE%202660\" data-action=\"result-detail\" data-group=\"code:EDPE 2660\"  class=\"notoffered\">EDPE 2660</a>, <a href=\"/search/?p=EDPE%202670\" data-action=\"result-detail\" data-group=\"code:EDPE 2670\"  class=\"notoffered\">EDPE 2670</a>, <a href=\"/search/?p=EDPE%203200\" data-action=\"result-detail\" data-group=\"code:EDPE 3200\" >EDPE 3200</a>; Senior standing; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDPE 2660\"}, {\"type\": \"course\", \"code\": \"EDPE 2670\"}, {\"type\": \"course\", \"code\": \"EDPE 3200\"}]}",
-      "other_requirements": "Senior standing; or Instructor permission. Open to degree and PACE students. Lecture and lab activities. Instructor permission only.",
-      "external": false
-    },
-    {
-      "id": "EDPE 2993",
-      "course_code": "EDPE 2993",
-      "department": "EDPE",
-      "title": "Independent Study",
-      "credit_hours": "3",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission",
-      "external": false
-    },
-    {
       "id": "EDPE 2010",
       "course_code": "EDPE 2010",
       "department": "EDPE",
@@ -109,17 +120,6 @@
       "description": "Examination and analysis of contemporary issues and trends in sports management, physical education and athletics. Prerequisite: Minimum Sophomore standing.",
       "prereq_expression": null,
       "other_requirements": "Minimum Sophomore standing. Open to Degree and PACE students.",
-      "external": false
-    },
-    {
-      "id": "EDPE 1990",
-      "course_code": "EDPE 1990",
-      "department": "EDPE",
-      "title": "Fitness Education",
-      "credit_hours": "3",
-      "description": "See Schedule of Course for specific title.",
-      "prereq_expression": null,
-      "other_requirements": null,
       "external": false
     }
   ],

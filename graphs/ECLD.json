@@ -35,17 +35,6 @@
       "external": true
     },
     {
-      "id": "ECLD 1560",
-      "course_code": "ECLD 1560",
-      "department": "ECLD",
-      "title": "Lang Policy Issues,Race&Sch",
-      "credit_hours": "3",
-      "description": "Explores the theories, practices, and policies related to race and language, and how they impact the working, teaching, and learning of English learners in multilingual and multicultural settings.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
       "id": "ECLD 2993",
       "course_code": "ECLD 2993",
       "department": "ECLD",
@@ -54,17 +43,6 @@
       "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "ECLD 3050",
-      "course_code": "ECLD 3050",
-      "department": "ECLD",
-      "title": "SL:Fmly Schl & Cmty Collab",
-      "credit_hours": "3",
-      "description": "Provides a foundation for understanding basic concepts regarding home, school, and community collaboration. Focuses specifically on creating partnerships between diverse families, families whose children have disabilities, and community partners and schools that serve these populations. Prerequisites: <a href=\"/search/?p=ECLD%201560\" data-action=\"result-detail\" data-group=\"code:ECLD 1560\" >ECLD 1560</a>, <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>; or Instructor permission. Pre/Co-requisite: <a href=\"/search/?p=ECLD%202020\" data-action=\"result-detail\" data-group=\"code:ECLD 2020\" >ECLD 2020</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECLD 1560\"}, {\"type\": \"course\", \"code\": \"EDSP 1050\"}]}, {\"type\": \"course\", \"code\": \"ECLD 2020\"}]}",
-      "other_requirements": "Instructor permission. Pre/Co-requisite: ECLD 2020. Prereqs enforced by the system: ECLD 1560 and EDSP 1050; Open to Degree and PACE students",
       "external": false
     },
     {
@@ -87,6 +65,28 @@
       "description": "Students engage directly with community organizations or schools to provide services identified through conversations with community partners. In addition to field work, students engage in modules and course meetings to guide their learning, critical reflection, and the creation of a semester-long project in service to their host. Prerequisites: <a href=\"/search/?p=ECLD%201560\" data-action=\"result-detail\" data-group=\"code:ECLD 1560\" >ECLD 1560</a> or <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>. Cross-listed with: <a href=\"/search/?p=EDSP%203040\" data-action=\"result-detail\" data-group=\"code:EDSP 3040\" >EDSP 3040</a>.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ECLD 1560\"}, {\"type\": \"course\", \"code\": \"EDSP 1050\"}]}",
       "other_requirements": "ECLD (ECL1, ECL2) minors only or by instructor permission.",
+      "external": false
+    },
+    {
+      "id": "ECLD 1560",
+      "course_code": "ECLD 1560",
+      "department": "ECLD",
+      "title": "Lang Policy Issues,Race&Sch",
+      "credit_hours": "3",
+      "description": "Explores the theories, practices, and policies related to race and language, and how they impact the working, teaching, and learning of English learners in multilingual and multicultural settings.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ECLD 3050",
+      "course_code": "ECLD 3050",
+      "department": "ECLD",
+      "title": "SL:Fmly Schl & Cmty Collab",
+      "credit_hours": "3",
+      "description": "Provides a foundation for understanding basic concepts regarding home, school, and community collaboration. Focuses specifically on creating partnerships between diverse families, families whose children have disabilities, and community partners and schools that serve these populations. Prerequisites: <a href=\"/search/?p=ECLD%201560\" data-action=\"result-detail\" data-group=\"code:ECLD 1560\" >ECLD 1560</a>, <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>; or Instructor permission. Pre/Co-requisite: <a href=\"/search/?p=ECLD%202020\" data-action=\"result-detail\" data-group=\"code:ECLD 2020\" >ECLD 2020</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECLD 1560\"}, {\"type\": \"course\", \"code\": \"EDSP 1050\"}]}, {\"type\": \"course\", \"code\": \"ECLD 2020\"}]}",
+      "other_requirements": "Instructor permission. Pre/Co-requisite: ECLD 2020. Prereqs enforced by the system: ECLD 1560 and EDSP 1050; Open to Degree and PACE students",
       "external": false
     }
   ],

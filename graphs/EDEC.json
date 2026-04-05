@@ -2,50 +2,6 @@
   "department": "EDEC",
   "nodes": [
     {
-      "id": "EDEC 2050",
-      "course_code": "EDEC 2050",
-      "department": "EDEC",
-      "title": "Inf/Todd Curriculum Develop",
-      "credit_hours": "3",
-      "description": "Emphasizes the development of relevant, integrated, authentic, individualized, developmentally appropriate curriculum based on formative assessments and interpretations of children's work in inclusive Infant/toddler classrooms, serving children from birth-age 3. Reflective thinking is supported by readings and discourse. Prerequisites: <a href=\"/search/?p=EDEC%201010\" data-action=\"result-detail\" data-group=\"code:EDEC 1010\" >EDEC 1010</a>, <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a> or equivalent, Praxis Core Fulfilled, Early Childhood Education or Early Childhood Special Education major, or Instructor permission. Co-requisite: <a href=\"/search/?p=EDEC%202090\" data-action=\"result-detail\" data-group=\"code:EDEC 2090\" >EDEC 2090</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1010\"}, {\"type\": \"course\", \"code\": \"EDEC 1630\"}]}",
-      "other_requirements": "Praxis Core Fulfilled, Early Childhood Education or Early Childhood Special Education major, or Instructor permission. EDEC majors only;",
-      "external": false
-    },
-    {
-      "id": "EDEC 3790",
-      "course_code": "EDEC 3790",
-      "department": "EDEC",
-      "title": "K-3 Interdisciplinry Practicum",
-      "credit_hours": "6",
-      "description": "Inter-disciplinary practicum in a K-3 public school classroom, designed to provide students with opportunities to practice teaching methods in Literacy, Math, Science and Social Studies while ensuring a differentiated approach to curriculum development, instruction and assessment. Prerequisites: <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a> or equivalent; Praxis Core Requirement fulfilled; Early Childhood PreK-3 major; or Instructor permission. Co-requisites: <a href=\"/search/?p=EDEC%203560\" data-action=\"result-detail\" data-group=\"code:EDEC 3560\" >EDEC 3560</a>, <a href=\"/search/?p=EDEC%203810\" data-action=\"result-detail\" data-group=\"code:EDEC 3810\" >EDEC 3810</a>, <a href=\"/search/?p=EDEC%203820\" data-action=\"result-detail\" data-group=\"code:EDEC 3820\" >EDEC 3820</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1630\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
-      "other_requirements": "Praxis Core Requirement fulfilled; Early Childhood PreK-3 major; or Instructor permission. EDEC majors only; Placement in K-3 community schools; in-person supervisory meeting; Lab fee $40.",
-      "external": false
-    },
-    {
-      "id": "EDEC 1070",
-      "course_code": "EDEC 1070",
-      "department": "EDEC",
-      "title": "Movie Night:Criticl Childhd",
-      "credit_hours": "3",
-      "description": "Through documentary film, research and diverse stories, contemplates the lives of children around the world, the life-spaces they inhabit, and commonly held ideas about children and parenting from multi-cultural, critical and feminist perspectives; provides a greater appreciation for childhood, both as a cultural construction, and as a distinctly constructed culture.",
-      "prereq_expression": null,
-      "other_requirements": "Open to degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "EDEC 3560",
-      "course_code": "EDEC 3560",
-      "department": "EDEC",
-      "title": "K-3 Stem: Math for Meaning",
-      "credit_hours": "3",
-      "description": "Focuses on children's development of mathematical thinking as it relates to STEM and classroom practices (Kindergarten-Grade 3) that individualize mathematizing within a socio-constructivist context of learning. Integrated approach to curriculum development with an emphasis on inquiry and 'real world' investigations. Prerequisites: <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a> or equivalent; Praxis Core fulfilled; Early Childhood PreK-3 majors; or Instructor permission. Co-requisites: <a href=\"/search/?p=EDEC%203790\" data-action=\"result-detail\" data-group=\"code:EDEC 3790\" >EDEC 3790</a>, <a href=\"/search/?p=EDEC%203810\" data-action=\"result-detail\" data-group=\"code:EDEC 3810\" >EDEC 3810</a>, <a href=\"/search/?p=EDEC%203820\" data-action=\"result-detail\" data-group=\"code:EDEC 3820\" >EDEC 3820</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1630\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
-      "other_requirements": "Praxis Core fulfilled; Early Childhood PreK-3 majors; or Instructor permission.",
-      "external": false
-    },
-    {
       "id": "EDEC 3820",
       "course_code": "EDEC 3820",
       "department": "EDEC",
@@ -54,116 +10,6 @@
       "description": "Provides the foundation needed to implement an integrated approach to designing, presenting, and evaluating an English Language Arts (ELA) curriculum across content areas while providing an important understanding of the qualities of children's literature. Prerequisites: <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a>; Praxis Core Requirement fulfilled; Early Childhood PreK-3 major; or Instructor permission. Co-requisites: <a href=\"/search/?p=EDEC%203560\" data-action=\"result-detail\" data-group=\"code:EDEC 3560\" >EDEC 3560</a>, <a href=\"/search/?p=EDEC%203790\" data-action=\"result-detail\" data-group=\"code:EDEC 3790\" >EDEC 3790</a>, <a href=\"/search/?p=EDEC%203810\" data-action=\"result-detail\" data-group=\"code:EDEC 3810\" >EDEC 3810</a>.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1630\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1630\"}, {\"type\": \"other\", \"text\": \"Instructor permission\"}]}]}",
       "other_requirements": "Praxis Core Requirement fulfilled; Early Childhood PreK-3 major;",
-      "external": false
-    },
-    {
-      "id": "EDEC 2090",
-      "course_code": "EDEC 2090",
-      "department": "EDEC",
-      "title": "Infant Toddler Practicum",
-      "credit_hours": "4",
-      "description": "Practicum experience with infants and toddlers. Students spend 9 hours per week as a member of a diverse, infant/toddler classroom developing skills in observation/assessment, curriculum development and facilitation. Prerequisites: <a href=\"/search/?p=EDEC%201010\" data-action=\"result-detail\" data-group=\"code:EDEC 1010\" >EDEC 1010</a>, <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a> or equivalent, Praxis Core requirement fulfilled, or Instructor permission. Co-requisite: <a href=\"/search/?p=EDEC%202050\" data-action=\"result-detail\" data-group=\"code:EDEC 2050\" >EDEC 2050</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1010\"}, {\"type\": \"course\", \"code\": \"EDEC 1630\"}]}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
-      "other_requirements": "Praxis Core requirement fulfilled, or Instructor permission. EDEC majors only.",
-      "external": false
-    },
-    {
-      "id": "EDEC 4991",
-      "course_code": "EDEC 4991",
-      "department": "EDEC",
-      "title": "Internship: Student Teaching",
-      "credit_hours": "12",
-      "description": "On-site supervised experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team, for which academic credit is awarded. May be student teaching. May be working in an Early Childcare setting. Prerequisite: <a href=\"/search/?p=EDEC%203790\" data-action=\"result-detail\" data-group=\"code:EDEC 3790\"  class=\"notoffered\">EDEC 3790</a>. Co-requisite: <a href=\"/search/?p=EDEC%204880\" data-action=\"result-detail\" data-group=\"code:EDEC 4880\" >EDEC 4880</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"EDEC 3790\"}",
-      "other_requirements": "Praxis core requirement fulfilled; Field Placement location TBD; M-F 7:30am-4:00pm availability required; Must take concurrently with EDEC 4880",
-      "external": false
-    },
-    {
-      "id": "EDEC 1630",
-      "course_code": "EDEC 1630",
-      "department": "EDEC",
-      "title": "Child Development",
-      "credit_hours": "3",
-      "description": "The biological, psychological, and social growth and development of children and their relationships with family, peers, and institutions.",
-      "prereq_expression": null,
-      "other_requirements": "Degree students only",
-      "external": false
-    },
-    {
-      "id": "EDEC 4880",
-      "course_code": "EDEC 4880",
-      "department": "EDEC",
-      "title": "Student Teaching Seminar",
-      "credit_hours": "3",
-      "description": "Supports the <a href=\"/search/?p=EDEC%204991\" data-action=\"result-detail\" data-group=\"code:EDEC 4991\" >EDEC 4991</a> Early Childhood Student Teaching. Addresses pertinent issues in early education teaching and learning, while preparing students to construct their licensure portfolios. Prerequisites: <a href=\"/search/?p=EDEC%203790\" data-action=\"result-detail\" data-group=\"code:EDEC 3790\"  class=\"notoffered\">EDEC 3790</a>; Early Childhood PreK-3 major; Praxis Core Requirement fulfilled; GPA of 3. Co-requisite: <a href=\"/search/?p=EDEC%204991\" data-action=\"result-detail\" data-group=\"code:EDEC 4991\" >EDEC 4991</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 3790\"}, {\"type\": \"course\", \"code\": \"EDEC 2090\"}, {\"type\": \"course\", \"code\": \"EDEC 2490\"}]}",
-      "other_requirements": "Early Childhood PreK-3 major; Praxis Core Requirement fulfilled; GPA of 3. Must take concurrently with EDEC 4991",
-      "external": false
-    },
-    {
-      "id": "EDEC 2450",
-      "course_code": "EDEC 2450",
-      "department": "EDEC",
-      "title": "Preschool Curriculum Devel",
-      "credit_hours": "3",
-      "description": "Course emphasis is on developing relevant, integrated, authentic, individualized, developmentally appropriate curriculum based on observation and interpretations of children's work in PreK classrooms, serving children ages 3-5. Reflective thinking is supported by readings and discourse. Prerequisites: <a href=\"/search/?p=EDEC%201010\" data-action=\"result-detail\" data-group=\"code:EDEC 1010\"  class=\"notoffered\">EDEC 1010</a>, <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a> or equivalent, Praxis Core requirement fulfilled, or Instructor permission. Co-requisite: <a href=\"/search/?p=EDEC%202490\" data-action=\"result-detail\" data-group=\"code:EDEC 2490\" >EDEC 2490</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1010\"}, {\"type\": \"course\", \"code\": \"EDEC 1630\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1010\"}, {\"type\": \"course\", \"code\": \"EDEC 1630\"}]}]}",
-      "other_requirements": "Praxis Core requirement fulfilled, or Instructor permission. ECP and ECSP majors only or instructor permission; Must take concurrently with EDEC 2490; Praxis core requirement fulfilled",
-      "external": false
-    },
-    {
-      "id": "EDEC 2490",
-      "course_code": "EDEC 2490",
-      "department": "EDEC",
-      "title": "Preschool Practicum",
-      "credit_hours": "4",
-      "description": "Practicum experience with children ages 3-5. Students spend 9 hours per week as a member of a diverse, PreK classroom developing skills in observation/assessment, curriculum development and facilitation. Prerequisites: <a href=\"/search/?p=EDEC%201010\" data-action=\"result-detail\" data-group=\"code:EDEC 1010\"  class=\"notoffered\">EDEC 1010</a>, <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a> or equivalent, Praxis Core equivalent fulfilled, or Instructor permission. Co-requisite: <a href=\"/search/?p=EDEC%202450\" data-action=\"result-detail\" data-group=\"code:EDEC 2450\" >EDEC 2450</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1010\"}, {\"type\": \"course\", \"code\": \"EDEC 1630\"}]}, {\"type\": \"course\", \"code\": \"Praxis Core equivalent fulfilled\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
-      "other_requirements": "ECP and ECSP majors only or Instructor permission; Must take concurrently with EDEC 2450; Placement is TBD",
-      "external": false
-    },
-    {
-      "id": "EDEC 2130",
-      "course_code": "EDEC 2130",
-      "department": "EDEC",
-      "title": "Creative Arts and Movement",
-      "credit_hours": "3",
-      "description": "Introduces students to the fundamentals of art, music, and movement and emphasizes the importance of process-oriented experiences in teaching children birth through age 8. Students' learning will be grounded in educational theories, knowledge of children's development, reflective practice, and experiential learning. Prerequisites: <a href=\"/search/?p=EDEC%201010\" data-action=\"result-detail\" data-group=\"code:EDEC 1010\"  class=\"notoffered\">EDEC 1010</a>, <a href=\"/search/?p=EDEC%201070\" data-action=\"result-detail\" data-group=\"code:EDEC 1070\" >EDEC 1070</a>, or Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1010\"}, {\"type\": \"course\", \"code\": \"EDEC 1070\"}]}, {\"type\": \"course\", \"code\": \"EDEC 1010\"}]}",
-      "other_requirements": "Instructor permission. The creative arts and play are central approaches to teaching and learning with young children, ages birth through age 8. This course introduces students to the fundamentals of art, music, and movement and emphasizes the importance of process-oriented experiences. Students\u2019 learning will be grounded in educational theories, knowledge of children\u2019s development, and a commitment to reflective practice. This course is comprised of lectures, discussions, and hands-on, experiential creative arts activities that require active participation of all students. After completing this course, the student will be able to: \u2022define the creative process and the fundamentals of art, music, and movement, \u2022demonstrate knowledge of key foundational theories related to engaging young learners (birth through age 8) in creative arts activities, \u2022recognize how the creative arts can act as an avenue for celebrating the diversity of children and their families, \u2022describe how play and process-oriented experiences support development of children\u2019s creativity, \u2022identify developmental sequences of creative arts, \u2022describe how teachers can enhance children\u2019s opportunities for creative expression through their interactions, curriculum, the design of their environments, and the provision of materials and experiences that are developmentally appropriate, \u2022demonstrate a willingness and ability to engage in critically reflective practice This course utilizes a learning format and requires active participation of all students. Students are expected to come to class prepared (having read, watched, or listened to assigned material) so they can engage in active learning experiences and critical reflection. Course activities include instructor lectures, small- and whole-group discussions, engagement creative activities (using visual arts and music materials, improv, movement, and drama) facilitated by the instructor or student(s), and student presentations.",
-      "external": false
-    },
-    {
-      "id": "EDEC 3070",
-      "course_code": "EDEC 3070",
-      "department": "EDEC",
-      "title": "SL:Advocacy in Action",
-      "credit_hours": "3 to 6",
-      "description": "The capstone service-learning experience of the Childhood Studies Minor. Places students in a range of community-based organizations advancing the interests of Vermont children and their caregivers. Students will apply their knowledge in Childhood Studies as advocates and change-makers. Through observation, participation, critical reflection, action research and writing as an iterative process, students will demonstrate their impact. Prerequisites: <a href=\"/search/?p=EDEC%201070\" data-action=\"result-detail\" data-group=\"code:EDEC 1070\" >EDEC 1070</a>, Catamount Core WIL1 course, Junior standing; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1070\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"Catamount Core WIL1\"}, {\"type\": \"course\", \"code\": \"Junior standing\"}]}]}",
-      "other_requirements": "Instructor permission. Capstone course for Childhood Studies Minors; This course is designated SL (service learning), WIL2 (Writing and Info Literacy Tier 2 ) and GC2 (Global Citzns)",
-      "external": false
-    },
-    {
-      "id": "EDEC 3810",
-      "course_code": "EDEC 3810",
-      "department": "EDEC",
-      "title": "Inquiry-Based Pedagogy",
-      "credit_hours": "3",
-      "description": "Examines content/methods for designing, implementing, and evaluating inquiry-based curriculum that is authentic and meaningful to students' lives. Students will construct a shared vision for high quality instruction and explore how integrating Next Generation Science and C3 Framework for Social Studies can provide rich opportunities for engaging students in interdisciplinary, inquiry investigations. Prerequisites: <a href=\"/search/?p=EDEC%202130\" data-action=\"result-detail\" data-group=\"code:EDEC 2130\"  class=\"notoffered\">EDEC 2130</a>, <a href=\"/search/?p=EDEC%202510\" data-action=\"result-detail\" data-group=\"code:EDEC 2510\" >EDEC 2510</a>, or Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 2130\"}, {\"type\": \"course\", \"code\": \"EDEC 2510\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 2130\"}, {\"type\": \"course\", \"code\": \"EDEC 2510\"}]}]}",
-      "other_requirements": "Instructor permission",
-      "external": false
-    },
-    {
-      "id": "EDEC 1010",
-      "course_code": "EDEC 1010",
-      "department": "EDEC",
-      "title": "Intr Early Care & Education",
-      "credit_hours": "4",
-      "description": "A Civic Learning course that introduces and explores current issues, policies and practices in early care and education, which impact families and young children of diverse backgrounds. Emphasis on self-study, anti-bias frameworks, inclusion, and advocacy as well as civic engagement and cross-cultural communication.",
-      "prereq_expression": null,
-      "other_requirements": null,
       "external": false
     },
     {
@@ -178,6 +24,28 @@
       "external": false
     },
     {
+      "id": "EDEC 2050",
+      "course_code": "EDEC 2050",
+      "department": "EDEC",
+      "title": "Inf/Todd Curriculum Develop",
+      "credit_hours": "3",
+      "description": "Emphasizes the development of relevant, integrated, authentic, individualized, developmentally appropriate curriculum based on formative assessments and interpretations of children's work in inclusive Infant/toddler classrooms, serving children from birth-age 3. Reflective thinking is supported by readings and discourse. Prerequisites: <a href=\"/search/?p=EDEC%201010\" data-action=\"result-detail\" data-group=\"code:EDEC 1010\" >EDEC 1010</a>, <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a> or equivalent, Praxis Core Fulfilled, Early Childhood Education or Early Childhood Special Education major, or Instructor permission. Co-requisite: <a href=\"/search/?p=EDEC%202090\" data-action=\"result-detail\" data-group=\"code:EDEC 2090\" >EDEC 2090</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1010\"}, {\"type\": \"course\", \"code\": \"EDEC 1630\"}]}",
+      "other_requirements": "Praxis Core Fulfilled, Early Childhood Education or Early Childhood Special Education major, or Instructor permission. EDEC majors only;",
+      "external": false
+    },
+    {
+      "id": "EDEC 4991",
+      "course_code": "EDEC 4991",
+      "department": "EDEC",
+      "title": "Internship: Student Teaching",
+      "credit_hours": "12",
+      "description": "On-site supervised experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team, for which academic credit is awarded. May be student teaching. May be working in an Early Childcare setting. Prerequisite: <a href=\"/search/?p=EDEC%203790\" data-action=\"result-detail\" data-group=\"code:EDEC 3790\"  class=\"notoffered\">EDEC 3790</a>. Co-requisite: <a href=\"/search/?p=EDEC%204880\" data-action=\"result-detail\" data-group=\"code:EDEC 4880\" >EDEC 4880</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"EDEC 3790\"}",
+      "other_requirements": "Praxis core requirement fulfilled; Field Placement location TBD; M-F 7:30am-4:00pm availability required; Must take concurrently with EDEC 4880",
+      "external": false
+    },
+    {
       "id": "EDEC 3994",
       "course_code": "EDEC 3994",
       "department": "EDEC",
@@ -189,6 +57,127 @@
       "external": false
     },
     {
+      "id": "EDEC 3810",
+      "course_code": "EDEC 3810",
+      "department": "EDEC",
+      "title": "Inquiry-Based Pedagogy",
+      "credit_hours": "3",
+      "description": "Examines content/methods for designing, implementing, and evaluating inquiry-based curriculum that is authentic and meaningful to students' lives. Students will construct a shared vision for high quality instruction and explore how integrating Next Generation Science and C3 Framework for Social Studies can provide rich opportunities for engaging students in interdisciplinary, inquiry investigations. Prerequisites: <a href=\"/search/?p=EDEC%202130\" data-action=\"result-detail\" data-group=\"code:EDEC 2130\"  class=\"notoffered\">EDEC 2130</a>, <a href=\"/search/?p=EDEC%202510\" data-action=\"result-detail\" data-group=\"code:EDEC 2510\" >EDEC 2510</a>, or Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 2130\"}, {\"type\": \"course\", \"code\": \"EDEC 2510\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 2130\"}, {\"type\": \"course\", \"code\": \"EDEC 2510\"}]}]}",
+      "other_requirements": "Instructor permission",
+      "external": false
+    },
+    {
+      "id": "EDEC 1630",
+      "course_code": "EDEC 1630",
+      "department": "EDEC",
+      "title": "Child Development",
+      "credit_hours": "3",
+      "description": "The biological, psychological, and social growth and development of children and their relationships with family, peers, and institutions.",
+      "prereq_expression": null,
+      "other_requirements": "Degree students only",
+      "external": false
+    },
+    {
+      "id": "EDEC 3070",
+      "course_code": "EDEC 3070",
+      "department": "EDEC",
+      "title": "SL:Advocacy in Action",
+      "credit_hours": "3 to 6",
+      "description": "The capstone service-learning experience of the Childhood Studies Minor. Places students in a range of community-based organizations advancing the interests of Vermont children and their caregivers. Students will apply their knowledge in Childhood Studies as advocates and change-makers. Through observation, participation, critical reflection, action research and writing as an iterative process, students will demonstrate their impact. Prerequisites: <a href=\"/search/?p=EDEC%201070\" data-action=\"result-detail\" data-group=\"code:EDEC 1070\" >EDEC 1070</a>, Catamount Core WIL1 course, Junior standing; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1070\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"Catamount Core WIL1\"}, {\"type\": \"course\", \"code\": \"Junior standing\"}]}]}",
+      "other_requirements": "Instructor permission. Capstone course for Childhood Studies Minors; This course is designated SL (service learning), WIL2 (Writing and Info Literacy Tier 2 ) and GC2 (Global Citzns)",
+      "external": false
+    },
+    {
+      "id": "EDEC 4880",
+      "course_code": "EDEC 4880",
+      "department": "EDEC",
+      "title": "Student Teaching Seminar",
+      "credit_hours": "3",
+      "description": "Supports the <a href=\"/search/?p=EDEC%204991\" data-action=\"result-detail\" data-group=\"code:EDEC 4991\" >EDEC 4991</a> Early Childhood Student Teaching. Addresses pertinent issues in early education teaching and learning, while preparing students to construct their licensure portfolios. Prerequisites: <a href=\"/search/?p=EDEC%203790\" data-action=\"result-detail\" data-group=\"code:EDEC 3790\"  class=\"notoffered\">EDEC 3790</a>; Early Childhood PreK-3 major; Praxis Core Requirement fulfilled; GPA of 3. Co-requisite: <a href=\"/search/?p=EDEC%204991\" data-action=\"result-detail\" data-group=\"code:EDEC 4991\" >EDEC 4991</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 3790\"}, {\"type\": \"course\", \"code\": \"EDEC 2090\"}, {\"type\": \"course\", \"code\": \"EDEC 2490\"}]}",
+      "other_requirements": "Early Childhood PreK-3 major; Praxis Core Requirement fulfilled; GPA of 3. Must take concurrently with EDEC 4991",
+      "external": false
+    },
+    {
+      "id": "EDEC 1010",
+      "course_code": "EDEC 1010",
+      "department": "EDEC",
+      "title": "Intr Early Care & Education",
+      "credit_hours": "4",
+      "description": "A Civic Learning course that introduces and explores current issues, policies and practices in early care and education, which impact families and young children of diverse backgrounds. Emphasis on self-study, anti-bias frameworks, inclusion, and advocacy as well as civic engagement and cross-cultural communication.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "EDEC 3560",
+      "course_code": "EDEC 3560",
+      "department": "EDEC",
+      "title": "K-3 Stem: Math for Meaning",
+      "credit_hours": "3",
+      "description": "Focuses on children's development of mathematical thinking as it relates to STEM and classroom practices (Kindergarten-Grade 3) that individualize mathematizing within a socio-constructivist context of learning. Integrated approach to curriculum development with an emphasis on inquiry and 'real world' investigations. Prerequisites: <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a> or equivalent; Praxis Core fulfilled; Early Childhood PreK-3 majors; or Instructor permission. Co-requisites: <a href=\"/search/?p=EDEC%203790\" data-action=\"result-detail\" data-group=\"code:EDEC 3790\" >EDEC 3790</a>, <a href=\"/search/?p=EDEC%203810\" data-action=\"result-detail\" data-group=\"code:EDEC 3810\" >EDEC 3810</a>, <a href=\"/search/?p=EDEC%203820\" data-action=\"result-detail\" data-group=\"code:EDEC 3820\" >EDEC 3820</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1630\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
+      "other_requirements": "Praxis Core fulfilled; Early Childhood PreK-3 majors; or Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "EDEC 1070",
+      "course_code": "EDEC 1070",
+      "department": "EDEC",
+      "title": "Movie Night:Criticl Childhd",
+      "credit_hours": "3",
+      "description": "Through documentary film, research and diverse stories, contemplates the lives of children around the world, the life-spaces they inhabit, and commonly held ideas about children and parenting from multi-cultural, critical and feminist perspectives; provides a greater appreciation for childhood, both as a cultural construction, and as a distinctly constructed culture.",
+      "prereq_expression": null,
+      "other_requirements": "Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "EDEC 2450",
+      "course_code": "EDEC 2450",
+      "department": "EDEC",
+      "title": "Preschool Curriculum Devel",
+      "credit_hours": "3",
+      "description": "Course emphasis is on developing relevant, integrated, authentic, individualized, developmentally appropriate curriculum based on observation and interpretations of children's work in PreK classrooms, serving children ages 3-5. Reflective thinking is supported by readings and discourse. Prerequisites: <a href=\"/search/?p=EDEC%201010\" data-action=\"result-detail\" data-group=\"code:EDEC 1010\"  class=\"notoffered\">EDEC 1010</a>, <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a> or equivalent, Praxis Core requirement fulfilled, or Instructor permission. Co-requisite: <a href=\"/search/?p=EDEC%202490\" data-action=\"result-detail\" data-group=\"code:EDEC 2490\" >EDEC 2490</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1010\"}, {\"type\": \"course\", \"code\": \"EDEC 1630\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1010\"}, {\"type\": \"course\", \"code\": \"EDEC 1630\"}]}]}",
+      "other_requirements": "Praxis Core requirement fulfilled, or Instructor permission. ECP and ECSP majors only or instructor permission; Must take concurrently with EDEC 2490; Praxis core requirement fulfilled",
+      "external": false
+    },
+    {
+      "id": "EDEC 3790",
+      "course_code": "EDEC 3790",
+      "department": "EDEC",
+      "title": "K-3 Interdisciplinry Practicum",
+      "credit_hours": "6",
+      "description": "Inter-disciplinary practicum in a K-3 public school classroom, designed to provide students with opportunities to practice teaching methods in Literacy, Math, Science and Social Studies while ensuring a differentiated approach to curriculum development, instruction and assessment. Prerequisites: <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a> or equivalent; Praxis Core Requirement fulfilled; Early Childhood PreK-3 major; or Instructor permission. Co-requisites: <a href=\"/search/?p=EDEC%203560\" data-action=\"result-detail\" data-group=\"code:EDEC 3560\" >EDEC 3560</a>, <a href=\"/search/?p=EDEC%203810\" data-action=\"result-detail\" data-group=\"code:EDEC 3810\" >EDEC 3810</a>, <a href=\"/search/?p=EDEC%203820\" data-action=\"result-detail\" data-group=\"code:EDEC 3820\" >EDEC 3820</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1630\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
+      "other_requirements": "Praxis Core Requirement fulfilled; Early Childhood PreK-3 major; or Instructor permission. EDEC majors only; Placement in K-3 community schools; in-person supervisory meeting; Lab fee $40.",
+      "external": false
+    },
+    {
+      "id": "EDEC 2130",
+      "course_code": "EDEC 2130",
+      "department": "EDEC",
+      "title": "Creative Arts and Movement",
+      "credit_hours": "3",
+      "description": "Introduces students to the fundamentals of art, music, and movement and emphasizes the importance of process-oriented experiences in teaching children birth through age 8. Students' learning will be grounded in educational theories, knowledge of children's development, reflective practice, and experiential learning. Prerequisites: <a href=\"/search/?p=EDEC%201010\" data-action=\"result-detail\" data-group=\"code:EDEC 1010\"  class=\"notoffered\">EDEC 1010</a>, <a href=\"/search/?p=EDEC%201070\" data-action=\"result-detail\" data-group=\"code:EDEC 1070\" >EDEC 1070</a>, or Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1010\"}, {\"type\": \"course\", \"code\": \"EDEC 1070\"}]}, {\"type\": \"course\", \"code\": \"EDEC 1010\"}]}",
+      "other_requirements": "Instructor permission. The creative arts and play are central approaches to teaching and learning with young children, ages birth through age 8. This course introduces students to the fundamentals of art, music, and movement and emphasizes the importance of process-oriented experiences. Students\u2019 learning will be grounded in educational theories, knowledge of children\u2019s development, and a commitment to reflective practice. This course is comprised of lectures, discussions, and hands-on, experiential creative arts activities that require active participation of all students. After completing this course, the student will be able to: \u2022define the creative process and the fundamentals of art, music, and movement, \u2022demonstrate knowledge of key foundational theories related to engaging young learners (birth through age 8) in creative arts activities, \u2022recognize how the creative arts can act as an avenue for celebrating the diversity of children and their families, \u2022describe how play and process-oriented experiences support development of children\u2019s creativity, \u2022identify developmental sequences of creative arts, \u2022describe how teachers can enhance children\u2019s opportunities for creative expression through their interactions, curriculum, the design of their environments, and the provision of materials and experiences that are developmentally appropriate, \u2022demonstrate a willingness and ability to engage in critically reflective practice This course utilizes a learning format and requires active participation of all students. Students are expected to come to class prepared (having read, watched, or listened to assigned material) so they can engage in active learning experiences and critical reflection. Course activities include instructor lectures, small- and whole-group discussions, engagement creative activities (using visual arts and music materials, improv, movement, and drama) facilitated by the instructor or student(s), and student presentations.",
+      "external": false
+    },
+    {
+      "id": "EDEC 2090",
+      "course_code": "EDEC 2090",
+      "department": "EDEC",
+      "title": "Infant Toddler Practicum",
+      "credit_hours": "4",
+      "description": "Practicum experience with infants and toddlers. Students spend 9 hours per week as a member of a diverse, infant/toddler classroom developing skills in observation/assessment, curriculum development and facilitation. Prerequisites: <a href=\"/search/?p=EDEC%201010\" data-action=\"result-detail\" data-group=\"code:EDEC 1010\" >EDEC 1010</a>, <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a> or equivalent, Praxis Core requirement fulfilled, or Instructor permission. Co-requisite: <a href=\"/search/?p=EDEC%202050\" data-action=\"result-detail\" data-group=\"code:EDEC 2050\" >EDEC 2050</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1010\"}, {\"type\": \"course\", \"code\": \"EDEC 1630\"}]}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
+      "other_requirements": "Praxis Core requirement fulfilled, or Instructor permission. EDEC majors only.",
+      "external": false
+    },
+    {
       "id": "EDEC 2995",
       "course_code": "EDEC 2995",
       "department": "EDEC",
@@ -197,6 +186,17 @@
       "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": "By instructor permission only.",
+      "external": false
+    },
+    {
+      "id": "EDEC 2490",
+      "course_code": "EDEC 2490",
+      "department": "EDEC",
+      "title": "Preschool Practicum",
+      "credit_hours": "4",
+      "description": "Practicum experience with children ages 3-5. Students spend 9 hours per week as a member of a diverse, PreK classroom developing skills in observation/assessment, curriculum development and facilitation. Prerequisites: <a href=\"/search/?p=EDEC%201010\" data-action=\"result-detail\" data-group=\"code:EDEC 1010\"  class=\"notoffered\">EDEC 1010</a>, <a href=\"/search/?p=EDEC%201630\" data-action=\"result-detail\" data-group=\"code:EDEC 1630\" >EDEC 1630</a> or equivalent, Praxis Core equivalent fulfilled, or Instructor permission. Co-requisite: <a href=\"/search/?p=EDEC%202450\" data-action=\"result-detail\" data-group=\"code:EDEC 2450\" >EDEC 2450</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 1010\"}, {\"type\": \"course\", \"code\": \"EDEC 1630\"}]}, {\"type\": \"course\", \"code\": \"Praxis Core equivalent fulfilled\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
+      "other_requirements": "ECP and ECSP majors only or Instructor permission; Must take concurrently with EDEC 2450; Placement is TBD",
       "external": false
     }
   ],

@@ -2,34 +2,12 @@
   "department": "IHS",
   "nodes": [
     {
-      "id": "IHS 6993",
-      "course_code": "IHS 6993",
+      "id": "IHS 7010",
+      "course_code": "IHS 7010",
       "department": "IHS",
-      "title": "Independent Study",
-      "credit_hours": "1 to 18",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "IHS 7991",
-      "course_code": "IHS 7991",
-      "department": "IHS",
-      "title": "Internship",
-      "credit_hours": "1 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "IHS 6994",
-      "course_code": "IHS 6994",
-      "department": "IHS",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1 to 3",
-      "description": "On-site teaching experience combined with a structured teaching learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at program discretion.",
+      "title": "Topics & Measurement in IHS",
+      "credit_hours": "3",
+      "description": "Fundamental interprofessional health sciences (IHS) concepts, principles, equipment, and tools for conduction quantitative research in the areas of human movement, communication, and physical activity.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -46,23 +24,23 @@
       "external": false
     },
     {
-      "id": "IHS 7995",
-      "course_code": "IHS 7995",
+      "id": "IHS 6991",
+      "course_code": "IHS 6991",
       "department": "IHS",
-      "title": "Graduate Independent Research",
+      "title": "Internship",
       "credit_hours": "1 to 18",
-      "description": "Graduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
     },
     {
-      "id": "IHS 7010",
-      "course_code": "IHS 7010",
+      "id": "IHS 6993",
+      "course_code": "IHS 6993",
       "department": "IHS",
-      "title": "Topics & Measurement in IHS",
-      "credit_hours": "3",
-      "description": "Fundamental interprofessional health sciences (IHS) concepts, principles, equipment, and tools for conduction quantitative research in the areas of human movement, communication, and physical activity.",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -79,8 +57,30 @@
       "external": false
     },
     {
-      "id": "IHS 6991",
-      "course_code": "IHS 6991",
+      "id": "IHS 7995",
+      "course_code": "IHS 7995",
+      "department": "IHS",
+      "title": "Graduate Independent Research",
+      "credit_hours": "1 to 18",
+      "description": "Graduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "IHS 6994",
+      "course_code": "IHS 6994",
+      "department": "IHS",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "On-site teaching experience combined with a structured teaching learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at program discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "IHS 7991",
+      "course_code": "IHS 7991",
       "department": "IHS",
       "title": "Internship",
       "credit_hours": "1 to 18",

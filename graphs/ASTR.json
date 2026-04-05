@@ -2,6 +2,17 @@
   "department": "ASTR",
   "nodes": [
     {
+      "id": "ASTR 1405",
+      "course_code": "ASTR 1405",
+      "department": "ASTR",
+      "title": "Exploring the Cosmos",
+      "credit_hours": "3",
+      "description": "Introduction to the basic concepts of astronomy as well as the history of their development. No laboratory. Credit not awarded for both ASTR 1405 and <a href=\"/search/?p=ASTR%201400\" data-action=\"result-detail\" data-group=\"code:ASTR 1400\" >ASTR 1400</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
       "id": "ASTR 1990",
       "course_code": "ASTR 1990",
       "department": "ASTR",
@@ -10,28 +21,6 @@
       "description": "See Schedule of Courses for specific titles.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASTR 005\"}, {\"type\": \"course\", \"code\": \"ASTR 1405\"}]}",
       "other_requirements": "Instructor permission only. For students who have prior credit for ASTR 005 or 1405; all other students should register for ASTR 1400(w/lab) or 1405(no lab)",
-      "external": false
-    },
-    {
-      "id": "ASTR 2100",
-      "course_code": "ASTR 2100",
-      "department": "ASTR",
-      "title": "The Big Bang",
-      "credit_hours": "3",
-      "description": "Ancient cosmologies, beginning of time, origin of matter, cosmic background radiation, antimatter and dark matter, the expanding universe and origin of structure. Prerequisites: <a href=\"/search/?p=ASTR%201400\" data-action=\"result-detail\" data-group=\"code:ASTR 1400\" >ASTR 1400</a> or <a href=\"/search/?p=ASTR%201405\" data-action=\"result-detail\" data-group=\"code:ASTR 1405\" >ASTR 1405</a>; <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASTR 1400\"}, {\"type\": \"course\", \"code\": \"ASTR 1405\"}]}, {\"type\": \"course\", \"code\": \"MATH 1034\"}]}",
-      "other_requirements": "instructor permission",
-      "external": false
-    },
-    {
-      "id": "ASTR 1400",
-      "course_code": "ASTR 1400",
-      "department": "ASTR",
-      "title": "Exploring the Cosmos w/lab",
-      "credit_hours": "4",
-      "description": "Introduction to the basic concepts of astronomy as well as the history of their development. Includes a laboratory component. Credit not awarded for both ASTR 1400 and <a href=\"/search/?p=ASTR%201405\" data-action=\"result-detail\" data-group=\"code:ASTR 1405\" >ASTR 1405</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
       "external": false
     },
     {
@@ -57,28 +46,6 @@
       "external": true
     },
     {
-      "id": "ASTR 2120",
-      "course_code": "ASTR 2120",
-      "department": "ASTR",
-      "title": "Spacecraft Astronomy",
-      "credit_hours": "3",
-      "description": "Survey of recent astronomical satellites such as Hubble, Chandra and Fermi LAT; their design, orbital characteristics, and findings. Prerequisites: <a href=\"/search/?p=ASTR%201400\" data-action=\"result-detail\" data-group=\"code:ASTR 1400\" >ASTR 1400</a> or <a href=\"/search/?p=ASTR%201405\" data-action=\"result-detail\" data-group=\"code:ASTR 1405\" >ASTR 1405</a>; <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASTR 1400\"}, {\"type\": \"course\", \"code\": \"ASTR 1405\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1034\"}, {\"type\": \"course\", \"code\": \"MATH 1034\"}]}]}",
-      "other_requirements": "equivalent",
-      "external": false
-    },
-    {
-      "id": "MATH 1242",
-      "course_code": "MATH 1242",
-      "department": "MATH",
-      "title": "Transitional Calculus",
-      "credit_hours": "5",
-      "description": "Intended to make the transition from <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> to <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>. Topics are similar to <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> but recognizing different backgrounds of students in <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> versus <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit will not be given for both <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> and MATH 1242. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: B or better in <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, or B or better in <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"other_requirement\", \"description\": \"B or better\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"other_requirement\", \"description\": \"B or better\"}]}]}",
-      "other_requirements": "Open to Degree and PACE students",
-      "external": true
-    },
-    {
       "id": "PHYS 1500",
       "course_code": "PHYS 1500",
       "department": "PHYS",
@@ -101,14 +68,14 @@
       "external": true
     },
     {
-      "id": "ASTR 1405",
-      "course_code": "ASTR 1405",
+      "id": "ASTR 2100",
+      "course_code": "ASTR 2100",
       "department": "ASTR",
-      "title": "Exploring the Cosmos",
+      "title": "The Big Bang",
       "credit_hours": "3",
-      "description": "Introduction to the basic concepts of astronomy as well as the history of their development. No laboratory. Credit not awarded for both ASTR 1405 and <a href=\"/search/?p=ASTR%201400\" data-action=\"result-detail\" data-group=\"code:ASTR 1400\" >ASTR 1400</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "description": "Ancient cosmologies, beginning of time, origin of matter, cosmic background radiation, antimatter and dark matter, the expanding universe and origin of structure. Prerequisites: <a href=\"/search/?p=ASTR%201400\" data-action=\"result-detail\" data-group=\"code:ASTR 1400\" >ASTR 1400</a> or <a href=\"/search/?p=ASTR%201405\" data-action=\"result-detail\" data-group=\"code:ASTR 1405\" >ASTR 1405</a>; <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASTR 1400\"}, {\"type\": \"course\", \"code\": \"ASTR 1405\"}]}, {\"type\": \"course\", \"code\": \"MATH 1034\"}]}",
+      "other_requirements": "instructor permission",
       "external": false
     },
     {
@@ -132,6 +99,39 @@
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
       "other_requirements": "Open to Degree and PACE students",
       "external": true
+    },
+    {
+      "id": "ASTR 2120",
+      "course_code": "ASTR 2120",
+      "department": "ASTR",
+      "title": "Spacecraft Astronomy",
+      "credit_hours": "3",
+      "description": "Survey of recent astronomical satellites such as Hubble, Chandra and Fermi LAT; their design, orbital characteristics, and findings. Prerequisites: <a href=\"/search/?p=ASTR%201400\" data-action=\"result-detail\" data-group=\"code:ASTR 1400\" >ASTR 1400</a> or <a href=\"/search/?p=ASTR%201405\" data-action=\"result-detail\" data-group=\"code:ASTR 1405\" >ASTR 1405</a>; <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASTR 1400\"}, {\"type\": \"course\", \"code\": \"ASTR 1405\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1034\"}, {\"type\": \"course\", \"code\": \"MATH 1034\"}]}]}",
+      "other_requirements": "equivalent",
+      "external": false
+    },
+    {
+      "id": "MATH 1242",
+      "course_code": "MATH 1242",
+      "department": "MATH",
+      "title": "Transitional Calculus",
+      "credit_hours": "5",
+      "description": "Intended to make the transition from <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> to <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a>. Topics are similar to <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> but recognizing different backgrounds of students in <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> versus <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit will not be given for both <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> and MATH 1242. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: B or better in <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, or B or better in <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"other_requirement\", \"description\": \"B or better\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"other_requirement\", \"description\": \"B or better\"}]}]}",
+      "other_requirements": "Open to Degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "ASTR 1400",
+      "course_code": "ASTR 1400",
+      "department": "ASTR",
+      "title": "Exploring the Cosmos w/lab",
+      "credit_hours": "4",
+      "description": "Introduction to the basic concepts of astronomy as well as the history of their development. Includes a laboratory component. Credit not awarded for both ASTR 1400 and <a href=\"/search/?p=ASTR%201405\" data-action=\"result-detail\" data-group=\"code:ASTR 1405\" >ASTR 1405</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
     }
   ],
   "edges": [

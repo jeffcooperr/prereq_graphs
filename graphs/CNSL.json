@@ -2,47 +2,25 @@
   "department": "CNSL",
   "nodes": [
     {
-      "id": "CNSL 6993",
-      "course_code": "CNSL 6993",
+      "id": "CNSL 6740",
+      "course_code": "CNSL 6740",
       "department": "CNSL",
-      "title": "Independent Study",
+      "title": "Counseling Theory & Practice",
       "credit_hours": "3",
-      "description": "Individual work on a research problem selected by the student in consultation with a staff member. Prerequisite: Twelve hours in education and related areas; endorsement by a sponsoring faculty member.",
+      "description": "Theoretical and practical approach to understanding the counseling process. Refinement of personal philosophy, theory of counseling, and implementation in practice.",
       "prereq_expression": null,
-      "other_requirements": "Twelve hours in education and related areas; endorsement by a sponsoring faculty member. Instructor Permission",
+      "other_requirements": "Graduate CNSL majors only, or permission; email: cslgprog@uvm.edu for permission for non-majors",
       "external": false
     },
     {
-      "id": "CNSL 6930",
-      "course_code": "CNSL 6930",
+      "id": "CNSL 6750",
+      "course_code": "CNSL 6750",
       "department": "CNSL",
-      "title": "Adv Group:Theory and Practice",
+      "title": "Foundational Counseling Skills",
       "credit_hours": "3",
-      "description": "Group leadership skills are developed, practiced, and refined through in-class and laboratory experiences that focus on live group supervision, theory, feedback exchange, and ethical issues. Prerequisites: <a href=\"/search/?p=CNSL%206630\" data-action=\"result-detail\" data-group=\"code:CNSL 6630\"  class=\"notoffered\">CNSL 6630</a> or <a href=\"/search/?p=CNSL%206750\" data-action=\"result-detail\" data-group=\"code:CNSL 6750\" >CNSL 6750</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CNSL 6630\"}, {\"type\": \"course\", \"code\": \"CNSL 6750\"}]}",
-      "other_requirements": "Graduate CNSL majors only; Prereqs enforced by the system: Instructor Santiago; Take as pre-req or concurrent with CNSL 6991 internship",
-      "external": false
-    },
-    {
-      "id": "CNSL 6400",
-      "course_code": "CNSL 6400",
-      "department": "CNSL",
-      "title": "Professional School Counseling",
-      "credit_hours": "3",
-      "description": "Provides an exploration of the school counseling profession through the lens of a school counseling framework model. Topics include distinct roles and responsibilities of the Professional School Counselor as leader, advocate, collaborator, and consultant through direct and indirect service. This course is required for the School Counseling and Dual Option tracks of the Counseling program. Prerequisite: Counseling Graduate student or Instructor permission.",
-      "prereq_expression": null,
-      "other_requirements": "Counseling Graduate student or Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "CNSL 7210",
-      "course_code": "CNSL 7210",
-      "department": "CNSL",
-      "title": "Clinical Sup Theory & Practice",
-      "credit_hours": "3",
-      "description": "Examines various modalities, theories, and approaches to clinical supervision, including understanding contemporary literature and research supporting evidence based clinical supervision practices. Explores the impact of socio-cultural factors within the supervisory relationship, the supervision triad (counselor/client/supervisor), and how attention to cultural implications can enhance the supervisory experience and outcomes.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "description": "Students learn and practice foundational counseling skills and techniques. Practice sessions are supervised by course instructor. Prerequisite: Counseling Graduate student. Pre/Co-requisite: <a href=\"/search/?p=CNSL%206740\" data-action=\"result-detail\" data-group=\"code:CNSL 6740\" >CNSL 6740</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"CNSL 6740\"}",
+      "other_requirements": "Counseling Graduate student. Graduate CNSL majors only",
       "external": false
     },
     {
@@ -57,6 +35,28 @@
       "external": false
     },
     {
+      "id": "CNSL 6770",
+      "course_code": "CNSL 6770",
+      "department": "CNSL",
+      "title": "Diversity & Intersectionality",
+      "credit_hours": "3",
+      "description": "Designed to assist students in recognizing and acknowledging diversity in society, and developing the knowledge and skills to recognize, interrupt and redress inequity within their spheres of influence. Prerequisite: Counseling Graduate student or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Counseling Graduate student or Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "CNSL 6880",
+      "course_code": "CNSL 6880",
+      "department": "CNSL",
+      "title": "Family and Couples Counseling",
+      "credit_hours": "3",
+      "description": "Theory and process of counseling with families and couples including family theory and family therapy orientations and intervention skills. Includes practice of counseling interventions. Prerequisites: <a href=\"/search/?p=CNSL%206750\" data-action=\"result-detail\" data-group=\"code:CNSL 6750\" >CNSL 6750</a>, <a href=\"/search/?p=CNSL%206630\" data-action=\"result-detail\" data-group=\"code:CNSL 6630\"  class=\"notoffered\">CNSL 6630</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CNSL 6750\"}, {\"type\": \"course\", \"code\": \"CNSL 6630\"}]}",
+      "other_requirements": "Graduate CNSL majors only; Prereqs enforced by the system: or permission; for permission for non-majors email: cslgprog@uvm.edu",
+      "external": false
+    },
+    {
       "id": "CNSL 6630",
       "course_code": "CNSL 6630",
       "department": "CNSL",
@@ -68,6 +68,105 @@
       "external": false
     },
     {
+      "id": "CNSL 7020",
+      "course_code": "CNSL 7020",
+      "department": "CNSL",
+      "title": "Professional Writing",
+      "credit_hours": "1",
+      "description": "Provides an overview of different types of professional writing, including peer and non-peer reviewed publications, grant submissions (internal university and external grants), and conference proposals. Designed to de-mystify these processes and provide opportunities for students to practice these skills and further their professional repertoire.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CNSL 6990",
+      "course_code": "CNSL 6990",
+      "department": "CNSL",
+      "title": "Restorative Trauma Pract Child",
+      "credit_hours": "3",
+      "description": "Special issues in counseling, administration and planning, social work or higher education not appropriate to content of existing courses. Courses reflect the social services orientation of the Department of Integrated Professional Studies.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HDF 1600",
+      "course_code": "HDF 1600",
+      "department": "HDF",
+      "title": "Family Context of Development",
+      "credit_hours": "3",
+      "description": "Developmental ecological approach to analysis of the family as a system in which individuals develop.",
+      "prereq_expression": null,
+      "other_requirements": "Degree students only; PACE students register for HDF 1600 ZRA; HDF/ECP students register for HDF 1600 B; Colocated with HDF 1600 B and ZRA",
+      "external": true
+    },
+    {
+      "id": "CNSL 6760",
+      "course_code": "CNSL 6760",
+      "department": "CNSL",
+      "title": "Addictions Counseling",
+      "credit_hours": "3",
+      "description": "Development and culturally responsive treatment of addictions, e.g., Motivational Interviewing, family systems, Cognitive Behavioral Therapy (CBT) techniques, recovery maintenance, and an integrative approach to treatment. Prerequisite: Counseling Graduate student or Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CNSL 6200\"}, {\"type\": \"course\", \"code\": \"CNSL 6500\"}, {\"type\": \"course\", \"code\": \"CNSL 6740\"}, {\"type\": \"course\", \"code\": \"CNSL 6750\"}, {\"type\": \"course\", \"code\": \"CNSL 6920\"}]}",
+      "other_requirements": "Counseling Graduate student or Instructor permission. CNSL Majors.",
+      "external": false
+    },
+    {
+      "id": "CNSL 6070",
+      "course_code": "CNSL 6070",
+      "department": "CNSL",
+      "title": "Counselors as Educators",
+      "credit_hours": "3",
+      "description": "Provides students with knowledge and skills necessary for successful teaching. Students will demonstrate proficiency in 1) developing inclusive counseling curriculum units and lessons plans to support the social, emotional, academic, and career-readiness of K-12 youth, 2) individualizing instruction to meet cultural differences and individual needs, 3) evaluating curricular outcomes, and 4) managing  classroom dynamics. Learning will be facilitated through assigned readings, lectures, discussions, demonstrations, and practice of skill, and requires a pre-practicum  experience.",
+      "prereq_expression": null,
+      "other_requirements": "requires a pre-practicum experience. PACE students welcome with instructor permission",
+      "external": false
+    },
+    {
+      "id": "CNSL 6993",
+      "course_code": "CNSL 6993",
+      "department": "CNSL",
+      "title": "Independent Study",
+      "credit_hours": "3",
+      "description": "Individual work on a research problem selected by the student in consultation with a staff member. Prerequisite: Twelve hours in education and related areas; endorsement by a sponsoring faculty member.",
+      "prereq_expression": null,
+      "other_requirements": "Twelve hours in education and related areas; endorsement by a sponsoring faculty member. Instructor Permission",
+      "external": false
+    },
+    {
+      "id": "CNSL 6500",
+      "course_code": "CNSL 6500",
+      "department": "CNSL",
+      "title": "Prof Issues in Counseling",
+      "credit_hours": "3",
+      "description": "A seminar in which professional, ethical, and legal issues facing counselors in schools and mental health settings are addressed through reading, research, presentation, and discussion.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate CNSL majors only, or permission; email: cslgprog@uvm.edu for permission for non-majors",
+      "external": false
+    },
+    {
+      "id": "CNSL 6200",
+      "course_code": "CNSL 6200",
+      "department": "CNSL",
+      "title": "Dev. Perspectives in CNSLNG",
+      "credit_hours": "3",
+      "description": "Survey of major theories of human development and application of theoretical concepts to self and others from a counseling perspective. This course is required for Clinical Mental Health Counseling and School Counseling students. Prerequisite: Counseling Graduate student or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Counseling Graduate student or Instructor permission. Graduate CNSL majors only, or permission; email: cslgprog@uvm.edu for permission for non-majors. Students must display graduate level writing skills in order to be successful in this class.",
+      "external": false
+    },
+    {
+      "id": "CNSL 6930",
+      "course_code": "CNSL 6930",
+      "department": "CNSL",
+      "title": "Adv Group:Theory and Practice",
+      "credit_hours": "3",
+      "description": "Group leadership skills are developed, practiced, and refined through in-class and laboratory experiences that focus on live group supervision, theory, feedback exchange, and ethical issues. Prerequisites: <a href=\"/search/?p=CNSL%206630\" data-action=\"result-detail\" data-group=\"code:CNSL 6630\"  class=\"notoffered\">CNSL 6630</a> or <a href=\"/search/?p=CNSL%206750\" data-action=\"result-detail\" data-group=\"code:CNSL 6750\" >CNSL 6750</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CNSL 6630\"}, {\"type\": \"course\", \"code\": \"CNSL 6750\"}]}",
+      "other_requirements": "Graduate CNSL majors only; Prereqs enforced by the system: Instructor Santiago; Take as pre-req or concurrent with CNSL 6991 internship",
+      "external": false
+    },
+    {
       "id": "CNSL 6810",
       "course_code": "CNSL 6810",
       "department": "CNSL",
@@ -76,6 +175,94 @@
       "description": "An exploration of the theories, assessment instruments, counseling techniques, and issues most relevant in counseling for career and lifestyle development. Prerequisites: <a href=\"/search/?p=CNSL%206750\" data-action=\"result-detail\" data-group=\"code:CNSL 6750\"  class=\"notoffered\">CNSL 6750</a> or <a href=\"/search/?p=CNSL%206630\" data-action=\"result-detail\" data-group=\"code:CNSL 6630\" >CNSL 6630</a>.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CNSL 6750\"}, {\"type\": \"course\", \"code\": \"CNSL 6630\"}]}",
       "other_requirements": "CNSL Majors Only. Non-majors email cslgprog@uvm.edu to be put on waitlist; Online learning modules asynchronously each week.",
+      "external": false
+    },
+    {
+      "id": "CNSL 6440",
+      "course_code": "CNSL 6440",
+      "department": "CNSL",
+      "title": "Modalities: Counsel Child & Ad",
+      "credit_hours": "3",
+      "description": "This course provides a study of counseling practices for working with children and adolescents. Learning will be facilitated through assigned readings, lectures, discussions, demonstrations, and student practice of skill. This course is required for Clinical Mental Health Counseling and School Counseling students. Prerequisites: Counseling Graduate student and concurrent with internship or permission.",
+      "prereq_expression": null,
+      "other_requirements": "Counseling Graduate student and concurrent with internship or permission. CNSL Majors Only.",
+      "external": false
+    },
+    {
+      "id": "CNSL 6450",
+      "course_code": "CNSL 6450",
+      "department": "CNSL",
+      "title": "Diagnosis in CMH Counseling",
+      "credit_hours": "3",
+      "description": "Etiology and diagnosis of mental disorders in children, adolescents, and adults according to DMS. Includes intake, evaluation, treatment planning, and clinical documentation skills. Prerequisite: Counseling Graduate student or Instructor permission.",
+      "prereq_expression": "{\"type\": \"other_requirements\", \"text\": \"Instructor permission\"}",
+      "other_requirements": "Counseling Graduate student or Instructor permission. CNSL Majors Only or w/ permission; For permission email cslgprog@uvm.edu; PACE students must email to be put on waitlist",
+      "external": false
+    },
+    {
+      "id": "CNSL 7060",
+      "course_code": "CNSL 7060",
+      "department": "CNSL",
+      "title": "Counseling Theory & Research",
+      "credit_hours": "3",
+      "description": "Designed to assist students in developing a more critical understanding of the epistemological, ontological, and axiological assumptions that undergird counseling theory and research methodology. By gaining a more critical understanding, students will develop skills to decolonize the dominant paradigms within the discipline. Prerequisite: Counselor Education &amp; Supervision Doctoral student.",
+      "prereq_expression": null,
+      "other_requirements": "Counselor Education & Supervision Doctoral student.",
+      "external": false
+    },
+    {
+      "id": "HDF 2010",
+      "course_code": "HDF 2010",
+      "department": "HDF",
+      "title": "The Helping Relationship",
+      "credit_hours": "3",
+      "description": "Prepares students for the Human Services Profession through the study and practice of professional standards and select helping skills central to effective helping relationships. Prerequisites: <a href=\"/search/?p=HDF%201050\" data-action=\"result-detail\" data-group=\"code:HDF 1050\" >HDF 1050</a> or <a href=\"/search/?p=HDF%201600\" data-action=\"result-detail\" data-group=\"code:HDF 1600\" >HDF 1600</a>; Minimum Sophomore standing. Cross-listed with: <a href=\"/search/?p=CNSL%202010\" data-action=\"result-detail\" data-group=\"code:CNSL 2010\" >CNSL 2010</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HDF 1050\"}, {\"type\": \"course\", \"code\": \"HDF 1600\"}]}",
+      "other_requirements": "Minimum Sophomore standing.",
+      "external": true
+    },
+    {
+      "id": "CNSL 7991",
+      "course_code": "CNSL 7991",
+      "department": "CNSL",
+      "title": "Doctoral Internship",
+      "credit_hours": "1 to 18",
+      "description": "Doctoral internship in 3 of 5 core areas of specialization to include: counseling, teaching, supervision, research and scholarship, and leadership and advocacy. Doctoral students must enroll in 2 separate internship courses, each consisting of 300 hours of applied work.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CNSL 7200",
+      "course_code": "CNSL 7200",
+      "department": "CNSL",
+      "title": "Advanced Group and Supervision",
+      "credit_hours": "3",
+      "description": "Examines modalities, theories, and approaches to group work, including understanding contemporary literature and research supporting evidence-based clinical practices and clinical supervision of group work. Also examines the impact of socio-cultural factors within the various group domains, between members and the leader, and among group members; and the supervisory dynamics of group work practice.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CNSL 7210",
+      "course_code": "CNSL 7210",
+      "department": "CNSL",
+      "title": "Clinical Sup Theory & Practice",
+      "credit_hours": "3",
+      "description": "Examines various modalities, theories, and approaches to clinical supervision, including understanding contemporary literature and research supporting evidence based clinical supervision practices. Explores the impact of socio-cultural factors within the supervisory relationship, the supervision triad (counselor/client/supervisor), and how attention to cultural implications can enhance the supervisory experience and outcomes.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CNSL 6400",
+      "course_code": "CNSL 6400",
+      "department": "CNSL",
+      "title": "Professional School Counseling",
+      "credit_hours": "3",
+      "description": "Provides an exploration of the school counseling profession through the lens of a school counseling framework model. Topics include distinct roles and responsibilities of the Professional School Counselor as leader, advocate, collaborator, and consultant through direct and indirect service. This course is required for the School Counseling and Dual Option tracks of the Counseling program. Prerequisite: Counseling Graduate student or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Counseling Graduate student or Instructor permission.",
       "external": false
     },
     {
@@ -101,127 +288,6 @@
       "external": false
     },
     {
-      "id": "CNSL 7020",
-      "course_code": "CNSL 7020",
-      "department": "CNSL",
-      "title": "Professional Writing",
-      "credit_hours": "1",
-      "description": "Provides an overview of different types of professional writing, including peer and non-peer reviewed publications, grant submissions (internal university and external grants), and conference proposals. Designed to de-mystify these processes and provide opportunities for students to practice these skills and further their professional repertoire.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "CNSL 6750",
-      "course_code": "CNSL 6750",
-      "department": "CNSL",
-      "title": "Foundational Counseling Skills",
-      "credit_hours": "3",
-      "description": "Students learn and practice foundational counseling skills and techniques. Practice sessions are supervised by course instructor. Prerequisite: Counseling Graduate student. Pre/Co-requisite: <a href=\"/search/?p=CNSL%206740\" data-action=\"result-detail\" data-group=\"code:CNSL 6740\" >CNSL 6740</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"CNSL 6740\"}",
-      "other_requirements": "Counseling Graduate student. Graduate CNSL majors only",
-      "external": false
-    },
-    {
-      "id": "CNSL 6770",
-      "course_code": "CNSL 6770",
-      "department": "CNSL",
-      "title": "Diversity & Intersectionality",
-      "credit_hours": "3",
-      "description": "Designed to assist students in recognizing and acknowledging diversity in society, and developing the knowledge and skills to recognize, interrupt and redress inequity within their spheres of influence. Prerequisite: Counseling Graduate student or Instructor permission.",
-      "prereq_expression": null,
-      "other_requirements": "Counseling Graduate student or Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "CNSL 6760",
-      "course_code": "CNSL 6760",
-      "department": "CNSL",
-      "title": "Addictions Counseling",
-      "credit_hours": "3",
-      "description": "Development and culturally responsive treatment of addictions, e.g., Motivational Interviewing, family systems, Cognitive Behavioral Therapy (CBT) techniques, recovery maintenance, and an integrative approach to treatment. Prerequisite: Counseling Graduate student or Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CNSL 6200\"}, {\"type\": \"course\", \"code\": \"CNSL 6500\"}, {\"type\": \"course\", \"code\": \"CNSL 6740\"}, {\"type\": \"course\", \"code\": \"CNSL 6750\"}, {\"type\": \"course\", \"code\": \"CNSL 6920\"}]}",
-      "other_requirements": "Counseling Graduate student or Instructor permission. CNSL Majors.",
-      "external": false
-    },
-    {
-      "id": "CNSL 6070",
-      "course_code": "CNSL 6070",
-      "department": "CNSL",
-      "title": "Counselors as Educators",
-      "credit_hours": "3",
-      "description": "Provides students with knowledge and skills necessary for successful teaching. Students will demonstrate proficiency in 1) developing inclusive counseling curriculum units and lessons plans to support the social, emotional, academic, and career-readiness of K-12 youth, 2) individualizing instruction to meet cultural differences and individual needs, 3) evaluating curricular outcomes, and 4) managing  classroom dynamics. Learning will be facilitated through assigned readings, lectures, discussions, demonstrations, and practice of skill, and requires a pre-practicum  experience.",
-      "prereq_expression": null,
-      "other_requirements": "requires a pre-practicum experience. PACE students welcome with instructor permission",
-      "external": false
-    },
-    {
-      "id": "CNSL 7200",
-      "course_code": "CNSL 7200",
-      "department": "CNSL",
-      "title": "Advanced Group and Supervision",
-      "credit_hours": "3",
-      "description": "Examines modalities, theories, and approaches to group work, including understanding contemporary literature and research supporting evidence-based clinical practices and clinical supervision of group work. Also examines the impact of socio-cultural factors within the various group domains, between members and the leader, and among group members; and the supervisory dynamics of group work practice.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "CNSL 7991",
-      "course_code": "CNSL 7991",
-      "department": "CNSL",
-      "title": "Doctoral Internship",
-      "credit_hours": "1 to 18",
-      "description": "Doctoral internship in 3 of 5 core areas of specialization to include: counseling, teaching, supervision, research and scholarship, and leadership and advocacy. Doctoral students must enroll in 2 separate internship courses, each consisting of 300 hours of applied work.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "CNSL 6740",
-      "course_code": "CNSL 6740",
-      "department": "CNSL",
-      "title": "Counseling Theory & Practice",
-      "credit_hours": "3",
-      "description": "Theoretical and practical approach to understanding the counseling process. Refinement of personal philosophy, theory of counseling, and implementation in practice.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate CNSL majors only, or permission; email: cslgprog@uvm.edu for permission for non-majors",
-      "external": false
-    },
-    {
-      "id": "HDF 1600",
-      "course_code": "HDF 1600",
-      "department": "HDF",
-      "title": "Family Context of Development",
-      "credit_hours": "3",
-      "description": "Developmental ecological approach to analysis of the family as a system in which individuals develop.",
-      "prereq_expression": null,
-      "other_requirements": "Degree students only; PACE students register for HDF 1600 ZRA; HDF/ECP students register for HDF 1600 B; Colocated with HDF 1600 B and ZRA",
-      "external": true
-    },
-    {
-      "id": "HDF 1050",
-      "course_code": "HDF 1050",
-      "department": "HDF",
-      "title": "Human Development",
-      "credit_hours": "3",
-      "description": "A comprehensive survey of life span individual and family development within social and historical context.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "CNSL 6450",
-      "course_code": "CNSL 6450",
-      "department": "CNSL",
-      "title": "Diagnosis in CMH Counseling",
-      "credit_hours": "3",
-      "description": "Etiology and diagnosis of mental disorders in children, adolescents, and adults according to DMS. Includes intake, evaluation, treatment planning, and clinical documentation skills. Prerequisite: Counseling Graduate student or Instructor permission.",
-      "prereq_expression": "{\"type\": \"other_requirements\", \"text\": \"Instructor permission\"}",
-      "other_requirements": "Counseling Graduate student or Instructor permission. CNSL Majors Only or w/ permission; For permission email cslgprog@uvm.edu; PACE students must email to be put on waitlist",
-      "external": false
-    },
-    {
       "id": "CNSL 6360",
       "course_code": "CNSL 6360",
       "department": "CNSL",
@@ -244,81 +310,15 @@
       "external": false
     },
     {
-      "id": "CNSL 6500",
-      "course_code": "CNSL 6500",
-      "department": "CNSL",
-      "title": "Prof Issues in Counseling",
+      "id": "HDF 1050",
+      "course_code": "HDF 1050",
+      "department": "HDF",
+      "title": "Human Development",
       "credit_hours": "3",
-      "description": "A seminar in which professional, ethical, and legal issues facing counselors in schools and mental health settings are addressed through reading, research, presentation, and discussion.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate CNSL majors only, or permission; email: cslgprog@uvm.edu for permission for non-majors",
-      "external": false
-    },
-    {
-      "id": "CNSL 6880",
-      "course_code": "CNSL 6880",
-      "department": "CNSL",
-      "title": "Family and Couples Counseling",
-      "credit_hours": "3",
-      "description": "Theory and process of counseling with families and couples including family theory and family therapy orientations and intervention skills. Includes practice of counseling interventions. Prerequisites: <a href=\"/search/?p=CNSL%206750\" data-action=\"result-detail\" data-group=\"code:CNSL 6750\" >CNSL 6750</a>, <a href=\"/search/?p=CNSL%206630\" data-action=\"result-detail\" data-group=\"code:CNSL 6630\"  class=\"notoffered\">CNSL 6630</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CNSL 6750\"}, {\"type\": \"course\", \"code\": \"CNSL 6630\"}]}",
-      "other_requirements": "Graduate CNSL majors only; Prereqs enforced by the system: or permission; for permission for non-majors email: cslgprog@uvm.edu",
-      "external": false
-    },
-    {
-      "id": "CNSL 6990",
-      "course_code": "CNSL 6990",
-      "department": "CNSL",
-      "title": "Restorative Trauma Pract Child",
-      "credit_hours": "3",
-      "description": "Special issues in counseling, administration and planning, social work or higher education not appropriate to content of existing courses. Courses reflect the social services orientation of the Department of Integrated Professional Studies.",
+      "description": "A comprehensive survey of life span individual and family development within social and historical context.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "CNSL 6440",
-      "course_code": "CNSL 6440",
-      "department": "CNSL",
-      "title": "Modalities: Counsel Child & Ad",
-      "credit_hours": "3",
-      "description": "This course provides a study of counseling practices for working with children and adolescents. Learning will be facilitated through assigned readings, lectures, discussions, demonstrations, and student practice of skill. This course is required for Clinical Mental Health Counseling and School Counseling students. Prerequisites: Counseling Graduate student and concurrent with internship or permission.",
-      "prereq_expression": null,
-      "other_requirements": "Counseling Graduate student and concurrent with internship or permission. CNSL Majors Only.",
-      "external": false
-    },
-    {
-      "id": "HDF 2010",
-      "course_code": "HDF 2010",
-      "department": "HDF",
-      "title": "The Helping Relationship",
-      "credit_hours": "3",
-      "description": "Prepares students for the Human Services Profession through the study and practice of professional standards and select helping skills central to effective helping relationships. Prerequisites: <a href=\"/search/?p=HDF%201050\" data-action=\"result-detail\" data-group=\"code:HDF 1050\" >HDF 1050</a> or <a href=\"/search/?p=HDF%201600\" data-action=\"result-detail\" data-group=\"code:HDF 1600\" >HDF 1600</a>; Minimum Sophomore standing. Cross-listed with: <a href=\"/search/?p=CNSL%202010\" data-action=\"result-detail\" data-group=\"code:CNSL 2010\" >CNSL 2010</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HDF 1050\"}, {\"type\": \"course\", \"code\": \"HDF 1600\"}]}",
-      "other_requirements": "Minimum Sophomore standing.",
       "external": true
-    },
-    {
-      "id": "CNSL 7060",
-      "course_code": "CNSL 7060",
-      "department": "CNSL",
-      "title": "Counseling Theory & Research",
-      "credit_hours": "3",
-      "description": "Designed to assist students in developing a more critical understanding of the epistemological, ontological, and axiological assumptions that undergird counseling theory and research methodology. By gaining a more critical understanding, students will develop skills to decolonize the dominant paradigms within the discipline. Prerequisite: Counselor Education &amp; Supervision Doctoral student.",
-      "prereq_expression": null,
-      "other_requirements": "Counselor Education & Supervision Doctoral student.",
-      "external": false
-    },
-    {
-      "id": "CNSL 6200",
-      "course_code": "CNSL 6200",
-      "department": "CNSL",
-      "title": "Dev. Perspectives in CNSLNG",
-      "credit_hours": "3",
-      "description": "Survey of major theories of human development and application of theoretical concepts to self and others from a counseling perspective. This course is required for Clinical Mental Health Counseling and School Counseling students. Prerequisite: Counseling Graduate student or Instructor permission.",
-      "prereq_expression": null,
-      "other_requirements": "Counseling Graduate student or Instructor permission. Graduate CNSL majors only, or permission; email: cslgprog@uvm.edu for permission for non-majors. Students must display graduate level writing skills in order to be successful in this class.",
-      "external": false
     }
   ],
   "edges": [

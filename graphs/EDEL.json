@@ -2,102 +2,14 @@
   "department": "EDEL",
   "nodes": [
     {
-      "id": "EDEL 5050",
-      "course_code": "EDEL 5050",
+      "id": "EDEL 3750",
+      "course_code": "EDEL 3750",
       "department": "EDEL",
-      "title": "Experiencing NZ Educ & Culture",
+      "title": "Lab Experience in Literacy",
       "credit_hours": "3",
-      "description": "Travel course that offers current educators and graduate students the opportunity to explore English and Maori educational facilities in and around Auckland, New Zealand. Educators will explore New Zealand culture, the Ministry of Education's current educational direction, and the cultural integration of Maori and Pakeha education. Participants will visit approximately nine different primary/intermediate schools. These schools will reflect the various decile levels present in New Zealand Education.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission only. Open to Graduate/PACE students.",
-      "external": false
-    },
-    {
-      "id": "EDEL 3570",
-      "course_code": "EDEL 3570",
-      "department": "EDEL",
-      "title": "SU:Social Educ &Social Studies",
-      "credit_hours": "3",
-      "description": "Social Studies is the study of how humans have interacted with their environment and one another over time. The goal of teachers is to prepare students to be contributing and engaged citizens. Course covers how to teach social studies to children in a way that prepares them to be active citizens in a democratic and sustainable society. Focuses on elementary social studies standards, content, strategies, and resources. Pre/co-requisites: Teacher Education:Elementary Education major; <a href=\"/search/?p=EDEL%203550\" data-action=\"result-detail\" data-group=\"code:EDEL 3550\" >EDEL 3550</a>, <a href=\"/search/?p=EDEL%203580\" data-action=\"result-detail\" data-group=\"code:EDEL 3580\" >EDEL 3580</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Teacher Education:Elementary Education major; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement; Concurrent with EDEL 3550 and EDEL 3580.",
-      "external": false
-    },
-    {
-      "id": "EDEL 3990",
-      "course_code": "EDEL 3990",
-      "department": "EDEL",
-      "title": "Intrvn in the clssrm: Math SL",
-      "credit_hours": "1 to 18",
-      "description": "See Schedule of Course for specific titles.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 2550\"}, {\"type\": \"course\", \"code\": \"EDEL 2570\"}]}",
-      "other_requirements": "6 weeks of time in the community dates TBD.",
-      "external": false
-    },
-    {
-      "id": "EDEL 3760",
-      "course_code": "EDEL 3760",
-      "department": "EDEL",
-      "title": "Language Arts&Literacy Skills",
-      "credit_hours": "3",
-      "description": "Cognitive research base for the social context of children's learning. Methods of language arts as literate activity. Emphasis on emergence of literacy in the child of special need. Prerequisites: Admission to Elementary Teacher Education Program; concurrent with <a href=\"/search/?p=EDEL%203780\" data-action=\"result-detail\" data-group=\"code:EDEL 3780\" >EDEL 3780</a>, <a href=\"/search/?p=EDEL%203750\" data-action=\"result-detail\" data-group=\"code:EDEL 3750\" >EDEL 3750</a>, <a href=\"/search/?p=EDEL%202570\" data-action=\"result-detail\" data-group=\"code:EDEL 2570\" >EDEL 2570</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 2570\"}, {\"type\": \"course\", \"code\": \"EDEL 2550\"}]}",
-      "other_requirements": "Admission to Elementary Teacher Education Program; ELK6 2nd yr, Admit to Teacher Education",
-      "external": false
-    },
-    {
-      "id": "EDEL 3580",
-      "course_code": "EDEL 3580",
-      "department": "EDEL",
-      "title": "SL:Teaching Science forMeaning",
-      "credit_hours": "3",
-      "description": "Teaching K-6 science through inquiry. Use of constructivist pedagogy to develop lessons and activities that develop concepts from physical, earth, and life sciences. Pre/co-requisites: Admission to the Elementary Education Program; concurrent with <a href=\"/search/?p=EDEL%203550\" data-action=\"result-detail\" data-group=\"code:EDEL 3550\" >EDEL 3550</a> &amp; <a href=\"/search/?p=EDEL%203570\" data-action=\"result-detail\" data-group=\"code:EDEL 3570\" >EDEL 3570</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Admission to the Elementary Education Program; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement; Co-located with EDEC 2510",
-      "external": false
-    },
-    {
-      "id": "EDEL 4993",
-      "course_code": "EDEL 4993",
-      "department": "EDEL",
-      "title": "Independent Study",
-      "credit_hours": "3",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "EDFS 3030",
-      "course_code": "EDFS 3030",
-      "department": "EDFS",
-      "title": "Soc, Hst & Phil Found of Educ",
-      "credit_hours": "3",
-      "description": "Critical examination of central educational/social issues and values with special emphasis on the struggle for justice and equality. Themes include schooling and social class, race, and gender; the purposes of education; and the responsibilities of teachers. Prerequisite: Completion of a 2000 level course.",
-      "prereq_expression": "{\"type\": \"other_requirement\", \"description\": \"Any EDFS course\"}",
-      "other_requirements": "Open to degree and PACE students",
-      "external": true
-    },
-    {
-      "id": "EDEC 1630",
-      "course_code": "EDEC 1630",
-      "department": "EDEC",
-      "title": "Child Development",
-      "credit_hours": "3",
-      "description": "The biological, psychological, and social growth and development of children and their relationships with family, peers, and institutions.",
-      "prereq_expression": null,
-      "other_requirements": "Degree students only",
-      "external": true
-    },
-    {
-      "id": "EDEL 4760",
-      "course_code": "EDEL 4760",
-      "department": "EDEL",
-      "title": "Plng, Adptg, Dlvring Lit Instr",
-      "credit_hours": "3",
-      "description": "Extending and refining knowledge about reading, writing instruction, and assessment. Students will review literature, implement classroom-based assessment strategies, and develop lessons and units for literacy instruction. Prerequisites: <a href=\"/search/?p=EDEL%203750\" data-action=\"result-detail\" data-group=\"code:EDEL 3750\" >EDEL 3750</a>, <a href=\"/search/?p=EDEL%203760\" data-action=\"result-detail\" data-group=\"code:EDEL 3760\" >EDEL 3760</a>; Elementary Education Grades K-6) major; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 3750\"}, {\"type\": \"course\", \"code\": \"EDEL 3760\"}]}",
-      "other_requirements": "Elementary Education Grades K-6) major; minimum Junior standing; instructor permission; ELK6 3rd or 4th yr; Taken concurrently with EDEL 3750, EDEL 3780, and EDEL 3770. Take prior to student teaching.",
+      "description": "Supervised practicum in a field site. Implementation of teaching methods from Literacy Block. Documentation of classroom work, child study, and development of portfolio. Prerequisite: Admission to Elementary Teacher Education Program; concurrent with <a href=\"/search/?p=EDEL%203780\" data-action=\"result-detail\" data-group=\"code:EDEL 3780\" >EDEL 3780</a>, <a href=\"/search/?p=EDEL%203760\" data-action=\"result-detail\" data-group=\"code:EDEL 3760\" >EDEL 3760</a>, <a href=\"/search/?p=EDEL%202570\" data-action=\"result-detail\" data-group=\"code:EDEL 2570\" >EDEL 2570</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"EDEL 2570\"}",
+      "other_requirements": "Admission to Elementary Teacher Education Program; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement; Class meets in designated off campus elementary school sites and on campus; Lab fee: $40.00",
       "external": false
     },
     {
@@ -112,61 +24,6 @@
       "external": false
     },
     {
-      "id": "EDEL 3550",
-      "course_code": "EDEL 3550",
-      "department": "EDEL",
-      "title": "Lab Experience in Inquiry",
-      "credit_hours": "3",
-      "description": "Supervised practicum in field sites. Implementation of teaching methods from Inquiry Block. Documentation of classroom work, child study, and development of portfolio. Prerequisite: Admission to Elementary Teacher Education Program; concurrent with <a href=\"/search/?p=EDEL%203570\" data-action=\"result-detail\" data-group=\"code:EDEL 3570\" >EDEL 3570</a>, <a href=\"/search/?p=EDEL%203580\" data-action=\"result-detail\" data-group=\"code:EDEL 3580\" >EDEL 3580</a>, <a href=\"/search/?p=EDEL%201590\" data-action=\"result-detail\" data-group=\"code:EDEL 1590\"  class=\"notoffered\">EDEL 1590</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"EDEL 1590\"}",
-      "other_requirements": "Admission to Elementary Teacher Education Program; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement; Class meets in designated off campus elementary school sites and on campus; Lab fee: $40.00",
-      "external": false
-    },
-    {
-      "id": "EDEL 3750",
-      "course_code": "EDEL 3750",
-      "department": "EDEL",
-      "title": "Lab Experience in Literacy",
-      "credit_hours": "3",
-      "description": "Supervised practicum in a field site. Implementation of teaching methods from Literacy Block. Documentation of classroom work, child study, and development of portfolio. Prerequisite: Admission to Elementary Teacher Education Program; concurrent with <a href=\"/search/?p=EDEL%203780\" data-action=\"result-detail\" data-group=\"code:EDEL 3780\" >EDEL 3780</a>, <a href=\"/search/?p=EDEL%203760\" data-action=\"result-detail\" data-group=\"code:EDEL 3760\" >EDEL 3760</a>, <a href=\"/search/?p=EDEL%202570\" data-action=\"result-detail\" data-group=\"code:EDEL 2570\" >EDEL 2570</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"EDEL 2570\"}",
-      "other_requirements": "Admission to Elementary Teacher Education Program; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement; Class meets in designated off campus elementary school sites and on campus; Lab fee: $40.00",
-      "external": false
-    },
-    {
-      "id": "HDF 1050",
-      "course_code": "HDF 1050",
-      "department": "HDF",
-      "title": "Human Development",
-      "credit_hours": "3",
-      "description": "A comprehensive survey of life span individual and family development within social and historical context.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "EDEL 2993",
-      "course_code": "EDEL 2993",
-      "department": "EDEL",
-      "title": "Independent Study",
-      "credit_hours": "1 to 18",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission only. Offered at department discretion.",
-      "external": false
-    },
-    {
-      "id": "EDEL 3780",
-      "course_code": "EDEL 3780",
-      "department": "EDEL",
-      "title": "Teaching Math for Meaning",
-      "credit_hours": "3",
-      "description": "Methods of teaching mathematics in elementary school. Research base for how children learn mathematics and how math curriculum is organized. Special focus on teaching diverse groupings of learners. Prerequisite: Admission to Elementary Teacher Education Program; concurrent with <a href=\"/search/?p=EDEL%203750\" data-action=\"result-detail\" data-group=\"code:EDEL 3750\" >EDEL 3750</a>, <a href=\"/search/?p=EDEL%203760\" data-action=\"result-detail\" data-group=\"code:EDEL 3760\" >EDEL 3760</a>, <a href=\"/search/?p=EDEL%202570\" data-action=\"result-detail\" data-group=\"code:EDEL 2570\" >EDEL 2570</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 2570\"}, {\"type\": \"course\", \"code\": \"EDEL 4760\"}]}",
-      "other_requirements": "Admission to Elementary Teacher Education Program; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement",
-      "external": false
-    },
-    {
       "id": "EDEL 2570",
       "course_code": "EDEL 2570",
       "department": "EDEL",
@@ -178,14 +35,47 @@
       "external": false
     },
     {
-      "id": "EDEL 3770",
-      "course_code": "EDEL 3770",
+      "id": "EDEL 4993",
+      "course_code": "EDEL 4993",
       "department": "EDEL",
-      "title": "Children's Lit & Literacy",
+      "title": "Independent Study",
       "credit_hours": "3",
-      "description": "Learning about the breadth of literature available for use in elementary school. Developing the ability to evaluate and use literature in reading and writing activities. Emphasis on bias-free methods. Pre/co-requisites: Admission to Elementary Teacher Education Program; concurrent with <a href=\"/search/?p=EDEL%203780\" data-action=\"result-detail\" data-group=\"code:EDEL 3780\" >EDEL 3780</a>, <a href=\"/search/?p=EDEL%203750\" data-action=\"result-detail\" data-group=\"code:EDEL 3750\" >EDEL 3750</a> and <a href=\"/search/?p=EDEL%203760\" data-action=\"result-detail\" data-group=\"code:EDEL 3760\" >EDEL 3760</a>.",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
-      "other_requirements": "Admission to Elementary Teacher Education Program; concurrent with EDEL 3780, EDEL 3750 and EDEL 3760. ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement; Concurrent withEDEL 3780,EDEL 3750andEDEL 4760.",
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "EDEL 3580",
+      "course_code": "EDEL 3580",
+      "department": "EDEL",
+      "title": "SL:Teaching Science forMeaning",
+      "credit_hours": "3",
+      "description": "Teaching K-6 science through inquiry. Use of constructivist pedagogy to develop lessons and activities that develop concepts from physical, earth, and life sciences. Pre/co-requisites: Admission to the Elementary Education Program; concurrent with <a href=\"/search/?p=EDEL%203550\" data-action=\"result-detail\" data-group=\"code:EDEL 3550\" >EDEL 3550</a> &amp; <a href=\"/search/?p=EDEL%203570\" data-action=\"result-detail\" data-group=\"code:EDEL 3570\" >EDEL 3570</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Admission to the Elementary Education Program; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement; Co-located with EDEC 2510",
+      "external": false
+    },
+    {
+      "id": "PSYS 2400",
+      "course_code": "PSYS 2400",
+      "department": "PSYS",
+      "title": "Developmental Psych: Childhood",
+      "credit_hours": "3",
+      "description": "Survey of research and theories on child development from conception to adolescence emphasizing experimental analyses of early social and cognitive development. Prerequisite: <a href=\"/search/?p=PSYS%201400\" data-action=\"result-detail\" data-group=\"code:PSYS 1400\" >PSYS 1400</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"PSYS 1400\"}",
+      "other_requirements": "PSYS majors and minors only; PACE students by permission and override.",
+      "external": true
+    },
+    {
+      "id": "EDEL 3550",
+      "course_code": "EDEL 3550",
+      "department": "EDEL",
+      "title": "Lab Experience in Inquiry",
+      "credit_hours": "3",
+      "description": "Supervised practicum in field sites. Implementation of teaching methods from Inquiry Block. Documentation of classroom work, child study, and development of portfolio. Prerequisite: Admission to Elementary Teacher Education Program; concurrent with <a href=\"/search/?p=EDEL%203570\" data-action=\"result-detail\" data-group=\"code:EDEL 3570\" >EDEL 3570</a>, <a href=\"/search/?p=EDEL%203580\" data-action=\"result-detail\" data-group=\"code:EDEL 3580\" >EDEL 3580</a>, <a href=\"/search/?p=EDEL%201590\" data-action=\"result-detail\" data-group=\"code:EDEL 1590\"  class=\"notoffered\">EDEL 1590</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"EDEL 1590\"}",
+      "other_requirements": "Admission to Elementary Teacher Education Program; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement; Class meets in designated off campus elementary school sites and on campus; Lab fee: $40.00",
       "external": false
     },
     {
@@ -200,6 +90,83 @@
       "external": false
     },
     {
+      "id": "EDEL 3780",
+      "course_code": "EDEL 3780",
+      "department": "EDEL",
+      "title": "Teaching Math for Meaning",
+      "credit_hours": "3",
+      "description": "Methods of teaching mathematics in elementary school. Research base for how children learn mathematics and how math curriculum is organized. Special focus on teaching diverse groupings of learners. Prerequisite: Admission to Elementary Teacher Education Program; concurrent with <a href=\"/search/?p=EDEL%203750\" data-action=\"result-detail\" data-group=\"code:EDEL 3750\" >EDEL 3750</a>, <a href=\"/search/?p=EDEL%203760\" data-action=\"result-detail\" data-group=\"code:EDEL 3760\" >EDEL 3760</a>, <a href=\"/search/?p=EDEL%202570\" data-action=\"result-detail\" data-group=\"code:EDEL 2570\" >EDEL 2570</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 2570\"}, {\"type\": \"course\", \"code\": \"EDEL 4760\"}]}",
+      "other_requirements": "Admission to Elementary Teacher Education Program; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement",
+      "external": false
+    },
+    {
+      "id": "EDEL 3760",
+      "course_code": "EDEL 3760",
+      "department": "EDEL",
+      "title": "Language Arts&Literacy Skills",
+      "credit_hours": "3",
+      "description": "Cognitive research base for the social context of children's learning. Methods of language arts as literate activity. Emphasis on emergence of literacy in the child of special need. Prerequisites: Admission to Elementary Teacher Education Program; concurrent with <a href=\"/search/?p=EDEL%203780\" data-action=\"result-detail\" data-group=\"code:EDEL 3780\" >EDEL 3780</a>, <a href=\"/search/?p=EDEL%203750\" data-action=\"result-detail\" data-group=\"code:EDEL 3750\" >EDEL 3750</a>, <a href=\"/search/?p=EDEL%202570\" data-action=\"result-detail\" data-group=\"code:EDEL 2570\" >EDEL 2570</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 2570\"}, {\"type\": \"course\", \"code\": \"EDEL 2550\"}]}",
+      "other_requirements": "Admission to Elementary Teacher Education Program; ELK6 2nd yr, Admit to Teacher Education",
+      "external": false
+    },
+    {
+      "id": "EDEL 5050",
+      "course_code": "EDEL 5050",
+      "department": "EDEL",
+      "title": "Experiencing NZ Educ & Culture",
+      "credit_hours": "3",
+      "description": "Travel course that offers current educators and graduate students the opportunity to explore English and Maori educational facilities in and around Auckland, New Zealand. Educators will explore New Zealand culture, the Ministry of Education's current educational direction, and the cultural integration of Maori and Pakeha education. Participants will visit approximately nine different primary/intermediate schools. These schools will reflect the various decile levels present in New Zealand Education.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission only. Open to Graduate/PACE students.",
+      "external": false
+    },
+    {
+      "id": "EDEC 1630",
+      "course_code": "EDEC 1630",
+      "department": "EDEC",
+      "title": "Child Development",
+      "credit_hours": "3",
+      "description": "The biological, psychological, and social growth and development of children and their relationships with family, peers, and institutions.",
+      "prereq_expression": null,
+      "other_requirements": "Degree students only",
+      "external": true
+    },
+    {
+      "id": "EDEL 3990",
+      "course_code": "EDEL 3990",
+      "department": "EDEL",
+      "title": "Intrvn in the clssrm: Math SL",
+      "credit_hours": "1 to 18",
+      "description": "See Schedule of Course for specific titles.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 2550\"}, {\"type\": \"course\", \"code\": \"EDEL 2570\"}]}",
+      "other_requirements": "6 weeks of time in the community dates TBD.",
+      "external": false
+    },
+    {
+      "id": "EDFS 3030",
+      "course_code": "EDFS 3030",
+      "department": "EDFS",
+      "title": "Soc, Hst & Phil Found of Educ",
+      "credit_hours": "3",
+      "description": "Critical examination of central educational/social issues and values with special emphasis on the struggle for justice and equality. Themes include schooling and social class, race, and gender; the purposes of education; and the responsibilities of teachers. Prerequisite: Completion of a 2000 level course.",
+      "prereq_expression": "{\"type\": \"other_requirement\", \"description\": \"Any EDFS course\"}",
+      "other_requirements": "Open to degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "EDEL 2993",
+      "course_code": "EDEL 2993",
+      "department": "EDEL",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission only. Offered at department discretion.",
+      "external": false
+    },
+    {
       "id": "EDFS 1020",
       "course_code": "EDFS 1020",
       "department": "EDFS",
@@ -209,6 +176,28 @@
       "prereq_expression": null,
       "other_requirements": null,
       "external": true
+    },
+    {
+      "id": "EDEL 3570",
+      "course_code": "EDEL 3570",
+      "department": "EDEL",
+      "title": "SU:Social Educ &Social Studies",
+      "credit_hours": "3",
+      "description": "Social Studies is the study of how humans have interacted with their environment and one another over time. The goal of teachers is to prepare students to be contributing and engaged citizens. Course covers how to teach social studies to children in a way that prepares them to be active citizens in a democratic and sustainable society. Focuses on elementary social studies standards, content, strategies, and resources. Pre/co-requisites: Teacher Education:Elementary Education major; <a href=\"/search/?p=EDEL%203550\" data-action=\"result-detail\" data-group=\"code:EDEL 3550\" >EDEL 3550</a>, <a href=\"/search/?p=EDEL%203580\" data-action=\"result-detail\" data-group=\"code:EDEL 3580\" >EDEL 3580</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Teacher Education:Elementary Education major; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement; Concurrent with EDEL 3550 and EDEL 3580.",
+      "external": false
+    },
+    {
+      "id": "EDEL 3770",
+      "course_code": "EDEL 3770",
+      "department": "EDEL",
+      "title": "Children's Lit & Literacy",
+      "credit_hours": "3",
+      "description": "Learning about the breadth of literature available for use in elementary school. Developing the ability to evaluate and use literature in reading and writing activities. Emphasis on bias-free methods. Pre/co-requisites: Admission to Elementary Teacher Education Program; concurrent with <a href=\"/search/?p=EDEL%203780\" data-action=\"result-detail\" data-group=\"code:EDEL 3780\" >EDEL 3780</a>, <a href=\"/search/?p=EDEL%203750\" data-action=\"result-detail\" data-group=\"code:EDEL 3750\" >EDEL 3750</a> and <a href=\"/search/?p=EDEL%203760\" data-action=\"result-detail\" data-group=\"code:EDEL 3760\" >EDEL 3760</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Admission to Elementary Teacher Education Program; concurrent with EDEL 3780, EDEL 3750 and EDEL 3760. ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement; Concurrent withEDEL 3780,EDEL 3750andEDEL 4760.",
+      "external": false
     },
     {
       "id": "EDSP 1050",
@@ -222,17 +211,6 @@
       "external": true
     },
     {
-      "id": "PSYS 2400",
-      "course_code": "PSYS 2400",
-      "department": "PSYS",
-      "title": "Developmental Psych: Childhood",
-      "credit_hours": "3",
-      "description": "Survey of research and theories on child development from conception to adolescence emphasizing experimental analyses of early social and cognitive development. Prerequisite: <a href=\"/search/?p=PSYS%201400\" data-action=\"result-detail\" data-group=\"code:PSYS 1400\" >PSYS 1400</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"PSYS 1400\"}",
-      "other_requirements": "PSYS majors and minors only; PACE students by permission and override.",
-      "external": true
-    },
-    {
       "id": "EDEL 4880",
       "course_code": "EDEL 4880",
       "department": "EDEL",
@@ -242,6 +220,28 @@
       "prereq_expression": "{\"type\": \"course\", \"code\": \"EDEL 4760\"}",
       "other_requirements": "Elementary Education (Grades K-6) major; Senior standing; admit to Student Teaching. Concurrent with EDEL 4991",
       "external": false
+    },
+    {
+      "id": "EDEL 4760",
+      "course_code": "EDEL 4760",
+      "department": "EDEL",
+      "title": "Plng, Adptg, Dlvring Lit Instr",
+      "credit_hours": "3",
+      "description": "Extending and refining knowledge about reading, writing instruction, and assessment. Students will review literature, implement classroom-based assessment strategies, and develop lessons and units for literacy instruction. Prerequisites: <a href=\"/search/?p=EDEL%203750\" data-action=\"result-detail\" data-group=\"code:EDEL 3750\" >EDEL 3750</a>, <a href=\"/search/?p=EDEL%203760\" data-action=\"result-detail\" data-group=\"code:EDEL 3760\" >EDEL 3760</a>; Elementary Education Grades K-6) major; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEL 3750\"}, {\"type\": \"course\", \"code\": \"EDEL 3760\"}]}",
+      "other_requirements": "Elementary Education Grades K-6) major; minimum Junior standing; instructor permission; ELK6 3rd or 4th yr; Taken concurrently with EDEL 3750, EDEL 3780, and EDEL 3770. Take prior to student teaching.",
+      "external": false
+    },
+    {
+      "id": "HDF 1050",
+      "course_code": "HDF 1050",
+      "department": "HDF",
+      "title": "Human Development",
+      "credit_hours": "3",
+      "description": "A comprehensive survey of life span individual and family development within social and historical context.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
     }
   ],
   "edges": [

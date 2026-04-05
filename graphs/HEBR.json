@@ -13,17 +13,6 @@
       "external": false
     },
     {
-      "id": "HEBR 1200",
-      "course_code": "HEBR 1200",
-      "department": "HEBR",
-      "title": "Elementary Hebrew II",
-      "credit_hours": "4",
-      "description": "The spoken language of everyday use with oral, aural, and written practice in speaking, reading, and comprehension. Prerequisite: <a href=\"/search/?p=HEBR%201100\" data-action=\"result-detail\" data-group=\"code:HEBR 1100\"  class=\"notoffered\">HEBR 1100</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HEBR 1100\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
-      "other_requirements": "Open to Degree and PACE students",
-      "external": false
-    },
-    {
       "id": "HEBR 2100",
       "course_code": "HEBR 2100",
       "department": "HEBR",
@@ -35,14 +24,14 @@
       "external": false
     },
     {
-      "id": "HEBR 3150",
-      "course_code": "HEBR 3150",
+      "id": "HEBR 1200",
+      "course_code": "HEBR 1200",
       "department": "HEBR",
-      "title": "Adv Hebr & Israeli Culture",
-      "credit_hours": "3",
-      "description": "Opportunity to further develop communication skills in Hebrew. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=HEBR%202100\" data-action=\"result-detail\" data-group=\"code:HEBR 2100\"  class=\"notoffered\">HEBR 2100</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HEBR 2100\"}, {\"type\": \"course\", \"code\": \"HEBR 2100\"}]}",
-      "other_requirements": "PACE students with permission and override",
+      "title": "Elementary Hebrew II",
+      "credit_hours": "4",
+      "description": "The spoken language of everyday use with oral, aural, and written practice in speaking, reading, and comprehension. Prerequisite: <a href=\"/search/?p=HEBR%201100\" data-action=\"result-detail\" data-group=\"code:HEBR 1100\"  class=\"notoffered\">HEBR 1100</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HEBR 1100\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
+      "other_requirements": "Open to Degree and PACE students",
       "external": false
     },
     {
@@ -54,6 +43,17 @@
       "description": "The spoken language of everyday use with oral, aural, and written practice in speaking, reading, and comprehension.",
       "prereq_expression": null,
       "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HEBR 3150",
+      "course_code": "HEBR 3150",
+      "department": "HEBR",
+      "title": "Adv Hebr & Israeli Culture",
+      "credit_hours": "3",
+      "description": "Opportunity to further develop communication skills in Hebrew. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=HEBR%202100\" data-action=\"result-detail\" data-group=\"code:HEBR 2100\"  class=\"notoffered\">HEBR 2100</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HEBR 2100\"}, {\"type\": \"course\", \"code\": \"HEBR 2100\"}]}",
+      "other_requirements": "PACE students with permission and override",
       "external": false
     }
   ],

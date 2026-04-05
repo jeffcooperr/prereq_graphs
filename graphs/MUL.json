@@ -2,94 +2,6 @@
   "department": "MUL",
   "nodes": [
     {
-      "id": "MUL 1200",
-      "course_code": "MUL 1200",
-      "department": "MUL",
-      "title": "Basic Private Lessons: Piano",
-      "credit_hours": "1",
-      "description": "Private lessons in basic instrumental or vocal skills for non-music majors. A meeting with the teacher is required to assess appropriate placement. May be repeated for credit. Lab fee required. Prerequisites: For piano: <a href=\"/search/?p=MUL%201111\" data-action=\"result-detail\" data-group=\"code:MUL 1111\" >MUL 1111</a> or equivalent; audition required.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MUL 1111\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
-      "other_requirements": "A meeting with the teacher is required to assess appropriate placement. Audition required. Lab fee required. Lab fee $555 per credit; Students should contact instructor for schedule information PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "MUL 1700",
-      "course_code": "MUL 1700",
-      "department": "MUL",
-      "title": "Private Lessons:Classcl Guitar",
-      "credit_hours": "1 to 2",
-      "description": "Private lessons on primary instrument or voice for Music Majors with a concentration in Music Technology and Business who have not yet passed the Level II Examination. Prerequisite: Pre-Level II Exam Music major with declared Music Technology and Business concentration.",
-      "prereq_expression": null,
-      "other_requirements": "Private lessons on primary instrument or voice for Music Majors with a concentration in Music Technology and Business who have not yet passed the Level II Examination. Pre-Level II Exam Music major with declared Music Technology and Business concentration. Restricted to MUS5 (Music Technology & Business) majors who are preparing for Basic Performance Assessment.",
-      "external": false
-    },
-    {
-      "id": "MUL 1111",
-      "course_code": "MUL 1111",
-      "department": "MUL",
-      "title": "Beginning Group Lessons: Piano",
-      "credit_hours": "1.5",
-      "description": "Group lessons at the beginning level in piano. May not be counted toward the Music major or minor, except for students concentrating in Music Technology and Business. May be taken a total of two times for credit.",
-      "prereq_expression": null,
-      "other_requirements": "MUS and MUSE majors only; PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "MUL 2122",
-      "course_code": "MUL 2122",
-      "department": "MUL",
-      "title": "Group Jazz Piano II",
-      "credit_hours": "1.5",
-      "description": "Exploration of topics including stride, modal comping, and chord substitution. Some review of concepts from <a href=\"/search/?p=MUL%202121\" data-action=\"result-detail\" data-group=\"code:MUL 2121\"  class=\"notoffered\">MUL 2121</a>. Prerequisites: <a href=\"/search/?p=MUL%202121\" data-action=\"result-detail\" data-group=\"code:MUL 2121\"  class=\"notoffered\">MUL 2121</a>; Music or Music Education majors or minors only.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"MUL 2121\"}",
-      "other_requirements": "Music or Music Education majors or minors only.",
-      "external": false
-    },
-    {
-      "id": "MUL 1300",
-      "course_code": "MUL 1300",
-      "department": "MUL",
-      "title": "Private Lessons:Conga/LatPrcsn",
-      "credit_hours": "1 to 2",
-      "description": "Private instruction on an instrument/voice for non-majors and non-minors. Contact department immediately after registering. Subject to availability of staff. Lab fee required. May be repeated for credit. Not open for credit to Music majors/minors. Prerequisite: Lesson audition required before enrollment confirmed.",
-      "prereq_expression": null,
-      "other_requirements": "Lesson audition required before enrollment confirmed. Non Music majors and minors; May be repeated for credit; Audition required before enrollment confirmed; Lab fee $555 per credit; Students should contact instructor for schedule information; PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "MUL 2121",
-      "course_code": "MUL 2121",
-      "department": "MUL",
-      "title": "Group Jazz Piano I",
-      "credit_hours": "1",
-      "description": "Introduction to jazz piano techniques, including rootless voicings, soloing, and comping; and covering basic chord progressions, blues, and standard tunes. Prerequisites: <a href=\"/search/?p=MUL%201111\" data-action=\"result-detail\" data-group=\"code:MUL 1111\" >MUL 1111</a>; or basic keyboard knowledge and Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MUL 1111\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MUL 1111\"}, {\"type\": \"other\", \"text\": \"basic keyboard knowledge\"}]}]}",
-      "other_requirements": "Instructor permission",
-      "external": false
-    },
-    {
-      "id": "MUL 1500",
-      "course_code": "MUL 1500",
-      "department": "MUL",
-      "title": "Rqd Sec Lessons:Conga/LatPrcsn",
-      "credit_hours": "1 to 2",
-      "description": "Private instruction for Music majors on a required secondary instrument/voice. Subject to staff availability. Lab fee required. May be repeated for credit. Prerequisite: Music majors; successful completion of Entrance Audition.",
-      "prereq_expression": null,
-      "other_requirements": "Music majors; successful completion of Entrance Audition. MUSE (Music Education) majors only",
-      "external": false
-    },
-    {
-      "id": "MUL 2400",
-      "course_code": "MUL 2400",
-      "department": "MUL",
-      "title": "Private Lessons:Classcl Guitar",
-      "credit_hours": "1 to 2",
-      "description": "Private instruction on an instrument/voice for Music minors. Subject to availability of staff. Lab fee required. May be repeated for credit. Prerequisites: Music minors; lesson audition required before enrollment confirmed.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MUS\"}, {\"type\": \"course\", \"code\": \"MTHE\"}, {\"type\": \"course\", \"code\": \"MTEC\"}, {\"type\": \"course\", \"code\": \"MUS5\"}]}",
-      "other_requirements": "Music minors; lesson audition required before enrollment confirmed; May be repeated for credit; Lab fee $460 per credit; Students should contact instructor for schedule information",
-      "external": false
-    },
-    {
       "id": "MUL 1113",
       "course_code": "MUL 1113",
       "department": "MUL",
@@ -98,17 +10,6 @@
       "description": "Group lessons at the beginning level in guitar. May not be counted toward the Music major or minor. May be taken up to three times for credit.",
       "prereq_expression": null,
       "other_requirements": "PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "MUL 2112",
-      "course_code": "MUL 2112",
-      "department": "MUL",
-      "title": "Piano Proficiency II",
-      "credit_hours": "1",
-      "description": "Functional piano skills for musicians. Scales, technique, harmonizing, sight reading, repertory. Prerequisites: <a href=\"/search/?p=MUL%202111\" data-action=\"result-detail\" data-group=\"code:MUL 2111\"  class=\"notoffered\">MUL 2111</a> or equivalent determined by placement test; Music or Music Education majors or Instructor permission only.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MUL 2111\"}, {\"type\": \"course\", \"code\": \"equivalent determined by placement test\"}]}",
-      "other_requirements": "Music or Music Education majors or Instructor permission only",
       "external": false
     },
     {
@@ -123,17 +24,6 @@
       "external": false
     },
     {
-      "id": "MUL 1600",
-      "course_code": "MUL 1600",
-      "department": "MUL",
-      "title": "Elec SecLessons:Conga/LatPrcsn",
-      "credit_hours": "1 to 2",
-      "description": "Private instruction for music majors on an elective, non- required secondary instrument/voice. Subject to staff availability. Lab fee required. May be repeated for credit. Prerequisite: Music majors; successful completion of Entrance Audition.",
-      "prereq_expression": null,
-      "other_requirements": "Music majors; successful completion of Entrance Audition. MUS, MUSE majors only; Lab fee $460 per credit.",
-      "external": false
-    },
-    {
       "id": "MUL 4550",
       "course_code": "MUL 4550",
       "department": "MUL",
@@ -142,6 +32,50 @@
       "description": "The solo recital is the capstone performance experience for music majors. Repertoire for the recital will be chosen in consultation with the private lesson teacher and, where appropriate, the area head. Students should take <a href=\"/search/?p=MUL%204500\" data-action=\"result-detail\" data-group=\"code:MUL 4500\" >MUL 4500</a> concurrently. Prerequisites: Music or Music Education majors only; Students must have performed on at least four Student Performance Recitals before they are eligible for this course.",
       "prereq_expression": "{\"type\": \"course\", \"code\": \"MUL 4500\"}",
       "other_requirements": "Music or Music Education majors only; Students must have performed on at least four Student Performance Recitals before they are eligible for this course. MUS, MUSE majors only; Must pass Level IV Exam; Lab fee $260 per credit",
+      "external": false
+    },
+    {
+      "id": "MUL 1300",
+      "course_code": "MUL 1300",
+      "department": "MUL",
+      "title": "Private Lessons:Conga/LatPrcsn",
+      "credit_hours": "1 to 2",
+      "description": "Private instruction on an instrument/voice for non-majors and non-minors. Contact department immediately after registering. Subject to availability of staff. Lab fee required. May be repeated for credit. Not open for credit to Music majors/minors. Prerequisite: Lesson audition required before enrollment confirmed.",
+      "prereq_expression": null,
+      "other_requirements": "Lesson audition required before enrollment confirmed. Non Music majors and minors; May be repeated for credit; Audition required before enrollment confirmed; Lab fee $555 per credit; Students should contact instructor for schedule information; PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "MUL 2122",
+      "course_code": "MUL 2122",
+      "department": "MUL",
+      "title": "Group Jazz Piano II",
+      "credit_hours": "1.5",
+      "description": "Exploration of topics including stride, modal comping, and chord substitution. Some review of concepts from <a href=\"/search/?p=MUL%202121\" data-action=\"result-detail\" data-group=\"code:MUL 2121\"  class=\"notoffered\">MUL 2121</a>. Prerequisites: <a href=\"/search/?p=MUL%202121\" data-action=\"result-detail\" data-group=\"code:MUL 2121\"  class=\"notoffered\">MUL 2121</a>; Music or Music Education majors or minors only.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MUL 2121\"}",
+      "other_requirements": "Music or Music Education majors or minors only.",
+      "external": false
+    },
+    {
+      "id": "MUL 2121",
+      "course_code": "MUL 2121",
+      "department": "MUL",
+      "title": "Group Jazz Piano I",
+      "credit_hours": "1",
+      "description": "Introduction to jazz piano techniques, including rootless voicings, soloing, and comping; and covering basic chord progressions, blues, and standard tunes. Prerequisites: <a href=\"/search/?p=MUL%201111\" data-action=\"result-detail\" data-group=\"code:MUL 1111\" >MUL 1111</a>; or basic keyboard knowledge and Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MUL 1111\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MUL 1111\"}, {\"type\": \"other\", \"text\": \"basic keyboard knowledge\"}]}]}",
+      "other_requirements": "Instructor permission",
+      "external": false
+    },
+    {
+      "id": "MUL 2400",
+      "course_code": "MUL 2400",
+      "department": "MUL",
+      "title": "Private Lessons:Classcl Guitar",
+      "credit_hours": "1 to 2",
+      "description": "Private instruction on an instrument/voice for Music minors. Subject to availability of staff. Lab fee required. May be repeated for credit. Prerequisites: Music minors; lesson audition required before enrollment confirmed.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MUS\"}, {\"type\": \"course\", \"code\": \"MTHE\"}, {\"type\": \"course\", \"code\": \"MTEC\"}, {\"type\": \"course\", \"code\": \"MUS5\"}]}",
+      "other_requirements": "Music minors; lesson audition required before enrollment confirmed; May be repeated for credit; Lab fee $460 per credit; Students should contact instructor for schedule information",
       "external": false
     },
     {
@@ -164,6 +98,72 @@
       "description": "Private instruction on an instrument/voice for Music majors. Lab fee required. Juried examinations generally every semester of study. May be repeated for credit. Prerequisites: Music majors; successful completion of Entrance Audition.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"Entrance Audition\"}, {\"type\": \"course\", \"code\": \"Basic Perf Assessment\"}]}",
       "other_requirements": "Music majors; MUS, MUSE majors only; Lab fee $260 per credit",
+      "external": false
+    },
+    {
+      "id": "MUL 1600",
+      "course_code": "MUL 1600",
+      "department": "MUL",
+      "title": "Elec SecLessons:Conga/LatPrcsn",
+      "credit_hours": "1 to 2",
+      "description": "Private instruction for music majors on an elective, non- required secondary instrument/voice. Subject to staff availability. Lab fee required. May be repeated for credit. Prerequisite: Music majors; successful completion of Entrance Audition.",
+      "prereq_expression": null,
+      "other_requirements": "Music majors; successful completion of Entrance Audition. MUS, MUSE majors only; Lab fee $460 per credit.",
+      "external": false
+    },
+    {
+      "id": "MUL 1200",
+      "course_code": "MUL 1200",
+      "department": "MUL",
+      "title": "Basic Private Lessons: Piano",
+      "credit_hours": "1",
+      "description": "Private lessons in basic instrumental or vocal skills for non-music majors. A meeting with the teacher is required to assess appropriate placement. May be repeated for credit. Lab fee required. Prerequisites: For piano: <a href=\"/search/?p=MUL%201111\" data-action=\"result-detail\" data-group=\"code:MUL 1111\" >MUL 1111</a> or equivalent; audition required.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MUL 1111\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
+      "other_requirements": "A meeting with the teacher is required to assess appropriate placement. Audition required. Lab fee required. Lab fee $555 per credit; Students should contact instructor for schedule information PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "MUL 1700",
+      "course_code": "MUL 1700",
+      "department": "MUL",
+      "title": "Private Lessons:Classcl Guitar",
+      "credit_hours": "1 to 2",
+      "description": "Private lessons on primary instrument or voice for Music Majors with a concentration in Music Technology and Business who have not yet passed the Level II Examination. Prerequisite: Pre-Level II Exam Music major with declared Music Technology and Business concentration.",
+      "prereq_expression": null,
+      "other_requirements": "Private lessons on primary instrument or voice for Music Majors with a concentration in Music Technology and Business who have not yet passed the Level II Examination. Pre-Level II Exam Music major with declared Music Technology and Business concentration. Restricted to MUS5 (Music Technology & Business) majors who are preparing for Basic Performance Assessment.",
+      "external": false
+    },
+    {
+      "id": "MUL 2112",
+      "course_code": "MUL 2112",
+      "department": "MUL",
+      "title": "Piano Proficiency II",
+      "credit_hours": "1",
+      "description": "Functional piano skills for musicians. Scales, technique, harmonizing, sight reading, repertory. Prerequisites: <a href=\"/search/?p=MUL%202111\" data-action=\"result-detail\" data-group=\"code:MUL 2111\"  class=\"notoffered\">MUL 2111</a> or equivalent determined by placement test; Music or Music Education majors or Instructor permission only.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MUL 2111\"}, {\"type\": \"course\", \"code\": \"equivalent determined by placement test\"}]}",
+      "other_requirements": "Music or Music Education majors or Instructor permission only",
+      "external": false
+    },
+    {
+      "id": "MUL 1111",
+      "course_code": "MUL 1111",
+      "department": "MUL",
+      "title": "Beginning Group Lessons: Piano",
+      "credit_hours": "1.5",
+      "description": "Group lessons at the beginning level in piano. May not be counted toward the Music major or minor, except for students concentrating in Music Technology and Business. May be taken a total of two times for credit.",
+      "prereq_expression": null,
+      "other_requirements": "MUS and MUSE majors only; PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "MUL 1500",
+      "course_code": "MUL 1500",
+      "department": "MUL",
+      "title": "Rqd Sec Lessons:Conga/LatPrcsn",
+      "credit_hours": "1 to 2",
+      "description": "Private instruction for Music majors on a required secondary instrument/voice. Subject to staff availability. Lab fee required. May be repeated for credit. Prerequisite: Music majors; successful completion of Entrance Audition.",
+      "prereq_expression": null,
+      "other_requirements": "Music majors; successful completion of Entrance Audition. MUSE (Music Education) majors only",
       "external": false
     }
   ],

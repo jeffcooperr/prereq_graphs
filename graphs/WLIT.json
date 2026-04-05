@@ -2,12 +2,12 @@
   "department": "WLIT",
   "nodes": [
     {
-      "id": "WLIT 1350",
-      "course_code": "WLIT 1350",
+      "id": "WLIT 1400",
+      "course_code": "WLIT 1400",
       "department": "WLIT",
-      "title": "Reading Japanese Manga",
+      "title": "French Kiss",
       "credit_hours": "3",
-      "description": "Selected topics in Japanese literature. Readings and discussion of representative works in English translation. No knowledge of Japanese required. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "description": "Selected topics in French literature. Readings and discussion of representative works in English translation. No knowledge of French required. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -24,36 +24,25 @@
       "external": false
     },
     {
-      "id": "WLIT 1400",
-      "course_code": "WLIT 1400",
+      "id": "WLIT 1010",
+      "course_code": "WLIT 1010",
       "department": "WLIT",
-      "title": "French Kiss",
+      "title": "FYS: Euro Fairytales Old & New",
       "credit_hours": "3",
-      "description": "Selected topics in French literature. Readings and discussion of representative works in English translation. No knowledge of French required. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
     },
     {
-      "id": "WLIT 2375",
-      "course_code": "WLIT 2375",
+      "id": "WLIT 1350",
+      "course_code": "WLIT 1350",
       "department": "WLIT",
-      "title": "Japanese Contemporary Fiction",
+      "title": "Reading Japanese Manga",
       "credit_hours": "3",
-      "description": "Exploration of Japanese writing in translation in a variety of genres and style, mainly novels and short stories, published since the 1980s. Pre/Co-requisite: A Catamount Core WIL1 course.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"Catamount Core WIL1\"}",
-      "other_requirements": "Sophomores, juniors and seniors only",
-      "external": false
-    },
-    {
-      "id": "WLIT 2370",
-      "course_code": "WLIT 2370",
-      "department": "WLIT",
-      "title": "Japanese Lit in Tr: Modern",
-      "credit_hours": "3",
-      "description": "Exploration of modern and contemporary Japanese literary works in translation from the late nineteenth to early twenty-first century. Pre/Co-requisite: A Catamount Core WIL1 course.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"Catamount Core WIL1\"}",
-      "other_requirements": "PACE students with permission and override",
+      "description": "Selected topics in Japanese literature. Readings and discussion of representative works in English translation. No knowledge of Japanese required. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     },
     {
@@ -68,14 +57,25 @@
       "external": false
     },
     {
-      "id": "WLIT 1010",
-      "course_code": "WLIT 1010",
+      "id": "WLIT 2370",
+      "course_code": "WLIT 2370",
       "department": "WLIT",
-      "title": "FYS: Euro Fairytales Old & New",
+      "title": "Japanese Lit in Tr: Modern",
       "credit_hours": "3",
-      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "description": "Exploration of modern and contemporary Japanese literary works in translation from the late nineteenth to early twenty-first century. Pre/Co-requisite: A Catamount Core WIL1 course.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"Catamount Core WIL1\"}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "WLIT 2375",
+      "course_code": "WLIT 2375",
+      "department": "WLIT",
+      "title": "Japanese Contemporary Fiction",
+      "credit_hours": "3",
+      "description": "Exploration of Japanese writing in translation in a variety of genres and style, mainly novels and short stories, published since the 1980s. Pre/Co-requisite: A Catamount Core WIL1 course.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"Catamount Core WIL1\"}",
+      "other_requirements": "Sophomores, juniors and seniors only",
       "external": false
     }
   ],

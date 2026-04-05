@@ -2,15 +2,15 @@
   "department": "NURS",
   "nodes": [
     {
-      "id": "NURS 3220",
-      "course_code": "NURS 3220",
-      "department": "NURS",
-      "title": "Pathophysiology",
-      "credit_hours": "3",
-      "description": "Provides a comprehensive foundation in pathophysiology. The phenomena that result in dysfunction in human physiologic response will be examined. Credit not awarded for both NURS 3220 and <a href=\"/search/?p=GRNS%205130\" data-action=\"result-detail\" data-group=\"code:GRNS 5130\" >GRNS 5130</a>. Prerequisites: Minimum Junior or Graduate standing; <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a>, <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>, <a href=\"/search/?p=MMG%201650\" data-action=\"result-detail\" data-group=\"code:MMG 1650\" >MMG 1650</a>. Co-requisite: <a href=\"/search/?p=PRNU%203228\" data-action=\"result-detail\" data-group=\"code:PRNU 3228\" >PRNU 3228</a>; Nursing students only.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}, {\"type\": \"course\", \"code\": \"MMG 1650\"}]}",
-      "other_requirements": "Minimum Junior or Graduate standing; Nursing students only; Junior, Senior, standing students only; PACE students by permission and override. Credit not awarded for both NURS 3220 and GRNS 5130.",
-      "external": false
+      "id": "MMG 1650",
+      "course_code": "MMG 1650",
+      "department": "MMG",
+      "title": "Microbiology & Pathogenesis",
+      "credit_hours": "4",
+      "description": "Overview of microbiology, emphasizing the relationships between the structure, metabolism, and genetics of microorganisms and their roles in nature and in pathogenesis. Prerequisite: One semester chemistry. Not intended for students who have completed <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a> and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1110\"}, {\"type\": \"course\", \"code\": \"CHEM 1210\"}, {\"type\": \"course\", \"code\": \"CHEM 1215\"}]}",
+      "other_requirements": "One semester chemistry. Not intended for students who have completed BIOL 1400 and BIOL 1450 or equivalent. Students with BIOL 1400 and 1450 or BCOR 1400 and 1450 should register for MMG 2010; 4 Hrs Chemistry; Must register for an MMG 1650 lab; Additional Lab fee: $50.00; PRNU majors only, or by instructor permission; Degree students only even after level restrictions removed; PACE students register for MMG 1650 ZRA; Colocated with MMG 1650 ZRA;",
+      "external": true
     },
     {
       "id": "ANPS 1190",
@@ -24,14 +24,14 @@
       "external": true
     },
     {
-      "id": "MMG 1650",
-      "course_code": "MMG 1650",
-      "department": "MMG",
-      "title": "Microbiology & Pathogenesis",
+      "id": "ANPS 1200",
+      "course_code": "ANPS 1200",
+      "department": "ANPS",
+      "title": "Ugr Hum Anatomy & Physiology 2",
       "credit_hours": "4",
-      "description": "Overview of microbiology, emphasizing the relationships between the structure, metabolism, and genetics of microorganisms and their roles in nature and in pathogenesis. Prerequisite: One semester chemistry. Not intended for students who have completed <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a> and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1110\"}, {\"type\": \"course\", \"code\": \"CHEM 1210\"}, {\"type\": \"course\", \"code\": \"CHEM 1215\"}]}",
-      "other_requirements": "One semester chemistry. Not intended for students who have completed BIOL 1400 and BIOL 1450 or equivalent. Students with BIOL 1400 and 1450 or BCOR 1400 and 1450 should register for MMG 2010; 4 Hrs Chemistry; Must register for an MMG 1650 lab; Additional Lab fee: $50.00; PRNU majors only, or by instructor permission; Degree students only even after level restrictions removed; PACE students register for MMG 1650 ZRA; Colocated with MMG 1650 ZRA;",
+      "description": "Part II of two-semester course sequence. Structure and function of human body. Prerequisite: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\"  class=\"notoffered\">ANPS 1190</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"ANPS 1190\"}",
+      "other_requirements": "Common hour exams are held 5:30-7:00pm on these Mondays: 2/9, 3/2, and 4/6. BIOM,CSD,DIET,DNFS,EXSC,HSCI,MLS,NFS, PE, PHS, MRS, PRNU; Majors only until Dec. 2nd, Please contact Patrick Mullen (patrick.c.mullen@uvm.edu) with any questions; Class meets 3x a week with online lab comprising 4th credit; Degree students only even after level restrictions removed; PACE students register for ANPS 1200 ZRA; Prereq enforced by the system:ANPS 1190.",
       "external": true
     },
     {
@@ -46,15 +46,15 @@
       "external": false
     },
     {
-      "id": "ANPS 1200",
-      "course_code": "ANPS 1200",
-      "department": "ANPS",
-      "title": "Ugr Hum Anatomy & Physiology 2",
-      "credit_hours": "4",
-      "description": "Part II of two-semester course sequence. Structure and function of human body. Prerequisite: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\"  class=\"notoffered\">ANPS 1190</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"ANPS 1190\"}",
-      "other_requirements": "Common hour exams are held 5:30-7:00pm on these Mondays: 2/9, 3/2, and 4/6. BIOM,CSD,DIET,DNFS,EXSC,HSCI,MLS,NFS, PE, PHS, MRS, PRNU; Majors only until Dec. 2nd, Please contact Patrick Mullen (patrick.c.mullen@uvm.edu) with any questions; Class meets 3x a week with online lab comprising 4th credit; Degree students only even after level restrictions removed; PACE students register for ANPS 1200 ZRA; Prereq enforced by the system:ANPS 1190.",
-      "external": true
+      "id": "NURS 3220",
+      "course_code": "NURS 3220",
+      "department": "NURS",
+      "title": "Pathophysiology",
+      "credit_hours": "3",
+      "description": "Provides a comprehensive foundation in pathophysiology. The phenomena that result in dysfunction in human physiologic response will be examined. Credit not awarded for both NURS 3220 and <a href=\"/search/?p=GRNS%205130\" data-action=\"result-detail\" data-group=\"code:GRNS 5130\" >GRNS 5130</a>. Prerequisites: Minimum Junior or Graduate standing; <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a>, <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>, <a href=\"/search/?p=MMG%201650\" data-action=\"result-detail\" data-group=\"code:MMG 1650\" >MMG 1650</a>. Co-requisite: <a href=\"/search/?p=PRNU%203228\" data-action=\"result-detail\" data-group=\"code:PRNU 3228\" >PRNU 3228</a>; Nursing students only.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}, {\"type\": \"course\", \"code\": \"MMG 1650\"}]}",
+      "other_requirements": "Minimum Junior or Graduate standing; Nursing students only; Junior, Senior, standing students only; PACE students by permission and override. Credit not awarded for both NURS 3220 and GRNS 5130.",
+      "external": false
     }
   ],
   "edges": [

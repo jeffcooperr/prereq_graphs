@@ -135,6 +135,14 @@
     opacity: 0.9;
   }
 
+  .legend-dot.mc-taken     { background: #27ae60; box-shadow: 0 0 6px rgba(39,174,96,0.4); }
+  .legend-dot.mc-available { background: #2980b9; box-shadow: 0 0 6px rgba(41,128,185,0.4); }
+  .legend-dot.mc-locked    { background: #c0392b; box-shadow: 0 0 6px rgba(192,57,43,0.4); }
+
+  #legend-mc { display: none; flex-direction: column; gap: 8px; }
+  body.my-courses-mode #legend-levels { display: none; }
+  body.my-courses-mode #legend-mc     { display: flex; }
+
   svg {
     width: 100vw;
     height: 100vh;
@@ -1124,14 +1132,21 @@
 </div>
 
 <div id="legend">
-  <div class="legend-item"><div class="legend-dot level-1000"></div><span>1000-level</span></div>
-  <div class="legend-item"><div class="legend-dot level-2000"></div><span>2000-level</span></div>
-  <div class="legend-item"><div class="legend-dot level-3000"></div><span>3000-level</span></div>
-  <div class="legend-item"><div class="legend-dot level-4000"></div><span>4000-level</span></div>
-  <div class="legend-item"><div class="legend-dot level-5000"></div><span>5000+ (grad)</span></div>
-  <div class="legend-item"><div class="legend-dot external"></div><span>External prereq</span></div>
-  <div class="legend-item"><div class="legend-line and-line"></div><span>Required</span></div>
-  <div class="legend-item"><div class="legend-line or-line"></div><span>Same color = choose one</span></div>
+  <div id="legend-levels">
+    <div class="legend-item"><div class="legend-dot level-1000"></div><span>1000-level</span></div>
+    <div class="legend-item"><div class="legend-dot level-2000"></div><span>2000-level</span></div>
+    <div class="legend-item"><div class="legend-dot level-3000"></div><span>3000-level</span></div>
+    <div class="legend-item"><div class="legend-dot level-4000"></div><span>4000-level</span></div>
+    <div class="legend-item"><div class="legend-dot level-5000"></div><span>5000+ (grad)</span></div>
+    <div class="legend-item"><div class="legend-dot external"></div><span>External prereq</span></div>
+    <div class="legend-item"><div class="legend-line and-line"></div><span>Required</span></div>
+    <div class="legend-item"><div class="legend-line or-line"></div><span>Any one satisfies</span></div>
+  </div>
+  <div id="legend-mc">
+    <div class="legend-item"><div class="legend-dot mc-taken"></div><span>Taken</span></div>
+    <div class="legend-item"><div class="legend-dot mc-available"></div><span>Available</span></div>
+    <div class="legend-item"><div class="legend-dot mc-locked"></div><span>Locked</span></div>
+  </div>
 </div>
 
 <div id="tooltip"><div class="tooltip-inner"></div></div>
@@ -1515,7 +1530,7 @@ function render(data) {
   graphNodes.forEach(n => { outDegree[n.id] = 0; });
   edges.forEach(e => { if (e.source in outDegree) outDegree[e.source]++; });
   graphNodes.forEach(n => {
-    n._r = n.external ? 7 : Math.min(28, Math.round(11 + Math.sqrt(outDegree[n.id] || 0) * 3.5));
+    n._r = n.external ? 7 : Math.min(22, Math.round(11 + Math.sqrt(outDegree[n.id] || 0) * 2));
   });
 
   // Update stats
@@ -1753,6 +1768,7 @@ function render(data) {
   updateTakenCount();
   document.getElementById('my-courses-panel').classList.remove('visible');
   document.body.classList.remove('courses-open');
+  document.body.classList.remove('my-courses-mode');
   layoutMode = 'web';
   document.getElementById('layout-toggle').textContent = 'Hierarchy';
   document.getElementById('layout-toggle').classList.remove('active');
@@ -1854,6 +1870,7 @@ document.getElementById('my-courses-toggle').addEventListener('click', () => {
     btn.classList.add('active');
     panel.classList.add('visible');
     document.body.classList.add('courses-open');
+    document.body.classList.add('my-courses-mode');
     // Clear any active highlight
     graphState.node.classed('dimmed', false);
     graphState.link.classed('dimmed', false).classed('highlighted', false);
@@ -1865,6 +1882,7 @@ document.getElementById('my-courses-toggle').addEventListener('click', () => {
     btn.classList.remove('active');
     panel.classList.remove('visible');
     document.body.classList.remove('courses-open');
+    document.body.classList.remove('my-courses-mode');
     const { node, groupColorMap } = graphState;
     node.classed('taken', false).classed('available', false).classed('locked', false);
     node.selectAll('circle')
