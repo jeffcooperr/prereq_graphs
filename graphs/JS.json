@@ -2,17 +2,6 @@
   "department": "JS",
   "nodes": [
     {
-      "id": "JS 1500",
-      "course_code": "JS 1500",
-      "department": "JS",
-      "title": "Jews and Judaisms",
-      "credit_hours": "3",
-      "description": "An introduction to Jewish history, religious thought and practice, ethics, and law. Cross-listed with: <a href=\"/search/?p=REL%201240\" data-action=\"result-detail\" data-group=\"code:REL 1240\" >REL 1240</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
       "id": "JS 1990",
       "course_code": "JS 1990",
       "department": "JS",
@@ -21,6 +10,17 @@
       "description": "See schedule of courses for specific titles.",
       "prereq_expression": null,
       "other_requirements": "Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "JS 1500",
+      "course_code": "JS 1500",
+      "department": "JS",
+      "title": "Jews and Judaisms",
+      "credit_hours": "3",
+      "description": "An introduction to Jewish history, religious thought and practice, ethics, and law. Cross-listed with: <a href=\"/search/?p=REL%201240\" data-action=\"result-detail\" data-group=\"code:REL 1240\" >REL 1240</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     }
   ],

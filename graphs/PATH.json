@@ -2,61 +2,6 @@
   "department": "PATH",
   "nodes": [
     {
-      "id": "PATH 6070",
-      "course_code": "PATH 6070",
-      "department": "PATH",
-      "title": "Molecular Pathology",
-      "credit_hours": "3",
-      "description": "Covers mechanisms of disease, molecular biology and genetics, diagnostic molecular pathology, as well as principles, tools and applications in research of molecular pathogenesis. Prerequisite: <a href=\"/search/?p=PATH%206000\" data-action=\"result-detail\" data-group=\"code:PATH 6000\"  class=\"notoffered\">PATH 6000</a> or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PATH 6000\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
-      "other_requirements": "Synchronous online course",
-      "external": false
-    },
-    {
-      "id": "PATH 2010",
-      "course_code": "PATH 2010",
-      "department": "PATH",
-      "title": "Intro to Human Disease",
-      "credit_hours": "3",
-      "description": "Elementary course in human pathology designed for Allied Health students. First portion deals with general mechanisms of disease, followed by disorders of specific organs. Prerequisites: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a> and <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}",
-      "other_requirements": "MLS, MRS, NMT and RADT majors only; Prerequisites: College biology and two successfully completed semesters of Anatomy and Physiology.",
-      "external": false
-    },
-    {
-      "id": "PATH 6250",
-      "course_code": "PATH 6250",
-      "department": "PATH",
-      "title": "Genetics for Clinicians",
-      "credit_hours": "3",
-      "description": "Provides an overview of contemporary human genetics and genomics with application to clinical practice. Cross-listed with: <a href=\"/search/?p=GRNS%206250\" data-action=\"result-detail\" data-group=\"code:GRNS 6250\" >GRNS 6250</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Cross-listed with: GRNS 6250. Cross listed with GRNS 6250OL1; Combined enrollment: 30; GRNS and MLSC have priority, others by instructor permission. Online asynchronous",
-      "external": false
-    },
-    {
-      "id": "PATH 6300",
-      "course_code": "PATH 6300",
-      "department": "PATH",
-      "title": "Pathology Rotations",
-      "credit_hours": "3 to 9",
-      "description": "Laboratory practicum for Pathology Master's students. Engages students in clinical and anatomic pathology laboratory rotations under supervision of attending physicians and senior residents in the University of Vermont Medical Center Pathology Department.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "ANPS 1190",
-      "course_code": "ANPS 1190",
-      "department": "ANPS",
-      "title": "Ugr Hum Anatomy & Physiology 1",
-      "credit_hours": "4",
-      "description": "Part I of two-semester course sequence. Structure and function of human body.",
-      "prereq_expression": null,
-      "other_requirements": "Prereg limited to: BMCS, BIOM, CSD, EMS, EXSC, HSCI, MLS, MRS, NFS, NMT, PE, PHS, PRNU majors only. Degree students only even after major restrictions lifted.",
-      "external": true
-    },
-    {
       "id": "PATH 2995",
       "course_code": "PATH 2995",
       "department": "PATH",
@@ -65,28 +10,6 @@
       "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": "Must receive prior permission/approval from the instructor. Determine no. of credits to enroll in w/ instr.",
-      "external": false
-    },
-    {
-      "id": "PATH 6280",
-      "course_code": "PATH 6280",
-      "department": "PATH",
-      "title": "Techniques in Microscopy",
-      "credit_hours": "3",
-      "description": "Introduces many of the microscopy systems and techniques available in the Microscopy Imaging Center core facility in the Larner College of Medicine at UVM.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate students only; Enrollment of undergraduate students allowed with Instructor permission",
-      "external": false
-    },
-    {
-      "id": "PATH 6000",
-      "course_code": "PATH 6000",
-      "department": "PATH",
-      "title": "Biomedical Research Design",
-      "credit_hours": "1",
-      "description": "Covers the anatomy of research: what it is made of; and the physiology of research: how it works. Introduces techniques and strategies of research design, implementation, and interpretation. Provides basic tools needed to understand how research in pathology is conducted.",
-      "prereq_expression": null,
-      "other_requirements": null,
       "external": false
     },
     {
@@ -101,14 +24,25 @@
       "external": false
     },
     {
-      "id": "PATH 6090",
-      "course_code": "PATH 6090",
+      "id": "PATH 6000",
+      "course_code": "PATH 6000",
       "department": "PATH",
-      "title": "Pathology Grand Rounds",
+      "title": "Biomedical Research Design",
       "credit_hours": "1",
-      "description": "Develops ability to prepare and deliver research presentations/Grand Rounds, and to participate in Grand Rounds discussion by critically reading related literature. Builds on the reading skills developed in <a href=\"/search/?p=PATH%206080\" data-action=\"result-detail\" data-group=\"code:PATH 6080\"  class=\"notoffered\">PATH 6080</a>. Prerequisites: <a href=\"/search/?p=PATH%206000\" data-action=\"result-detail\" data-group=\"code:PATH 6000\"  class=\"notoffered\">PATH 6000</a>, <a href=\"/search/?p=PATH%206030\" data-action=\"result-detail\" data-group=\"code:PATH 6030\"  class=\"notoffered\">PATH 6030</a>, <a href=\"/search/?p=PATH%206080\" data-action=\"result-detail\" data-group=\"code:PATH 6080\"  class=\"notoffered\">PATH 6080</a>; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PATH 6000\"}, {\"type\": \"course\", \"code\": \"PATH 6030\"}, {\"type\": \"course\", \"code\": \"PATH 6080\"}]}, {\"type\": \"course\", \"code\": \"PATH 6080\"}]}",
-      "other_requirements": "Instructor permission",
+      "description": "Covers the anatomy of research: what it is made of; and the physiology of research: how it works. Introduces techniques and strategies of research design, implementation, and interpretation. Provides basic tools needed to understand how research in pathology is conducted.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PATH 6070",
+      "course_code": "PATH 6070",
+      "department": "PATH",
+      "title": "Molecular Pathology",
+      "credit_hours": "3",
+      "description": "Covers mechanisms of disease, molecular biology and genetics, diagnostic molecular pathology, as well as principles, tools and applications in research of molecular pathogenesis. Prerequisite: <a href=\"/search/?p=PATH%206000\" data-action=\"result-detail\" data-group=\"code:PATH 6000\"  class=\"notoffered\">PATH 6000</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PATH 6000\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
+      "other_requirements": "Synchronous online course",
       "external": false
     },
     {
@@ -123,6 +57,28 @@
       "external": true
     },
     {
+      "id": "PATH 2010",
+      "course_code": "PATH 2010",
+      "department": "PATH",
+      "title": "Intro to Human Disease",
+      "credit_hours": "3",
+      "description": "Elementary course in human pathology designed for Allied Health students. First portion deals with general mechanisms of disease, followed by disorders of specific organs. Prerequisites: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a> and <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}",
+      "other_requirements": "MLS, MRS, NMT and RADT majors only; Prerequisites: College biology and two successfully completed semesters of Anatomy and Physiology.",
+      "external": false
+    },
+    {
+      "id": "ANPS 1190",
+      "course_code": "ANPS 1190",
+      "department": "ANPS",
+      "title": "Ugr Hum Anatomy & Physiology 1",
+      "credit_hours": "4",
+      "description": "Part I of two-semester course sequence. Structure and function of human body.",
+      "prereq_expression": null,
+      "other_requirements": "Prereg limited to: BMCS, BIOM, CSD, EMS, EXSC, HSCI, MLS, MRS, NFS, NMT, PE, PHS, PRNU majors only. Degree students only even after major restrictions lifted.",
+      "external": true
+    },
+    {
       "id": "PATH 6080",
       "course_code": "PATH 6080",
       "department": "PATH",
@@ -131,6 +87,50 @@
       "description": "Develops ability to read and present findings communicated in peer-reviewed research articles at the level necessary to formulate and plan independent research. Co-requisites: <a href=\"/search/?p=PATH%206000\" data-action=\"result-detail\" data-group=\"code:PATH 6000\" >PATH 6000</a>, <a href=\"/search/?p=PATH%206030\" data-action=\"result-detail\" data-group=\"code:PATH 6030\"  class=\"notoffered\">PATH 6030</a>; or Instructor permission.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PATH 6000\"}, {\"type\": \"course\", \"code\": \"PATH 6030\"}]}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
       "other_requirements": "Asynchronous online course.",
+      "external": false
+    },
+    {
+      "id": "PATH 6090",
+      "course_code": "PATH 6090",
+      "department": "PATH",
+      "title": "Pathology Grand Rounds",
+      "credit_hours": "1",
+      "description": "Develops ability to prepare and deliver research presentations/Grand Rounds, and to participate in Grand Rounds discussion by critically reading related literature. Builds on the reading skills developed in <a href=\"/search/?p=PATH%206080\" data-action=\"result-detail\" data-group=\"code:PATH 6080\"  class=\"notoffered\">PATH 6080</a>. Prerequisites: <a href=\"/search/?p=PATH%206000\" data-action=\"result-detail\" data-group=\"code:PATH 6000\"  class=\"notoffered\">PATH 6000</a>, <a href=\"/search/?p=PATH%206030\" data-action=\"result-detail\" data-group=\"code:PATH 6030\"  class=\"notoffered\">PATH 6030</a>, <a href=\"/search/?p=PATH%206080\" data-action=\"result-detail\" data-group=\"code:PATH 6080\"  class=\"notoffered\">PATH 6080</a>; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PATH 6000\"}, {\"type\": \"course\", \"code\": \"PATH 6030\"}, {\"type\": \"course\", \"code\": \"PATH 6080\"}]}, {\"type\": \"course\", \"code\": \"PATH 6080\"}]}",
+      "other_requirements": "Instructor permission",
+      "external": false
+    },
+    {
+      "id": "PATH 6300",
+      "course_code": "PATH 6300",
+      "department": "PATH",
+      "title": "Pathology Rotations",
+      "credit_hours": "3 to 9",
+      "description": "Laboratory practicum for Pathology Master's students. Engages students in clinical and anatomic pathology laboratory rotations under supervision of attending physicians and senior residents in the University of Vermont Medical Center Pathology Department.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PATH 6280",
+      "course_code": "PATH 6280",
+      "department": "PATH",
+      "title": "Techniques in Microscopy",
+      "credit_hours": "3",
+      "description": "Introduces many of the microscopy systems and techniques available in the Microscopy Imaging Center core facility in the Larner College of Medicine at UVM.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate students only; Enrollment of undergraduate students allowed with Instructor permission",
+      "external": false
+    },
+    {
+      "id": "PATH 6250",
+      "course_code": "PATH 6250",
+      "department": "PATH",
+      "title": "Genetics for Clinicians",
+      "credit_hours": "3",
+      "description": "Provides an overview of contemporary human genetics and genomics with application to clinical practice. Cross-listed with: <a href=\"/search/?p=GRNS%206250\" data-action=\"result-detail\" data-group=\"code:GRNS 6250\" >GRNS 6250</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Cross-listed with: GRNS 6250. Cross listed with GRNS 6250OL1; Combined enrollment: 30; GRNS and MLSC have priority, others by instructor permission. Online asynchronous",
       "external": false
     }
   ],

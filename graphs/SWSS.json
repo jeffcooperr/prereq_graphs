@@ -2,47 +2,36 @@
   "department": "SWSS",
   "nodes": [
     {
-      "id": "SWSS 6000",
-      "course_code": "SWSS 6000",
+      "id": "SWSS 4730",
+      "course_code": "SWSS 4730",
       "department": "SWSS",
-      "title": "Foundation Yr Practicum",
-      "credit_hours": "3",
-      "description": "Supervised practicum-based learning of 15-20 hours per week. Students are placed in human service agencies and organizations and learn the purposeful application of generalist social work theory, ethics and skills. Prerequisite: Master of Social Work Foundation year student or Coordinator of Practicum Education permission. Co-requisites: <a href=\"/search/?p=SWSS%206120\" data-action=\"result-detail\" data-group=\"code:SWSS 6120\" >SWSS 6120</a>; <a href=\"/search/?p=SWSS%206130\" data-action=\"result-detail\" data-group=\"code:SWSS 6130\"  class=\"notoffered\">SWSS 6130</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 6000\"}, {\"type\": \"course\", \"code\": \"Master of Social Work Foundation year student\"}]}",
-      "other_requirements": "Coordinator of Practicum Education permission",
+      "title": "Practicum Experience I",
+      "credit_hours": "6",
+      "description": "Supervised practicum-based learning of 15-20 hours per week. Students are placed in human service agencies and organizations and learn the application of social work, theory, ethics and skills. Prerequisite: Senior standing. Co-requisites: <a href=\"/search/?p=SWSS%204680\" data-action=\"result-detail\" data-group=\"code:SWSS 4680\" >SWSS 4680</a>, <a href=\"/search/?p=SWSS%204710\" data-action=\"result-detail\" data-group=\"code:SWSS 4710\" >SWSS 4710</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Senior standing. SWSS majors only - Instructor Permission Required",
       "external": false
     },
     {
-      "id": "SWSS 3650",
-      "course_code": "SWSS 3650",
+      "id": "SWSS 2994",
+      "course_code": "SWSS 2994",
       "department": "SWSS",
-      "title": "Iss & Pol in Social Welfare I",
+      "title": "TA: Theories  in Social Work I",
       "credit_hours": "3",
-      "description": "An introduction to economic, political, historical, and social forces that influence the development and implementation of social welfare policy. Prerequisite: <a href=\"/search/?p=SWSS%201020\" data-action=\"result-detail\" data-group=\"code:SWSS 1020\" >SWSS 1020</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 1020\"}, {\"type\": \"course\", \"code\": \"SWSS 1020\"}]}",
-      "other_requirements": "permission and prereq override; SWSS majors only",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"SWSS 3470\"}",
+      "other_requirements": "Instructor permission required",
       "external": false
     },
     {
-      "id": "SWSS 3630",
-      "course_code": "SWSS 3630",
+      "id": "SWSS 5200",
+      "course_code": "SWSS 5200",
       "department": "SWSS",
-      "title": "SL:Theory &Integration PrepSem",
+      "title": "Soc Welfare Pol & Services I",
       "credit_hours": "3",
-      "description": "This course is a bridge between theories studied in pre- and co-requisite courses and senior year. It prepares the student for their field practicum. Prerequisites: <a href=\"/search/?p=SWSS%201020\" data-action=\"result-detail\" data-group=\"code:SWSS 1020\" >SWSS 1020</a>, <a href=\"/search/?p=SWSS%203470\" data-action=\"result-detail\" data-group=\"code:SWSS 3470\"  class=\"notoffered\">SWSS 3470</a>, <a href=\"/search/?p=SWSS%203670\" data-action=\"result-detail\" data-group=\"code:SWSS 3670\"  class=\"notoffered\">SWSS 3670</a>, <a href=\"/search/?p=SWSS%203650\" data-action=\"result-detail\" data-group=\"code:SWSS 3650\"  class=\"notoffered\">SWSS 3650</a>. Co-requisites: <a href=\"/search/?p=SWSS%203480\" data-action=\"result-detail\" data-group=\"code:SWSS 3480\" >SWSS 3480</a>, <a href=\"/search/?p=SWSS%203660\" data-action=\"result-detail\" data-group=\"code:SWSS 3660\" >SWSS 3660</a>. Pre/Co-requisites: <a href=\"/search/?p=SWSS%201040\" data-action=\"result-detail\" data-group=\"code:SWSS 1040\" >SWSS 1040</a>, <a href=\"/search/?p=SWSS%201600\" data-action=\"result-detail\" data-group=\"code:SWSS 1600\"  class=\"notoffered\">SWSS 1600</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 1020\"}, {\"type\": \"course\", \"code\": \"SWSS 3470\"}, {\"type\": \"course\", \"code\": \"SWSS 3670\"}, {\"type\": \"course\", \"code\": \"SWSS 3650\"}]}",
-      "other_requirements": "Junior or Senior SWSS students only, or program permission.",
-      "external": false
-    },
-    {
-      "id": "SWSS 4690",
-      "course_code": "SWSS 4690",
-      "department": "SWSS",
-      "title": "Social Work Practice II",
-      "credit_hours": "3",
-      "description": "Social work theory and practice methods employed by social workers in providing services to groups, organizations, and communities. Prerequisites: <a href=\"/search/?p=SWSS%204680\" data-action=\"result-detail\" data-group=\"code:SWSS 4680\"  class=\"notoffered\">SWSS 4680</a>. Co-requisites: <a href=\"/search/?p=SWSS%204720\" data-action=\"result-detail\" data-group=\"code:SWSS 4720\" >SWSS 4720</a>, <a href=\"/search/?p=SWSS%204740\" data-action=\"result-detail\" data-group=\"code:SWSS 4740\" >SWSS 4740</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"SWSS 4680\"}",
-      "other_requirements": "SWSS majors only",
+      "description": "An introduction to history and philosophy of social work and social welfare and the structure of service programs is provided. Prerequisite: Master of Social Work student or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Master of Social Work student or Instructor permission. MSW standing or instructor permission only",
       "external": false
     },
     {
@@ -57,14 +46,25 @@
       "external": false
     },
     {
-      "id": "SWSS 5160",
-      "course_code": "SWSS 5160",
+      "id": "SWSS 6990",
+      "course_code": "SWSS 6990",
       "department": "SWSS",
-      "title": "The Found ofHum Beh&Soc Envr I",
+      "title": "Constructing Global Social Wor",
       "credit_hours": "3",
-      "description": "Invites students to use theory as a critical thinking tool for social work practice. Students will learn to interpret and apply social constructionism as a practice framework. In doing so, students will gain knowledge about discursive realities that create both norms and differences. Through making visible norms and differences as co-constructions, this class equips social work students with knowledge that is imperative to serving vulnerable populations. Prerequisite: Master of Social Work student or Instructor permission.",
+      "description": "See Schedule of Courses for specific titles.",
       "prereq_expression": null,
-      "other_requirements": "Master of Social Work student or Instructor permission. MSW standing or instructor permission only",
+      "other_requirements": "SPMSW Students Only.",
+      "external": false
+    },
+    {
+      "id": "SWSS 1040",
+      "course_code": "SWSS 1040",
+      "department": "SWSS",
+      "title": "SL:Working with Refugees",
+      "credit_hours": "3",
+      "description": "Provides students an interdisciplinary, entry-level opportunity to learn about the social construction of refugees, the experiences and circumstances of people who become refugees and the apparatus set up to support them using social work/social justice approach.",
+      "prereq_expression": null,
+      "other_requirements": "SWSS majors only or instructor permission. PACE students by permission and override.",
       "external": false
     },
     {
@@ -79,14 +79,47 @@
       "external": false
     },
     {
-      "id": "SWSS 3480",
-      "course_code": "SWSS 3480",
+      "id": "SWSS 3630",
+      "course_code": "SWSS 3630",
       "department": "SWSS",
-      "title": "Theories in Social Work II",
+      "title": "SL:Theory &Integration PrepSem",
       "credit_hours": "3",
-      "description": "Provides a critical examination of traditional and contemporary theories of social work and human behavior and their application in generalist group and macro practice contexts. The second part of a two-course sequence. Prerequisites: <a href=\"/search/?p=SWSS%201020\" data-action=\"result-detail\" data-group=\"code:SWSS 1020\" >SWSS 1020</a>, <a href=\"/search/?p=SWSS%203470\" data-action=\"result-detail\" data-group=\"code:SWSS 3470\"  class=\"notoffered\">SWSS 3470</a>, <a href=\"/search/?p=SWSS%203650\" data-action=\"result-detail\" data-group=\"code:SWSS 3650\"  class=\"notoffered\">SWSS 3650</a>, <a href=\"/search/?p=SWSS%203670\" data-action=\"result-detail\" data-group=\"code:SWSS 3670\"  class=\"notoffered\">SWSS 3670</a>; Social Work major or Instructor permission. Co-requisites: <a href=\"/search/?p=SWSS%203630\" data-action=\"result-detail\" data-group=\"code:SWSS 3630\" >SWSS 3630</a>, <a href=\"/search/?p=SWSS%203660\" data-action=\"result-detail\" data-group=\"code:SWSS 3660\" >SWSS 3660</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 1020\"}, {\"type\": \"course\", \"code\": \"SWSS 3470\"}, {\"type\": \"course\", \"code\": \"SWSS 3650\"}, {\"type\": \"course\", \"code\": \"SWSS 3670\"}]}",
-      "other_requirements": "Social Work major or Instructor permission. Junior or Senior SWSS students only, or program permission",
+      "description": "This course is a bridge between theories studied in pre- and co-requisite courses and senior year. It prepares the student for their field practicum. Prerequisites: <a href=\"/search/?p=SWSS%201020\" data-action=\"result-detail\" data-group=\"code:SWSS 1020\" >SWSS 1020</a>, <a href=\"/search/?p=SWSS%203470\" data-action=\"result-detail\" data-group=\"code:SWSS 3470\"  class=\"notoffered\">SWSS 3470</a>, <a href=\"/search/?p=SWSS%203670\" data-action=\"result-detail\" data-group=\"code:SWSS 3670\"  class=\"notoffered\">SWSS 3670</a>, <a href=\"/search/?p=SWSS%203650\" data-action=\"result-detail\" data-group=\"code:SWSS 3650\"  class=\"notoffered\">SWSS 3650</a>. Co-requisites: <a href=\"/search/?p=SWSS%203480\" data-action=\"result-detail\" data-group=\"code:SWSS 3480\" >SWSS 3480</a>, <a href=\"/search/?p=SWSS%203660\" data-action=\"result-detail\" data-group=\"code:SWSS 3660\" >SWSS 3660</a>. Pre/Co-requisites: <a href=\"/search/?p=SWSS%201040\" data-action=\"result-detail\" data-group=\"code:SWSS 1040\" >SWSS 1040</a>, <a href=\"/search/?p=SWSS%201600\" data-action=\"result-detail\" data-group=\"code:SWSS 1600\"  class=\"notoffered\">SWSS 1600</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 1020\"}, {\"type\": \"course\", \"code\": \"SWSS 3470\"}, {\"type\": \"course\", \"code\": \"SWSS 3670\"}, {\"type\": \"course\", \"code\": \"SWSS 3650\"}]}",
+      "other_requirements": "Junior or Senior SWSS students only, or program permission.",
+      "external": false
+    },
+    {
+      "id": "SWSS 6400",
+      "course_code": "SWSS 6400",
+      "department": "SWSS",
+      "title": "Trans. Change in SW Orgs",
+      "credit_hours": "3",
+      "description": "This course prepares social workers to lead transformative organizational change; change that reorients the way the organization functions through critical questioning of standing organizational discourse and practices. Topics include: futures research, change models, constructivist approaches, &amp; social inequity and difference. Prerequisite: Completion of first year of the Master of Social Work program or advanced student status in the Master of Social Work program.",
+      "prereq_expression": null,
+      "other_requirements": "Completion of first year of the Master of Social Work program or advanced student status in the Master of Social Work program.",
+      "external": false
+    },
+    {
+      "id": "SWSS 5170",
+      "course_code": "SWSS 5170",
+      "department": "SWSS",
+      "title": "Th Found Hum Beh&Soc Envr II",
+      "credit_hours": "3",
+      "description": "The second in a two-course sequence that aims to increase understandings of critical anti-racist, intersectional feminist perspectives pertinent to social work. Prerequisite: <a href=\"/search/?p=SWSS%205160\" data-action=\"result-detail\" data-group=\"code:SWSS 5160\"  class=\"notoffered\">SWSS 5160</a>. Pre/Co-requisite: <a href=\"/search/?p=SWSS%205160\" data-action=\"result-detail\" data-group=\"code:SWSS 5160\"  class=\"notoffered\">SWSS 5160</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 5160\"}, {\"type\": \"course\", \"code\": \"SWSS 5160\"}]}",
+      "other_requirements": "MSW students only, or program permission",
+      "external": false
+    },
+    {
+      "id": "SWSS 4690",
+      "course_code": "SWSS 4690",
+      "department": "SWSS",
+      "title": "Social Work Practice II",
+      "credit_hours": "3",
+      "description": "Social work theory and practice methods employed by social workers in providing services to groups, organizations, and communities. Prerequisites: <a href=\"/search/?p=SWSS%204680\" data-action=\"result-detail\" data-group=\"code:SWSS 4680\"  class=\"notoffered\">SWSS 4680</a>. Co-requisites: <a href=\"/search/?p=SWSS%204720\" data-action=\"result-detail\" data-group=\"code:SWSS 4720\" >SWSS 4720</a>, <a href=\"/search/?p=SWSS%204740\" data-action=\"result-detail\" data-group=\"code:SWSS 4740\" >SWSS 4740</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"SWSS 4680\"}",
+      "other_requirements": "SWSS majors only",
       "external": false
     },
     {
@@ -96,52 +129,52 @@
       "title": "Critical Reflections",
       "credit_hours": "3",
       "description": "Students will learn how to critically reflect on their own experience in order to gain a deeper and more detailed understanding of themselves and their identity, particularly in a context of relating to people from varied social backgrounds which may appear to be different, or similar, to their own. Prerequisite: Foundation year Master of Social Work student or Instructor permission.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"SWSS 5000\"}",
+      "prereq_expression": null,
       "other_requirements": "Foundation year Master of Social Work student or Instructor permission. MSW Standing or Instructor Permission",
       "external": false
     },
     {
-      "id": "SWSS 1020",
-      "course_code": "SWSS 1020",
+      "id": "SWSS 6000",
+      "course_code": "SWSS 6000",
       "department": "SWSS",
-      "title": "Foundations of Social Work",
+      "title": "Foundation Yr Practicum",
       "credit_hours": "3",
-      "description": "An introduction to the profession of social work, its functions, values, knowledge, and the problems it addresses. Methods include: speakers from human service organizations, case examples, a field trip and unique final exam using a community experience and reflection.",
+      "description": "Supervised practicum-based learning of 15-20 hours per week. Students are placed in human service agencies and organizations and learn the purposeful application of generalist social work theory, ethics and skills. Prerequisite: Master of Social Work Foundation year student or Coordinator of Practicum Education permission. Co-requisites: <a href=\"/search/?p=SWSS%206120\" data-action=\"result-detail\" data-group=\"code:SWSS 6120\" >SWSS 6120</a>; <a href=\"/search/?p=SWSS%206130\" data-action=\"result-detail\" data-group=\"code:SWSS 6130\"  class=\"notoffered\">SWSS 6130</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"Master of Social Work Foundation year student\"}",
+      "other_requirements": "Coordinator of Practicum Education permission",
+      "external": false
+    },
+    {
+      "id": "SWSS 6130",
+      "course_code": "SWSS 6130",
+      "department": "SWSS",
+      "title": "Social Work Practice II",
+      "credit_hours": "3",
+      "description": "Emphasizes knowledge and skills of social work practice with organizations and communities. Prerequisite: <a href=\"/search/?p=SWSS%206120\" data-action=\"result-detail\" data-group=\"code:SWSS 6120\"  class=\"notoffered\">SWSS 6120</a>. Pre/Co-requisite: <a href=\"/search/?p=SWSS%206120\" data-action=\"result-detail\" data-group=\"code:SWSS 6120\"  class=\"notoffered\">SWSS 6120</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"SWSS 6120\"}",
+      "other_requirements": "MSW Foundation year students only",
+      "external": false
+    },
+    {
+      "id": "SWSS 4710",
+      "course_code": "SWSS 4710",
+      "department": "SWSS",
+      "title": "Practicum Exp Seminar I",
+      "credit_hours": "3",
+      "description": "Weekly integrative seminar; discussion of practice within practicum site agency. Co-requisites: <a href=\"/search/?p=SWSS%204680\" data-action=\"result-detail\" data-group=\"code:SWSS 4680\" >SWSS 4680</a>, <a href=\"/search/?p=SWSS%204730\" data-action=\"result-detail\" data-group=\"code:SWSS 4730\" >SWSS 4730</a>.",
       "prereq_expression": null,
-      "other_requirements": "Degree students only",
+      "other_requirements": "Senior SWSS majors only. This course builds upon all SWSS prerequisite courses listed above.",
       "external": false
     },
     {
-      "id": "SWSS 4680",
-      "course_code": "SWSS 4680",
+      "id": "SWSS 6270",
+      "course_code": "SWSS 6270",
       "department": "SWSS",
-      "title": "Social Work Practice I",
+      "title": "Adv Social Work Research",
       "credit_hours": "3",
-      "description": "Social work theory and practice methods employed by social workers in providing services to individuals, families, and small groups. Prerequisite: Senior Standing. Co-requisites: <a href=\"/search/?p=SWSS%204710\" data-action=\"result-detail\" data-group=\"code:SWSS 4710\" >SWSS 4710</a>, <a href=\"/search/?p=SWSS%204730\" data-action=\"result-detail\" data-group=\"code:SWSS 4730\" >SWSS 4730</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 4710\"}, {\"type\": \"course\", \"code\": \"SWSS 4730\"}]}",
-      "other_requirements": "Senior Standing. SWSS majors only.",
-      "external": false
-    },
-    {
-      "id": "SWSS 5027",
-      "course_code": "SWSS 5027",
-      "department": "SWSS",
-      "title": "Foundations of SW Research",
-      "credit_hours": "3",
-      "description": "An introduction to qualitative and quantitative methods of applied social research including program evaluation and the evaluation of practice with additional focus on interpreting research for social work context. Prerequisite: Master of Social Work student or Instructor permission.",
-      "prereq_expression": null,
-      "other_requirements": "Master of Social Work student or Instructor permission. MSW students only, or program permission",
-      "external": false
-    },
-    {
-      "id": "SWSS 6160",
-      "course_code": "SWSS 6160",
-      "department": "SWSS",
-      "title": "Integrative Appr Transform SW",
-      "credit_hours": "3",
-      "description": "In this course students will synthesize their exploration of their area of focus in transformative social work through scholarly reading, research and classroom presentations. Prerequisite: Completion of Foundation Year.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"SWSS 6160\"}",
-      "other_requirements": "Completion of Foundation Year. MSW SPMSW year students only",
+      "description": "An analysis of social work research from methodological and theoretical perspectives is emphasized. Students will consider application in their specialized practice area. Prerequisites: <a href=\"/search/?p=SWSS%205160\" data-action=\"result-detail\" data-group=\"code:SWSS 5160\" >SWSS 5160</a>, <a href=\"/search/?p=SWSS%205170\" data-action=\"result-detail\" data-group=\"code:SWSS 5170\"  class=\"notoffered\">SWSS 5170</a>, <a href=\"/search/?p=SWSS%205200\" data-action=\"result-detail\" data-group=\"code:SWSS 5200\" >SWSS 5200</a>, <a href=\"/search/?p=SWSS%205210\" data-action=\"result-detail\" data-group=\"code:SWSS 5210\"  class=\"notoffered\">SWSS 5210</a>, <a href=\"/search/?p=SWSS%206120\" data-action=\"result-detail\" data-group=\"code:SWSS 6120\" >SWSS 6120</a>, <a href=\"/search/?p=SWSS%206130\" data-action=\"result-detail\" data-group=\"code:SWSS 6130\"  class=\"notoffered\">SWSS 6130</a>, <a href=\"/search/?p=SWSS%205027\" data-action=\"result-detail\" data-group=\"code:SWSS 5027\"  class=\"notoffered\">SWSS 5027</a>, <a href=\"/search/?p=SWSS%206000\" data-action=\"result-detail\" data-group=\"code:SWSS 6000\" >SWSS 6000</a> (fall and spring), one <a href=\"/search/?p=SWSS%205000\" data-action=\"result-detail\" data-group=\"code:SWSS 5000\" >SWSS 5000</a>-level elective. Pre/Co-requisite: <a href=\"/search/?p=SWSS%205027\" data-action=\"result-detail\" data-group=\"code:SWSS 5027\"  class=\"notoffered\">SWSS 5027</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 5160\"}, {\"type\": \"course\", \"code\": \"SWSS 5170\"}, {\"type\": \"course\", \"code\": \"SWSS 5200\"}, {\"type\": \"course\", \"code\": \"SWSS 5210\"}, {\"type\": \"course\", \"code\": \"SWSS 6120\"}, {\"type\": \"course\", \"code\": \"SWSS 6130\"}, {\"type\": \"course\", \"code\": \"SWSS 5027\"}, {\"type\": \"course\", \"code\": \"SWSS 6000\"}, {\"type\": \"course\", \"code\": \"SWSS 5000-level elective\"}]}",
+      "other_requirements": "Advanced standing or permission only; Course meets in person.",
       "external": false
     },
     {
@@ -151,41 +184,41 @@
       "title": "Transformative Social Work I",
       "credit_hours": "3",
       "description": "Focuses on developing relational, profound, and generative meanings for change across populations, fields of practice and social issues. Prerequisite: Completion of Foundation Year.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 6140\"}]}",
+      "prereq_expression": null,
       "other_requirements": "Completion of Foundation Year; MSW Concentration Year status only; Corequisite: SWSS 6890",
       "external": false
     },
     {
-      "id": "SWSS 6990",
-      "course_code": "SWSS 6990",
+      "id": "SWSS 5240",
+      "course_code": "SWSS 5240",
       "department": "SWSS",
-      "title": "Constructing Global Social Wor",
+      "title": "De/Constructing Child Protect",
       "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
+      "description": "Examines causes, effects, and responses to child abuse and neglect from historical, sociopolitical, legal, psychological and cultural perspectives.  Child abuse and neglect will be examined as a social construct and in the context of a social and racial justice and human rights perspective. Examines &quot;taken for granted&quot; language and assumptions that maintain power within the social construct. Prerequisite: Matriculation in the foundation year of graduate study in Social Work or Instructor permission.",
       "prereq_expression": null,
-      "other_requirements": "SPMSW Students Only.",
+      "other_requirements": "Matriculation in the foundation year of graduate study in Social Work or Instructor permission. MSW standing or instructor permission only",
       "external": false
     },
     {
-      "id": "SWSS 5210",
-      "course_code": "SWSS 5210",
+      "id": "SWSS 6120",
+      "course_code": "SWSS 6120",
       "department": "SWSS",
-      "title": "Soc Welfare Pol & Services II",
+      "title": "Social Work Practice I",
       "credit_hours": "3",
-      "description": "Focus is on the analysis of the economic, political, and social forces that influence the development and implementation of social welfare policy. Prerequisite: <a href=\"/search/?p=SWSS%205200\" data-action=\"result-detail\" data-group=\"code:SWSS 5200\"  class=\"notoffered\">SWSS 5200</a>. Pre/Co-requisite: <a href=\"/search/?p=SWSS%205200\" data-action=\"result-detail\" data-group=\"code:SWSS 5200\"  class=\"notoffered\">SWSS 5200</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 5200\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 5210\"}, {\"type\": \"course\", \"code\": \"SWSS 5200\"}]}]}",
-      "other_requirements": "MSW students only, or program permission",
+      "description": "A comprehensive introduction to concepts and skills employed by social workers in interactions and interventions with individuals, families, and groups is provided. Prerequisite: Master of Social Work student.",
+      "prereq_expression": null,
+      "other_requirements": "Master of Social Work student. Foundation year MSW students only",
       "external": false
     },
     {
-      "id": "SWSS 4730",
-      "course_code": "SWSS 4730",
+      "id": "SWSS 1010",
+      "course_code": "SWSS 1010",
       "department": "SWSS",
-      "title": "Practicum Experience I",
-      "credit_hours": "6",
-      "description": "Supervised practicum-based learning of 15-20 hours per week. Students are placed in human service agencies and organizations and learn the application of social work, theory, ethics and skills. Prerequisite: Senior standing. Co-requisites: <a href=\"/search/?p=SWSS%204680\" data-action=\"result-detail\" data-group=\"code:SWSS 4680\" >SWSS 4680</a>, <a href=\"/search/?p=SWSS%204710\" data-action=\"result-detail\" data-group=\"code:SWSS 4710\" >SWSS 4710</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 4680\"}, {\"type\": \"course\", \"code\": \"SWSS 4710\"}]}",
-      "other_requirements": "Senior standing. SWSS majors only - Instructor Permission Required",
+      "title": "Ldrship for Racial Justice",
+      "credit_hours": "3",
+      "description": "Seminar on creating racial justice through leadership. The 7 C's of leadership development are explored: consciousness of self, congruence, commitment, collaboration, common purpose, controversy with civility, and citizenship. These concepts are applied to explorations of racism and racial justice.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"PACE\"}",
+      "other_requirements": "students by permission and override",
       "external": false
     },
     {
@@ -211,58 +244,25 @@
       "external": false
     },
     {
-      "id": "SWSS 1040",
-      "course_code": "SWSS 1040",
+      "id": "SWSS 5160",
+      "course_code": "SWSS 5160",
       "department": "SWSS",
-      "title": "SL:Working with Refugees",
+      "title": "The Found ofHum Beh&Soc Envr I",
       "credit_hours": "3",
-      "description": "Provides students an interdisciplinary, entry-level opportunity to learn about the social construction of refugees, the experiences and circumstances of people who become refugees and the apparatus set up to support them using social work/social justice approach.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 1040\"}, {\"type\": \"course\", \"code\": \"SWSS 1040\"}]}",
-      "other_requirements": "SWSS majors only or instructor permission. PACE students by permission and override.",
+      "description": "Invites students to use theory as a critical thinking tool for social work practice. Students will learn to interpret and apply social constructionism as a practice framework. In doing so, students will gain knowledge about discursive realities that create both norms and differences. Through making visible norms and differences as co-constructions, this class equips social work students with knowledge that is imperative to serving vulnerable populations. Prerequisite: Master of Social Work student or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Master of Social Work student or Instructor permission. MSW standing or instructor permission only",
       "external": false
     },
     {
-      "id": "SWSS 5240",
-      "course_code": "SWSS 5240",
+      "id": "SWSS 1020",
+      "course_code": "SWSS 1020",
       "department": "SWSS",
-      "title": "De/Constructing Child Protect",
+      "title": "Foundations of Social Work",
       "credit_hours": "3",
-      "description": "Examines causes, effects, and responses to child abuse and neglect from historical, sociopolitical, legal, psychological and cultural perspectives.  Child abuse and neglect will be examined as a social construct and in the context of a social and racial justice and human rights perspective. Examines &quot;taken for granted&quot; language and assumptions that maintain power within the social construct. Prerequisite: Matriculation in the foundation year of graduate study in Social Work or Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 5240\"}]}",
-      "other_requirements": "Matriculation in the foundation year of graduate study in Social Work or Instructor permission. MSW standing or instructor permission only",
-      "external": false
-    },
-    {
-      "id": "SWSS 6120",
-      "course_code": "SWSS 6120",
-      "department": "SWSS",
-      "title": "Social Work Practice I",
-      "credit_hours": "3",
-      "description": "A comprehensive introduction to concepts and skills employed by social workers in interactions and interventions with individuals, families, and groups is provided. Prerequisite: Master of Social Work student.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 6120\"}]}",
-      "other_requirements": "Master of Social Work student. Foundation year MSW students only",
-      "external": false
-    },
-    {
-      "id": "SWSS 6400",
-      "course_code": "SWSS 6400",
-      "department": "SWSS",
-      "title": "Trans. Change in SW Orgs",
-      "credit_hours": "3",
-      "description": "This course prepares social workers to lead transformative organizational change; change that reorients the way the organization functions through critical questioning of standing organizational discourse and practices. Topics include: futures research, change models, constructivist approaches, &amp; social inequity and difference. Prerequisite: Completion of first year of the Master of Social Work program or advanced student status in the Master of Social Work program.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 6400\"}, {\"type\": \"course\", \"code\": \"SWSS 6400\"}]}",
-      "other_requirements": "Completion of first year of the Master of Social Work program or advanced student status in the Master of Social Work program.",
-      "external": false
-    },
-    {
-      "id": "SWSS 6890",
-      "course_code": "SWSS 6890",
-      "department": "SWSS",
-      "title": "Spec Practice Yr Practicum",
-      "credit_hours": "3",
-      "description": "Supervised practicum-based learning of 15-20 hours per week. Students are placed in human service agencies and organizations and apply advanced social work practice related to an area of specialized practice. Prerequisites: <a href=\"/search/?p=SWSS%205200\" data-action=\"result-detail\" data-group=\"code:SWSS 5200\" >SWSS 5200</a>, <a href=\"/search/?p=SWSS%205210\" data-action=\"result-detail\" data-group=\"code:SWSS 5210\"  class=\"notoffered\">SWSS 5210</a>, <a href=\"/search/?p=SWSS%205160\" data-action=\"result-detail\" data-group=\"code:SWSS 5160\" >SWSS 5160</a>, <a href=\"/search/?p=SWSS%205170\" data-action=\"result-detail\" data-group=\"code:SWSS 5170\"  class=\"notoffered\">SWSS 5170</a>, <a href=\"/search/?p=SWSS%205027\" data-action=\"result-detail\" data-group=\"code:SWSS 5027\"  class=\"notoffered\">SWSS 5027</a>, <a href=\"/search/?p=SWSS%206120\" data-action=\"result-detail\" data-group=\"code:SWSS 6120\" >SWSS 6120</a>, <a href=\"/search/?p=SWSS%206130\" data-action=\"result-detail\" data-group=\"code:SWSS 6130\"  class=\"notoffered\">SWSS 6130</a>, <a href=\"/search/?p=SWSS%206000\" data-action=\"result-detail\" data-group=\"code:SWSS 6000\" >SWSS 6000</a>. Co-requisite: <a href=\"/search/?p=SWSS%206140\" data-action=\"result-detail\" data-group=\"code:SWSS 6140\" >SWSS 6140</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 5200\"}, {\"type\": \"course\", \"code\": \"SWSS 5210\"}, {\"type\": \"course\", \"code\": \"SWSS 5160\"}, {\"type\": \"course\", \"code\": \"SWSS 5170\"}, {\"type\": \"course\", \"code\": \"SWSS 5027\"}, {\"type\": \"course\", \"code\": \"SWSS 6120\"}, {\"type\": \"course\", \"code\": \"SWSS 6130\"}, {\"type\": \"course\", \"code\": \"SWSS 6000\"}]}",
-      "other_requirements": "MSW standing only",
+      "description": "An introduction to the profession of social work, its functions, values, knowledge, and the problems it addresses. Methods include: speakers from human service organizations, case examples, a field trip and unique final exam using a community experience and reflection.",
+      "prereq_expression": null,
+      "other_requirements": "Degree students only",
       "external": false
     },
     {
@@ -277,14 +277,36 @@
       "external": false
     },
     {
-      "id": "SWSS 4710",
-      "course_code": "SWSS 4710",
+      "id": "SWSS 3470",
+      "course_code": "SWSS 3470",
       "department": "SWSS",
-      "title": "Practicum Exp Seminar I",
+      "title": "Theories in Social Work I",
       "credit_hours": "3",
-      "description": "Weekly integrative seminar; discussion of practice within practicum site agency. Co-requisites: <a href=\"/search/?p=SWSS%204680\" data-action=\"result-detail\" data-group=\"code:SWSS 4680\" >SWSS 4680</a>, <a href=\"/search/?p=SWSS%204730\" data-action=\"result-detail\" data-group=\"code:SWSS 4730\" >SWSS 4730</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 4680\"}, {\"type\": \"course\", \"code\": \"SWSS 4730\"}]}, {\"type\": \"course\", \"code\": \"SWSS 4680\"}, {\"type\": \"course\", \"code\": \"SWSS 4730\"}]}",
-      "other_requirements": "Senior SWSS majors only. This course builds upon all SWSS prerequisite courses listed above.",
+      "description": "The first of a two-course social work theory sequence designed to provide a basic conceptual framework for organizing and critiquing knowledge about human behavior in the social environment. Students will explore and critically analyze theories and perspectives that can be used to understand human experiences in the context of social work practice. Prerequisites: <a href=\"/search/?p=SWSS%201020\" data-action=\"result-detail\" data-group=\"code:SWSS 1020\" >SWSS 1020</a>; Social Work major with minimum Junior standing or Instructor permission. Co-requisites: <a href=\"/search/?p=SWSS%203650\" data-action=\"result-detail\" data-group=\"code:SWSS 3650\" >SWSS 3650</a>, <a href=\"/search/?p=SWSS%203670\" data-action=\"result-detail\" data-group=\"code:SWSS 3670\" >SWSS 3670</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 1020\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 1010\"}, {\"type\": \"course\", \"code\": \"SWSS 1600\"}, {\"type\": \"course\", \"code\": \"SWSS 1040\"}, {\"type\": \"course\", \"code\": \"SWSS 1990\"}]}]}",
+      "other_requirements": "Social Work major with minimum Junior standing or Instructor permission. SWSS majors only. A liberal arts background is an assumed prerequisite.",
+      "external": false
+    },
+    {
+      "id": "SWSS 6890",
+      "course_code": "SWSS 6890",
+      "department": "SWSS",
+      "title": "Spec Practice Yr Practicum",
+      "credit_hours": "3",
+      "description": "Supervised practicum-based learning of 15-20 hours per week. Students are placed in human service agencies and organizations and apply advanced social work practice related to an area of specialized practice. Prerequisites: <a href=\"/search/?p=SWSS%205200\" data-action=\"result-detail\" data-group=\"code:SWSS 5200\" >SWSS 5200</a>, <a href=\"/search/?p=SWSS%205210\" data-action=\"result-detail\" data-group=\"code:SWSS 5210\"  class=\"notoffered\">SWSS 5210</a>, <a href=\"/search/?p=SWSS%205160\" data-action=\"result-detail\" data-group=\"code:SWSS 5160\" >SWSS 5160</a>, <a href=\"/search/?p=SWSS%205170\" data-action=\"result-detail\" data-group=\"code:SWSS 5170\"  class=\"notoffered\">SWSS 5170</a>, <a href=\"/search/?p=SWSS%205027\" data-action=\"result-detail\" data-group=\"code:SWSS 5027\"  class=\"notoffered\">SWSS 5027</a>, <a href=\"/search/?p=SWSS%206120\" data-action=\"result-detail\" data-group=\"code:SWSS 6120\" >SWSS 6120</a>, <a href=\"/search/?p=SWSS%206130\" data-action=\"result-detail\" data-group=\"code:SWSS 6130\"  class=\"notoffered\">SWSS 6130</a>, <a href=\"/search/?p=SWSS%206000\" data-action=\"result-detail\" data-group=\"code:SWSS 6000\" >SWSS 6000</a>. Co-requisite: <a href=\"/search/?p=SWSS%206140\" data-action=\"result-detail\" data-group=\"code:SWSS 6140\" >SWSS 6140</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 5200\"}, {\"type\": \"course\", \"code\": \"SWSS 5210\"}, {\"type\": \"course\", \"code\": \"SWSS 5160\"}, {\"type\": \"course\", \"code\": \"SWSS 5170\"}, {\"type\": \"course\", \"code\": \"SWSS 5027\"}, {\"type\": \"course\", \"code\": \"SWSS 6120\"}, {\"type\": \"course\", \"code\": \"SWSS 6130\"}, {\"type\": \"course\", \"code\": \"SWSS 6000\"}]}",
+      "other_requirements": "MSW standing only",
+      "external": false
+    },
+    {
+      "id": "SWSS 3480",
+      "course_code": "SWSS 3480",
+      "department": "SWSS",
+      "title": "Theories in Social Work II",
+      "credit_hours": "3",
+      "description": "Provides a critical examination of traditional and contemporary theories of social work and human behavior and their application in generalist group and macro practice contexts. The second part of a two-course sequence. Prerequisites: <a href=\"/search/?p=SWSS%201020\" data-action=\"result-detail\" data-group=\"code:SWSS 1020\" >SWSS 1020</a>, <a href=\"/search/?p=SWSS%203470\" data-action=\"result-detail\" data-group=\"code:SWSS 3470\"  class=\"notoffered\">SWSS 3470</a>, <a href=\"/search/?p=SWSS%203650\" data-action=\"result-detail\" data-group=\"code:SWSS 3650\"  class=\"notoffered\">SWSS 3650</a>, <a href=\"/search/?p=SWSS%203670\" data-action=\"result-detail\" data-group=\"code:SWSS 3670\"  class=\"notoffered\">SWSS 3670</a>; Social Work major or Instructor permission. Co-requisites: <a href=\"/search/?p=SWSS%203630\" data-action=\"result-detail\" data-group=\"code:SWSS 3630\" >SWSS 3630</a>, <a href=\"/search/?p=SWSS%203660\" data-action=\"result-detail\" data-group=\"code:SWSS 3660\" >SWSS 3660</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 1020\"}, {\"type\": \"course\", \"code\": \"SWSS 3470\"}, {\"type\": \"course\", \"code\": \"SWSS 3650\"}, {\"type\": \"course\", \"code\": \"SWSS 3670\"}]}",
+      "other_requirements": "Social Work major or Instructor permission. Junior or Senior SWSS students only, or program permission",
       "external": false
     },
     {
@@ -299,89 +321,62 @@
       "external": false
     },
     {
-      "id": "SWSS 3470",
-      "course_code": "SWSS 3470",
+      "id": "SWSS 6160",
+      "course_code": "SWSS 6160",
       "department": "SWSS",
-      "title": "Theories in Social Work I",
+      "title": "Integrative Appr Transform SW",
       "credit_hours": "3",
-      "description": "The first of a two-course social work theory sequence designed to provide a basic conceptual framework for organizing and critiquing knowledge about human behavior in the social environment. Students will explore and critically analyze theories and perspectives that can be used to understand human experiences in the context of social work practice. Prerequisites: <a href=\"/search/?p=SWSS%201020\" data-action=\"result-detail\" data-group=\"code:SWSS 1020\" >SWSS 1020</a>; Social Work major with minimum Junior standing or Instructor permission. Co-requisites: <a href=\"/search/?p=SWSS%203650\" data-action=\"result-detail\" data-group=\"code:SWSS 3650\" >SWSS 3650</a>, <a href=\"/search/?p=SWSS%203670\" data-action=\"result-detail\" data-group=\"code:SWSS 3670\" >SWSS 3670</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 1020\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 1010\"}, {\"type\": \"course\", \"code\": \"SWSS 1600\"}, {\"type\": \"course\", \"code\": \"SWSS 1040\"}, {\"type\": \"course\", \"code\": \"SWSS 1990\"}]}]}",
-      "other_requirements": "Social Work major with minimum Junior standing or Instructor permission. SWSS majors only. A liberal arts background is an assumed prerequisite.",
+      "description": "In this course students will synthesize their exploration of their area of focus in transformative social work through scholarly reading, research and classroom presentations. Prerequisite: Completion of Foundation Year.",
+      "prereq_expression": null,
+      "other_requirements": "Completion of Foundation Year. MSW SPMSW year students only",
       "external": false
     },
     {
-      "id": "SWSS 1010",
-      "course_code": "SWSS 1010",
+      "id": "SWSS 4680",
+      "course_code": "SWSS 4680",
       "department": "SWSS",
-      "title": "Ldrship for Racial Justice",
+      "title": "Social Work Practice I",
       "credit_hours": "3",
-      "description": "Seminar on creating racial justice through leadership. The 7 C's of leadership development are explored: consciousness of self, congruence, commitment, collaboration, common purpose, controversy with civility, and citizenship. These concepts are applied to explorations of racism and racial justice.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PACE\"}, {\"type\": \"course\", \"code\": \"SWSS 1010\"}]}",
-      "other_requirements": "students by permission and override",
+      "description": "Social work theory and practice methods employed by social workers in providing services to individuals, families, and small groups. Prerequisite: Senior Standing. Co-requisites: <a href=\"/search/?p=SWSS%204710\" data-action=\"result-detail\" data-group=\"code:SWSS 4710\" >SWSS 4710</a>, <a href=\"/search/?p=SWSS%204730\" data-action=\"result-detail\" data-group=\"code:SWSS 4730\" >SWSS 4730</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Senior Standing. SWSS majors only.",
       "external": false
     },
     {
-      "id": "SWSS 5170",
-      "course_code": "SWSS 5170",
+      "id": "SWSS 5027",
+      "course_code": "SWSS 5027",
       "department": "SWSS",
-      "title": "Th Found Hum Beh&Soc Envr II",
+      "title": "Foundations of SW Research",
       "credit_hours": "3",
-      "description": "The second in a two-course sequence that aims to increase understandings of critical anti-racist, intersectional feminist perspectives pertinent to social work. Prerequisite: <a href=\"/search/?p=SWSS%205160\" data-action=\"result-detail\" data-group=\"code:SWSS 5160\"  class=\"notoffered\">SWSS 5160</a>. Pre/Co-requisite: <a href=\"/search/?p=SWSS%205160\" data-action=\"result-detail\" data-group=\"code:SWSS 5160\"  class=\"notoffered\">SWSS 5160</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 5160\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 5160\"}, {\"type\": \"course\", \"code\": \"SWSS 5170\"}]}]}",
+      "description": "An introduction to qualitative and quantitative methods of applied social research including program evaluation and the evaluation of practice with additional focus on interpreting research for social work context. Prerequisite: Master of Social Work student or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Master of Social Work student or Instructor permission. MSW students only, or program permission",
+      "external": false
+    },
+    {
+      "id": "SWSS 5210",
+      "course_code": "SWSS 5210",
+      "department": "SWSS",
+      "title": "Soc Welfare Pol & Services II",
+      "credit_hours": "3",
+      "description": "Focus is on the analysis of the economic, political, and social forces that influence the development and implementation of social welfare policy. Prerequisite: <a href=\"/search/?p=SWSS%205200\" data-action=\"result-detail\" data-group=\"code:SWSS 5200\"  class=\"notoffered\">SWSS 5200</a>. Pre/Co-requisite: <a href=\"/search/?p=SWSS%205200\" data-action=\"result-detail\" data-group=\"code:SWSS 5200\"  class=\"notoffered\">SWSS 5200</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 5200\"}, {\"type\": \"course\", \"code\": \"SWSS 5200\"}]}",
       "other_requirements": "MSW students only, or program permission",
       "external": false
     },
     {
-      "id": "SWSS 6130",
-      "course_code": "SWSS 6130",
+      "id": "SWSS 3650",
+      "course_code": "SWSS 3650",
       "department": "SWSS",
-      "title": "Social Work Practice II",
+      "title": "Iss & Pol in Social Welfare I",
       "credit_hours": "3",
-      "description": "Emphasizes knowledge and skills of social work practice with organizations and communities. Prerequisite: <a href=\"/search/?p=SWSS%206120\" data-action=\"result-detail\" data-group=\"code:SWSS 6120\"  class=\"notoffered\">SWSS 6120</a>. Pre/Co-requisite: <a href=\"/search/?p=SWSS%206120\" data-action=\"result-detail\" data-group=\"code:SWSS 6120\"  class=\"notoffered\">SWSS 6120</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 6120\"}]}",
-      "other_requirements": "MSW Foundation year students only",
-      "external": false
-    },
-    {
-      "id": "SWSS 6270",
-      "course_code": "SWSS 6270",
-      "department": "SWSS",
-      "title": "Adv Social Work Research",
-      "credit_hours": "3",
-      "description": "An analysis of social work research from methodological and theoretical perspectives is emphasized. Students will consider application in their specialized practice area. Prerequisites: <a href=\"/search/?p=SWSS%205160\" data-action=\"result-detail\" data-group=\"code:SWSS 5160\" >SWSS 5160</a>, <a href=\"/search/?p=SWSS%205170\" data-action=\"result-detail\" data-group=\"code:SWSS 5170\"  class=\"notoffered\">SWSS 5170</a>, <a href=\"/search/?p=SWSS%205200\" data-action=\"result-detail\" data-group=\"code:SWSS 5200\" >SWSS 5200</a>, <a href=\"/search/?p=SWSS%205210\" data-action=\"result-detail\" data-group=\"code:SWSS 5210\"  class=\"notoffered\">SWSS 5210</a>, <a href=\"/search/?p=SWSS%206120\" data-action=\"result-detail\" data-group=\"code:SWSS 6120\" >SWSS 6120</a>, <a href=\"/search/?p=SWSS%206130\" data-action=\"result-detail\" data-group=\"code:SWSS 6130\"  class=\"notoffered\">SWSS 6130</a>, <a href=\"/search/?p=SWSS%205027\" data-action=\"result-detail\" data-group=\"code:SWSS 5027\"  class=\"notoffered\">SWSS 5027</a>, <a href=\"/search/?p=SWSS%206000\" data-action=\"result-detail\" data-group=\"code:SWSS 6000\" >SWSS 6000</a> (fall and spring), one <a href=\"/search/?p=SWSS%205000\" data-action=\"result-detail\" data-group=\"code:SWSS 5000\" >SWSS 5000</a>-level elective. Pre/Co-requisite: <a href=\"/search/?p=SWSS%205027\" data-action=\"result-detail\" data-group=\"code:SWSS 5027\"  class=\"notoffered\">SWSS 5027</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 5160\"}, {\"type\": \"course\", \"code\": \"SWSS 5170\"}, {\"type\": \"course\", \"code\": \"SWSS 5200\"}, {\"type\": \"course\", \"code\": \"SWSS 5210\"}, {\"type\": \"course\", \"code\": \"SWSS 6120\"}, {\"type\": \"course\", \"code\": \"SWSS 6130\"}, {\"type\": \"course\", \"code\": \"SWSS 5027\"}, {\"type\": \"course\", \"code\": \"SWSS 6000\"}, {\"type\": \"course\", \"code\": \"SWSS 5000-level elective\"}]}",
-      "other_requirements": "Advanced standing or permission only; Course meets in person.",
-      "external": false
-    },
-    {
-      "id": "SWSS 2994",
-      "course_code": "SWSS 2994",
-      "department": "SWSS",
-      "title": "TA: Theories  in Social Work I",
-      "credit_hours": "3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"SWSS 3470\"}",
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "SWSS 5200",
-      "course_code": "SWSS 5200",
-      "department": "SWSS",
-      "title": "Soc Welfare Pol & Services I",
-      "credit_hours": "3",
-      "description": "An introduction to history and philosophy of social work and social welfare and the structure of service programs is provided. Prerequisite: Master of Social Work student or Instructor permission.",
-      "prereq_expression": null,
-      "other_requirements": "Master of Social Work student or Instructor permission. MSW standing or instructor permission only",
+      "description": "An introduction to economic, political, historical, and social forces that influence the development and implementation of social welfare policy. Prerequisite: <a href=\"/search/?p=SWSS%201020\" data-action=\"result-detail\" data-group=\"code:SWSS 1020\" >SWSS 1020</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SWSS 1020\"}, {\"type\": \"course\", \"code\": \"SWSS 1020\"}]}",
+      "other_requirements": "permission and prereq override; SWSS majors only",
       "external": false
     }
   ],
   "edges": [
-    {
-      "source": "SWSS 1010",
-      "target": "SWSS 1010",
-      "group": "SWSS 1010__g0"
-    },
     {
       "source": "SWSS 1010",
       "target": "SWSS 3470",
@@ -421,11 +416,6 @@
       "source": "SWSS 1020",
       "target": "SWSS 3670",
       "group": "SWSS 3670__g0"
-    },
-    {
-      "source": "SWSS 1040",
-      "target": "SWSS 1040",
-      "group": "SWSS 1040__g0"
     },
     {
       "source": "SWSS 1040",
@@ -484,18 +474,8 @@
     },
     {
       "source": "SWSS 4680",
-      "target": "SWSS 4710",
-      "group": null
-    },
-    {
-      "source": "SWSS 4680",
       "target": "SWSS 4720",
       "group": "SWSS 4720__g0"
-    },
-    {
-      "source": "SWSS 4680",
-      "target": "SWSS 4730",
-      "group": null
     },
     {
       "source": "SWSS 4690",
@@ -504,27 +484,7 @@
     },
     {
       "source": "SWSS 4710",
-      "target": "SWSS 4680",
-      "group": "SWSS 4680__g0"
-    },
-    {
-      "source": "SWSS 4710",
       "target": "SWSS 4720",
-      "group": null
-    },
-    {
-      "source": "SWSS 4710",
-      "target": "SWSS 4730",
-      "group": null
-    },
-    {
-      "source": "SWSS 4730",
-      "target": "SWSS 4680",
-      "group": "SWSS 4680__g0"
-    },
-    {
-      "source": "SWSS 4730",
-      "target": "SWSS 4710",
       "group": null
     },
     {
@@ -538,11 +498,6 @@
       "group": "SWSS 4720__g1"
     },
     {
-      "source": "SWSS 5000",
-      "target": "SWSS 5000",
-      "group": null
-    },
-    {
       "source": "SWSS 5027",
       "target": "SWSS 6150",
       "group": null
@@ -560,7 +515,7 @@
     {
       "source": "SWSS 5160",
       "target": "SWSS 5170",
-      "group": "SWSS 5170__g0"
+      "group": null
     },
     {
       "source": "SWSS 5160",
@@ -576,11 +531,6 @@
       "source": "SWSS 5160",
       "target": "SWSS 6890",
       "group": null
-    },
-    {
-      "source": "SWSS 5170",
-      "target": "SWSS 5170",
-      "group": "SWSS 5170__g0"
     },
     {
       "source": "SWSS 5170",
@@ -600,7 +550,7 @@
     {
       "source": "SWSS 5200",
       "target": "SWSS 5210",
-      "group": "SWSS 5210__g0"
+      "group": null
     },
     {
       "source": "SWSS 5200",
@@ -619,11 +569,6 @@
     },
     {
       "source": "SWSS 5210",
-      "target": "SWSS 5210",
-      "group": "SWSS 5210__g0"
-    },
-    {
-      "source": "SWSS 5210",
       "target": "SWSS 6150",
       "group": null
     },
@@ -636,16 +581,6 @@
       "source": "SWSS 5210",
       "target": "SWSS 6890",
       "group": null
-    },
-    {
-      "source": "SWSS 5240",
-      "target": "SWSS 5240",
-      "group": null
-    },
-    {
-      "source": "SWSS 6000",
-      "target": "SWSS 6000",
-      "group": "SWSS 6000__g0"
     },
     {
       "source": "SWSS 6000",
@@ -661,11 +596,6 @@
       "source": "SWSS 6000",
       "target": "SWSS 6890",
       "group": null
-    },
-    {
-      "source": "SWSS 6120",
-      "target": "SWSS 6120",
-      "group": "SWSS 6120__g0"
     },
     {
       "source": "SWSS 6120",
@@ -704,23 +634,8 @@
     },
     {
       "source": "SWSS 6140",
-      "target": "SWSS 6140",
-      "group": "SWSS 6140__g0"
-    },
-    {
-      "source": "SWSS 6140",
       "target": "SWSS 6150",
       "group": null
-    },
-    {
-      "source": "SWSS 6160",
-      "target": "SWSS 6160",
-      "group": null
-    },
-    {
-      "source": "SWSS 6400",
-      "target": "SWSS 6400",
-      "group": "SWSS 6400__g0"
     }
   ]
 }

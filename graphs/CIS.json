@@ -2,6 +2,28 @@
   "department": "CIS",
   "nodes": [
     {
+      "id": "ARTS 1400",
+      "course_code": "ARTS 1400",
+      "department": "ARTS",
+      "title": "Perspectives on Art Making",
+      "credit_hours": "4",
+      "description": "Introduction to contemporary art practice in various media. Explores method and meaning in art making, the role of experimentation, and the translation of experience into artwork. Credit not awarded for both ARTS 1400 and <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>.",
+      "prereq_expression": null,
+      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed.",
+      "external": true
+    },
+    {
+      "id": "ARTS 1014",
+      "course_code": "ARTS 1014",
+      "department": "ARTS",
+      "title": "FYS Perspectives on Art Making",
+      "credit_hours": "4",
+      "description": "Introduction to contemporary art practice in various media. Explores method and meaning in art making, the role of experimentation, and the translation of experience into artwork. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
       "id": "ARTS 1100",
       "course_code": "ARTS 1100",
       "department": "ARTS",
@@ -33,28 +55,6 @@
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ARTS 1010\"}, {\"type\": \"course\", \"code\": \"ARTS 1011\"}, {\"type\": \"course\", \"code\": \"ARTS 1014\"}, {\"type\": \"course\", \"code\": \"ARTS 1100\"}, {\"type\": \"course\", \"code\": \"ARTS 1400\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CIS 1010\"}, {\"type\": \"course\", \"code\": \"CEMS 1010\"}]}]}",
       "other_requirements": "Computer Science major or College of Engineering & Mathematical Science student; minimum Junior standing.",
       "external": false
-    },
-    {
-      "id": "ARTS 1014",
-      "course_code": "ARTS 1014",
-      "department": "ARTS",
-      "title": "FYS Perspectives on Art Making",
-      "credit_hours": "4",
-      "description": "Introduction to contemporary art practice in various media. Explores method and meaning in art making, the role of experimentation, and the translation of experience into artwork. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "ARTS 1400",
-      "course_code": "ARTS 1400",
-      "department": "ARTS",
-      "title": "Perspectives on Art Making",
-      "credit_hours": "4",
-      "description": "Introduction to contemporary art practice in various media. Explores method and meaning in art making, the role of experimentation, and the translation of experience into artwork. Credit not awarded for both ARTS 1400 and <a href=\"/search/?p=ARTS%201014\" data-action=\"result-detail\" data-group=\"code:ARTS 1014\" >ARTS 1014</a>.",
-      "prereq_expression": null,
-      "other_requirements": "SART, AHST, ARTE majors only during the first week of registration; CAS ARTS, ARTH minors only for the following 3 days; Non-CAS minors for the following 2 days; then all restrictions will be removed.",
-      "external": true
     }
   ],
   "edges": [

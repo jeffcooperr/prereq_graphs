@@ -2,17 +2,6 @@
   "department": "PRT",
   "nodes": [
     {
-      "id": "PRT 2580",
-      "course_code": "PRT 2580",
-      "department": "PRT",
-      "title": "Resort Mgmt & Marketing",
-      "credit_hours": "3",
-      "description": "Study of the management of year-round resort facilities. Emphasis on resort marketing, internal support functions, and associated recreational facilities. Prerequisite: Sophomore standing.",
-      "prereq_expression": null,
-      "other_requirements": "Sophomore standing. Minimum Sophomore standing; PRT majors and PRT and Sports Management minors; Others by permission",
-      "external": false
-    },
-    {
       "id": "PRT 2993",
       "course_code": "PRT 2993",
       "department": "PRT",
@@ -24,36 +13,14 @@
       "external": false
     },
     {
-      "id": "PRT 1100",
-      "course_code": "PRT 1100",
+      "id": "PRT 3580",
+      "course_code": "PRT 3580",
       "department": "PRT",
-      "title": "Int Sustainable Rec&Tourism",
+      "title": "Entrepreneurship Rec&Tourism",
       "credit_hours": "3",
-      "description": "Introduces students to the field of sustainable recreation and tourism that is economically viable, socially inclusive, and environmentally responsible. Explores how recreation and tourism provides positive leisure experiences that contribute to individual well-being, vibrant livable communities, and healthy natural environments.",
+      "description": "Study of entrepreneurial theories, concepts, and practices and their application to recreation and tourism. Emphasis on preparation of individual business plans. Prerequisites: Junior standing; Parks, Recreation and Tourism major or minor.",
       "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PRT 1990",
-      "course_code": "PRT 1990",
-      "department": "PRT",
-      "title": "Snowsports, Outdoor Adventure",
-      "credit_hours": "4",
-      "description": "See Schedule of Courses for specific title.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PRT 3991",
-      "course_code": "PRT 3991",
-      "department": "PRT",
-      "title": "Internship: PRT Practicum",
-      "credit_hours": "3",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PRT 3991\"}]}",
-      "other_requirements": "Minimum Junior standing; Required practicum for PRT majors; Parks, Rec and Tourism Practicum; PRT majors only",
+      "other_requirements": "Junior standing; Parks, Recreation and Tourism major or minor. Minimum junior standing; PRT majors or PRT, SMGT minors; Others by permission",
       "external": false
     },
     {
@@ -63,19 +30,41 @@
       "title": "Outdoor Recreation Planning",
       "credit_hours": "3",
       "description": "Planning large land areas for outdoor recreation use. Emphasis on the planning process relative to the leisure time use of natural resources. Prerequisites: Junior standing; Parks, Recreation and Tourism major or minor.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PRT 4350\"}, {\"type\": \"course\", \"code\": \"SMGT 4350\"}]}",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"SMGT 4350\"}",
       "other_requirements": "Junior standing; Parks, Recreation and Tourism major or minor. SMGT minors by permission; Junior or Senior status; Instructor will provide details about course meetings",
       "external": false
     },
     {
-      "id": "PRT 2560",
-      "course_code": "PRT 2560",
+      "id": "PRT 3300",
+      "course_code": "PRT 3300",
       "department": "PRT",
-      "title": "Ski Area Management Immersion",
-      "credit_hours": "1",
-      "description": "Ski Area Management Immersion Experience, features a mix of online, classroom and on-site learning at local ski resorts providing experiential learning about the management and operations of ski and mountain resorts. Must be taken concurrently with <a href=\"/search/?p=PRT%202570\" data-action=\"result-detail\" data-group=\"code:PRT 2570\" >PRT 2570</a>. Prerequisites: Parks, Recreation &amp; Tourism majors and minors, Sports Management minors; minimum Sophomore standing. Co-requisite: <a href=\"/search/?p=PRT%202570\" data-action=\"result-detail\" data-group=\"code:PRT 2570\" >PRT 2570</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PRT 2560\"}, {\"type\": \"course\", \"code\": \"PRT 2570\"}]}",
-      "other_requirements": "Parks, Recreation & Tourism majors and minors, Sports Management minors; minimum Sophomore standing. PRT Major, Minor, Sports Man minor, others by permission. Jr/Sr standing, Sophomores by permission.",
+      "title": "Ecotourism",
+      "credit_hours": "3",
+      "description": "Study of nature-based travel emphasizing international destinations. Examination of ecotourism as a tool for preservation and economic development. Prerequisite: Minimum Junior standing.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Junior standing.",
+      "external": false
+    },
+    {
+      "id": "PRT 3991",
+      "course_code": "PRT 3991",
+      "department": "PRT",
+      "title": "Internship: PRT Practicum",
+      "credit_hours": "3",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Junior standing; Required practicum for PRT majors; Parks, Rec and Tourism Practicum; PRT majors only",
+      "external": false
+    },
+    {
+      "id": "PRT 1500",
+      "course_code": "PRT 1500",
+      "department": "PRT",
+      "title": "Tourism Planning",
+      "credit_hours": "3",
+      "description": "Examination of tourism including its economic, environmental, and social effects. Emphasis on planning to maintain the integrity of tourist regions.",
+      "prereq_expression": null,
+      "other_requirements": "First year, sophomore, or JR standing only; Open to Degree and PACE students; Seniors by instructor permission",
       "external": false
     },
     {
@@ -85,8 +74,30 @@
       "title": "Ski Area Management",
       "credit_hours": "3",
       "description": "Focuses on the study of the management and operating functions of ski areas and mountain resorts in Vermont and New England, with applicability across the North American ski industry. Must be taken concurrently with <a href=\"/search/?p=PRT%202560\" data-action=\"result-detail\" data-group=\"code:PRT 2560\" >PRT 2560</a>. Prerequisites: Minimum Sophomore standing, Parks, Recreation and Tourism or Sports Management minor, or Instructor permission. Co-requisite: <a href=\"/search/?p=PRT%202560\" data-action=\"result-detail\" data-group=\"code:PRT 2560\" >PRT 2560</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PRT 2560\"}]}",
+      "prereq_expression": null,
       "other_requirements": "Minimum Sophomore standing, Parks, Recreation and Tourism or Sports Management minor, or Instructor permission. Jr/Sr standing, Sophomores by permission; PRT majors, minor, & Sports Manag. minors only",
+      "external": false
+    },
+    {
+      "id": "PRT 3996",
+      "course_code": "PRT 3996",
+      "department": "PRT",
+      "title": "Parks, Rec and Tourism Honors",
+      "credit_hours": "1 to 6",
+      "description": "Honors project dealing with management of outdoor recreation and tourism. See program chair.",
+      "prereq_expression": null,
+      "other_requirements": "PRT majors only; Permission required",
+      "external": false
+    },
+    {
+      "id": "PRT 1100",
+      "course_code": "PRT 1100",
+      "department": "PRT",
+      "title": "Int Sustainable Rec&Tourism",
+      "credit_hours": "3",
+      "description": "Introduces students to the field of sustainable recreation and tourism that is economically viable, socially inclusive, and environmentally responsible. Explores how recreation and tourism provides positive leisure experiences that contribute to individual well-being, vibrant livable communities, and healthy natural environments.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     },
     {
@@ -112,25 +123,25 @@
       "external": false
     },
     {
-      "id": "PRT 1500",
-      "course_code": "PRT 1500",
+      "id": "PRT 2560",
+      "course_code": "PRT 2560",
       "department": "PRT",
-      "title": "Tourism Planning",
-      "credit_hours": "3",
-      "description": "Examination of tourism including its economic, environmental, and social effects. Emphasis on planning to maintain the integrity of tourist regions.",
+      "title": "Ski Area Management Immersion",
+      "credit_hours": "1",
+      "description": "Ski Area Management Immersion Experience, features a mix of online, classroom and on-site learning at local ski resorts providing experiential learning about the management and operations of ski and mountain resorts. Must be taken concurrently with <a href=\"/search/?p=PRT%202570\" data-action=\"result-detail\" data-group=\"code:PRT 2570\" >PRT 2570</a>. Prerequisites: Parks, Recreation &amp; Tourism majors and minors, Sports Management minors; minimum Sophomore standing. Co-requisite: <a href=\"/search/?p=PRT%202570\" data-action=\"result-detail\" data-group=\"code:PRT 2570\" >PRT 2570</a>.",
       "prereq_expression": null,
-      "other_requirements": "First year, sophomore, or JR standing only; Open to Degree and PACE students; Seniors by instructor permission",
+      "other_requirements": "Parks, Recreation & Tourism majors and minors, Sports Management minors; minimum Sophomore standing. PRT Major, Minor, Sports Man minor, others by permission. Jr/Sr standing, Sophomores by permission.",
       "external": false
     },
     {
-      "id": "PRT 3300",
-      "course_code": "PRT 3300",
+      "id": "PRT 1990",
+      "course_code": "PRT 1990",
       "department": "PRT",
-      "title": "Ecotourism",
-      "credit_hours": "3",
-      "description": "Study of nature-based travel emphasizing international destinations. Examination of ecotourism as a tool for preservation and economic development. Prerequisite: Minimum Junior standing.",
+      "title": "Snowsports, Outdoor Adventure",
+      "credit_hours": "4",
+      "description": "See Schedule of Courses for specific title.",
       "prereq_expression": null,
-      "other_requirements": "Minimum Junior standing.",
+      "other_requirements": null,
       "external": false
     },
     {
@@ -140,30 +151,19 @@
       "title": "Environmental Interpretation",
       "credit_hours": "3",
       "description": "Philosophy, principles, and techniques of communicating environmental values, natural history processes, and cultural features to recreation visitors through the use of interpretive media. Prerequisites: Junior standing; Parks, Recreation and Tourism major or minor.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PRT 4550\"}]}",
+      "prereq_expression": null,
       "other_requirements": "Junior standing; Parks, Recreation and Tourism major or minor. PRT Juniors and Seniors; Others by instructor permission",
       "external": false
     },
     {
-      "id": "PRT 3580",
-      "course_code": "PRT 3580",
+      "id": "PRT 2580",
+      "course_code": "PRT 2580",
       "department": "PRT",
-      "title": "Entrepreneurship Rec&Tourism",
+      "title": "Resort Mgmt & Marketing",
       "credit_hours": "3",
-      "description": "Study of entrepreneurial theories, concepts, and practices and their application to recreation and tourism. Emphasis on preparation of individual business plans. Prerequisites: Junior standing; Parks, Recreation and Tourism major or minor.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PRT 3580\"}]}",
-      "other_requirements": "Junior standing; Parks, Recreation and Tourism major or minor. Minimum junior standing; PRT majors or PRT, SMGT minors; Others by permission",
-      "external": false
-    },
-    {
-      "id": "PRT 3996",
-      "course_code": "PRT 3996",
-      "department": "PRT",
-      "title": "Parks, Rec and Tourism Honors",
-      "credit_hours": "1 to 6",
-      "description": "Honors project dealing with management of outdoor recreation and tourism. See program chair.",
+      "description": "Study of the management of year-round resort facilities. Emphasis on resort marketing, internal support functions, and associated recreational facilities. Prerequisite: Sophomore standing.",
       "prereq_expression": null,
-      "other_requirements": "PRT majors only; Permission required",
+      "other_requirements": "Sophomore standing. Minimum Sophomore standing; PRT majors and PRT and Sports Management minors; Others by permission",
       "external": false
     },
     {
@@ -178,41 +178,5 @@
       "external": false
     }
   ],
-  "edges": [
-    {
-      "source": "PRT 2560",
-      "target": "PRT 2560",
-      "group": "PRT 2560__g0"
-    },
-    {
-      "source": "PRT 2560",
-      "target": "PRT 2570",
-      "group": null
-    },
-    {
-      "source": "PRT 2570",
-      "target": "PRT 2560",
-      "group": "PRT 2560__g0"
-    },
-    {
-      "source": "PRT 3580",
-      "target": "PRT 3580",
-      "group": null
-    },
-    {
-      "source": "PRT 3991",
-      "target": "PRT 3991",
-      "group": null
-    },
-    {
-      "source": "PRT 4350",
-      "target": "PRT 4350",
-      "group": "PRT 4350__g0"
-    },
-    {
-      "source": "PRT 4550",
-      "target": "PRT 4550",
-      "group": null
-    }
-  ]
+  "edges": []
 }

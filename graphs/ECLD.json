@@ -2,14 +2,14 @@
   "department": "ECLD",
   "nodes": [
     {
-      "id": "ECLD 2020",
-      "course_code": "ECLD 2020",
+      "id": "ECLD 3010",
+      "course_code": "ECLD 3010",
       "department": "ECLD",
-      "title": "Bilingual Education & Policy",
+      "title": "Developing Curriculum for ELs",
       "credit_hours": "3",
-      "description": "Examines the foundation of educational policy as it relates to bilingual education and program planning in grades K-12 in U.S. schools. Review English language theory, as well as state and federal policy. Prerequisite: <a href=\"/search/?p=ECLD%201560\" data-action=\"result-detail\" data-group=\"code:ECLD 1560\" >ECLD 1560</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"ECLD 1560\"}",
-      "other_requirements": "Open to Degree and PACE students",
+      "description": "Prepares students who intend to teach in a K-12 classroom environment or similar setting by exploring language acquisition theories, instructional methods, and lesson planning for multilingual learners of English. Prerequisites: <a href=\"/search/?p=ECLD%201560\" data-action=\"result-detail\" data-group=\"code:ECLD 1560\" >ECLD 1560</a>; <a href=\"/search/?p=ECLD%202020\" data-action=\"result-detail\" data-group=\"code:ECLD 2020\"  class=\"notoffered\">ECLD 2020</a>; minimum Junior standing; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ECLD 056\"}, {\"type\": \"course\", \"code\": \"ECLD 102\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ECLD 1560\"}, {\"type\": \"course\", \"code\": \"ECLD 2020\"}]}]}",
+      "other_requirements": "minimum Junior standing; or Instructor permission",
       "external": false
     },
     {
@@ -24,17 +24,6 @@
       "external": false
     },
     {
-      "id": "ECLD 3050",
-      "course_code": "ECLD 3050",
-      "department": "ECLD",
-      "title": "SL:Fmly Schl & Cmty Collab",
-      "credit_hours": "3",
-      "description": "Provides a foundation for understanding basic concepts regarding home, school, and community collaboration. Focuses specifically on creating partnerships between diverse families, families whose children have disabilities, and community partners and schools that serve these populations. Prerequisites: <a href=\"/search/?p=ECLD%201560\" data-action=\"result-detail\" data-group=\"code:ECLD 1560\" >ECLD 1560</a>, <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>; or Instructor permission. Pre/Co-requisite: <a href=\"/search/?p=ECLD%202020\" data-action=\"result-detail\" data-group=\"code:ECLD 2020\" >ECLD 2020</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECLD 1560\"}, {\"type\": \"course\", \"code\": \"EDSP 1050\"}]}, {\"type\": \"course\", \"code\": \"ECLD 2020\"}]}",
-      "other_requirements": "Instructor permission. Pre/Co-requisite: ECLD 2020. Prereqs enforced by the system: ECLD 1560 and EDSP 1050; Open to Degree and PACE students",
-      "external": false
-    },
-    {
       "id": "EDSP 1050",
       "course_code": "EDSP 1050",
       "department": "EDSP",
@@ -44,17 +33,6 @@
       "prereq_expression": null,
       "other_requirements": "Only open to CESS first-time first-years or by instructor permission; PACE students by permission and override.",
       "external": true
-    },
-    {
-      "id": "ECLD 3040",
-      "course_code": "ECLD 3040",
-      "department": "ECLD",
-      "title": "SL:Rlating/Rspnding ToCmntyNds",
-      "credit_hours": "3",
-      "description": "Students engage directly with community organizations or schools to provide services identified through conversations with community partners. In addition to field work, students engage in modules and course meetings to guide their learning, critical reflection, and the creation of a semester-long project in service to their host. Prerequisites: <a href=\"/search/?p=ECLD%201560\" data-action=\"result-detail\" data-group=\"code:ECLD 1560\" >ECLD 1560</a> or <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>. Cross-listed with: <a href=\"/search/?p=EDSP%203040\" data-action=\"result-detail\" data-group=\"code:EDSP 3040\" >EDSP 3040</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ECLD 1560\"}, {\"type\": \"course\", \"code\": \"EDSP 1050\"}]}",
-      "other_requirements": "ECLD (ECL1, ECL2) minors only or by instructor permission.",
-      "external": false
     },
     {
       "id": "ECLD 1560",
@@ -68,17 +46,6 @@
       "external": false
     },
     {
-      "id": "ECLD 3010",
-      "course_code": "ECLD 3010",
-      "department": "ECLD",
-      "title": "Developing Curriculum for ELs",
-      "credit_hours": "3",
-      "description": "Prepares students who intend to teach in a K-12 classroom environment or similar setting by exploring language acquisition theories, instructional methods, and lesson planning for multilingual learners of English. Prerequisites: <a href=\"/search/?p=ECLD%201560\" data-action=\"result-detail\" data-group=\"code:ECLD 1560\" >ECLD 1560</a>; <a href=\"/search/?p=ECLD%202020\" data-action=\"result-detail\" data-group=\"code:ECLD 2020\"  class=\"notoffered\">ECLD 2020</a>; minimum Junior standing; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ECLD 056\"}, {\"type\": \"course\", \"code\": \"ECLD 102\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ECLD 1560\"}, {\"type\": \"course\", \"code\": \"ECLD 2020\"}]}]}",
-      "other_requirements": "minimum Junior standing; or Instructor permission",
-      "external": false
-    },
-    {
       "id": "ECLD 2993",
       "course_code": "ECLD 2993",
       "department": "ECLD",
@@ -87,6 +54,39 @@
       "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "ECLD 3050",
+      "course_code": "ECLD 3050",
+      "department": "ECLD",
+      "title": "SL:Fmly Schl & Cmty Collab",
+      "credit_hours": "3",
+      "description": "Provides a foundation for understanding basic concepts regarding home, school, and community collaboration. Focuses specifically on creating partnerships between diverse families, families whose children have disabilities, and community partners and schools that serve these populations. Prerequisites: <a href=\"/search/?p=ECLD%201560\" data-action=\"result-detail\" data-group=\"code:ECLD 1560\" >ECLD 1560</a>, <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>; or Instructor permission. Pre/Co-requisite: <a href=\"/search/?p=ECLD%202020\" data-action=\"result-detail\" data-group=\"code:ECLD 2020\" >ECLD 2020</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECLD 1560\"}, {\"type\": \"course\", \"code\": \"EDSP 1050\"}]}, {\"type\": \"course\", \"code\": \"ECLD 2020\"}]}",
+      "other_requirements": "Instructor permission. Pre/Co-requisite: ECLD 2020. Prereqs enforced by the system: ECLD 1560 and EDSP 1050; Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "ECLD 2020",
+      "course_code": "ECLD 2020",
+      "department": "ECLD",
+      "title": "Bilingual Education & Policy",
+      "credit_hours": "3",
+      "description": "Examines the foundation of educational policy as it relates to bilingual education and program planning in grades K-12 in U.S. schools. Review English language theory, as well as state and federal policy. Prerequisite: <a href=\"/search/?p=ECLD%201560\" data-action=\"result-detail\" data-group=\"code:ECLD 1560\" >ECLD 1560</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"ECLD 1560\"}",
+      "other_requirements": "Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "ECLD 3040",
+      "course_code": "ECLD 3040",
+      "department": "ECLD",
+      "title": "SL:Rlating/Rspnding ToCmntyNds",
+      "credit_hours": "3",
+      "description": "Students engage directly with community organizations or schools to provide services identified through conversations with community partners. In addition to field work, students engage in modules and course meetings to guide their learning, critical reflection, and the creation of a semester-long project in service to their host. Prerequisites: <a href=\"/search/?p=ECLD%201560\" data-action=\"result-detail\" data-group=\"code:ECLD 1560\" >ECLD 1560</a> or <a href=\"/search/?p=EDSP%201050\" data-action=\"result-detail\" data-group=\"code:EDSP 1050\" >EDSP 1050</a>. Cross-listed with: <a href=\"/search/?p=EDSP%203040\" data-action=\"result-detail\" data-group=\"code:EDSP 3040\" >EDSP 3040</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ECLD 1560\"}, {\"type\": \"course\", \"code\": \"EDSP 1050\"}]}",
+      "other_requirements": "ECLD (ECL1, ECL2) minors only or by instructor permission.",
       "external": false
     }
   ],

@@ -2,6 +2,17 @@
   "department": "OBGY",
   "nodes": [
     {
+      "id": "ANPS 1190",
+      "course_code": "ANPS 1190",
+      "department": "ANPS",
+      "title": "Ugr Hum Anatomy & Physiology 1",
+      "credit_hours": "4",
+      "description": "Part I of two-semester course sequence. Structure and function of human body.",
+      "prereq_expression": null,
+      "other_requirements": "Prereg limited to: BMCS, BIOM, CSD, EMS, EXSC, HSCI, MLS, MRS, NFS, NMT, PE, PHS, PRNU majors only. Degree students only even after major restrictions lifted.",
+      "external": true
+    },
+    {
       "id": "OBGY 2995",
       "course_code": "OBGY 2995",
       "department": "OBGY",
@@ -10,17 +21,6 @@
       "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Instructor permission required.",
       "prereq_expression": null,
       "other_requirements": "Instructor permission required.",
-      "external": false
-    },
-    {
-      "id": "OBGY 5000",
-      "course_code": "OBGY 5000",
-      "department": "OBGY",
-      "title": "Understanding Human Pregnancy",
-      "credit_hours": "3",
-      "description": "Healthy pregnancy outcome depends on a confluence of social and biological processes. Taught by a physician and research faculty through the department of Ob/Gyn. Explores how a child is conceived (or not), maternal-fetal physiology and embryology, medical management of common diseases, ethical considerations, and complex social and societal aspects of pregnancy. Prior coursework in anatomy and physiology is recommended.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}, {\"type\": \"course\", \"code\": \"ASCI 2105\"}, {\"type\": \"course\", \"code\": \"BIOL 4405\"}]}",
-      "other_requirements": "PACE students by permission and override. Prior coursework in anatomy and physiology is recommended.",
       "external": false
     },
     {
@@ -35,15 +35,15 @@
       "external": true
     },
     {
-      "id": "ANPS 1190",
-      "course_code": "ANPS 1190",
-      "department": "ANPS",
-      "title": "Ugr Hum Anatomy & Physiology 1",
-      "credit_hours": "4",
-      "description": "Part I of two-semester course sequence. Structure and function of human body.",
-      "prereq_expression": null,
-      "other_requirements": "Prereg limited to: BMCS, BIOM, CSD, EMS, EXSC, HSCI, MLS, MRS, NFS, NMT, PE, PHS, PRNU majors only. Degree students only even after major restrictions lifted.",
-      "external": true
+      "id": "OBGY 5000",
+      "course_code": "OBGY 5000",
+      "department": "OBGY",
+      "title": "Understanding Human Pregnancy",
+      "credit_hours": "3",
+      "description": "Healthy pregnancy outcome depends on a confluence of social and biological processes. Taught by a physician and research faculty through the department of Ob/Gyn. Explores how a child is conceived (or not), maternal-fetal physiology and embryology, medical management of common diseases, ethical considerations, and complex social and societal aspects of pregnancy. Prior coursework in anatomy and physiology is recommended.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}, {\"type\": \"course\", \"code\": \"ASCI 2105\"}, {\"type\": \"course\", \"code\": \"BIOL 4405\"}]}",
+      "other_requirements": "PACE students by permission and override. Prior coursework in anatomy and physiology is recommended.",
+      "external": false
     },
     {
       "id": "ANPS 1200",

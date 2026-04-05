@@ -2,47 +2,80 @@
   "department": "DNCE",
   "nodes": [
     {
-      "id": "DNCE 2730",
-      "course_code": "DNCE 2730",
+      "id": "DNCE 1430",
+      "course_code": "DNCE 1430",
       "department": "DNCE",
-      "title": "Dance Repertory",
-      "credit_hours": "1",
-      "description": "Participation in the learning and rehearsal of dance choreography. May or may not be performed for the public. Prerequisite: Audition or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"DNCE 2730\"}, {\"type\": \"course\", \"code\": \"DNCE 2730\"}]}",
-      "other_requirements": "Audition or Instructor permission. PACE students with permission and override.",
-      "external": false
-    },
-    {
-      "id": "DNCE 3600",
-      "course_code": "DNCE 3600",
-      "department": "DNCE",
-      "title": "Choreography Workshop",
+      "title": "COIL: Brazilian Dance",
       "credit_hours": "3",
-      "description": "Employing a variety of choreographic methodologies, students work toward developing their unique artistry in dance creation and performance through faculty-supervised projects. Special emphasis on creative collaboration with other artists and performance organization/marketing. Reading, writing, and attending live performances required. Prerequisites: <a href=\"/search/?p=DNCE%201200\" data-action=\"result-detail\" data-group=\"code:DNCE 1200\" >DNCE 1200</a>, <a href=\"/search/?p=DNCE%202600\" data-action=\"result-detail\" data-group=\"code:DNCE 2600\" >DNCE 2600</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"DNCE 1200\"}, {\"type\": \"course\", \"code\": \"DNCE 2600\"}]}",
-      "other_requirements": "Contact pbesaw@uvm.edu if you have the prerequisite and are interested in enrolling in this course!",
-      "external": false
-    },
-    {
-      "id": "DNCE 2990",
-      "course_code": "DNCE 2990",
-      "department": "DNCE",
-      "title": "Student Dance Project",
-      "credit_hours": "1",
-      "description": "Intermediate courses or seminars on topics beyond the scope of existing departmental offerings. See Schedule of Courses for specific titles.",
+      "description": "Exposure to Brazilian culture through embodied dance practice, informed by studies of music, race, ethnicity, and socioeconomic diversity in Brazil. Focus on Brazil's most popular and traditional dances. Reading, writing, and attending live performances required.",
       "prereq_expression": null,
-      "other_requirements": "PACE students with permission and override",
+      "other_requirements": null,
       "external": false
     },
     {
-      "id": "DNCE 4994",
-      "course_code": "DNCE 4994",
+      "id": "DNCE 2710",
+      "course_code": "DNCE 2710",
       "department": "DNCE",
-      "title": "Teaching Assistantship",
+      "title": "Dance Performance Practicum",
       "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "description": "Participation in faculty-supervised dance performances; focus on rehearsal leading to fully realized public performances. Prerequisites: Audition or Instructor permission.",
       "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
+      "other_requirements": "Audition or Instructor permission. Time/location scheduled individually with students; 1-3 variable credits Participation in faculty-supervised dance performances; focus on rehearsal leading to fully realized public performance, Dancing Uphill. In coordination with the instructor and choreographers, students should be available, prepared, and present to dedicate significant time to studio practice, technical rehearsals (with lights, costumes, etc.), and fully produced final presentations.",
+      "external": false
+    },
+    {
+      "id": "DNCE 2720",
+      "course_code": "DNCE 2720",
+      "department": "DNCE",
+      "title": "Site Performance Practicum",
+      "credit_hours": "1 to 3",
+      "description": "Participation in faculty-supervised site-based performances. Emphasis on creative research that leads to performance. Includes focus on performance development/rehearsal, music accompaniment/composition, and/or technical/design preparation leading to a fully realized public performance. Prerequisite: Audition or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Audition or Instructor permission. PACE students with permission and override. Willingness to create movement and collaborate creatively. Willingness to dance outside (may get dirty!)",
+      "external": false
+    },
+    {
+      "id": "DNCE 4500",
+      "course_code": "DNCE 4500",
+      "department": "DNCE",
+      "title": "Dance Senior Capstone",
+      "credit_hours": "3",
+      "description": "A senior-level capstone course for dance majors, involving independent creative work/research in close consultation with a faculty sponsor on a specific and advanced project. Prerequisites: Nine hours of 2000-level DNCE courses; Senior standing; departmental permission.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"DNCE 2000\"}",
+      "other_requirements": "Nine hours of 2000-level DNCE courses; Senior standing; departmental permission. Instructor permission required. Reserved for graduating dance majors. Contact instructor with questions.",
+      "external": false
+    },
+    {
+      "id": "DNCE 3100",
+      "course_code": "DNCE 3100",
+      "department": "DNCE",
+      "title": "Contemporary: Advanced",
+      "credit_hours": "3",
+      "description": "Advanced level contemporary dance technique. Focus on advanced skills for performance, conditioning, and exploration of digital performance. Reading, writing, and attending live performances required. May be repeated for credit. Prerequisite: <a href=\"/search/?p=DNCE%202100\" data-action=\"result-detail\" data-group=\"code:DNCE 2100\" >DNCE 2100</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"DNCE 2100\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
+      "other_requirements": "Reading, writing, and attending live performances required.",
+      "external": false
+    },
+    {
+      "id": "DNCE 2600",
+      "course_code": "DNCE 2600",
+      "department": "DNCE",
+      "title": "Dance Composition",
+      "credit_hours": "3",
+      "description": "A study of choreography, using craft and concept in the process of dance composition.  Focus on developing original movement and ideas in the creation of choreographic studies/projects. Prerequisite: <a href=\"/search/?p=DNCE%201200\" data-action=\"result-detail\" data-group=\"code:DNCE 1200\" >DNCE 1200</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"DNCE 1200\"}, {\"type\": \"course\", \"code\": \"DNCE 1200\"}]}",
+      "other_requirements": "Instructor's permission; DNCE majors or minors only; PACE students with permission and override. Students must be a dance major or minor and have taken DNCE 1200, or have instructor permission to take this class.",
+      "external": false
+    },
+    {
+      "id": "DNCE 1100",
+      "course_code": "DNCE 1100",
+      "department": "DNCE",
+      "title": "Contemporary: Foundations",
+      "credit_hours": "3",
+      "description": "Introduction to applied practice in contemporary dance. Open to students with no previous dance training. Emphasis on fundamentals of contemporary dance technique and movement mechanics. Includes overview of modern/contemporary dance history and experiential anatomy. Reading, writing, and attending live performances required. May be repeated for credit.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     },
     {
@@ -57,23 +90,23 @@
       "external": false
     },
     {
-      "id": "DNCE 1430",
-      "course_code": "DNCE 1430",
+      "id": "DNCE 1420",
+      "course_code": "DNCE 1420",
       "department": "DNCE",
-      "title": "COIL: Brazilian Dance",
+      "title": "African Forms",
       "credit_hours": "3",
-      "description": "Exposure to Brazilian culture through embodied dance practice, informed by studies of music, race, ethnicity, and socioeconomic diversity in Brazil. Focus on Brazil's most popular and traditional dances. Reading, writing, and attending live performances required.",
+      "description": "A detailed study of the practice, history, and cultural significance of African and/or African-derived dance forms. Major emphasis on physical training.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
     },
     {
-      "id": "DNCE 1100",
-      "course_code": "DNCE 1100",
+      "id": "DNCE 1990",
+      "course_code": "DNCE 1990",
       "department": "DNCE",
-      "title": "Contemporary: Foundations",
+      "title": "Pilates & Yoga Workshop",
       "credit_hours": "3",
-      "description": "Introduction to applied practice in contemporary dance. Open to students with no previous dance training. Emphasis on fundamentals of contemporary dance technique and movement mechanics. Includes overview of modern/contemporary dance history and experiential anatomy. Reading, writing, and attending live performances required. May be repeated for credit.",
+      "description": "Introductory courses or seminars on topics beyond the scope of existing departmental offerings. See Schedule of Courses for specific titles.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -90,6 +123,17 @@
       "external": false
     },
     {
+      "id": "DNCE 3530",
+      "course_code": "DNCE 3530",
+      "department": "DNCE",
+      "title": "Jazz in American Dance",
+      "credit_hours": "3",
+      "description": "An in-depth study of the legacy and influence of African and African-derived dance forms on American social/vernacular dance, theatre and jazz dance, and hip hop. Prerequisites: A Catamount Core WIL1 course, <a href=\"/search/?p=DNCE%201500\" data-action=\"result-detail\" data-group=\"code:DNCE 1500\"  class=\"notoffered\">DNCE 1500</a>, <a href=\"/search/?p=DNCE%202600\" data-action=\"result-detail\" data-group=\"code:DNCE 2600\" >DNCE 2600</a>, three additional hours of Dance at the <a href=\"/search/?p=DNCE%202000\" data-action=\"result-detail\" data-group=\"code:DNCE 2000\"  class=\"notoffered\">2000</a>-level or above; Dance majors or minors only; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"DNCE 1500\"}, {\"type\": \"course\", \"code\": \"DNCE 2600\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"DNCE 2000\"}, {\"type\": \"course\", \"code\": \"DNCE 2001\"}, {\"type\": \"course\", \"code\": \"DNCE 2002\"}]}]}",
+      "other_requirements": "A Catamount Core WIL1 course; Dance majors or minors only; minimum Junior standing.",
+      "external": false
+    },
+    {
       "id": "DNCE 1400",
       "course_code": "DNCE 1400",
       "department": "DNCE",
@@ -101,80 +145,36 @@
       "external": false
     },
     {
-      "id": "DNCE 2400",
-      "course_code": "DNCE 2400",
+      "id": "DNCE 4994",
+      "course_code": "DNCE 4994",
       "department": "DNCE",
-      "title": "Ballet: Intermediate",
-      "credit_hours": "3",
-      "description": "Intermediate level practice in ballet. Increased competence and stamina in the practice of classical vocabulary/exercises. Emphasis on expanded anatomical principles in dance, as well as developing expressive performance. Reading, writing, and attending live performances required. May be repeated for credit. Prerequisite: <a href=\"/search/?p=DNCE%201400\" data-action=\"result-detail\" data-group=\"code:DNCE 1400\"  class=\"notoffered\">DNCE 1400</a> or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"DNCE 1400\"}, {\"type\": \"other\", \"description\": \"Instructor permission\"}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "DNCE 2450",
-      "course_code": "DNCE 2450",
-      "department": "DNCE",
-      "title": "Musical Theatre Dance",
-      "credit_hours": "3",
-      "description": "The art of dance in musical theatre with training in performance skills, vocabulary, choreography, and specific styles of musical theatre dance. Special emphasis on choreographers whose works influenced musical theatre dance. Reading, writing, and attending live performances required. Prerequisite: <a href=\"/search/?p=DNCE%201400\" data-action=\"result-detail\" data-group=\"code:DNCE 1400\"  class=\"notoffered\">DNCE 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"DNCE 1400\"}, {\"type\": \"course\", \"code\": \"DNCE 1400\"}]}",
-      "other_requirements": "Instructor permission, PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "DNCE 2600",
-      "course_code": "DNCE 2600",
-      "department": "DNCE",
-      "title": "Dance Composition",
-      "credit_hours": "3",
-      "description": "A study of choreography, using craft and concept in the process of dance composition.  Focus on developing original movement and ideas in the creation of choreographic studies/projects. Prerequisite: <a href=\"/search/?p=DNCE%201200\" data-action=\"result-detail\" data-group=\"code:DNCE 1200\" >DNCE 1200</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"DNCE 1200\"}]}, {\"type\": \"course\", \"code\": \"DNCE 1200\"}]}",
-      "other_requirements": "Instructor's permission; DNCE majors or minors only; PACE students with permission and override. Students must be a dance major or minor and have taken DNCE 1200, or have instructor permission to take this class.",
-      "external": false
-    },
-    {
-      "id": "DNCE 4996",
-      "course_code": "DNCE 4996",
-      "department": "DNCE",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
-      "other_requirements": null,
+      "other_requirements": "Instructor permission required",
       "external": false
     },
     {
-      "id": "DNCE 2720",
-      "course_code": "DNCE 2720",
+      "id": "DNCE 2730",
+      "course_code": "DNCE 2730",
       "department": "DNCE",
-      "title": "Site Performance Practicum",
-      "credit_hours": "1 to 3",
-      "description": "Participation in faculty-supervised site-based performances. Emphasis on creative research that leads to performance. Includes focus on performance development/rehearsal, music accompaniment/composition, and/or technical/design preparation leading to a fully realized public performance. Prerequisite: Audition or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"DNCE 2720\"}, {\"type\": \"course\", \"code\": \"DNCE 2720\"}]}",
-      "other_requirements": "Audition or Instructor permission. PACE students with permission and override. Willingness to create movement and collaborate creatively. Willingness to dance outside (may get dirty!)",
+      "title": "Dance Repertory",
+      "credit_hours": "1",
+      "description": "Participation in the learning and rehearsal of dance choreography. May or may not be performed for the public. Prerequisite: Audition or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Audition or Instructor permission. PACE students with permission and override.",
       "external": false
     },
     {
-      "id": "DNCE 2710",
-      "course_code": "DNCE 2710",
+      "id": "DNCE 2990",
+      "course_code": "DNCE 2990",
       "department": "DNCE",
-      "title": "Dance Performance Practicum",
-      "credit_hours": "1 to 3",
-      "description": "Participation in faculty-supervised dance performances; focus on rehearsal leading to fully realized public performances. Prerequisites: Audition or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"DNCE 2710\"}, {\"type\": \"course\", \"code\": \"DNCE 2710\"}]}",
-      "other_requirements": "Audition or Instructor permission. Time/location scheduled individually with students; 1-3 variable credits Participation in faculty-supervised dance performances; focus on rehearsal leading to fully realized public performance, Dancing Uphill. In coordination with the instructor and choreographers, students should be available, prepared, and present to dedicate significant time to studio practice, technical rehearsals (with lights, costumes, etc.), and fully produced final presentations.",
-      "external": false
-    },
-    {
-      "id": "DNCE 4500",
-      "course_code": "DNCE 4500",
-      "department": "DNCE",
-      "title": "Dance Senior Capstone",
-      "credit_hours": "3",
-      "description": "A senior-level capstone course for dance majors, involving independent creative work/research in close consultation with a faculty sponsor on a specific and advanced project. Prerequisites: Nine hours of 2000-level DNCE courses; Senior standing; departmental permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"DNCE 2000\"}]}",
-      "other_requirements": "Nine hours of 2000-level DNCE courses; Senior standing; departmental permission. Instructor permission required. Reserved for graduating dance majors. Contact instructor with questions.",
+      "title": "Student Dance Project",
+      "credit_hours": "1",
+      "description": "Intermediate courses or seminars on topics beyond the scope of existing departmental offerings. See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": "PACE students with permission and override",
       "external": false
     },
     {
@@ -189,17 +189,6 @@
       "external": false
     },
     {
-      "id": "DNCE 1990",
-      "course_code": "DNCE 1990",
-      "department": "DNCE",
-      "title": "Pilates & Yoga Workshop",
-      "credit_hours": "3",
-      "description": "Introductory courses or seminars on topics beyond the scope of existing departmental offerings. See Schedule of Courses for specific titles.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
       "id": "DNCE 1010",
       "course_code": "DNCE 1010",
       "department": "DNCE",
@@ -211,36 +200,47 @@
       "external": false
     },
     {
-      "id": "DNCE 1420",
-      "course_code": "DNCE 1420",
+      "id": "DNCE 2450",
+      "course_code": "DNCE 2450",
       "department": "DNCE",
-      "title": "African Forms",
+      "title": "Musical Theatre Dance",
       "credit_hours": "3",
-      "description": "A detailed study of the practice, history, and cultural significance of African and/or African-derived dance forms. Major emphasis on physical training.",
+      "description": "The art of dance in musical theatre with training in performance skills, vocabulary, choreography, and specific styles of musical theatre dance. Special emphasis on choreographers whose works influenced musical theatre dance. Reading, writing, and attending live performances required. Prerequisite: <a href=\"/search/?p=DNCE%201400\" data-action=\"result-detail\" data-group=\"code:DNCE 1400\"  class=\"notoffered\">DNCE 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"DNCE 1400\"}, {\"type\": \"course\", \"code\": \"DNCE 1400\"}]}",
+      "other_requirements": "Instructor permission, PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "DNCE 4996",
+      "course_code": "DNCE 4996",
+      "department": "DNCE",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
     },
     {
-      "id": "DNCE 3530",
-      "course_code": "DNCE 3530",
+      "id": "DNCE 3600",
+      "course_code": "DNCE 3600",
       "department": "DNCE",
-      "title": "Jazz in American Dance",
+      "title": "Choreography Workshop",
       "credit_hours": "3",
-      "description": "An in-depth study of the legacy and influence of African and African-derived dance forms on American social/vernacular dance, theatre and jazz dance, and hip hop. Prerequisites: A Catamount Core WIL1 course, <a href=\"/search/?p=DNCE%201500\" data-action=\"result-detail\" data-group=\"code:DNCE 1500\"  class=\"notoffered\">DNCE 1500</a>, <a href=\"/search/?p=DNCE%202600\" data-action=\"result-detail\" data-group=\"code:DNCE 2600\" >DNCE 2600</a>, three additional hours of Dance at the <a href=\"/search/?p=DNCE%202000\" data-action=\"result-detail\" data-group=\"code:DNCE 2000\"  class=\"notoffered\">2000</a>-level or above; Dance majors or minors only; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"DNCE 1500\"}, {\"type\": \"course\", \"code\": \"DNCE 2600\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"DNCE 2000\"}, {\"type\": \"course\", \"code\": \"DNCE 2001\"}, {\"type\": \"course\", \"code\": \"DNCE 2002\"}]}]}",
-      "other_requirements": "A Catamount Core WIL1 course; Dance majors or minors only; minimum Junior standing.",
+      "description": "Employing a variety of choreographic methodologies, students work toward developing their unique artistry in dance creation and performance through faculty-supervised projects. Special emphasis on creative collaboration with other artists and performance organization/marketing. Reading, writing, and attending live performances required. Prerequisites: <a href=\"/search/?p=DNCE%201200\" data-action=\"result-detail\" data-group=\"code:DNCE 1200\" >DNCE 1200</a>, <a href=\"/search/?p=DNCE%202600\" data-action=\"result-detail\" data-group=\"code:DNCE 2600\" >DNCE 2600</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"DNCE 1200\"}, {\"type\": \"course\", \"code\": \"DNCE 2600\"}]}",
+      "other_requirements": "Contact pbesaw@uvm.edu if you have the prerequisite and are interested in enrolling in this course!",
       "external": false
     },
     {
-      "id": "DNCE 3100",
-      "course_code": "DNCE 3100",
+      "id": "DNCE 2400",
+      "course_code": "DNCE 2400",
       "department": "DNCE",
-      "title": "Contemporary: Advanced",
+      "title": "Ballet: Intermediate",
       "credit_hours": "3",
-      "description": "Advanced level contemporary dance technique. Focus on advanced skills for performance, conditioning, and exploration of digital performance. Reading, writing, and attending live performances required. May be repeated for credit. Prerequisite: <a href=\"/search/?p=DNCE%202100\" data-action=\"result-detail\" data-group=\"code:DNCE 2100\" >DNCE 2100</a> or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"DNCE 2100\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
-      "other_requirements": "Reading, writing, and attending live performances required.",
+      "description": "Intermediate level practice in ballet. Increased competence and stamina in the practice of classical vocabulary/exercises. Emphasis on expanded anatomical principles in dance, as well as developing expressive performance. Reading, writing, and attending live performances required. May be repeated for credit. Prerequisite: <a href=\"/search/?p=DNCE%201400\" data-action=\"result-detail\" data-group=\"code:DNCE 1400\"  class=\"notoffered\">DNCE 1400</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"DNCE 1400\"}, {\"type\": \"other\", \"description\": \"Instructor permission\"}]}",
+      "other_requirements": "PACE students with permission and override",
       "external": false
     }
   ],
@@ -284,21 +284,6 @@
       "source": "DNCE 2600",
       "target": "DNCE 3600",
       "group": null
-    },
-    {
-      "source": "DNCE 2710",
-      "target": "DNCE 2710",
-      "group": "DNCE 2710__g0"
-    },
-    {
-      "source": "DNCE 2720",
-      "target": "DNCE 2720",
-      "group": "DNCE 2720__g0"
-    },
-    {
-      "source": "DNCE 2730",
-      "target": "DNCE 2730",
-      "group": "DNCE 2730__g0"
     }
   ]
 }

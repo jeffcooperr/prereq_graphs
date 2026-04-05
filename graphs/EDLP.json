@@ -13,39 +13,6 @@
       "external": false
     },
     {
-      "id": "EDLP 7491",
-      "course_code": "EDLP 7491",
-      "department": "EDLP",
-      "title": "Doctoral Dissertation Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Doctoral Dissertation.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "EDLP 6008",
-      "course_code": "EDLP 6008",
-      "department": "EDLP",
-      "title": "Inequalities and Ed Policy",
-      "credit_hours": "3",
-      "description": "Examines how the institution of education has historically created, maintained, and has also challenged inequalities. Explores this in relationship to race, ethnicity, immigration, social class, gender, LGBTQIA+ issues, and disability, among others, covering key readings in history and theory as well as key court cases and movements for equity.",
-      "prereq_expression": null,
-      "other_requirements": "Open to Degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "EDLP 7010",
-      "course_code": "EDLP 7010",
-      "department": "EDLP",
-      "title": "ProSeminar: Doctoral Intro",
-      "credit_hours": "3",
-      "description": "Designed to build a learning community among students and faculty to explore issues related to careers and research in educational policy; provides opportunities for collaboration, planning, academic research, relevant practical experiences and site visits. Pre/Co-requisite: Educational Policy and Leadership Studies Doctoral student.",
-      "prereq_expression": null,
-      "other_requirements": "Educational Policy and Leadership Studies Doctoral student. SHIE & EDLP PhD students only",
-      "external": false
-    },
-    {
       "id": "EDLP 7050",
       "course_code": "EDLP 7050",
       "department": "EDLP",
@@ -54,6 +21,17 @@
       "description": "An examination of the nature and function of education policy, emphasizing the structure and processes in education policy formulation and implementation.",
       "prereq_expression": null,
       "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "EDLP 7990",
+      "course_code": "EDLP 7990",
+      "department": "EDLP",
+      "title": "Advanced Improvement Science",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDLP 7060\"}, {\"type\": \"course\", \"code\": \"EDLP 7060\"}]}",
+      "other_requirements": "Doctoral students only. or permission of the instructor",
       "external": false
     },
     {
@@ -68,25 +46,25 @@
       "external": false
     },
     {
-      "id": "EDLP 7090",
-      "course_code": "EDLP 7090",
+      "id": "EDLP 7491",
+      "course_code": "EDLP 7491",
       "department": "EDLP",
-      "title": "Dissertation Writing Seminar",
-      "credit_hours": "3",
-      "description": "Designed for Graduate students working on their dissertation proposals or dissertations.",
+      "title": "Doctoral Dissertation Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Doctoral Dissertation.",
       "prereq_expression": null,
-      "other_requirements": "Doctoral students only; Instructor permission required.",
+      "other_requirements": "Instructor permission required",
       "external": false
     },
     {
-      "id": "EDLP 2110",
-      "course_code": "EDLP 2110",
+      "id": "EDLP 7010",
+      "course_code": "EDLP 7010",
       "department": "EDLP",
-      "title": "Sports Leadership",
+      "title": "ProSeminar: Doctoral Intro",
       "credit_hours": "3",
-      "description": "Examines leadership in all areas of sports. Uses sport as a vehicle to explore leadership theory and aid in developing students' leadership skills. Explores social change theory, investigates sports as a vehicle for change.",
+      "description": "Designed to build a learning community among students and faculty to explore issues related to careers and research in educational policy; provides opportunities for collaboration, planning, academic research, relevant practical experiences and site visits. Pre/Co-requisite: Educational Policy and Leadership Studies Doctoral student.",
       "prereq_expression": null,
-      "other_requirements": null,
+      "other_requirements": "Educational Policy and Leadership Studies Doctoral student. SHIE & EDLP PhD students only",
       "external": false
     },
     {
@@ -101,14 +79,36 @@
       "external": false
     },
     {
-      "id": "EDLP 7990",
-      "course_code": "EDLP 7990",
+      "id": "EDLP 6008",
+      "course_code": "EDLP 6008",
       "department": "EDLP",
-      "title": "Advanced Improvement Science",
+      "title": "Inequalities and Ed Policy",
       "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDLP 7060\"}, {\"type\": \"course\", \"code\": \"EDLP 7060\"}]}",
-      "other_requirements": "Doctoral students only. or permission of the instructor",
+      "description": "Examines how the institution of education has historically created, maintained, and has also challenged inequalities. Explores this in relationship to race, ethnicity, immigration, social class, gender, LGBTQIA+ issues, and disability, among others, covering key readings in history and theory as well as key court cases and movements for equity.",
+      "prereq_expression": null,
+      "other_requirements": "Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "EDLP 2110",
+      "course_code": "EDLP 2110",
+      "department": "EDLP",
+      "title": "Sports Leadership",
+      "credit_hours": "3",
+      "description": "Examines leadership in all areas of sports. Uses sport as a vehicle to explore leadership theory and aid in developing students' leadership skills. Explores social change theory, investigates sports as a vehicle for change.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "EDLP 7090",
+      "course_code": "EDLP 7090",
+      "department": "EDLP",
+      "title": "Dissertation Writing Seminar",
+      "credit_hours": "3",
+      "description": "Designed for Graduate students working on their dissertation proposals or dissertations.",
+      "prereq_expression": null,
+      "other_requirements": "Doctoral students only; Instructor permission required.",
       "external": false
     },
     {

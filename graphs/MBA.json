@@ -2,12 +2,12 @@
   "department": "MBA",
   "nodes": [
     {
-      "id": "MBA 6010",
-      "course_code": "MBA 6010",
+      "id": "MBA 6020",
+      "course_code": "MBA 6020",
       "department": "MBA",
-      "title": "Bus Strat for Sustainable Wrld",
+      "title": "Org. Dsgn Social & EnvirImpact",
       "credit_hours": "0",
-      "description": "Provides background on sustainable business practices and offer tools to analyze a business and structure a business opportunity, including how to: develop/defend competitive advantage, perform financial analysis, implement marketing strategy, organize a firm, and manage technological innovation. Prerequisite: Master of Business Administration student.",
+      "description": "Provides students with the tools for starting and building a sustainable business. Topics include: public policy, value creation, assessments under market uncertainty, the meaning of sustainability and CSR, triple bottom line reporting, ethics for entrepreneurs, and mindfulness. Prerequisite: Master of Business Administration student.",
       "prereq_expression": null,
       "other_requirements": "Master of Business Administration student. MBA students only",
       "external": false
@@ -24,12 +24,12 @@
       "external": false
     },
     {
-      "id": "MBA 6020",
-      "course_code": "MBA 6020",
+      "id": "MBA 6010",
+      "course_code": "MBA 6010",
       "department": "MBA",
-      "title": "Org. Dsgn Social & EnvirImpact",
+      "title": "Bus Strat for Sustainable Wrld",
       "credit_hours": "0",
-      "description": "Provides students with the tools for starting and building a sustainable business. Topics include: public policy, value creation, assessments under market uncertainty, the meaning of sustainability and CSR, triple bottom line reporting, ethics for entrepreneurs, and mindfulness. Prerequisite: Master of Business Administration student.",
+      "description": "Provides background on sustainable business practices and offer tools to analyze a business and structure a business opportunity, including how to: develop/defend competitive advantage, perform financial analysis, implement marketing strategy, organize a firm, and manage technological innovation. Prerequisite: Master of Business Administration student.",
       "prereq_expression": null,
       "other_requirements": "Master of Business Administration student. MBA students only",
       "external": false

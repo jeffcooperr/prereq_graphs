@@ -2,13 +2,24 @@
   "department": "ECSP",
   "nodes": [
     {
+      "id": "ECSP 5110",
+      "course_code": "ECSP 5110",
+      "department": "ECSP",
+      "title": "EI for Infants and Toddlers-GR",
+      "credit_hours": "3",
+      "description": "An introduction to the field of Early Intervention for supporting infants and toddlers with and at risk for developmental delay or disability and their families. Stresses a routines-based and family-centered approach within the natural environment. Prerequisite: Early Childhood Special Education student or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SPED GR\"}, {\"type\": \"course\", \"code\": \"ECSP UG\"}]}",
+      "other_requirements": "Early Childhood Special Education student or Instructor permission. Instructor Permission",
+      "external": false
+    },
+    {
       "id": "ECSP 2100",
       "course_code": "ECSP 2100",
       "department": "ECSP",
       "title": "Indiv Prac for Inclusion",
       "credit_hours": "3",
       "description": "Focuses on the learning and development needs of children with or AT - risk for disabilities and other diverse young learners within inclusive early childhood settings.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ECSP 2100\"}, {\"type\": \"course\", \"code\": \"SPED 2100\"}]}",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"SPED 2100\"}",
       "other_requirements": "ECP majors or SPED minors only, or instructor permission.",
       "external": false
     },
@@ -24,6 +35,17 @@
       "external": false
     },
     {
+      "id": "ECSP 3120",
+      "course_code": "ECSP 3120",
+      "department": "ECSP",
+      "title": "Assessment in EI/ECSE",
+      "credit_hours": "3 to 4",
+      "description": "Overview of the strengths and limitations of traditional and nontraditional assessments; legal responsibilities, eligibility, family, and cultural aspects. Three credits, four credits for Early Childhood Special Education majors with 30-hour field experience. Prerequisites: Early Childhood Special Education undergraduate students or with Instructor permission. Pre/Co-requisites: Early Childhood Special Education major; instructor permission required for Special Education minors.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission. Early Childhood Special Education undergraduate students or with Instructor permission. Pre/Co-requisites: Early Childhood Special Education major; instructor permission required for Special Education minors.",
+      "external": false
+    },
+    {
       "id": "ECSP 6100",
       "course_code": "ECSP 6100",
       "department": "ECSP",
@@ -33,41 +55,9 @@
       "prereq_expression": null,
       "other_requirements": "Special Education Graduate student; Praxis Core requirement fulfilled. Graduate section only",
       "external": false
-    },
-    {
-      "id": "ECSP 5110",
-      "course_code": "ECSP 5110",
-      "department": "ECSP",
-      "title": "EI for Infants and Toddlers-GR",
-      "credit_hours": "3",
-      "description": "An introduction to the field of Early Intervention for supporting infants and toddlers with and at risk for developmental delay or disability and their families. Stresses a routines-based and family-centered approach within the natural environment. Prerequisite: Early Childhood Special Education student or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SPED GR\"}, {\"type\": \"course\", \"code\": \"ECSP UG\"}]}",
-      "other_requirements": "Early Childhood Special Education student or Instructor permission. Instructor Permission",
-      "external": false
-    },
-    {
-      "id": "ECSP 3120",
-      "course_code": "ECSP 3120",
-      "department": "ECSP",
-      "title": "Assessment in EI/ECSE",
-      "credit_hours": "3 to 4",
-      "description": "Overview of the strengths and limitations of traditional and nontraditional assessments; legal responsibilities, eligibility, family, and cultural aspects. Three credits, four credits for Early Childhood Special Education majors with 30-hour field experience. Prerequisites: Early Childhood Special Education undergraduate students or with Instructor permission. Pre/Co-requisites: Early Childhood Special Education major; instructor permission required for Special Education minors.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ECSP 3120\"}, {\"type\": \"course\", \"code\": \"ECSP 3120\"}]}",
-      "other_requirements": "Instructor permission. Early Childhood Special Education undergraduate students or with Instructor permission. Pre/Co-requisites: Early Childhood Special Education major; instructor permission required for Special Education minors.",
-      "external": false
     }
   ],
   "edges": [
-    {
-      "source": "ECSP 2100",
-      "target": "ECSP 2100",
-      "group": "ECSP 2100__g0"
-    },
-    {
-      "source": "ECSP 3120",
-      "target": "ECSP 3120",
-      "group": "ECSP 3120__g0"
-    },
     {
       "source": "ECSP 5110",
       "target": "ECSP 6991",

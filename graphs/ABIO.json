@@ -13,25 +13,14 @@
       "external": false
     },
     {
-      "id": "ABIO 7491",
-      "course_code": "ABIO 7491",
+      "id": "ABIO 5990",
+      "course_code": "ABIO 5990",
       "department": "ABIO",
-      "title": "Doctoral Dissertation Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Doctoral Dissertation.",
+      "title": "One Health - Antibiotic resist",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
       "prereq_expression": null,
-      "other_requirements": "Graduate standing only",
-      "external": false
-    },
-    {
-      "id": "ABIO 6010",
-      "course_code": "ABIO 6010",
-      "department": "ABIO",
-      "title": "ABIO Graduate Journal Club",
-      "credit_hours": "1",
-      "description": "Critical review of current scientific literature in terms of scientific method and merit.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate standing and PACE students",
+      "other_requirements": null,
       "external": false
     },
     {
@@ -43,6 +32,17 @@
       "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": "Instructor permission required. Offered at department discretion.",
+      "external": false
+    },
+    {
+      "id": "ABIO 6010",
+      "course_code": "ABIO 6010",
+      "department": "ABIO",
+      "title": "ABIO Graduate Journal Club",
+      "credit_hours": "1",
+      "description": "Critical review of current scientific literature in terms of scientific method and merit.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate standing and PACE students",
       "external": false
     },
     {
@@ -68,14 +68,14 @@
       "external": false
     },
     {
-      "id": "ABIO 5990",
-      "course_code": "ABIO 5990",
+      "id": "ABIO 7491",
+      "course_code": "ABIO 7491",
       "department": "ABIO",
-      "title": "One Health - Antibiotic resist",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
+      "title": "Doctoral Dissertation Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Doctoral Dissertation.",
       "prereq_expression": null,
-      "other_requirements": null,
+      "other_requirements": "Graduate standing only",
       "external": false
     }
   ],

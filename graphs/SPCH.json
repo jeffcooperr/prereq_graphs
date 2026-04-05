@@ -2,17 +2,6 @@
   "department": "SPCH",
   "nodes": [
     {
-      "id": "SPCH 1021",
-      "course_code": "SPCH 1021",
-      "department": "SPCH",
-      "title": "LASP: Rhetoric of Rap",
-      "credit_hours": "3",
-      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences). Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering;  periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program.",
-      "prereq_expression": null,
-      "other_requirements": "LASP students only; Instructor permission required",
-      "external": false
-    },
-    {
       "id": "SPCH 1620",
       "course_code": "SPCH 1620",
       "department": "SPCH",
@@ -21,17 +10,6 @@
       "description": "Participation in the Lawrence Debate Union's intercollegiate competitive debate team. Students gain competency in oral communication, teamwork, critical thinking, problem/solving, argumentation and analysis, and advocacy by learning the fundamentals of debate through practice and skill-building; research and case-building; debate competition; public debates; and civic engagement. Prerequisite: Instructor permission.",
       "prereq_expression": null,
       "other_requirements": "Instructor permission",
-      "external": false
-    },
-    {
-      "id": "SPCH 1010",
-      "course_code": "SPCH 1010",
-      "department": "SPCH",
-      "title": "FYS: Rhetoric of Rap",
-      "credit_hours": "3",
-      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
-      "prereq_expression": null,
-      "other_requirements": null,
       "external": false
     },
     {
@@ -57,12 +35,34 @@
       "external": false
     },
     {
+      "id": "SPCH 1021",
+      "course_code": "SPCH 1021",
+      "department": "SPCH",
+      "title": "LASP: Rhetoric of Rap",
+      "credit_hours": "3",
+      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences). Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering;  periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate Liberal Arts Scholars Program.",
+      "prereq_expression": null,
+      "other_requirements": "LASP students only; Instructor permission required",
+      "external": false
+    },
+    {
       "id": "SPCH 1400",
       "course_code": "SPCH 1400",
       "department": "SPCH",
       "title": "Effective Speaking",
       "credit_hours": "3",
       "description": "Fundamentals course in effective, informative, and persuasive public speaking and critical listening. Includes theory and practice.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "SPCH 1010",
+      "course_code": "SPCH 1010",
+      "department": "SPCH",
+      "title": "FYS: Rhetoric of Rap",
+      "credit_hours": "3",
+      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false

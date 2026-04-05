@@ -2,127 +2,6 @@
   "department": "GSWS",
   "nodes": [
     {
-      "id": "GSWS 4050",
-      "course_code": "GSWS 4050",
-      "department": "GSWS",
-      "title": "AIDS:Literature, Art, Activism",
-      "credit_hours": "3",
-      "description": "Advanced discussion-based, interdisciplinary approaches to the study of topics in the field. Representative topics: Feminist Media Studies; Feminist Theory in Historical Perspective; Gender, Sexuality and the Law. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\"  class=\"notoffered\">GSWS 1010</a> or <a href=\"/search/?p=GSWS%201500\" data-action=\"result-detail\" data-group=\"code:GSWS 1500\" >GSWS 1500</a>; six additional hours in GSWS; Gender, Sexuality, &amp; Women's Studies major or minor or Sexuality &amp; Gender Identity Studies minor.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GSWS 1010\"}, {\"type\": \"course\", \"code\": \"GSWS 1500\"}]}, {\"type\": \"course\", \"code\": \"GSWS 2050\"}, {\"type\": \"course\", \"code\": \"GSWS 2070\"}]}",
-      "other_requirements": "six additional hours in GSWS; Gender, Sexuality, & Women's Studies major or minor or Sexuality & Gender Identity Studies minor; Minimum junior standing; PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "GSWS 3990",
-      "course_code": "GSWS 3990",
-      "department": "GSWS",
-      "title": "Black Queer Psychology",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PSYS 1400\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PSYS 2000\"}, {\"type\": \"course\", \"code\": \"PSYS 2002\"}]}]}",
-      "other_requirements": "Junior and Senior standing only; GSWS, PSYS & NEUR majors and minors only; colocated withPSYS 3990E; total combined enrollment = 25; PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "PSYS 2000",
-      "course_code": "PSYS 2000",
-      "department": "PSYS",
-      "title": "Psych Research Methods w/lab",
-      "credit_hours": "4",
-      "description": "Principles of research methodology, including design and reporting. Prepares students to understand and evaluate psychological research in a variety of areas of psychology. Includes laboratory component. Credit not awarded for both PSYS 2000 and <a href=\"/search/?p=PSYS%202002\" data-action=\"result-detail\" data-group=\"code:PSYS 2002\" >PSYS 2002</a>. Prerequisite: <a href=\"/search/?p=PSYS%201400\" data-action=\"result-detail\" data-group=\"code:PSYS 1400\" >PSYS 1400</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"PSYS 1400\"}",
-      "other_requirements": "PSYS and NEUR majors and minors only; Must register for a PSYS 2000 lab, A01-A08; PACE students by permission and override.",
-      "external": true
-    },
-    {
-      "id": "GSWS 2811",
-      "course_code": "GSWS 2811",
-      "department": "GSWS",
-      "title": "Ecofeminism",
-      "credit_hours": "3",
-      "description": "Exploration of a broad range of ecofeminist texts. The field of ecofeminist studies specifically addresses the traditional interpretation of nature as female or feminine, the connection between the oppression of women and the exploitation of nature, and ways in which environmental issues often affect women. Prerequisites: <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\" >GSWS 1010</a>, <a href=\"/search/?p=GSWS%201500\" data-action=\"result-detail\" data-group=\"code:GSWS 1500\" >GSWS 1500</a>, or <a href=\"/search/?p=ENVS%201500\" data-action=\"result-detail\" data-group=\"code:ENVS 1500\" >ENVS 1500</a>. Cross-listed with: <a href=\"/search/?p=ENVS%202220\" data-action=\"result-detail\" data-group=\"code:ENVS 2220\" >ENVS 2220</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GSWS 1010\"}, {\"type\": \"course\", \"code\": \"GSWS 1500\"}, {\"type\": \"course\", \"code\": \"ENVS 1500\"}]}",
-      "other_requirements": "PACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "GSWS 1785",
-      "course_code": "GSWS 1785",
-      "department": "GSWS",
-      "title": "Sociology of Sexualities",
-      "credit_hours": "3",
-      "description": "Examination of the social construction of sexuality with emphasis on theories, concepts, and cultural ramifications of a range of sexual practices and identities. Cross-listed with: <a href=\"/search/?p=SOC%201330\" data-action=\"result-detail\" data-group=\"code:SOC 1330\" >SOC 1330</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "GSWS 2070",
-      "course_code": "GSWS 2070",
-      "department": "GSWS",
-      "title": "LGBT Politics and History",
-      "credit_hours": "3",
-      "description": "Explores the history, strategies, conflicts, and issues surrounding the various movements advancing the claims of LGBT rights, as well as the roles LGBTQ people play as participants in American politics and culture. Prerequisite: <a href=\"/search/?p=GSWS%201500\" data-action=\"result-detail\" data-group=\"code:GSWS 1500\" >GSWS 1500</a>, <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\" >GSWS 1010</a>, <a href=\"/search/?p=POLS%201300\" data-action=\"result-detail\" data-group=\"code:POLS 1300\" >POLS 1300</a>, <a href=\"/search/?p=POLS%201013\" data-action=\"result-detail\" data-group=\"code:POLS 1013\"  class=\"notoffered\">POLS 1013</a>, or Instructor permission. Cross-listed with: <a href=\"/search/?p=POLS%202450\" data-action=\"result-detail\" data-group=\"code:POLS 2450\" >POLS 2450</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1300\"}, {\"type\": \"course\", \"code\": \"POLS 1013\"}, {\"type\": \"course\", \"code\": \"GSWS 1500\"}, {\"type\": \"course\", \"code\": \"GSWS 1010\"}]}",
-      "other_requirements": "Instructor permission. Minimum sophomore standing. PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "GSWS 3995",
-      "course_code": "GSWS 3995",
-      "department": "GSWS",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisites: <a href=\"/search/?p=GSWS%201500\" data-action=\"result-detail\" data-group=\"code:GSWS 1500\" >GSWS 1500</a>; approval of Director of Gender, Sexuality, &amp; Women's Studies.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GSWS 1500\"}, {\"type\": \"course\", \"code\": \"GSWS 1500\"}]}",
-      "other_requirements": "approval of Director of Gender, Sexuality, & Women's Studies; approval of GSWS director; instructor permission",
-      "external": false
-    },
-    {
-      "id": "GSWS 1620",
-      "course_code": "GSWS 1620",
-      "department": "GSWS",
-      "title": "Gender Sexuality& Environment",
-      "credit_hours": "3",
-      "description": "Courses examine the representation and construction of gender and sexuality in literature. Representative topics: Gender, Sexuality and Identity in American Poetry. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Cross-listed with: <a href=\"/search/?p=ENGL%201270\" data-action=\"result-detail\" data-group=\"code:ENGL 1270\" >ENGL 1270</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "GSWS 2050",
-      "course_code": "GSWS 2050",
-      "department": "GSWS",
-      "title": "Gender and Feminism(s)",
-      "credit_hours": "3",
-      "description": "Exploration of the politics and history of feminist movements and theories, as well as the ways in which gender has shaped public policies. The emphasis will be primarily, although not exclusively, on gender and feminism(s) in the United States. Prerequisite: <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\" >GSWS 1010</a> or <a href=\"/search/?p=GSWS%201500\" data-action=\"result-detail\" data-group=\"code:GSWS 1500\" >GSWS 1500</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GSWS 1010\"}, {\"type\": \"course\", \"code\": \"GSWS 1500\"}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "GSWS 4996",
-      "course_code": "GSWS 4996",
-      "department": "GSWS",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "POLS 1300",
-      "course_code": "POLS 1300",
-      "department": "POLS",
-      "title": "US Political System",
-      "credit_hours": "3",
-      "description": "Institutions, processes, and problems of American government. Credit not awarded for both POLS 1300 and <a href=\"/search/?p=POLS%201013\" data-action=\"result-detail\" data-group=\"code:POLS 1013\"  class=\"notoffered\">POLS 1013</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
       "id": "GSWS 1010",
       "course_code": "GSWS 1010",
       "department": "GSWS",
@@ -131,28 +10,6 @@
       "description": "Intensive first-year seminar introducing the field of Gender, Sexuality, and Women's Studies. Topics include key theoretical approaches to conceptualizing gender, sexuality, and power; how gender and sexuality are policed; and the relationship between gender, sexuality, and other social categories. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "GSWS 2765",
-      "course_code": "GSWS 2765",
-      "department": "GSWS",
-      "title": "The Politics of Sex",
-      "credit_hours": "3",
-      "description": "The evolution of sexual politics within the United States. Includes examinations of shifting debates over marriage, reproduction, abortion, LGBT rights, sex education, and teen sexuality. Prerequisite: <a href=\"/search/?p=GSWS%201500\" data-action=\"result-detail\" data-group=\"code:GSWS 1500\" >GSWS 1500</a>, <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\"  class=\"notoffered\">GSWS 1010</a>, <a href=\"/search/?p=POLS%201300\" data-action=\"result-detail\" data-group=\"code:POLS 1300\" >POLS 1300</a>, or <a href=\"/search/?p=POLS%201013\" data-action=\"result-detail\" data-group=\"code:POLS 1013\"  class=\"notoffered\">POLS 1013</a>. Cross-listed with: <a href=\"/search/?p=POLS%202455\" data-action=\"result-detail\" data-group=\"code:POLS 2455\" >POLS 2455</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GSWS 1500\"}, {\"type\": \"course\", \"code\": \"GSWS 1010\"}, {\"type\": \"course\", \"code\": \"POLS 1300\"}, {\"type\": \"course\", \"code\": \"POLS 1013\"}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "GSWS 2715",
-      "course_code": "GSWS 2715",
-      "department": "GSWS",
-      "title": "Gender Sex Race & the Body",
-      "credit_hours": "3",
-      "description": "Cross-cultural study of gender, sex, sexuality, and race including exploring the cultural construction of categories and cultural practices related to the body and gender, sex, sexuality, and race. Prerequisites: <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\"  class=\"notoffered\">GSWS 1010</a>, <a href=\"/search/?p=GSWS%201500\" data-action=\"result-detail\" data-group=\"code:GSWS 1500\" >GSWS 1500</a>, or <a href=\"/search/?p=ANTH%201100\" data-action=\"result-detail\" data-group=\"code:ANTH 1100\" >ANTH 1100</a>. Cross-listed with: <a href=\"/search/?p=ANTH%202205\" data-action=\"result-detail\" data-group=\"code:ANTH 2205\" >ANTH 2205</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GSWS 1010\"}, {\"type\": \"course\", \"code\": \"GSWS 1500\"}, {\"type\": \"course\", \"code\": \"ANTH 1100\"}]}",
-      "other_requirements": "PACE students with permission and override",
       "external": false
     },
     {
@@ -167,23 +24,67 @@
       "external": true
     },
     {
-      "id": "GSWS 3050",
-      "course_code": "GSWS 3050",
+      "id": "GSWS 4996",
+      "course_code": "GSWS 4996",
       "department": "GSWS",
-      "title": "Internship: GSWS Core",
-      "credit_hours": "3",
-      "description": "A semester-long on-site internship relevant to GSWS, secured by the student. The internship is combined with a structured academic learning plan delivered via regular class meetings with a faculty member and cohort of other students or independently under the direction of a faculty member. Required for GSWS majors and open to other qualified students. Prerequisite: A contract must be obtained from and returned to the Gender, Sexuality, &amp; Women's Studies Program office during registration; permission of Director of Gender, Sexuality, &amp; Women's Studies.",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
       "prereq_expression": null,
-      "other_requirements": "A contract must be obtained from and returned to the Gender, Sexuality, &amp; Women's Studies Program office during registration; permission of Director of Gender, Sexuality, &amp; Women's Studies. Instructor permission",
+      "other_requirements": null,
       "external": false
     },
     {
-      "id": "PSYS 1400",
-      "course_code": "PSYS 1400",
-      "department": "PSYS",
-      "title": "Intro to Psychological Science",
+      "id": "GSWS 1620",
+      "course_code": "GSWS 1620",
+      "department": "GSWS",
+      "title": "Gender Sexuality& Environment",
       "credit_hours": "3",
-      "description": "Introduction to the entire field, emphasizing the behavior of the normal adult human being.",
+      "description": "Courses examine the representation and construction of gender and sexuality in literature. Representative topics: Gender, Sexuality and Identity in American Poetry. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Cross-listed with: <a href=\"/search/?p=ENGL%201270\" data-action=\"result-detail\" data-group=\"code:ENGL 1270\" >ENGL 1270</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GSWS 2415",
+      "course_code": "GSWS 2415",
+      "department": "GSWS",
+      "title": "Issues in Women's Health",
+      "credit_hours": "3",
+      "description": "A holistic exploration of the health needs of women and persons assigned female at birth. Considers the stereotypical, theoretical, and clinical approaches to care for this population in westernized and global culture. Students will develop a heightened sense of awareness of these issues in society and media. Prerequisite: A Catamount Core WIL1 course. Cross-listed with: <a href=\"/search/?p=HLTH%202400\" data-action=\"result-detail\" data-group=\"code:HLTH 2400\" >HLTH 2400</a>.",
+      "prereq_expression": null,
+      "other_requirements": "A Catamount Core WIL1 course. Open to Degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "POLS 1300",
+      "course_code": "POLS 1300",
+      "department": "POLS",
+      "title": "US Political System",
+      "credit_hours": "3",
+      "description": "Institutions, processes, and problems of American government. Credit not awarded for both POLS 1300 and <a href=\"/search/?p=POLS%201013\" data-action=\"result-detail\" data-group=\"code:POLS 1013\"  class=\"notoffered\">POLS 1013</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "GSWS 2715",
+      "course_code": "GSWS 2715",
+      "department": "GSWS",
+      "title": "Gender Sex Race & the Body",
+      "credit_hours": "3",
+      "description": "Cross-cultural study of gender, sex, sexuality, and race including exploring the cultural construction of categories and cultural practices related to the body and gender, sex, sexuality, and race. Prerequisites: <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\"  class=\"notoffered\">GSWS 1010</a>, <a href=\"/search/?p=GSWS%201500\" data-action=\"result-detail\" data-group=\"code:GSWS 1500\" >GSWS 1500</a>, or <a href=\"/search/?p=ANTH%201100\" data-action=\"result-detail\" data-group=\"code:ANTH 1100\" >ANTH 1100</a>. Cross-listed with: <a href=\"/search/?p=ANTH%202205\" data-action=\"result-detail\" data-group=\"code:ANTH 2205\" >ANTH 2205</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GSWS 1010\"}, {\"type\": \"course\", \"code\": \"GSWS 1500\"}, {\"type\": \"course\", \"code\": \"ANTH 1100\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "ANTH 1100",
+      "course_code": "ANTH 1100",
+      "department": "ANTH",
+      "title": "Cultural Anthropology",
+      "credit_hours": "3",
+      "description": "Introduction to cultural anthropology, using fieldwork-based concepts and methods to study diverse cultural views and practices, varied forms of social organization, and contemporary global issues.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": true
@@ -200,12 +101,122 @@
       "external": false
     },
     {
+      "id": "PSYS 2000",
+      "course_code": "PSYS 2000",
+      "department": "PSYS",
+      "title": "Psych Research Methods w/lab",
+      "credit_hours": "4",
+      "description": "Principles of research methodology, including design and reporting. Prepares students to understand and evaluate psychological research in a variety of areas of psychology. Includes laboratory component. Credit not awarded for both PSYS 2000 and <a href=\"/search/?p=PSYS%202002\" data-action=\"result-detail\" data-group=\"code:PSYS 2002\" >PSYS 2002</a>. Prerequisite: <a href=\"/search/?p=PSYS%201400\" data-action=\"result-detail\" data-group=\"code:PSYS 1400\" >PSYS 1400</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"PSYS 1400\"}",
+      "other_requirements": "PSYS and NEUR majors and minors only; Must register for a PSYS 2000 lab, A01-A08; PACE students by permission and override.",
+      "external": true
+    },
+    {
+      "id": "GSWS 2050",
+      "course_code": "GSWS 2050",
+      "department": "GSWS",
+      "title": "Gender and Feminism(s)",
+      "credit_hours": "3",
+      "description": "Exploration of the politics and history of feminist movements and theories, as well as the ways in which gender has shaped public policies. The emphasis will be primarily, although not exclusively, on gender and feminism(s) in the United States. Prerequisite: <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\" >GSWS 1010</a> or <a href=\"/search/?p=GSWS%201500\" data-action=\"result-detail\" data-group=\"code:GSWS 1500\" >GSWS 1500</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GSWS 1010\"}, {\"type\": \"course\", \"code\": \"GSWS 1500\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "PSYS 1400",
+      "course_code": "PSYS 1400",
+      "department": "PSYS",
+      "title": "Intro to Psychological Science",
+      "credit_hours": "3",
+      "description": "Introduction to the entire field, emphasizing the behavior of the normal adult human being.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "GSWS 3050",
+      "course_code": "GSWS 3050",
+      "department": "GSWS",
+      "title": "Internship: GSWS Core",
+      "credit_hours": "3",
+      "description": "A semester-long on-site internship relevant to GSWS, secured by the student. The internship is combined with a structured academic learning plan delivered via regular class meetings with a faculty member and cohort of other students or independently under the direction of a faculty member. Required for GSWS majors and open to other qualified students. Prerequisite: A contract must be obtained from and returned to the Gender, Sexuality, &amp; Women's Studies Program office during registration; permission of Director of Gender, Sexuality, &amp; Women's Studies.",
+      "prereq_expression": null,
+      "other_requirements": "A contract must be obtained from and returned to the Gender, Sexuality, &amp; Women's Studies Program office during registration; permission of Director of Gender, Sexuality, &amp; Women's Studies. Instructor permission",
+      "external": false
+    },
+    {
+      "id": "GSWS 3995",
+      "course_code": "GSWS 3995",
+      "department": "GSWS",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisites: <a href=\"/search/?p=GSWS%201500\" data-action=\"result-detail\" data-group=\"code:GSWS 1500\" >GSWS 1500</a>; approval of Director of Gender, Sexuality, &amp; Women's Studies.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GSWS 1500\"}, {\"type\": \"course\", \"code\": \"GSWS 1500\"}]}",
+      "other_requirements": "approval of Director of Gender, Sexuality, & Women's Studies; approval of GSWS director; instructor permission",
+      "external": false
+    },
+    {
+      "id": "GSWS 2765",
+      "course_code": "GSWS 2765",
+      "department": "GSWS",
+      "title": "The Politics of Sex",
+      "credit_hours": "3",
+      "description": "The evolution of sexual politics within the United States. Includes examinations of shifting debates over marriage, reproduction, abortion, LGBT rights, sex education, and teen sexuality. Prerequisite: <a href=\"/search/?p=GSWS%201500\" data-action=\"result-detail\" data-group=\"code:GSWS 1500\" >GSWS 1500</a>, <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\"  class=\"notoffered\">GSWS 1010</a>, <a href=\"/search/?p=POLS%201300\" data-action=\"result-detail\" data-group=\"code:POLS 1300\" >POLS 1300</a>, or <a href=\"/search/?p=POLS%201013\" data-action=\"result-detail\" data-group=\"code:POLS 1013\"  class=\"notoffered\">POLS 1013</a>. Cross-listed with: <a href=\"/search/?p=POLS%202455\" data-action=\"result-detail\" data-group=\"code:POLS 2455\" >POLS 2455</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GSWS 1500\"}, {\"type\": \"course\", \"code\": \"GSWS 1010\"}, {\"type\": \"course\", \"code\": \"POLS 1300\"}, {\"type\": \"course\", \"code\": \"POLS 1013\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "GSWS 3990",
+      "course_code": "GSWS 3990",
+      "department": "GSWS",
+      "title": "Black Queer Psychology",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PSYS 1400\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PSYS 2000\"}, {\"type\": \"course\", \"code\": \"PSYS 2002\"}]}]}",
+      "other_requirements": "Junior and Senior standing only; GSWS, PSYS & NEUR majors and minors only; colocated withPSYS 3990E; total combined enrollment = 25; PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "GSWS 4050",
+      "course_code": "GSWS 4050",
+      "department": "GSWS",
+      "title": "AIDS:Literature, Art, Activism",
+      "credit_hours": "3",
+      "description": "Advanced discussion-based, interdisciplinary approaches to the study of topics in the field. Representative topics: Feminist Media Studies; Feminist Theory in Historical Perspective; Gender, Sexuality and the Law. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisites: <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\"  class=\"notoffered\">GSWS 1010</a> or <a href=\"/search/?p=GSWS%201500\" data-action=\"result-detail\" data-group=\"code:GSWS 1500\" >GSWS 1500</a>; six additional hours in GSWS; Gender, Sexuality, &amp; Women's Studies major or minor or Sexuality &amp; Gender Identity Studies minor.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GSWS 1010\"}, {\"type\": \"course\", \"code\": \"GSWS 1500\"}]}, {\"type\": \"course\", \"code\": \"GSWS 2050\"}, {\"type\": \"course\", \"code\": \"GSWS 2070\"}]}",
+      "other_requirements": "six additional hours in GSWS; Gender, Sexuality, & Women's Studies major or minor or Sexuality & Gender Identity Studies minor; Minimum junior standing; PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "GSWS 2811",
+      "course_code": "GSWS 2811",
+      "department": "GSWS",
+      "title": "Ecofeminism",
+      "credit_hours": "3",
+      "description": "Exploration of a broad range of ecofeminist texts. The field of ecofeminist studies specifically addresses the traditional interpretation of nature as female or feminine, the connection between the oppression of women and the exploitation of nature, and ways in which environmental issues often affect women. Prerequisites: <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\" >GSWS 1010</a>, <a href=\"/search/?p=GSWS%201500\" data-action=\"result-detail\" data-group=\"code:GSWS 1500\" >GSWS 1500</a>, or <a href=\"/search/?p=ENVS%201500\" data-action=\"result-detail\" data-group=\"code:ENVS 1500\" >ENVS 1500</a>. Cross-listed with: <a href=\"/search/?p=ENVS%202220\" data-action=\"result-detail\" data-group=\"code:ENVS 2220\" >ENVS 2220</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GSWS 1010\"}, {\"type\": \"course\", \"code\": \"GSWS 1500\"}, {\"type\": \"course\", \"code\": \"ENVS 1500\"}]}",
+      "other_requirements": "PACE students by permission and override",
+      "external": false
+    },
+    {
       "id": "GSWS 1500",
       "course_code": "GSWS 1500",
       "department": "GSWS",
       "title": "Intro to GSWS",
       "credit_hours": "3",
       "description": "Introduction to the field of gender, sexuality, and women's studies. Topics include key theoretical approaches to conceptualizing gender, sexuality, and power; how gender and sexuality are policed; and the relationship between gender, sexuality, and other social categories. Credit not awarded for both GSWS 1500 and <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\" >GSWS 1010</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "GSWS 1785",
+      "course_code": "GSWS 1785",
+      "department": "GSWS",
+      "title": "Sociology of Sexualities",
+      "credit_hours": "3",
+      "description": "Examination of the social construction of sexuality with emphasis on theories, concepts, and cultural ramifications of a range of sexual practices and identities. Cross-listed with: <a href=\"/search/?p=SOC%201330\" data-action=\"result-detail\" data-group=\"code:SOC 1330\" >SOC 1330</a>.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -222,6 +233,17 @@
       "external": false
     },
     {
+      "id": "GSWS 1405",
+      "course_code": "GSWS 1405",
+      "department": "GSWS",
+      "title": "CL:PrevSexual & DatingViolence",
+      "credit_hours": "3",
+      "description": "In-depth examination of the dynamics, prevention of, and legal, medical, and other responses to interpersonal violence. Contemporary issues related to sexual violence, dating/intimate partner violence, and stalking will be discussed at length from both research and practical perspectives. Cross-listed with: <a href=\"/search/?p=HSCI%201036\" data-action=\"result-detail\" data-group=\"code:HSCI 1036\" >HSCI 1036</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
       "id": "PSYS 2002",
       "course_code": "PSYS 2002",
       "department": "PSYS",
@@ -233,36 +255,14 @@
       "external": true
     },
     {
-      "id": "ANTH 1100",
-      "course_code": "ANTH 1100",
-      "department": "ANTH",
-      "title": "Cultural Anthropology",
-      "credit_hours": "3",
-      "description": "Introduction to cultural anthropology, using fieldwork-based concepts and methods to study diverse cultural views and practices, varied forms of social organization, and contemporary global issues.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "GSWS 2415",
-      "course_code": "GSWS 2415",
+      "id": "GSWS 2070",
+      "course_code": "GSWS 2070",
       "department": "GSWS",
-      "title": "Issues in Women's Health",
+      "title": "LGBT Politics and History",
       "credit_hours": "3",
-      "description": "A holistic exploration of the health needs of women and persons assigned female at birth. Considers the stereotypical, theoretical, and clinical approaches to care for this population in westernized and global culture. Students will develop a heightened sense of awareness of these issues in society and media. Prerequisite: A Catamount Core WIL1 course. Cross-listed with: <a href=\"/search/?p=HLTH%202400\" data-action=\"result-detail\" data-group=\"code:HLTH 2400\" >HLTH 2400</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"GSWS 2415\"}",
-      "other_requirements": "A Catamount Core WIL1 course. Open to Degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "GSWS 1405",
-      "course_code": "GSWS 1405",
-      "department": "GSWS",
-      "title": "CL:PrevSexual & DatingViolence",
-      "credit_hours": "3",
-      "description": "In-depth examination of the dynamics, prevention of, and legal, medical, and other responses to interpersonal violence. Contemporary issues related to sexual violence, dating/intimate partner violence, and stalking will be discussed at length from both research and practical perspectives. Cross-listed with: <a href=\"/search/?p=HSCI%201036\" data-action=\"result-detail\" data-group=\"code:HSCI 1036\" >HSCI 1036</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "description": "Explores the history, strategies, conflicts, and issues surrounding the various movements advancing the claims of LGBT rights, as well as the roles LGBTQ people play as participants in American politics and culture. Prerequisite: <a href=\"/search/?p=GSWS%201500\" data-action=\"result-detail\" data-group=\"code:GSWS 1500\" >GSWS 1500</a>, <a href=\"/search/?p=GSWS%201010\" data-action=\"result-detail\" data-group=\"code:GSWS 1010\" >GSWS 1010</a>, <a href=\"/search/?p=POLS%201300\" data-action=\"result-detail\" data-group=\"code:POLS 1300\" >POLS 1300</a>, <a href=\"/search/?p=POLS%201013\" data-action=\"result-detail\" data-group=\"code:POLS 1013\"  class=\"notoffered\">POLS 1013</a>, or Instructor permission. Cross-listed with: <a href=\"/search/?p=POLS%202450\" data-action=\"result-detail\" data-group=\"code:POLS 2450\" >POLS 2450</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"POLS 1300\"}, {\"type\": \"course\", \"code\": \"POLS 1013\"}, {\"type\": \"course\", \"code\": \"GSWS 1500\"}, {\"type\": \"course\", \"code\": \"GSWS 1010\"}]}",
+      "other_requirements": "Instructor permission. Minimum sophomore standing. PACE students by permission and override.",
       "external": false
     }
   ],
@@ -350,11 +350,6 @@
     {
       "source": "GSWS 2070",
       "target": "GSWS 4050",
-      "group": null
-    },
-    {
-      "source": "GSWS 2415",
-      "target": "GSWS 2415",
       "group": null
     },
     {

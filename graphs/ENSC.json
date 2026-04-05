@@ -2,26 +2,15 @@
   "department": "ENSC",
   "nodes": [
     {
-      "id": "ENSC 3993",
-      "course_code": "ENSC 3993",
+      "id": "ENSC 3990",
+      "course_code": "ENSC 3990",
       "department": "ENSC",
-      "title": "Independent Study",
-      "credit_hours": "1 to 18",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "title": "Watershed Hydrology",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles. Prerequisite: Senior standing.",
       "prereq_expression": null,
-      "other_requirements": "Instructor permission required. Offered at department discretion.",
+      "other_requirements": "Senior standing.",
       "external": false
-    },
-    {
-      "id": "NR 1090",
-      "course_code": "NR 1090",
-      "department": "NR",
-      "title": "VT: Natural & Cultural Hst",
-      "credit_hours": "4",
-      "description": "Introduction to the Vermont landscape that combines elements of natural history, field ecology, and environmental history. Students visit locations around the Champlain Valley as they build observational skills, study natural systems, and examine past and present human relationships with nature.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
     },
     {
       "id": "CHEM 1450",
@@ -35,15 +24,37 @@
       "external": true
     },
     {
-      "id": "ENSC 3600",
-      "course_code": "ENSC 3600",
-      "department": "ENSC",
-      "title": "Pollutant Mvmt/Air,Land&Water",
+      "id": "ENVS 1500",
+      "course_code": "ENVS 1500",
+      "department": "ENVS",
+      "title": "Intro to Envrnmtl Studies",
       "credit_hours": "4",
-      "description": "Physical, chemical, and biological aspects of pollutant behavior from source to ultimate fate. Laboratory methodologies for measuring pollutants and predicting their transport, behavior, and fate. Prerequisites: <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>, <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>; <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a> or <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1450\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"course\", \"code\": \"MATH 1248\"}]}]}",
-      "other_requirements": "Must register for an ENSC 3600 Lab; ENSC Majors only; Minimum Junior standing; Open to Degree and PACE students.",
+      "description": "Survey of the interdisciplinary field of environmental studies. Examines ecological, cultural, historical, and political influences on the role of humans in local and global ecosystems and the grand challenges humanity faces. Required for Environmental Studies majors and minors.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "ENSC 4990",
+      "course_code": "ENSC 4990",
+      "department": "ENSC",
+      "title": "SL:Envirnmnt Consltng Capstone",
+      "credit_hours": "4",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": "Must have senior standing to register.",
       "external": false
+    },
+    {
+      "id": "CHEM 1400",
+      "course_code": "CHEM 1400",
+      "department": "CHEM",
+      "title": "General Chemistry 1",
+      "credit_hours": "4",
+      "description": "First semester of a two-semester sequence. Topics include matter, stoichiometry, gas laws, thermochemistry, quantum theory, atomic structure, electronic configurations, bonding, and intermolecular forces. Credit not awarded for both CHEM 1400 and <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\" >CHEM 1100</a>, <a href=\"/search/?p=CHEM%201102\" data-action=\"result-detail\" data-group=\"code:CHEM 1102\" >CHEM 1102</a>, or <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
     },
     {
       "id": "ENSC 2490",
@@ -57,14 +68,36 @@
       "external": false
     },
     {
-      "id": "ENSC 3990",
-      "course_code": "ENSC 3990",
+      "id": "ENSC 1090",
+      "course_code": "ENSC 1090",
       "department": "ENSC",
-      "title": "Watershed Hydrology",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles. Prerequisite: Senior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ENSC 3990\"}]}",
-      "other_requirements": "Senior standing.",
+      "title": "Orientation to Env Sciences",
+      "credit_hours": "1",
+      "description": "Introduces new majors to the discipline, major, and profession through advising exercises, guest lectures, panel discussions and skills practice. Provides a foundation of common disciplinary frameworks and methodologies to support students in major coursework. Prerequisites: First-Year Rubenstein School of Environment and Natural Resources Environmental Science major.",
+      "prereq_expression": null,
+      "other_requirements": "First-Year Rubenstein School of Environment and Natural Resources Environmental Science major. 1st yr ENSC Majors in CALS/RSENR only",
+      "external": false
+    },
+    {
+      "id": "ENSC 2991",
+      "course_code": "ENSC 2991",
+      "department": "ENSC",
+      "title": "Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Maximum of six hours. Three can be applied to elected concentration with Director permission.",
+      "prereq_expression": null,
+      "other_requirements": "Director permission. Instructor permission required.",
+      "external": false
+    },
+    {
+      "id": "ENSC 2993",
+      "course_code": "ENSC 2993",
+      "department": "ENSC",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "Tailored to the interests of a specific student, occurs outside the traditional classroom/laboratory setting under faculty supervision, for which credit is awarded. Offered at department discretion. Up to six hours. Three can be applied to elected concentration with Director permission.",
+      "prereq_expression": null,
+      "other_requirements": "Director permission for up to six hours to be applied to elected concentration. Instructor permission required and completion of an Experiential Learning Plan required.",
       "external": false
     },
     {
@@ -79,15 +112,37 @@
       "external": true
     },
     {
-      "id": "CHEM 1400",
-      "course_code": "CHEM 1400",
-      "department": "CHEM",
-      "title": "General Chemistry 1",
+      "id": "MATH 1248",
+      "course_code": "MATH 1248",
+      "department": "MATH",
+      "title": "Calculus II",
       "credit_hours": "4",
-      "description": "First semester of a two-semester sequence. Topics include matter, stoichiometry, gas laws, thermochemistry, quantum theory, atomic structure, electronic configurations, bonding, and intermolecular forces. Credit not awarded for both CHEM 1400 and <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\" >CHEM 1100</a>, <a href=\"/search/?p=CHEM%201102\" data-action=\"result-detail\" data-group=\"code:CHEM 1102\" >CHEM 1102</a>, or <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>.",
+      "description": "Vectors and vector operations. Techniques and applications of integration. Polar coordinates, Taylor polynomials, sequences and series, power series. Credit will not be given for both MATH 1248 and <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 021\"}]}",
+      "other_requirements": "C- or better in MATH 1234. C- or better in MATH 021.",
+      "external": true
+    },
+    {
+      "id": "ENSC 1490",
+      "course_code": "ENSC 1490",
+      "department": "ENSC",
+      "title": "Climate Change I",
+      "credit_hours": "3",
+      "description": "Explores how and when climate has changed over time and its impact on people and ecosystems; how humans have altered Earth's climate historically; how climate will change in the future; and implications for people and planet. Learn to communicate about climate change and take action. Credit not awarded for both ENSC 1490 and <a href=\"/search/?p=ENSC%202490\" data-action=\"result-detail\" data-group=\"code:ENSC 2490\" >ENSC 2490</a>.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": true
+      "external": false
+    },
+    {
+      "id": "ENSC 1010",
+      "course_code": "ENSC 1010",
+      "department": "ENSC",
+      "title": "Intro Environmental Sci",
+      "credit_hours": "3",
+      "description": "Explores the complex interactions between humans and environmental systems and the ecological foundations and scientific principles to better understand how the coupled human-natural system works, and how science can be used to help solve environmental problems.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
     },
     {
       "id": "NR 2430",
@@ -98,6 +153,50 @@
       "description": "Understanding and application of computer-based, geographically-referenced information systems. Prerequisite: Minimum Sophomore standing.",
       "prereq_expression": null,
       "other_requirements": "Minimum Sophomore standing. Must register for a NR 2430 lab A01 - A06",
+      "external": true
+    },
+    {
+      "id": "ENSC 2300",
+      "course_code": "ENSC 2300",
+      "department": "ENSC",
+      "title": "Global Environmental Assessmnt",
+      "credit_hours": "3",
+      "description": "Introduction to skills for assessing human impacts on the global environment. Theory and application of GPS, geographic information systems and satellite remote sensing to address key environmental issues. Prerequisites: <a href=\"/search/?p=ENSC%201010\" data-action=\"result-detail\" data-group=\"code:ENSC 1010\"  class=\"notoffered\">ENSC 1010</a>, <a href=\"/search/?p=ENVS%201500\" data-action=\"result-detail\" data-group=\"code:ENVS 1500\" >ENVS 1500</a>, <a href=\"/search/?p=GEOG%201200\" data-action=\"result-detail\" data-group=\"code:GEOG 1200\" >GEOG 1200</a>, <a href=\"/search/?p=NR%201010\" data-action=\"result-detail\" data-group=\"code:NR 1010\" >NR 1010</a>, <a href=\"/search/?p=NR%201090\" data-action=\"result-detail\" data-group=\"code:NR 1090\" >NR 1090</a>, or Geospatial Technologies minor.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ENSC 1010\"}, {\"type\": \"course\", \"code\": \"ENVS 1500\"}, {\"type\": \"course\", \"code\": \"GEOG 1200\"}, {\"type\": \"course\", \"code\": \"NR 1090\"}]}",
+      "other_requirements": "Geospatial Technologies minor",
+      "external": false
+    },
+    {
+      "id": "ENSC 4010",
+      "course_code": "ENSC 4010",
+      "department": "ENSC",
+      "title": "Recovery&Restor Altered Ecosys",
+      "credit_hours": "0",
+      "description": "Role of stress and disturbance and the natural process of recovery in aquatic and terrestrial ecosystems. Human efforts to modify, restore, and remediate altered ecosystems. Prerequisites: <a href=\"/search/?p=NR%202030\" data-action=\"result-detail\" data-group=\"code:NR 2030\" >NR 2030</a>, <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, or <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 2030\"}, {\"type\": \"course\", \"code\": \"BCOR 2100\"}]}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}",
+      "other_requirements": "minimum Junior standing; Some labs meeting take place off-campus; Must register for a lab section concurrently;Juniors and Seniors Only.",
+      "external": false
+    },
+    {
+      "id": "NR 2030",
+      "course_code": "NR 2030",
+      "department": "NR",
+      "title": "Ecology, Ecosystems & Environ",
+      "credit_hours": "3",
+      "description": "Major ecological concepts and their application. Analysis of form, structure, and function of organisms, populations, communities, ecosystems, and landscapes. Prerequisites: RSENR students or Agroecology or Landscape Design or Environmental Studies majors; minimum Sophomore standing.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RSENR\"}, {\"type\": \"course\", \"code\": \"AGRO\"}, {\"type\": \"course\", \"code\": \"LNDS\"}, {\"type\": \"course\", \"code\": \"ENVS\"}]}",
+      "other_requirements": "minimum Sophomore standing",
+      "external": true
+    },
+    {
+      "id": "MATH 1224",
+      "course_code": "MATH 1224",
+      "department": "MATH",
+      "title": "Fundamentals of Calculus II",
+      "credit_hours": "3",
+      "description": "Techniques and applications of integration. An introduction to multi-variable calculus: partial derivatives and double integrals. Prerequisite: <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "other_requirements": "Open to Degree and PACE students",
       "external": true
     },
     {
@@ -112,36 +211,80 @@
       "external": false
     },
     {
+      "id": "ENSC 2995",
+      "course_code": "ENSC 2995",
+      "department": "ENSC",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Up to six hours. Three can be applied to elected concentration with Director permission.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required; completion of an Experiential Learning plan required",
+      "external": false
+    },
+    {
+      "id": "NR 1090",
+      "course_code": "NR 1090",
+      "department": "NR",
+      "title": "VT: Natural & Cultural Hst",
+      "credit_hours": "4",
+      "description": "Introduction to the Vermont landscape that combines elements of natural history, field ecology, and environmental history. Students visit locations around the Champlain Valley as they build observational skills, study natural systems, and examine past and present human relationships with nature.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "MATH 1234",
+      "course_code": "MATH 1234",
+      "department": "MATH",
+      "title": "Calculus I",
+      "credit_hours": "4",
+      "description": "Introduction to calculus of functions of one variable including: limits, continuity, techniques and applications of differentiation and integration. Credit not given for more than one course in the pair <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, MATH 1234 unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a> or a score of 76 or higher on the placement assessment.",
+      "prereq_expression": "{\"type\": \"other_requirement\", \"description\": \"ALEKS MPA of at least 76\"}",
+      "other_requirements": "C- or better in MATH 1034 or a score of 76 or higher on the placement assessment. Prereqs enforced by the system.",
+      "external": true
+    },
+    {
+      "id": "ENSC 4020",
+      "course_code": "ENSC 4020",
+      "department": "ENSC",
+      "title": "Applied Envir Assess Analysis",
+      "credit_hours": "4",
+      "description": "Approaches used to identify, evaluate, and manage environmental risks. Focus on interactions among ecological, economic, and social considerations; often utilizing a watershed perspective. Problem formulation, methods selection. Case studies. Project-oriented. Prerequisites: <a href=\"/search/?p=ENSC%202030\" data-action=\"result-detail\" data-group=\"code:ENSC 2030\"  class=\"notoffered\">ENSC 2030</a> or <a href=\"/search/?p=NR%202430\" data-action=\"result-detail\" data-group=\"code:NR 2430\" >NR 2430</a>; <a href=\"/search/?p=NR%203050\" data-action=\"result-detail\" data-group=\"code:NR 3050\" >NR 3050</a> or <a href=\"/search/?p=SEP%202880\" data-action=\"result-detail\" data-group=\"code:SEP 2880\"  class=\"notoffered\">SEP 2880</a>; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ENSC 2030\"}, {\"type\": \"course\", \"code\": \"NR 2430\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 3050\"}, {\"type\": \"course\", \"code\": \"SEP 2880\"}]}]}",
+      "other_requirements": "minimum Junior standing. Must register for one discussion section ENSC 4020",
+      "external": false
+    },
+    {
+      "id": "BCOR 1450",
+      "course_code": "BCOR 1450",
+      "department": "BCOR",
+      "title": "Exploring Biology 2",
+      "credit_hours": "4",
+      "description": "An evolutionary perspective to exploring biology. Topics include: patterns of inheritance, Darwinian evolution, evolution of biodiversity, ecology of organisms, human effects on biological systems. Credit not awarded for both BCOR 1450 and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
       "id": "MATH 1212",
       "course_code": "MATH 1212",
       "department": "MATH",
       "title": "Fundamentals of Calculus I",
       "credit_hours": "3",
       "description": "Introduction to limits and differential/integral calculus with a wide variety of applications. Students interested in intensive use of mathematics should take <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit not awarded for both MATH 1212 and <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>.  See <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201012\" data-action=\"result-detail\" data-group=\"code:MATH 1012\" >MATH 1012</a> or C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a>, or a score of 61 or higher on the placement assessment.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1012\"}, {\"type\": \"course\", \"code\": \"MATH 1034\"}]}",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MATH 1034\"}",
       "other_requirements": "C- or better in MATH 1012 or C- or better in MATH 1034, or a score of 61 or higher on the placement assessment. Prereqs enforced by the system: MATH 1012 or MATH 1034 or ALEKS MPA of at least 61; Open to Degree and PACE students",
       "external": true
     },
     {
-      "id": "ENSC 1010",
-      "course_code": "ENSC 1010",
+      "id": "ENSC 3600",
+      "course_code": "ENSC 3600",
       "department": "ENSC",
-      "title": "Intro Environmental Sci",
-      "credit_hours": "3",
-      "description": "Explores the complex interactions between humans and environmental systems and the ecological foundations and scientific principles to better understand how the coupled human-natural system works, and how science can be used to help solve environmental problems.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "ENSC 4990",
-      "course_code": "ENSC 4990",
-      "department": "ENSC",
-      "title": "SL:Envirnmnt Consltng Capstone",
+      "title": "Pollutant Mvmt/Air,Land&Water",
       "credit_hours": "4",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"ENSC 4990\"}",
-      "other_requirements": "Must have senior standing to register.",
+      "description": "Physical, chemical, and biological aspects of pollutant behavior from source to ultimate fate. Laboratory methodologies for measuring pollutants and predicting their transport, behavior, and fate. Prerequisites: <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>, <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>; <a href=\"/search/?p=MATH%201224\" data-action=\"result-detail\" data-group=\"code:MATH 1224\" >MATH 1224</a> or <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1450\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1224\"}, {\"type\": \"course\", \"code\": \"MATH 1248\"}]}]}",
+      "other_requirements": "Must register for an ENSC 3600 Lab; ENSC Majors only; Minimum Junior standing; Open to Degree and PACE students.",
       "external": false
     },
     {
@@ -167,28 +310,6 @@
       "external": true
     },
     {
-      "id": "ENVS 1500",
-      "course_code": "ENVS 1500",
-      "department": "ENVS",
-      "title": "Intro to Envrnmtl Studies",
-      "credit_hours": "4",
-      "description": "Survey of the interdisciplinary field of environmental studies. Examines ecological, cultural, historical, and political influences on the role of humans in local and global ecosystems and the grand challenges humanity faces. Required for Environmental Studies majors and minors.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "ENSC 4010",
-      "course_code": "ENSC 4010",
-      "department": "ENSC",
-      "title": "Recovery&Restor Altered Ecosys",
-      "credit_hours": "0",
-      "description": "Role of stress and disturbance and the natural process of recovery in aquatic and terrestrial ecosystems. Human efforts to modify, restore, and remediate altered ecosystems. Prerequisites: <a href=\"/search/?p=NR%202030\" data-action=\"result-detail\" data-group=\"code:NR 2030\" >NR 2030</a>, <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, or <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a>; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 2030\"}, {\"type\": \"course\", \"code\": \"BCOR 2100\"}]}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}",
-      "other_requirements": "minimum Junior standing; Some labs meeting take place off-campus; Must register for a lab section concurrently;Juniors and Seniors Only.",
-      "external": false
-    },
-    {
       "id": "NR 3050",
       "course_code": "NR 3050",
       "department": "NR",
@@ -197,6 +318,17 @@
       "description": "Analysis of the interaction between science and politics in ecosystem management. Consideration of various types of science and their roles in shaping environmental management, politics, and policy. Interdisciplinary application of course concepts to case studies of complex ecological problems. Prerequisites: <a href=\"/search/?p=NR%202030\" data-action=\"result-detail\" data-group=\"code:NR 2030\" >NR 2030</a>, <a href=\"/search/?p=NR%202040\" data-action=\"result-detail\" data-group=\"code:NR 2040\" >NR 2040</a>.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 2030\"}, {\"type\": \"course\", \"code\": \"NR 2040\"}]}",
       "other_requirements": "RSENR students only; Mimimum Junior standing",
+      "external": true
+    },
+    {
+      "id": "GEOG 1200",
+      "course_code": "GEOG 1200",
+      "department": "GEOG",
+      "title": "Weather, Climate & Landscapes",
+      "credit_hours": "3",
+      "description": "Introduction to the fundamentals of weather, climate, landform evolution, and plant distribution using a systems approach. Focus on variation in processes over space and time.",
+      "prereq_expression": null,
+      "other_requirements": "First year and sophomores only during week of registration; then Juniors & seniors can enroll, space permitting; Junior and senior GEOG majors contact instructor; requires internet access and ability to log onto Brightspace and MSTeams; requires a working camera on computer or device if using MSTeams.",
       "external": true
     },
     {
@@ -211,146 +343,14 @@
       "external": false
     },
     {
-      "id": "MATH 1224",
-      "course_code": "MATH 1224",
-      "department": "MATH",
-      "title": "Fundamentals of Calculus II",
-      "credit_hours": "3",
-      "description": "Techniques and applications of integration. An introduction to multi-variable calculus: partial derivatives and double integrals. Prerequisite: <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
-      "other_requirements": "Open to Degree and PACE students",
-      "external": true
-    },
-    {
-      "id": "ENSC 1490",
-      "course_code": "ENSC 1490",
-      "department": "ENSC",
-      "title": "Climate Change I",
-      "credit_hours": "3",
-      "description": "Explores how and when climate has changed over time and its impact on people and ecosystems; how humans have altered Earth's climate historically; how climate will change in the future; and implications for people and planet. Learn to communicate about climate change and take action. Credit not awarded for both ENSC 1490 and <a href=\"/search/?p=ENSC%202490\" data-action=\"result-detail\" data-group=\"code:ENSC 2490\" >ENSC 2490</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "ENSC 2993",
-      "course_code": "ENSC 2993",
+      "id": "ENSC 3993",
+      "course_code": "ENSC 3993",
       "department": "ENSC",
       "title": "Independent Study",
       "credit_hours": "1 to 18",
-      "description": "Tailored to the interests of a specific student, occurs outside the traditional classroom/laboratory setting under faculty supervision, for which credit is awarded. Offered at department discretion. Up to six hours. Three can be applied to elected concentration with Director permission.",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
-      "other_requirements": "Director permission for up to six hours to be applied to elected concentration. Instructor permission required and completion of an Experiential Learning Plan required.",
-      "external": false
-    },
-    {
-      "id": "GEOG 1200",
-      "course_code": "GEOG 1200",
-      "department": "GEOG",
-      "title": "Weather, Climate & Landscapes",
-      "credit_hours": "3",
-      "description": "Introduction to the fundamentals of weather, climate, landform evolution, and plant distribution using a systems approach. Focus on variation in processes over space and time.",
-      "prereq_expression": null,
-      "other_requirements": "First year and sophomores only during week of registration; then Juniors & seniors can enroll, space permitting; Junior and senior GEOG majors contact instructor; requires internet access and ability to log onto Brightspace and MSTeams; requires a working camera on computer or device if using MSTeams.",
-      "external": true
-    },
-    {
-      "id": "ENSC 2991",
-      "course_code": "ENSC 2991",
-      "department": "ENSC",
-      "title": "Internship",
-      "credit_hours": "1 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Maximum of six hours. Three can be applied to elected concentration with Director permission.",
-      "prereq_expression": null,
-      "other_requirements": "Director permission. Instructor permission required.",
-      "external": false
-    },
-    {
-      "id": "ENSC 2995",
-      "course_code": "ENSC 2995",
-      "department": "ENSC",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Up to six hours. Three can be applied to elected concentration with Director permission.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required; completion of an Experiential Learning plan required",
-      "external": false
-    },
-    {
-      "id": "NR 2030",
-      "course_code": "NR 2030",
-      "department": "NR",
-      "title": "Ecology, Ecosystems & Environ",
-      "credit_hours": "3",
-      "description": "Major ecological concepts and their application. Analysis of form, structure, and function of organisms, populations, communities, ecosystems, and landscapes. Prerequisites: RSENR students or Agroecology or Landscape Design or Environmental Studies majors; minimum Sophomore standing.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RSENR\"}, {\"type\": \"course\", \"code\": \"AGRO\"}, {\"type\": \"course\", \"code\": \"LNDS\"}, {\"type\": \"course\", \"code\": \"ENVS\"}]}",
-      "other_requirements": "minimum Sophomore standing",
-      "external": true
-    },
-    {
-      "id": "ENSC 2300",
-      "course_code": "ENSC 2300",
-      "department": "ENSC",
-      "title": "Global Environmental Assessmnt",
-      "credit_hours": "3",
-      "description": "Introduction to skills for assessing human impacts on the global environment. Theory and application of GPS, geographic information systems and satellite remote sensing to address key environmental issues. Prerequisites: <a href=\"/search/?p=ENSC%201010\" data-action=\"result-detail\" data-group=\"code:ENSC 1010\"  class=\"notoffered\">ENSC 1010</a>, <a href=\"/search/?p=ENVS%201500\" data-action=\"result-detail\" data-group=\"code:ENVS 1500\" >ENVS 1500</a>, <a href=\"/search/?p=GEOG%201200\" data-action=\"result-detail\" data-group=\"code:GEOG 1200\" >GEOG 1200</a>, <a href=\"/search/?p=NR%201010\" data-action=\"result-detail\" data-group=\"code:NR 1010\" >NR 1010</a>, <a href=\"/search/?p=NR%201090\" data-action=\"result-detail\" data-group=\"code:NR 1090\" >NR 1090</a>, or Geospatial Technologies minor.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ENSC 1010\"}, {\"type\": \"course\", \"code\": \"ENVS 1500\"}, {\"type\": \"course\", \"code\": \"GEOG 1200\"}, {\"type\": \"course\", \"code\": \"NR 1090\"}]}",
-      "other_requirements": "Geospatial Technologies minor",
-      "external": false
-    },
-    {
-      "id": "ENSC 1090",
-      "course_code": "ENSC 1090",
-      "department": "ENSC",
-      "title": "Orientation to Env Sciences",
-      "credit_hours": "1",
-      "description": "Introduces new majors to the discipline, major, and profession through advising exercises, guest lectures, panel discussions and skills practice. Provides a foundation of common disciplinary frameworks and methodologies to support students in major coursework. Prerequisites: First-Year Rubenstein School of Environment and Natural Resources Environmental Science major.",
-      "prereq_expression": null,
-      "other_requirements": "First-Year Rubenstein School of Environment and Natural Resources Environmental Science major. 1st yr ENSC Majors in CALS/RSENR only",
-      "external": false
-    },
-    {
-      "id": "MATH 1234",
-      "course_code": "MATH 1234",
-      "department": "MATH",
-      "title": "Calculus I",
-      "credit_hours": "4",
-      "description": "Introduction to calculus of functions of one variable including: limits, continuity, techniques and applications of differentiation and integration. Credit not given for more than one course in the pair <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, MATH 1234 unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a> or a score of 76 or higher on the placement assessment.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1034\"}, {\"type\": \"other_requirement\", \"description\": \"ALEKS MPA of at least 76\"}]}",
-      "other_requirements": "C- or better in MATH 1034 or a score of 76 or higher on the placement assessment. Prereqs enforced by the system.",
-      "external": true
-    },
-    {
-      "id": "BCOR 1450",
-      "course_code": "BCOR 1450",
-      "department": "BCOR",
-      "title": "Exploring Biology 2",
-      "credit_hours": "4",
-      "description": "An evolutionary perspective to exploring biology. Topics include: patterns of inheritance, Darwinian evolution, evolution of biodiversity, ecology of organisms, human effects on biological systems. Credit not awarded for both BCOR 1450 and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "MATH 1248",
-      "course_code": "MATH 1248",
-      "department": "MATH",
-      "title": "Calculus II",
-      "credit_hours": "4",
-      "description": "Vectors and vector operations. Techniques and applications of integration. Polar coordinates, Taylor polynomials, sequences and series, power series. Credit will not be given for both MATH 1248 and <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 021\"}]}",
-      "other_requirements": "C- or better in MATH 1234. C- or better in MATH 021.",
-      "external": true
-    },
-    {
-      "id": "ENSC 4020",
-      "course_code": "ENSC 4020",
-      "department": "ENSC",
-      "title": "Applied Envir Assess Analysis",
-      "credit_hours": "4",
-      "description": "Approaches used to identify, evaluate, and manage environmental risks. Focus on interactions among ecological, economic, and social considerations; often utilizing a watershed perspective. Problem formulation, methods selection. Case studies. Project-oriented. Prerequisites: <a href=\"/search/?p=ENSC%202030\" data-action=\"result-detail\" data-group=\"code:ENSC 2030\"  class=\"notoffered\">ENSC 2030</a> or <a href=\"/search/?p=NR%202430\" data-action=\"result-detail\" data-group=\"code:NR 2430\" >NR 2430</a>; <a href=\"/search/?p=NR%203050\" data-action=\"result-detail\" data-group=\"code:NR 3050\" >NR 3050</a> or <a href=\"/search/?p=SEP%202880\" data-action=\"result-detail\" data-group=\"code:SEP 2880\"  class=\"notoffered\">SEP 2880</a>; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ENSC 2030\"}, {\"type\": \"course\", \"code\": \"NR 2430\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"NR 3050\"}, {\"type\": \"course\", \"code\": \"SEP 2880\"}]}]}",
-      "other_requirements": "minimum Junior standing. Must register for one discussion section ENSC 4020",
+      "other_requirements": "Instructor permission required. Offered at department discretion.",
       "external": false
     }
   ],
@@ -389,16 +389,6 @@
       "source": "ENSC 1010",
       "target": "ENSC 2300",
       "group": "ENSC 2300__g0"
-    },
-    {
-      "source": "ENSC 3990",
-      "target": "ENSC 3990",
-      "group": null
-    },
-    {
-      "source": "ENSC 4990",
-      "target": "ENSC 4990",
-      "group": null
     },
     {
       "source": "ENVS 1500",

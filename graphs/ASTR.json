@@ -2,72 +2,6 @@
   "department": "ASTR",
   "nodes": [
     {
-      "id": "ASTR 2100",
-      "course_code": "ASTR 2100",
-      "department": "ASTR",
-      "title": "The Big Bang",
-      "credit_hours": "3",
-      "description": "Ancient cosmologies, beginning of time, origin of matter, cosmic background radiation, antimatter and dark matter, the expanding universe and origin of structure. Prerequisites: <a href=\"/search/?p=ASTR%201400\" data-action=\"result-detail\" data-group=\"code:ASTR 1400\" >ASTR 1400</a> or <a href=\"/search/?p=ASTR%201405\" data-action=\"result-detail\" data-group=\"code:ASTR 1405\" >ASTR 1405</a>; <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASTR 1400\"}, {\"type\": \"course\", \"code\": \"ASTR 1405\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1034\"}]}]}",
-      "other_requirements": "instructor permission",
-      "external": false
-    },
-    {
-      "id": "ASTR 2120",
-      "course_code": "ASTR 2120",
-      "department": "ASTR",
-      "title": "Spacecraft Astronomy",
-      "credit_hours": "3",
-      "description": "Survey of recent astronomical satellites such as Hubble, Chandra and Fermi LAT; their design, orbital characteristics, and findings. Prerequisites: <a href=\"/search/?p=ASTR%201400\" data-action=\"result-detail\" data-group=\"code:ASTR 1400\" >ASTR 1400</a> or <a href=\"/search/?p=ASTR%201405\" data-action=\"result-detail\" data-group=\"code:ASTR 1405\" >ASTR 1405</a>; <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASTR 1400\"}, {\"type\": \"course\", \"code\": \"ASTR 1405\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1034\"}, {\"type\": \"course\", \"code\": \"MATH 1034\"}]}]}",
-      "other_requirements": "equivalent",
-      "external": false
-    },
-    {
-      "id": "PHYS 1600",
-      "course_code": "PHYS 1600",
-      "department": "PHYS",
-      "title": "Fundamentals of Physics I",
-      "credit_hours": "4",
-      "description": "Calculus-based introduction to kinematics, dynamics, oscillations, thermal physics. For students in the natural sciences. With lab. Credit not awarded for both PHYS 1600 and <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>. Pre/co-requisite: Credit or concurrent enrollment in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
-      "other_requirements": "Credit or concurrent enrollment in MATH 1234. Open to Degree and PACE students. Credit not awarded for both PHYS 1600 and PHYS 1500.",
-      "external": true
-    },
-    {
-      "id": "MATH 1224",
-      "course_code": "MATH 1224",
-      "department": "MATH",
-      "title": "Fundamentals of Calculus II",
-      "credit_hours": "3",
-      "description": "Techniques and applications of integration. An introduction to multi-variable calculus: partial derivatives and double integrals. Prerequisite: <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
-      "other_requirements": "Open to Degree and PACE students",
-      "external": true
-    },
-    {
-      "id": "ASTR 1400",
-      "course_code": "ASTR 1400",
-      "department": "ASTR",
-      "title": "Exploring the Cosmos w/lab",
-      "credit_hours": "4",
-      "description": "Introduction to the basic concepts of astronomy as well as the history of their development. Includes a laboratory component. Credit not awarded for both ASTR 1400 and <a href=\"/search/?p=ASTR%201405\" data-action=\"result-detail\" data-group=\"code:ASTR 1405\" >ASTR 1405</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PHYS 1500",
-      "course_code": "PHYS 1500",
-      "department": "PHYS",
-      "title": "Physics for Engineers I",
-      "credit_hours": "4",
-      "description": "Mechanics including oscillations and waves. With lab. Accompanying optional problem-solving session: <a href=\"/search/?p=PHYS%201510\" data-action=\"result-detail\" data-group=\"code:PHYS 1510\" >PHYS 1510</a>. Prerequisite: <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
-      "other_requirements": "School of Engineering students only: CEMS-undeclared, BIOM, CE, EE, EENV, EMGT, ME, CS, DS, MATH; Open to Degree and PACE students;",
-      "external": true
-    },
-    {
       "id": "ASTR 1990",
       "course_code": "ASTR 1990",
       "department": "ASTR",
@@ -79,12 +13,23 @@
       "external": false
     },
     {
-      "id": "ASTR 1405",
-      "course_code": "ASTR 1405",
+      "id": "ASTR 2100",
+      "course_code": "ASTR 2100",
       "department": "ASTR",
-      "title": "Exploring the Cosmos",
+      "title": "The Big Bang",
       "credit_hours": "3",
-      "description": "Introduction to the basic concepts of astronomy as well as the history of their development. No laboratory. Credit not awarded for both ASTR 1405 and <a href=\"/search/?p=ASTR%201400\" data-action=\"result-detail\" data-group=\"code:ASTR 1400\" >ASTR 1400</a>.",
+      "description": "Ancient cosmologies, beginning of time, origin of matter, cosmic background radiation, antimatter and dark matter, the expanding universe and origin of structure. Prerequisites: <a href=\"/search/?p=ASTR%201400\" data-action=\"result-detail\" data-group=\"code:ASTR 1400\" >ASTR 1400</a> or <a href=\"/search/?p=ASTR%201405\" data-action=\"result-detail\" data-group=\"code:ASTR 1405\" >ASTR 1405</a>; <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASTR 1400\"}, {\"type\": \"course\", \"code\": \"ASTR 1405\"}]}, {\"type\": \"course\", \"code\": \"MATH 1034\"}]}",
+      "other_requirements": "instructor permission",
+      "external": false
+    },
+    {
+      "id": "ASTR 1400",
+      "course_code": "ASTR 1400",
+      "department": "ASTR",
+      "title": "Exploring the Cosmos w/lab",
+      "credit_hours": "4",
+      "description": "Introduction to the basic concepts of astronomy as well as the history of their development. Includes a laboratory component. Credit not awarded for both ASTR 1400 and <a href=\"/search/?p=ASTR%201405\" data-action=\"result-detail\" data-group=\"code:ASTR 1405\" >ASTR 1405</a>.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -101,6 +46,28 @@
       "external": false
     },
     {
+      "id": "PHYS 1600",
+      "course_code": "PHYS 1600",
+      "department": "PHYS",
+      "title": "Fundamentals of Physics I",
+      "credit_hours": "4",
+      "description": "Calculus-based introduction to kinematics, dynamics, oscillations, thermal physics. For students in the natural sciences. With lab. Credit not awarded for both PHYS 1600 and <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>. Pre/co-requisite: Credit or concurrent enrollment in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "other_requirements": "Credit or concurrent enrollment in MATH 1234. Open to Degree and PACE students. Credit not awarded for both PHYS 1600 and PHYS 1500.",
+      "external": true
+    },
+    {
+      "id": "ASTR 2120",
+      "course_code": "ASTR 2120",
+      "department": "ASTR",
+      "title": "Spacecraft Astronomy",
+      "credit_hours": "3",
+      "description": "Survey of recent astronomical satellites such as Hubble, Chandra and Fermi LAT; their design, orbital characteristics, and findings. Prerequisites: <a href=\"/search/?p=ASTR%201400\" data-action=\"result-detail\" data-group=\"code:ASTR 1400\" >ASTR 1400</a> or <a href=\"/search/?p=ASTR%201405\" data-action=\"result-detail\" data-group=\"code:ASTR 1405\" >ASTR 1405</a>; <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ASTR 1400\"}, {\"type\": \"course\", \"code\": \"ASTR 1405\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1034\"}, {\"type\": \"course\", \"code\": \"MATH 1034\"}]}]}",
+      "other_requirements": "equivalent",
+      "external": false
+    },
+    {
       "id": "MATH 1242",
       "course_code": "MATH 1242",
       "department": "MATH",
@@ -112,14 +79,14 @@
       "external": true
     },
     {
-      "id": "MATH 1034",
-      "course_code": "MATH 1034",
-      "department": "MATH",
-      "title": "Pre-Calculus Mathematics",
-      "credit_hours": "3",
-      "description": "Skills in working with numerical, algebraic, and trigonometric expressions are developed in preparation for <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. May not be taken for credit concurrently with, or following receipt of, credit for any mathematics course numbered <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> or above. Prerequisite: Two years of secondary school algebra; one year of secondary school geometry.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
-      "other_requirements": "Two years of secondary school algebra; one year of secondary school geometry. Open to Degree and PACE students",
+      "id": "PHYS 1500",
+      "course_code": "PHYS 1500",
+      "department": "PHYS",
+      "title": "Physics for Engineers I",
+      "credit_hours": "4",
+      "description": "Mechanics including oscillations and waves. With lab. Accompanying optional problem-solving session: <a href=\"/search/?p=PHYS%201510\" data-action=\"result-detail\" data-group=\"code:PHYS 1510\" >PHYS 1510</a>. Prerequisite: <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "School of Engineering students only: CEMS-undeclared, BIOM, CE, EE, EENV, EMGT, ME, CS, DS, MATH; Open to Degree and PACE students;",
       "external": true
     },
     {
@@ -131,6 +98,39 @@
       "description": "Vectors and vector operations. Techniques and applications of integration. Polar coordinates, Taylor polynomials, sequences and series, power series. Credit will not be given for both MATH 1248 and <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 021\"}]}",
       "other_requirements": "C- or better in MATH 1234. C- or better in MATH 021.",
+      "external": true
+    },
+    {
+      "id": "ASTR 1405",
+      "course_code": "ASTR 1405",
+      "department": "ASTR",
+      "title": "Exploring the Cosmos",
+      "credit_hours": "3",
+      "description": "Introduction to the basic concepts of astronomy as well as the history of their development. No laboratory. Credit not awarded for both ASTR 1405 and <a href=\"/search/?p=ASTR%201400\" data-action=\"result-detail\" data-group=\"code:ASTR 1400\" >ASTR 1400</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "MATH 1034",
+      "course_code": "MATH 1034",
+      "department": "MATH",
+      "title": "Pre-Calculus Mathematics",
+      "credit_hours": "3",
+      "description": "Skills in working with numerical, algebraic, and trigonometric expressions are developed in preparation for <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. May not be taken for credit concurrently with, or following receipt of, credit for any mathematics course numbered <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> or above. Prerequisite: Two years of secondary school algebra; one year of secondary school geometry.",
+      "prereq_expression": null,
+      "other_requirements": "Two years of secondary school algebra; one year of secondary school geometry. Open to Degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "MATH 1224",
+      "course_code": "MATH 1224",
+      "department": "MATH",
+      "title": "Fundamentals of Calculus II",
+      "credit_hours": "3",
+      "description": "Techniques and applications of integration. An introduction to multi-variable calculus: partial derivatives and double integrals. Prerequisite: <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "other_requirements": "Open to Degree and PACE students",
       "external": true
     }
   ],
@@ -163,7 +163,7 @@
     {
       "source": "MATH 1034",
       "target": "ASTR 2100",
-      "group": "ASTR 2100__g1"
+      "group": null
     },
     {
       "source": "MATH 1034",

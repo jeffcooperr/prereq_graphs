@@ -2,12 +2,34 @@
   "department": "COMU",
   "nodes": [
     {
+      "id": "COMU 2995",
+      "course_code": "COMU 2995",
+      "department": "COMU",
+      "title": "Undergraduate Research",
+      "credit_hours": "3",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Prior permission from Dr. Copeland required to enroll",
+      "external": false
+    },
+    {
       "id": "COMU 2994",
       "course_code": "COMU 2994",
       "department": "COMU",
       "title": "Teaching Assistantship",
       "credit_hours": "3",
       "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "COMU 1020",
+      "course_code": "COMU 1020",
+      "department": "COMU",
+      "title": "Intro to Medical Imaging",
+      "credit_hours": "3",
+      "description": "Medical imaging plays a central role in healthcare delivery. Students will learn about X-Ray, CT, MRI, PET, and ultrasound imaging. Their clinical applications and role in healthcare both in the US and around the world will be discussed.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -35,17 +57,6 @@
       "external": false
     },
     {
-      "id": "COMU 2995",
-      "course_code": "COMU 2995",
-      "department": "COMU",
-      "title": "Undergraduate Research",
-      "credit_hours": "3",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Prior permission from Dr. Copeland required to enroll",
-      "external": false
-    },
-    {
       "id": "COMU 1010",
       "course_code": "COMU 1010",
       "department": "COMU",
@@ -65,17 +76,6 @@
       "description": "Review of literature, film, art, television, music, podcasts, etc. to understand presentations of mental illness and their treatments. Themes such as stigma, stereotyping, vulnerability, psychiatric nosology, the doctor-patient relationship and celebrity culture will be examined. Presentations of neurodiversity will be compared and contrasted with the Western medical worldview and through the lens of entertainment.",
       "prereq_expression": "{\"type\": \"course\", \"code\": \"COMU 1010\"}",
       "other_requirements": "Open to Degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "COMU 1020",
-      "course_code": "COMU 1020",
-      "department": "COMU",
-      "title": "Intro to Medical Imaging",
-      "credit_hours": "3",
-      "description": "Medical imaging plays a central role in healthcare delivery. Students will learn about X-Ray, CT, MRI, PET, and ultrasound imaging. Their clinical applications and role in healthcare both in the US and around the world will be discussed.",
-      "prereq_expression": null,
-      "other_requirements": null,
       "external": false
     }
   ],

@@ -2,17 +2,6 @@
   "department": "BIOE",
   "nodes": [
     {
-      "id": "BIOE 7491",
-      "course_code": "BIOE 7491",
-      "department": "BIOE",
-      "title": "Doctoral Dissertation Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Doctoral Dissertation.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate standing only",
-      "external": false
-    },
-    {
       "id": "BIOE 7993",
       "course_code": "BIOE 7993",
       "department": "BIOE",
@@ -21,6 +10,17 @@
       "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "BIOE 7491",
+      "course_code": "BIOE 7491",
+      "department": "BIOE",
+      "title": "Doctoral Dissertation Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Doctoral Dissertation.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate standing only",
       "external": false
     }
   ],

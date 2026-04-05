@@ -13,89 +13,12 @@
       "external": false
     },
     {
-      "id": "CAS 2900",
-      "course_code": "CAS 2900",
+      "id": "CAS 1010",
+      "course_code": "CAS 1010",
       "department": "CAS",
-      "title": "The Washington Center",
+      "title": "FYS: Foundation of Journalism",
       "credit_hours": "3",
-      "description": "The Washington Center (TWC) Academic Internship Program is a semester-long UVM-partner internship program in Washington, D.C. Credit awarded for successful completion of one of TWC's academic seminars. Seminars offered vary semester to semester. Co-requisites: <a href=\"/search/?p=CAS%201900\" data-action=\"result-detail\" data-group=\"code:CAS 1900\" >CAS 1900</a>, <a href=\"/search/?p=CAS%202991\" data-action=\"result-detail\" data-group=\"code:CAS 2991\" >CAS 2991</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CAS 1900\"}, {\"type\": \"course\", \"code\": \"CAS 2991\"}]}",
-      "other_requirements": "Instructor Permission Required.",
-      "external": false
-    },
-    {
-      "id": "CAS 2920",
-      "course_code": "CAS 2920",
-      "department": "CAS",
-      "title": "CL:COP:Sustnble Urban Planning",
-      "credit_hours": "3",
-      "description": "Cohort style internships directed by professionals currently working within their respective fields. Representative topics include sustainable transportation, legislature, nonprofits, the creative economy, and environmental stewardship. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Sophomore standing or Instructor Permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOPHOMORE STANDING\"}, {\"type\": \"course\", \"code\": \"INSTRUCTOR PERMISSION\"}]}",
-      "other_requirements": "Instructor permission required. Complete the inquiry form found at the link! Students will be engaged in 100 hours of internship or community-based project work outside of normal class hours. Attendance at weekly in-person class mandatory.",
-      "external": false
-    },
-    {
-      "id": "CAS 1722",
-      "course_code": "CAS 1722",
-      "department": "CAS",
-      "title": "Extraterrestrial Life: Humn",
-      "credit_hours": "3",
-      "description": "A multidisciplinary introduction exploring the origin of life in the universe and the quest for space exploration, aimed at a general audience with various backgrounds. Topics will be approached through the lens of astronomy, biology, physics, geology, chemistry, philosophy, literature, and art. Students seeking N1 Natural Science credit should register for <a href=\"/search/?p=CAS%201720\" data-action=\"result-detail\" data-group=\"code:CAS 1720\" >CAS 1720</a>; students seeking AH3 Humanities credit should register for CAS 1722. Credit not awarded for both CAS 1722 and <a href=\"/search/?p=CAS%201720\" data-action=\"result-detail\" data-group=\"code:CAS 1720\" >CAS 1720</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Attendance will be part of the grade.",
-      "external": false
-    },
-    {
-      "id": "CAS 3922",
-      "course_code": "CAS 3922",
-      "department": "CAS",
-      "title": "SL:Community NewsService (adv)",
-      "credit_hours": "1 to 12",
-      "description": "A partnership with local community papers and media outlets with three primary goals: engage students in journalism, build citizenship skills, and provide content to community newspapers. Run like a mini-newsroom, students file stories to be published in multiple formats while learning how to work in news media. Prerequisite: A Catamount Core WIL1 or FW General Education course.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"WIL1\"}, {\"type\": \"course\", \"code\": \"FW\"}]}",
-      "other_requirements": "First year students must have instructor permission to enroll. Sophomore, juniors, and seniors only; Contact Instructor. Attend all class sessions and news coverage meetings. Complete at least 120 hours of reporting work over the course of the semester.",
-      "external": false
-    },
-    {
-      "id": "CAS 1900",
-      "course_code": "CAS 1900",
-      "department": "CAS",
-      "title": "The Washington Center",
-      "credit_hours": "3",
-      "description": "The Washington Center (TWC) Academic Internship Program is a semester-long UVM-partner internship program in Washington, D.C. Credit awarded for successful completion of the professional development programming run by The Washington Center. Co-requisites: <a href=\"/search/?p=CAS%202900\" data-action=\"result-detail\" data-group=\"code:CAS 2900\" >CAS 2900</a>, <a href=\"/search/?p=CAS%202991\" data-action=\"result-detail\" data-group=\"code:CAS 2991\" >CAS 2991</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor Permission Required.",
-      "external": false
-    },
-    {
-      "id": "CAS 2993",
-      "course_code": "CAS 2993",
-      "department": "CAS",
-      "title": "Independent Study",
-      "credit_hours": "1",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "CAS 1902",
-      "course_code": "CAS 1902",
-      "department": "CAS",
-      "title": "Semester in the City",
-      "credit_hours": "3",
-      "description": "Professional development course on Becoming a Problem Solver. To be taken as part of either the Semester in the City or the Semester for Impact programs run by the College for Social Innovation, a UVM partner. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisites: <a href=\"/search/?p=CAS%202902\" data-action=\"result-detail\" data-group=\"code:CAS 2902\" >CAS 2902</a>, <a href=\"/search/?p=CAS%202991\" data-action=\"result-detail\" data-group=\"code:CAS 2991\" >CAS 2991</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor Permission Required. To be taken as part of either the Semester in the City or the Semester for Impact programs run by the College for Social Innovation, a UVM partner.",
-      "external": false
-    },
-    {
-      "id": "CAS 4996",
-      "course_code": "CAS 4996",
-      "department": "CAS",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -112,14 +35,36 @@
       "external": false
     },
     {
-      "id": "CAS 1990",
-      "course_code": "CAS 1990",
+      "id": "CAS 1722",
+      "course_code": "CAS 1722",
       "department": "CAS",
-      "title": "Career Paths in Humanities",
-      "credit_hours": "1",
+      "title": "Extraterrestrial Life: Humn",
+      "credit_hours": "3",
+      "description": "A multidisciplinary introduction exploring the origin of life in the universe and the quest for space exploration, aimed at a general audience with various backgrounds. Topics will be approached through the lens of astronomy, biology, physics, geology, chemistry, philosophy, literature, and art. Students seeking N1 Natural Science credit should register for <a href=\"/search/?p=CAS%201720\" data-action=\"result-detail\" data-group=\"code:CAS 1720\" >CAS 1720</a>; students seeking AH3 Humanities credit should register for CAS 1722. Credit not awarded for both CAS 1722 and <a href=\"/search/?p=CAS%201720\" data-action=\"result-detail\" data-group=\"code:CAS 1720\" >CAS 1720</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Attendance will be part of the grade.",
+      "external": false
+    },
+    {
+      "id": "CAS 2990",
+      "course_code": "CAS 2990",
+      "department": "CAS",
+      "title": "WRUV Campus Radio Production",
+      "credit_hours": "3",
       "description": "See Schedule of Courses for specific titles. May be repeated for credit with different content.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"CAS 1990\"}",
-      "other_requirements": "Instructor permission required. Students must have undertaken at least one pre-professional experience (80+ hours) upon which they will base their reflective work in this course, such as a part time job, volunteer work, student employment, work-study, club leadership, or an internship (if no previous credit has been awarded for it). Contact strigg@uvm.edu to get your qualifying work approved and to get an override.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum sophomore standing.",
+      "external": false
+    },
+    {
+      "id": "CAS 1900",
+      "course_code": "CAS 1900",
+      "department": "CAS",
+      "title": "The Washington Center",
+      "credit_hours": "3",
+      "description": "The Washington Center (TWC) Academic Internship Program is a semester-long UVM-partner internship program in Washington, D.C. Credit awarded for successful completion of the professional development programming run by The Washington Center. Co-requisites: <a href=\"/search/?p=CAS%202900\" data-action=\"result-detail\" data-group=\"code:CAS 2900\" >CAS 2900</a>, <a href=\"/search/?p=CAS%202991\" data-action=\"result-detail\" data-group=\"code:CAS 2991\" >CAS 2991</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor Permission Required.",
       "external": false
     },
     {
@@ -134,17 +79,6 @@
       "external": false
     },
     {
-      "id": "CAS 2990",
-      "course_code": "CAS 2990",
-      "department": "CAS",
-      "title": "WRUV Campus Radio Production",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles. May be repeated for credit with different content.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CAS 2990\"}]}",
-      "other_requirements": "Minimum sophomore standing.",
-      "external": false
-    },
-    {
       "id": "CAS 2991",
       "course_code": "CAS 2991",
       "department": "CAS",
@@ -153,6 +87,50 @@
       "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded.",
       "prereq_expression": null,
       "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CAS 1902",
+      "course_code": "CAS 1902",
+      "department": "CAS",
+      "title": "Semester in the City",
+      "credit_hours": "3",
+      "description": "Professional development course on Becoming a Problem Solver. To be taken as part of either the Semester in the City or the Semester for Impact programs run by the College for Social Innovation, a UVM partner. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisites: <a href=\"/search/?p=CAS%202902\" data-action=\"result-detail\" data-group=\"code:CAS 2902\" >CAS 2902</a>, <a href=\"/search/?p=CAS%202991\" data-action=\"result-detail\" data-group=\"code:CAS 2991\" >CAS 2991</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor Permission Required. To be taken as part of either the Semester in the City or the Semester for Impact programs run by the College for Social Innovation, a UVM partner.",
+      "external": false
+    },
+    {
+      "id": "CAS 3922",
+      "course_code": "CAS 3922",
+      "department": "CAS",
+      "title": "SL:Community NewsService (adv)",
+      "credit_hours": "1 to 12",
+      "description": "A partnership with local community papers and media outlets with three primary goals: engage students in journalism, build citizenship skills, and provide content to community newspapers. Run like a mini-newsroom, students file stories to be published in multiple formats while learning how to work in news media. Prerequisite: A Catamount Core WIL1 or FW General Education course.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"WIL1\"}, {\"type\": \"course\", \"code\": \"FW\"}]}",
+      "other_requirements": "First year students must have instructor permission to enroll. Sophomore, juniors, and seniors only; Contact Instructor. Attend all class sessions and news coverage meetings. Complete at least 120 hours of reporting work over the course of the semester.",
+      "external": false
+    },
+    {
+      "id": "CAS 4996",
+      "course_code": "CAS 4996",
+      "department": "CAS",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CAS 2993",
+      "course_code": "CAS 2993",
+      "department": "CAS",
+      "title": "Independent Study",
+      "credit_hours": "1",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
       "external": false
     },
     {
@@ -167,14 +145,36 @@
       "external": false
     },
     {
-      "id": "CAS 1010",
-      "course_code": "CAS 1010",
+      "id": "CAS 2900",
+      "course_code": "CAS 2900",
       "department": "CAS",
-      "title": "FYS: Foundation of Journalism",
+      "title": "The Washington Center",
       "credit_hours": "3",
-      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "description": "The Washington Center (TWC) Academic Internship Program is a semester-long UVM-partner internship program in Washington, D.C. Credit awarded for successful completion of one of TWC's academic seminars. Seminars offered vary semester to semester. Co-requisites: <a href=\"/search/?p=CAS%201900\" data-action=\"result-detail\" data-group=\"code:CAS 1900\" >CAS 1900</a>, <a href=\"/search/?p=CAS%202991\" data-action=\"result-detail\" data-group=\"code:CAS 2991\" >CAS 2991</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CAS 1900\"}, {\"type\": \"course\", \"code\": \"CAS 2991\"}]}",
+      "other_requirements": "Instructor Permission Required.",
+      "external": false
+    },
+    {
+      "id": "CAS 1990",
+      "course_code": "CAS 1990",
+      "department": "CAS",
+      "title": "Career Paths in Humanities",
+      "credit_hours": "1",
+      "description": "See Schedule of Courses for specific titles. May be repeated for credit with different content.",
       "prereq_expression": null,
-      "other_requirements": null,
+      "other_requirements": "Instructor permission required. Students must have undertaken at least one pre-professional experience (80+ hours) upon which they will base their reflective work in this course, such as a part time job, volunteer work, student employment, work-study, club leadership, or an internship (if no previous credit has been awarded for it). Contact strigg@uvm.edu to get your qualifying work approved and to get an override.",
+      "external": false
+    },
+    {
+      "id": "CAS 2920",
+      "course_code": "CAS 2920",
+      "department": "CAS",
+      "title": "CL:COP:Sustnble Urban Planning",
+      "credit_hours": "3",
+      "description": "Cohort style internships directed by professionals currently working within their respective fields. Representative topics include sustainable transportation, legislature, nonprofits, the creative economy, and environmental stewardship. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: Sophomore standing or Instructor Permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SOPHOMORE STANDING\"}, {\"type\": \"course\", \"code\": \"INSTRUCTOR PERMISSION\"}]}",
+      "other_requirements": "Instructor permission required. Complete the inquiry form found at the link! Students will be engaged in 100 hours of internship or community-based project work outside of normal class hours. Attendance at weekly in-person class mandatory.",
       "external": false
     }
   ],
@@ -183,16 +183,6 @@
       "source": "CAS 1900",
       "target": "CAS 2900",
       "group": "CAS 2900__g0"
-    },
-    {
-      "source": "CAS 1990",
-      "target": "CAS 1990",
-      "group": null
-    },
-    {
-      "source": "CAS 2990",
-      "target": "CAS 2990",
-      "group": null
     },
     {
       "source": "CAS 2991",

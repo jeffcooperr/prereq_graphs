@@ -2,36 +2,14 @@
   "department": "CLBI",
   "nodes": [
     {
-      "id": "CLBI 7010",
-      "course_code": "CLBI 7010",
+      "id": "CLBI 6010",
+      "course_code": "CLBI 6010",
       "department": "CLBI",
-      "title": "Critical Reading & Analysis",
-      "credit_hours": "2",
-      "description": "Runs concurrently with <a href=\"/search/?p=CLBI%206010\" data-action=\"result-detail\" data-group=\"code:CLBI 6010\" >CLBI 6010</a> and utilizes primary literature and an active, discussion-based approach to provide intensive study in the logic, critical thinking, and experimental design &amp; interpretation. Co-requisite: <a href=\"/search/?p=CLBI%206010\" data-action=\"result-detail\" data-group=\"code:CLBI 6010\" >CLBI 6010</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CLBI 6010\"}, {\"type\": \"course\", \"code\": \"CLBI 6010\"}]}",
+      "title": "Cell Biology",
+      "credit_hours": "3",
+      "description": "Advanced survey of cell organelles, their composition, origin, and the relationship between their structure and function. Emphasis on recent literature and current controversies. Prerequisites: <a href=\"/search/?p=CHEM%202585\" data-action=\"result-detail\" data-group=\"code:CHEM 2585\" >CHEM 2585</a>; Biology Graduate student; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 2585\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"Biology Graduate student\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}]}",
       "other_requirements": "Graduate students only",
-      "external": false
-    },
-    {
-      "id": "CLBI 7491",
-      "course_code": "CLBI 7491",
-      "department": "CLBI",
-      "title": "Doctoral Dissertation Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Doctoral Dissertation.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "CLBI 7020",
-      "course_code": "CLBI 7020",
-      "department": "CLBI",
-      "title": "Biomedical Data Analysis",
-      "credit_hours": "2",
-      "description": "Introduction to qualitative, quantitative and statistical analysis for cell, molecular, and biomedical sciences. The practical philosophy underlying data presentation and interpretation will be emphasized via problem solving in and outside of class time.",
-      "prereq_expression": null,
-      "other_requirements": null,
       "external": false
     },
     {
@@ -46,14 +24,25 @@
       "external": false
     },
     {
-      "id": "CLBI 6010",
-      "course_code": "CLBI 6010",
+      "id": "CLBI 6080",
+      "course_code": "CLBI 6080",
       "department": "CLBI",
-      "title": "Cell Biology",
-      "credit_hours": "3",
-      "description": "Advanced survey of cell organelles, their composition, origin, and the relationship between their structure and function. Emphasis on recent literature and current controversies. Prerequisites: <a href=\"/search/?p=CHEM%202585\" data-action=\"result-detail\" data-group=\"code:CHEM 2585\" >CHEM 2585</a>; Biology Graduate student; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 2585\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"Biology Graduate student\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}]}",
-      "other_requirements": "Graduate students only",
+      "title": "Seminar",
+      "credit_hours": "1",
+      "description": "One hour.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CLBI 6020",
+      "course_code": "CLBI 6020",
+      "department": "CLBI",
+      "title": "Science Communication",
+      "credit_hours": "2",
+      "description": "Develop effective oral and written communication skills for a range of audiences from academia to industry, organizations, news, policymakers, and the general public.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     },
     {
@@ -68,12 +57,12 @@
       "external": true
     },
     {
-      "id": "CLBI 6020",
-      "course_code": "CLBI 6020",
+      "id": "CLBI 7491",
+      "course_code": "CLBI 7491",
       "department": "CLBI",
-      "title": "Science Communication",
-      "credit_hours": "2",
-      "description": "Develop effective oral and written communication skills for a range of audiences from academia to industry, organizations, news, policymakers, and the general public.",
+      "title": "Doctoral Dissertation Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Doctoral Dissertation.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -90,12 +79,23 @@
       "external": false
     },
     {
-      "id": "CLBI 6080",
-      "course_code": "CLBI 6080",
+      "id": "CLBI 7010",
+      "course_code": "CLBI 7010",
       "department": "CLBI",
-      "title": "Seminar",
-      "credit_hours": "1",
-      "description": "One hour.",
+      "title": "Critical Reading & Analysis",
+      "credit_hours": "2",
+      "description": "Runs concurrently with <a href=\"/search/?p=CLBI%206010\" data-action=\"result-detail\" data-group=\"code:CLBI 6010\" >CLBI 6010</a> and utilizes primary literature and an active, discussion-based approach to provide intensive study in the logic, critical thinking, and experimental design &amp; interpretation. Co-requisite: <a href=\"/search/?p=CLBI%206010\" data-action=\"result-detail\" data-group=\"code:CLBI 6010\" >CLBI 6010</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CLBI 6010\"}, {\"type\": \"course\", \"code\": \"CLBI 6010\"}]}",
+      "other_requirements": "Graduate students only",
+      "external": false
+    },
+    {
+      "id": "CLBI 7020",
+      "course_code": "CLBI 7020",
+      "department": "CLBI",
+      "title": "Biomedical Data Analysis",
+      "credit_hours": "2",
+      "description": "Introduction to qualitative, quantitative and statistical analysis for cell, molecular, and biomedical sciences. The practical philosophy underlying data presentation and interpretation will be emphasized via problem solving in and outside of class time.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false

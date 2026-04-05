@@ -2,146 +2,14 @@
   "department": "MU",
   "nodes": [
     {
-      "id": "MU 4993",
-      "course_code": "MU 4993",
+      "id": "MU 2120",
+      "course_code": "MU 2120",
       "department": "MU",
-      "title": "Independent Study",
-      "credit_hours": "1 to 18",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor Permission Required",
-      "external": false
-    },
-    {
-      "id": "MU 2321",
-      "course_code": "MU 2321",
-      "department": "MU",
-      "title": "Jazz Harmony Lab",
-      "credit_hours": "1.5",
-      "description": "Musical skills will be sharpened through singing prepared and unprepared material, through practice of rhythmic exercises, and through melodic, harmonic, and rhythmic dictation. Practice in the use of solfege syllables from the moveable do system to aid successful sight singing. Co-requisite: <a href=\"/search/?p=MU%202320\" data-action=\"result-detail\" data-group=\"code:MU 2320\" >MU 2320</a>.",
-      "prereq_expression": null,
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "MU 1310",
-      "course_code": "MU 1310",
-      "department": "MU",
-      "title": "Music Theory Fundamentals",
+      "title": "Jazz History Styles & Analysis",
       "credit_hours": "3",
-      "description": "Fundamentals of music notation, rhythm, melody, scales, and harmony. A course for non-majors or for students preparing to enter <a href=\"/search/?p=MU%202320\" data-action=\"result-detail\" data-group=\"code:MU 2320\" >MU 2320</a> or <a href=\"/search/?p=MU%202310\" data-action=\"result-detail\" data-group=\"code:MU 2310\" >MU 2310</a>.",
+      "description": "An in-depth survey of jazz from early New Orleans to contemporary styles. Work includes close listening, study of transcriptions, and stylistic analysis. Final projects. Prerequisites: <a href=\"/search/?p=MU%202320\" data-action=\"result-detail\" data-group=\"code:MU 2320\" >MU 2320</a> or <a href=\"/search/?p=MU%202310\" data-action=\"result-detail\" data-group=\"code:MU 2310\" >MU 2310</a>.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 2320\"}, {\"type\": \"course\", \"code\": \"MU 2310\"}]}",
-      "other_requirements": "Music and Music Ed majors and Music, Musical Theatre and Music Technology & Business minors only",
-      "external": false
-    },
-    {
-      "id": "MU 3550",
-      "course_code": "MU 3550",
-      "department": "MU",
-      "title": "General Music Methods",
-      "credit_hours": "3",
-      "description": "Methodologies, lesson planning, assessment, and standards-based curriculum development for general music at the elementary and secondary school levels. Pre/co-requisites: <a href=\"/search/?p=MU%201550\" data-action=\"result-detail\" data-group=\"code:MU 1550\" >MU 1550</a>; acceptance into licensure program in Music Education.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 1550\"}]}",
-      "other_requirements": "acceptance into licensure program in Music Education",
-      "external": false
-    },
-    {
-      "id": "MU 4994",
-      "course_code": "MU 4994",
-      "department": "MU",
-      "title": "Teaching Assistantship",
-      "credit_hours": "3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "MU 4996",
-      "course_code": "MU 4996",
-      "department": "MU",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "MUL 4550",
-      "course_code": "MUL 4550",
-      "department": "MUL",
-      "title": "Senior Recital",
-      "credit_hours": "1",
-      "description": "The solo recital is the capstone performance experience for music majors. Repertoire for the recital will be chosen in consultation with the private lesson teacher and, where appropriate, the area head. Students should take <a href=\"/search/?p=MUL%204500\" data-action=\"result-detail\" data-group=\"code:MUL 4500\" >MUL 4500</a> concurrently. Prerequisites: Music or Music Education majors only; Students must have performed on at least four Student Performance Recitals before they are eligible for this course.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MUL 4500\"}]}",
-      "other_requirements": "Music or Music Education majors only; Students must have performed on at least four Student Performance Recitals before they are eligible for this course. MUS, MUSE majors only; Must pass Level IV Exam; Lab fee $260 per credit",
-      "external": true
-    },
-    {
-      "id": "MU 2320",
-      "course_code": "MU 2320",
-      "department": "MU",
-      "title": "Jazz Harmony",
-      "credit_hours": "3",
-      "description": "Study of jazz harmony, including essential harmonic progressions, turnarounds, chord substitutions, and melody harmonization. Music majors with concentration in Jazz Studies or Music Technology and Business take <a href=\"/search/?p=MU%202321\" data-action=\"result-detail\" data-group=\"code:MU 2321\" >MU 2321</a> Jazz Harmony Lab concurrently. Prerequisite: <a href=\"/search/?p=MU%201310\" data-action=\"result-detail\" data-group=\"code:MU 1310\" >MU 1310</a> or equivalent music theory fundamentals proficiency. Co-requisite: <a href=\"/search/?p=MU%202321\" data-action=\"result-detail\" data-group=\"code:MU 2321\" >MU 2321</a> is required for Music majors with a concentration in Jazz Studies or Music Technology and Business and is encouraged for all others enrolled in MU 2320.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 1310\"}, {\"type\": \"course\", \"code\": \"MU 2321\"}]}",
-      "other_requirements": "Music majors with concentration in Jazz Studies or Music Technology and Business take MU 2321 Jazz Harmony Lab concurrently. Placement test. PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "MU 1770",
-      "course_code": "MU 1770",
-      "department": "MU",
-      "title": "Intro to Music Technology",
-      "credit_hours": "3",
-      "description": "Introductory overview of music technology. Study of acoustic physics, history of music technology, basic hardware set up, computerized music notation, Digital Audio Workstation (DAW) electronic music production, and music video creation. Prerequisite: <a href=\"/search/?p=MU%201310\" data-action=\"result-detail\" data-group=\"code:MU 1310\" >MU 1310</a> or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 1310\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
-      "other_requirements": "Instructor permission required\nPACE students by permission and override\nAll students must fill out this form to be considered for instructor permission. No one can register without competing it:https://forms.gle/G4Ai6PeWsfrwqQXo6",
-      "external": false
-    },
-    {
-      "id": "MU 2771",
-      "course_code": "MU 2771",
-      "department": "MU",
-      "title": "Studio Production I",
-      "credit_hours": "2",
-      "description": "Explores the fundamentals of music studio recording production. Topics include recording hardware, ProTools software, microphone technique, signal processing, and post production engineering. Prerequisites: <a href=\"/search/?p=MU%201770\" data-action=\"result-detail\" data-group=\"code:MU 1770\" >MU 1770</a> or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 1770\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
-      "other_requirements": "Instructor permission required; PACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "MU 3551",
-      "course_code": "MU 3551",
-      "department": "MU",
-      "title": "Practicum in Teaching Music",
-      "credit_hours": "2",
-      "description": "Supervised field experience in music education. Prerequisites: <a href=\"/search/?p=MU%201550\" data-action=\"result-detail\" data-group=\"code:MU 1550\" >MU 1550</a>. Pre/Co-requisites: <a href=\"/search/?p=MU%203550\" data-action=\"result-detail\" data-group=\"code:MU 3550\" >MU 3550</a>, <a href=\"/search/?p=MU%203552\" data-action=\"result-detail\" data-group=\"code:MU 3552\"  class=\"notoffered\">MU 3552</a>, <a href=\"/search/?p=MU%203554\" data-action=\"result-detail\" data-group=\"code:MU 3554\"  class=\"notoffered\">MU 3554</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 1550\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 3550\"}, {\"type\": \"course\", \"code\": \"MU 3552\"}, {\"type\": \"course\", \"code\": \"MU 3554\"}]}]}",
-      "other_requirements": "Prerequisite enforced by the system:MU 1550 See link to syllabus for details",
-      "external": false
-    },
-    {
-      "id": "MU 1775",
-      "course_code": "MU 1775",
-      "department": "MU",
-      "title": "Live Sound Reinforcement",
-      "credit_hours": "3",
-      "description": "Overview of techniques and tools used in amplification of live sound performance in music, theater, and dance. Study of physical properties of sound, fundamentals of acoustics, and current technology and equipment.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 1775\"}]}",
-      "other_requirements": "Music majors with a concentration in Music Technology and Business and Music Technology and Business minors only during the week of registration; PACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "MU 2110",
-      "course_code": "MU 2110",
-      "department": "MU",
-      "title": "Hist Western Classical Music",
-      "credit_hours": "3",
-      "description": "Study of Western classical music from 1300 to the present, exploring music from various stylistic periods from a historicist perspective and examining how music history aligns with broader concepts, theories, and beliefs circulating at a particular moment in time. Prerequisites: <a href=\"/search/?p=MU%201310\" data-action=\"result-detail\" data-group=\"code:MU 1310\" >MU 1310</a>, <a href=\"/search/?p=MU%202320\" data-action=\"result-detail\" data-group=\"code:MU 2320\" >MU 2320</a>, or <a href=\"/search/?p=MU%202310\" data-action=\"result-detail\" data-group=\"code:MU 2310\"  class=\"notoffered\">MU 2310</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 1310\"}, {\"type\": \"course\", \"code\": \"MU 2320\"}, {\"type\": \"course\", \"code\": \"MU 2310\"}]}",
-      "other_requirements": "PACE students with permission and override",
+      "other_requirements": "PACE students with permission and override.",
       "external": false
     },
     {
@@ -151,140 +19,8 @@
       "title": "Harmony and Form I",
       "credit_hours": "3",
       "description": "Study of diatonic melody and harmony, phrase structure, and elaborative techniques. Music majors are required to take <a href=\"/search/?p=MU%202311\" data-action=\"result-detail\" data-group=\"code:MU 2311\" >MU 2311</a> concurrently. Prerequisite: <a href=\"/search/?p=MU%201310\" data-action=\"result-detail\" data-group=\"code:MU 1310\" >MU 1310</a> or equivalent music theory fundamentals proficiency, determined by placement test. Co-requisites: <a href=\"/search/?p=MU%202311\" data-action=\"result-detail\" data-group=\"code:MU 2311\" >MU 2311</a> is required for Music majors and encouraged for all enrolled in MU 2310.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 1310\"}, {\"type\": \"course\", \"code\": \"placement test\"}]}",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"placement test\"}",
       "other_requirements": "Music majors are required to take MU 2311 concurrently. PACE students by permission and override. Students should begin with basic knowledge of notation and elements of music theory as determined by the department placement exam. Anyone needing more support may be referred to MU 1310 (Music Theory Fundamentals). Concurrent enrollment in Class Piano or private piano lessons is not required, but strongly recommended. Concurrent enrollment in Harmony and Form Lab I is required for all music majors, except for MTB majors who began prior to Fall 2021. Non-majors and upper-class MTB majors are also encouraged to enroll.",
-      "external": false
-    },
-    {
-      "id": "MU 3771",
-      "course_code": "MU 3771",
-      "department": "MU",
-      "title": "Studio Production III",
-      "credit_hours": "2",
-      "description": "Explores professional techniques of music studio production. Topics include recording hardware, signal processing, Digital Audio Workstations, and post production engineering (mixing and mastering). Prerequisite: <a href=\"/search/?p=MU%202772\" data-action=\"result-detail\" data-group=\"code:MU 2772\" >MU 2772</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"MU 2772\"}",
-      "other_requirements": "Instructor Permission",
-      "external": false
-    },
-    {
-      "id": "MU 1147",
-      "course_code": "MU 1147",
-      "department": "MU",
-      "title": "Music&Cult:New Orleans",
-      "credit_hours": "3",
-      "description": "Examines the interrelationships between styles of music in New Orleans and the cultures that support them.",
-      "prereq_expression": null,
-      "other_requirements": "Open to degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "MU 4551",
-      "course_code": "MU 4551",
-      "department": "MU",
-      "title": "Teaching Internship Seminar",
-      "credit_hours": "3",
-      "description": "Companion course to supervised field work, giving students experience in specialized areas for their professional development. It is designed to provide context to the field work, resources for effective planning and teaching, and assist in developing the Vermont Licensure Portfolio and achieving InTASC standards. Prerequisite: Senior standing. Co-requisite: <a href=\"/search/?p=MU%204552\" data-action=\"result-detail\" data-group=\"code:MU 4552\" >MU 4552</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"MU 4552\"}",
-      "other_requirements": "Senior standing.",
-      "external": false
-    },
-    {
-      "id": "MU 2552",
-      "course_code": "MU 2552",
-      "department": "MU",
-      "title": "Brass Techniques",
-      "credit_hours": "2",
-      "description": "Class instruction on trumpet, trombone, and horn including materials and procedures for teaching these instruments in elementary and secondary schools. Pre/Co-requisite: <a href=\"/search/?p=MU%201550\" data-action=\"result-detail\" data-group=\"code:MU 1550\"  class=\"notoffered\">MU 1550</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"MU 1550\"}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "MU 3327",
-      "course_code": "MU 3327",
-      "department": "MU",
-      "title": "Theory/Practice Jazz Improv II",
-      "credit_hours": "3",
-      "description": "Chord substitution, re-harmonization, scale alteration, free&quot; improvisation, and other techniques in written assignments and classroom performance of modern jazz repertory. Prerequisites: <a href=\"/search/?p=MU%202327\" data-action=\"result-detail\" data-group=\"code:MU 2327\"  class=\"notoffered\">MU 2327</a>, or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 2327\"}, {\"type\": \"course\", \"code\": \"MU 2327\"}]}",
-      "other_requirements": "Instructor permission. MU3327 is a capstone course offered every other year for experienced jazz players. The class involves intensive coaching in real-time improvisation and interaction with a rhythm section (bass, drums, piano, guitar). We spend a good portion of the class working on applied theory exercises (on our instruments or voice) and then we try to apply these concepts with each student taking a turn playing solos with the rhythm section. Chord substitution, re-harmonization, scale alteration, \"free\" improvisation, and other techniques are explored in written assignments and classroom performance of modern jazz repertory. Regular attendance and practice playing or singing class materials. Any student with at least an intermediate experience performing jazz and basic knowledge of music theory or jazz harmony is welcome to join class irrespective of prerequisites. Please contact instructor if you are unsure wether you are qualified.",
-      "external": false
-    },
-    {
-      "id": "MU 1143",
-      "course_code": "MU 1143",
-      "department": "MU",
-      "title": "US Popular Music Since 1989",
-      "credit_hours": "3",
-      "description": "An exploration of the sounds and social politics of US popular music over the last three decades. Focuses on the transformations wrought by digital technologies to the production, consumption, and politics of popular music. Through examination of songs, music videos, and writings, students refine critical listening and writing skills.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "MU 4310",
-      "course_code": "MU 4310",
-      "department": "MU",
-      "title": "Senior Project: Comp/Theory",
-      "credit_hours": "1",
-      "description": "Research paper or composition/analysis; topic chosen under direction of a faculty member. Prerequisite: Composition/Theory concentration; Senior standing; Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 4310\"}, {\"type\": \"course\", \"code\": \"MU 4310\"}]}",
-      "other_requirements": "Composition/Theory concentration; Senior standing; Instructor permission. Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "MU 3552",
-      "course_code": "MU 3552",
-      "department": "MU",
-      "title": "Choral Music Methods",
-      "credit_hours": "3",
-      "description": "Standards-based curriculum development, lesson planning, repertoire selection, rehearsal techniques, and assessment strategies for teaching choral music at the elementary and secondary school levels. Pre/Co-requisite: <a href=\"/search/?p=MU%201550\" data-action=\"result-detail\" data-group=\"code:MU 1550\"  class=\"notoffered\">MU 1550</a>; acceptance into licensure program in Music Education; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 1550\"}, {\"type\": \"course\", \"code\": \"MU 1550\"}]}",
-      "other_requirements": "acceptance into licensure program in Music Education; or Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "MU 2314",
-      "course_code": "MU 2314",
-      "department": "MU",
-      "title": "Harmony and Form Lab II",
-      "credit_hours": "1",
-      "description": "Intensive study of solfege, intermediate keyboard harmony, and dictation. Students should also register for <a href=\"/search/?p=MU%202313\" data-action=\"result-detail\" data-group=\"code:MU 2313\" >MU 2313</a>. Prerequisites: <a href=\"/search/?p=MU%202311\" data-action=\"result-detail\" data-group=\"code:MU 2311\"  class=\"notoffered\">MU 2311</a> or <a href=\"/search/?p=MU%202321\" data-action=\"result-detail\" data-group=\"code:MU 2321\" >MU 2321</a>. Co-requisite: <a href=\"/search/?p=MU%202313\" data-action=\"result-detail\" data-group=\"code:MU 2313\" >MU 2313</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 2311\"}, {\"type\": \"course\", \"code\": \"MU 2321\"}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "MU 2560",
-      "course_code": "MU 2560",
-      "department": "MU",
-      "title": "Vocal Techniques",
-      "credit_hours": "2",
-      "description": "Foundation course in applied singing, and in teaching singing. Intended for students in music education, and students intending to teach private singing lessons or lead choirs. Pre/Co-requisite: <a href=\"/search/?p=MU%201550\" data-action=\"result-detail\" data-group=\"code:MU 1550\"  class=\"notoffered\">MU 1550</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"MU 1550\"}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "MU 3320",
-      "course_code": "MU 3320",
-      "department": "MU",
-      "title": "Arranging for Jazz Orchestra",
-      "credit_hours": "3",
-      "description": "Composing and arranging for big band. Practice in techniques of jazz arranging and study of historic works. Final project is jazz standard arranged for big band, read by the UVM Jazz Ensemble. Prerequisite: <a href=\"/search/?p=MU%202320\" data-action=\"result-detail\" data-group=\"code:MU 2320\" >MU 2320</a> or <a href=\"/search/?p=MU%202313\" data-action=\"result-detail\" data-group=\"code:MU 2313\" >MU 2313</a> or instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 2320\"}, {\"type\": \"course\", \"code\": \"MU 2313\"}]}",
-      "other_requirements": "instructor permission",
-      "external": false
-    },
-    {
-      "id": "MU 2327",
-      "course_code": "MU 2327",
-      "department": "MU",
-      "title": "Theory/Practice Jazz Improv I",
-      "credit_hours": "3",
-      "description": "Basic repertory, idiomatic usage, aural skills, theoretical constructs, and strategies for the jazz improvisor. Prerequisites: <a href=\"/search/?p=MU%202320\" data-action=\"result-detail\" data-group=\"code:MU 2320\" >MU 2320</a> or <a href=\"/search/?p=MU%202310\" data-action=\"result-detail\" data-group=\"code:MU 2310\"  class=\"notoffered\">MU 2310</a> or Instructor permission; intermediate instrumental skill.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 2320\"}, {\"type\": \"course\", \"code\": \"MU 2310\"}]}",
-      "other_requirements": "Instructor permission; intermediate instrumental skill. PACE students with permission and override",
       "external": false
     },
     {
@@ -299,25 +35,168 @@
       "external": false
     },
     {
-      "id": "MU 4552",
-      "course_code": "MU 4552",
+      "id": "MU 2320",
+      "course_code": "MU 2320",
       "department": "MU",
-      "title": "Internship: Student Teaching",
-      "credit_hours": "11",
-      "description": "Teaching Interns will work under the guidance of their Licensed Music Mentor and University Supervisor to become committed reflective practitioners, instructional leaders and change agents, collaborating with other professionals to make a positive difference in schools and in the lives of all learners. Prerequisites: <a href=\"/search/?p=MUL%204550\" data-action=\"result-detail\" data-group=\"code:MUL 4550\" >MUL 4550</a>; Music Education majors only; Senior Standing; admission to student teaching; minimum GPA both overall and in professional courses 3. Co-requisite: <a href=\"/search/?p=MU%204551\" data-action=\"result-detail\" data-group=\"code:MU 4551\" >MU 4551</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MUL 4550\"}]}",
-      "other_requirements": "Music Education majors only; Senior Standing; admission to student teaching; minimum GPA both overall and in professional courses 3.",
+      "title": "Jazz Harmony",
+      "credit_hours": "3",
+      "description": "Study of jazz harmony, including essential harmonic progressions, turnarounds, chord substitutions, and melody harmonization. Music majors with concentration in Jazz Studies or Music Technology and Business take <a href=\"/search/?p=MU%202321\" data-action=\"result-detail\" data-group=\"code:MU 2321\" >MU 2321</a> Jazz Harmony Lab concurrently. Prerequisite: <a href=\"/search/?p=MU%201310\" data-action=\"result-detail\" data-group=\"code:MU 1310\" >MU 1310</a> or equivalent music theory fundamentals proficiency. Co-requisite: <a href=\"/search/?p=MU%202321\" data-action=\"result-detail\" data-group=\"code:MU 2321\" >MU 2321</a> is required for Music majors with a concentration in Jazz Studies or Music Technology and Business and is encouraged for all others enrolled in MU 2320.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MU 2321\"}",
+      "other_requirements": "Music majors with concentration in Jazz Studies or Music Technology and Business take MU 2321 Jazz Harmony Lab concurrently. Placement test. PACE students by permission and override.",
       "external": false
     },
     {
-      "id": "MU 2785",
-      "course_code": "MU 2785",
+      "id": "MU 2772",
+      "course_code": "MU 2772",
       "department": "MU",
-      "title": "Music Business and Copyright",
+      "title": "Studio Production II",
+      "credit_hours": "2",
+      "description": "Explores advanced techniques of music studio production. Topics include recording hardware, signal processing, Digital Audio Workstations, and post production engineering (mixing and mastering). Prerequisite: <a href=\"/search/?p=MU%202771\" data-action=\"result-detail\" data-group=\"code:MU 2771\" >MU 2771</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MU 2771\"}",
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "MU 3552",
+      "course_code": "MU 3552",
+      "department": "MU",
+      "title": "Choral Music Methods",
       "credit_hours": "3",
-      "description": "Survey of basic concepts and practices in music business including copyright, licensing, publishing, contracts, marketing, agencies, unions and guilds, and career development. Prerequisite: A Catamount Core WIL1 course.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"Catamount Core WIL1\"}",
-      "other_requirements": "Minimum sophomore standing; Music majors with concentration in Music Technology and Music Technology and Business minors only during week of registration; Open to PACE students with permission and override",
+      "description": "Standards-based curriculum development, lesson planning, repertoire selection, rehearsal techniques, and assessment strategies for teaching choral music at the elementary and secondary school levels. Pre/Co-requisite: <a href=\"/search/?p=MU%201550\" data-action=\"result-detail\" data-group=\"code:MU 1550\"  class=\"notoffered\">MU 1550</a>; acceptance into licensure program in Music Education; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 1550\"}, {\"type\": \"course\", \"code\": \"MU 1550\"}]}",
+      "other_requirements": "acceptance into licensure program in Music Education; or Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "MU 2313",
+      "course_code": "MU 2313",
+      "department": "MU",
+      "title": "Harmony and Form II",
+      "credit_hours": "3",
+      "description": "Study of chromatic harmony (applied chords, modulation) and small forms (binary, ternary, variation). Music majors take <a href=\"/search/?p=MU%202314\" data-action=\"result-detail\" data-group=\"code:MU 2314\" >MU 2314</a> concurrently. Prerequisite: <a href=\"/search/?p=MU%202320\" data-action=\"result-detail\" data-group=\"code:MU 2320\" >MU 2320</a> or <a href=\"/search/?p=MU%202310\" data-action=\"result-detail\" data-group=\"code:MU 2310\"  class=\"notoffered\">MU 2310</a> or Instructor permission. Co-requisite: Music majors taking MU 2313 to fulfill a theory requirement also take <a href=\"/search/?p=MU%202314\" data-action=\"result-detail\" data-group=\"code:MU 2314\" >MU 2314</a> Harmony and Form Lab II concurrently.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 2320\"}, {\"type\": \"course\", \"code\": \"MU 2310\"}]}",
+      "other_requirements": "Instructor permission; PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "MU 3771",
+      "course_code": "MU 3771",
+      "department": "MU",
+      "title": "Studio Production III",
+      "credit_hours": "2",
+      "description": "Explores professional techniques of music studio production. Topics include recording hardware, signal processing, Digital Audio Workstations, and post production engineering (mixing and mastering). Prerequisite: <a href=\"/search/?p=MU%202772\" data-action=\"result-detail\" data-group=\"code:MU 2772\" >MU 2772</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MU 2772\"}",
+      "other_requirements": "Instructor Permission",
+      "external": false
+    },
+    {
+      "id": "MU 2311",
+      "course_code": "MU 2311",
+      "department": "MU",
+      "title": "Harmony and Form Lab I",
+      "credit_hours": "1.5",
+      "description": "Intensive study of solfege, elementary keyboard harmony, and dictation. Students should also register for <a href=\"/search/?p=MU%202310\" data-action=\"result-detail\" data-group=\"code:MU 2310\" >MU 2310</a>. Prerequisite: Ability to read music and to sing or play a musical instrument at elementary level. Co-requisite: <a href=\"/search/?p=MU%202310\" data-action=\"result-detail\" data-group=\"code:MU 2310\" >MU 2310</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MU 2310\"}",
+      "other_requirements": "Ability to read music and to sing or play a musical instrument at elementary level. PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "MU 1145",
+      "course_code": "MU 1145",
+      "department": "MU",
+      "title": "History of Rock and Roll",
+      "credit_hours": "3",
+      "description": "Examines rock music as a succession of related musical styles and as a social movement reflecting and influencing the changing American political and social landscape.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "MU 3313",
+      "course_code": "MU 3313",
+      "department": "MU",
+      "title": "Post-19c Theory and Practice",
+      "credit_hours": "3",
+      "description": "Study of extended tonality, atonality, and 12-tone techniques. Examples drawn from 20th and 21st century literature. Music majors take <a href=\"/search/?p=MU%203314\" data-action=\"result-detail\" data-group=\"code:MU 3314\" >MU 3314</a> concurrently. Prerequisite: <a href=\"/search/?p=MU%202313\" data-action=\"result-detail\" data-group=\"code:MU 2313\"  class=\"notoffered\">MU 2313</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 2313\"}, {\"type\": \"other\", \"description\": \"Instructor permission\"}]}",
+      "other_requirements": "Music majors take MU 3314 concurrently.",
+      "external": false
+    },
+    {
+      "id": "MU 1310",
+      "course_code": "MU 1310",
+      "department": "MU",
+      "title": "Music Theory Fundamentals",
+      "credit_hours": "3",
+      "description": "Fundamentals of music notation, rhythm, melody, scales, and harmony. A course for non-majors or for students preparing to enter <a href=\"/search/?p=MU%202320\" data-action=\"result-detail\" data-group=\"code:MU 2320\" >MU 2320</a> or <a href=\"/search/?p=MU%202310\" data-action=\"result-detail\" data-group=\"code:MU 2310\" >MU 2310</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Music and Music Ed majors and Music, Musical Theatre and Music Technology & Business minors only",
+      "external": false
+    },
+    {
+      "id": "MU 2771",
+      "course_code": "MU 2771",
+      "department": "MU",
+      "title": "Studio Production I",
+      "credit_hours": "2",
+      "description": "Explores the fundamentals of music studio recording production. Topics include recording hardware, ProTools software, microphone technique, signal processing, and post production engineering. Prerequisites: <a href=\"/search/?p=MU%201770\" data-action=\"result-detail\" data-group=\"code:MU 1770\" >MU 1770</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 1770\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
+      "other_requirements": "Instructor permission required; PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "MU 3327",
+      "course_code": "MU 3327",
+      "department": "MU",
+      "title": "Theory/Practice Jazz Improv II",
+      "credit_hours": "3",
+      "description": "Chord substitution, re-harmonization, scale alteration, free&quot; improvisation, and other techniques in written assignments and classroom performance of modern jazz repertory. Prerequisites: <a href=\"/search/?p=MU%202327\" data-action=\"result-detail\" data-group=\"code:MU 2327\"  class=\"notoffered\">MU 2327</a>, or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 2327\"}, {\"type\": \"course\", \"code\": \"MU 2327\"}]}",
+      "other_requirements": "Instructor permission. MU3327 is a capstone course offered every other year for experienced jazz players. The class involves intensive coaching in real-time improvisation and interaction with a rhythm section (bass, drums, piano, guitar). We spend a good portion of the class working on applied theory exercises (on our instruments or voice) and then we try to apply these concepts with each student taking a turn playing solos with the rhythm section. Chord substitution, re-harmonization, scale alteration, \"free\" improvisation, and other techniques are explored in written assignments and classroom performance of modern jazz repertory. Regular attendance and practice playing or singing class materials. Any student with at least an intermediate experience performing jazz and basic knowledge of music theory or jazz harmony is welcome to join class irrespective of prerequisites. Please contact instructor if you are unsure wether you are qualified.",
+      "external": false
+    },
+    {
+      "id": "MU 4310",
+      "course_code": "MU 4310",
+      "department": "MU",
+      "title": "Senior Project: Comp/Theory",
+      "credit_hours": "1",
+      "description": "Research paper or composition/analysis; topic chosen under direction of a faculty member. Prerequisite: Composition/Theory concentration; Senior standing; Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Composition/Theory concentration; Senior standing; Instructor permission. Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "MU 1550",
+      "course_code": "MU 1550",
+      "department": "MU",
+      "title": "Intro to Teaching Music",
+      "credit_hours": "3",
+      "description": "Introduction to the foundational principles, philosophies, opportunities, issues, and roles inherent to teaching music in various contexts and settings including school, community, and private settings. Open to all music majors and non-majors who are interested in teaching people through their love of music.",
+      "prereq_expression": null,
+      "other_requirements": "PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "MU 2560",
+      "course_code": "MU 2560",
+      "department": "MU",
+      "title": "Vocal Techniques",
+      "credit_hours": "2",
+      "description": "Foundation course in applied singing, and in teaching singing. Intended for students in music education, and students intending to teach private singing lessons or lead choirs. Pre/Co-requisite: <a href=\"/search/?p=MU%201550\" data-action=\"result-detail\" data-group=\"code:MU 1550\"  class=\"notoffered\">MU 1550</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MU 1550\"}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "MU 1770",
+      "course_code": "MU 1770",
+      "department": "MU",
+      "title": "Intro to Music Technology",
+      "credit_hours": "3",
+      "description": "Introductory overview of music technology. Study of acoustic physics, history of music technology, basic hardware set up, computerized music notation, Digital Audio Workstation (DAW) electronic music production, and music video creation. Prerequisite: <a href=\"/search/?p=MU%201310\" data-action=\"result-detail\" data-group=\"code:MU 1310\" >MU 1310</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 1310\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
+      "other_requirements": "Instructor permission required\nPACE students by permission and override\nAll students must fill out this form to be considered for instructor permission. No one can register without competing it:https://forms.gle/G4Ai6PeWsfrwqQXo6",
       "external": false
     },
     {
@@ -332,12 +211,111 @@
       "external": false
     },
     {
-      "id": "MU 1145",
-      "course_code": "MU 1145",
+      "id": "MU 2321",
+      "course_code": "MU 2321",
       "department": "MU",
-      "title": "History of Rock and Roll",
+      "title": "Jazz Harmony Lab",
+      "credit_hours": "1.5",
+      "description": "Musical skills will be sharpened through singing prepared and unprepared material, through practice of rhythmic exercises, and through melodic, harmonic, and rhythmic dictation. Practice in the use of solfege syllables from the moveable do system to aid successful sight singing. Co-requisite: <a href=\"/search/?p=MU%202320\" data-action=\"result-detail\" data-group=\"code:MU 2320\" >MU 2320</a>.",
+      "prereq_expression": null,
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "MUL 4550",
+      "course_code": "MUL 4550",
+      "department": "MUL",
+      "title": "Senior Recital",
+      "credit_hours": "1",
+      "description": "The solo recital is the capstone performance experience for music majors. Repertoire for the recital will be chosen in consultation with the private lesson teacher and, where appropriate, the area head. Students should take <a href=\"/search/?p=MUL%204500\" data-action=\"result-detail\" data-group=\"code:MUL 4500\" >MUL 4500</a> concurrently. Prerequisites: Music or Music Education majors only; Students must have performed on at least four Student Performance Recitals before they are eligible for this course.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MUL 4500\"}",
+      "other_requirements": "Music or Music Education majors only; Students must have performed on at least four Student Performance Recitals before they are eligible for this course. MUS, MUSE majors only; Must pass Level IV Exam; Lab fee $260 per credit",
+      "external": true
+    },
+    {
+      "id": "MU 3314",
+      "course_code": "MU 3314",
+      "department": "MU",
+      "title": "Post-19c Theory Lab",
+      "credit_hours": "1.5",
+      "description": "Intensive study of solfege, extended tonality and atonality at the keyboard, dictation, and score reading. Prerequisite: <a href=\"/search/?p=MU%202314\" data-action=\"result-detail\" data-group=\"code:MU 2314\"  class=\"notoffered\">MU 2314</a> or Instructor permission. Co-requisite: <a href=\"/search/?p=MU%203313\" data-action=\"result-detail\" data-group=\"code:MU 3313\" >MU 3313</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 2314\"}, {\"type\": \"course\", \"code\": \"MU 3313\"}]}",
+      "other_requirements": "Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "MU 4552",
+      "course_code": "MU 4552",
+      "department": "MU",
+      "title": "Internship: Student Teaching",
+      "credit_hours": "11",
+      "description": "Teaching Interns will work under the guidance of their Licensed Music Mentor and University Supervisor to become committed reflective practitioners, instructional leaders and change agents, collaborating with other professionals to make a positive difference in schools and in the lives of all learners. Prerequisites: <a href=\"/search/?p=MUL%204550\" data-action=\"result-detail\" data-group=\"code:MUL 4550\" >MUL 4550</a>; Music Education majors only; Senior Standing; admission to student teaching; minimum GPA both overall and in professional courses 3. Co-requisite: <a href=\"/search/?p=MU%204551\" data-action=\"result-detail\" data-group=\"code:MU 4551\" >MU 4551</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MUL 4550\"}",
+      "other_requirements": "Music Education majors only; Senior Standing; admission to student teaching; minimum GPA both overall and in professional courses 3.",
+      "external": false
+    },
+    {
+      "id": "MU 2110",
+      "course_code": "MU 2110",
+      "department": "MU",
+      "title": "Hist Western Classical Music",
       "credit_hours": "3",
-      "description": "Examines rock music as a succession of related musical styles and as a social movement reflecting and influencing the changing American political and social landscape.",
+      "description": "Study of Western classical music from 1300 to the present, exploring music from various stylistic periods from a historicist perspective and examining how music history aligns with broader concepts, theories, and beliefs circulating at a particular moment in time. Prerequisites: <a href=\"/search/?p=MU%201310\" data-action=\"result-detail\" data-group=\"code:MU 1310\" >MU 1310</a>, <a href=\"/search/?p=MU%202320\" data-action=\"result-detail\" data-group=\"code:MU 2320\" >MU 2320</a>, or <a href=\"/search/?p=MU%202310\" data-action=\"result-detail\" data-group=\"code:MU 2310\"  class=\"notoffered\">MU 2310</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 1310\"}, {\"type\": \"course\", \"code\": \"MU 2320\"}, {\"type\": \"course\", \"code\": \"MU 2310\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "MU 2552",
+      "course_code": "MU 2552",
+      "department": "MU",
+      "title": "Brass Techniques",
+      "credit_hours": "2",
+      "description": "Class instruction on trumpet, trombone, and horn including materials and procedures for teaching these instruments in elementary and secondary schools. Pre/Co-requisite: <a href=\"/search/?p=MU%201550\" data-action=\"result-detail\" data-group=\"code:MU 1550\"  class=\"notoffered\">MU 1550</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MU 1550\"}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "MU 2785",
+      "course_code": "MU 2785",
+      "department": "MU",
+      "title": "Music Business and Copyright",
+      "credit_hours": "3",
+      "description": "Survey of basic concepts and practices in music business including copyright, licensing, publishing, contracts, marketing, agencies, unions and guilds, and career development. Prerequisite: A Catamount Core WIL1 course.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"Catamount Core WIL1\"}",
+      "other_requirements": "Minimum sophomore standing; Music majors with concentration in Music Technology and Music Technology and Business minors only during week of registration; Open to PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "MU 2314",
+      "course_code": "MU 2314",
+      "department": "MU",
+      "title": "Harmony and Form Lab II",
+      "credit_hours": "1",
+      "description": "Intensive study of solfege, intermediate keyboard harmony, and dictation. Students should also register for <a href=\"/search/?p=MU%202313\" data-action=\"result-detail\" data-group=\"code:MU 2313\" >MU 2313</a>. Prerequisites: <a href=\"/search/?p=MU%202311\" data-action=\"result-detail\" data-group=\"code:MU 2311\"  class=\"notoffered\">MU 2311</a> or <a href=\"/search/?p=MU%202321\" data-action=\"result-detail\" data-group=\"code:MU 2321\" >MU 2321</a>. Co-requisite: <a href=\"/search/?p=MU%202313\" data-action=\"result-detail\" data-group=\"code:MU 2313\" >MU 2313</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 2311\"}, {\"type\": \"course\", \"code\": \"MU 2321\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "MU 2782",
+      "course_code": "MU 2782",
+      "department": "MU",
+      "title": "Arts Management",
+      "credit_hours": "3",
+      "description": "Focuses on the business of presenting the performing arts. Topics include: planning, marketing, logistics and operations of non-profit arts organizations. Prerequisite: A Catamount Core WIL1 course.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"Catamount Core WIL1\"}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "MU 4996",
+      "course_code": "MU 4996",
+      "department": "MU",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -354,80 +332,25 @@
       "external": false
     },
     {
-      "id": "MU 2782",
-      "course_code": "MU 2782",
+      "id": "MU 3550",
+      "course_code": "MU 3550",
       "department": "MU",
-      "title": "Arts Management",
+      "title": "General Music Methods",
       "credit_hours": "3",
-      "description": "Focuses on the business of presenting the performing arts. Topics include: planning, marketing, logistics and operations of non-profit arts organizations. Prerequisite: A Catamount Core WIL1 course.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"Catamount Core WIL1\"}",
-      "other_requirements": "PACE students with permission and override",
+      "description": "Methodologies, lesson planning, assessment, and standards-based curriculum development for general music at the elementary and secondary school levels. Pre/co-requisites: <a href=\"/search/?p=MU%201550\" data-action=\"result-detail\" data-group=\"code:MU 1550\" >MU 1550</a>; acceptance into licensure program in Music Education.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MU 1550\"}",
+      "other_requirements": "acceptance into licensure program in Music Education",
       "external": false
     },
     {
-      "id": "MU 2313",
-      "course_code": "MU 2313",
+      "id": "MU 3320",
+      "course_code": "MU 3320",
       "department": "MU",
-      "title": "Harmony and Form II",
+      "title": "Arranging for Jazz Orchestra",
       "credit_hours": "3",
-      "description": "Study of chromatic harmony (applied chords, modulation) and small forms (binary, ternary, variation). Music majors take <a href=\"/search/?p=MU%202314\" data-action=\"result-detail\" data-group=\"code:MU 2314\" >MU 2314</a> concurrently. Prerequisite: <a href=\"/search/?p=MU%202320\" data-action=\"result-detail\" data-group=\"code:MU 2320\" >MU 2320</a> or <a href=\"/search/?p=MU%202310\" data-action=\"result-detail\" data-group=\"code:MU 2310\"  class=\"notoffered\">MU 2310</a> or Instructor permission. Co-requisite: Music majors taking MU 2313 to fulfill a theory requirement also take <a href=\"/search/?p=MU%202314\" data-action=\"result-detail\" data-group=\"code:MU 2314\" >MU 2314</a> Harmony and Form Lab II concurrently.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 2320\"}, {\"type\": \"course\", \"code\": \"MU 2310\"}]}",
-      "other_requirements": "Instructor permission; PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "MU 1550",
-      "course_code": "MU 1550",
-      "department": "MU",
-      "title": "Intro to Teaching Music",
-      "credit_hours": "3",
-      "description": "Introduction to the foundational principles, philosophies, opportunities, issues, and roles inherent to teaching music in various contexts and settings including school, community, and private settings. Open to all music majors and non-majors who are interested in teaching people through their love of music.",
-      "prereq_expression": null,
-      "other_requirements": "PACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "MU 2120",
-      "course_code": "MU 2120",
-      "department": "MU",
-      "title": "Jazz History Styles & Analysis",
-      "credit_hours": "3",
-      "description": "An in-depth survey of jazz from early New Orleans to contemporary styles. Work includes close listening, study of transcriptions, and stylistic analysis. Final projects. Prerequisites: <a href=\"/search/?p=MU%202320\" data-action=\"result-detail\" data-group=\"code:MU 2320\" >MU 2320</a> or <a href=\"/search/?p=MU%202310\" data-action=\"result-detail\" data-group=\"code:MU 2310\" >MU 2310</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 2320\"}, {\"type\": \"course\", \"code\": \"MU 2310\"}]}",
-      "other_requirements": "PACE students with permission and override.",
-      "external": false
-    },
-    {
-      "id": "MU 2311",
-      "course_code": "MU 2311",
-      "department": "MU",
-      "title": "Harmony and Form Lab I",
-      "credit_hours": "1.5",
-      "description": "Intensive study of solfege, elementary keyboard harmony, and dictation. Students should also register for <a href=\"/search/?p=MU%202310\" data-action=\"result-detail\" data-group=\"code:MU 2310\" >MU 2310</a>. Prerequisite: Ability to read music and to sing or play a musical instrument at elementary level. Co-requisite: <a href=\"/search/?p=MU%202310\" data-action=\"result-detail\" data-group=\"code:MU 2310\" >MU 2310</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 2310\"}]}",
-      "other_requirements": "Ability to read music and to sing or play a musical instrument at elementary level. PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "MU 2772",
-      "course_code": "MU 2772",
-      "department": "MU",
-      "title": "Studio Production II",
-      "credit_hours": "2",
-      "description": "Explores advanced techniques of music studio production. Topics include recording hardware, signal processing, Digital Audio Workstations, and post production engineering (mixing and mastering). Prerequisite: <a href=\"/search/?p=MU%202771\" data-action=\"result-detail\" data-group=\"code:MU 2771\" >MU 2771</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"MU 2771\"}",
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "MU 3314",
-      "course_code": "MU 3314",
-      "department": "MU",
-      "title": "Post-19c Theory Lab",
-      "credit_hours": "1.5",
-      "description": "Intensive study of solfege, extended tonality and atonality at the keyboard, dictation, and score reading. Prerequisite: <a href=\"/search/?p=MU%202314\" data-action=\"result-detail\" data-group=\"code:MU 2314\"  class=\"notoffered\">MU 2314</a> or Instructor permission. Co-requisite: <a href=\"/search/?p=MU%203313\" data-action=\"result-detail\" data-group=\"code:MU 3313\" >MU 3313</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 2314\"}, {\"type\": \"course\", \"code\": \"MU 3313\"}]}",
-      "other_requirements": "Instructor permission.",
+      "description": "Composing and arranging for big band. Practice in techniques of jazz arranging and study of historic works. Final project is jazz standard arranged for big band, read by the UVM Jazz Ensemble. Prerequisite: <a href=\"/search/?p=MU%202320\" data-action=\"result-detail\" data-group=\"code:MU 2320\" >MU 2320</a> or <a href=\"/search/?p=MU%202313\" data-action=\"result-detail\" data-group=\"code:MU 2313\" >MU 2313</a> or instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 2320\"}, {\"type\": \"course\", \"code\": \"MU 2313\"}]}",
+      "other_requirements": "instructor permission",
       "external": false
     },
     {
@@ -442,14 +365,58 @@
       "external": false
     },
     {
-      "id": "MU 3313",
-      "course_code": "MU 3313",
+      "id": "MU 4994",
+      "course_code": "MU 4994",
       "department": "MU",
-      "title": "Post-19c Theory and Practice",
+      "title": "Teaching Assistantship",
       "credit_hours": "3",
-      "description": "Study of extended tonality, atonality, and 12-tone techniques. Examples drawn from 20th and 21st century literature. Music majors take <a href=\"/search/?p=MU%203314\" data-action=\"result-detail\" data-group=\"code:MU 3314\" >MU 3314</a> concurrently. Prerequisite: <a href=\"/search/?p=MU%202313\" data-action=\"result-detail\" data-group=\"code:MU 2313\"  class=\"notoffered\">MU 2313</a> or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 2313\"}, {\"type\": \"other\", \"description\": \"Instructor permission\"}]}",
-      "other_requirements": "Music majors take MU 3314 concurrently.",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "MU 1143",
+      "course_code": "MU 1143",
+      "department": "MU",
+      "title": "US Popular Music Since 1989",
+      "credit_hours": "3",
+      "description": "An exploration of the sounds and social politics of US popular music over the last three decades. Focuses on the transformations wrought by digital technologies to the production, consumption, and politics of popular music. Through examination of songs, music videos, and writings, students refine critical listening and writing skills.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "MU 4993",
+      "course_code": "MU 4993",
+      "department": "MU",
+      "title": "Independent Study",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor Permission Required",
+      "external": false
+    },
+    {
+      "id": "MU 1775",
+      "course_code": "MU 1775",
+      "department": "MU",
+      "title": "Live Sound Reinforcement",
+      "credit_hours": "3",
+      "description": "Overview of techniques and tools used in amplification of live sound performance in music, theater, and dance. Study of physical properties of sound, fundamentals of acoustics, and current technology and equipment.",
+      "prereq_expression": null,
+      "other_requirements": "Music majors with a concentration in Music Technology and Business and Music Technology and Business minors only during the week of registration; PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "MU 1147",
+      "course_code": "MU 1147",
+      "department": "MU",
+      "title": "Music&Cult:New Orleans",
+      "credit_hours": "3",
+      "description": "Examines the interrelationships between styles of music in New Orleans and the cultures that support them.",
+      "prereq_expression": null,
+      "other_requirements": "Open to degree and PACE students",
       "external": false
     },
     {
@@ -461,6 +428,39 @@
       "description": "Project utilizes current music technology. Topic chosen under direction of faculty member. Prerequisites: <a href=\"/search/?p=MU%203771\" data-action=\"result-detail\" data-group=\"code:MU 3771\" >MU 3771</a>; Music Technology and Business concentration; Senior standing.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 3771\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 3771\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 3771\"}, {\"type\": \"course\", \"code\": \"MU 3771\"}]}]}]}",
       "other_requirements": "Music Technology and Business concentration; Senior standing. Contact instructor for meeting times and location; Senior standing in Music Technology Concentration; Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "MU 3551",
+      "course_code": "MU 3551",
+      "department": "MU",
+      "title": "Practicum in Teaching Music",
+      "credit_hours": "2",
+      "description": "Supervised field experience in music education. Prerequisites: <a href=\"/search/?p=MU%201550\" data-action=\"result-detail\" data-group=\"code:MU 1550\" >MU 1550</a>. Pre/Co-requisites: <a href=\"/search/?p=MU%203550\" data-action=\"result-detail\" data-group=\"code:MU 3550\" >MU 3550</a>, <a href=\"/search/?p=MU%203552\" data-action=\"result-detail\" data-group=\"code:MU 3552\"  class=\"notoffered\">MU 3552</a>, <a href=\"/search/?p=MU%203554\" data-action=\"result-detail\" data-group=\"code:MU 3554\"  class=\"notoffered\">MU 3554</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 1550\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 3550\"}, {\"type\": \"course\", \"code\": \"MU 3552\"}, {\"type\": \"course\", \"code\": \"MU 3554\"}]}]}",
+      "other_requirements": "Prerequisite enforced by the system:MU 1550 See link to syllabus for details",
+      "external": false
+    },
+    {
+      "id": "MU 2327",
+      "course_code": "MU 2327",
+      "department": "MU",
+      "title": "Theory/Practice Jazz Improv I",
+      "credit_hours": "3",
+      "description": "Basic repertory, idiomatic usage, aural skills, theoretical constructs, and strategies for the jazz improvisor. Prerequisites: <a href=\"/search/?p=MU%202320\" data-action=\"result-detail\" data-group=\"code:MU 2320\" >MU 2320</a> or <a href=\"/search/?p=MU%202310\" data-action=\"result-detail\" data-group=\"code:MU 2310\"  class=\"notoffered\">MU 2310</a> or Instructor permission; intermediate instrumental skill.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MU 2320\"}, {\"type\": \"course\", \"code\": \"MU 2310\"}]}",
+      "other_requirements": "Instructor permission; intermediate instrumental skill. PACE students with permission and override",
+      "external": false
+    },
+    {
+      "id": "MU 4551",
+      "course_code": "MU 4551",
+      "department": "MU",
+      "title": "Teaching Internship Seminar",
+      "credit_hours": "3",
+      "description": "Companion course to supervised field work, giving students experience in specialized areas for their professional development. It is designed to provide context to the field work, resources for effective planning and teaching, and assist in developing the Vermont Licensure Portfolio and achieving InTASC standards. Prerequisite: Senior standing. Co-requisite: <a href=\"/search/?p=MU%204552\" data-action=\"result-detail\" data-group=\"code:MU 4552\" >MU 4552</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MU 4552\"}",
+      "other_requirements": "Senior standing.",
       "external": false
     }
   ],
@@ -474,16 +474,6 @@
       "source": "MU 1310",
       "target": "MU 2110",
       "group": "MU 2110__g0"
-    },
-    {
-      "source": "MU 1310",
-      "target": "MU 2310",
-      "group": "MU 2310__g0"
-    },
-    {
-      "source": "MU 1310",
-      "target": "MU 2320",
-      "group": "MU 2320__g0"
     },
     {
       "source": "MU 1550",
@@ -524,16 +514,6 @@
       "source": "MU 1770",
       "target": "MU 2771",
       "group": "MU 2771__g0"
-    },
-    {
-      "source": "MU 1775",
-      "target": "MU 1775",
-      "group": null
-    },
-    {
-      "source": "MU 2310",
-      "target": "MU 1310",
-      "group": "MU 1310__g0"
     },
     {
       "source": "MU 2310",
@@ -579,11 +559,6 @@
       "source": "MU 2314",
       "target": "MU 3314",
       "group": "MU 3314__g0"
-    },
-    {
-      "source": "MU 2320",
-      "target": "MU 1310",
-      "group": "MU 1310__g0"
     },
     {
       "source": "MU 2320",
@@ -654,11 +629,6 @@
       "source": "MU 3771",
       "target": "MU 4770",
       "group": "MU 4770__g0"
-    },
-    {
-      "source": "MU 4310",
-      "target": "MU 4310",
-      "group": null
     },
     {
       "source": "MU 4552",

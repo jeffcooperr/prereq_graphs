@@ -13,17 +13,6 @@
       "external": false
     },
     {
-      "id": "CTS 6200",
-      "course_code": "CTS 6200",
-      "department": "CTS",
-      "title": "Analyze Clin&Translational Res",
-      "credit_hours": "3",
-      "description": "Seminar emphasizing basic and analytical skills for clinical and translational research. Prerequisite: CTS 6200 or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CTS 6200\"}, {\"type\": \"other\", \"description\": \"Instructor permission\"}]}",
-      "other_requirements": "Grad level or instructor permission required. Open to PACE students.",
-      "external": false
-    },
-    {
       "id": "CTS 6391",
       "course_code": "CTS 6391",
       "department": "CTS",
@@ -33,13 +22,18 @@
       "prereq_expression": null,
       "other_requirements": "Instructor permission required; Contact department for location",
       "external": false
+    },
+    {
+      "id": "CTS 6200",
+      "course_code": "CTS 6200",
+      "department": "CTS",
+      "title": "Analyze Clin&Translational Res",
+      "credit_hours": "3",
+      "description": "Seminar emphasizing basic and analytical skills for clinical and translational research. Prerequisite: CTS 6200 or Instructor permission.",
+      "prereq_expression": "{\"type\": \"other\", \"description\": \"Instructor permission\"}",
+      "other_requirements": "Grad level or instructor permission required. Open to PACE students.",
+      "external": false
     }
   ],
-  "edges": [
-    {
-      "source": "CTS 6200",
-      "target": "CTS 6200",
-      "group": "CTS 6200__g0"
-    }
-  ]
+  "edges": []
 }

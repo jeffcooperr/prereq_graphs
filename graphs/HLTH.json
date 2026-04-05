@@ -2,6 +2,28 @@
   "department": "HLTH",
   "nodes": [
     {
+      "id": "HLTH 3991",
+      "course_code": "HLTH 3991",
+      "department": "HLTH",
+      "title": "Int:Lic SkillsInstr Internship",
+      "credit_hours": "1",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required.",
+      "external": false
+    },
+    {
+      "id": "HLTH 2070",
+      "course_code": "HLTH 2070",
+      "department": "HLTH",
+      "title": "Human Health & the Envirnmt",
+      "credit_hours": "3",
+      "description": "Offers an introduction to environmental health. Topics include: methods (toxicology, epidemiology), environmental health hazards (physical, biological, chemical) and supports (nature contact), risk analysis, communication and management, health and climate change, food production and access, energy production, and water. Prerequisite: Sophomore standing. Cross-listed with: <a href=\"/search/?p=SEP%202070\" data-action=\"result-detail\" data-group=\"code:SEP 2070\" >SEP 2070</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"Sophomore standing\"}",
+      "other_requirements": null,
+      "external": false
+    },
+    {
       "id": "HLTH 2050",
       "course_code": "HLTH 2050",
       "department": "HLTH",
@@ -10,127 +32,6 @@
       "description": "Examines the principles and theories of culture in health care with an overall goal to understand how health care is contextualized by and through culture.",
       "prereq_expression": null,
       "other_requirements": "PACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "HLTH 5850",
-      "course_code": "HLTH 5850",
-      "department": "HLTH",
-      "title": "Gr Health&Wellness Coaching",
-      "credit_hours": "4",
-      "description": "Covers theoretical framework, strategies and techniques of motivational interviewing, clinical application of behavioral change theory, and the structure of Health &amp; Wellness Coaching. Experience integrative therapies and explore tenets of health and wellness. Required for NBHWC National Certification. Prerequisite: Integrative Health &amp; Wellness Coaching mCGS Graduate student or Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"HLTH 5850\"}]}",
-      "other_requirements": "Integrative Health & Wellness Coaching mCGS Graduate student or Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "HLTH 3010",
-      "course_code": "HLTH 3010",
-      "department": "HLTH",
-      "title": "Sci & Evidence Integrativ HLTH",
-      "credit_hours": "3",
-      "description": "Integrative health brings together conventional and complementary approaches to health, emphasizing treating the whole person. Examines the levels of scientific evidence on the efficacy and effectiveness of integrative therapies and identifies opportunities for integrative therapies to improve outcomes for patients  and planetary health. Prerequisite: Catamount Core WIL1 course.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"HLTH 2010\"}",
-      "other_requirements": "Catamount Core WIL1 course. Degree students only even after level restrictions removed; PACE students register for HLTH 3010 OLR Colocated with HLTH 3010 OLR; Asynchronous online",
-      "external": false
-    },
-    {
-      "id": "HLTH 5001",
-      "course_code": "HLTH 5001",
-      "department": "HLTH",
-      "title": "Resilient Leader",
-      "credit_hours": "2",
-      "description": "Prepares emerging and experienced professionals to move beyond burnout by leading with resilience, purpose, and integrity. Students cultivate empowerment and humility to strengthen personal and professional sustainability. Through reflective learning, mindful self-care, and community engagement, learners deepen their insight and leadership capacity to foster trust, compassion, and lasting impact within their spheres of practice.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "HLTH 3859",
-      "course_code": "HLTH 3859",
-      "department": "HLTH",
-      "title": "Health & Wellness Coaching",
-      "credit_hours": "4",
-      "description": "Students will learn about Integrative Healthcare, Health &amp; Wellness Coaching, and what makes  Wellness Coaching so effective. Techniques such as active listening, reflections, open-ended questions, affirmations, and summarizing, used to empower and guide clients in sustainable behavioral change will be covered as well as health coaching structure. This course is part of the required curriculum to prepare students to be eligible to sit for the National Board of Health &amp; Wellness Coaching Certification Exam. Prerequisite: Integrative Health &amp; Wellness Coaching minor.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HLTH 3859\"}]}",
-      "other_requirements": "Integrative Health & Wellness Coaching minor. Degree students only, even after level restrictions removed; PACE students register for section ZRA",
-      "external": false
-    },
-    {
-      "id": "HLTH 1210",
-      "course_code": "HLTH 1210",
-      "department": "HLTH",
-      "title": "Wilderness First Aid",
-      "credit_hours": "1",
-      "description": "Covers introductory knowledge and basic skills required to recognize, assess and manage common medical problems, trauma and environmental emergencies in the wilderness or austere environment. Specifically designed for individuals engaged in outdoor recreation or education, students will focus on safety and prevention, basic assessment to identify life-threatening and non-life-threatening emergencies, management of these problems and decision making about the next level of care.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "HLTH 1980",
-      "course_code": "HLTH 1980",
-      "department": "HLTH",
-      "title": "Restore, Rejuvenate&Energize",
-      "credit_hours": "1",
-      "description": "Experiential learning focusing on promotion of healthy behaviors designed to restore, rejuvenate and energize. Topics to be covered include physical activity, stress management, healthy nutrition, sleep hygiene, work/life balance, self-compassion, and practicing gratitude.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "HLTH 1990",
-      "course_code": "HLTH 1990",
-      "department": "HLTH",
-      "title": "ST: Intro to Clnl Hlth Prof",
-      "credit_hours": "3",
-      "description": "Introductory courses on health topics beyond the scope of departmental or college offerings. See Schedule of Courses for specific titles.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "HLTH 3940",
-      "course_code": "HLTH 3940",
-      "department": "HLTH",
-      "title": "Trauma & Trauma Systems",
-      "credit_hours": "3",
-      "description": "Develops an understanding of trauma and trauma systems, focusing on rural areas. Includes readings and a series of lectures delivered by individuals involved in Vermont's trauma system. A variety of clinical and operational topics will be addressed through co-learning projects and presentations. Prerequisites: <a href=\"/search/?p=HLTH%202530\" data-action=\"result-detail\" data-group=\"code:HLTH 2530\" >HLTH 2530</a>, <a href=\"/search/?p=HLTH%203570\" data-action=\"result-detail\" data-group=\"code:HLTH 3570\" >HLTH 3570</a>; or Health Science, Nursing, Public Health major, Emergency Medicine minor.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"HLTH 2530\"}, {\"type\": \"course\", \"code\": \"HLTH 3570\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HLTH 2530\"}, {\"type\": \"course\", \"code\": \"HLTH 3570\"}]}]}",
-      "other_requirements": "Health Science, Nursing, Public Health major, Emergency Medicine minor",
-      "external": false
-    },
-    {
-      "id": "HLTH 2994",
-      "course_code": "HLTH 2994",
-      "department": "HLTH",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required; Course meets on select Fridays (dates TBD). students will be responsible for TA activities in EMS courses as coordinated by the istructor.",
-      "external": false
-    },
-    {
-      "id": "HLTH 3570",
-      "course_code": "HLTH 3570",
-      "department": "HLTH",
-      "title": "Advanced EMT",
-      "credit_hours": "6",
-      "description": "Follows the national EMS Scope of Practice Model to expand the Emergency Medical Technician's knowledge and skills in preparation for licensure as an Advanced Emergency Medical Technician. Prerequisites: <a href=\"/search/?p=HLTH%202530\" data-action=\"result-detail\" data-group=\"code:HLTH 2530\" >HLTH 2530</a> and Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"HLTH 2530\"}, {\"type\": \"course\", \"code\": \"HLTH 3570\"}]}",
-      "other_requirements": "Instructor permission required; Must hold licensure as an EMT; Affiliation with VT EMS organization required; Course Fee: $593; 3 weekends will be required for simulation lab activities Dates TBD Contact instructor to ensure eligibility to register for the course. Open to Degree and PACE students.",
-      "external": false
-    },
-    {
-      "id": "HLTH 2400",
-      "course_code": "HLTH 2400",
-      "department": "HLTH",
-      "title": "Issues in Women's Health",
-      "credit_hours": "3",
-      "description": "A holistic exploration of the health needs of women and persons assigned female at birth. Considers the stereotypical, theoretical, and clinical approaches to care for this population in westernized and global culture. Students will develop a heightened sense of awareness of these issues in society and media. Prerequisite: A Catamount Core WIL1 course. Cross-listed with: <a href=\"/search/?p=GSWS%202415\" data-action=\"result-detail\" data-group=\"code:GSWS 2415\" >GSWS 2415</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"Catamount Core WIL1\"}]}",
-      "other_requirements": "Open to Degree and PACE students",
       "external": false
     },
     {
@@ -156,36 +57,14 @@
       "external": false
     },
     {
-      "id": "HLTH 2070",
-      "course_code": "HLTH 2070",
+      "id": "HLTH 3570",
+      "course_code": "HLTH 3570",
       "department": "HLTH",
-      "title": "Human Health & the Envirnmt",
-      "credit_hours": "3",
-      "description": "Offers an introduction to environmental health. Topics include: methods (toxicology, epidemiology), environmental health hazards (physical, biological, chemical) and supports (nature contact), risk analysis, communication and management, health and climate change, food production and access, energy production, and water. Prerequisite: Sophomore standing. Cross-listed with: <a href=\"/search/?p=SEP%202070\" data-action=\"result-detail\" data-group=\"code:SEP 2070\" >SEP 2070</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"Sophomore standing\"}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "HLTH 2530",
-      "course_code": "HLTH 2530",
-      "department": "HLTH",
-      "title": "Emergency Medical Technician",
-      "credit_hours": "7",
-      "description": "Preparation to become an Emergency Medical Technician. Covers all of the objectives of the National EMS Blueprint for Education. Students must successfully complete all requirements prior to sitting for the National Registry of Emergency Medical Technicians (NREMT) exam, including practice and demonstration of competency in psychomotor skills. Students will attend Clinical Simulation events to demonstrate ability to lead a team, display critical thinking, and participate in skill-based activities as a culmination of the psychomotor skills. Prerequisites: Current certification in Basic Cardiac Life Support (BLS CPR). Pre/Co-requisite: <a href=\"/search/?p=HLTH%201030\" data-action=\"result-detail\" data-group=\"code:HLTH 1030\" >HLTH 1030</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"HLTH 1030\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HLTH 2530\"}]}]}",
-      "other_requirements": "Current certification in Basic Cardiac Life Support (BLS CPR). Must have BLS Certification prior to first class. Lab Fee: $238.00; Must register for labs HLTH 2530 L01-L05; Degree students only;",
-      "external": false
-    },
-    {
-      "id": "HLTH 2990",
-      "course_code": "HLTH 2990",
-      "department": "HLTH",
-      "title": "Emergency Care of Athletic Inj",
-      "credit_hours": "3",
-      "description": "Intermediate courses on health topics beyond the scope of departmental or college offerings. See Schedule of Courses for specific titles.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "title": "Advanced EMT",
+      "credit_hours": "6",
+      "description": "Follows the national EMS Scope of Practice Model to expand the Emergency Medical Technician's knowledge and skills in preparation for licensure as an Advanced Emergency Medical Technician. Prerequisites: <a href=\"/search/?p=HLTH%202530\" data-action=\"result-detail\" data-group=\"code:HLTH 2530\" >HLTH 2530</a> and Instructor permission.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"HLTH 2530\"}",
+      "other_requirements": "Instructor permission required; Must hold licensure as an EMT; Affiliation with VT EMS organization required; Course Fee: $593; 3 weekends will be required for simulation lab activities Dates TBD Contact instructor to ensure eligibility to register for the course. Open to Degree and PACE students.",
       "external": false
     },
     {
@@ -200,6 +79,28 @@
       "external": false
     },
     {
+      "id": "HLTH 1980",
+      "course_code": "HLTH 1980",
+      "department": "HLTH",
+      "title": "Restore, Rejuvenate&Energize",
+      "credit_hours": "1",
+      "description": "Experiential learning focusing on promotion of healthy behaviors designed to restore, rejuvenate and energize. Topics to be covered include physical activity, stress management, healthy nutrition, sleep hygiene, work/life balance, self-compassion, and practicing gratitude.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HLTH 2010",
+      "course_code": "HLTH 2010",
+      "department": "HLTH",
+      "title": "Intro to Integrative Health",
+      "credit_hours": "3",
+      "description": "An introduction to integrative health with a focus on studying different medical systems, therapies, and treatments from around the world with an emphasis on the student's own self-care. Overview of social forces prompting the rise of integrative healthcare; the theory and practice of health professions included in integrative healthcare. Cultural and institutional views and processes shaping substance and delivery modes of healthcare in the U.S. Prerequisite: Integrative Health or Integrative Health Coaching minor.",
+      "prereq_expression": null,
+      "other_requirements": "Integrative Health or Integrative Health Coaching minor. Asynchronous Online Course; Degree students only even after level restrictions removed; First and Second Year Students Only; PACE students register for HLTH 2010 OLR; Colocated with HLTH 2010 OL2 and OLR; Total Combined Enrollment = 80 This asynchronous online course is open to all students. You will notice different sections that correspond to different class years. PLEASE REGISTER FOR THE APPROPRIATE SECTION. If you have not declared the Integrative Health Minor, go to MyUVM and declare the minor - no additional permissions required.",
+      "external": false
+    },
+    {
       "id": "HLTH 5003",
       "course_code": "HLTH 5003",
       "department": "HLTH",
@@ -211,36 +112,25 @@
       "external": false
     },
     {
-      "id": "HLTH 5002",
-      "course_code": "HLTH 5002",
+      "id": "HLTH 1210",
+      "course_code": "HLTH 1210",
       "department": "HLTH",
-      "title": "Culinary Medicine",
-      "credit_hours": "3",
-      "description": "Prepares emerging and experienced professionals to integrate the art and science of food into clinical practice to support both individual and planetary health. Equips health care providers with evidence-based knowledge and practical tools to guide patients toward optimal nutrition, sustainable food choices, and empowered self-care. Explores culinary medicine as an essential component of chronic disease prevention and management.",
+      "title": "Wilderness First Aid",
+      "credit_hours": "1",
+      "description": "Covers introductory knowledge and basic skills required to recognize, assess and manage common medical problems, trauma and environmental emergencies in the wilderness or austere environment. Specifically designed for individuals engaged in outdoor recreation or education, students will focus on safety and prevention, basic assessment to identify life-threatening and non-life-threatening emergencies, management of these problems and decision making about the next level of care.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
     },
     {
-      "id": "HLTH 2770",
-      "course_code": "HLTH 2770",
+      "id": "HLTH 3920",
+      "course_code": "HLTH 3920",
       "department": "HLTH",
-      "title": "Iceland Ther Thermal Springs",
+      "title": "Hlth Wellness Coach Practicum",
       "credit_hours": "3",
-      "description": "Travel study to Iceland to explore the therapeutic effects of thermal waters which have long, historic importance providing a sustainable model of heat, social gathering, and healing. Prerequisites: Minimum Junior standing and Instructor permission.",
-      "prereq_expression": null,
-      "other_requirements": "Minimum Junior standing and Instructor permission. Spring Break travel course; OIE GoAbroad App Deadline: 11/18/2025; In-country dates 3/7-3/14/2026; Location: Iceland; Instructor permission required; Program fee $2,795 minus $450 deposit; Airfare is additional Out of Pocket Expenses (approx. $50) are additional; Tuition not included in program fee; Please see syllabus attached on the Office of International Education Wedpage.",
-      "external": false
-    },
-    {
-      "id": "HLTH 3860",
-      "course_code": "HLTH 3860",
-      "department": "HLTH",
-      "title": "Health & Well Coaching Advance",
-      "credit_hours": "4",
-      "description": "Students learn the theoretical framework, strategies and techniques of effective communication, advanced motivational interviewing, positive psychology and behavioral change and apply these to the practice of Integrative Health &amp; Wellness Coaching. Advanced coaching skills/structure with complex patients/situations will be covered. Required for NBHWC Exam. Prerequisite: <a href=\"/search/?p=HLTH%203859\" data-action=\"result-detail\" data-group=\"code:HLTH 3859\" >HLTH 3859</a>.",
-      "prereq_expression": "{\"type\": \"Course\", \"code\": \"HLTH 3859\"}",
-      "other_requirements": "IH and Wellness Coaching Minor students only; and the in person meeting day to 9/12/26 8:30-3:30; $48 course fee for simulation labs; Total combined enrollment = 16; meet online Tues 4:35-7:35; Colocated with HLTH 3860 OLR; PACE Students register for HLTH 3860 OLR; Course fee: $48.00; the OL1 section (CRN 93260) is reserved for undergraduate students, the OLR section (CRN 93261) is for continuing education (PACE) students. This is for registration only, the sections are combined into one class. This course meets weekly on Tuesday evenings over Zoom and also includes a full day on Saturday, September 12th from 8:30am-3:30pm in person",
+      "description": "Supports students as they integrate relevant knowledge from their academic Integrative Health and Wellness Coaching studies through a practical learning opportunity. Through classroom and practicum experiences, students will have the opportunity to build upon their learning as an emerging health and wellness coach. Prerequisites: <a href=\"/search/?p=HLTH%203860\" data-action=\"result-detail\" data-group=\"code:HLTH 3860\" >HLTH 3860</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"HLTH 3860\"}",
+      "other_requirements": "Restricted to students who have declared the Integrative Health and Wellness Coaching minor; Degree students only; PACE students register for HLTH 3920 OLR ; Colocated with HLTH 3920 OLR; Course Fee: $16; Synchronous online",
       "external": false
     },
     {
@@ -255,14 +145,14 @@
       "external": false
     },
     {
-      "id": "HLTH 1510",
-      "course_code": "HLTH 1510",
+      "id": "HLTH 5850",
+      "course_code": "HLTH 5850",
       "department": "HLTH",
-      "title": "Wilderness First Responder",
-      "credit_hours": "3",
-      "description": "An introduction to wilderness medicine that focuses on the prevention, assessment &amp; management of trauma, medical emergencies related to the environment in the wilderness or austere situations.  Learning will occur through a variety of classroom activities (including lectures and small group discussions), skills demonstration/practice and a cumulative field exercise.",
+      "title": "Gr Health&Wellness Coaching",
+      "credit_hours": "4",
+      "description": "Covers theoretical framework, strategies and techniques of motivational interviewing, clinical application of behavioral change theory, and the structure of Health &amp; Wellness Coaching. Experience integrative therapies and explore tenets of health and wellness. Required for NBHWC National Certification. Prerequisite: Integrative Health &amp; Wellness Coaching mCGS Graduate student or Instructor permission.",
       "prereq_expression": null,
-      "other_requirements": null,
+      "other_requirements": "Integrative Health & Wellness Coaching mCGS Graduate student or Instructor permission.",
       "external": false
     },
     {
@@ -277,6 +167,105 @@
       "external": false
     },
     {
+      "id": "HLTH 2770",
+      "course_code": "HLTH 2770",
+      "department": "HLTH",
+      "title": "Iceland Ther Thermal Springs",
+      "credit_hours": "3",
+      "description": "Travel study to Iceland to explore the therapeutic effects of thermal waters which have long, historic importance providing a sustainable model of heat, social gathering, and healing. Prerequisites: Minimum Junior standing and Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Junior standing and Instructor permission. Spring Break travel course; OIE GoAbroad App Deadline: 11/18/2025; In-country dates 3/7-3/14/2026; Location: Iceland; Instructor permission required; Program fee $2,795 minus $450 deposit; Airfare is additional Out of Pocket Expenses (approx. $50) are additional; Tuition not included in program fee; Please see syllabus attached on the Office of International Education Wedpage.",
+      "external": false
+    },
+    {
+      "id": "HLTH 2990",
+      "course_code": "HLTH 2990",
+      "department": "HLTH",
+      "title": "Emergency Care of Athletic Inj",
+      "credit_hours": "3",
+      "description": "Intermediate courses on health topics beyond the scope of departmental or college offerings. See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HLTH 1990",
+      "course_code": "HLTH 1990",
+      "department": "HLTH",
+      "title": "ST: Intro to Clnl Hlth Prof",
+      "credit_hours": "3",
+      "description": "Introductory courses on health topics beyond the scope of departmental or college offerings. See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HLTH 3010",
+      "course_code": "HLTH 3010",
+      "department": "HLTH",
+      "title": "Sci & Evidence Integrativ HLTH",
+      "credit_hours": "3",
+      "description": "Integrative health brings together conventional and complementary approaches to health, emphasizing treating the whole person. Examines the levels of scientific evidence on the efficacy and effectiveness of integrative therapies and identifies opportunities for integrative therapies to improve outcomes for patients  and planetary health. Prerequisite: Catamount Core WIL1 course.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"HLTH 2010\"}",
+      "other_requirements": "Catamount Core WIL1 course. Degree students only even after level restrictions removed; PACE students register for HLTH 3010 OLR Colocated with HLTH 3010 OLR; Asynchronous online",
+      "external": false
+    },
+    {
+      "id": "HLTH 2994",
+      "course_code": "HLTH 2994",
+      "department": "HLTH",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required; Course meets on select Fridays (dates TBD). students will be responsible for TA activities in EMS courses as coordinated by the istructor.",
+      "external": false
+    },
+    {
+      "id": "HLTH 3940",
+      "course_code": "HLTH 3940",
+      "department": "HLTH",
+      "title": "Trauma & Trauma Systems",
+      "credit_hours": "3",
+      "description": "Develops an understanding of trauma and trauma systems, focusing on rural areas. Includes readings and a series of lectures delivered by individuals involved in Vermont's trauma system. A variety of clinical and operational topics will be addressed through co-learning projects and presentations. Prerequisites: <a href=\"/search/?p=HLTH%202530\" data-action=\"result-detail\" data-group=\"code:HLTH 2530\" >HLTH 2530</a>, <a href=\"/search/?p=HLTH%203570\" data-action=\"result-detail\" data-group=\"code:HLTH 3570\" >HLTH 3570</a>; or Health Science, Nursing, Public Health major, Emergency Medicine minor.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"HLTH 2530\"}, {\"type\": \"course\", \"code\": \"HLTH 3570\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"HLTH 2530\"}, {\"type\": \"course\", \"code\": \"HLTH 3570\"}]}]}",
+      "other_requirements": "Health Science, Nursing, Public Health major, Emergency Medicine minor",
+      "external": false
+    },
+    {
+      "id": "HLTH 2530",
+      "course_code": "HLTH 2530",
+      "department": "HLTH",
+      "title": "Emergency Medical Technician",
+      "credit_hours": "7",
+      "description": "Preparation to become an Emergency Medical Technician. Covers all of the objectives of the National EMS Blueprint for Education. Students must successfully complete all requirements prior to sitting for the National Registry of Emergency Medical Technicians (NREMT) exam, including practice and demonstration of competency in psychomotor skills. Students will attend Clinical Simulation events to demonstrate ability to lead a team, display critical thinking, and participate in skill-based activities as a culmination of the psychomotor skills. Prerequisites: Current certification in Basic Cardiac Life Support (BLS CPR). Pre/Co-requisite: <a href=\"/search/?p=HLTH%201030\" data-action=\"result-detail\" data-group=\"code:HLTH 1030\" >HLTH 1030</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"HLTH 1030\"}",
+      "other_requirements": "Current certification in Basic Cardiac Life Support (BLS CPR). Must have BLS Certification prior to first class. Lab Fee: $238.00; Must register for labs HLTH 2530 L01-L05; Degree students only;",
+      "external": false
+    },
+    {
+      "id": "HLTH 5001",
+      "course_code": "HLTH 5001",
+      "department": "HLTH",
+      "title": "Resilient Leader",
+      "credit_hours": "2",
+      "description": "Prepares emerging and experienced professionals to move beyond burnout by leading with resilience, purpose, and integrity. Students cultivate empowerment and humility to strengthen personal and professional sustainability. Through reflective learning, mindful self-care, and community engagement, learners deepen their insight and leadership capacity to foster trust, compassion, and lasting impact within their spheres of practice.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HLTH 1510",
+      "course_code": "HLTH 1510",
+      "department": "HLTH",
+      "title": "Wilderness First Responder",
+      "credit_hours": "3",
+      "description": "An introduction to wilderness medicine that focuses on the prevention, assessment &amp; management of trauma, medical emergencies related to the environment in the wilderness or austere situations.  Learning will occur through a variety of classroom activities (including lectures and small group discussions), skills demonstration/practice and a cumulative field exercise.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
       "id": "HLTH 3994",
       "course_code": "HLTH 3994",
       "department": "HLTH",
@@ -288,14 +277,36 @@
       "external": false
     },
     {
-      "id": "HLTH 3991",
-      "course_code": "HLTH 3991",
+      "id": "HLTH 5002",
+      "course_code": "HLTH 5002",
       "department": "HLTH",
-      "title": "Int:Lic SkillsInstr Internship",
-      "credit_hours": "1",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "title": "Culinary Medicine",
+      "credit_hours": "3",
+      "description": "Prepares emerging and experienced professionals to integrate the art and science of food into clinical practice to support both individual and planetary health. Equips health care providers with evidence-based knowledge and practical tools to guide patients toward optimal nutrition, sustainable food choices, and empowered self-care. Explores culinary medicine as an essential component of chronic disease prevention and management.",
       "prereq_expression": null,
-      "other_requirements": "Instructor permission required.",
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "HLTH 3859",
+      "course_code": "HLTH 3859",
+      "department": "HLTH",
+      "title": "Health & Wellness Coaching",
+      "credit_hours": "4",
+      "description": "Students will learn about Integrative Healthcare, Health &amp; Wellness Coaching, and what makes  Wellness Coaching so effective. Techniques such as active listening, reflections, open-ended questions, affirmations, and summarizing, used to empower and guide clients in sustainable behavioral change will be covered as well as health coaching structure. This course is part of the required curriculum to prepare students to be eligible to sit for the National Board of Health &amp; Wellness Coaching Certification Exam. Prerequisite: Integrative Health &amp; Wellness Coaching minor.",
+      "prereq_expression": null,
+      "other_requirements": "Integrative Health & Wellness Coaching minor. Degree students only, even after level restrictions removed; PACE students register for section ZRA",
+      "external": false
+    },
+    {
+      "id": "HLTH 2400",
+      "course_code": "HLTH 2400",
+      "department": "HLTH",
+      "title": "Issues in Women's Health",
+      "credit_hours": "3",
+      "description": "A holistic exploration of the health needs of women and persons assigned female at birth. Considers the stereotypical, theoretical, and clinical approaches to care for this population in westernized and global culture. Students will develop a heightened sense of awareness of these issues in society and media. Prerequisite: A Catamount Core WIL1 course. Cross-listed with: <a href=\"/search/?p=GSWS%202415\" data-action=\"result-detail\" data-group=\"code:GSWS 2415\" >GSWS 2415</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"Catamount Core WIL1\"}",
+      "other_requirements": "Open to Degree and PACE students",
       "external": false
     },
     {
@@ -310,25 +321,14 @@
       "external": false
     },
     {
-      "id": "HLTH 2010",
-      "course_code": "HLTH 2010",
+      "id": "HLTH 3860",
+      "course_code": "HLTH 3860",
       "department": "HLTH",
-      "title": "Intro to Integrative Health",
-      "credit_hours": "3",
-      "description": "An introduction to integrative health with a focus on studying different medical systems, therapies, and treatments from around the world with an emphasis on the student's own self-care. Overview of social forces prompting the rise of integrative healthcare; the theory and practice of health professions included in integrative healthcare. Cultural and institutional views and processes shaping substance and delivery modes of healthcare in the U.S. Prerequisite: Integrative Health or Integrative Health Coaching minor.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"HLTH 2010\"}",
-      "other_requirements": "Integrative Health or Integrative Health Coaching minor. Asynchronous Online Course; Degree students only even after level restrictions removed; First and Second Year Students Only; PACE students register for HLTH 2010 OLR; Colocated with HLTH 2010 OL2 and OLR; Total Combined Enrollment = 80 This asynchronous online course is open to all students. You will notice different sections that correspond to different class years. PLEASE REGISTER FOR THE APPROPRIATE SECTION. If you have not declared the Integrative Health Minor, go to MyUVM and declare the minor - no additional permissions required.",
-      "external": false
-    },
-    {
-      "id": "HLTH 3920",
-      "course_code": "HLTH 3920",
-      "department": "HLTH",
-      "title": "Hlth Wellness Coach Practicum",
-      "credit_hours": "3",
-      "description": "Supports students as they integrate relevant knowledge from their academic Integrative Health and Wellness Coaching studies through a practical learning opportunity. Through classroom and practicum experiences, students will have the opportunity to build upon their learning as an emerging health and wellness coach. Prerequisites: <a href=\"/search/?p=HLTH%203860\" data-action=\"result-detail\" data-group=\"code:HLTH 3860\" >HLTH 3860</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"HLTH 3860\"}",
-      "other_requirements": "Restricted to students who have declared the Integrative Health and Wellness Coaching minor; Degree students only; PACE students register for HLTH 3920 OLR ; Colocated with HLTH 3920 OLR; Course Fee: $16; Synchronous online",
+      "title": "Health & Well Coaching Advance",
+      "credit_hours": "4",
+      "description": "Students learn the theoretical framework, strategies and techniques of effective communication, advanced motivational interviewing, positive psychology and behavioral change and apply these to the practice of Integrative Health &amp; Wellness Coaching. Advanced coaching skills/structure with complex patients/situations will be covered. Required for NBHWC Exam. Prerequisite: <a href=\"/search/?p=HLTH%203859\" data-action=\"result-detail\" data-group=\"code:HLTH 3859\" >HLTH 3859</a>.",
+      "prereq_expression": "{\"type\": \"Course\", \"code\": \"HLTH 3859\"}",
+      "other_requirements": "IH and Wellness Coaching Minor students only; and the in person meeting day to 9/12/26 8:30-3:30; $48 course fee for simulation labs; Total combined enrollment = 16; meet online Tues 4:35-7:35; Colocated with HLTH 3860 OLR; PACE Students register for HLTH 3860 OLR; Course fee: $48.00; the OL1 section (CRN 93260) is reserved for undergraduate students, the OLR section (CRN 93261) is for continuing education (PACE) students. This is for registration only, the sections are combined into one class. This course meets weekly on Tuesday evenings over Zoom and also includes a full day on Saturday, September 12th from 8:30am-3:30pm in person",
       "external": false
     }
   ],
@@ -340,21 +340,11 @@
     },
     {
       "source": "HLTH 2010",
-      "target": "HLTH 2010",
-      "group": null
-    },
-    {
-      "source": "HLTH 2010",
       "target": "HLTH 3010",
       "group": null
     },
     {
       "source": "HLTH 2530",
-      "target": "HLTH 2530",
-      "group": "HLTH 2530__g0"
-    },
-    {
-      "source": "HLTH 2530",
       "target": "HLTH 3570",
       "group": null
     },
@@ -365,18 +355,8 @@
     },
     {
       "source": "HLTH 3570",
-      "target": "HLTH 3570",
-      "group": null
-    },
-    {
-      "source": "HLTH 3570",
       "target": "HLTH 3940",
       "group": "HLTH 3940__g0"
-    },
-    {
-      "source": "HLTH 3859",
-      "target": "HLTH 3859",
-      "group": "HLTH 3859__g0"
     },
     {
       "source": "HLTH 3860",
@@ -386,11 +366,6 @@
     {
       "source": "HLTH 3860",
       "target": "HLTH 3920",
-      "group": null
-    },
-    {
-      "source": "HLTH 5850",
-      "target": "HLTH 5850",
       "group": null
     }
   ]

@@ -2,28 +2,6 @@
   "department": "EDRM",
   "nodes": [
     {
-      "id": "EDRM 6300",
-      "course_code": "EDRM 6300",
-      "department": "EDRM",
-      "title": "Applied Educational Research",
-      "credit_hours": "3",
-      "description": "Introduction to philosophical and methodological foundations of interpretive and empirical-analytic research; overview of qualitative, quantitative, and mixed-methods approaches. Preparation of critical readers and synthesizers of research studies.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate students only (or Instructor Permission)",
-      "external": false
-    },
-    {
-      "id": "EDRM 6110",
-      "course_code": "EDRM 6110",
-      "department": "EDRM",
-      "title": "Qualitative Research I",
-      "credit_hours": "3",
-      "description": "Introduces qualitative methods as a research paradigm and develops skills in ethnographic techniques of field observation, interviewing, and data analysis. Out-of-class fieldwork required. Prerequisites: <a href=\"/search/?p=EDRM%206300\" data-action=\"result-detail\" data-group=\"code:EDRM 6300\" >EDRM 6300</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"EDRM 6300\"}",
-      "other_requirements": "Online synchronous PACE students by permission and override",
-      "external": false
-    },
-    {
       "id": "EDRM 6130",
       "course_code": "EDRM 6130",
       "department": "EDRM",
@@ -54,6 +32,28 @@
       "description": "Provides knowledge and skill in conducting quantitative research studies for education and social services. Students apply social science research methods in a laboratory setting and produce a model study. Prerequisites: <a href=\"/search/?p=EDRM%206300\" data-action=\"result-detail\" data-group=\"code:EDRM 6300\" >EDRM 6300</a>.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDRM 6300\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
       "other_requirements": "instructor permission; PACE students with permission only.",
+      "external": false
+    },
+    {
+      "id": "EDRM 6110",
+      "course_code": "EDRM 6110",
+      "department": "EDRM",
+      "title": "Qualitative Research I",
+      "credit_hours": "3",
+      "description": "Introduces qualitative methods as a research paradigm and develops skills in ethnographic techniques of field observation, interviewing, and data analysis. Out-of-class fieldwork required. Prerequisites: <a href=\"/search/?p=EDRM%206300\" data-action=\"result-detail\" data-group=\"code:EDRM 6300\" >EDRM 6300</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"EDRM 6300\"}",
+      "other_requirements": "Online synchronous PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "EDRM 6300",
+      "course_code": "EDRM 6300",
+      "department": "EDRM",
+      "title": "Applied Educational Research",
+      "credit_hours": "3",
+      "description": "Introduction to philosophical and methodological foundations of interpretive and empirical-analytic research; overview of qualitative, quantitative, and mixed-methods approaches. Preparation of critical readers and synthesizers of research studies.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate students only (or Instructor Permission)",
       "external": false
     }
   ],

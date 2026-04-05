@@ -60,6 +60,27 @@ def collapse_large_or(tree, known_courses, max_size=8):
         return {**tree, "operands": [collapse_large_or(o, known_courses, max_size) for o in operands]}
     return tree
 
+def strip_self_refs(tree, code):
+    """
+    Recursively remove any course node matching `code` from a prereq tree.
+    Used to clean self-references and cross-listed partner references.
+    Unwraps single-operand AND/OR nodes; returns None if tree becomes empty.
+    """
+    if not tree or not isinstance(tree, dict):
+        return tree
+    t = tree.get("type")
+    if t == "course":
+        return None if tree.get("code") == code else tree
+    if t in ("AND", "OR"):
+        cleaned = [strip_self_refs(o, code) for o in tree.get("operands", [])]
+        cleaned = [o for o in cleaned if o is not None]
+        if not cleaned:
+            return None
+        if len(cleaned) == 1:
+            return cleaned[0]
+        return {**tree, "operands": cleaned}
+    return tree
+
 def get_edge_groups(tree, course_code):
     """
     Walk the prereq tree and return a dict mapping prereq_code -> group_id.
@@ -99,19 +120,21 @@ def build_graph(courses, prereqs, edges):
     for code, meta in courses.items():
         G.add_node(code, **meta)
         if code in prereqs:
-            # Collapse oversized OR groups before storing
             expr = prereqs[code]["expression"]
             if expr:
                 try:
                     tree = json.loads(expr) if isinstance(expr, str) else expr
                     tree = collapse_large_or(tree, courses)
-                    expr = json.dumps(tree)
+                    tree = strip_self_refs(tree, code)  # remove self-references
+                    expr = json.dumps(tree) if tree else None
                 except Exception:
                     pass
             G.nodes[code]["prereq_expression"] = expr
             G.nodes[code]["other_requirements"] = prereqs[code]["other"]
 
     for course_code, prereq_code in edges:
+        if course_code == prereq_code:
+            continue  # skip self-loops at edge level too
         if course_code in courses and prereq_code in courses:
             group = None
             expr = G.nodes[course_code].get("prereq_expression")
@@ -122,6 +145,29 @@ def build_graph(courses, prereqs, edges):
                 except Exception:
                     pass
             G.add_edge(prereq_code, course_code, group=group)
+
+    # Remove mutual edges (cross-listed courses listing each other as prereqs)
+    mutual_pairs = set()
+    for u, v in list(G.edges()):
+        if G.has_edge(v, u) and (v, u) not in mutual_pairs:
+            mutual_pairs.add((u, v))
+
+    if mutual_pairs:
+        print(f"  Removed {len(mutual_pairs)} mutual-prereq pairs (cross-listed courses)")
+
+    for u, v in mutual_pairs:
+        G.remove_edge(u, v)
+        G.remove_edge(v, u)
+        # Also strip each from the other's prereq expression
+        for course, other in [(u, v), (v, u)]:
+            expr = G.nodes[course].get("prereq_expression")
+            if expr:
+                try:
+                    tree = json.loads(expr) if isinstance(expr, str) else expr
+                    tree = strip_self_refs(tree, other)
+                    G.nodes[course]["prereq_expression"] = json.dumps(tree) if tree else None
+                except Exception:
+                    pass
 
     return G
 
@@ -179,10 +225,10 @@ def main():
     G = build_graph(courses, prereqs, edges)
     print(f"  {G.number_of_nodes()} nodes, {G.number_of_edges()} edges")
 
-    # Check for cycles
+    # Check for remaining cycles
     cycles = list(nx.simple_cycles(G))
     if cycles:
-        print(f"  Warning: {len(cycles)} cycles found (likely data issues)")
+        print(f"  Warning: {len(cycles)} cycles remaining (likely data issues)")
 
     departments = sorted({d["department"] for d in courses.values() if d["department"]})
     print(f"\nExporting {len(departments)} department graphs to {OUT_DIR}/...")

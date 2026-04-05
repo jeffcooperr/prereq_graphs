@@ -2,6 +2,17 @@
   "department": "OSSP",
   "nodes": [
     {
+      "id": "OSSP 0050",
+      "course_code": "OSSP 0050",
+      "department": "OSSP",
+      "title": "UVM Semester in South Africa",
+      "credit_hours": "16",
+      "description": "Enrollment as part of study abroad participation, permission required.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"GRS 1105\"}",
+      "other_requirements": "Enrollment as part of study abroad participation, permission required. UVM Semester Study Abroad Program. Regular tuition plus $500 Study Abroad Fee plus $4458 program fee (accommodation less $300 deposit). Permission Required.",
+      "external": false
+    },
+    {
       "id": "GRS 1105",
       "course_code": "GRS 1105",
       "department": "GRS",
@@ -13,6 +24,17 @@
       "external": true
     },
     {
+      "id": "OSSP 0030",
+      "course_code": "OSSP 0030",
+      "department": "OSSP",
+      "title": "UVM Field Studies Costa Rica",
+      "credit_hours": "0",
+      "description": "Enrollment as part of study abroad participation, permission required.",
+      "prereq_expression": null,
+      "other_requirements": "Enrollment as part of study abroad participation, permission required. $500 Study Abroad Fee. Permission Required.",
+      "external": false
+    },
+    {
       "id": "OSSP 0040",
       "course_code": "OSSP 0040",
       "department": "OSSP",
@@ -21,28 +43,6 @@
       "description": "Enrollment as part of study abroad participation, permission required.",
       "prereq_expression": null,
       "other_requirements": "Enrollment as part of study abroad participation, permission required.",
-      "external": false
-    },
-    {
-      "id": "OSSP 0050",
-      "course_code": "OSSP 0050",
-      "department": "OSSP",
-      "title": "UVM Semester in South Africa",
-      "credit_hours": "16",
-      "description": "Enrollment as part of study abroad participation, permission required.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"GRS 1105\"}]}",
-      "other_requirements": "Enrollment as part of study abroad participation, permission required. UVM Semester Study Abroad Program. Regular tuition plus $500 Study Abroad Fee plus $4458 program fee (accommodation less $300 deposit). Permission Required.",
-      "external": false
-    },
-    {
-      "id": "OSSP 0010",
-      "course_code": "OSSP 0010",
-      "department": "OSSP",
-      "title": "Exchange Inclusive I/S Cont",
-      "credit_hours": "12",
-      "description": "Enrollment as part of study abroad participation, permission required.",
-      "prereq_expression": null,
-      "other_requirements": "Permission required. Inclusive exchange study abroad program. In-state student. $500 Study Abroad Fee plus $17237. Cost includes in-state tuition, fees, room, meals.",
       "external": false
     },
     {
@@ -57,6 +57,17 @@
       "external": false
     },
     {
+      "id": "OSSP 0010",
+      "course_code": "OSSP 0010",
+      "department": "OSSP",
+      "title": "Exchange Inclusive I/S Cont",
+      "credit_hours": "12",
+      "description": "Enrollment as part of study abroad participation, permission required.",
+      "prereq_expression": null,
+      "other_requirements": "Permission required. Inclusive exchange study abroad program. In-state student. $500 Study Abroad Fee plus $17237. Cost includes in-state tuition, fees, room, meals.",
+      "external": false
+    },
+    {
       "id": "OSSP 0001",
       "course_code": "OSSP 0001",
       "department": "OSSP",
@@ -65,17 +76,6 @@
       "description": "Enrollment as part of study abroad participation, permission required.",
       "prereq_expression": null,
       "other_requirements": "Enrollment as part of study abroad participation, permission required. Approved External/Direct study abroad program. $500 Study Abroad Fee.",
-      "external": false
-    },
-    {
-      "id": "OSSP 0030",
-      "course_code": "OSSP 0030",
-      "department": "OSSP",
-      "title": "UVM Field Studies Costa Rica",
-      "credit_hours": "0",
-      "description": "Enrollment as part of study abroad participation, permission required.",
-      "prereq_expression": null,
-      "other_requirements": "Enrollment as part of study abroad participation, permission required. $500 Study Abroad Fee. Permission Required.",
       "external": false
     }
   ],

@@ -2,6 +2,17 @@
   "department": "ANPS",
   "nodes": [
     {
+      "id": "ANPS 1190",
+      "course_code": "ANPS 1190",
+      "department": "ANPS",
+      "title": "Ugr Hum Anatomy & Physiology 1",
+      "credit_hours": "4",
+      "description": "Part I of two-semester course sequence. Structure and function of human body.",
+      "prereq_expression": null,
+      "other_requirements": "Prereg limited to: BMCS, BIOM, CSD, EMS, EXSC, HSCI, MLS, MRS, NFS, NMT, PE, PHS, PRNU majors only. Degree students only even after major restrictions lifted.",
+      "external": false
+    },
+    {
       "id": "ANPS 1200",
       "course_code": "ANPS 1200",
       "department": "ANPS",
@@ -21,17 +32,6 @@
       "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": "Instructor permission only.",
-      "external": false
-    },
-    {
-      "id": "ANPS 1190",
-      "course_code": "ANPS 1190",
-      "department": "ANPS",
-      "title": "Ugr Hum Anatomy & Physiology 1",
-      "credit_hours": "4",
-      "description": "Part I of two-semester course sequence. Structure and function of human body.",
-      "prereq_expression": null,
-      "other_requirements": "Prereg limited to: BMCS, BIOM, CSD, EMS, EXSC, HSCI, MLS, MRS, NFS, NMT, PE, PHS, PRNU majors only. Degree students only even after major restrictions lifted.",
       "external": false
     }
   ],

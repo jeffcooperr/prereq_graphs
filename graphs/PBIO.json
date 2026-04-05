@@ -2,28 +2,6 @@
   "department": "PBIO",
   "nodes": [
     {
-      "id": "CHEM 1450",
-      "course_code": "CHEM 1450",
-      "department": "CHEM",
-      "title": "General Chemistry 2",
-      "credit_hours": "4",
-      "description": "Second semester of a two-semester sequence. Topics include solutions, kinetics, equilibrium, acid-base chemistry, aqueous ionic equilibria, thermodynamics, electrochemistry, and nuclear chemistry. Credit not awarded for both CHEM 1450 and <a href=\"/search/?p=CHEM%201455\" data-action=\"result-detail\" data-group=\"code:CHEM 1455\"  class=\"notoffered\">CHEM 1455</a>. Prerequisite: <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a> or <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}",
-      "other_requirements": "$60 fee for lab supplies; Degree students only;",
-      "external": true
-    },
-    {
-      "id": "PBIO 6240",
-      "course_code": "PBIO 6240",
-      "department": "PBIO",
-      "title": "Landscape Inventory&Assessment",
-      "credit_hours": "3",
-      "description": "A comprehensive, practical, hands-on training exercise that teaches how professionals go about making sense of a landscape and its many possible values. Designed for Graduate students, the class functions as a pro bono consulting team on a specific land parcel, helping the community sponsor understand the parcel's biota, soils, hydrology, geology, and natural communities. Prerequisite: Instructor permission.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"PBIO 6240\"}",
-      "other_requirements": "Instructor permission. Instructor Permission Required. Open to Graduate Students. This project requires the use of GIS and GPS.",
-      "external": false
-    },
-    {
       "id": "PBIO 6990",
       "course_code": "PBIO 6990",
       "department": "PBIO",
@@ -32,149 +10,6 @@
       "description": "See Schedule of Courses for specific titles.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PBIO 2090",
-      "course_code": "PBIO 2090",
-      "department": "PBIO",
-      "title": "Plant Systematics",
-      "credit_hours": "4",
-      "description": "Collection and identification of ferns and flowering plants; survey of prominent Vermont plant families; plant nomenclature, classification, and phylogeny; species concepts and speciation; floral function. Prerequisites: <a href=\"/search/?p=PBIO%201040\" data-action=\"result-detail\" data-group=\"code:PBIO 1040\"  class=\"notoffered\">PBIO 1040</a> or <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a> or <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a> or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PBIO 1040\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}",
-      "other_requirements": "Instructor permission",
-      "external": false
-    },
-    {
-      "id": "PBIO 4996",
-      "course_code": "PBIO 4996",
-      "department": "PBIO",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PBIO 2990",
-      "course_code": "PBIO 2990",
-      "department": "PBIO",
-      "title": "Intro to Ethnobotany",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}, {\"type\": \"course\", \"code\": \"PBIO 1040\"}, {\"type\": \"course\", \"code\": \"PBIO 1060\"}, {\"type\": \"course\", \"code\": \"ANTH 1100\"}]}",
-      "other_requirements": "Open to Degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "PBIO 2440",
-      "course_code": "PBIO 2440",
-      "department": "PBIO",
-      "title": "SL:NatureBasedClimateSolutions",
-      "credit_hours": "3",
-      "description": "Explores the scale of global change while focusing on ways plants can be used to mitigate and adapt to the future climate while enhancing native plant biodiversity. Students will gain practical skills by engaging with community partners and contributing to nature-based climate solutions projects in the local Burlington community. Prerequisites: <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>, <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>, or <a href=\"/search/?p=PBIO%201040\" data-action=\"result-detail\" data-group=\"code:PBIO 1040\" >PBIO 1040</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"PBIO 1040\"}]}",
-      "other_requirements": "Instructor will email class w/meeting location. Open to Degree and PACE Students. Note that registered students are expected to dedicate one non-class weekend day to a service-learning project in late April.",
-      "external": false
-    },
-    {
-      "id": "BCOR 1425",
-      "course_code": "BCOR 1425",
-      "department": "BCOR",
-      "title": "Accelerated Biology",
-      "credit_hours": "4",
-      "description": "Selected topics from the full year of introductory biology, compressed into one semester. For students with demonstrated mastery of basic biology (e.g., AP credit).  Permission required. Credit not awarded for both BCOR 1425 and <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> or <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>. Pre/co-requisite: <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>, or <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\" >CHEM 1410</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1405\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}]}",
-      "other_requirements": "For students with demonstrated mastery of basic biology (e.g., AP credit). Permission required. Credit not awarded for both BCOR 1425 and BCOR 1400 or BIOL 1400. By invitation only; for FTFY students with AP score of 4. Instructor permission required. Must register for a BCOR 1425 lab. Must be enrolled in CHEM 1400 if have no CHEM credit.",
-      "external": true
-    },
-    {
-      "id": "PBIO 2040",
-      "course_code": "PBIO 2040",
-      "department": "PBIO",
-      "title": "Plant Physiology",
-      "credit_hours": "4",
-      "description": "Study of the plant as a whole, growth and development, water and mineral relations, environmental factors, and regulatory processes. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\"  class=\"notoffered\">BCOR 1400</a> and <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>, or <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\"  class=\"notoffered\">BIOL 1400</a> and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\"  class=\"notoffered\">BCOR 1425</a>; <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a> and <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>, or <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\"  class=\"notoffered\">CHEM 1100</a> and <a href=\"/search/?p=CHEM%201150\" data-action=\"result-detail\" data-group=\"code:CHEM 1150\" >CHEM 1150</a>, or <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a> and <a href=\"/search/?p=CHEM%201150\" data-action=\"result-detail\" data-group=\"code:CHEM 1150\" >CHEM 1150</a>; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}]}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1450\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1150\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1150\"}]}]}]}",
-      "other_requirements": "Instructor permission. Must register for a PBIO 2040 lab A01 - A02 - A03. Open to Degree and PACE students.",
-      "external": false
-    },
-    {
-      "id": "PBIO 3991",
-      "course_code": "PBIO 3991",
-      "department": "PBIO",
-      "title": "Int:EthnobotanyInternship",
-      "credit_hours": "1 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Restricted to Plant Biology Majors; Instructor permission required; PACE Student by Permission and Override",
-      "external": false
-    },
-    {
-      "id": "PBIO 2995",
-      "course_code": "PBIO 2995",
-      "department": "PBIO",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisites: Department permission.",
-      "prereq_expression": null,
-      "other_requirements": "Department permission. Instructor permission required; PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "PBIO 4899",
-      "course_code": "PBIO 4899",
-      "department": "PBIO",
-      "title": "Plant Biology Capstone",
-      "credit_hours": "1",
-      "description": "Culmination of the Plant Biology major; draws together the disciplines of plant biology presented in previous coursework and other student experiences into a single over-arching perception of plant biology and its role in the world; prepares Plant Biology majors for post-graduate success. Prerequisites: Plant Biology major; Senior standing or Junior standing if graduating in December.",
-      "prereq_expression": null,
-      "other_requirements": "Plant Biology major; Senior standing or Junior standing if graduating in December. Restricted to Seniors in the Plant Biology major; Instructor will email students with meeting location.",
-      "external": false
-    },
-    {
-      "id": "CHEM 1100",
-      "course_code": "CHEM 1100",
-      "department": "CHEM",
-      "title": "Outline: General Chem w/lab",
-      "credit_hours": "4",
-      "description": "One-semester survey of principles and concepts of general chemistry, topics covered include bonding, mole ratios, equilibrium, and nuclear chemistry. Credit not awarded for both CHEM 1100 and <a href=\"/search/?p=CHEM%201102\" data-action=\"result-detail\" data-group=\"code:CHEM 1102\" >CHEM 1102</a>, <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, or <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Credit not awarded for both CHEM 1100 and CHEM 1102, CHEM 1400, or CHEM 1405. $60 fee for lab supplies; Colocated with CHEM 1102A; Must register for CHEM 1100 lab L01-L07; Non-CAS, non - BSAD students only; Open to degree and PACE students.",
-      "external": true
-    },
-    {
-      "id": "NR 2030",
-      "course_code": "NR 2030",
-      "department": "NR",
-      "title": "Ecology, Ecosystems & Environ",
-      "credit_hours": "3",
-      "description": "Major ecological concepts and their application. Analysis of form, structure, and function of organisms, populations, communities, ecosystems, and landscapes. Prerequisites: RSENR students or Agroecology or Landscape Design or Environmental Studies majors; minimum Sophomore standing.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RSENR\"}, {\"type\": \"course\", \"code\": \"AGRO\"}, {\"type\": \"course\", \"code\": \"LNDS\"}, {\"type\": \"course\", \"code\": \"ENVS\"}]}",
-      "other_requirements": "minimum Sophomore standing",
-      "external": true
-    },
-    {
-      "id": "PBIO 7491",
-      "course_code": "PBIO 7491",
-      "department": "PBIO",
-      "title": "Doctoral Dissertation Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Doctoral Dissertation. Credit as arranged.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "PBIO 3220",
-      "course_code": "PBIO 3220",
-      "department": "PBIO",
-      "title": "Ecological Invasions",
-      "credit_hours": "3",
-      "description": "Focuses on reading, writing and discussing the primary scientific literature in the field of invasion biology. Invasion biology draws from many different scientific disciplines, including genetics, evolution, population, community and ecosystem ecology. Students will have the opportunity to pursue one of these areas in depth through the preparation of a research paper. Credit not awarded for both PBIO 3220 and <a href=\"/search/?p=PBIO%205220\" data-action=\"result-detail\" data-group=\"code:PBIO 5220\"  class=\"notoffered\">PBIO 5220</a>. Prerequisite: <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a> or <a href=\"/search/?p=NR%202030\" data-action=\"result-detail\" data-group=\"code:NR 2030\" >NR 2030</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2100\"}, {\"type\": \"course\", \"code\": \"NR 2030\"}]}",
-      "other_requirements": "an equivalent course in Ecology. Students are expected to read the assigned articles and come to every class with questions and comments on the assigned readings. Students should expect to attend every class and complete assignments on the due dates.",
       "external": false
     },
     {
@@ -189,25 +24,91 @@
       "external": false
     },
     {
-      "id": "PBIO 2890",
-      "course_code": "PBIO 2890",
+      "id": "CHEM 1450",
+      "course_code": "CHEM 1450",
+      "department": "CHEM",
+      "title": "General Chemistry 2",
+      "credit_hours": "4",
+      "description": "Second semester of a two-semester sequence. Topics include solutions, kinetics, equilibrium, acid-base chemistry, aqueous ionic equilibria, thermodynamics, electrochemistry, and nuclear chemistry. Credit not awarded for both CHEM 1450 and <a href=\"/search/?p=CHEM%201455\" data-action=\"result-detail\" data-group=\"code:CHEM 1455\"  class=\"notoffered\">CHEM 1455</a>. Prerequisite: <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a> or <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}",
+      "other_requirements": "$60 fee for lab supplies; Degree students only;",
+      "external": true
+    },
+    {
+      "id": "BCOR 1400",
+      "course_code": "BCOR 1400",
+      "department": "BCOR",
+      "title": "Exploring Biology 1",
+      "credit_hours": "4",
+      "description": "Exploring biology from cells to organisms.  Topics include origins of life, ancestral organisms, uni- and multi- cellular energetics, evolution of respiration and metabolism, and the genetic code. Credit not awarded for both BCOR 1400 and <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "PBIO 2990",
+      "course_code": "PBIO 2990",
       "department": "PBIO",
-      "title": "Ecuador: Natural History",
+      "title": "Intro to Ethnobotany",
       "credit_hours": "3",
-      "description": "Provides a hands-on exploration of the unique biodiversity found in the tropical Andes and the Galapagos Islands, while studying ideas of how this great diversity came to be, and examining conservation efforts employed to protect it. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\"  class=\"notoffered\">BCOR 1400</a> and <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a> or <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\"  class=\"notoffered\">BIOL 1400</a> and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>; Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}]}]}",
-      "other_requirements": "Instructor permission. For intermediate undergraduate students and PACE students. PACE students by permission and override.",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}, {\"type\": \"course\", \"code\": \"PBIO 1040\"}, {\"type\": \"course\", \"code\": \"PBIO 1060\"}, {\"type\": \"course\", \"code\": \"ANTH 1100\"}]}",
+      "other_requirements": "Open to Degree and PACE students",
       "external": false
     },
     {
-      "id": "PBIO 6230",
-      "course_code": "PBIO 6230",
+      "id": "PBIO 2090",
+      "course_code": "PBIO 2090",
       "department": "PBIO",
-      "title": "Field Naturalist Fundamentals",
+      "title": "Plant Systematics",
+      "credit_hours": "4",
+      "description": "Collection and identification of ferns and flowering plants; survey of prominent Vermont plant families; plant nomenclature, classification, and phylogeny; species concepts and speciation; floral function. Prerequisites: <a href=\"/search/?p=PBIO%201040\" data-action=\"result-detail\" data-group=\"code:PBIO 1040\"  class=\"notoffered\">PBIO 1040</a> or <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a> or <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PBIO 1040\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}",
+      "other_requirements": "Instructor permission",
+      "external": false
+    },
+    {
+      "id": "PBIO 6690",
+      "course_code": "PBIO 6690",
+      "department": "PBIO",
+      "title": "Field Botany for NR Profession",
       "credit_hours": "3",
-      "description": "From bedrock geology to experimental design, conservation science to public communications, prepares students for the varied challenges that field naturalists encounter. Consists of field exercises in natural areas and farmscapes around northwestern Vermont and discussions featuring a diversity of pieces written by naturalists, field scientists, and environmental thinkers. Prerequisite: Field Naturalist Graduate student or Instructor permission.",
+      "description": "Identification of flowering plants and ferns; survey of prominent Vermont plant families; natural communities, ecological determinants of plant distribution, especially soils; preparation of herbarium specimens. Prerequisite: Instructor Permission.",
       "prereq_expression": null,
-      "other_requirements": "Field Naturalist Graduate student or Instructor permission. Instructor permission required.",
+      "other_requirements": "Instructor Permission",
+      "external": false
+    },
+    {
+      "id": "PBIO 6330",
+      "course_code": "PBIO 6330",
+      "department": "PBIO",
+      "title": "Intro to Professional Writing",
+      "credit_hours": "1",
+      "description": "Writing seminar that focuses on close observation of the natural world and interpreting scientific findings for public audiences. Includes preparation of an animal encounter and science brief, as well as reading of published natural history and ecology essays. Prerequisite: Field Naturalist Program Graduate student.",
+      "prereq_expression": null,
+      "other_requirements": "Field Naturalist Program Graduate student. Field Naturalist Graduate students only; Contact instructor for meeting location and time",
+      "external": false
+    },
+    {
+      "id": "CHEM 1100",
+      "course_code": "CHEM 1100",
+      "department": "CHEM",
+      "title": "Outline: General Chem w/lab",
+      "credit_hours": "4",
+      "description": "One-semester survey of principles and concepts of general chemistry, topics covered include bonding, mole ratios, equilibrium, and nuclear chemistry. Credit not awarded for both CHEM 1100 and <a href=\"/search/?p=CHEM%201102\" data-action=\"result-detail\" data-group=\"code:CHEM 1102\" >CHEM 1102</a>, <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, or <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Credit not awarded for both CHEM 1100 and CHEM 1102, CHEM 1400, or CHEM 1405. $60 fee for lab supplies; Colocated with CHEM 1102A; Must register for CHEM 1100 lab L01-L07; Non-CAS, non - BSAD students only; Open to degree and PACE students.",
+      "external": true
+    },
+    {
+      "id": "PBIO 6350",
+      "course_code": "PBIO 6350",
+      "department": "PBIO",
+      "title": "Writing: Science&Investigation",
+      "credit_hours": "1",
+      "description": "Writing seminar on interviews, opinion writing, feature stories, and effective scientific storytelling. Students conduct interviews, investigate scientific stories of general interest, and write public-facing articles. Prerequisites: <a href=\"/search/?p=PBIO%206330\" data-action=\"result-detail\" data-group=\"code:PBIO 6330\" >PBIO 6330</a>; Field Naturalist Program Graduate student.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"PBIO 6330\"}",
+      "other_requirements": "Field Naturalist Program Graduate student. Field Naturalist Grad Students only; Instructor will email class about meeting time and location. Open to degree and PACE students.",
       "external": false
     },
     {
@@ -222,70 +123,37 @@
       "external": true
     },
     {
-      "id": "PBIO 6995",
-      "course_code": "PBIO 6995",
-      "department": "PBIO",
-      "title": "Graduate Independent Research",
-      "credit_hours": "2",
-      "description": "Graduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PBIO 2170",
-      "course_code": "PBIO 2170",
-      "department": "PBIO",
-      "title": "Plant Pathology",
-      "credit_hours": "4",
-      "description": "Introduction to the causes of agricultural and forest plant diseases including examination of the relationship of the plant, pathogen, and environment in disease development and disease management. Prerequisites: <a href=\"/search/?p=PBIO%201040\" data-action=\"result-detail\" data-group=\"code:PBIO 1040\"  class=\"notoffered\">PBIO 1040</a>, or <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a> and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, or <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> and <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>, or Instructor permission. Cross-listed with: <a href=\"/search/?p=PSS%202170\" data-action=\"result-detail\" data-group=\"code:PSS 2170\"  class=\"notoffered\">PSS 2170</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PBIO 1040\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}",
-      "other_requirements": "Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "PBIO 3990",
-      "course_code": "PBIO 3990",
-      "department": "PBIO",
-      "title": "Molecular Plant Cell Biology",
+      "id": "NR 2030",
+      "course_code": "NR 2030",
+      "department": "NR",
+      "title": "Ecology, Ecosystems & Environ",
       "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "BCOR 2100",
-      "course_code": "BCOR 2100",
-      "department": "BCOR",
-      "title": "Ecology and Evolution",
-      "credit_hours": "4",
-      "description": "Ecosystem and community structure, population growth, species interactions and niche dynamics, population and chromosomal genetics, speciation in fossil records, ecology of animal behavior, applied ecology. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1000\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}]}",
-      "other_requirements": "PACE students with permission and override.",
+      "description": "Major ecological concepts and their application. Analysis of form, structure, and function of organisms, populations, communities, ecosystems, and landscapes. Prerequisites: RSENR students or Agroecology or Landscape Design or Environmental Studies majors; minimum Sophomore standing.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RSENR\"}, {\"type\": \"course\", \"code\": \"AGRO\"}, {\"type\": \"course\", \"code\": \"LNDS\"}, {\"type\": \"course\", \"code\": \"ENVS\"}]}",
+      "other_requirements": "minimum Sophomore standing",
       "external": true
     },
     {
-      "id": "PBIO 3994",
-      "course_code": "PBIO 3994",
+      "id": "PBIO 2890",
+      "course_code": "PBIO 2890",
       "department": "PBIO",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PBIO 1040\"}, {\"type\": \"course\", \"code\": \"PBIO 3994\"}]}",
-      "other_requirements": "Instructor Permission Required; PACE students by permission and override.",
+      "title": "Ecuador: Natural History",
+      "credit_hours": "3",
+      "description": "Provides a hands-on exploration of the unique biodiversity found in the tropical Andes and the Galapagos Islands, while studying ideas of how this great diversity came to be, and examining conservation efforts employed to protect it. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\"  class=\"notoffered\">BCOR 1400</a> and <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a> or <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\"  class=\"notoffered\">BIOL 1400</a> and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>; Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}]}]}",
+      "other_requirements": "Instructor permission. For intermediate undergraduate students and PACE students. PACE students by permission and override.",
       "external": false
     },
     {
-      "id": "PBIO 6330",
-      "course_code": "PBIO 6330",
-      "department": "PBIO",
-      "title": "Intro to Professional Writing",
-      "credit_hours": "1",
-      "description": "Writing seminar that focuses on close observation of the natural world and interpreting scientific findings for public audiences. Includes preparation of an animal encounter and science brief, as well as reading of published natural history and ecology essays. Prerequisite: Field Naturalist Program Graduate student.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PBIO 6330\"}, {\"type\": \"course\", \"code\": \"PBIO 6330\"}]}",
-      "other_requirements": "Field Naturalist Program Graduate student. Field Naturalist Graduate students only; Contact instructor for meeting location and time",
-      "external": false
+      "id": "BCOR 1450",
+      "course_code": "BCOR 1450",
+      "department": "BCOR",
+      "title": "Exploring Biology 2",
+      "credit_hours": "4",
+      "description": "An evolutionary perspective to exploring biology. Topics include: patterns of inheritance, Darwinian evolution, evolution of biodiversity, ecology of organisms, human effects on biological systems. Credit not awarded for both BCOR 1450 and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
     },
     {
       "id": "PBIO 1890",
@@ -299,45 +167,122 @@
       "external": false
     },
     {
-      "id": "PBIO 1060",
-      "course_code": "PBIO 1060",
+      "id": "PBIO 3994",
+      "course_code": "PBIO 3994",
       "department": "PBIO",
-      "title": "Plants, Food, and Culture",
-      "credit_hours": "3",
-      "description": "Evaluation of the impact of plants on the aesthetic, cultural, social, medical, and religious lives of peoples of the world. Plant Biology and Biological Science majors will not receive credit for PBIO 1060 as part of program distribution requirements.",
-      "prereq_expression": null,
-      "other_requirements": "Open to Degree and PACE students. Students are expected to attend lecture and participate in the class to gain credit. This course places great emphasis on in-class discussions and sharing of ideas, and engagement throughout class periods is expected.",
-      "external": false
-    },
-    {
-      "id": "PBIO 3995",
-      "course_code": "PBIO 3995",
-      "department": "PBIO",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Department permission.",
-      "prereq_expression": null,
-      "other_requirements": "Department permission. Instructor permission required; PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "PBIO 6350",
-      "course_code": "PBIO 6350",
-      "department": "PBIO",
-      "title": "Writing: Science&Investigation",
-      "credit_hours": "1",
-      "description": "Writing seminar on interviews, opinion writing, feature stories, and effective scientific storytelling. Students conduct interviews, investigate scientific stories of general interest, and write public-facing articles. Prerequisites: <a href=\"/search/?p=PBIO%206330\" data-action=\"result-detail\" data-group=\"code:PBIO 6330\" >PBIO 6330</a>; Field Naturalist Program Graduate student.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PBIO 6330\"}]}",
-      "other_requirements": "Field Naturalist Program Graduate student. Field Naturalist Grad Students only; Instructor will email class about meeting time and location. Open to degree and PACE students.",
-      "external": false
-    },
-    {
-      "id": "PBIO 6392",
-      "course_code": "PBIO 6392",
-      "department": "PBIO",
-      "title": "Master's Project Research",
+      "title": "Teaching Assistantship",
       "credit_hours": "1 to 3",
-      "description": "Final project under the direction of a graduate faculty mentor.  Credit as arranged.",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"PBIO 1040\"}",
+      "other_requirements": "Instructor Permission Required; PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "PBIO 6230",
+      "course_code": "PBIO 6230",
+      "department": "PBIO",
+      "title": "Field Naturalist Fundamentals",
+      "credit_hours": "3",
+      "description": "From bedrock geology to experimental design, conservation science to public communications, prepares students for the varied challenges that field naturalists encounter. Consists of field exercises in natural areas and farmscapes around northwestern Vermont and discussions featuring a diversity of pieces written by naturalists, field scientists, and environmental thinkers. Prerequisite: Field Naturalist Graduate student or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Field Naturalist Graduate student or Instructor permission. Instructor permission required.",
+      "external": false
+    },
+    {
+      "id": "PBIO 6360",
+      "course_code": "PBIO 6360",
+      "department": "PBIO",
+      "title": "Writing for a Popular Audience",
+      "credit_hours": "1",
+      "description": "Writing seminar in which students pitch, write, and publish a feature story, essay, or opinion piece in a general publication such as a newspaper, a trade or professional magazine, or website. Also explores news releases, fundraising appeals, and other institutional writing. Prerequisites: <a href=\"/search/?p=PBIO%206330\" data-action=\"result-detail\" data-group=\"code:PBIO 6330\"  class=\"notoffered\">PBIO 6330</a>; Field Naturalist Program Graduate student.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"PBIO 6330\"}",
+      "other_requirements": "Field Naturalist Program Graduate student. Field Naturalist graduate students (or instructor permission) only.",
+      "external": false
+    },
+    {
+      "id": "CHEM 1150",
+      "course_code": "CHEM 1150",
+      "department": "CHEM",
+      "title": "Outline: Organic & BIOC w/lab",
+      "credit_hours": "4",
+      "description": "Broad overview of most important facts and principles of organic and biochemistry and interrelationships between these branches of chemistry. Credit not awarded for both CHEM 1150 and <a href=\"/search/?p=CHEM%201152\" data-action=\"result-detail\" data-group=\"code:CHEM 1152\" >CHEM 1152</a>, <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\" >CHEM 1580</a>, or <a href=\"/search/?p=CHEM%201582\" data-action=\"result-detail\" data-group=\"code:CHEM 1582\" >CHEM 1582</a>. Prerequisite: <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\"  class=\"notoffered\">CHEM 1100</a> or <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1400\"}]}",
+      "other_requirements": "Must register for a CHEM 1150 lab, L01 - L06; $85 fee: Chem Lab Supplies; Open to Degree and PACE students; Cross listed with CHEM 1152A; total enrollment cap = 142",
+      "external": true
+    },
+    {
+      "id": "PBIO 6110",
+      "course_code": "PBIO 6110",
+      "department": "PBIO",
+      "title": "Field Naturalist Practicum",
+      "credit_hours": "3",
+      "description": "Landscape analysis; planning and designing field projects; integrated problem solving. Prerequisite: Field Naturalist student.",
+      "prereq_expression": null,
+      "other_requirements": "Field Naturalist student",
+      "external": false
+    },
+    {
+      "id": "PBIO 4996",
+      "course_code": "PBIO 4996",
+      "department": "PBIO",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "BIOL 1450",
+      "course_code": "BIOL 1450",
+      "department": "BIOL",
+      "title": "Principles of Biology 2",
+      "credit_hours": "4",
+      "description": "Principles of organismal biology; nature of scientific inquiry, plant form and function, pollination ecology, animal phylogeny illustrated by comparative anatomy and physiology; animal behavior. Credit not awarded for both BIOL 1450 and <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>.",
+      "prereq_expression": null,
+      "other_requirements": "ASCI, BIOL, BISC, MGEN, MICR, NEUR, PBIO, ZOOL majors should register for BCOR 1450; Degree students only even after level restrictions removed; Post Bac Pre med students register for BIOL 1450",
+      "external": true
+    },
+    {
+      "id": "PBIO 3991",
+      "course_code": "PBIO 3991",
+      "department": "PBIO",
+      "title": "Int:EthnobotanyInternship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Restricted to Plant Biology Majors; Instructor permission required; PACE Student by Permission and Override",
+      "external": false
+    },
+    {
+      "id": "PBIO 3220",
+      "course_code": "PBIO 3220",
+      "department": "PBIO",
+      "title": "Ecological Invasions",
+      "credit_hours": "3",
+      "description": "Focuses on reading, writing and discussing the primary scientific literature in the field of invasion biology. Invasion biology draws from many different scientific disciplines, including genetics, evolution, population, community and ecosystem ecology. Students will have the opportunity to pursue one of these areas in depth through the preparation of a research paper. Credit not awarded for both PBIO 3220 and <a href=\"/search/?p=PBIO%205220\" data-action=\"result-detail\" data-group=\"code:PBIO 5220\"  class=\"notoffered\">PBIO 5220</a>. Prerequisite: <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a> or <a href=\"/search/?p=NR%202030\" data-action=\"result-detail\" data-group=\"code:NR 2030\" >NR 2030</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2100\"}, {\"type\": \"course\", \"code\": \"NR 2030\"}]}",
+      "other_requirements": "an equivalent course in Ecology. Students are expected to read the assigned articles and come to every class with questions and comments on the assigned readings. Students should expect to attend every class and complete assignments on the due dates.",
+      "external": false
+    },
+    {
+      "id": "PBIO 2440",
+      "course_code": "PBIO 2440",
+      "department": "PBIO",
+      "title": "SL:NatureBasedClimateSolutions",
+      "credit_hours": "3",
+      "description": "Explores the scale of global change while focusing on ways plants can be used to mitigate and adapt to the future climate while enhancing native plant biodiversity. Students will gain practical skills by engaging with community partners and contributing to nature-based climate solutions projects in the local Burlington community. Prerequisites: <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>, <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>, or <a href=\"/search/?p=PBIO%201040\" data-action=\"result-detail\" data-group=\"code:PBIO 1040\" >PBIO 1040</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"PBIO 1040\"}]}",
+      "other_requirements": "Instructor will email class w/meeting location. Open to Degree and PACE Students. Note that registered students are expected to dedicate one non-class weekend day to a service-learning project in late April.",
+      "external": false
+    },
+    {
+      "id": "PBIO 3990",
+      "course_code": "PBIO 3990",
+      "department": "PBIO",
+      "title": "Molecular Plant Cell Biology",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -354,59 +299,15 @@
       "external": true
     },
     {
-      "id": "CHEM 1150",
-      "course_code": "CHEM 1150",
-      "department": "CHEM",
-      "title": "Outline: Organic & BIOC w/lab",
-      "credit_hours": "4",
-      "description": "Broad overview of most important facts and principles of organic and biochemistry and interrelationships between these branches of chemistry. Credit not awarded for both CHEM 1150 and <a href=\"/search/?p=CHEM%201152\" data-action=\"result-detail\" data-group=\"code:CHEM 1152\" >CHEM 1152</a>, <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\" >CHEM 1580</a>, or <a href=\"/search/?p=CHEM%201582\" data-action=\"result-detail\" data-group=\"code:CHEM 1582\" >CHEM 1582</a>. Prerequisite: <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\"  class=\"notoffered\">CHEM 1100</a> or <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1400\"}]}",
-      "other_requirements": "Must register for a CHEM 1150 lab, L01 - L06; $85 fee: Chem Lab Supplies; Open to Degree and PACE students; Cross listed with CHEM 1152A; total enrollment cap = 142",
-      "external": true
-    },
-    {
-      "id": "PBIO 6391",
-      "course_code": "PBIO 6391",
-      "department": "PBIO",
-      "title": "Master's Thesis Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Master's Thesis.  Credit as arranged.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "BCOR 1450",
-      "course_code": "BCOR 1450",
+      "id": "BCOR 2100",
+      "course_code": "BCOR 2100",
       "department": "BCOR",
-      "title": "Exploring Biology 2",
+      "title": "Ecology and Evolution",
       "credit_hours": "4",
-      "description": "An evolutionary perspective to exploring biology. Topics include: patterns of inheritance, Darwinian evolution, evolution of biodiversity, ecology of organisms, human effects on biological systems. Credit not awarded for both BCOR 1450 and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "description": "Ecosystem and community structure, population growth, species interactions and niche dynamics, population and chromosomal genetics, speciation in fossil records, ecology of animal behavior, applied ecology. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a>, <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>, or <a href=\"/search/?p=BIOL%201000\" data-action=\"result-detail\" data-group=\"code:BIOL 1000\"  class=\"notoffered\">BIOL 1000</a>; <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, <a href=\"/search/?p=BIOL%201005\" data-action=\"result-detail\" data-group=\"code:BIOL 1005\"  class=\"notoffered\">BIOL 1005</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>; <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1000\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BIOL 1005\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}]}",
+      "other_requirements": "PACE students with permission and override.",
       "external": true
-    },
-    {
-      "id": "BIOL 1450",
-      "course_code": "BIOL 1450",
-      "department": "BIOL",
-      "title": "Principles of Biology 2",
-      "credit_hours": "4",
-      "description": "Principles of organismal biology; nature of scientific inquiry, plant form and function, pollination ecology, animal phylogeny illustrated by comparative anatomy and physiology; animal behavior. Credit not awarded for both BIOL 1450 and <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>.",
-      "prereq_expression": null,
-      "other_requirements": "ASCI, BIOL, BISC, MGEN, MICR, NEUR, PBIO, ZOOL majors should register for BCOR 1450; Degree students only even after level restrictions removed; Post Bac Pre med students register for BIOL 1450",
-      "external": true
-    },
-    {
-      "id": "PBIO 6360",
-      "course_code": "PBIO 6360",
-      "department": "PBIO",
-      "title": "Writing for a Popular Audience",
-      "credit_hours": "1",
-      "description": "Writing seminar in which students pitch, write, and publish a feature story, essay, or opinion piece in a general publication such as a newspaper, a trade or professional magazine, or website. Also explores news releases, fundraising appeals, and other institutional writing. Prerequisites: <a href=\"/search/?p=PBIO%206330\" data-action=\"result-detail\" data-group=\"code:PBIO 6330\"  class=\"notoffered\">PBIO 6330</a>; Field Naturalist Program Graduate student.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PBIO 6330\"}]}",
-      "other_requirements": "Field Naturalist Program Graduate student. Field Naturalist graduate students (or instructor permission) only.",
-      "external": false
     },
     {
       "id": "PBIO 3940",
@@ -420,14 +321,102 @@
       "external": false
     },
     {
+      "id": "PBIO 3995",
+      "course_code": "PBIO 3995",
+      "department": "PBIO",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Department permission.",
+      "prereq_expression": null,
+      "other_requirements": "Department permission. Instructor permission required; PACE students by permission and override.",
+      "external": false
+    },
+    {
       "id": "PBIO 1070",
       "course_code": "PBIO 1070",
       "department": "PBIO",
       "title": "Putting Down Roots in PlantBio",
       "credit_hours": "1",
       "description": "Designed to introduce new Plant Biology majors to the department and the discipline through a variety of in person experiences and hands-on activities featuring the range of plant biology resources and research at UVM. Helps students build connections to the plant biology community, demystify the college experience, and navigate the major. Prerequisite: Plant Biology major.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"PBIO 1070\"}",
+      "prereq_expression": null,
       "other_requirements": "Plant Biology major. PBIO majors only",
+      "external": false
+    },
+    {
+      "id": "PBIO 2770",
+      "course_code": "PBIO 2770",
+      "department": "PBIO",
+      "title": "Biology of Fungi",
+      "credit_hours": "4",
+      "description": "Collect, identify and study major fungal groups, especially basidiomycetes (mushrooms, rusts and smuts), ascomycetes (cup fungi, yeasts and mildews), and affiliated taxa. Extensive field and lab work, with thematic lectures. Prerequisite: <a href=\"/search/?p=PBIO%201040\" data-action=\"result-detail\" data-group=\"code:PBIO 1040\"  class=\"notoffered\">PBIO 1040</a> or <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a> or <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PBIO 1040\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}",
+      "other_requirements": "Instructor permission",
+      "external": false
+    },
+    {
+      "id": "PBIO 6391",
+      "course_code": "PBIO 6391",
+      "department": "PBIO",
+      "title": "Master's Thesis Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Master's Thesis.  Credit as arranged.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "PBIO 4899",
+      "course_code": "PBIO 4899",
+      "department": "PBIO",
+      "title": "Plant Biology Capstone",
+      "credit_hours": "1",
+      "description": "Culmination of the Plant Biology major; draws together the disciplines of plant biology presented in previous coursework and other student experiences into a single over-arching perception of plant biology and its role in the world; prepares Plant Biology majors for post-graduate success. Prerequisites: Plant Biology major; Senior standing or Junior standing if graduating in December.",
+      "prereq_expression": null,
+      "other_requirements": "Plant Biology major; Senior standing or Junior standing if graduating in December. Restricted to Seniors in the Plant Biology major; Instructor will email students with meeting location.",
+      "external": false
+    },
+    {
+      "id": "PBIO 6995",
+      "course_code": "PBIO 6995",
+      "department": "PBIO",
+      "title": "Graduate Independent Research",
+      "credit_hours": "2",
+      "description": "Graduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "PBIO 2995",
+      "course_code": "PBIO 2995",
+      "department": "PBIO",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisites: Department permission.",
+      "prereq_expression": null,
+      "other_requirements": "Department permission. Instructor permission required; PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "BCOR 1425",
+      "course_code": "BCOR 1425",
+      "department": "BCOR",
+      "title": "Accelerated Biology",
+      "credit_hours": "4",
+      "description": "Selected topics from the full year of introductory biology, compressed into one semester. For students with demonstrated mastery of basic biology (e.g., AP credit).  Permission required. Credit not awarded for both BCOR 1425 and <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> or <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a>. Pre/co-requisite: <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a>, <a href=\"/search/?p=CHEM%201405\" data-action=\"result-detail\" data-group=\"code:CHEM 1405\"  class=\"notoffered\">CHEM 1405</a>, or <a href=\"/search/?p=CHEM%201410\" data-action=\"result-detail\" data-group=\"code:CHEM 1410\" >CHEM 1410</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1405\"}, {\"type\": \"course\", \"code\": \"CHEM 1410\"}]}",
+      "other_requirements": "For students with demonstrated mastery of basic biology (e.g., AP credit). Permission required. Credit not awarded for both BCOR 1425 and BCOR 1400 or BIOL 1400. By invitation only; for FTFY students with AP score of 4. Instructor permission required. Must register for a BCOR 1425 lab. Must be enrolled in CHEM 1400 if have no CHEM credit.",
+      "external": true
+    },
+    {
+      "id": "PBIO 6392",
+      "course_code": "PBIO 6392",
+      "department": "PBIO",
+      "title": "Master's Project Research",
+      "credit_hours": "1 to 3",
+      "description": "Final project under the direction of a graduate faculty mentor.  Credit as arranged.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     },
     {
@@ -442,6 +431,28 @@
       "external": true
     },
     {
+      "id": "PBIO 7491",
+      "course_code": "PBIO 7491",
+      "department": "PBIO",
+      "title": "Doctoral Dissertation Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Doctoral Dissertation. Credit as arranged.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "PBIO 6240",
+      "course_code": "PBIO 6240",
+      "department": "PBIO",
+      "title": "Landscape Inventory&Assessment",
+      "credit_hours": "3",
+      "description": "A comprehensive, practical, hands-on training exercise that teaches how professionals go about making sense of a landscape and its many possible values. Designed for Graduate students, the class functions as a pro bono consulting team on a specific land parcel, helping the community sponsor understand the parcel's biota, soils, hydrology, geology, and natural communities. Prerequisite: Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission. Instructor Permission Required. Open to Graduate Students. This project requires the use of GIS and GPS.",
+      "external": false
+    },
+    {
       "id": "PBIO 1040",
       "course_code": "PBIO 1040",
       "department": "PBIO",
@@ -453,47 +464,36 @@
       "external": false
     },
     {
-      "id": "PBIO 6690",
-      "course_code": "PBIO 6690",
+      "id": "PBIO 2170",
+      "course_code": "PBIO 2170",
       "department": "PBIO",
-      "title": "Field Botany for NR Profession",
-      "credit_hours": "3",
-      "description": "Identification of flowering plants and ferns; survey of prominent Vermont plant families; natural communities, ecological determinants of plant distribution, especially soils; preparation of herbarium specimens. Prerequisite: Instructor Permission.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor Permission",
+      "title": "Plant Pathology",
+      "credit_hours": "4",
+      "description": "Introduction to the causes of agricultural and forest plant diseases including examination of the relationship of the plant, pathogen, and environment in disease development and disease management. Prerequisites: <a href=\"/search/?p=PBIO%201040\" data-action=\"result-detail\" data-group=\"code:PBIO 1040\"  class=\"notoffered\">PBIO 1040</a>, or <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a> and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a>, or <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\" >BCOR 1400</a> and <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>, or Instructor permission. Cross-listed with: <a href=\"/search/?p=PSS%202170\" data-action=\"result-detail\" data-group=\"code:PSS 2170\"  class=\"notoffered\">PSS 2170</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PBIO 1040\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}",
+      "other_requirements": "Instructor permission.",
       "external": false
     },
     {
-      "id": "BCOR 1400",
-      "course_code": "BCOR 1400",
-      "department": "BCOR",
-      "title": "Exploring Biology 1",
-      "credit_hours": "4",
-      "description": "Exploring biology from cells to organisms.  Topics include origins of life, ancestral organisms, uni- and multi- cellular energetics, evolution of respiration and metabolism, and the genetic code. Credit not awarded for both BCOR 1400 and <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\" >BIOL 1400</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "PBIO 2770",
-      "course_code": "PBIO 2770",
+      "id": "PBIO 2040",
+      "course_code": "PBIO 2040",
       "department": "PBIO",
-      "title": "Biology of Fungi",
+      "title": "Plant Physiology",
       "credit_hours": "4",
-      "description": "Collect, identify and study major fungal groups, especially basidiomycetes (mushrooms, rusts and smuts), ascomycetes (cup fungi, yeasts and mildews), and affiliated taxa. Extensive field and lab work, with thematic lectures. Prerequisite: <a href=\"/search/?p=PBIO%201040\" data-action=\"result-detail\" data-group=\"code:PBIO 1040\"  class=\"notoffered\">PBIO 1040</a> or <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\"  class=\"notoffered\">BIOL 1450</a> or <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\"  class=\"notoffered\">BCOR 1450</a> or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\" >BCOR 1425</a> or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"PBIO 1040\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}",
-      "other_requirements": "Instructor permission",
+      "description": "Study of the plant as a whole, growth and development, water and mineral relations, environmental factors, and regulatory processes. Prerequisites: <a href=\"/search/?p=BCOR%201400\" data-action=\"result-detail\" data-group=\"code:BCOR 1400\"  class=\"notoffered\">BCOR 1400</a> and <a href=\"/search/?p=BCOR%201450\" data-action=\"result-detail\" data-group=\"code:BCOR 1450\" >BCOR 1450</a>, or <a href=\"/search/?p=BIOL%201400\" data-action=\"result-detail\" data-group=\"code:BIOL 1400\"  class=\"notoffered\">BIOL 1400</a> and <a href=\"/search/?p=BIOL%201450\" data-action=\"result-detail\" data-group=\"code:BIOL 1450\" >BIOL 1450</a>, or <a href=\"/search/?p=BCOR%201425\" data-action=\"result-detail\" data-group=\"code:BCOR 1425\"  class=\"notoffered\">BCOR 1425</a>; <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a> and <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>, or <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\"  class=\"notoffered\">CHEM 1100</a> and <a href=\"/search/?p=CHEM%201150\" data-action=\"result-detail\" data-group=\"code:CHEM 1150\" >CHEM 1150</a>, or <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a> and <a href=\"/search/?p=CHEM%201150\" data-action=\"result-detail\" data-group=\"code:CHEM 1150\" >CHEM 1150</a>; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 1400\"}, {\"type\": \"course\", \"code\": \"BCOR 1450\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOL 1400\"}, {\"type\": \"course\", \"code\": \"BIOL 1450\"}]}, {\"type\": \"course\", \"code\": \"BCOR 1425\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1450\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1150\"}]}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1150\"}]}]}]}",
+      "other_requirements": "Instructor permission. Must register for a PBIO 2040 lab A01 - A02 - A03. Open to Degree and PACE students.",
       "external": false
     },
     {
-      "id": "PBIO 6110",
-      "course_code": "PBIO 6110",
+      "id": "PBIO 1060",
+      "course_code": "PBIO 1060",
       "department": "PBIO",
-      "title": "Field Naturalist Practicum",
+      "title": "Plants, Food, and Culture",
       "credit_hours": "3",
-      "description": "Landscape analysis; planning and designing field projects; integrated problem solving. Prerequisite: Field Naturalist student.",
+      "description": "Evaluation of the impact of plants on the aesthetic, cultural, social, medical, and religious lives of peoples of the world. Plant Biology and Biological Science majors will not receive credit for PBIO 1060 as part of program distribution requirements.",
       "prereq_expression": null,
-      "other_requirements": "Field Naturalist student",
+      "other_requirements": "Open to Degree and PACE students. Students are expected to attend lecture and participate in the class to gain credit. This course places great emphasis on in-class discussions and sharing of ideas, and engagement throughout class periods is expected.",
       "external": false
     }
   ],
@@ -741,32 +741,12 @@
     {
       "source": "PBIO 1040",
       "target": "PBIO 3994",
-      "group": "PBIO 3994__g0"
+      "group": null
     },
     {
       "source": "PBIO 1060",
       "target": "PBIO 2990",
       "group": "PBIO 2990__g0"
-    },
-    {
-      "source": "PBIO 1070",
-      "target": "PBIO 1070",
-      "group": null
-    },
-    {
-      "source": "PBIO 3994",
-      "target": "PBIO 3994",
-      "group": "PBIO 3994__g0"
-    },
-    {
-      "source": "PBIO 6240",
-      "target": "PBIO 6240",
-      "group": null
-    },
-    {
-      "source": "PBIO 6330",
-      "target": "PBIO 6330",
-      "group": null
     },
     {
       "source": "PBIO 6330",

@@ -2,26 +2,15 @@
   "department": "MLS",
   "nodes": [
     {
-      "id": "MLS 2994",
-      "course_code": "MLS 2994",
-      "department": "MLS",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "id": "NH 6899",
+      "course_code": "NH 6899",
+      "department": "NH",
+      "title": "Fundamentals Critical Inquiry",
+      "credit_hours": "3",
+      "description": "Interprofessional research/evidence-based practice course; instructs students from a variety of healthcare professions to develop skills in research/clinical question development, appraisal of literature and practice guidelines, experimental, quantitative and qualitative studies, and a fundamental understanding of evidence to inform their practice.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "MLS 3994",
-      "course_code": "MLS 3994",
-      "department": "MLS",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
+      "external": true
     },
     {
       "id": "MMG 2010",
@@ -35,14 +24,25 @@
       "external": true
     },
     {
-      "id": "MLS 3492",
-      "course_code": "MLS 3492",
+      "id": "MLS 2994",
+      "course_code": "MLS 2994",
       "department": "MLS",
-      "title": "Clin Practicum:Immunohematolog",
-      "credit_hours": "3",
-      "description": "Experiences in an approved clinical laboratory education site in the area of clinical immunohematology. Prerequisite: Medical Laboratory Science Seniors only.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MLS 3192\"}, {\"type\": \"course\", \"code\": \"MLS 3292\"}, {\"type\": \"course\", \"code\": \"MLS 3392\"}]}",
-      "other_requirements": "Medical Laboratory Science Seniors only. MLS Seniors and MLS PBC students only.",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "MLS 6600",
+      "course_code": "MLS 6600",
+      "department": "MLS",
+      "title": "Research Capstone",
+      "credit_hours": "1 to 3",
+      "description": "The third course in a three-course research series. Complete the capstone project under the guidance of the research mentor or the Graduate Program Director/Course Instructor. Communicate the findings both through a formal oral presentation and a written research paper. Prerequisites: <a href=\"/search/?p=NH%206899\" data-action=\"result-detail\" data-group=\"code:NH 6899\" >NH 6899</a>, <a href=\"/search/?p=MLS%206400\" data-action=\"result-detail\" data-group=\"code:MLS 6400\"  class=\"notoffered\">MLS 6400</a>, <a href=\"/search/?p=MLS%206500\" data-action=\"result-detail\" data-group=\"code:MLS 6500\"  class=\"notoffered\">MLS 6500</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"NH 6899\"}, {\"type\": \"course\", \"code\": \"MLS 6400\"}, {\"type\": \"course\", \"code\": \"MLS 6500\"}]}",
+      "other_requirements": "Contact instructor for meeting location and time",
       "external": false
     },
     {
@@ -57,15 +57,26 @@
       "external": true
     },
     {
-      "id": "MLS 6700",
-      "course_code": "MLS 6700",
+      "id": "MLS 3000",
+      "course_code": "MLS 3000",
       "department": "MLS",
-      "title": "Clinical Practicum",
-      "credit_hours": "12",
-      "description": "Clinical Practicum involves a semester long directed clinical practice in Hematology, Chemistry, Microbiology, Immunohematology, and Molecular Biology at assigned clinical affiliate sites. Prerequisites: <a href=\"/search/?p=MLS%203300\" data-action=\"result-detail\" data-group=\"code:MLS 3300\"  class=\"notoffered\">MLS 3300</a>, <a href=\"/search/?p=MMG%203230\" data-action=\"result-detail\" data-group=\"code:MMG 3230\"  class=\"notoffered\">MMG 3230</a>, <a href=\"/search/?p=MLS%203100\" data-action=\"result-detail\" data-group=\"code:MLS 3100\"  class=\"notoffered\">MLS 3100</a>, <a href=\"/search/?p=MMG%203220\" data-action=\"result-detail\" data-group=\"code:MMG 3220\" >MMG 3220</a>, <a href=\"/search/?p=MLS%203110\" data-action=\"result-detail\" data-group=\"code:MLS 3110\" >MLS 3110</a>, <a href=\"/search/?p=MLS%203200\" data-action=\"result-detail\" data-group=\"code:MLS 3200\"  class=\"notoffered\">MLS 3200</a>, <a href=\"/search/?p=MLS%203400\" data-action=\"result-detail\" data-group=\"code:MLS 3400\"  class=\"notoffered\">MLS 3400</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MLS 3300\"}, {\"type\": \"course\", \"code\": \"MMG 3230\"}, {\"type\": \"course\", \"code\": \"MLS 3100\"}, {\"type\": \"course\", \"code\": \"MMG 3220\"}, {\"type\": \"course\", \"code\": \"MLS 3110\"}, {\"type\": \"course\", \"code\": \"MLS 3200\"}, {\"type\": \"course\", \"code\": \"MLS 3400\"}]}",
-      "other_requirements": "MLSC Grad students only; Offsite Clinical Affiliate 8-5",
+      "title": "Applied Medical Diagnostics",
+      "credit_hours": "3",
+      "description": "Introduces the methodologies, techniques, and clinical applications associated with point of care testing in a community health setting. Students explore community health issues and engage in service-learning hours with a community partner outside of scheduled class time. Service learning combines community service with academic instruction, focusing on critical, reflective thinking. Prerequisites: <a href=\"/search/?p=MLS%202010\" data-action=\"result-detail\" data-group=\"code:MLS 2010\"  class=\"notoffered\">MLS 2010</a> or a Medical Laboratory Science major; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MLS 2010\"}, {\"type\": \"course\", \"code\": \"Medical Laboratory Science major\"}]}",
+      "other_requirements": "minimum Junior standing",
       "external": false
+    },
+    {
+      "id": "CHEM 1580",
+      "course_code": "CHEM 1580",
+      "department": "CHEM",
+      "title": "Intro Organic Chemistry w/lab",
+      "credit_hours": "4",
+      "description": "Properties and reactivity of basic organic compounds of technological and biological significance. Not recommended for pre-medical students. Credit not awarded for both CHEM 1580 and <a href=\"/search/?p=CHEM%201150\" data-action=\"result-detail\" data-group=\"code:CHEM 1150\" >CHEM 1150</a>, <a href=\"/search/?p=CHEM%201152\" data-action=\"result-detail\" data-group=\"code:CHEM 1152\" >CHEM 1152</a>, <a href=\"/search/?p=CHEM%201582\" data-action=\"result-detail\" data-group=\"code:CHEM 1582\" >CHEM 1582</a>, <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a>, or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\"  class=\"notoffered\">CHEM 2580</a>. Prerequisite: <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\"  class=\"notoffered\">CHEM 1100</a> or <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1450\"}]}",
+      "other_requirements": "Not recommended for pre-medical students. Credit not awarded for both CHEM 1580 and  CHEM 1150 ,  CHEM 1152 ,  CHEM 1582 ,  CHEM 1500 , or  CHEM 2580 . Must register for a CHEM 1580 lab, L01-L15; $85 fee: Chem Lab Supplies; Cross listed withCHEM 1582A. PACE students with permission and override. All labs must be completed in order to pass the course. Attendance for all lectures and exams is expected. All work must be completed by the due date. The final exam must be taken to pass the course.",
+      "external": true
     },
     {
       "id": "MLS 3910",
@@ -90,14 +101,113 @@
       "external": true
     },
     {
-      "id": "MLS 3220",
-      "course_code": "MLS 3220",
+      "id": "MLS 3900",
+      "course_code": "MLS 3900",
       "department": "MLS",
-      "title": "Hematology Lab",
-      "credit_hours": "1",
-      "description": "The laboratory sessions will cover four broad areas of hematology practice: 1) laboratory tests associated with hemostasis, 2) laboratory tests and morphology seen in diseases affecting WBC cells, 3) peripheral blood and bone marrow cell morphology, and 4) laboratory tests and the associated morphology diagnostic of various RBC disorders. Prerequisite: One semester of organic chemistry, one semester of biochemistry. Co-requisite: <a href=\"/search/?p=MLS%203200\" data-action=\"result-detail\" data-group=\"code:MLS 3200\" >MLS 3200</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1210\"}, {\"type\": \"course\", \"code\": \"CHEM 1220\"}]}",
-      "other_requirements": "MLS, BMCS or MLS PBC PACE Students; Or Instructor Permission; $70 lab fee; PACE students by permission and override.",
+      "title": "MLS Certification Review",
+      "credit_hours": "2",
+      "description": "Seminar on topics in the practice and profession of Medical Laboratory Science. Online course. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisites: <a href=\"/search/?p=MLS%203192\" data-action=\"result-detail\" data-group=\"code:MLS 3192\" >MLS 3192</a>, <a href=\"/search/?p=MLS%203292\" data-action=\"result-detail\" data-group=\"code:MLS 3292\" >MLS 3292</a>, <a href=\"/search/?p=MLS%203392\" data-action=\"result-detail\" data-group=\"code:MLS 3392\" >MLS 3392</a>, <a href=\"/search/?p=MLS%203492\" data-action=\"result-detail\" data-group=\"code:MLS 3492\" >MLS 3492</a>, Medical Laboratory major.",
+      "prereq_expression": null,
+      "other_requirements": "MLS 3192 , MLS 3292 , MLS 3392 , MLS 3492 , Medical Laboratory major. MLS Seniors & MLS PBC students only; Lab Fee: $60.00;",
+      "external": false
+    },
+    {
+      "id": "MMG 3220",
+      "course_code": "MMG 3220",
+      "department": "MMG",
+      "title": "Adv Medical Microbiology w/lab",
+      "credit_hours": "4",
+      "description": "Comprehensive study of human pathogenic bacteria and their disease states in humans. Laboratory sessions provide practical experience in handling and identifying these pathogens. Credit not awarded for both MMG 3220 and <a href=\"/search/?p=MMG%205220\" data-action=\"result-detail\" data-group=\"code:MMG 5220\" >MMG 5220</a>. Prerequisite: <a href=\"/search/?p=MMG%202010\" data-action=\"result-detail\" data-group=\"code:MMG 2010\"  class=\"notoffered\">MMG 2010</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MMG 2010\"}",
+      "other_requirements": "MLS, MGEN and MICR majors only; Must enroll in lab MMG 3220 L01; Degree students only even after level restrictions removed; PACE students register for MMG 3220 ZRA",
+      "external": true
+    },
+    {
+      "id": "ANPS 1190",
+      "course_code": "ANPS 1190",
+      "department": "ANPS",
+      "title": "Ugr Hum Anatomy & Physiology 1",
+      "credit_hours": "4",
+      "description": "Part I of two-semester course sequence. Structure and function of human body.",
+      "prereq_expression": null,
+      "other_requirements": "Prereg limited to: BMCS, BIOM, CSD, EMS, EXSC, HSCI, MLS, MRS, NFS, NMT, PE, PHS, PRNU majors only. Degree students only even after major restrictions lifted.",
+      "external": true
+    },
+    {
+      "id": "MLS 3994",
+      "course_code": "MLS 3994",
+      "department": "MLS",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "MLS 3392",
+      "course_code": "MLS 3392",
+      "department": "MLS",
+      "title": "Clin Practicum:Microbiology",
+      "credit_hours": "3",
+      "description": "Experiences in an approved clinical laboratory education site in the area of clinical microbiology. Prerequisite: Medical Laboratory Science Seniors only.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MLS 3192\"}",
+      "other_requirements": "Medical Laboratory Science Seniors only. MLS Seniors and MLS PBC students only.",
+      "external": false
+    },
+    {
+      "id": "MLS 3192",
+      "course_code": "MLS 3192",
+      "department": "MLS",
+      "title": "Clinical Practicum: Chemistry",
+      "credit_hours": "3",
+      "description": "Experiences in an approved clinical laboratory education site in the area of clinical chemistry. Prerequisite: Medical Laboratory Science Seniors only.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MLS 3393\"}",
+      "other_requirements": "Medical Laboratory Science Seniors only. MLS Seniors and MLS PBC students only.",
+      "external": false
+    },
+    {
+      "id": "CHEM 2580",
+      "course_code": "CHEM 2580",
+      "department": "CHEM",
+      "title": "Organic Chemistry 1",
+      "credit_hours": "4",
+      "description": "Properties and reactivity of organic compounds with consideration of bonding, stereochemistry, and reaction mechanisms. For premedical and biological sciences students. Credit not awarded for both CHEM 2580 and <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\"  class=\"notoffered\">CHEM 1580</a>, <a href=\"/search/?p=CHEM%201582\" data-action=\"result-detail\" data-group=\"code:CHEM 1582\"  class=\"notoffered\">CHEM 1582</a>, or <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\" >CHEM 1500</a>. Prerequisite: <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a> or <a href=\"/search/?p=CHEM%201455\" data-action=\"result-detail\" data-group=\"code:CHEM 1455\"  class=\"notoffered\">CHEM 1455</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}]}",
+      "other_requirements": "$85 fee for lab supplies; Must register for a CHEM 2580 lab L01-L23; Degree students only; Post Bac Pre Med students register for CHEM 2580 ZRA-ZRC",
+      "external": true
+    },
+    {
+      "id": "MLS 3200",
+      "course_code": "MLS 3200",
+      "department": "MLS",
+      "title": "Hematology",
+      "credit_hours": "3",
+      "description": "Advanced theory and analysis of blood cell physiology and related pathology. Concepts of hemostasis and clinical assessment methods. Credit not awarded for both MLS 3200 and <a href=\"/search/?p=MLS%205200\" data-action=\"result-detail\" data-group=\"code:MLS 5200\"  class=\"notoffered\">MLS 5200</a>. Prerequisites: One semester of organic chemistry, one semester of biochemistry.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MLS 5200\"}, {\"type\": \"course\", \"code\": \"Biochemistry\"}]}",
+      "other_requirements": "One semester of organic chemistry. MLS, BMCS, MLS PBC PACE students, or Instructor Permission. Open to Degree and PACE students.",
+      "external": false
+    },
+    {
+      "id": "MLS 3292",
+      "course_code": "MLS 3292",
+      "department": "MLS",
+      "title": "Clinical Practicum:Hematology",
+      "credit_hours": "3",
+      "description": "Experiences in approved clinical laboratory education site in the area of clinical hematology. Prerequisite: Medical Laboratory Science Seniors only.",
+      "prereq_expression": null,
+      "other_requirements": "Medical Laboratory Science Seniors only. MLS Seniors and MLS PBC students only; Class time will rotate with MLS 3192,3392, and 3492; Combined time commitment is M-F 8:00 - 5:00; Offsite Clinical Affiliates; Course Fee $60.00",
+      "external": false
+    },
+    {
+      "id": "MLS 2990",
+      "course_code": "MLS 2990",
+      "department": "MLS",
+      "title": "Blood Bank",
+      "credit_hours": "4",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
       "external": false
     },
     {
@@ -110,39 +220,6 @@
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BHSC 1340\"}, {\"type\": \"course\", \"code\": \"MMG 2010\"}, {\"type\": \"course\", \"code\": \"ORBCOR 2500\"}]}",
       "other_requirements": "One semester of cell biology or similar course is encouraged. Degree students only, PACE students register for BHSC 3420 ZRA",
       "external": true
-    },
-    {
-      "id": "MLS 3300",
-      "course_code": "MLS 3300",
-      "department": "MLS",
-      "title": "Clinical Microbiology II",
-      "credit_hours": "3",
-      "description": "Comprehensive study of non-bacterial pathogenic microorganisms and their disease states in humans. Includes medical mycology, parasitology and virology. Credit not awarded for both MLS 3300 and <a href=\"/search/?p=MLS%205300\" data-action=\"result-detail\" data-group=\"code:MLS 5300\"  class=\"notoffered\">MLS 5300</a>. Prerequisites: <a href=\"/search/?p=MMG%201650\" data-action=\"result-detail\" data-group=\"code:MMG 1650\" >MMG 1650</a> or <a href=\"/search/?p=MMG%202010\" data-action=\"result-detail\" data-group=\"code:MMG 2010\" >MMG 2010</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 1650\"}, {\"type\": \"course\", \"code\": \"MMG 2010\"}]}",
-      "other_requirements": "Credit not awarded for both MLS 3300 and MLS 5300. Open to Degree and PACE students.",
-      "external": false
-    },
-    {
-      "id": "MLS 6100",
-      "course_code": "MLS 6100",
-      "department": "MLS",
-      "title": "Advanced Immunobiology",
-      "credit_hours": "3",
-      "description": "Advanced survey of key current topics in immunology. Focus on understanding the key concepts and experimental approaches in the major areas in immunology, with an emphasis on applications to human disease. Prerequisites: Cell Biology and Biochemistry recommended.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CELL BIOLOGY\"}, {\"type\": \"course\", \"code\": \"BIOCHEMISTRY\"}]}",
-      "other_requirements": "recommended",
-      "external": false
-    },
-    {
-      "id": "MLS 3400",
-      "course_code": "MLS 3400",
-      "department": "MLS",
-      "title": "Immunohematology",
-      "credit_hours": "4",
-      "description": "Advanced theory and experience related to human blood groups and transfusion practice. Credit not awarded for both MLS 3400 and <a href=\"/search/?p=MLS%205400\" data-action=\"result-detail\" data-group=\"code:MLS 5400\"  class=\"notoffered\">MLS 5400</a>. Prerequisite: <a href=\"/search/?p=BHSC%203420\" data-action=\"result-detail\" data-group=\"code:BHSC 3420\"  class=\"notoffered\">BHSC 3420</a> or <a href=\"/search/?p=MMG%203230\" data-action=\"result-detail\" data-group=\"code:MMG 3230\"  class=\"notoffered\">MMG 3230</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BHSC 3420\"}, {\"type\": \"course\", \"code\": \"MMG 3230\"}]}",
-      "other_requirements": "MLS, BMCS, MLS PBC PACE students: Prereqs enforced by the system: Immunohematology Lab Fee: $70.00; Open to Degree and PACE students.",
-      "external": false
     },
     {
       "id": "MMG 1650",
@@ -167,138 +244,6 @@
       "external": false
     },
     {
-      "id": "MLS 3292",
-      "course_code": "MLS 3292",
-      "department": "MLS",
-      "title": "Clinical Practicum:Hematology",
-      "credit_hours": "3",
-      "description": "Experiences in approved clinical laboratory education site in the area of clinical hematology. Prerequisite: Medical Laboratory Science Seniors only.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MLS 3192\"}, {\"type\": \"course\", \"code\": \"MLS 3392\"}, {\"type\": \"course\", \"code\": \"MLS 3492\"}]}",
-      "other_requirements": "Medical Laboratory Science Seniors only. MLS Seniors and MLS PBC students only; Class time will rotate with MLS 3192,3392, and 3492; Combined time commitment is M-F 8:00 - 5:00; Offsite Clinical Affiliates; Course Fee $60.00",
-      "external": false
-    },
-    {
-      "id": "MLS 3900",
-      "course_code": "MLS 3900",
-      "department": "MLS",
-      "title": "MLS Certification Review",
-      "credit_hours": "2",
-      "description": "Seminar on topics in the practice and profession of Medical Laboratory Science. Online course. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisites: <a href=\"/search/?p=MLS%203192\" data-action=\"result-detail\" data-group=\"code:MLS 3192\" >MLS 3192</a>, <a href=\"/search/?p=MLS%203292\" data-action=\"result-detail\" data-group=\"code:MLS 3292\" >MLS 3292</a>, <a href=\"/search/?p=MLS%203392\" data-action=\"result-detail\" data-group=\"code:MLS 3392\" >MLS 3392</a>, <a href=\"/search/?p=MLS%203492\" data-action=\"result-detail\" data-group=\"code:MLS 3492\" >MLS 3492</a>, Medical Laboratory major.",
-      "prereq_expression": null,
-      "other_requirements": "MLS 3192 , MLS 3292 , MLS 3392 , MLS 3492 , Medical Laboratory major. MLS Seniors & MLS PBC students only; Lab Fee: $60.00;",
-      "external": false
-    },
-    {
-      "id": "CHEM 2580",
-      "course_code": "CHEM 2580",
-      "department": "CHEM",
-      "title": "Organic Chemistry 1",
-      "credit_hours": "4",
-      "description": "Properties and reactivity of organic compounds with consideration of bonding, stereochemistry, and reaction mechanisms. For premedical and biological sciences students. Credit not awarded for both CHEM 2580 and <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\"  class=\"notoffered\">CHEM 1580</a>, <a href=\"/search/?p=CHEM%201582\" data-action=\"result-detail\" data-group=\"code:CHEM 1582\"  class=\"notoffered\">CHEM 1582</a>, or <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\" >CHEM 1500</a>. Prerequisite: <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a> or <a href=\"/search/?p=CHEM%201455\" data-action=\"result-detail\" data-group=\"code:CHEM 1455\"  class=\"notoffered\">CHEM 1455</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"CHEM 1455\"}]}",
-      "other_requirements": "$85 fee for lab supplies; Must register for a CHEM 2580 lab L01-L23; Degree students only; Post Bac Pre Med students register for CHEM 2580 ZRA-ZRC",
-      "external": true
-    },
-    {
-      "id": "PATH 2010",
-      "course_code": "PATH 2010",
-      "department": "PATH",
-      "title": "Intro to Human Disease",
-      "credit_hours": "3",
-      "description": "Elementary course in human pathology designed for Allied Health students. First portion deals with general mechanisms of disease, followed by disorders of specific organs. Prerequisites: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a> and <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}",
-      "other_requirements": "MLS, MRS, NMT and RADT majors only; Prerequisites: College biology and two successfully completed semesters of Anatomy and Physiology.",
-      "external": true
-    },
-    {
-      "id": "NH 6899",
-      "course_code": "NH 6899",
-      "department": "NH",
-      "title": "Fundamentals Critical Inquiry",
-      "credit_hours": "3",
-      "description": "Interprofessional research/evidence-based practice course; instructs students from a variety of healthcare professions to develop skills in research/clinical question development, appraisal of literature and practice guidelines, experimental, quantitative and qualitative studies, and a fundamental understanding of evidence to inform their practice.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
-    },
-    {
-      "id": "MLS 2990",
-      "course_code": "MLS 2990",
-      "department": "MLS",
-      "title": "Blood Bank",
-      "credit_hours": "4",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "ANPS 1190",
-      "course_code": "ANPS 1190",
-      "department": "ANPS",
-      "title": "Ugr Hum Anatomy & Physiology 1",
-      "credit_hours": "4",
-      "description": "Part I of two-semester course sequence. Structure and function of human body.",
-      "prereq_expression": null,
-      "other_requirements": "Prereg limited to: BMCS, BIOM, CSD, EMS, EXSC, HSCI, MLS, MRS, NFS, NMT, PE, PHS, PRNU majors only. Degree students only even after major restrictions lifted.",
-      "external": true
-    },
-    {
-      "id": "MMG 3220",
-      "course_code": "MMG 3220",
-      "department": "MMG",
-      "title": "Adv Medical Microbiology w/lab",
-      "credit_hours": "4",
-      "description": "Comprehensive study of human pathogenic bacteria and their disease states in humans. Laboratory sessions provide practical experience in handling and identifying these pathogens. Credit not awarded for both MMG 3220 and <a href=\"/search/?p=MMG%205220\" data-action=\"result-detail\" data-group=\"code:MMG 5220\" >MMG 5220</a>. Prerequisite: <a href=\"/search/?p=MMG%202010\" data-action=\"result-detail\" data-group=\"code:MMG 2010\"  class=\"notoffered\">MMG 2010</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"MMG 2010\"}",
-      "other_requirements": "MLS, MGEN and MICR majors only; Must enroll in lab MMG 3220 L01; Degree students only even after level restrictions removed; PACE students register for MMG 3220 ZRA",
-      "external": true
-    },
-    {
-      "id": "MLS 3000",
-      "course_code": "MLS 3000",
-      "department": "MLS",
-      "title": "Applied Medical Diagnostics",
-      "credit_hours": "3",
-      "description": "Introduces the methodologies, techniques, and clinical applications associated with point of care testing in a community health setting. Students explore community health issues and engage in service-learning hours with a community partner outside of scheduled class time. Service learning combines community service with academic instruction, focusing on critical, reflective thinking. Prerequisites: <a href=\"/search/?p=MLS%202010\" data-action=\"result-detail\" data-group=\"code:MLS 2010\"  class=\"notoffered\">MLS 2010</a> or a Medical Laboratory Science major; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MLS 2010\"}, {\"type\": \"course\", \"code\": \"Medical Laboratory Science major\"}]}",
-      "other_requirements": "minimum Junior standing",
-      "external": false
-    },
-    {
-      "id": "MLS 6600",
-      "course_code": "MLS 6600",
-      "department": "MLS",
-      "title": "Research Capstone",
-      "credit_hours": "1 to 3",
-      "description": "The third course in a three-course research series. Complete the capstone project under the guidance of the research mentor or the Graduate Program Director/Course Instructor. Communicate the findings both through a formal oral presentation and a written research paper. Prerequisites: <a href=\"/search/?p=NH%206899\" data-action=\"result-detail\" data-group=\"code:NH 6899\" >NH 6899</a>, <a href=\"/search/?p=MLS%206400\" data-action=\"result-detail\" data-group=\"code:MLS 6400\"  class=\"notoffered\">MLS 6400</a>, <a href=\"/search/?p=MLS%206500\" data-action=\"result-detail\" data-group=\"code:MLS 6500\"  class=\"notoffered\">MLS 6500</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"NH 6899\"}, {\"type\": \"course\", \"code\": \"MLS 6400\"}, {\"type\": \"course\", \"code\": \"MLS 6500\"}]}",
-      "other_requirements": "Contact instructor for meeting location and time",
-      "external": false
-    },
-    {
-      "id": "CHEM 1580",
-      "course_code": "CHEM 1580",
-      "department": "CHEM",
-      "title": "Intro Organic Chemistry w/lab",
-      "credit_hours": "4",
-      "description": "Properties and reactivity of basic organic compounds of technological and biological significance. Not recommended for pre-medical students. Credit not awarded for both CHEM 1580 and <a href=\"/search/?p=CHEM%201150\" data-action=\"result-detail\" data-group=\"code:CHEM 1150\" >CHEM 1150</a>, <a href=\"/search/?p=CHEM%201152\" data-action=\"result-detail\" data-group=\"code:CHEM 1152\" >CHEM 1152</a>, <a href=\"/search/?p=CHEM%201582\" data-action=\"result-detail\" data-group=\"code:CHEM 1582\" >CHEM 1582</a>, <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a>, or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\"  class=\"notoffered\">CHEM 2580</a>. Prerequisite: <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\"  class=\"notoffered\">CHEM 1100</a> or <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1450\"}]}",
-      "other_requirements": "Not recommended for pre-medical students. Credit not awarded for both CHEM 1580 and  CHEM 1150 ,  CHEM 1152 ,  CHEM 1582 ,  CHEM 1500 , or  CHEM 2580 . Must register for a CHEM 1580 lab, L01-L15; $85 fee: Chem Lab Supplies; Cross listed withCHEM 1582A. PACE students with permission and override. All labs must be completed in order to pass the course. Attendance for all lectures and exams is expected. All work must be completed by the due date. The final exam must be taken to pass the course.",
-      "external": true
-    },
-    {
-      "id": "MLS 3100",
-      "course_code": "MLS 3100",
-      "department": "MLS",
-      "title": "Clinical Chemistry I",
-      "credit_hours": "4",
-      "description": "Lectures and laboratory experiences introduce basic principles in clinical quantitative analysis and laboratory instrumentation; test results are correlated with clinical case studies. Credit not awarded for both MLS 3100 and <a href=\"/search/?p=MLS%205100\" data-action=\"result-detail\" data-group=\"code:MLS 5100\"  class=\"notoffered\">MLS 5100</a>. Prerequisites: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a> and <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>; <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a> and <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>; <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\"  class=\"notoffered\">CHEM 1580</a> or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\" >CHEM 2580</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1580\"}, {\"type\": \"course\", \"code\": \"CHEM 2580\"}]}]}",
-      "other_requirements": "MLS, BMCS, MEDD minor, MLS PBC PACE students\nOpen to Degree and PACE students.\nor Instructor Permission;\nMed Diag Minor Students Only for 3 credits; Prereqs enforced\nby the system: Lab Fee $70.00;",
-      "external": false
-    },
-    {
       "id": "MLS 1990",
       "course_code": "MLS 1990",
       "department": "MLS",
@@ -307,6 +252,17 @@
       "description": "See Schedule of Courses for specific titles.",
       "prereq_expression": null,
       "other_requirements": "Students will need to complete laboratory safety requirements during the first week of class and wear appropriate clothing to class each week as it will be held in the laboratory.",
+      "external": false
+    },
+    {
+      "id": "MLS 6700",
+      "course_code": "MLS 6700",
+      "department": "MLS",
+      "title": "Clinical Practicum",
+      "credit_hours": "12",
+      "description": "Clinical Practicum involves a semester long directed clinical practice in Hematology, Chemistry, Microbiology, Immunohematology, and Molecular Biology at assigned clinical affiliate sites. Prerequisites: <a href=\"/search/?p=MLS%203300\" data-action=\"result-detail\" data-group=\"code:MLS 3300\"  class=\"notoffered\">MLS 3300</a>, <a href=\"/search/?p=MMG%203230\" data-action=\"result-detail\" data-group=\"code:MMG 3230\"  class=\"notoffered\">MMG 3230</a>, <a href=\"/search/?p=MLS%203100\" data-action=\"result-detail\" data-group=\"code:MLS 3100\"  class=\"notoffered\">MLS 3100</a>, <a href=\"/search/?p=MMG%203220\" data-action=\"result-detail\" data-group=\"code:MMG 3220\" >MMG 3220</a>, <a href=\"/search/?p=MLS%203110\" data-action=\"result-detail\" data-group=\"code:MLS 3110\" >MLS 3110</a>, <a href=\"/search/?p=MLS%203200\" data-action=\"result-detail\" data-group=\"code:MLS 3200\"  class=\"notoffered\">MLS 3200</a>, <a href=\"/search/?p=MLS%203400\" data-action=\"result-detail\" data-group=\"code:MLS 3400\"  class=\"notoffered\">MLS 3400</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MLS 3300\"}, {\"type\": \"course\", \"code\": \"MMG 3230\"}, {\"type\": \"course\", \"code\": \"MLS 3100\"}, {\"type\": \"course\", \"code\": \"MMG 3220\"}, {\"type\": \"course\", \"code\": \"MLS 3110\"}, {\"type\": \"course\", \"code\": \"MLS 3200\"}, {\"type\": \"course\", \"code\": \"MLS 3400\"}]}",
+      "other_requirements": "MLSC Grad students only; Offsite Clinical Affiliate 8-5",
       "external": false
     },
     {
@@ -321,6 +277,72 @@
       "external": true
     },
     {
+      "id": "PATH 2010",
+      "course_code": "PATH 2010",
+      "department": "PATH",
+      "title": "Intro to Human Disease",
+      "credit_hours": "3",
+      "description": "Elementary course in human pathology designed for Allied Health students. First portion deals with general mechanisms of disease, followed by disorders of specific organs. Prerequisites: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a> and <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}",
+      "other_requirements": "MLS, MRS, NMT and RADT majors only; Prerequisites: College biology and two successfully completed semesters of Anatomy and Physiology.",
+      "external": true
+    },
+    {
+      "id": "MLS 3300",
+      "course_code": "MLS 3300",
+      "department": "MLS",
+      "title": "Clinical Microbiology II",
+      "credit_hours": "3",
+      "description": "Comprehensive study of non-bacterial pathogenic microorganisms and their disease states in humans. Includes medical mycology, parasitology and virology. Credit not awarded for both MLS 3300 and <a href=\"/search/?p=MLS%205300\" data-action=\"result-detail\" data-group=\"code:MLS 5300\"  class=\"notoffered\">MLS 5300</a>. Prerequisites: <a href=\"/search/?p=MMG%201650\" data-action=\"result-detail\" data-group=\"code:MMG 1650\" >MMG 1650</a> or <a href=\"/search/?p=MMG%202010\" data-action=\"result-detail\" data-group=\"code:MMG 2010\" >MMG 2010</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MMG 1650\"}, {\"type\": \"course\", \"code\": \"MMG 2010\"}]}",
+      "other_requirements": "Credit not awarded for both MLS 3300 and MLS 5300. Open to Degree and PACE students.",
+      "external": false
+    },
+    {
+      "id": "MLS 3100",
+      "course_code": "MLS 3100",
+      "department": "MLS",
+      "title": "Clinical Chemistry I",
+      "credit_hours": "4",
+      "description": "Lectures and laboratory experiences introduce basic principles in clinical quantitative analysis and laboratory instrumentation; test results are correlated with clinical case studies. Credit not awarded for both MLS 3100 and <a href=\"/search/?p=MLS%205100\" data-action=\"result-detail\" data-group=\"code:MLS 5100\"  class=\"notoffered\">MLS 5100</a>. Prerequisites: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a> and <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>; <a href=\"/search/?p=CHEM%201400\" data-action=\"result-detail\" data-group=\"code:CHEM 1400\" >CHEM 1400</a> and <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>; <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\"  class=\"notoffered\">CHEM 1580</a> or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\" >CHEM 2580</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1400\"}, {\"type\": \"course\", \"code\": \"CHEM 1450\"}, {\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1580\"}, {\"type\": \"course\", \"code\": \"CHEM 2580\"}]}]}",
+      "other_requirements": "MLS, BMCS, MEDD minor, MLS PBC PACE students\nOpen to Degree and PACE students.\nor Instructor Permission;\nMed Diag Minor Students Only for 3 credits; Prereqs enforced\nby the system: Lab Fee $70.00;",
+      "external": false
+    },
+    {
+      "id": "MLS 3400",
+      "course_code": "MLS 3400",
+      "department": "MLS",
+      "title": "Immunohematology",
+      "credit_hours": "4",
+      "description": "Advanced theory and experience related to human blood groups and transfusion practice. Credit not awarded for both MLS 3400 and <a href=\"/search/?p=MLS%205400\" data-action=\"result-detail\" data-group=\"code:MLS 5400\"  class=\"notoffered\">MLS 5400</a>. Prerequisite: <a href=\"/search/?p=BHSC%203420\" data-action=\"result-detail\" data-group=\"code:BHSC 3420\"  class=\"notoffered\">BHSC 3420</a> or <a href=\"/search/?p=MMG%203230\" data-action=\"result-detail\" data-group=\"code:MMG 3230\"  class=\"notoffered\">MMG 3230</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BHSC 3420\"}, {\"type\": \"course\", \"code\": \"MMG 3230\"}]}",
+      "other_requirements": "MLS, BMCS, MLS PBC PACE students: Prereqs enforced by the system: Immunohematology Lab Fee: $70.00; Open to Degree and PACE students.",
+      "external": false
+    },
+    {
+      "id": "MLS 6100",
+      "course_code": "MLS 6100",
+      "department": "MLS",
+      "title": "Advanced Immunobiology",
+      "credit_hours": "3",
+      "description": "Advanced survey of key current topics in immunology. Focus on understanding the key concepts and experimental approaches in the major areas in immunology, with an emphasis on applications to human disease. Prerequisites: Cell Biology and Biochemistry recommended.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CELL BIOLOGY\"}, {\"type\": \"course\", \"code\": \"BIOCHEMISTRY\"}]}",
+      "other_requirements": "recommended",
+      "external": false
+    },
+    {
+      "id": "MLS 3220",
+      "course_code": "MLS 3220",
+      "department": "MLS",
+      "title": "Hematology Lab",
+      "credit_hours": "1",
+      "description": "The laboratory sessions will cover four broad areas of hematology practice: 1) laboratory tests associated with hemostasis, 2) laboratory tests and morphology seen in diseases affecting WBC cells, 3) peripheral blood and bone marrow cell morphology, and 4) laboratory tests and the associated morphology diagnostic of various RBC disorders. Prerequisite: One semester of organic chemistry, one semester of biochemistry. Co-requisite: <a href=\"/search/?p=MLS%203200\" data-action=\"result-detail\" data-group=\"code:MLS 3200\" >MLS 3200</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1210\"}, {\"type\": \"course\", \"code\": \"CHEM 1220\"}]}",
+      "other_requirements": "MLS, BMCS or MLS PBC PACE Students; Or Instructor Permission; $70 lab fee; PACE students by permission and override.",
+      "external": false
+    },
+    {
       "id": "MLS 3110",
       "course_code": "MLS 3110",
       "department": "MLS",
@@ -332,36 +354,14 @@
       "external": false
     },
     {
-      "id": "MLS 3392",
-      "course_code": "MLS 3392",
+      "id": "MLS 3492",
+      "course_code": "MLS 3492",
       "department": "MLS",
-      "title": "Clin Practicum:Microbiology",
+      "title": "Clin Practicum:Immunohematolog",
       "credit_hours": "3",
-      "description": "Experiences in an approved clinical laboratory education site in the area of clinical microbiology. Prerequisite: Medical Laboratory Science Seniors only.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MLS 3192\"}, {\"type\": \"course\", \"code\": \"MLS 3292\"}, {\"type\": \"course\", \"code\": \"MLS 3492\"}]}",
+      "description": "Experiences in an approved clinical laboratory education site in the area of clinical immunohematology. Prerequisite: Medical Laboratory Science Seniors only.",
+      "prereq_expression": null,
       "other_requirements": "Medical Laboratory Science Seniors only. MLS Seniors and MLS PBC students only.",
-      "external": false
-    },
-    {
-      "id": "MLS 3192",
-      "course_code": "MLS 3192",
-      "department": "MLS",
-      "title": "Clinical Practicum: Chemistry",
-      "credit_hours": "3",
-      "description": "Experiences in an approved clinical laboratory education site in the area of clinical chemistry. Prerequisite: Medical Laboratory Science Seniors only.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MLS 3292\"}, {\"type\": \"course\", \"code\": \"MLS 3393\"}, {\"type\": \"course\", \"code\": \"MLS 3492\"}]}",
-      "other_requirements": "Medical Laboratory Science Seniors only. MLS Seniors and MLS PBC students only.",
-      "external": false
-    },
-    {
-      "id": "MLS 3200",
-      "course_code": "MLS 3200",
-      "department": "MLS",
-      "title": "Hematology",
-      "credit_hours": "3",
-      "description": "Advanced theory and analysis of blood cell physiology and related pathology. Concepts of hemostasis and clinical assessment methods. Credit not awarded for both MLS 3200 and <a href=\"/search/?p=MLS%205200\" data-action=\"result-detail\" data-group=\"code:MLS 5200\"  class=\"notoffered\">MLS 5200</a>. Prerequisites: One semester of organic chemistry, one semester of biochemistry.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MLS 3200\"}, {\"type\": \"course\", \"code\": \"MLS 5200\"}]}, {\"type\": \"course\", \"code\": \"Biochemistry\"}]}",
-      "other_requirements": "One semester of organic chemistry. MLS, BMCS, MLS PBC PACE students, or Instructor Permission. Open to Degree and PACE students.",
       "external": false
     }
   ],
@@ -458,23 +458,8 @@
     },
     {
       "source": "MLS 3192",
-      "target": "MLS 3292",
-      "group": "MLS 3292__g0"
-    },
-    {
-      "source": "MLS 3192",
       "target": "MLS 3392",
       "group": "MLS 3392__g0"
-    },
-    {
-      "source": "MLS 3192",
-      "target": "MLS 3492",
-      "group": null
-    },
-    {
-      "source": "MLS 3200",
-      "target": "MLS 3200",
-      "group": "MLS 3200__g0"
     },
     {
       "source": "MLS 3200",
@@ -484,21 +469,6 @@
     {
       "source": "MLS 3200",
       "target": "MLS 6700",
-      "group": null
-    },
-    {
-      "source": "MLS 3292",
-      "target": "MLS 3192",
-      "group": "MLS 3192__g0"
-    },
-    {
-      "source": "MLS 3292",
-      "target": "MLS 3392",
-      "group": "MLS 3392__g0"
-    },
-    {
-      "source": "MLS 3292",
-      "target": "MLS 3492",
       "group": null
     },
     {
@@ -512,16 +482,6 @@
       "group": null
     },
     {
-      "source": "MLS 3392",
-      "target": "MLS 3292",
-      "group": "MLS 3292__g0"
-    },
-    {
-      "source": "MLS 3392",
-      "target": "MLS 3492",
-      "group": null
-    },
-    {
       "source": "MLS 3400",
       "target": "MLS 6000",
       "group": null
@@ -530,21 +490,6 @@
       "source": "MLS 3400",
       "target": "MLS 6700",
       "group": null
-    },
-    {
-      "source": "MLS 3492",
-      "target": "MLS 3192",
-      "group": "MLS 3192__g0"
-    },
-    {
-      "source": "MLS 3492",
-      "target": "MLS 3292",
-      "group": "MLS 3292__g0"
-    },
-    {
-      "source": "MLS 3492",
-      "target": "MLS 3392",
-      "group": "MLS 3392__g0"
     },
     {
       "source": "MMG 1650",

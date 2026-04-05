@@ -2,25 +2,14 @@
   "department": "CALS",
   "nodes": [
     {
-      "id": "CALS 1991",
-      "course_code": "CALS 1991",
+      "id": "CALS 2991",
+      "course_code": "CALS 2991",
       "department": "CALS",
-      "title": "Internship",
-      "credit_hours": "1 to 3",
+      "title": "Int:Self Design Major Proposal",
+      "credit_hours": "0.5 to 18",
       "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"CALS 1991\"}, {\"type\": \"course\", \"code\": \"PACE\"}]}",
-      "other_requirements": "Instructor permission required. PACE Student by Permission and Override",
-      "external": false
-    },
-    {
-      "id": "CALS 2990",
-      "course_code": "CALS 2990",
-      "department": "CALS",
-      "title": "Junior Honors College Seminar",
-      "credit_hours": "2",
-      "description": "Appropriate for interdepartmental and interdisciplinary topics in Agriculture and Life Sciences. Permission of Dean's Office.",
       "prereq_expression": null,
-      "other_requirements": "Permission of Dean's Office. Instructor permission required",
+      "other_requirements": "Instructor permission required; PACE Student by Permission and Override Students who successfully complete and present their proposals for the CALS Self Design Major program can register for this 1-credit experience. Students work with the CALS Self Design Major Program Director and their Academic Advisor to prepare a complete written proposal and deliver a presentation to the Faculty Review Committee.",
       "external": false
     },
     {
@@ -30,6 +19,17 @@
       "title": "1st year Honors Colloquium",
       "credit_hours": "1 to 18",
       "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "CALS 1010",
+      "course_code": "CALS 1010",
+      "department": "CALS",
+      "title": "Foundations:Communication Meth",
+      "credit_hours": "3",
+      "description": "Foundational course to acclimate College of Agriculture &amp; Life Science First-Year students to college life and develop individual and group public speaking skills through giving and critically analyzing presentations.",
       "prereq_expression": null,
       "other_requirements": null,
       "external": false
@@ -57,14 +57,36 @@
       "external": false
     },
     {
-      "id": "CALS 2991",
-      "course_code": "CALS 2991",
+      "id": "CALS 2990",
+      "course_code": "CALS 2990",
       "department": "CALS",
-      "title": "Int:Self Design Major Proposal",
-      "credit_hours": "0.5 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "title": "Junior Honors College Seminar",
+      "credit_hours": "2",
+      "description": "Appropriate for interdepartmental and interdisciplinary topics in Agriculture and Life Sciences. Permission of Dean's Office.",
       "prereq_expression": null,
-      "other_requirements": "Instructor permission required; PACE Student by Permission and Override Students who successfully complete and present their proposals for the CALS Self Design Major program can register for this 1-credit experience. Students work with the CALS Self Design Major Program Director and their Academic Advisor to prepare a complete written proposal and deliver a presentation to the Faculty Review Committee.",
+      "other_requirements": "Permission of Dean's Office. Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "CALS 2994",
+      "course_code": "CALS 2994",
+      "department": "CALS",
+      "title": "Teaching Assistant-Info Tech",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required; PACE Student by Permission and Override",
+      "external": false
+    },
+    {
+      "id": "CALS 1991",
+      "course_code": "CALS 1991",
+      "department": "CALS",
+      "title": "Internship",
+      "credit_hours": "1 to 3",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"PACE\"}",
+      "other_requirements": "Instructor permission required. PACE Student by Permission and Override",
       "external": false
     },
     {
@@ -88,35 +110,7 @@
       "prereq_expression": null,
       "other_requirements": "Sophomore standing only; Instructor permission. Instructor permission required PACE Student by Permission and Override",
       "external": false
-    },
-    {
-      "id": "CALS 1010",
-      "course_code": "CALS 1010",
-      "department": "CALS",
-      "title": "Foundations:Communication Meth",
-      "credit_hours": "3",
-      "description": "Foundational course to acclimate College of Agriculture &amp; Life Science First-Year students to college life and develop individual and group public speaking skills through giving and critically analyzing presentations.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "CALS 2994",
-      "course_code": "CALS 2994",
-      "department": "CALS",
-      "title": "Teaching Assistant-Info Tech",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required; PACE Student by Permission and Override",
-      "external": false
     }
   ],
-  "edges": [
-    {
-      "source": "CALS 1991",
-      "target": "CALS 1991",
-      "group": null
-    }
-  ]
+  "edges": []
 }

@@ -2,58 +2,14 @@
   "department": "EXSC",
   "nodes": [
     {
-      "id": "EXSC 3700",
-      "course_code": "EXSC 3700",
+      "id": "EXSC 3098",
+      "course_code": "EXSC 3098",
       "department": "EXSC",
-      "title": "Exer Sci Professional Seminar",
-      "credit_hours": "1",
-      "description": "Junior seminar that bridges the foundational curricular experience with professional practice and/or post-graduate education. Professional seminar topics include but are not limited to: resume development, interviewing techniques, collaborative communication, etc.",
-      "prereq_expression": null,
-      "other_requirements": "EXSC juniors only; others by instructor permission",
-      "external": false
-    },
-    {
-      "id": "EXSC 3130",
-      "course_code": "EXSC 3130",
-      "department": "EXSC",
-      "title": "Biomechanics of Human Movement",
+      "title": "Current Trends and Advancement",
       "credit_hours": "3",
-      "description": "Understanding biomechanical principles for the description and analysis of human movement (whole-body, joint, gait, balance, etc.) in relation to performance, injuries, and other conditions. Applying biomechanical knowledge and tools to design assessments, quantify movement, and evaluate results. Prerequisites: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a>, <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>, <a href=\"/search/?p=EXSC%202750\" data-action=\"result-detail\" data-group=\"code:EXSC 2750\"  class=\"notoffered\">EXSC 2750</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}, {\"type\": \"course\", \"code\": \"EXSC 2750\"}]}",
-      "other_requirements": "EXSC Students; All others by instructor permission; Open to Degree and PACE students.",
-      "external": false
-    },
-    {
-      "id": "EXSC 3600",
-      "course_code": "EXSC 3600",
-      "department": "EXSC",
-      "title": "Adapted Physical Activity",
-      "credit_hours": "3",
-      "description": "Examines current issues surrounding physical activity programming for individuals with disabilities. Emphasizes instructional strategies and modifications for effectively including individuals with diverse abilities into physical activity. Prerequisite: Exercise Science or Teacher Education Physical Education major; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EXSC 3600\"}]}",
-      "other_requirements": "Exercise Science or Teacher Education Physical Education major; minimum Junior standing. EXSC majors only; Juniors and seniors only",
-      "external": false
-    },
-    {
-      "id": "EXSC 3993",
-      "course_code": "EXSC 3993",
-      "department": "EXSC",
-      "title": "Independent Study",
-      "credit_hours": "1 to 4",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EXSC 3995",
-      "course_code": "EXSC 3995",
-      "department": "EXSC",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "EXSC Majors Only. Instructor Permission Required.",
+      "description": "Review of selected advances in the field of exercise science as they pertain to Health and Human Performance to help future health professionals from a range of disciplines improve their observational and analytical abilities. Incorporates hands-on learning models to give a more in depth understanding of Health and Human Performance. Prerequisites: <a href=\"/search/?p=EXSC%203500\" data-action=\"result-detail\" data-group=\"code:EXSC 3500\" >EXSC 3500</a>, <a href=\"/search/?p=EXSC%203501\" data-action=\"result-detail\" data-group=\"code:EXSC 3501\" >EXSC 3501</a>, Senior standing, Exercise Science student.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EXSC 3500\"}, {\"type\": \"course\", \"code\": \"EXSC 3501\"}]}",
+      "other_requirements": "Senior standing, Exercise Science student. EXSC seniors only; others by instructor permission only;",
       "external": false
     },
     {
@@ -68,94 +24,6 @@
       "external": false
     },
     {
-      "id": "EXSC 2991",
-      "course_code": "EXSC 2991",
-      "department": "EXSC",
-      "title": "Internship",
-      "credit_hours": "1 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "EXSC Majors only; Instructor Permission Required; 1-3 credits",
-      "external": false
-    },
-    {
-      "id": "EXSC 2750",
-      "course_code": "EXSC 2750",
-      "department": "EXSC",
-      "title": "Applied Kinesiology",
-      "credit_hours": "3",
-      "description": "Foundational course examining applied kinesiology of human movement with focus on musculoskeletal anatomy. Prerequisite: Minimum Sophomore Exercise Science major.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EXSC 2750\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EXSC 2750\"}, {\"type\": \"course\", \"code\": \"EXSC 2750\"}]}]}",
-      "other_requirements": "Minimum Sophomore Exercise Science major. EXSC majors only sophomore standing or instructor permission",
-      "external": false
-    },
-    {
-      "id": "EXSC 3640",
-      "course_code": "EXSC 3640",
-      "department": "EXSC",
-      "title": "Certified Exerc Physiologist",
-      "credit_hours": "3",
-      "description": "Designed to prepare students for the ACSM Certified Exercise Physiologist exam and includes a high level review of exercise physiology, risk stratification, and fitness assessments. Prerequisites: <a href=\"/search/?p=EXSC%203500\" data-action=\"result-detail\" data-group=\"code:EXSC 3500\"  class=\"notoffered\">EXSC 3500</a>, <a href=\"/search/?p=EXSC%203450\" data-action=\"result-detail\" data-group=\"code:EXSC 3450\" >EXSC 3450</a>; Senior standing.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EXSC 3500\"}, {\"type\": \"course\", \"code\": \"EXSC 3450\"}]}",
-      "other_requirements": "Senior standing. EXSC majors only",
-      "external": false
-    },
-    {
-      "id": "EXSC 3098",
-      "course_code": "EXSC 3098",
-      "department": "EXSC",
-      "title": "Current Trends and Advancement",
-      "credit_hours": "3",
-      "description": "Review of selected advances in the field of exercise science as they pertain to Health and Human Performance to help future health professionals from a range of disciplines improve their observational and analytical abilities. Incorporates hands-on learning models to give a more in depth understanding of Health and Human Performance. Prerequisites: <a href=\"/search/?p=EXSC%203500\" data-action=\"result-detail\" data-group=\"code:EXSC 3500\" >EXSC 3500</a>, <a href=\"/search/?p=EXSC%203501\" data-action=\"result-detail\" data-group=\"code:EXSC 3501\" >EXSC 3501</a>, Senior standing, Exercise Science student.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EXSC 3500\"}, {\"type\": \"course\", \"code\": \"EXSC 3501\"}]}",
-      "other_requirements": "Senior standing, Exercise Science student. EXSC seniors only; others by instructor permission only;",
-      "external": false
-    },
-    {
-      "id": "EXSC 3400",
-      "course_code": "EXSC 3400",
-      "department": "EXSC",
-      "title": "Motor Skill Learning & Control",
-      "credit_hours": "3",
-      "description": "Examines theoretical perspectives and current principles associated with the control and learning of movement skills. Practical application of concepts to instructional and clinical settings emphasized. Prerequisites: Minimum Junior standing; Exercise Science or Teacher Education Physical Education majors only.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}",
-      "other_requirements": "Minimum Junior standing; Exercise Science or Teacher Education Physical Education majors only; EXSC Majors only",
-      "external": false
-    },
-    {
-      "id": "EXSC 3501",
-      "course_code": "EXSC 3501",
-      "department": "EXSC",
-      "title": "Exercise Physiology Lab",
-      "credit_hours": "1",
-      "description": "Teaches how to measure and evaluate physiological function and structure. Prerequisites: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a>, <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>. Co-requisites: <a href=\"/search/?p=EXSC%203500\" data-action=\"result-detail\" data-group=\"code:EXSC 3500\" >EXSC 3500</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}",
-      "other_requirements": "Restricted to EXSC Juniors; All others by instructor permission; Degree students only; PACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "EXSC 3990",
-      "course_code": "EXSC 3990",
-      "department": "EXSC",
-      "title": "Special Topics: Lifestyle Medi",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EXSC 3500\"}, {\"type\": \"course\", \"code\": \"EXSC 3501\"}]}",
-      "other_requirements": "EXSC seniors only; others by instructor permission only",
-      "external": false
-    },
-    {
-      "id": "EXSC 1650",
-      "course_code": "EXSC 1650",
-      "department": "EXSC",
-      "title": "Foundations Ex & Hlth Act Pop",
-      "credit_hours": "3",
-      "description": "Provides a foundation of knowledge in the field of exercise science with a primary focus on maintaining health and performance in a physically active population. Surveys the basics of physical performance development, and injury prevention and care common to physically active populations. Prerequisites: Exercise Science major, Physical Education major, or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EXSC 1650\"}, {\"type\": \"course\", \"code\": \"PHED 1650\"}]}",
-      "other_requirements": "Exercise Science major, Physical Education major, or Instructor permission. EXSC majors only. All others by instructor permission only.",
-      "external": false
-    },
-    {
       "id": "EXSC 2420",
       "course_code": "EXSC 2420",
       "department": "EXSC",
@@ -164,17 +32,6 @@
       "description": "Emphasis on personality and behavioral dynamics of sport, psychological changes associated with exercise, assessment, performance enhancement, motivation, anxiety, group processes, and exercise adoption and maintenance. Prerequisite: <a href=\"/search/?p=PSYS%201400\" data-action=\"result-detail\" data-group=\"code:PSYS 1400\" >PSYS 1400</a>.",
       "prereq_expression": "{\"type\": \"course\", \"code\": \"PSYS 1400\"}",
       "other_requirements": "Sophomore standing or higher; EXSC students only",
-      "external": false
-    },
-    {
-      "id": "EXSC 2200",
-      "course_code": "EXSC 2200",
-      "department": "EXSC",
-      "title": "EBP in Exercise Science",
-      "credit_hours": "3",
-      "description": "Develops students' basic evidence-based practice knowledge and skills, and applies findings to their practice as health and wellness professionals. Topics addressed include evidence-based practice research methods, research study design, basic statistics, and evaluation of research evidence as they apply to clinical practice and decision making. Prerequisite: Exercise Science major.",
-      "prereq_expression": null,
-      "other_requirements": "Exercise Science major. EXSC students only; others by instructor permission. PACE students by permission and override.",
       "external": false
     },
     {
@@ -189,37 +46,26 @@
       "external": true
     },
     {
-      "id": "EXSC 6995",
-      "course_code": "EXSC 6995",
+      "id": "EXSC 4720",
+      "course_code": "EXSC 4720",
       "department": "EXSC",
-      "title": "Graduate Independent Research",
-      "credit_hours": "1 to 18",
-      "description": "Graduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "title": "Senior Capstone Experience",
+      "credit_hours": "1 to 6",
+      "description": "Supervised capstone experience in Exercise Science. Prerequisite: Senior standing in Exercise Science.",
       "prereq_expression": null,
-      "other_requirements": "Graduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Instructor permission required",
+      "other_requirements": "Senior standing in Exercise Science",
       "external": false
     },
     {
-      "id": "EXSC 3620",
-      "course_code": "EXSC 3620",
+      "id": "EXSC 3630",
+      "course_code": "EXSC 3630",
       "department": "EXSC",
-      "title": "Human Perf & Ergogenic Aids",
+      "title": "Exercise in Chronic Conditions",
       "credit_hours": "3",
-      "description": "An exploration of ergogenic and pharmacological supplements germane to the sport and exercise arena. Topics will include legal, banned, and over the counter pharmacological supplementation for performance enhancement and physiological improvement, drug testing procedures of major groups, and current position statements and/or research in this area. Prerequisites: Exercise Science major; <a href=\"/search/?p=EXSC%203450\" data-action=\"result-detail\" data-group=\"code:EXSC 3450\" >EXSC 3450</a> or <a href=\"/search/?p=EXSC%203500\" data-action=\"result-detail\" data-group=\"code:EXSC 3500\"  class=\"notoffered\">EXSC 3500</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EXSC 3450\"}, {\"type\": \"course\", \"code\": \"EXSC 3500\"}]}",
-      "other_requirements": "Exercise Science major; EXSC juniors only",
+      "description": "Advanced course in exercise prescription for a variety of unique populations. Recommended modifications and techniques that support fitness testing and and programming for individuals with specific exercise needs will be reviewed. Prerequisites: <a href=\"/search/?p=EXSC%203600\" data-action=\"result-detail\" data-group=\"code:EXSC 3600\" >EXSC 3600</a>; Senior standing in Exercise Science.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EXSC 3600\"}, {\"type\": \"course\", \"code\": \"EXSC 3600\"}]}",
+      "other_requirements": "Senior standing in Exercise Science. EXSC seniors only",
       "external": false
-    },
-    {
-      "id": "PSYS 1400",
-      "course_code": "PSYS 1400",
-      "department": "PSYS",
-      "title": "Intro to Psychological Science",
-      "credit_hours": "3",
-      "description": "Introduction to the entire field, emphasizing the behavior of the normal adult human being.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": true
     },
     {
       "id": "EXSC 2993",
@@ -233,14 +79,14 @@
       "external": false
     },
     {
-      "id": "EXSC 3450",
-      "course_code": "EXSC 3450",
+      "id": "EXSC 2750",
+      "course_code": "EXSC 2750",
       "department": "EXSC",
-      "title": "Evaluation & Prescription",
+      "title": "Applied Kinesiology",
       "credit_hours": "3",
-      "description": "Delivers in-depth applied and clinical functional measurement and evaluation techniques with subsequent exercise prescription for a variety of populations and conditions. Prerequisite: Senior standing in Exercise Science. Pre/Co-requisites: <a href=\"/search/?p=EXSC%203500\" data-action=\"result-detail\" data-group=\"code:EXSC 3500\"  class=\"notoffered\">EXSC 3500</a>, <a href=\"/search/?p=EXSC%203501\" data-action=\"result-detail\" data-group=\"code:EXSC 3501\"  class=\"notoffered\">EXSC 3501</a>, Senior standing in Exercise Science.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EXSC 3500\"}, {\"type\": \"course\", \"code\": \"EXSC 3501\"}]}",
-      "other_requirements": "Senior standing in Exercise Science. EXSC students only. PACE students by permission and override. Junior standing in Exercise Science.",
+      "description": "Foundational course examining applied kinesiology of human movement with focus on musculoskeletal anatomy. Prerequisite: Minimum Sophomore Exercise Science major.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Sophomore Exercise Science major. EXSC majors only sophomore standing or instructor permission",
       "external": false
     },
     {
@@ -255,25 +101,113 @@
       "external": false
     },
     {
-      "id": "EXSC 2995",
-      "course_code": "EXSC 2995",
+      "id": "EXSC 2994",
+      "course_code": "EXSC 2994",
       "department": "EXSC",
-      "title": "Undergraduate Research",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "EXSC Majors only; Instructor Permission Required",
+      "external": false
+    },
+    {
+      "id": "EXSC 6995",
+      "course_code": "EXSC 6995",
+      "department": "EXSC",
+      "title": "Graduate Independent Research",
       "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "description": "Graduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Instructor permission required",
+      "external": false
+    },
+    {
+      "id": "EXSC 3640",
+      "course_code": "EXSC 3640",
+      "department": "EXSC",
+      "title": "Certified Exerc Physiologist",
+      "credit_hours": "3",
+      "description": "Designed to prepare students for the ACSM Certified Exercise Physiologist exam and includes a high level review of exercise physiology, risk stratification, and fitness assessments. Prerequisites: <a href=\"/search/?p=EXSC%203500\" data-action=\"result-detail\" data-group=\"code:EXSC 3500\"  class=\"notoffered\">EXSC 3500</a>, <a href=\"/search/?p=EXSC%203450\" data-action=\"result-detail\" data-group=\"code:EXSC 3450\" >EXSC 3450</a>; Senior standing.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EXSC 3500\"}, {\"type\": \"course\", \"code\": \"EXSC 3450\"}]}",
+      "other_requirements": "Senior standing. EXSC majors only",
+      "external": false
+    },
+    {
+      "id": "EXSC 3700",
+      "course_code": "EXSC 3700",
+      "department": "EXSC",
+      "title": "Exer Sci Professional Seminar",
+      "credit_hours": "1",
+      "description": "Junior seminar that bridges the foundational curricular experience with professional practice and/or post-graduate education. Professional seminar topics include but are not limited to: resume development, interviewing techniques, collaborative communication, etc.",
+      "prereq_expression": null,
+      "other_requirements": "EXSC juniors only; others by instructor permission",
+      "external": false
+    },
+    {
+      "id": "PSYS 1400",
+      "course_code": "PSYS 1400",
+      "department": "PSYS",
+      "title": "Intro to Psychological Science",
+      "credit_hours": "3",
+      "description": "Introduction to the entire field, emphasizing the behavior of the normal adult human being.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": true
+    },
+    {
+      "id": "EXSC 3130",
+      "course_code": "EXSC 3130",
+      "department": "EXSC",
+      "title": "Biomechanics of Human Movement",
+      "credit_hours": "3",
+      "description": "Understanding biomechanical principles for the description and analysis of human movement (whole-body, joint, gait, balance, etc.) in relation to performance, injuries, and other conditions. Applying biomechanical knowledge and tools to design assessments, quantify movement, and evaluate results. Prerequisites: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a>, <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>, <a href=\"/search/?p=EXSC%202750\" data-action=\"result-detail\" data-group=\"code:EXSC 2750\"  class=\"notoffered\">EXSC 2750</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}, {\"type\": \"course\", \"code\": \"EXSC 2750\"}]}",
+      "other_requirements": "EXSC Students; All others by instructor permission; Open to Degree and PACE students.",
+      "external": false
+    },
+    {
+      "id": "EXSC 3993",
+      "course_code": "EXSC 3993",
+      "department": "EXSC",
+      "title": "Independent Study",
+      "credit_hours": "1 to 4",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "EXSC 2200",
+      "course_code": "EXSC 2200",
+      "department": "EXSC",
+      "title": "EBP in Exercise Science",
+      "credit_hours": "3",
+      "description": "Develops students' basic evidence-based practice knowledge and skills, and applies findings to their practice as health and wellness professionals. Topics addressed include evidence-based practice research methods, research study design, basic statistics, and evaluation of research evidence as they apply to clinical practice and decision making. Prerequisite: Exercise Science major.",
+      "prereq_expression": null,
+      "other_requirements": "Exercise Science major. EXSC students only; others by instructor permission. PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "EXSC 2991",
+      "course_code": "EXSC 2991",
+      "department": "EXSC",
+      "title": "Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": "EXSC Majors only; Instructor Permission Required; 1-3 credits",
       "external": false
     },
     {
-      "id": "EXSC 3500",
-      "course_code": "EXSC 3500",
+      "id": "EXSC 3501",
+      "course_code": "EXSC 3501",
       "department": "EXSC",
-      "title": "Exercise Physiology",
-      "credit_hours": "3",
-      "description": "Explores the acute and long-term responses to exercise on the metabolic, skeletal, cardiovascular, and respiratory systems. Prerequisites: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a>, <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>.",
+      "title": "Exercise Physiology Lab",
+      "credit_hours": "1",
+      "description": "Teaches how to measure and evaluate physiological function and structure. Prerequisites: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a>, <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>. Co-requisites: <a href=\"/search/?p=EXSC%203500\" data-action=\"result-detail\" data-group=\"code:EXSC 3500\" >EXSC 3500</a>.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}",
-      "other_requirements": "Restricted to EXSC & PE students; All others by instructor permission only. Degree students only; PACE students register for EXSC 3500 ZRA",
+      "other_requirements": "Restricted to EXSC Juniors; All others by instructor permission; Degree students only; PACE students by permission and override",
       "external": false
     },
     {
@@ -288,36 +222,102 @@
       "external": true
     },
     {
-      "id": "EXSC 4720",
-      "course_code": "EXSC 4720",
+      "id": "EXSC 2995",
+      "course_code": "EXSC 2995",
       "department": "EXSC",
-      "title": "Senior Capstone Experience",
-      "credit_hours": "1 to 6",
-      "description": "Supervised capstone experience in Exercise Science. Prerequisite: Senior standing in Exercise Science.",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
-      "other_requirements": "Senior standing in Exercise Science",
+      "other_requirements": "EXSC Majors only; Instructor Permission Required; 1-3 credits",
       "external": false
     },
     {
-      "id": "EXSC 2994",
-      "course_code": "EXSC 2994",
+      "id": "EXSC 3400",
+      "course_code": "EXSC 3400",
       "department": "EXSC",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "EXSC Majors only; Instructor Permission Required",
-      "external": false
-    },
-    {
-      "id": "EXSC 3630",
-      "course_code": "EXSC 3630",
-      "department": "EXSC",
-      "title": "Exercise in Chronic Conditions",
+      "title": "Motor Skill Learning & Control",
       "credit_hours": "3",
-      "description": "Advanced course in exercise prescription for a variety of unique populations. Recommended modifications and techniques that support fitness testing and and programming for individuals with specific exercise needs will be reviewed. Prerequisites: <a href=\"/search/?p=EXSC%203600\" data-action=\"result-detail\" data-group=\"code:EXSC 3600\" >EXSC 3600</a>; Senior standing in Exercise Science.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EXSC 3600\"}, {\"type\": \"course\", \"code\": \"EXSC 3600\"}]}",
-      "other_requirements": "Senior standing in Exercise Science. EXSC seniors only",
+      "description": "Examines theoretical perspectives and current principles associated with the control and learning of movement skills. Practical application of concepts to instructional and clinical settings emphasized. Prerequisites: Minimum Junior standing; Exercise Science or Teacher Education Physical Education majors only.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}",
+      "other_requirements": "Minimum Junior standing; Exercise Science or Teacher Education Physical Education majors only; EXSC Majors only",
+      "external": false
+    },
+    {
+      "id": "EXSC 3500",
+      "course_code": "EXSC 3500",
+      "department": "EXSC",
+      "title": "Exercise Physiology",
+      "credit_hours": "3",
+      "description": "Explores the acute and long-term responses to exercise on the metabolic, skeletal, cardiovascular, and respiratory systems. Prerequisites: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a>, <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}",
+      "other_requirements": "Restricted to EXSC & PE students; All others by instructor permission only. Degree students only; PACE students register for EXSC 3500 ZRA",
+      "external": false
+    },
+    {
+      "id": "EXSC 3620",
+      "course_code": "EXSC 3620",
+      "department": "EXSC",
+      "title": "Human Perf & Ergogenic Aids",
+      "credit_hours": "3",
+      "description": "An exploration of ergogenic and pharmacological supplements germane to the sport and exercise arena. Topics will include legal, banned, and over the counter pharmacological supplementation for performance enhancement and physiological improvement, drug testing procedures of major groups, and current position statements and/or research in this area. Prerequisites: Exercise Science major; <a href=\"/search/?p=EXSC%203450\" data-action=\"result-detail\" data-group=\"code:EXSC 3450\" >EXSC 3450</a> or <a href=\"/search/?p=EXSC%203500\" data-action=\"result-detail\" data-group=\"code:EXSC 3500\"  class=\"notoffered\">EXSC 3500</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EXSC 3450\"}, {\"type\": \"course\", \"code\": \"EXSC 3500\"}]}",
+      "other_requirements": "Exercise Science major; EXSC juniors only",
+      "external": false
+    },
+    {
+      "id": "EXSC 3600",
+      "course_code": "EXSC 3600",
+      "department": "EXSC",
+      "title": "Adapted Physical Activity",
+      "credit_hours": "3",
+      "description": "Examines current issues surrounding physical activity programming for individuals with disabilities. Emphasizes instructional strategies and modifications for effectively including individuals with diverse abilities into physical activity. Prerequisite: Exercise Science or Teacher Education Physical Education major; minimum Junior standing.",
+      "prereq_expression": null,
+      "other_requirements": "Exercise Science or Teacher Education Physical Education major; minimum Junior standing. EXSC majors only; Juniors and seniors only",
+      "external": false
+    },
+    {
+      "id": "EXSC 1650",
+      "course_code": "EXSC 1650",
+      "department": "EXSC",
+      "title": "Foundations Ex & Hlth Act Pop",
+      "credit_hours": "3",
+      "description": "Provides a foundation of knowledge in the field of exercise science with a primary focus on maintaining health and performance in a physically active population. Surveys the basics of physical performance development, and injury prevention and care common to physically active populations. Prerequisites: Exercise Science major, Physical Education major, or Instructor permission.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"PHED 1650\"}",
+      "other_requirements": "Exercise Science major, Physical Education major, or Instructor permission. EXSC majors only. All others by instructor permission only.",
+      "external": false
+    },
+    {
+      "id": "EXSC 3990",
+      "course_code": "EXSC 3990",
+      "department": "EXSC",
+      "title": "Special Topics: Lifestyle Medi",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EXSC 3500\"}, {\"type\": \"course\", \"code\": \"EXSC 3501\"}]}",
+      "other_requirements": "EXSC seniors only; others by instructor permission only",
+      "external": false
+    },
+    {
+      "id": "EXSC 3450",
+      "course_code": "EXSC 3450",
+      "department": "EXSC",
+      "title": "Evaluation & Prescription",
+      "credit_hours": "3",
+      "description": "Delivers in-depth applied and clinical functional measurement and evaluation techniques with subsequent exercise prescription for a variety of populations and conditions. Prerequisite: Senior standing in Exercise Science. Pre/Co-requisites: <a href=\"/search/?p=EXSC%203500\" data-action=\"result-detail\" data-group=\"code:EXSC 3500\"  class=\"notoffered\">EXSC 3500</a>, <a href=\"/search/?p=EXSC%203501\" data-action=\"result-detail\" data-group=\"code:EXSC 3501\"  class=\"notoffered\">EXSC 3501</a>, Senior standing in Exercise Science.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EXSC 3500\"}, {\"type\": \"course\", \"code\": \"EXSC 3501\"}]}",
+      "other_requirements": "Senior standing in Exercise Science. EXSC students only. PACE students by permission and override. Junior standing in Exercise Science.",
+      "external": false
+    },
+    {
+      "id": "EXSC 3995",
+      "course_code": "EXSC 3995",
+      "department": "EXSC",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "EXSC Majors Only. Instructor Permission Required.",
       "external": false
     }
   ],
@@ -368,16 +368,6 @@
       "group": null
     },
     {
-      "source": "EXSC 1650",
-      "target": "EXSC 1650",
-      "group": "EXSC 1650__g0"
-    },
-    {
-      "source": "EXSC 2750",
-      "target": "EXSC 2750",
-      "group": "EXSC 2750__g0"
-    },
-    {
       "source": "EXSC 2750",
       "target": "EXSC 3130",
       "group": null
@@ -441,11 +431,6 @@
       "source": "EXSC 3501",
       "target": "EXSC 3990",
       "group": null
-    },
-    {
-      "source": "EXSC 3600",
-      "target": "EXSC 3600",
-      "group": "EXSC 3600__g0"
     },
     {
       "source": "EXSC 3600",

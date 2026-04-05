@@ -2,14 +2,14 @@
   "department": "BHSC",
   "nodes": [
     {
-      "id": "BHSC 3810",
-      "course_code": "BHSC 3810",
+      "id": "BHSC 2995",
+      "course_code": "BHSC 2995",
       "department": "BHSC",
-      "title": "Applied Molecular Biology",
-      "credit_hours": "3",
-      "description": "Introduces students to the nucleic acid and protein-based molecular diagnostics technology through class presentation, reading, and discussions. Focuses on diagnostic applications for understanding molecular mechanisms of disease. Credit not awarded for both BHSC 3810 and <a href=\"/search/?p=BHSC%205810\" data-action=\"result-detail\" data-group=\"code:BHSC 5810\"  class=\"notoffered\">BHSC 5810</a>. Prerequisite: <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\"  class=\"notoffered\">CHEM 1580</a> or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\" >CHEM 2580</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1580\"}, {\"type\": \"course\", \"code\": \"CHEM 2580\"}]}",
-      "other_requirements": "MLS/BMCS students must take lecture and lab (BHSC 3820); Med. diag. minor students need lecture only; Open to Degree and PACE students;",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Department Permission.",
+      "prereq_expression": null,
+      "other_requirements": "Department Permission. Departmental permission only; Instructor will arrange meeting with students",
       "external": false
     },
     {
@@ -24,114 +24,37 @@
       "external": true
     },
     {
-      "id": "MATH 1012",
-      "course_code": "MATH 1012",
-      "department": "MATH",
-      "title": "College Algebra",
-      "credit_hours": "3",
-      "description": "Sets, relations, functions with particular attention to properties of algebraic, exponential, logarithmic functions, their graphs and applications in preparation for <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>. May not be taken for credit concurrently with, or following receipt of, credit for any mathematics course numbered <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or above. Pre/co-requisites: Two years of secondary school algebra; one year of secondary school geometry.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}]}",
-      "other_requirements": "Two years of secondary school algebra; one year of secondary school geometry.",
-      "external": true
-    },
-    {
-      "id": "BHSC 3820",
-      "course_code": "BHSC 3820",
+      "id": "BHSC 3810",
+      "course_code": "BHSC 3810",
       "department": "BHSC",
-      "title": "Applied Molecular Biology Lab",
-      "credit_hours": "1",
-      "description": "Laboratory experiences include practical concepts of molecular applications. Introduces basic methods used in DNA and Protein technology including plasmid isolation, polymerase chain reaction, restriction enzyme use, and related assays. Credit not awarded for both BHSC 3820 and <a href=\"/search/?p=BHSC%205820\" data-action=\"result-detail\" data-group=\"code:BHSC 5820\"  class=\"notoffered\">BHSC 5820</a>. Prerequisite: <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\"  class=\"notoffered\">CHEM 1580</a> or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\" >CHEM 2580</a>. Co-requisite: <a href=\"/search/?p=BHSC%203810\" data-action=\"result-detail\" data-group=\"code:BHSC 3810\" >BHSC 3810</a>.",
+      "title": "Applied Molecular Biology",
+      "credit_hours": "3",
+      "description": "Introduces students to the nucleic acid and protein-based molecular diagnostics technology through class presentation, reading, and discussions. Focuses on diagnostic applications for understanding molecular mechanisms of disease. Credit not awarded for both BHSC 3810 and <a href=\"/search/?p=BHSC%205810\" data-action=\"result-detail\" data-group=\"code:BHSC 5810\"  class=\"notoffered\">BHSC 5810</a>. Prerequisite: <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\"  class=\"notoffered\">CHEM 1580</a> or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\" >CHEM 2580</a>.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1580\"}, {\"type\": \"course\", \"code\": \"CHEM 2580\"}]}",
-      "other_requirements": "MLS, BMCS or MLS PBC PACE students only; Molecular Bio Lab Fee: $70.00; PACE students by permission and override.",
+      "other_requirements": "MLS/BMCS students must take lecture and lab (BHSC 3820); Med. diag. minor students need lecture only; Open to Degree and PACE students;",
       "external": false
     },
     {
-      "id": "BHSC 3420",
-      "course_code": "BHSC 3420",
+      "id": "BHSC 3993",
+      "course_code": "BHSC 3993",
       "department": "BHSC",
-      "title": "Immunology",
-      "credit_hours": "3",
-      "description": "Deals with cells, organs, development, interactions and the functioning (infectious process, immunodeficiency, hypersensitivity reactions, transplantation and tumor immunology) of the innate and the adaptive immune system. Prerequisites: One semester of cell biology or similar course is encouraged.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BHSC 1340\"}, {\"type\": \"course\", \"code\": \"MMG 2010\"}, {\"type\": \"course\", \"code\": \"ORBCOR 2500\"}]}",
-      "other_requirements": "One semester of cell biology or similar course is encouraged. Degree students only, PACE students register for BHSC 3420 ZRA",
-      "external": false
-    },
-    {
-      "id": "MATH 1212",
-      "course_code": "MATH 1212",
-      "department": "MATH",
-      "title": "Fundamentals of Calculus I",
-      "credit_hours": "3",
-      "description": "Introduction to limits and differential/integral calculus with a wide variety of applications. Students interested in intensive use of mathematics should take <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit not awarded for both MATH 1212 and <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>.  See <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201012\" data-action=\"result-detail\" data-group=\"code:MATH 1012\" >MATH 1012</a> or C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a>, or a score of 61 or higher on the placement assessment.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1012\"}, {\"type\": \"course\", \"code\": \"MATH 1034\"}]}",
-      "other_requirements": "C- or better in MATH 1012 or C- or better in MATH 1034, or a score of 61 or higher on the placement assessment. Prereqs enforced by the system: MATH 1012 or MATH 1034 or ALEKS MPA of at least 61; Open to Degree and PACE students",
-      "external": true
-    },
-    {
-      "id": "BHSC 3995",
-      "course_code": "BHSC 3995",
-      "department": "BHSC",
-      "title": "Undergraduate Research",
+      "title": "Independent Study",
       "credit_hours": "1 to 18",
-      "description": "Individual research performed under the supervision of a faculty mentor. A written report and seminar is required. Prerequisite: Department Permission.",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
-      "other_requirements": "Department Permission. Instructor Permission required. Contact Instructor for more info if needed",
+      "other_requirements": "Instructor permission required",
       "external": false
     },
     {
-      "id": "BHSC 2994",
-      "course_code": "BHSC 2994",
-      "department": "BHSC",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required; TA for HSCI Courses",
-      "external": false
-    },
-    {
-      "id": "MATH 1034",
-      "course_code": "MATH 1034",
-      "department": "MATH",
-      "title": "Pre-Calculus Mathematics",
-      "credit_hours": "3",
-      "description": "Skills in working with numerical, algebraic, and trigonometric expressions are developed in preparation for <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. May not be taken for credit concurrently with, or following receipt of, credit for any mathematics course numbered <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> or above. Prerequisite: Two years of secondary school algebra; one year of secondary school geometry.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
-      "other_requirements": "Two years of secondary school algebra; one year of secondary school geometry. Open to Degree and PACE students",
+      "id": "CHEM 1580",
+      "course_code": "CHEM 1580",
+      "department": "CHEM",
+      "title": "Intro Organic Chemistry w/lab",
+      "credit_hours": "4",
+      "description": "Properties and reactivity of basic organic compounds of technological and biological significance. Not recommended for pre-medical students. Credit not awarded for both CHEM 1580 and <a href=\"/search/?p=CHEM%201150\" data-action=\"result-detail\" data-group=\"code:CHEM 1150\" >CHEM 1150</a>, <a href=\"/search/?p=CHEM%201152\" data-action=\"result-detail\" data-group=\"code:CHEM 1152\" >CHEM 1152</a>, <a href=\"/search/?p=CHEM%201582\" data-action=\"result-detail\" data-group=\"code:CHEM 1582\" >CHEM 1582</a>, <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a>, or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\"  class=\"notoffered\">CHEM 2580</a>. Prerequisite: <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\"  class=\"notoffered\">CHEM 1100</a> or <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1450\"}]}",
+      "other_requirements": "Not recommended for pre-medical students. Credit not awarded for both CHEM 1580 and  CHEM 1150 ,  CHEM 1152 ,  CHEM 1582 ,  CHEM 1500 , or  CHEM 2580 . Must register for a CHEM 1580 lab, L01-L15; $85 fee: Chem Lab Supplies; Cross listed withCHEM 1582A. PACE students with permission and override. All labs must be completed in order to pass the course. Attendance for all lectures and exams is expected. All work must be completed by the due date. The final exam must be taken to pass the course.",
       "external": true
-    },
-    {
-      "id": "BHSC 1980",
-      "course_code": "BHSC 1980",
-      "department": "BHSC",
-      "title": "Intro to Scientific Writing",
-      "credit_hours": "3",
-      "description": "Introduction to the principles and practices of research and writing in the biomedical and health sciences. Using scientific data and literature as a foundation, students will write in multiple genres through regular assignments applicable to future course work and health science professions. Pre/co-requisites: <a href=\"/search/?p=ENGL%201001\" data-action=\"result-detail\" data-group=\"code:ENGL 1001\" >ENGL 1001</a> or equivalent; Radiation Medical Science, Medical Laboratory Sciences, Health Sciences major; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ENGL 1001\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MLS\"}, {\"type\": \"course\", \"code\": \"MRS\"}, {\"type\": \"course\", \"code\": \"BMCS\"}]}]}",
-      "other_requirements": "Radiation Medical Science, Medical Laboratory Sciences, Health Sciences major; or Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "BHSC 2400",
-      "course_code": "BHSC 2400",
-      "department": "BHSC",
-      "title": "Radiation Science",
-      "credit_hours": "4",
-      "description": "Provides a broad based understanding of the fundamentals of radiation science including the ways in which radiation is produced and utilized, the principles of radioactive decay, radiation exposure, absorbed dose, shielding and detection of radiation. Prerequisite: <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Co-requisites: <a href=\"/search/?p=RADT%202520\" data-action=\"result-detail\" data-group=\"code:RADT 2520\"  class=\"notoffered\">RADT 2520</a> or Instructor permission for non-majors.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
-      "other_requirements": "Co-requisites: RADT 2520 or Instructor permission for non-majors. Open to degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "BHSC 1340",
-      "course_code": "BHSC 1340",
-      "department": "BHSC",
-      "title": "Human Cell Biology",
-      "credit_hours": "4",
-      "description": "Lecture and laboratory experiences about molecular and cellular structure, function and physiology using human cells as the model.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MLS\"}, {\"type\": \"course\", \"code\": \"MRS\"}, {\"type\": \"course\", \"code\": \"BMCS\"}, {\"type\": \"course\", \"code\": \"BIOM\"}, {\"type\": \"course\", \"code\": \"HSCI\"}, {\"type\": \"course\", \"code\": \"PHS\"}]}]}",
-      "other_requirements": "Must register for Lab A01, A02, or A03; students only or Instructor permission; Student Lab Fee: $65.00; Degree students only, PACE students register for BHSC 1340 ZRA",
-      "external": false
     },
     {
       "id": "BHSC 1990",
@@ -142,39 +65,6 @@
       "description": "See Schedule of Courses for specific titles.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "BHSC 2750",
-      "course_code": "BHSC 2750",
-      "department": "BHSC",
-      "title": "Cross Sectional Imaging",
-      "credit_hours": "3",
-      "description": "Introduction to the radiographic anatomy and the various imaging modalities presently used to include diagnostic imaging, computed tomography (CT), magnetic resonance imaging (MRI), and nuclear medicine. Prerequisites: <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1200\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}",
-      "other_requirements": "other degree students with instructor permission",
-      "external": false
-    },
-    {
-      "id": "BHSC 2970",
-      "course_code": "BHSC 2970",
-      "department": "BHSC",
-      "title": "Leadership & Mgt in Hlth Care",
-      "credit_hours": "3",
-      "description": "Familiarizes students with operational aspects of health care management, leadership and policy. Explores current techniques in process improvement, management methodologies, and healthcare policy with a special focus on disparities in health and healthcare. Prerequisites: College of Nursing and Health Sciences majors; minimum Junior standing.",
-      "prereq_expression": null,
-      "other_requirements": "College of Nursing and Health Sciences majors; minimum Junior standing. Must be 3rd year standing.",
-      "external": false
-    },
-    {
-      "id": "BHSC 2995",
-      "course_code": "BHSC 2995",
-      "department": "BHSC",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Department Permission.",
-      "prereq_expression": null,
-      "other_requirements": "Department Permission. Departmental permission only; Instructor will arrange meeting with students",
       "external": false
     },
     {
@@ -189,6 +79,39 @@
       "external": false
     },
     {
+      "id": "BHSC 3995",
+      "course_code": "BHSC 3995",
+      "department": "BHSC",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Individual research performed under the supervision of a faculty mentor. A written report and seminar is required. Prerequisite: Department Permission.",
+      "prereq_expression": null,
+      "other_requirements": "Department Permission. Instructor Permission required. Contact Instructor for more info if needed",
+      "external": false
+    },
+    {
+      "id": "BHSC 3820",
+      "course_code": "BHSC 3820",
+      "department": "BHSC",
+      "title": "Applied Molecular Biology Lab",
+      "credit_hours": "1",
+      "description": "Laboratory experiences include practical concepts of molecular applications. Introduces basic methods used in DNA and Protein technology including plasmid isolation, polymerase chain reaction, restriction enzyme use, and related assays. Credit not awarded for both BHSC 3820 and <a href=\"/search/?p=BHSC%205820\" data-action=\"result-detail\" data-group=\"code:BHSC 5820\"  class=\"notoffered\">BHSC 5820</a>. Prerequisite: <a href=\"/search/?p=CHEM%201580\" data-action=\"result-detail\" data-group=\"code:CHEM 1580\"  class=\"notoffered\">CHEM 1580</a> or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\" >CHEM 2580</a>. Co-requisite: <a href=\"/search/?p=BHSC%203810\" data-action=\"result-detail\" data-group=\"code:BHSC 3810\" >BHSC 3810</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1580\"}, {\"type\": \"course\", \"code\": \"CHEM 2580\"}]}",
+      "other_requirements": "MLS, BMCS or MLS PBC PACE students only; Molecular Bio Lab Fee: $70.00; PACE students by permission and override.",
+      "external": false
+    },
+    {
+      "id": "MATH 1034",
+      "course_code": "MATH 1034",
+      "department": "MATH",
+      "title": "Pre-Calculus Mathematics",
+      "credit_hours": "3",
+      "description": "Skills in working with numerical, algebraic, and trigonometric expressions are developed in preparation for <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. May not be taken for credit concurrently with, or following receipt of, credit for any mathematics course numbered <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> or above. Prerequisite: Two years of secondary school algebra; one year of secondary school geometry.",
+      "prereq_expression": null,
+      "other_requirements": "Two years of secondary school algebra; one year of secondary school geometry. Open to Degree and PACE students",
+      "external": true
+    },
+    {
       "id": "CHEM 2580",
       "course_code": "CHEM 2580",
       "department": "CHEM",
@@ -200,25 +123,14 @@
       "external": true
     },
     {
-      "id": "CHEM 1580",
-      "course_code": "CHEM 1580",
-      "department": "CHEM",
-      "title": "Intro Organic Chemistry w/lab",
-      "credit_hours": "4",
-      "description": "Properties and reactivity of basic organic compounds of technological and biological significance. Not recommended for pre-medical students. Credit not awarded for both CHEM 1580 and <a href=\"/search/?p=CHEM%201150\" data-action=\"result-detail\" data-group=\"code:CHEM 1150\" >CHEM 1150</a>, <a href=\"/search/?p=CHEM%201152\" data-action=\"result-detail\" data-group=\"code:CHEM 1152\" >CHEM 1152</a>, <a href=\"/search/?p=CHEM%201582\" data-action=\"result-detail\" data-group=\"code:CHEM 1582\" >CHEM 1582</a>, <a href=\"/search/?p=CHEM%201500\" data-action=\"result-detail\" data-group=\"code:CHEM 1500\"  class=\"notoffered\">CHEM 1500</a>, or <a href=\"/search/?p=CHEM%202580\" data-action=\"result-detail\" data-group=\"code:CHEM 2580\"  class=\"notoffered\">CHEM 2580</a>. Prerequisite: <a href=\"/search/?p=CHEM%201100\" data-action=\"result-detail\" data-group=\"code:CHEM 1100\"  class=\"notoffered\">CHEM 1100</a> or <a href=\"/search/?p=CHEM%201450\" data-action=\"result-detail\" data-group=\"code:CHEM 1450\" >CHEM 1450</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CHEM 1100\"}, {\"type\": \"course\", \"code\": \"CHEM 1450\"}]}",
-      "other_requirements": "Not recommended for pre-medical students. Credit not awarded for both CHEM 1580 and  CHEM 1150 ,  CHEM 1152 ,  CHEM 1582 ,  CHEM 1500 , or  CHEM 2580 . Must register for a CHEM 1580 lab, L01-L15; $85 fee: Chem Lab Supplies; Cross listed withCHEM 1582A. PACE students with permission and override. All labs must be completed in order to pass the course. Attendance for all lectures and exams is expected. All work must be completed by the due date. The final exam must be taken to pass the course.",
-      "external": true
-    },
-    {
-      "id": "BHSC 3993",
-      "course_code": "BHSC 3993",
+      "id": "BHSC 3420",
+      "course_code": "BHSC 3420",
       "department": "BHSC",
-      "title": "Independent Study",
-      "credit_hours": "1 to 18",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
+      "title": "Immunology",
+      "credit_hours": "3",
+      "description": "Deals with cells, organs, development, interactions and the functioning (infectious process, immunodeficiency, hypersensitivity reactions, transplantation and tumor immunology) of the innate and the adaptive immune system. Prerequisites: One semester of cell biology or similar course is encouraged.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BHSC 1340\"}, {\"type\": \"course\", \"code\": \"MMG 2010\"}, {\"type\": \"course\", \"code\": \"ORBCOR 2500\"}]}",
+      "other_requirements": "One semester of cell biology or similar course is encouraged. Degree students only, PACE students register for BHSC 3420 ZRA",
       "external": false
     },
     {
@@ -233,15 +145,26 @@
       "external": true
     },
     {
-      "id": "MATH 1234",
-      "course_code": "MATH 1234",
-      "department": "MATH",
-      "title": "Calculus I",
-      "credit_hours": "4",
-      "description": "Introduction to calculus of functions of one variable including: limits, continuity, techniques and applications of differentiation and integration. Credit not given for more than one course in the pair <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, MATH 1234 unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a> or a score of 76 or higher on the placement assessment.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1034\"}, {\"type\": \"other_requirement\", \"description\": \"ALEKS MPA of at least 76\"}]}",
-      "other_requirements": "C- or better in MATH 1034 or a score of 76 or higher on the placement assessment. Prereqs enforced by the system.",
-      "external": true
+      "id": "BHSC 1980",
+      "course_code": "BHSC 1980",
+      "department": "BHSC",
+      "title": "Intro to Scientific Writing",
+      "credit_hours": "3",
+      "description": "Introduction to the principles and practices of research and writing in the biomedical and health sciences. Using scientific data and literature as a foundation, students will write in multiple genres through regular assignments applicable to future course work and health science professions. Pre/co-requisites: <a href=\"/search/?p=ENGL%201001\" data-action=\"result-detail\" data-group=\"code:ENGL 1001\" >ENGL 1001</a> or equivalent; Radiation Medical Science, Medical Laboratory Sciences, Health Sciences major; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ENGL 1001\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MLS\"}, {\"type\": \"course\", \"code\": \"MRS\"}, {\"type\": \"course\", \"code\": \"BMCS\"}]}]}",
+      "other_requirements": "Radiation Medical Science, Medical Laboratory Sciences, Health Sciences major; or Instructor permission.",
+      "external": false
+    },
+    {
+      "id": "BHSC 2994",
+      "course_code": "BHSC 2994",
+      "department": "BHSC",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required; TA for HSCI Courses",
+      "external": false
     },
     {
       "id": "BHSC 3440",
@@ -252,6 +175,61 @@
       "description": "Laboratory experience dealing with cellular and humoral immunity, B cells and T cells, autoimmunity, immunodeficiency. Laboratory covers immunological techniques and applications. Credit not awarded for both BHSC 3440 and <a href=\"/search/?p=BHSC%205440\" data-action=\"result-detail\" data-group=\"code:BHSC 5440\"  class=\"notoffered\">BHSC 5440</a>. Prerequisites: One semester of biochemistry, one semester of organic chemistry. Co-requisites: <a href=\"/search/?p=BHSC%203420\" data-action=\"result-detail\" data-group=\"code:BHSC 3420\" >BHSC 3420</a> or <a href=\"/search/?p=MMG%203230\" data-action=\"result-detail\" data-group=\"code:MMG 3230\"  class=\"notoffered\">MMG 3230</a>.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BIOC 1234\"}, {\"type\": \"course\", \"code\": \"CHEM 1234\"}]}",
       "other_requirements": "MLS majors or Instructor permission: Lab fee: $65; Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "MATH 1234",
+      "course_code": "MATH 1234",
+      "department": "MATH",
+      "title": "Calculus I",
+      "credit_hours": "4",
+      "description": "Introduction to calculus of functions of one variable including: limits, continuity, techniques and applications of differentiation and integration. Credit not given for more than one course in the pair <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>, MATH 1234 unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a> or a score of 76 or higher on the placement assessment.",
+      "prereq_expression": "{\"type\": \"other_requirement\", \"description\": \"ALEKS MPA of at least 76\"}",
+      "other_requirements": "C- or better in MATH 1034 or a score of 76 or higher on the placement assessment. Prereqs enforced by the system.",
+      "external": true
+    },
+    {
+      "id": "BHSC 2400",
+      "course_code": "BHSC 2400",
+      "department": "BHSC",
+      "title": "Radiation Science",
+      "credit_hours": "4",
+      "description": "Provides a broad based understanding of the fundamentals of radiation science including the ways in which radiation is produced and utilized, the principles of radioactive decay, radiation exposure, absorbed dose, shielding and detection of radiation. Prerequisite: <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Co-requisites: <a href=\"/search/?p=RADT%202520\" data-action=\"result-detail\" data-group=\"code:RADT 2520\"  class=\"notoffered\">RADT 2520</a> or Instructor permission for non-majors.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "other_requirements": "Co-requisites: RADT 2520 or Instructor permission for non-majors. Open to degree and PACE students",
+      "external": false
+    },
+    {
+      "id": "MATH 1012",
+      "course_code": "MATH 1012",
+      "department": "MATH",
+      "title": "College Algebra",
+      "credit_hours": "3",
+      "description": "Sets, relations, functions with particular attention to properties of algebraic, exponential, logarithmic functions, their graphs and applications in preparation for <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a>. May not be taken for credit concurrently with, or following receipt of, credit for any mathematics course numbered <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or above. Pre/co-requisites: Two years of secondary school algebra; one year of secondary school geometry.",
+      "prereq_expression": null,
+      "other_requirements": "Two years of secondary school algebra; one year of secondary school geometry.",
+      "external": true
+    },
+    {
+      "id": "MATH 1212",
+      "course_code": "MATH 1212",
+      "department": "MATH",
+      "title": "Fundamentals of Calculus I",
+      "credit_hours": "3",
+      "description": "Introduction to limits and differential/integral calculus with a wide variety of applications. Students interested in intensive use of mathematics should take <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>. Credit not awarded for both MATH 1212 and <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> unless followed by <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>.  See <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201012\" data-action=\"result-detail\" data-group=\"code:MATH 1012\" >MATH 1012</a> or C- or better in <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a>, or a score of 61 or higher on the placement assessment.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MATH 1034\"}",
+      "other_requirements": "C- or better in MATH 1012 or C- or better in MATH 1034, or a score of 61 or higher on the placement assessment. Prereqs enforced by the system: MATH 1012 or MATH 1034 or ALEKS MPA of at least 61; Open to Degree and PACE students",
+      "external": true
+    },
+    {
+      "id": "BHSC 2410",
+      "course_code": "BHSC 2410",
+      "department": "BHSC",
+      "title": "Advanced Radiation Science",
+      "credit_hours": "3",
+      "description": "Lecture and laboratory experiences to enhance the understanding and application of the principles of radioactive decay, radiation exposure, absorbed dose, shielding and detection of radiation. Prerequisite: <a href=\"/search/?p=MATH%201012\" data-action=\"result-detail\" data-group=\"code:MATH 1012\" >MATH 1012</a>, <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a>, <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1012\"}, {\"type\": \"course\", \"code\": \"MATH 1034\"}, {\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
+      "other_requirements": null,
       "external": false
     },
     {
@@ -266,14 +244,36 @@
       "external": true
     },
     {
-      "id": "BHSC 2410",
-      "course_code": "BHSC 2410",
+      "id": "BHSC 2970",
+      "course_code": "BHSC 2970",
       "department": "BHSC",
-      "title": "Advanced Radiation Science",
+      "title": "Leadership & Mgt in Hlth Care",
       "credit_hours": "3",
-      "description": "Lecture and laboratory experiences to enhance the understanding and application of the principles of radioactive decay, radiation exposure, absorbed dose, shielding and detection of radiation. Prerequisite: <a href=\"/search/?p=MATH%201012\" data-action=\"result-detail\" data-group=\"code:MATH 1012\" >MATH 1012</a>, <a href=\"/search/?p=MATH%201034\" data-action=\"result-detail\" data-group=\"code:MATH 1034\" >MATH 1034</a>, <a href=\"/search/?p=MATH%201212\" data-action=\"result-detail\" data-group=\"code:MATH 1212\" >MATH 1212</a> or <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1012\"}, {\"type\": \"course\", \"code\": \"MATH 1034\"}, {\"type\": \"course\", \"code\": \"MATH 1212\"}, {\"type\": \"course\", \"code\": \"MATH 1234\"}]}",
-      "other_requirements": null,
+      "description": "Familiarizes students with operational aspects of health care management, leadership and policy. Explores current techniques in process improvement, management methodologies, and healthcare policy with a special focus on disparities in health and healthcare. Prerequisites: College of Nursing and Health Sciences majors; minimum Junior standing.",
+      "prereq_expression": null,
+      "other_requirements": "College of Nursing and Health Sciences majors; minimum Junior standing. Must be 3rd year standing.",
+      "external": false
+    },
+    {
+      "id": "BHSC 2750",
+      "course_code": "BHSC 2750",
+      "department": "BHSC",
+      "title": "Cross Sectional Imaging",
+      "credit_hours": "3",
+      "description": "Introduction to the radiographic anatomy and the various imaging modalities presently used to include diagnostic imaging, computed tomography (CT), magnetic resonance imaging (MRI), and nuclear medicine. Prerequisites: <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1200\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}",
+      "other_requirements": "other degree students with instructor permission",
+      "external": false
+    },
+    {
+      "id": "BHSC 1340",
+      "course_code": "BHSC 1340",
+      "department": "BHSC",
+      "title": "Human Cell Biology",
+      "credit_hours": "4",
+      "description": "Lecture and laboratory experiences about molecular and cellular structure, function and physiology using human cells as the model.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MLS\"}, {\"type\": \"course\", \"code\": \"MRS\"}, {\"type\": \"course\", \"code\": \"BMCS\"}, {\"type\": \"course\", \"code\": \"BIOM\"}, {\"type\": \"course\", \"code\": \"HSCI\"}, {\"type\": \"course\", \"code\": \"PHS\"}]}",
+      "other_requirements": "Must register for Lab A01, A02, or A03; students only or Instructor permission; Student Lab Fee: $65.00; Degree students only, PACE students register for BHSC 1340 ZRA",
       "external": false
     }
   ],
@@ -316,62 +316,42 @@
     {
       "source": "ENGL 1001",
       "target": "BHSC 1980",
-      "group": "BHSC 1980__g0"
-    },
-    {
-      "source": "MATH 1012",
-      "target": "BHSC 2410",
-      "group": "BHSC 2410__g0"
-    },
-    {
-      "source": "MATH 1012",
-      "target": "MATH 1212",
-      "group": "MATH 1212__g0"
-    },
-    {
-      "source": "MATH 1034",
-      "target": "BHSC 2410",
-      "group": "BHSC 2410__g0"
-    },
-    {
-      "source": "MATH 1034",
-      "target": "MATH 1212",
-      "group": "MATH 1212__g0"
-    },
-    {
-      "source": "MATH 1034",
-      "target": "MATH 1234",
-      "group": "MATH 1234__g0"
-    },
-    {
-      "source": "MATH 1212",
-      "target": "BHSC 2400",
-      "group": "BHSC 2400__g0"
-    },
-    {
-      "source": "MATH 1212",
-      "target": "BHSC 2410",
-      "group": "BHSC 2410__g0"
-    },
-    {
-      "source": "MATH 1212",
-      "target": "MATH 1012",
-      "group": "MATH 1012__g0"
-    },
-    {
-      "source": "MATH 1234",
-      "target": "BHSC 2400",
-      "group": "BHSC 2400__g0"
-    },
-    {
-      "source": "MATH 1234",
-      "target": "BHSC 2410",
-      "group": "BHSC 2410__g0"
-    },
-    {
-      "source": "MATH 1234",
-      "target": "MATH 1034",
       "group": null
+    },
+    {
+      "source": "MATH 1012",
+      "target": "BHSC 2410",
+      "group": "BHSC 2410__g0"
+    },
+    {
+      "source": "MATH 1034",
+      "target": "BHSC 2410",
+      "group": "BHSC 2410__g0"
+    },
+    {
+      "source": "MATH 1034",
+      "target": "MATH 1212",
+      "group": "MATH 1212__g0"
+    },
+    {
+      "source": "MATH 1212",
+      "target": "BHSC 2400",
+      "group": "BHSC 2400__g0"
+    },
+    {
+      "source": "MATH 1212",
+      "target": "BHSC 2410",
+      "group": "BHSC 2410__g0"
+    },
+    {
+      "source": "MATH 1234",
+      "target": "BHSC 2400",
+      "group": "BHSC 2400__g0"
+    },
+    {
+      "source": "MATH 1234",
+      "target": "BHSC 2410",
+      "group": "BHSC 2410__g0"
     },
     {
       "source": "MMG 2010",

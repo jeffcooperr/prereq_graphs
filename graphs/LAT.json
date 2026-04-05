@@ -2,28 +2,6 @@
   "department": "LAT",
   "nodes": [
     {
-      "id": "LAT 4994",
-      "course_code": "LAT 4994",
-      "department": "LAT",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "LAT 3100",
-      "course_code": "LAT 3100",
-      "department": "LAT",
-      "title": "Survey of Latin Literature",
-      "credit_hours": "3",
-      "description": "Selections from principal Roman authors. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=LAT%202100\" data-action=\"result-detail\" data-group=\"code:LAT 2100\" >LAT 2100</a>, <a href=\"/search/?p=LAT%202200\" data-action=\"result-detail\" data-group=\"code:LAT 2200\"  class=\"notoffered\">LAT 2200</a>, or equivalent.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 2100\"}, {\"type\": \"course\", \"code\": \"LAT 2200\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 2100\"}, {\"type\": \"course\", \"code\": \"LAT 2200\"}]}]}",
-      "other_requirements": "instructor permission",
-      "external": false
-    },
-    {
       "id": "LAT 4996",
       "course_code": "LAT 4996",
       "department": "LAT",
@@ -46,28 +24,6 @@
       "external": false
     },
     {
-      "id": "LAT 2200",
-      "course_code": "LAT 2200",
-      "department": "LAT",
-      "title": "Intermediate Latin II",
-      "credit_hours": "3",
-      "description": "Selections from Vergil and Ovid. Prerequisite: <a href=\"/search/?p=LAT%201200\" data-action=\"result-detail\" data-group=\"code:LAT 1200\" >LAT 1200</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 1200\"}, {\"type\": \"course\", \"code\": \"LAT 2100\"}]}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "LAT 2100",
-      "course_code": "LAT 2100",
-      "department": "LAT",
-      "title": "Intermediate Latin I",
-      "credit_hours": "3",
-      "description": "Selections from Cicero and other prose authors. Prerequisite: <a href=\"/search/?p=LAT%201200\" data-action=\"result-detail\" data-group=\"code:LAT 1200\"  class=\"notoffered\">LAT 1200</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 1100\"}, {\"type\": \"course\", \"code\": \"LAT 1200\"}]}",
-      "other_requirements": "instructor permission",
-      "external": false
-    },
-    {
       "id": "LAT 4600",
       "course_code": "LAT 4600",
       "department": "LAT",
@@ -76,6 +32,17 @@
       "description": "Representative topics: Republican Prose (Caesar, Sallust, Cicero), Roman Oratory (Cicero's De Oratore, Orator, Brutus), Historians of the Empire (Augustus, Tacitus, Suetonius, Ammianus Marcellinus), Roman Letters (Cicero, Horace, Pliny). May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Credit not awarded for both LAT 4600 and <a href=\"/search/?p=LAT%205600\" data-action=\"result-detail\" data-group=\"code:LAT 5600\"  class=\"notoffered\">LAT 5600</a>. Prerequisite: <a href=\"/search/?p=LAT%203200\" data-action=\"result-detail\" data-group=\"code:LAT 3200\"  class=\"notoffered\">LAT 3200</a>.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 3200\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 2100\"}, {\"type\": \"course\", \"code\": \"LAT 2200\"}]}]}",
       "other_requirements": "instructor permission; PACE students by permission and override",
+      "external": false
+    },
+    {
+      "id": "LAT 3100",
+      "course_code": "LAT 3100",
+      "department": "LAT",
+      "title": "Survey of Latin Literature",
+      "credit_hours": "3",
+      "description": "Selections from principal Roman authors. May be repeated for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Prerequisite: <a href=\"/search/?p=LAT%202100\" data-action=\"result-detail\" data-group=\"code:LAT 2100\" >LAT 2100</a>, <a href=\"/search/?p=LAT%202200\" data-action=\"result-detail\" data-group=\"code:LAT 2200\"  class=\"notoffered\">LAT 2200</a>, or equivalent.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 2100\"}, {\"type\": \"course\", \"code\": \"LAT 2200\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 2100\"}, {\"type\": \"course\", \"code\": \"LAT 2200\"}]}]}",
+      "other_requirements": "instructor permission",
       "external": false
     },
     {
@@ -90,13 +57,46 @@
       "external": false
     },
     {
+      "id": "LAT 2100",
+      "course_code": "LAT 2100",
+      "department": "LAT",
+      "title": "Intermediate Latin I",
+      "credit_hours": "3",
+      "description": "Selections from Cicero and other prose authors. Prerequisite: <a href=\"/search/?p=LAT%201200\" data-action=\"result-detail\" data-group=\"code:LAT 1200\"  class=\"notoffered\">LAT 1200</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 1100\"}, {\"type\": \"course\", \"code\": \"LAT 1200\"}]}",
+      "other_requirements": "instructor permission",
+      "external": false
+    },
+    {
+      "id": "LAT 4994",
+      "course_code": "LAT 4994",
+      "department": "LAT",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "external": false
+    },
+    {
+      "id": "LAT 2200",
+      "course_code": "LAT 2200",
+      "department": "LAT",
+      "title": "Intermediate Latin II",
+      "credit_hours": "3",
+      "description": "Selections from Vergil and Ovid. Prerequisite: <a href=\"/search/?p=LAT%201200\" data-action=\"result-detail\" data-group=\"code:LAT 1200\" >LAT 1200</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 1200\"}, {\"type\": \"course\", \"code\": \"LAT 2100\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "external": false
+    },
+    {
       "id": "LAT 5650",
       "course_code": "LAT 5650",
       "department": "LAT",
       "title": "Topics in Roman Poetry",
       "credit_hours": "3",
       "description": "Representative topics: Roman Epic Poetry (Lucretius, Vergil, Ovid), Roman Lyric Poets (Catullus, Horace, Propertius, and Tibullus), Roman Comedy (Plautus and Terence), Satire (Horace, Persius, Juvenal, Petronius). May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Credit not awarded for both LAT 5650 and <a href=\"/search/?p=LAT%204650\" data-action=\"result-detail\" data-group=\"code:LAT 4650\"  class=\"notoffered\">LAT 4650</a>. Prerequisite: Classics Graduate student.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LAT 4650\"}]}",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"LAT 4650\"}",
       "other_requirements": "Classics Graduate student.",
       "external": false
     }
