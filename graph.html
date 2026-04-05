@@ -188,17 +188,8 @@
     opacity: 0.04;
   }
 
-  /* My Courses mode — node states (fill set by JS, stroke/glow by CSS) */
-  .node.taken circle {
-    stroke: rgba(74,255,138,0.35) !important;
-    stroke-width: 1.5 !important;
-  }
-  .node.available circle {
-    stroke: #4aff8a !important;
-    stroke-width: 2.5 !important;
-    filter: drop-shadow(0 0 6px rgba(74,255,138,0.8));
-  }
-  .node.locked text { opacity: 0.3; }
+  /* My Courses mode — fill colors set entirely by JS */
+  .node.locked text { opacity: 0.25; }
 
   /* My Courses panel */
   #my-courses-panel {
@@ -680,6 +671,9 @@
     opacity: 0.6;
   }
 
+  .hint { transition: color 0.2s; }
+  .hint.active { color: var(--accent); }
+
 #sidebar {
     position: fixed;
     top: 0; right: 0;
@@ -1076,9 +1070,9 @@
   scroll to zoom<br>
   drag to pan<br>
   hover to inspect<br>
-  click · direct neighbors<br>
-  click 2x · full prereq chain<br>
-  click 3x · what this unlocks
+  <span class="hint" id="hint-1">click · direct neighbors</span><br>
+  <span class="hint" id="hint-2">click 2x · full prereq chain</span><br>
+  <span class="hint" id="hint-3">click 3x · what this unlocks</span>
 </div>
 
 <div id="stats"></div>
@@ -1341,6 +1335,12 @@ function levelStroke(courseCode) {
   return 'rgba(74,158,255,0.5)';
 }
 
+function setHint(n) {
+  [1, 2, 3].forEach(i =>
+    document.getElementById(`hint-${i}`).classList.toggle('active', i === n)
+  );
+}
+
 let layoutMode = 'web';
 let plainMode = false;
 let takenMode = false;
@@ -1367,6 +1367,10 @@ function isSatisfied(prereq_expression, takenSet) {
   } catch { return true; }
 }
 
+const MC_LOCKED    = '#c0392b';  // red — not yet reachable
+const MC_TAKEN     = '#27ae60';  // green — completed
+const MC_AVAILABLE = '#2980b9';  // blue — ready to take
+
 function updateAvailability() {
   if (!graphState) return;
   const { node } = graphState;
@@ -1374,22 +1378,23 @@ function updateAvailability() {
     const el = d3.select(this);
     if (d.external) {
       const taken = takenCourses.has(d.id);
-      el.classed('taken', taken).classed('available', false).classed('locked', false);
-      if (taken) el.select('circle').attr('fill', '#1e4d35');
-      else el.select('circle').attr('fill', 'var(--node-external)');
+      el.classed('taken', taken).classed('available', false).classed('locked', !taken);
+      el.select('circle')
+        .attr('fill',   taken ? MC_TAKEN : MC_LOCKED)
+        .attr('stroke', taken ? 'rgba(74,255,138,0.2)' : 'rgba(255,80,80,0.2)')
+        .attr('stroke-width', 1.5);
       return;
     }
-    const taken = takenCourses.has(d.id);
+    const taken     = takenCourses.has(d.id);
     const satisfied = !taken && isSatisfied(d.prereq_expression, takenCourses);
     el.classed('taken', taken)
       .classed('available', satisfied)
       .classed('locked', !taken && !satisfied);
 
-    el.select('circle').attr('fill',
-      taken     ? '#1e4d35' :                                    // muted green — done
-      satisfied ? (plainMode ? 'var(--node-internal)' : levelColor(d.course_code)) :  // level color — unlocked
-                  '#1e1e2e'                                      // dark gray — locked
-    );
+    el.select('circle')
+      .attr('fill',   taken ? MC_TAKEN : satisfied ? MC_AVAILABLE : MC_LOCKED)
+      .attr('stroke', taken ? 'rgba(74,255,138,0.2)' : satisfied ? 'rgba(74,158,255,0.3)' : 'rgba(255,80,80,0.2)')
+      .attr('stroke-width', 1);
   });
 }
 
@@ -1668,6 +1673,7 @@ function render(data) {
       highlighted = getDownstreamPath(nodeId);
     }
 
+    setHint(clickN);
     node.classed('dimmed', n => !highlighted.has(n.id));
     link
       .classed('dimmed', l => {
@@ -1691,6 +1697,7 @@ function render(data) {
       if (clickCount > 3) {
         selected = null;
         clickCount = 0;
+        setHint(0);
         node.classed('dimmed', false);
         link.classed('dimmed', false).classed('highlighted', false)
           .attr('marker-end', 'url(#arrow)');
@@ -1706,6 +1713,7 @@ function render(data) {
   svg.on('click', () => {
     selected = null;
     clickCount = 0;
+    setHint(0);
     node.classed('dimmed', false);
     link.classed('dimmed', false).classed('highlighted', false)
       .attr('marker-end', 'url(#arrow)');
@@ -1714,7 +1722,7 @@ function render(data) {
   function triggerHighlight(nodeId) {
     selected = nodeId;
     clickCount = 1;
-    applyHighlight(nodeId, 1);
+    applyHighlight(nodeId, 1); // setHint(1) called inside applyHighlight
   }
 
   // Store state and start with web layout
@@ -1842,8 +1850,9 @@ document.getElementById('my-courses-toggle').addEventListener('click', () => {
     const { node, groupColorMap } = graphState;
     node.classed('taken', false).classed('available', false).classed('locked', false);
     node.selectAll('circle')
-      .attr('fill', d => d.external ? 'var(--node-external)' : (plainMode ? 'var(--node-internal)' : levelColor(d.course_code)))
-      .attr('stroke', d => d.external ? 'var(--node-external-border)' : (plainMode ? 'rgba(124,106,255,0.4)' : levelStroke(d.course_code)));
+      .attr('fill',   d => d.external ? 'var(--node-external)' : (plainMode ? 'var(--node-internal)' : levelColor(d.course_code)))
+      .attr('stroke', d => d.external ? 'var(--node-external-border)' : (plainMode ? 'rgba(124,106,255,0.4)' : levelStroke(d.course_code)))
+      .attr('stroke-width', d => d.external ? 1.5 : 1);
   }
 });
 
