@@ -1199,6 +1199,7 @@ document.getElementById('change-dept').addEventListener('click', () => {
 
 function loadDept(dept) {
   currentDept = dept;
+  window.location.hash = dept;
   document.getElementById('dept-picker').classList.add('hidden');
   document.getElementById('dept-label').textContent = dept;
   document.getElementById('course-search').value = '';
@@ -1208,6 +1209,14 @@ function loadDept(dept) {
     .then(r => r.json())
     .then(data => render(data));
 }
+
+// Load department from URL hash on page load
+(function() {
+  const hash = window.location.hash.slice(1).toUpperCase();
+  if (DEPTS.includes(hash)) {
+    loadDept(hash);
+  }
+})();
 
 function getMainComponentIds(nodes, edges) {
   // Build adjacency list
