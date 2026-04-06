@@ -2648,6 +2648,7 @@ if (!localStorage.getItem(TOUR_KEY)) {
   document.addEventListener('deptloaded', () => {
     setTimeout(() => window.showInfoOverlay(), 600);
     document.addEventListener('infooverlayclosed', () => {
+      localStorage.setItem(TOUR_KEY, '1');
       setTimeout(() => {
         const btn = document.getElementById('tour-btn');
         btn.classList.add('pulsing');
