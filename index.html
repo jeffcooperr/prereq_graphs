@@ -1154,14 +1154,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 1;
+    opacity: 0;
     transition: opacity 0.3s ease;
   }
 
-  #info-overlay.hidden {
-    opacity: 0;
-    pointer-events: none;
-  }
+  #info-overlay.hidden { display: none; }
 
   #info-modal {
     background: var(--surface);
@@ -2476,16 +2473,21 @@ document.getElementById('my-courses-toggle').addEventListener('click', () => {
     nextBtn.disabled = current === pages.length - 1;
   }
 
-  document.getElementById('help-btn').addEventListener('click', () => {
+  function openOverlay() {
     overlay.classList.remove('hidden');
-  });
+    requestAnimationFrame(() => requestAnimationFrame(() => { overlay.style.opacity = 1; }));
+  }
 
   function closeOverlay() {
-    overlay.classList.add('hidden');
+    overlay.style.opacity = 0;
     overlay.addEventListener('transitionend', () => {
+      overlay.classList.add('hidden');
       document.dispatchEvent(new Event('infooverlayclosed'));
     }, { once: true });
   }
+
+  document.getElementById('help-btn').addEventListener('click', openOverlay);
+  window.showInfoOverlay = openOverlay;
 
   document.getElementById('info-close').addEventListener('click', closeOverlay);
   overlay.addEventListener('click', (e) => { if (e.target === overlay) closeOverlay(); });
@@ -2503,7 +2505,6 @@ document.getElementById('my-courses-toggle').addEventListener('click', () => {
   });
 
   // Expose for auto-show on first visit
-  window.showInfoOverlay = () => overlay.classList.remove('hidden');
 })();
 
 // Feedback widget
