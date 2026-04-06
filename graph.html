@@ -7,6 +7,8 @@
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="https://unpkg.com/dagre@0.8.5/dist/dagre.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@1/dist/driver.css"/>
+<script src="https://cdn.jsdelivr.net/npm/driver.js@1/dist/driver.js.iife.js"></script>
 <style>
   :root {
     --bg: #0a0a0f;
@@ -65,7 +67,7 @@
   #stats {
     position: fixed;
     bottom: 28px;
-    left: 84px;
+    left: 164px;
     font-size: 0.65rem;
     color: var(--muted);
     letter-spacing: 0.1em;
@@ -103,6 +105,74 @@
     transition: all 0.15s;
   }
   #feedback-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  #tour-btn {
+    position: fixed;
+    bottom: 28px;
+    left: 90px;
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    cursor: pointer;
+    z-index: 20;
+    transition: all 0.15s;
+  }
+  #tour-btn:hover { border-color: var(--accent); color: var(--accent); }
+  @keyframes tour-pulse {
+    0%, 100% { border-color: var(--border); color: var(--muted); }
+    50% { border-color: #f1c40f; color: #f1c40f; box-shadow: 0 0 8px rgba(241,196,15,0.4); }
+  }
+  #tour-btn.pulsing { animation: tour-pulse 1s ease-in-out 5; }
+
+  /* Driver.js dark theme overrides */
+  .driver-popover {
+    background: #16161f !important;
+    border: 1px solid #2a2a3a !important;
+    color: #e0e0f0 !important;
+    font-family: 'JetBrains Mono', monospace !important;
+    border-radius: 6px !important;
+    max-width: 300px !important;
+  }
+  .driver-popover-title {
+    font-family: 'Syne', sans-serif !important;
+    font-size: 0.85rem !important;
+    color: #ffffff !important;
+    margin-bottom: 6px !important;
+  }
+  .driver-popover-description {
+    font-size: 0.62rem !important;
+    color: #a0a0c0 !important;
+    line-height: 1.7 !important;
+  }
+  .driver-popover-progress-text {
+    font-size: 0.55rem !important;
+    color: #6060a0 !important;
+  }
+  .driver-popover-next-btn, .driver-popover-prev-btn, .driver-popover-done-btn {
+    background: #7c6aff !important;
+    border: none !important;
+    color: #fff !important;
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 0.58rem !important;
+    letter-spacing: 0.08em !important;
+    text-transform: uppercase !important;
+    border-radius: 3px !important;
+    padding: 5px 12px !important;
+    text-shadow: none !important;
+  }
+  .driver-popover-prev-btn {
+    background: transparent !important;
+    border: 1px solid #2a2a3a !important;
+    color: #a0a0c0 !important;
+    text-shadow: none !important;
+  }
+  .driver-popover-close-btn { color: #6060a0 !important; font-size: 1rem !important; }
+  .driver-overlay { background: rgba(0,0,0,0.4) !important; }
 
   #feedback-panel {
     background: var(--surface);
@@ -175,7 +245,7 @@
     right: 32px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 12px;
     z-index: 10;
     font-size: 0.65rem;
     color: var(--muted);
@@ -186,6 +256,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-bottom: 5px;
   }
 
   .legend-dot {
@@ -1418,6 +1489,8 @@
   <button id="feedback-btn">Feedback</button>
 </div>
 
+<button id="tour-btn">Tour</button>
+
 <div id="sidebar">
   <div id="sidebar-header">
     <div id="sidebar-title">No connections</div>
@@ -2041,6 +2114,7 @@ function render(data) {
 
   // Store state and start with web layout
   graphState = { graphNodes, edges, link, node, container, zoom, svg, W, H, groupColorMap, triggerHighlight };
+  document.dispatchEvent(new Event('deptloaded'));
   plainMode = false;
   document.getElementById('plain-toggle').textContent = 'Plain';
   document.getElementById('plain-toggle').classList.remove('active');
@@ -2397,13 +2471,13 @@ document.getElementById('my-courses-toggle').addEventListener('click', () => {
     overlay.classList.remove('hidden');
   });
 
-  document.getElementById('info-close').addEventListener('click', () => {
+  function closeOverlay() {
     overlay.classList.add('hidden');
-  });
+    document.dispatchEvent(new Event('infooverlayclosed'));
+  }
 
-  overlay.addEventListener('click', (e) => {
-    if (e.target === overlay) overlay.classList.add('hidden');
-  });
+  document.getElementById('info-close').addEventListener('click', closeOverlay);
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) closeOverlay(); });
 
   prevBtn.addEventListener('click', () => { if (current > 0) goTo(current - 1); });
   nextBtn.addEventListener('click', () => { if (current < pages.length - 1) goTo(current + 1); });
@@ -2412,10 +2486,13 @@ document.getElementById('my-courses-toggle').addEventListener('click', () => {
 
   document.addEventListener('keydown', (e) => {
     if (overlay.classList.contains('hidden')) return;
-    if (e.key === 'Escape') overlay.classList.add('hidden');
+    if (e.key === 'Escape') closeOverlay();
     if (e.key === 'ArrowRight' && current < pages.length - 1) goTo(current + 1);
     if (e.key === 'ArrowLeft' && current > 0) goTo(current - 1);
   });
+
+  // Expose for auto-show on first visit
+  window.showInfoOverlay = () => overlay.classList.remove('hidden');
 })();
 
 // Feedback widget
@@ -2432,6 +2509,104 @@ document.getElementById('my-courses-toggle').addEventListener('click', () => {
   window.formspree = window.formspree || function() { (formspree.q = formspree.q || []).push(arguments); };
   formspree('initForm', { formElement: '#feedback-form', formId: 'mojpydnn' });
 })();
+
+// Feature tour
+const TOUR_KEY = 'prereq_tour_done';
+function startTour() {
+  const driverObj = window.driver.js.driver({
+    showProgress: true,
+    progressText: '{{current}} of {{total}}',
+    nextBtnText: 'Next →',
+    prevBtnText: '← Back',
+    doneBtnText: 'Done',
+    overlayOpacity: 0.4,
+    steps: [
+      {
+        popover: {
+          title: 'Welcome!',
+          description: 'An interactive map of every course prerequisite at UVM. Let\'s take a quick tour.',
+        }
+      },
+      {
+        element: '#change-dept',
+        popover: {
+          title: 'Switch Department',
+          description: 'Browse prerequisite graphs for any of UVM\'s departments.',
+          side: 'left',
+        }
+      },
+      {
+        element: '#layout-toggle',
+        popover: {
+          title: 'Layout Modes',
+          description: '<b>Hierarchy</b> arranges courses top-to-bottom by level. <b>Web</b> uses a free-form force layout.',
+          side: 'left',
+        }
+      },
+      {
+        element: '#search-wrap',
+        popover: {
+          title: 'Find a Course',
+          description: 'Search by code or name to jump to any course on the graph.',
+          side: 'left',
+        }
+      },
+      {
+        element: '#instructions',
+        popover: {
+          title: 'Clicking Nodes',
+          description: '<b>1 click</b> - highlight direct neighbors.<br><b>2 clicks</b> - show the full prereq chain.<br><b>3 clicks</b> - see every course it unlocks.',
+          side: 'right',
+        }
+      },
+      {
+        element: '#my-courses-toggle',
+        popover: {
+          title: 'My Courses',
+          description: 'Check off courses you\'ve taken. The graph will color-code what\'s locked, available, and done.',
+          side: 'left',
+        }
+      },
+      {
+        element: '#mc-import',
+        popover: {
+          title: 'Import Degree Audit',
+          description: 'Paste your UVM degree audit and AI will automatically check off all your completed courses.',
+          side: 'right',
+        }
+      },
+      {
+        element: '#feedback-btn',
+        popover: {
+          title: 'Send Feedback',
+          description: 'Spot a bug or have a suggestion?',
+          side: 'top',
+        }
+      },
+    ],
+    onDestroyStarted: () => {
+      localStorage.setItem(TOUR_KEY, '1');
+      driverObj.destroy();
+    },
+  });
+  driverObj.drive();
+}
+
+document.getElementById('tour-btn').addEventListener('click', startTour);
+
+// Auto-start for first-time visitors: show info overlay, then pulse Tour button on close
+if (!localStorage.getItem(TOUR_KEY)) {
+  document.addEventListener('deptloaded', () => {
+    setTimeout(() => window.showInfoOverlay(), 600);
+    document.addEventListener('infooverlayclosed', () => {
+      setTimeout(() => {
+        const btn = document.getElementById('tour-btn');
+        btn.classList.add('pulsing');
+        btn.addEventListener('animationend', () => btn.classList.remove('pulsing'), { once: true });
+      }, 400);
+    }, { once: true });
+  }, { once: true });
+}
 </script>
 <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
 </body>
