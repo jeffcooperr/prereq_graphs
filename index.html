@@ -1374,9 +1374,7 @@
       <span id="audit-status"></span>
     </div>
     <div id="audit-results" class="hidden"></div>
-    <div id="audit-results-actions" class="hidden">
-      <button id="audit-done">Done</button>
-    </div>
+    <div id="audit-results-actions" class="hidden"></div>
   </div>
 </div>
 
@@ -2252,14 +2250,13 @@ document.getElementById('mc-clear').addEventListener('click', () => {
   const status         = document.getElementById('audit-status');
   const resultsDiv     = document.getElementById('audit-results');
   const resultsActions = document.getElementById('audit-results-actions');
-  const doneBtn        = document.getElementById('audit-done');
-
   function resetModal() {
     textarea.value = '';
     status.textContent = '';
     resultsDiv.innerHTML = '';
     resultsDiv.classList.add('hidden');
     resultsActions.classList.add('hidden');
+    document.getElementById('audit-actions').appendChild(cancelBtn);
     textarea.style.display = '';
     parseBtn.style.display = '';
     cancelBtn.textContent = 'Cancel';
@@ -2270,8 +2267,6 @@ document.getElementById('mc-clear').addEventListener('click', () => {
     modal.classList.remove('hidden');
     setTimeout(() => textarea.focus(), 50);
   });
-
-  doneBtn.addEventListener('click', () => modal.classList.add('hidden'));
 
   cancelBtn.addEventListener('click', () => modal.classList.add('hidden'));
   modal.addEventListener('click', e => { if (e.target === modal) modal.classList.add('hidden'); });
@@ -2350,10 +2345,11 @@ document.getElementById('mc-clear').addEventListener('click', () => {
     // Switch modal to results view
     textarea.style.display = 'none';
     parseBtn.style.display = 'none';
-    cancelBtn.textContent = 'Close';
     status.textContent = '';
     resultsDiv.innerHTML = html;
     resultsDiv.classList.remove('hidden');
+    cancelBtn.textContent = 'Close';
+    resultsActions.appendChild(cancelBtn);
     resultsActions.classList.remove('hidden');
     parseBtn.disabled = false;
   });
