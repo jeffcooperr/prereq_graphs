@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Prerequisite Graph — UVM</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><line x1='16' y1='6' x2='6' y2='24' stroke='%237c6aff' stroke-width='2.5'/><line x1='16' y1='6' x2='26' y2='24' stroke='%237c6aff' stroke-width='2.5'/><line x1='6' y1='24' x2='26' y2='24' stroke='%237c6aff' stroke-width='2.5'/><circle cx='16' cy='6' r='4' fill='%237c6aff'/><circle cx='6' cy='24' r='4' fill='%234a9eff'/><circle cx='26' cy='24' r='4' fill='%234a9eff'/></svg>">
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="https://unpkg.com/dagre@0.8.5/dist/dagre.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
@@ -1544,6 +1545,7 @@ document.getElementById('change-dept').addEventListener('click', () => {
 function loadDept(dept) {
   currentDept = dept;
   window.location.hash = dept;
+  document.title = `${dept} Graph | UVM`;
   document.getElementById('dept-picker').classList.add('hidden');
   document.getElementById('dept-label').textContent = dept;
   document.getElementById('course-search').value = '';
