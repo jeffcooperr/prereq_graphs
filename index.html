@@ -125,10 +125,10 @@
   }
   #tour-btn:hover { border-color: var(--accent); color: var(--accent); }
   @keyframes tour-pulse {
-    0%, 100% { border-color: var(--border); color: var(--muted); }
-    50% { border-color: #f1c40f; color: #f1c40f; box-shadow: 0 0 8px rgba(241,196,15,0.4); }
+    0%, 100% { border-color: var(--border); color: var(--muted); transform: scale(1); }
+    50% { border-color: #f1c40f; color: #f1c40f; box-shadow: 0 0 12px rgba(241,196,15,0.6); transform: scale(1.15); }
   }
-  #tour-btn.pulsing { animation: tour-pulse 1s ease-in-out 5; }
+  #tour-btn.pulsing { animation: tour-pulse 0.8s ease-in-out 8; }
 
   /* Driver.js dark theme overrides */
   .driver-popover {
