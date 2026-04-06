@@ -1542,6 +1542,12 @@ document.getElementById('change-dept').addEventListener('click', () => {
   setTimeout(() => deptSearch.focus(), 50);
 });
 
+document.getElementById('dept-picker').addEventListener('click', (e) => {
+  if (e.target === document.getElementById('dept-picker') && currentDept) {
+    document.getElementById('dept-picker').classList.add('hidden');
+  }
+});
+
 function loadDept(dept) {
   currentDept = dept;
   window.location.hash = dept;
