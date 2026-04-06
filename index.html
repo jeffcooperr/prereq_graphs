@@ -2573,7 +2573,15 @@ function startTour() {
           title: 'Import Degree Audit',
           description: 'Paste your UVM degree audit and AI will automatically check off all your completed courses.',
           side: 'right',
-        }
+        },
+        onHighlightStarted: () => {
+          document.getElementById('my-courses-panel').classList.add('visible');
+          document.body.classList.add('courses-open');
+        },
+        onDeselected: () => {
+          document.getElementById('my-courses-panel').classList.remove('visible');
+          document.body.classList.remove('courses-open');
+        },
       },
       {
         element: '#feedback-btn',
