@@ -248,6 +248,124 @@
 
   #mc-clear:hover { border-color: #4aff8a; color: #4aff8a; }
 
+  #mc-import {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    cursor: pointer;
+    transition: all 0.15s;
+    width: calc(100% - 24px);
+    margin: 0 12px 8px;
+    flex-shrink: 0;
+  }
+
+  #mc-import:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* Audit import modal */
+  #audit-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: blur(6px);
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #audit-modal.hidden { display: none; }
+
+  #audit-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-top: 2px solid var(--accent);
+    width: 540px;
+    max-width: 95vw;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.6);
+  }
+
+  #audit-box h3 {
+    font-family: 'Syne', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.01em;
+  }
+
+  #audit-box p {
+    font-size: 0.62rem;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+
+  #audit-textarea {
+    width: 100%;
+    height: 200px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6rem;
+    padding: 10px;
+    resize: vertical;
+    outline: none;
+    line-height: 1.5;
+  }
+
+  #audit-textarea:focus { border-color: var(--accent); }
+
+  #audit-actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  #audit-parse {
+    background: var(--accent);
+    border: none;
+    color: #fff;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 7px 16px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+
+  #audit-parse:hover { opacity: 0.85; }
+  #audit-parse:disabled { opacity: 0.4; cursor: default; }
+
+  #audit-cancel {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 7px 16px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  #audit-cancel:hover { border-color: var(--muted); color: var(--text); }
+
+  #audit-status {
+    font-size: 0.6rem;
+    color: var(--muted);
+    margin-left: auto;
+  }
+
   #mc-search {
     margin: 10px 12px 4px;
     background: var(--bg);
@@ -1047,9 +1165,23 @@
     <div id="mc-title">My Courses</div>
     <button id="mc-clear">Clear</button>
   </div>
+  <button id="mc-import">⬆ Import Degree Audit</button>
   <input id="mc-search" type="text" placeholder="Filter courses..." autocomplete="off">
   <div id="mc-count"></div>
   <div id="mc-list"></div>
+</div>
+
+<div id="audit-modal" class="hidden">
+  <div id="audit-box">
+    <h3>Import Degree Audit</h3>
+    <p>Paste your UVM degree audit below. AI will extract your completed courses and check them off automatically.</p>
+    <textarea id="audit-textarea" placeholder="Paste degree audit text here..."></textarea>
+    <div id="audit-actions">
+      <button id="audit-parse">Parse</button>
+      <button id="audit-cancel">Cancel</button>
+      <span id="audit-status"></span>
+    </div>
+  </div>
 </div>
 
 <div id="dept-picker">
@@ -1868,6 +2000,74 @@ document.getElementById('mc-clear').addEventListener('click', () => {
   updateAvailability();
   updateTakenCount();
 });
+
+// Degree audit import
+(function() {
+  const WORKER_URL = 'https://prereq-audit-parser.4jcoop.workers.dev';
+  const modal     = document.getElementById('audit-modal');
+  const textarea  = document.getElementById('audit-textarea');
+  const parseBtn  = document.getElementById('audit-parse');
+  const cancelBtn = document.getElementById('audit-cancel');
+  const status    = document.getElementById('audit-status');
+
+  document.getElementById('mc-import').addEventListener('click', () => {
+    textarea.value = '';
+    status.textContent = '';
+    modal.classList.remove('hidden');
+    setTimeout(() => textarea.focus(), 50);
+  });
+
+  cancelBtn.addEventListener('click', () => modal.classList.add('hidden'));
+  modal.addEventListener('click', e => { if (e.target === modal) modal.classList.add('hidden'); });
+
+  parseBtn.addEventListener('click', async () => {
+    const text = textarea.value.trim();
+    if (!text) return;
+    parseBtn.disabled = true;
+    status.textContent = 'Parsing...';
+
+    let courses;
+    try {
+      const res = await fetch(WORKER_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ audit: text })
+      });
+      courses = await res.json();
+      if (!Array.isArray(courses)) throw new Error(courses.error || 'Unexpected response');
+    } catch (e) {
+      status.textContent = 'Error: ' + e.message;
+      parseBtn.disabled = false;
+      return;
+    }
+
+    // Check off all returned courses that exist in the current graph
+    const validIds = graphState ? new Set(graphState.graphNodes.map(n => n.id)) : new Set();
+    let matched = 0;
+    courses.forEach(code => {
+      if (validIds.has(code) && !takenCourses.has(code)) {
+        takenCourses.add(code);
+        matched++;
+      }
+    });
+    saveTaken();
+
+    // Sync checkboxes if panel is open
+    document.querySelectorAll('.mc-check').forEach(cb => {
+      if (takenCourses.has(cb.value)) {
+        cb.checked = true;
+        cb.closest('.mc-item')?.classList.add('checked');
+      }
+    });
+
+    if (takenMode) { updateAvailability(); }
+    updateTakenCount();
+
+    status.textContent = `${matched} course${matched === 1 ? '' : 's'} imported`;
+    parseBtn.disabled = false;
+    setTimeout(() => modal.classList.add('hidden'), 1200);
+  });
+})();
 
 document.getElementById('my-courses-toggle').addEventListener('click', () => {
   if (!graphState) return;

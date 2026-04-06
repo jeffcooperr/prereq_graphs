@@ -46,8 +46,11 @@ export default {
       try { data = JSON.parse(rawText); }
       catch (e) { return json({ error: 'Gemini returned non-JSON', raw: rawText.slice(0, 300) }, 500); }
 
-      const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+      let text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
       if (!text) return json({ error: 'No response from Gemini', raw: data }, 500);
+
+      // Strip markdown code fences if present
+      text = text.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '').trim();
 
       return new Response(text, {
         headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' }
