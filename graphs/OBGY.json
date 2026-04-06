@@ -2,28 +2,6 @@
   "department": "OBGY",
   "nodes": [
     {
-      "id": "ANPS 1190",
-      "course_code": "ANPS 1190",
-      "department": "ANPS",
-      "title": "Ugr Hum Anatomy & Physiology 1",
-      "credit_hours": "4",
-      "description": "Part I of two-semester course sequence. Structure and function of human body.",
-      "prereq_expression": null,
-      "other_requirements": "Prereg limited to: BMCS, BIOM, CSD, EMS, EXSC, HSCI, MLS, MRS, NFS, NMT, PE, PHS, PRNU majors only. Degree students only even after major restrictions lifted.",
-      "external": true
-    },
-    {
-      "id": "ANPS 1200",
-      "course_code": "ANPS 1200",
-      "department": "ANPS",
-      "title": "Ugr Hum Anatomy & Physiology 2",
-      "credit_hours": "4",
-      "description": "Part II of two-semester course sequence. Structure and function of human body. Prerequisite: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\"  class=\"notoffered\">ANPS 1190</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"ANPS 1190\"}",
-      "other_requirements": "Common hour exams are held 5:30-7:00pm on these Mondays: 2/9, 3/2, and 4/6. BIOM,CSD,DIET,DNFS,EXSC,HSCI,MLS,NFS, PE, PHS, MRS, PRNU; Majors only until Dec. 2nd, Please contact Patrick Mullen (patrick.c.mullen@uvm.edu) with any questions; Class meets 3x a week with online lab comprising 4th credit; Degree students only even after level restrictions removed; PACE students register for ANPS 1200 ZRA; Prereq enforced by the system:ANPS 1190.",
-      "external": true
-    },
-    {
       "id": "BIOL 4405",
       "course_code": "BIOL 4405",
       "department": "BIOL",
@@ -32,6 +10,31 @@
       "description": "Physiology at the organ, systems, and organismal levels. Capstone course to consolidate biological concepts. Prerequisites: <a href=\"/search/?p=BCOR%202300\" data-action=\"result-detail\" data-group=\"code:BCOR 2300\" >BCOR 2300</a>; <a href=\"/search/?p=BCOR%202100\" data-action=\"result-detail\" data-group=\"code:BCOR 2100\" >BCOR 2100</a> or <a href=\"/search/?p=BCOR%202500\" data-action=\"result-detail\" data-group=\"code:BCOR 2500\" >BCOR 2500</a>.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2300\"}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BCOR 2100\"}, {\"type\": \"course\", \"code\": \"BCOR 2500\"}]}]}",
       "other_requirements": "Must register for a BIOL 4405 lab A01-A06; PACE students by permission and override",
+      "semesters": "Fall 2026",
+      "external": true
+    },
+    {
+      "id": "OBGY 2995",
+      "course_code": "OBGY 2995",
+      "department": "OBGY",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Instructor permission required.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required.",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "ANPS 1190",
+      "course_code": "ANPS 1190",
+      "department": "ANPS",
+      "title": "Ugr Hum Anatomy & Physiology 1",
+      "credit_hours": "4",
+      "description": "Part I of two-semester course sequence. Structure and function of human body.",
+      "prereq_expression": null,
+      "other_requirements": "Prereg limited to: BMCS, BIOM, CSD, EMS, EXSC, HSCI, MLS, MRS, NFS, NMT, PE, PHS, PRNU majors only. Degree students only even after major restrictions lifted.",
+      "semesters": "Fall 2026",
       "external": true
     },
     {
@@ -43,18 +46,20 @@
       "description": "Healthy pregnancy outcome depends on a confluence of social and biological processes. Taught by a physician and research faculty through the department of Ob/Gyn. Explores how a child is conceived (or not), maternal-fetal physiology and embryology, medical management of common diseases, ethical considerations, and complex social and societal aspects of pregnancy. Prior coursework in anatomy and physiology is recommended.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}, {\"type\": \"course\", \"code\": \"ASCI 2105\"}, {\"type\": \"course\", \"code\": \"BIOL 4405\"}]}",
       "other_requirements": "PACE students by permission and override. Prior coursework in anatomy and physiology is recommended.",
+      "semesters": "Fall 2026",
       "external": false
     },
     {
-      "id": "OBGY 2995",
-      "course_code": "OBGY 2995",
-      "department": "OBGY",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Instructor permission required.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required.",
-      "external": false
+      "id": "ANPS 1200",
+      "course_code": "ANPS 1200",
+      "department": "ANPS",
+      "title": "Ugr Hum Anatomy & Physiology 2",
+      "credit_hours": "4",
+      "description": "Part II of two-semester course sequence. Structure and function of human body. Prerequisite: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\"  class=\"notoffered\">ANPS 1190</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"ANPS 1190\"}",
+      "other_requirements": "Common hour exams are held 5:30-7:00pm on these Mondays: 2/9, 3/2, and 4/6. BIOM,CSD,DIET,DNFS,EXSC,HSCI,MLS,NFS, PE, PHS, MRS, PRNU; Majors only until Dec. 2nd, Please contact Patrick Mullen (patrick.c.mullen@uvm.edu) with any questions; Class meets 3x a week with online lab comprising 4th credit; Degree students only even after level restrictions removed; PACE students register for ANPS 1200 ZRA; Prereq enforced by the system:ANPS 1190.",
+      "semesters": "Spring 2026",
+      "external": true
     }
   ],
   "edges": [

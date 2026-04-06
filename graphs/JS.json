@@ -10,6 +10,7 @@
       "description": "See schedule of courses for specific titles.",
       "prereq_expression": null,
       "other_requirements": "Open to degree and PACE students",
+      "semesters": "Spring 2026",
       "external": false
     },
     {
@@ -21,6 +22,7 @@
       "description": "An introduction to Jewish history, religious thought and practice, ethics, and law. Cross-listed with: <a href=\"/search/?p=REL%201240\" data-action=\"result-detail\" data-group=\"code:REL 1240\" >REL 1240</a>.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Fall 2026",
       "external": false
     }
   ],

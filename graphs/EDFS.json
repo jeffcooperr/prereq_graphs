@@ -2,14 +2,15 @@
   "department": "EDFS",
   "nodes": [
     {
-      "id": "EDFS 1991",
-      "course_code": "EDFS 1991",
+      "id": "EDFS 1010",
+      "course_code": "EDFS 1010",
       "department": "EDFS",
-      "title": "Internship",
-      "credit_hours": "1 to 3",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"Sophomore standing\"}",
-      "other_requirements": "Instructor permission; Students must be volunteering, tutoring, or working at a PreK-12 school setting.",
+      "title": "Race and Racism in the U.S.",
+      "credit_hours": "3",
+      "description": "Students will investigate the multi-faceted concepts of identity, racism, and the dynamics of power, privilege, and oppression in the United States.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -21,28 +22,7 @@
       "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": "Instructor Permission Only. Offered at department discretion.",
-      "external": false
-    },
-    {
-      "id": "EDFS 7040",
-      "course_code": "EDFS 7040",
-      "department": "EDFS",
-      "title": "Soc Process & Institutionl Chg",
-      "credit_hours": "3",
-      "description": "Critical analysis of theory and research related to justice, caring, and change in education and other social institutions. Focus: ideology, diversity, and management of knowledge.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"DOCTORAL STUDENTS\"}, {\"type\": \"other_requirement\", \"text\": \"Instructor Permission\"}]}",
-      "other_requirements": "Doctoral Students Only or Instructor Permission",
-      "external": false
-    },
-    {
-      "id": "EDFS 3030",
-      "course_code": "EDFS 3030",
-      "department": "EDFS",
-      "title": "Soc, Hst & Phil Found of Educ",
-      "credit_hours": "3",
-      "description": "Critical examination of central educational/social issues and values with special emphasis on the struggle for justice and equality. Themes include schooling and social class, race, and gender; the purposes of education; and the responsibilities of teachers. Prerequisite: Completion of a 2000 level course.",
-      "prereq_expression": "{\"type\": \"other_requirement\", \"description\": \"Any EDFS course\"}",
-      "other_requirements": "Open to degree and PACE students",
+      "semesters": "Spring 2026",
       "external": false
     },
     {
@@ -54,50 +34,7 @@
       "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": "Instructor permission required. This section is intended for CESS undergraduate majors who are designing, conducting, working with a faculty member on a research project, or finalizing an honors thesis. Students are expected to schedule time at the beginning of the semester to meet with their honors thesis advisor or CESS liaison with the Patrick Leahy Honors College (PLHC) to organize their work for the semester.",
-      "external": false
-    },
-    {
-      "id": "EDFS 3991",
-      "course_code": "EDFS 3991",
-      "department": "EDFS",
-      "title": "Internship",
-      "credit_hours": "3",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Prerequisite: Permission of the Coordinator of Professional Laboratory Experiences.",
-      "prereq_expression": null,
-      "other_requirements": "Permission of the Coordinator of Professional Laboratory Experiences.",
-      "external": false
-    },
-    {
-      "id": "EDFS 6391",
-      "course_code": "EDFS 6391",
-      "department": "EDFS",
-      "title": "Master's Thesis Research",
-      "credit_hours": "6",
-      "description": "Research for the Master's Thesis. Thesis topic must be approved by a faculty committee.",
-      "prereq_expression": null,
-      "other_requirements": "Thesis topic must be approved by a faculty committee. Instructor Permission Only",
-      "external": false
-    },
-    {
-      "id": "EDFS 1020",
-      "course_code": "EDFS 1020",
-      "department": "EDFS",
-      "title": "School and Society",
-      "credit_hours": "3",
-      "description": "As a foundational course in the College of Education and Social Services, this course investigates the interplay between schooling and society. We examine how children and youth are situated within the context of systems, including their families, communities, and the larger society, that influence their development and learning. We will explore the sociological purposes of schools, their historical development in the US, and the resulting inequitable impact of school organization and policy.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EDFS 2994",
-      "course_code": "EDFS 2994",
-      "department": "EDFS",
-      "title": "Teach Asst: Foundations of Ed",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -109,17 +46,7 @@
       "description": "See Schedule of Course for specific titles.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EDFS 3090",
-      "course_code": "EDFS 3090",
-      "department": "EDFS",
-      "title": "Intro to Research Methods",
-      "credit_hours": "3",
-      "description": "Seminars and research projects. Methods of historical, descriptive, experimental, quasi-experimental, field studies, and survey research.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "semesters": "Spring 2026",
       "external": false
     },
     {
@@ -131,17 +58,103 @@
       "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": "Instructor permission required",
+      "semesters": "Spring 2026",
       "external": false
     },
     {
-      "id": "EDFS 1010",
-      "course_code": "EDFS 1010",
+      "id": "EDFS 3030",
+      "course_code": "EDFS 3030",
       "department": "EDFS",
-      "title": "Race and Racism in the U.S.",
+      "title": "Soc, Hst & Phil Found of Educ",
       "credit_hours": "3",
-      "description": "Students will investigate the multi-faceted concepts of identity, racism, and the dynamics of power, privilege, and oppression in the United States.",
+      "description": "Critical examination of central educational/social issues and values with special emphasis on the struggle for justice and equality. Themes include schooling and social class, race, and gender; the purposes of education; and the responsibilities of teachers. Prerequisite: Completion of a 2000 level course.",
+      "prereq_expression": "{\"type\": \"other_requirement\", \"description\": \"Any EDFS course\"}",
+      "other_requirements": "Open to degree and PACE students",
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "EDFS 6391",
+      "course_code": "EDFS 6391",
+      "department": "EDFS",
+      "title": "Master's Thesis Research",
+      "credit_hours": "6",
+      "description": "Research for the Master's Thesis. Thesis topic must be approved by a faculty committee.",
+      "prereq_expression": null,
+      "other_requirements": "Thesis topic must be approved by a faculty committee. Instructor Permission Only",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "EDFS 7040",
+      "course_code": "EDFS 7040",
+      "department": "EDFS",
+      "title": "Soc Process & Institutionl Chg",
+      "credit_hours": "3",
+      "description": "Critical analysis of theory and research related to justice, caring, and change in education and other social institutions. Focus: ideology, diversity, and management of knowledge.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"DOCTORAL STUDENTS\"}, {\"type\": \"other_requirement\", \"text\": \"Instructor Permission\"}]}",
+      "other_requirements": "Doctoral Students Only or Instructor Permission",
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "EDFS 1020",
+      "course_code": "EDFS 1020",
+      "department": "EDFS",
+      "title": "School and Society",
+      "credit_hours": "3",
+      "description": "As a foundational course in the College of Education and Social Services, this course investigates the interplay between schooling and society. We examine how children and youth are situated within the context of systems, including their families, communities, and the larger society, that influence their development and learning. We will explore the sociological purposes of schools, their historical development in the US, and the resulting inequitable impact of school organization and policy.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "EDFS 3991",
+      "course_code": "EDFS 3991",
+      "department": "EDFS",
+      "title": "Internship",
+      "credit_hours": "3",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion. Prerequisite: Permission of the Coordinator of Professional Laboratory Experiences.",
+      "prereq_expression": null,
+      "other_requirements": "Permission of the Coordinator of Professional Laboratory Experiences.",
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "EDFS 1991",
+      "course_code": "EDFS 1991",
+      "department": "EDFS",
+      "title": "Internship",
+      "credit_hours": "1 to 3",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"Sophomore standing\"}",
+      "other_requirements": "Instructor permission; Students must be volunteering, tutoring, or working at a PreK-12 school setting.",
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "EDFS 2994",
+      "course_code": "EDFS 2994",
+      "department": "EDFS",
+      "title": "Teach Asst: Foundations of Ed",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "EDFS 3090",
+      "course_code": "EDFS 3090",
+      "department": "EDFS",
+      "title": "Intro to Research Methods",
+      "credit_hours": "3",
+      "description": "Seminars and research projects. Methods of historical, descriptive, experimental, quasi-experimental, field studies, and survey research.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall 2026",
       "external": false
     }
   ],

@@ -2,14 +2,15 @@
   "department": "ENGR",
   "nodes": [
     {
-      "id": "ENGR 2120",
-      "course_code": "ENGR 2120",
+      "id": "ENGR 1020",
+      "course_code": "ENGR 1020",
       "department": "ENGR",
-      "title": "Building Information Modeling",
-      "credit_hours": "3",
-      "description": "Building Information Modeling (BIM) is a digital representation integrating the design tools used by building disciplines under a single parametric computer model. Buildings, facilities and infrastructure are modeled with special attention to mechanical, plumbing, electrical and structural systems. Prerequisite: <a href=\"/search/?p=ENGR%201020\" data-action=\"result-detail\" data-group=\"code:ENGR 1020\" >ENGR 1020</a> or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ENGR 1020\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
+      "title": "Graphical Communication",
+      "credit_hours": "2",
+      "description": "Project-based course. Principles of computer-aided drafting/design; production of engineering drawings including: orthographic, auxiliary, section, pictorials and dimensioning, graphics and charts; applications in specific engineering disciplines.",
+      "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -21,17 +22,19 @@
       "description": "Creation of geometric solid representations of physical objects using three dimensional CAD. Introduces parametric design; analysis tools; assembly simulation; dimension methods &amp; standards; tolerances &amp; geometric tolerancing. Further addresses the design for manufacturing of machined parts; sheet metal; mold design. Prerequisite: <a href=\"/search/?p=ENGR%201020\" data-action=\"result-detail\" data-group=\"code:ENGR 1020\" >ENGR 1020</a> or Instructor permission.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ENGR 1020\"}, {\"type\": \"other\", \"description\": \"Instructor permission\"}]}",
       "other_requirements": "Open to degree and PACE students",
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
-      "id": "ENGR 1020",
-      "course_code": "ENGR 1020",
+      "id": "ENGR 2120",
+      "course_code": "ENGR 2120",
       "department": "ENGR",
-      "title": "Graphical Communication",
-      "credit_hours": "2",
-      "description": "Project-based course. Principles of computer-aided drafting/design; production of engineering drawings including: orthographic, auxiliary, section, pictorials and dimensioning, graphics and charts; applications in specific engineering disciplines.",
-      "prereq_expression": null,
+      "title": "Building Information Modeling",
+      "credit_hours": "3",
+      "description": "Building Information Modeling (BIM) is a digital representation integrating the design tools used by building disciplines under a single parametric computer model. Buildings, facilities and infrastructure are modeled with special attention to mechanical, plumbing, electrical and structural systems. Prerequisite: <a href=\"/search/?p=ENGR%201020\" data-action=\"result-detail\" data-group=\"code:ENGR 1020\" >ENGR 1020</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ENGR 1020\"}, {\"type\": \"course\", \"code\": \"Instructor permission\"}]}",
       "other_requirements": null,
+      "semesters": "Spring 2026",
       "external": false
     }
   ],

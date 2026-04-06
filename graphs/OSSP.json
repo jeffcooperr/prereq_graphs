@@ -10,18 +10,8 @@
       "description": "Online component of select UVM Abroad programs. Course materials promote thoughtful reflection about our individual roles as members of a diverse and interconnected world community, together with readings and tools to deepen students' own cross-cultural engagement over the course of the semester. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years. Co-requisite: Enrollment in the appropriate UVM Abroad program.",
       "prereq_expression": null,
       "other_requirements": "Co-requisite: Enrollment in the appropriate UVM Abroad program. Instructor permission required; Reserved for participants in the designated UVM semester abroad program in New Zealand; Asynchronous online",
+      "semesters": "Fall & Spring 2026",
       "external": true
-    },
-    {
-      "id": "OSSP 0030",
-      "course_code": "OSSP 0030",
-      "department": "OSSP",
-      "title": "UVM Field Studies Costa Rica",
-      "credit_hours": "0",
-      "description": "Enrollment as part of study abroad participation, permission required.",
-      "prereq_expression": null,
-      "other_requirements": "Enrollment as part of study abroad participation, permission required. $500 Study Abroad Fee. Permission Required.",
-      "external": false
     },
     {
       "id": "OSSP 0050",
@@ -32,28 +22,7 @@
       "description": "Enrollment as part of study abroad participation, permission required.",
       "prereq_expression": "{\"type\": \"course\", \"code\": \"GRS 1105\"}",
       "other_requirements": "Enrollment as part of study abroad participation, permission required. UVM Semester Study Abroad Program. Regular tuition plus $500 Study Abroad Fee plus $4458 program fee (accommodation less $300 deposit). Permission Required.",
-      "external": false
-    },
-    {
-      "id": "OSSP 0010",
-      "course_code": "OSSP 0010",
-      "department": "OSSP",
-      "title": "Exchange Inclusive I/S Cont",
-      "credit_hours": "12",
-      "description": "Enrollment as part of study abroad participation, permission required.",
-      "prereq_expression": null,
-      "other_requirements": "Permission required. Inclusive exchange study abroad program. In-state student. $500 Study Abroad Fee plus $17237. Cost includes in-state tuition, fees, room, meals.",
-      "external": false
-    },
-    {
-      "id": "OSSP 0001",
-      "course_code": "OSSP 0001",
-      "department": "OSSP",
-      "title": "Approved External/Direct Cont",
-      "credit_hours": "12",
-      "description": "Enrollment as part of study abroad participation, permission required.",
-      "prereq_expression": null,
-      "other_requirements": "Enrollment as part of study abroad participation, permission required. Approved External/Direct study abroad program. $500 Study Abroad Fee.",
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -65,6 +34,19 @@
       "description": "Enrollment as part of study abroad participation, permission required.",
       "prereq_expression": null,
       "other_requirements": "Enrollment as part of study abroad participation, permission required.",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "OSSP 0010",
+      "course_code": "OSSP 0010",
+      "department": "OSSP",
+      "title": "Exchange Inclusive I/S Cont",
+      "credit_hours": "12",
+      "description": "Enrollment as part of study abroad participation, permission required.",
+      "prereq_expression": null,
+      "other_requirements": "Permission required. Inclusive exchange study abroad program. In-state student. $500 Study Abroad Fee plus $17237. Cost includes in-state tuition, fees, room, meals.",
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -76,6 +58,31 @@
       "description": "Enrollment as part of study abroad participation, permission required.",
       "prereq_expression": null,
       "other_requirements": "Permission required. Enrollment as part of study abroad participation, exchange with fees study abroad program - in-state student.",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "OSSP 0030",
+      "course_code": "OSSP 0030",
+      "department": "OSSP",
+      "title": "UVM Field Studies Costa Rica",
+      "credit_hours": "0",
+      "description": "Enrollment as part of study abroad participation, permission required.",
+      "prereq_expression": null,
+      "other_requirements": "Enrollment as part of study abroad participation, permission required. $500 Study Abroad Fee. Permission Required.",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "OSSP 0001",
+      "course_code": "OSSP 0001",
+      "department": "OSSP",
+      "title": "Approved External/Direct Cont",
+      "credit_hours": "12",
+      "description": "Enrollment as part of study abroad participation, permission required.",
+      "prereq_expression": null,
+      "other_requirements": "Enrollment as part of study abroad participation, permission required. Approved External/Direct study abroad program. $500 Study Abroad Fee.",
+      "semesters": "Fall & Spring 2026",
       "external": false
     }
   ],

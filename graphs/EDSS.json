@@ -10,6 +10,7 @@
       "description": "See Schedule of Courses for specific titles.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Spring 2026",
       "external": false
     }
   ],

@@ -2,37 +2,16 @@
   "department": "EDTE",
   "nodes": [
     {
-      "id": "EDEL 3570",
-      "course_code": "EDEL 3570",
-      "department": "EDEL",
-      "title": "SU:Social Educ &Social Studies",
-      "credit_hours": "3",
-      "description": "Social Studies is the study of how humans have interacted with their environment and one another over time. The goal of teachers is to prepare students to be contributing and engaged citizens. Course covers how to teach social studies to children in a way that prepares them to be active citizens in a democratic and sustainable society. Focuses on elementary social studies standards, content, strategies, and resources. Pre/co-requisites: Teacher Education:Elementary Education major; <a href=\"/search/?p=EDEL%203550\" data-action=\"result-detail\" data-group=\"code:EDEL 3550\" >EDEL 3550</a>, <a href=\"/search/?p=EDEL%203580\" data-action=\"result-detail\" data-group=\"code:EDEL 3580\" >EDEL 3580</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Teacher Education:Elementary Education major; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement; Concurrent with EDEL 3550 and EDEL 3580.",
-      "external": true
-    },
-    {
-      "id": "EDTE 1010",
-      "course_code": "EDTE 1010",
+      "id": "EDTE 3510",
+      "course_code": "EDTE 3510",
       "department": "EDTE",
-      "title": "CL:Tchng to Make a Difference",
+      "title": "CL:Place-Based Educ Capstone",
       "credit_hours": "3",
-      "description": "Serves as an introduction to the field of education and how teaching can foster a more just and humane world.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "description": "The capstone experience for undergraduate students participating in the Place-Based Education Certificate Program; provides a structured opportunity for students to engage in dialogue and critical reflection, and to design a robust PBE experience in collaboration with a community partner. Prerequisites: <a href=\"/search/?p=EDTE%201610\" data-action=\"result-detail\" data-group=\"code:EDTE 1610\" >EDTE 1610</a> or <a href=\"/search/?p=NR%201610\" data-action=\"result-detail\" data-group=\"code:NR 1610\"  class=\"notoffered\">NR 1610</a>; one of <a href=\"/search/?p=CDAE%202020\" data-action=\"result-detail\" data-group=\"code:CDAE 2020\" >CDAE 2020</a>, <a href=\"/search/?p=EDEC%203810\" data-action=\"result-detail\" data-group=\"code:EDEC 3810\" >EDEC 3810</a>, <a href=\"/search/?p=EDEL%203570\" data-action=\"result-detail\" data-group=\"code:EDEL 3570\" >EDEL 3570</a>, <a href=\"/search/?p=EDML%203890\" data-action=\"result-detail\" data-group=\"code:EDML 3890\"  class=\"notoffered\">EDML 3890</a>, <a href=\"/search/?p=PRT%202490\" data-action=\"result-detail\" data-group=\"code:PRT 2490\"  class=\"notoffered\">PRT 2490</a>. Pre/Co-requisites: Minimum Junior standing or Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDTE 1610\"}, {\"type\": \"course\", \"code\": \"NR 1610\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CDAE 2020\"}, {\"type\": \"course\", \"code\": \"EDEC 3810\"}, {\"type\": \"course\", \"code\": \"EDEL 3570\"}, {\"type\": \"course\", \"code\": \"EDML 3890\"}, {\"type\": \"course\", \"code\": \"PRT 2490\"}, {\"type\": \"course\", \"code\": \"NR 2730\"}]}]}",
+      "other_requirements": "Minimum Junior standing or Instructor permission.",
+      "semesters": "Fall & Spring 2026",
       "external": false
-    },
-    {
-      "id": "EDEC 3810",
-      "course_code": "EDEC 3810",
-      "department": "EDEC",
-      "title": "Inquiry-Based Pedagogy",
-      "credit_hours": "3",
-      "description": "Examines content/methods for designing, implementing, and evaluating inquiry-based curriculum that is authentic and meaningful to students' lives. Students will construct a shared vision for high quality instruction and explore how integrating Next Generation Science and C3 Framework for Social Studies can provide rich opportunities for engaging students in interdisciplinary, inquiry investigations. Prerequisites: <a href=\"/search/?p=EDEC%202130\" data-action=\"result-detail\" data-group=\"code:EDEC 2130\"  class=\"notoffered\">EDEC 2130</a>, <a href=\"/search/?p=EDEC%202510\" data-action=\"result-detail\" data-group=\"code:EDEC 2510\" >EDEC 2510</a>, or Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 2130\"}, {\"type\": \"course\", \"code\": \"EDEC 2510\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 2130\"}, {\"type\": \"course\", \"code\": \"EDEC 2510\"}]}]}",
-      "other_requirements": "Instructor permission",
-      "external": true
     },
     {
       "id": "EDTE 4993",
@@ -43,18 +22,8 @@
       "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Fall 2026",
       "external": false
-    },
-    {
-      "id": "CDAE 2020",
-      "course_code": "CDAE 2020",
-      "department": "CDAE",
-      "title": "CL:Sustainable Community Dev",
-      "credit_hours": "3",
-      "description": "Introduction to perspectives and methods used to develop healthy communities that are economically, socially, and environmentally sustainable with rural and urban, US and international examples. Prerequisites: <a href=\"/search/?p=CDAE%201020\" data-action=\"result-detail\" data-group=\"code:CDAE 1020\" >CDAE 1020</a>, <a href=\"/search/?p=ENVS%201510\" data-action=\"result-detail\" data-group=\"code:ENVS 1510\"  class=\"notoffered\">ENVS 1510</a>, or Instructor permission. Cross-listed with: <a href=\"/search/?p=ENVS%202470\" data-action=\"result-detail\" data-group=\"code:ENVS 2470\" >ENVS 2470</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CDAE 1020\"}, {\"type\": \"course\", \"code\": \"ENVS 1510\"}]}",
-      "other_requirements": "Instructor permission",
-      "external": true
     },
     {
       "id": "EDTE 2889",
@@ -65,17 +34,7 @@
       "description": "Builds on theories of experiential education and social-ecological systems resilience to provides students with knowledge and skills related to outdoor education. Students will learn resilience-based approaches to leading groups in outdoor settings. Includes core DEI content (both principles and practices) related to critical, indigenous, and decolonizing perspectives on outdoor education.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EDTE 3510",
-      "course_code": "EDTE 3510",
-      "department": "EDTE",
-      "title": "CL:Place-Based Educ Capstone",
-      "credit_hours": "3",
-      "description": "The capstone experience for undergraduate students participating in the Place-Based Education Certificate Program; provides a structured opportunity for students to engage in dialogue and critical reflection, and to design a robust PBE experience in collaboration with a community partner. Prerequisites: <a href=\"/search/?p=EDTE%201610\" data-action=\"result-detail\" data-group=\"code:EDTE 1610\" >EDTE 1610</a> or <a href=\"/search/?p=NR%201610\" data-action=\"result-detail\" data-group=\"code:NR 1610\"  class=\"notoffered\">NR 1610</a>; one of <a href=\"/search/?p=CDAE%202020\" data-action=\"result-detail\" data-group=\"code:CDAE 2020\" >CDAE 2020</a>, <a href=\"/search/?p=EDEC%203810\" data-action=\"result-detail\" data-group=\"code:EDEC 3810\" >EDEC 3810</a>, <a href=\"/search/?p=EDEL%203570\" data-action=\"result-detail\" data-group=\"code:EDEL 3570\" >EDEL 3570</a>, <a href=\"/search/?p=EDML%203890\" data-action=\"result-detail\" data-group=\"code:EDML 3890\"  class=\"notoffered\">EDML 3890</a>, <a href=\"/search/?p=PRT%202490\" data-action=\"result-detail\" data-group=\"code:PRT 2490\"  class=\"notoffered\">PRT 2490</a>. Pre/Co-requisites: Minimum Junior standing or Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDTE 1610\"}, {\"type\": \"course\", \"code\": \"NR 1610\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CDAE 2020\"}, {\"type\": \"course\", \"code\": \"EDEC 3810\"}, {\"type\": \"course\", \"code\": \"EDEL 3570\"}, {\"type\": \"course\", \"code\": \"EDML 3890\"}, {\"type\": \"course\", \"code\": \"PRT 2490\"}, {\"type\": \"course\", \"code\": \"NR 2730\"}]}]}",
-      "other_requirements": "Minimum Junior standing or Instructor permission.",
+      "semesters": "Fall 2026",
       "external": false
     },
     {
@@ -87,7 +46,56 @@
       "description": "Introduces the principles and practices of place-based education. Students learn to design place-based curriculum and educative materials from an interdisciplinary analysis of specific places. Cross-listed with: <a href=\"/search/?p=SEP%201610\" data-action=\"result-detail\" data-group=\"code:SEP 1610\" >SEP 1610</a>.",
       "prereq_expression": null,
       "other_requirements": "Instructor Permission Required; Priority registration for students enrolled in PBE certificate. Then open to Degree & PACE students; Cross listed with SEP 1610A",
+      "semesters": "Fall 2026",
       "external": false
+    },
+    {
+      "id": "EDTE 1010",
+      "course_code": "EDTE 1010",
+      "department": "EDTE",
+      "title": "CL:Tchng to Make a Difference",
+      "credit_hours": "3",
+      "description": "Serves as an introduction to the field of education and how teaching can foster a more just and humane world.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "CDAE 2020",
+      "course_code": "CDAE 2020",
+      "department": "CDAE",
+      "title": "CL:Sustainable Community Dev",
+      "credit_hours": "3",
+      "description": "Introduction to perspectives and methods used to develop healthy communities that are economically, socially, and environmentally sustainable with rural and urban, US and international examples. Prerequisites: <a href=\"/search/?p=CDAE%201020\" data-action=\"result-detail\" data-group=\"code:CDAE 1020\" >CDAE 1020</a>, <a href=\"/search/?p=ENVS%201510\" data-action=\"result-detail\" data-group=\"code:ENVS 1510\"  class=\"notoffered\">ENVS 1510</a>, or Instructor permission. Cross-listed with: <a href=\"/search/?p=ENVS%202470\" data-action=\"result-detail\" data-group=\"code:ENVS 2470\" >ENVS 2470</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CDAE 1020\"}, {\"type\": \"course\", \"code\": \"ENVS 1510\"}]}",
+      "other_requirements": "Instructor permission",
+      "semesters": "Fall & Spring 2026",
+      "external": true
+    },
+    {
+      "id": "EDEC 3810",
+      "course_code": "EDEC 3810",
+      "department": "EDEC",
+      "title": "Inquiry-Based Pedagogy",
+      "credit_hours": "3",
+      "description": "Examines content/methods for designing, implementing, and evaluating inquiry-based curriculum that is authentic and meaningful to students' lives. Students will construct a shared vision for high quality instruction and explore how integrating Next Generation Science and C3 Framework for Social Studies can provide rich opportunities for engaging students in interdisciplinary, inquiry investigations. Prerequisites: <a href=\"/search/?p=EDEC%202130\" data-action=\"result-detail\" data-group=\"code:EDEC 2130\"  class=\"notoffered\">EDEC 2130</a>, <a href=\"/search/?p=EDEC%202510\" data-action=\"result-detail\" data-group=\"code:EDEC 2510\" >EDEC 2510</a>, or Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 2130\"}, {\"type\": \"course\", \"code\": \"EDEC 2510\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDEC 2130\"}, {\"type\": \"course\", \"code\": \"EDEC 2510\"}]}]}",
+      "other_requirements": "Instructor permission",
+      "semesters": "Fall 2026",
+      "external": true
+    },
+    {
+      "id": "EDEL 3570",
+      "course_code": "EDEL 3570",
+      "department": "EDEL",
+      "title": "SU:Social Educ &Social Studies",
+      "credit_hours": "3",
+      "description": "Social Studies is the study of how humans have interacted with their environment and one another over time. The goal of teachers is to prepare students to be contributing and engaged citizens. Course covers how to teach social studies to children in a way that prepares them to be active citizens in a democratic and sustainable society. Focuses on elementary social studies standards, content, strategies, and resources. Pre/co-requisites: Teacher Education:Elementary Education major; <a href=\"/search/?p=EDEL%203550\" data-action=\"result-detail\" data-group=\"code:EDEL 3550\" >EDEL 3550</a>, <a href=\"/search/?p=EDEL%203580\" data-action=\"result-detail\" data-group=\"code:EDEL 3580\" >EDEL 3580</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Teacher Education:Elementary Education major; ELK6 3rd yr, 4th yr; Admit to Teacher Education; 2.75 overall GPA requirement; Concurrent with EDEL 3550 and EDEL 3580.",
+      "semesters": "Fall & Spring 2026",
+      "external": true
     }
   ],
   "edges": [

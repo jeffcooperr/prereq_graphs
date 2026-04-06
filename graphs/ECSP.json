@@ -2,6 +2,18 @@
   "department": "ECSP",
   "nodes": [
     {
+      "id": "ECSP 6100",
+      "course_code": "ECSP 6100",
+      "department": "ECSP",
+      "title": "Curriculum in ECSP",
+      "credit_hours": "3",
+      "description": "Designing and implementing services and supports for young preschool-age children with diverse abilities. Topics include IEPs, embedding instruction, specialized instruction, and inclusion. Three credits, four credits with 30-hour field experience.  Pre/Co-requisites: Special Education Graduate student; Praxis Core requirement fulfilled.",
+      "prereq_expression": null,
+      "other_requirements": "Special Education Graduate student; Praxis Core requirement fulfilled. Graduate section only",
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
       "id": "ECSP 6991",
       "course_code": "ECSP 6991",
       "department": "ECSP",
@@ -10,28 +22,7 @@
       "description": "Provides opportunity to integrate, deepen and challenge students' understanding of the multiple roles of early childhood special educators and early interventionists in their efforts to support infants, toddlers and/or preschoolers with diverse abilities and their families in a variety of contexts. Prerequisites: <a href=\"/search/?p=ECSP%205110\" data-action=\"result-detail\" data-group=\"code:ECSP 5110\"  class=\"notoffered\">ECSP 5110</a>, <a href=\"/search/?p=ECSP%206100\" data-action=\"result-detail\" data-group=\"code:ECSP 6100\" >ECSP 6100</a>, <a href=\"/search/?p=ECSP%206120\" data-action=\"result-detail\" data-group=\"code:ECSP 6120\"  class=\"notoffered\">ECSP 6120</a>. Pre/Co-requisites: <a href=\"/search/?p=ECSP%205110\" data-action=\"result-detail\" data-group=\"code:ECSP 5110\"  class=\"notoffered\">ECSP 5110</a>, <a href=\"/search/?p=ECSP%206100\" data-action=\"result-detail\" data-group=\"code:ECSP 6100\" >ECSP 6100</a>, <a href=\"/search/?p=ECSP%206120\" data-action=\"result-detail\" data-group=\"code:ECSP 6120\"  class=\"notoffered\">ECSP 6120</a>; Praxis Core requirement fulfilled; GPA of at least 3.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ECSP 5110\"}, {\"type\": \"course\", \"code\": \"ECSP 6100\"}, {\"type\": \"course\", \"code\": \"ECSP 6120\"}]}",
       "other_requirements": "Praxis Core requirement fulfilled; GPA of at least 3; Graduate Students Only",
-      "external": false
-    },
-    {
-      "id": "ECSP 5110",
-      "course_code": "ECSP 5110",
-      "department": "ECSP",
-      "title": "EI for Infants and Toddlers-GR",
-      "credit_hours": "3",
-      "description": "An introduction to the field of Early Intervention for supporting infants and toddlers with and at risk for developmental delay or disability and their families. Stresses a routines-based and family-centered approach within the natural environment. Prerequisite: Early Childhood Special Education student or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SPED GR\"}, {\"type\": \"course\", \"code\": \"ECSP UG\"}]}",
-      "other_requirements": "Early Childhood Special Education student or Instructor permission. Instructor Permission",
-      "external": false
-    },
-    {
-      "id": "ECSP 2100",
-      "course_code": "ECSP 2100",
-      "department": "ECSP",
-      "title": "Indiv Prac for Inclusion",
-      "credit_hours": "3",
-      "description": "Focuses on the learning and development needs of children with or AT - risk for disabilities and other diverse young learners within inclusive early childhood settings.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"SPED 2100\"}",
-      "other_requirements": "ECP majors or SPED minors only, or instructor permission.",
+      "semesters": "Spring 2026",
       "external": false
     },
     {
@@ -43,17 +34,31 @@
       "description": "Overview of the strengths and limitations of traditional and nontraditional assessments; legal responsibilities, eligibility, family, and cultural aspects. Three credits, four credits for Early Childhood Special Education majors with 30-hour field experience. Prerequisites: Early Childhood Special Education undergraduate students or with Instructor permission. Pre/Co-requisites: Early Childhood Special Education major; instructor permission required for Special Education minors.",
       "prereq_expression": null,
       "other_requirements": "Instructor permission. Early Childhood Special Education undergraduate students or with Instructor permission. Pre/Co-requisites: Early Childhood Special Education major; instructor permission required for Special Education minors.",
+      "semesters": "Fall 2026",
       "external": false
     },
     {
-      "id": "ECSP 6100",
-      "course_code": "ECSP 6100",
+      "id": "ECSP 2100",
+      "course_code": "ECSP 2100",
       "department": "ECSP",
-      "title": "Curriculum in ECSP",
+      "title": "Indiv Prac for Inclusion",
       "credit_hours": "3",
-      "description": "Designing and implementing services and supports for young preschool-age children with diverse abilities. Topics include IEPs, embedding instruction, specialized instruction, and inclusion. Three credits, four credits with 30-hour field experience.  Pre/Co-requisites: Special Education Graduate student; Praxis Core requirement fulfilled.",
-      "prereq_expression": null,
-      "other_requirements": "Special Education Graduate student; Praxis Core requirement fulfilled. Graduate section only",
+      "description": "Focuses on the learning and development needs of children with or AT - risk for disabilities and other diverse young learners within inclusive early childhood settings.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"SPED 2100\"}",
+      "other_requirements": "ECP majors or SPED minors only, or instructor permission.",
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "ECSP 5110",
+      "course_code": "ECSP 5110",
+      "department": "ECSP",
+      "title": "EI for Infants and Toddlers-GR",
+      "credit_hours": "3",
+      "description": "An introduction to the field of Early Intervention for supporting infants and toddlers with and at risk for developmental delay or disability and their families. Stresses a routines-based and family-centered approach within the natural environment. Prerequisite: Early Childhood Special Education student or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SPED GR\"}, {\"type\": \"course\", \"code\": \"ECSP UG\"}]}",
+      "other_requirements": "Early Childhood Special Education student or Instructor permission. Instructor Permission",
+      "semesters": "Fall 2026",
       "external": false
     }
   ],

@@ -10,6 +10,7 @@
       "description": "Research for the Doctoral Dissertation.",
       "prereq_expression": null,
       "other_requirements": "Instructor permission required",
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -21,6 +22,7 @@
       "description": "Research for the Master's Thesis.",
       "prereq_expression": null,
       "other_requirements": "Instructor permission required; Contact department for location",
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -32,6 +34,7 @@
       "description": "Seminar emphasizing basic and analytical skills for clinical and translational research. Prerequisite: CTS 6200 or Instructor permission.",
       "prereq_expression": "{\"type\": \"other\", \"description\": \"Instructor permission\"}",
       "other_requirements": "Grad level or instructor permission required. Open to PACE students.",
+      "semesters": "Fall 2026",
       "external": false
     }
   ],

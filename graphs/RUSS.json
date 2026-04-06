@@ -2,47 +2,15 @@
   "department": "RUSS",
   "nodes": [
     {
-      "id": "RUSS 4440",
-      "course_code": "RUSS 4440",
+      "id": "RUSS 1200",
+      "course_code": "RUSS 1200",
       "department": "RUSS",
-      "title": "Culture/Civ 20/21st Centuries",
-      "credit_hours": "3",
-      "description": "Social, cultural, and political institutions from the 1905 revolution to the present. Particular attention to tensions between official and unofficial culture during the Soviet period. Prerequisite: <a href=\"/search/?p=RUSS%202200\" data-action=\"result-detail\" data-group=\"code:RUSS 2200\" >RUSS 2200</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"RUSS 2200\"}",
-      "other_requirements": "PACE students with permission and override",
-      "external": false
-    },
-    {
-      "id": "RUSS 3990",
-      "course_code": "RUSS 3990",
-      "department": "RUSS",
-      "title": "Russian Through Film",
-      "credit_hours": "3",
-      "description": "See schedule of courses for specific titles.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RUSS 2200\"}, {\"type\": \"course\", \"code\": \"RUSS 2200\"}]}",
-      "other_requirements": "PACE students by permission and override.",
-      "external": false
-    },
-    {
-      "id": "RUSS 4993",
-      "course_code": "RUSS 4993",
-      "department": "RUSS",
-      "title": "IS:Russian Romantic Poetry",
-      "credit_hours": "1",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required. Offered at department discretion.",
-      "external": false
-    },
-    {
-      "id": "RUSS 2100",
-      "course_code": "RUSS 2100",
-      "department": "RUSS",
-      "title": "Intermediate Russian I",
+      "title": "Elementary Russian II",
       "credit_hours": "4",
-      "description": "Continued practical work in all language skills (speaking, listening, reading, writing), with more analysis of the structure of Russian. Continuation of cultural components. Prerequisite: <a href=\"/search/?p=RUSS%201200\" data-action=\"result-detail\" data-group=\"code:RUSS 1200\"  class=\"notoffered\">RUSS 1200</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"RUSS 1200\"}",
-      "other_requirements": "The fourth meeting of this course is asynchronous online; Open to degree and PACE students;",
+      "description": "An introduction to all aspects of contemporary standard Russian: speaking, listening, reading, writing. Cultural components include topics such as music, art, literature, and current events. Prerequisite: <a href=\"/search/?p=RUSS%201100\" data-action=\"result-detail\" data-group=\"code:RUSS 1100\"  class=\"notoffered\">RUSS 1100</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RUSS 1100\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
+      "other_requirements": "4th mtg Tuesday meeting online asynchronous; Open to Degree and PACE students",
+      "semesters": "Spring 2026",
       "external": false
     },
     {
@@ -54,17 +22,7 @@
       "description": "An introduction to all aspects of contemporary standard Russian: speaking, listening, reading, writing. Cultural components include topics such as music, art, literature, and current events. No previous knowledge of Russian needed for RUSS 1100.",
       "prereq_expression": null,
       "other_requirements": "If you have studied or spoken Russian before, even if it wasn\u2019t for very long, speak with or email me to arrange a placement conference. If you grew up in a home where Russian was spoken, you must have a placement conference, even if you do not know how to read or write it yet.",
-      "external": false
-    },
-    {
-      "id": "RUSS 2990",
-      "course_code": "RUSS 2990",
-      "department": "RUSS",
-      "title": "Russian Roots",
-      "credit_hours": "1",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RUSS 2200\"}, {\"type\": \"course\", \"code\": \"RUSS 2200\"}]}",
-      "other_requirements": "PACE students by permission and override. This course is designed for learners at the Novice High to Intermediate level and higher (based on the ACTFL proficiency scale). You should already have some foundation in basic Russian grammar, including verb conjugation, case endings, a beginner\u2019s vocabulary, basic understanding of how words are formed.",
+      "semesters": "Fall 2026",
       "external": false
     },
     {
@@ -76,17 +34,7 @@
       "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "RUSS 1200",
-      "course_code": "RUSS 1200",
-      "department": "RUSS",
-      "title": "Elementary Russian II",
-      "credit_hours": "4",
-      "description": "An introduction to all aspects of contemporary standard Russian: speaking, listening, reading, writing. Cultural components include topics such as music, art, literature, and current events. Prerequisite: <a href=\"/search/?p=RUSS%201100\" data-action=\"result-detail\" data-group=\"code:RUSS 1100\"  class=\"notoffered\">RUSS 1100</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RUSS 1100\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
-      "other_requirements": "4th mtg Tuesday meeting online asynchronous; Open to Degree and PACE students",
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -98,28 +46,19 @@
       "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
-      "id": "RUSS 3010",
-      "course_code": "RUSS 3010",
+      "id": "RUSS 3990",
+      "course_code": "RUSS 3990",
       "department": "RUSS",
-      "title": "Performing Russian",
+      "title": "Russian Through Film",
       "credit_hours": "3",
-      "description": "Practical work on Russian intonation and the development of lexicon and fluency (vocabulary building, communicative strategies) using primarily Russian materials. Prerequisite: <a href=\"/search/?p=RUSS%202100\" data-action=\"result-detail\" data-group=\"code:RUSS 2100\" >RUSS 2100</a>. Pre/Co-requisite: <a href=\"/search/?p=RUSS%202200\" data-action=\"result-detail\" data-group=\"code:RUSS 2200\"  class=\"notoffered\">RUSS 2200</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"RUSS 2100\"}, {\"type\": \"course\", \"code\": \"RUSS 2200\"}]}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "RUSS 2200",
-      "course_code": "RUSS 2200",
-      "department": "RUSS",
-      "title": "Intermediate Russian II",
-      "credit_hours": "4",
-      "description": "Continued practical work in all language skills (speaking, listening, reading, writing), with more analysis of the structure of Russian. Continuation of cultural components. Prerequisite: <a href=\"/search/?p=RUSS%202100\" data-action=\"result-detail\" data-group=\"code:RUSS 2100\"  class=\"notoffered\">RUSS 2100</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RUSS 2100\"}, {\"type\": \"course\", \"code\": \"RUSS 2100\"}]}",
-      "other_requirements": "PACE students with permission and override",
+      "description": "See schedule of courses for specific titles.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RUSS 2200\"}, {\"type\": \"course\", \"code\": \"RUSS 2200\"}]}",
+      "other_requirements": "PACE students by permission and override.",
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -131,6 +70,79 @@
       "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "RUSS 4993",
+      "course_code": "RUSS 4993",
+      "department": "RUSS",
+      "title": "IS:Russian Romantic Poetry",
+      "credit_hours": "1",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required. Offered at department discretion.",
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "RUSS 2100",
+      "course_code": "RUSS 2100",
+      "department": "RUSS",
+      "title": "Intermediate Russian I",
+      "credit_hours": "4",
+      "description": "Continued practical work in all language skills (speaking, listening, reading, writing), with more analysis of the structure of Russian. Continuation of cultural components. Prerequisite: <a href=\"/search/?p=RUSS%201200\" data-action=\"result-detail\" data-group=\"code:RUSS 1200\"  class=\"notoffered\">RUSS 1200</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"RUSS 1200\"}",
+      "other_requirements": "The fourth meeting of this course is asynchronous online; Open to degree and PACE students;",
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "RUSS 2200",
+      "course_code": "RUSS 2200",
+      "department": "RUSS",
+      "title": "Intermediate Russian II",
+      "credit_hours": "4",
+      "description": "Continued practical work in all language skills (speaking, listening, reading, writing), with more analysis of the structure of Russian. Continuation of cultural components. Prerequisite: <a href=\"/search/?p=RUSS%202100\" data-action=\"result-detail\" data-group=\"code:RUSS 2100\"  class=\"notoffered\">RUSS 2100</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RUSS 2100\"}, {\"type\": \"course\", \"code\": \"RUSS 2100\"}]}",
+      "other_requirements": "PACE students with permission and override",
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "RUSS 2990",
+      "course_code": "RUSS 2990",
+      "department": "RUSS",
+      "title": "Russian Roots",
+      "credit_hours": "1",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"RUSS 2200\"}, {\"type\": \"course\", \"code\": \"RUSS 2200\"}]}",
+      "other_requirements": "PACE students by permission and override. This course is designed for learners at the Novice High to Intermediate level and higher (based on the ACTFL proficiency scale). You should already have some foundation in basic Russian grammar, including verb conjugation, case endings, a beginner\u2019s vocabulary, basic understanding of how words are formed.",
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "RUSS 4440",
+      "course_code": "RUSS 4440",
+      "department": "RUSS",
+      "title": "Culture/Civ 20/21st Centuries",
+      "credit_hours": "3",
+      "description": "Social, cultural, and political institutions from the 1905 revolution to the present. Particular attention to tensions between official and unofficial culture during the Soviet period. Prerequisite: <a href=\"/search/?p=RUSS%202200\" data-action=\"result-detail\" data-group=\"code:RUSS 2200\" >RUSS 2200</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"RUSS 2200\"}",
+      "other_requirements": "PACE students with permission and override",
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "RUSS 3010",
+      "course_code": "RUSS 3010",
+      "department": "RUSS",
+      "title": "Performing Russian",
+      "credit_hours": "3",
+      "description": "Practical work on Russian intonation and the development of lexicon and fluency (vocabulary building, communicative strategies) using primarily Russian materials. Prerequisite: <a href=\"/search/?p=RUSS%202100\" data-action=\"result-detail\" data-group=\"code:RUSS 2100\" >RUSS 2100</a>. Pre/Co-requisite: <a href=\"/search/?p=RUSS%202200\" data-action=\"result-detail\" data-group=\"code:RUSS 2200\"  class=\"notoffered\">RUSS 2200</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"RUSS 2100\"}, {\"type\": \"course\", \"code\": \"RUSS 2200\"}]}",
+      "other_requirements": null,
+      "semesters": "Fall 2026",
       "external": false
     }
   ],

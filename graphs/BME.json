@@ -2,39 +2,6 @@
   "department": "BME",
   "nodes": [
     {
-      "id": "BME 5330",
-      "course_code": "BME 5330",
-      "department": "BME",
-      "title": "Advanced Biomedical Systems",
-      "credit_hours": "3",
-      "description": "Uses the study of lung mechanics as a vehicle for teaching a range of mathematical modeling and data analysis methods central to the study of physiological systems. Students will gain a detailed understanding of how the lung works as a mechanical system and various diseases that affect mechanical function. At the same time, they will learn about applications of a range of mathematical and signal processing techniques. Prerequisite: Graduate standing or Instructor permission.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate standing or Instructor permission",
-      "external": false
-    },
-    {
-      "id": "BME 3993",
-      "course_code": "BME 3993",
-      "department": "BME",
-      "title": "IS:Medical Imaging",
-      "credit_hours": "3",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "BME 3995",
-      "course_code": "BME 3995",
-      "department": "BME",
-      "title": "Undergraduate Research",
-      "credit_hours": "2",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
       "id": "EE 3150",
       "course_code": "EE 3150",
       "department": "EE",
@@ -43,28 +10,19 @@
       "description": "Discrete- and continuous-time signals and systems. Input/output descriptions and analysis. Convolution, Fourier analysis, sampling and Laplace transforms. Application to electrical engineering design problems. Prerequisite: <a href=\"/search/?p=MATH%203201\" data-action=\"result-detail\" data-group=\"code:MATH 3201\" >MATH 3201</a>. Pre/Co-requisite: <a href=\"/search/?p=EE%202135\" data-action=\"result-detail\" data-group=\"code:EE 2135\"  class=\"notoffered\">EE 2135</a> recommended.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 3201\"}, {\"type\": \"course\", \"code\": \"EE 2135\"}]}",
       "other_requirements": "Instructor permission recommended. You are expected to know how to program on a computer (in any programming language). In addition, you are expected to know how to solve simple integrals and ordinary differential equations. You must also know complex numbers.",
+      "semesters": "Fall 2026",
       "external": true
     },
     {
-      "id": "ANPS 1190",
-      "course_code": "ANPS 1190",
-      "department": "ANPS",
-      "title": "Ugr Hum Anatomy & Physiology 1",
-      "credit_hours": "4",
-      "description": "Part I of two-semester course sequence. Structure and function of human body.",
-      "prereq_expression": null,
-      "other_requirements": "Prereg limited to: BMCS, BIOM, CSD, EMS, EXSC, HSCI, MLS, MRS, NFS, NMT, PE, PHS, PRNU majors only. Degree students only even after major restrictions lifted.",
-      "external": true
-    },
-    {
-      "id": "BME 3740",
-      "course_code": "BME 3740",
+      "id": "BME 2650",
+      "course_code": "BME 2650",
       "department": "BME",
-      "title": "Wearable Sensing",
-      "credit_hours": "3",
-      "description": "Covers current state-of-the-art in wearable sensors and the biomechanical and physiological phenomena they are being used to measure. Emphasis will be given to applications related to human health and medicine. Prerequisites: <a href=\"/search/?p=EE%203150\" data-action=\"result-detail\" data-group=\"code:EE 3150\" >EE 3150</a>, <a href=\"/search/?p=BME%203000\" data-action=\"result-detail\" data-group=\"code:BME 3000\"  class=\"notoffered\">BME 3000</a>, <a href=\"/search/?p=BME%203175\" data-action=\"result-detail\" data-group=\"code:BME 3175\"  class=\"notoffered\">BME 3175</a>, or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EE 3150\"}, {\"type\": \"course\", \"code\": \"BME 3000\"}, {\"type\": \"course\", \"code\": \"BME 3175\"}]}",
-      "other_requirements": "Instructor permission",
+      "title": "BME Design 2",
+      "credit_hours": "1",
+      "description": "Introduction to verification/validation testing. Case studies of BME Capstone Design II teams. Prerequisite: <a href=\"/search/?p=BME%202600\" data-action=\"result-detail\" data-group=\"code:BME 2600\"  class=\"notoffered\">BME 2600</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"BME 2600\"}",
+      "other_requirements": "BIOM, EMGT, ENGR majors only",
+      "semesters": "Spring 2026",
       "external": false
     },
     {
@@ -76,72 +34,7 @@
       "description": "Focuses on the application of advanced neural computing to biological data. Students develop the skills to implement and interpret models for (1) genomic sequences, (2) protein folding, and (3) imaging/microscopy applications. Covers the evolution of deep learning architectures (from simpler convolutional neural nets to more modern transformer-based architectures), the coding skills in Python, and the quantitative logic required to handle deep learning problems in a lab setting. Prerequisite: Experience with computer coding is recommended.",
       "prereq_expression": null,
       "other_requirements": "Experience with computer coding is recommended but not required.",
-      "external": false
-    },
-    {
-      "id": "BME 6995",
-      "course_code": "BME 6995",
-      "department": "BME",
-      "title": "Graduate Independent Research",
-      "credit_hours": "1 to 18",
-      "description": "Graduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "BME 7491",
-      "course_code": "BME 7491",
-      "department": "BME",
-      "title": "Doctoral Dissertation Research",
-      "credit_hours": "1 to 18",
-      "description": "Research for the Doctoral Dissertation.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "BME 3310",
-      "course_code": "BME 3310",
-      "department": "BME",
-      "title": "Multi-scale Biomedical Systems",
-      "credit_hours": "3",
-      "description": "Examines tissues to organs as complex systems operating at multiple levels of length and time scale. A particular focus is on how system behavior emerges in non-trivial ways from the ensemble behavior of components at lower levels of scale. Prerequisites: <a href=\"/search/?p=BME%203000\" data-action=\"result-detail\" data-group=\"code:BME 3000\"  class=\"notoffered\">BME 3000</a> or <a href=\"/search/?p=BME%203175\" data-action=\"result-detail\" data-group=\"code:BME 3175\"  class=\"notoffered\">BME 3175</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BME 3000\"}, {\"type\": \"course\", \"code\": \"BME 3175\"}]}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "MATH 1248",
-      "course_code": "MATH 1248",
-      "department": "MATH",
-      "title": "Calculus II",
-      "credit_hours": "4",
-      "description": "Vectors and vector operations. Techniques and applications of integration. Polar coordinates, Taylor polynomials, sequences and series, power series. Credit will not be given for both MATH 1248 and <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 021\"}]}",
-      "other_requirements": "C- or better in MATH 1234. C- or better in MATH 021.",
-      "external": true
-    },
-    {
-      "id": "BME 6993",
-      "course_code": "BME 6993",
-      "department": "BME",
-      "title": "IS:Magnetic Resonance Imaging",
-      "credit_hours": "3",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "BME 2605",
-      "course_code": "BME 2605",
-      "department": "BME",
-      "title": "Design 2: Regulatory & Testing",
-      "credit_hours": "3",
-      "description": "Introduces the regulatory, technical, and ethical contexts in which biomedical solutions are developed, tested, and approved or licensed for use in the United States, including content related to the regulatory landscape in the U.S. (e.g., regulatory history, Food and Drug Administration, regulatory pathways, design controls), technical engineering requirements (engineering specifications, risk management), testing (verification, validation, animal studies, clinical  trials), and ethics. Prerequisite: <a href=\"/search/?p=BME%201605\" data-action=\"result-detail\" data-group=\"code:BME 1605\"  class=\"notoffered\">BME 1605</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"BME 1605\"}",
-      "other_requirements": null,
+      "semesters": "Fall 2026",
       "external": false
     },
     {
@@ -153,61 +46,19 @@
       "description": "Teams apply industry-standard biodesign and project management processes to design, build, and test a functional prototype that meets their client's requirements. Prerequisite: <a href=\"/search/?p=BME%203600\" data-action=\"result-detail\" data-group=\"code:BME 3600\"  class=\"notoffered\">BME 3600</a>.",
       "prereq_expression": "{\"type\": \"course\", \"code\": \"BME 3600\"}",
       "other_requirements": "Open to degree and PACE students",
+      "semesters": "Fall 2026",
       "external": false
     },
     {
-      "id": "BME 2050",
-      "course_code": "BME 2050",
+      "id": "BME 3993",
+      "course_code": "BME 3993",
       "department": "BME",
-      "title": "Core 2: Materials & Transport",
-      "credit_hours": "6",
-      "description": "Studio-style course that fuses lecture with project-based learning and laboratory exercises. Covers materials related to medical devices, the biological reaction to implanted medical devices, and associated failure mechanisms. Diffusive and convective mass transport in biochemical interactions, oxygen transport, cell adhesion/signaling, drug and macromolecule transport. Prerequisites: <a href=\"/search/?p=BME%202000\" data-action=\"result-detail\" data-group=\"code:BME 2000\"  class=\"notoffered\">BME 2000</a>, <a href=\"/search/?p=BHSC%201340\" data-action=\"result-detail\" data-group=\"code:BHSC 1340\" >BHSC 1340</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BME 2000\"}, {\"type\": \"course\", \"code\": \"BHSC 1340\"}]}",
-      "other_requirements": "Exam held 5:30p - 7:00p on 9/30, 10/21, 11/18. Students are expected to read course materials, ask questions during class, participate in in-class activities such as projects and lab experiments as well as complete the class homework and projects. A 6-credit course requires 6 hours of in-class work plus 12-15 hours of work outside of class each week.",
-      "external": false
-    },
-    {
-      "id": "BME 2000",
-      "course_code": "BME 2000",
-      "department": "BME",
-      "title": "Core 1: Biomechanics & Sensing",
-      "credit_hours": "6",
-      "description": "Studio-style course that fuses lecture with project-based learning and laboratory exercises. Covers force and torque vectors, systems in equilibrium, physical properties of human body segments and biological systems, kinematics and kinetics of particles and rigid bodies, stress and strain of solid materials, circuits and instrumentation. Prerequisites: C- or better in <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>, and <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"PHYS 1500\"}]}",
-      "other_requirements": "C- or better in MATH 1248 and PHYS 1500; Must register for BME 2000 labs L01-L03",
-      "external": false
-    },
-    {
-      "id": "BME 2650",
-      "course_code": "BME 2650",
-      "department": "BME",
-      "title": "BME Design 2",
-      "credit_hours": "1",
-      "description": "Introduction to verification/validation testing. Case studies of BME Capstone Design II teams. Prerequisite: <a href=\"/search/?p=BME%202600\" data-action=\"result-detail\" data-group=\"code:BME 2600\"  class=\"notoffered\">BME 2600</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"BME 2600\"}",
-      "other_requirements": "BIOM, EMGT, ENGR majors only",
-      "external": false
-    },
-    {
-      "id": "BME 2994",
-      "course_code": "BME 2994",
-      "department": "BME",
-      "title": "Teaching Assistantship",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required; Variable 1-3 credits",
-      "external": false
-    },
-    {
-      "id": "BME 3810",
-      "course_code": "BME 3810",
-      "department": "BME",
-      "title": "Clinical Devices & Instruments",
+      "title": "IS:Medical Imaging",
       "credit_hours": "3",
-      "description": "Focuses on the development, design and adaptation of biomedical devices and instruments. Team-taught by faculty in the Larner College of Medicine and UVM Medical Center and focuses on exciting active areas of biomedical device development and applications at UVM and the UVM Medical Center. Credit not awarded for both BME 3810 and <a href=\"/search/?p=BME%205800\" data-action=\"result-detail\" data-group=\"code:BME 5800\" >BME 5800</a>. Prerequisites: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a>, <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}, {\"type\": \"course\", \"code\": \"BME 2000\"}, {\"type\": \"course\", \"code\": \"BME 2050\"}]}",
-      "other_requirements": "Instructor permission",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Spring 2026",
       "external": false
     },
     {
@@ -219,6 +70,7 @@
       "description": "Lecture and laboratory experiences about molecular and cellular structure, function and physiology using human cells as the model.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MLS\"}, {\"type\": \"course\", \"code\": \"MRS\"}, {\"type\": \"course\", \"code\": \"BMCS\"}, {\"type\": \"course\", \"code\": \"BIOM\"}, {\"type\": \"course\", \"code\": \"HSCI\"}, {\"type\": \"course\", \"code\": \"PHS\"}]}",
       "other_requirements": "Must register for Lab A01, A02, or A03; students only or Instructor permission; Student Lab Fee: $65.00; Degree students only, PACE students register for BHSC 1340 ZRA",
+      "semesters": "Fall & Spring 2026",
       "external": true
     },
     {
@@ -230,18 +82,20 @@
       "description": "Research for the Master's Thesis.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
-      "id": "ME 2110",
-      "course_code": "ME 2110",
-      "department": "ME",
-      "title": "Materials Engineering",
+      "id": "BME 6993",
+      "course_code": "BME 6993",
+      "department": "BME",
+      "title": "IS:Magnetic Resonance Imaging",
       "credit_hours": "3",
-      "description": "Atomic structure, crystalline structure, mechanical properties and testing of materials, phase equilibria, processing of metals, polymers, and ceramics. Prerequisite: <a href=\"/search/?p=ME%201140\" data-action=\"result-detail\" data-group=\"code:ME 1140\" >ME 1140</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"ME 1140\"}",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
       "other_requirements": null,
-      "external": true
+      "semesters": "Spring 2026",
+      "external": false
     },
     {
       "id": "BME 2996",
@@ -252,28 +106,19 @@
       "description": "Honors studies leading to a thesis.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
-      "id": "BME 3340",
-      "course_code": "BME 3340",
+      "id": "BME 3995",
+      "course_code": "BME 3995",
       "department": "BME",
-      "title": "Computational Systems Biology",
-      "credit_hours": "3",
-      "description": "Covers foundational mathematical models in systems biology, and their computational implementation, describing biological processes from the molecular to the ecological scale. Prerequisite: Beginner knowledge of Python programming is assumed. Pre/Co-requisites: <a href=\"/search/?p=BME%203000\" data-action=\"result-detail\" data-group=\"code:BME 3000\"  class=\"notoffered\">BME 3000</a>, <a href=\"/search/?p=BME%203175\" data-action=\"result-detail\" data-group=\"code:BME 3175\"  class=\"notoffered\">BME 3175</a>, or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BME 3000\"}, {\"type\": \"course\", \"code\": \"BME 3175\"}]}",
-      "other_requirements": "Beginner knowledge of Python programming is assumed. Instructor permission.",
-      "external": false
-    },
-    {
-      "id": "BME 5990",
-      "course_code": "BME 5990",
-      "department": "BME",
-      "title": "Rehabilitation Engineering",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
+      "title": "Undergraduate Research",
+      "credit_hours": "2",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Spring 2026",
       "external": false
     },
     {
@@ -285,17 +130,31 @@
       "description": "Part II of two-semester course sequence. Structure and function of human body. Prerequisite: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\"  class=\"notoffered\">ANPS 1190</a>.",
       "prereq_expression": "{\"type\": \"course\", \"code\": \"ANPS 1190\"}",
       "other_requirements": "Common hour exams are held 5:30-7:00pm on these Mondays: 2/9, 3/2, and 4/6. BIOM,CSD,DIET,DNFS,EXSC,HSCI,MLS,NFS, PE, PHS, MRS, PRNU; Majors only until Dec. 2nd, Please contact Patrick Mullen (patrick.c.mullen@uvm.edu) with any questions; Class meets 3x a week with online lab comprising 4th credit; Degree students only even after level restrictions removed; PACE students register for ANPS 1200 ZRA; Prereq enforced by the system:ANPS 1190.",
+      "semesters": "Spring 2026",
       "external": true
     },
     {
-      "id": "PHYS 1500",
-      "course_code": "PHYS 1500",
-      "department": "PHYS",
-      "title": "Physics for Engineers I",
-      "credit_hours": "4",
-      "description": "Mechanics including oscillations and waves. With lab. Accompanying optional problem-solving session: <a href=\"/search/?p=PHYS%201510\" data-action=\"result-detail\" data-group=\"code:PHYS 1510\" >PHYS 1510</a>. Prerequisite: <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
-      "other_requirements": "School of Engineering students only: CEMS-undeclared, BIOM, CE, EE, EENV, EMGT, ME, CS, DS, MATH; Open to Degree and PACE students;",
+      "id": "BME 2994",
+      "course_code": "BME 2994",
+      "department": "BME",
+      "title": "Teaching Assistantship",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required; Variable 1-3 credits",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "ME 2110",
+      "course_code": "ME 2110",
+      "department": "ME",
+      "title": "Materials Engineering",
+      "credit_hours": "3",
+      "description": "Atomic structure, crystalline structure, mechanical properties and testing of materials, phase equilibria, processing of metals, polymers, and ceramics. Prerequisite: <a href=\"/search/?p=ME%201140\" data-action=\"result-detail\" data-group=\"code:ME 1140\" >ME 1140</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"ME 1140\"}",
+      "other_requirements": null,
+      "semesters": "Fall 2026",
       "external": true
     },
     {
@@ -307,17 +166,19 @@
       "description": "Focuses on the development, design and adaptation of biomedical devices and instruments in exciting active areas of biomedical device development and applications at UVM and the UVM Medical Center (UVMMC). Includes lectures on commercialization and manufacturing. Team-taught by faculty in the Larner College of Medicine and the UVMMC. Credit not awarded for both BME 5800 and <a href=\"/search/?p=BME%203810\" data-action=\"result-detail\" data-group=\"code:BME 3810\" >BME 3810</a>. Prerequisites: Biomedical Engineering Graduate student or Instructor permission; Content knowledge in <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a>, <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>, <a href=\"/search/?p=BME%202000\" data-action=\"result-detail\" data-group=\"code:BME 2000\"  class=\"notoffered\">BME 2000</a>, and <a href=\"/search/?p=BME%202050\" data-action=\"result-detail\" data-group=\"code:BME 2050\" >BME 2050</a> is assumed.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}, {\"type\": \"course\", \"code\": \"BME 2000\"}, {\"type\": \"course\", \"code\": \"BME 2050\"}]}",
       "other_requirements": "Biomedical Engineering Graduate student or Instructor permission; Graduate standing Biomedical Engineering or instructor permission; Content knowledge in ANPS 1190, ANPS 1200, BME 2000, and BME 2050 is assumed.",
+      "semesters": "Fall 2026",
       "external": false
     },
     {
-      "id": "BME 2995",
-      "course_code": "BME 2995",
+      "id": "BME 3810",
+      "course_code": "BME 3810",
       "department": "BME",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
+      "title": "Clinical Devices & Instruments",
+      "credit_hours": "3",
+      "description": "Focuses on the development, design and adaptation of biomedical devices and instruments. Team-taught by faculty in the Larner College of Medicine and UVM Medical Center and focuses on exciting active areas of biomedical device development and applications at UVM and the UVM Medical Center. Credit not awarded for both BME 3810 and <a href=\"/search/?p=BME%205800\" data-action=\"result-detail\" data-group=\"code:BME 5800\" >BME 5800</a>. Prerequisites: <a href=\"/search/?p=ANPS%201190\" data-action=\"result-detail\" data-group=\"code:ANPS 1190\" >ANPS 1190</a>, <a href=\"/search/?p=ANPS%201200\" data-action=\"result-detail\" data-group=\"code:ANPS 1200\"  class=\"notoffered\">ANPS 1200</a>; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"ANPS 1190\"}, {\"type\": \"course\", \"code\": \"ANPS 1200\"}]}, {\"type\": \"course\", \"code\": \"BME 2000\"}, {\"type\": \"course\", \"code\": \"BME 2050\"}]}",
+      "other_requirements": "Instructor permission",
+      "semesters": "Fall 2026",
       "external": false
     },
     {
@@ -329,6 +190,115 @@
       "description": "See Schedule of Courses for specific titles.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "BME 6995",
+      "course_code": "BME 6995",
+      "department": "BME",
+      "title": "Graduate Independent Research",
+      "credit_hours": "1 to 18",
+      "description": "Graduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "MATH 1248",
+      "course_code": "MATH 1248",
+      "department": "MATH",
+      "title": "Calculus II",
+      "credit_hours": "4",
+      "description": "Vectors and vector operations. Techniques and applications of integration. Polar coordinates, Taylor polynomials, sequences and series, power series. Credit will not be given for both MATH 1248 and <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 021\"}]}",
+      "other_requirements": "C- or better in MATH 1234. C- or better in MATH 021.",
+      "semesters": "Fall & Spring 2026",
+      "external": true
+    },
+    {
+      "id": "BME 2995",
+      "course_code": "BME 2995",
+      "department": "BME",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "BME 3340",
+      "course_code": "BME 3340",
+      "department": "BME",
+      "title": "Computational Systems Biology",
+      "credit_hours": "3",
+      "description": "Covers foundational mathematical models in systems biology, and their computational implementation, describing biological processes from the molecular to the ecological scale. Prerequisite: Beginner knowledge of Python programming is assumed. Pre/Co-requisites: <a href=\"/search/?p=BME%203000\" data-action=\"result-detail\" data-group=\"code:BME 3000\"  class=\"notoffered\">BME 3000</a>, <a href=\"/search/?p=BME%203175\" data-action=\"result-detail\" data-group=\"code:BME 3175\"  class=\"notoffered\">BME 3175</a>, or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BME 3000\"}, {\"type\": \"course\", \"code\": \"BME 3175\"}]}",
+      "other_requirements": "Beginner knowledge of Python programming is assumed. Instructor permission.",
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "BME 2000",
+      "course_code": "BME 2000",
+      "department": "BME",
+      "title": "Core 1: Biomechanics & Sensing",
+      "credit_hours": "6",
+      "description": "Studio-style course that fuses lecture with project-based learning and laboratory exercises. Covers force and torque vectors, systems in equilibrium, physical properties of human body segments and biological systems, kinematics and kinetics of particles and rigid bodies, stress and strain of solid materials, circuits and instrumentation. Prerequisites: C- or better in <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>, and <a href=\"/search/?p=PHYS%201500\" data-action=\"result-detail\" data-group=\"code:PHYS 1500\" >PHYS 1500</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1248\"}, {\"type\": \"course\", \"code\": \"PHYS 1500\"}]}",
+      "other_requirements": "C- or better in MATH 1248 and PHYS 1500; Must register for BME 2000 labs L01-L03",
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "BME 2050",
+      "course_code": "BME 2050",
+      "department": "BME",
+      "title": "Core 2: Materials & Transport",
+      "credit_hours": "6",
+      "description": "Studio-style course that fuses lecture with project-based learning and laboratory exercises. Covers materials related to medical devices, the biological reaction to implanted medical devices, and associated failure mechanisms. Diffusive and convective mass transport in biochemical interactions, oxygen transport, cell adhesion/signaling, drug and macromolecule transport. Prerequisites: <a href=\"/search/?p=BME%202000\" data-action=\"result-detail\" data-group=\"code:BME 2000\"  class=\"notoffered\">BME 2000</a>, <a href=\"/search/?p=BHSC%201340\" data-action=\"result-detail\" data-group=\"code:BHSC 1340\" >BHSC 1340</a>.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"BME 2000\"}, {\"type\": \"course\", \"code\": \"BHSC 1340\"}]}",
+      "other_requirements": "Exam held 5:30p - 7:00p on 9/30, 10/21, 11/18. Students are expected to read course materials, ask questions during class, participate in in-class activities such as projects and lab experiments as well as complete the class homework and projects. A 6-credit course requires 6 hours of in-class work plus 12-15 hours of work outside of class each week.",
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "ANPS 1190",
+      "course_code": "ANPS 1190",
+      "department": "ANPS",
+      "title": "Ugr Hum Anatomy & Physiology 1",
+      "credit_hours": "4",
+      "description": "Part I of two-semester course sequence. Structure and function of human body.",
+      "prereq_expression": null,
+      "other_requirements": "Prereg limited to: BMCS, BIOM, CSD, EMS, EXSC, HSCI, MLS, MRS, NFS, NMT, PE, PHS, PRNU majors only. Degree students only even after major restrictions lifted.",
+      "semesters": "Fall 2026",
+      "external": true
+    },
+    {
+      "id": "PHYS 1500",
+      "course_code": "PHYS 1500",
+      "department": "PHYS",
+      "title": "Physics for Engineers I",
+      "credit_hours": "4",
+      "description": "Mechanics including oscillations and waves. With lab. Accompanying optional problem-solving session: <a href=\"/search/?p=PHYS%201510\" data-action=\"result-detail\" data-group=\"code:PHYS 1510\" >PHYS 1510</a>. Prerequisite: <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a> or <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 1242\"}]}",
+      "other_requirements": "School of Engineering students only: CEMS-undeclared, BIOM, CE, EE, EENV, EMGT, ME, CS, DS, MATH; Open to Degree and PACE students;",
+      "semesters": "Fall & Spring 2026",
+      "external": true
+    },
+    {
+      "id": "BME 3310",
+      "course_code": "BME 3310",
+      "department": "BME",
+      "title": "Multi-scale Biomedical Systems",
+      "credit_hours": "3",
+      "description": "Examines tissues to organs as complex systems operating at multiple levels of length and time scale. A particular focus is on how system behavior emerges in non-trivial ways from the ensemble behavior of components at lower levels of scale. Prerequisites: <a href=\"/search/?p=BME%203000\" data-action=\"result-detail\" data-group=\"code:BME 3000\"  class=\"notoffered\">BME 3000</a> or <a href=\"/search/?p=BME%203175\" data-action=\"result-detail\" data-group=\"code:BME 3175\"  class=\"notoffered\">BME 3175</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"BME 3000\"}, {\"type\": \"course\", \"code\": \"BME 3175\"}]}",
+      "other_requirements": null,
+      "semesters": "Spring 2026",
       "external": false
     },
     {
@@ -340,6 +310,55 @@
       "description": "Teams refine their functional prototype from BME Capstone Design 1 and explore approaches for manufacturing at scale, regulatory strategy, clinical strategy, IP strategy, health-economics and reimbursement. Prerequisite: <a href=\"/search/?p=BME%204600\" data-action=\"result-detail\" data-group=\"code:BME 4600\"  class=\"notoffered\">BME 4600</a>.",
       "prereq_expression": "{\"type\": \"course\", \"code\": \"BME 4600\"}",
       "other_requirements": null,
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "BME 5990",
+      "course_code": "BME 5990",
+      "department": "BME",
+      "title": "Rehabilitation Engineering",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "BME 2605",
+      "course_code": "BME 2605",
+      "department": "BME",
+      "title": "Design 2: Regulatory & Testing",
+      "credit_hours": "3",
+      "description": "Introduces the regulatory, technical, and ethical contexts in which biomedical solutions are developed, tested, and approved or licensed for use in the United States, including content related to the regulatory landscape in the U.S. (e.g., regulatory history, Food and Drug Administration, regulatory pathways, design controls), technical engineering requirements (engineering specifications, risk management), testing (verification, validation, animal studies, clinical  trials), and ethics. Prerequisite: <a href=\"/search/?p=BME%201605\" data-action=\"result-detail\" data-group=\"code:BME 1605\"  class=\"notoffered\">BME 1605</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"BME 1605\"}",
+      "other_requirements": null,
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "BME 7491",
+      "course_code": "BME 7491",
+      "department": "BME",
+      "title": "Doctoral Dissertation Research",
+      "credit_hours": "1 to 18",
+      "description": "Research for the Doctoral Dissertation.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "BME 5330",
+      "course_code": "BME 5330",
+      "department": "BME",
+      "title": "Advanced Biomedical Systems",
+      "credit_hours": "3",
+      "description": "Uses the study of lung mechanics as a vehicle for teaching a range of mathematical modeling and data analysis methods central to the study of physiological systems. Students will gain a detailed understanding of how the lung works as a mechanical system and various diseases that affect mechanical function. At the same time, they will learn about applications of a range of mathematical and signal processing techniques. Prerequisite: Graduate standing or Instructor permission.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate standing or Instructor permission",
+      "semesters": "Fall 2026",
       "external": false
     },
     {
@@ -351,6 +370,19 @@
       "description": "A materials science and engineering approach is used to explore the structure-function relationships of natural and bio-inspired materials for various engineering applications. The emphasis is on mechanical design and function. The medical applications of biomaterials will be discussed. Prerequisites: <a href=\"/search/?p=ME%202110\" data-action=\"result-detail\" data-group=\"code:ME 2110\"  class=\"notoffered\">ME 2110</a>, <a href=\"/search/?p=BME%203600\" data-action=\"result-detail\" data-group=\"code:BME 3600\"  class=\"notoffered\">BME 3600</a>, or <a href=\"/search/?p=BME%203605\" data-action=\"result-detail\" data-group=\"code:BME 3605\"  class=\"notoffered\">BME 3605</a>. Cross-listed with: <a href=\"/search/?p=ME%203410\" data-action=\"result-detail\" data-group=\"code:ME 3410\" >ME 3410</a>.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ME 2110\"}, {\"type\": \"course\", \"code\": \"BME 3600\"}, {\"type\": \"course\", \"code\": \"BME 3605\"}]}",
       "other_requirements": "Cross-listed with ME 3410. Preqs enforced by the system:ME 2110orBME 3600Cross listed withME 3410; Total combined enrollment = 45",
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "BME 3740",
+      "course_code": "BME 3740",
+      "department": "BME",
+      "title": "Wearable Sensing",
+      "credit_hours": "3",
+      "description": "Covers current state-of-the-art in wearable sensors and the biomechanical and physiological phenomena they are being used to measure. Emphasis will be given to applications related to human health and medicine. Prerequisites: <a href=\"/search/?p=EE%203150\" data-action=\"result-detail\" data-group=\"code:EE 3150\" >EE 3150</a>, <a href=\"/search/?p=BME%203000\" data-action=\"result-detail\" data-group=\"code:BME 3000\"  class=\"notoffered\">BME 3000</a>, <a href=\"/search/?p=BME%203175\" data-action=\"result-detail\" data-group=\"code:BME 3175\"  class=\"notoffered\">BME 3175</a>, or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EE 3150\"}, {\"type\": \"course\", \"code\": \"BME 3000\"}, {\"type\": \"course\", \"code\": \"BME 3175\"}]}",
+      "other_requirements": "Instructor permission",
+      "semesters": "Fall 2026",
       "external": false
     },
     {
@@ -362,6 +394,7 @@
       "description": "Introduces design methodologies for biomedical engineers in a lecture format with studio-style, project-based learning. Integrates crucial skills required for successful engineering design in healthcare. Covers scientific (e.g., anatomy), engineering fundamentals (e.g., physics), and hands-on prototyping skills (e.g., 3D printing, soldering, electronics prototyping, coding, etc.). Design experiences emphasize critical thinking, interdisciplinary teamwork, and technical communication. Prerequisites: Biomedical Engineering major.",
       "prereq_expression": null,
       "other_requirements": "Biomedical Engineering major.",
+      "semesters": "Spring 2026",
       "external": false
     }
   ],

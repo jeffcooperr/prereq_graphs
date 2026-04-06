@@ -2,14 +2,15 @@
   "department": "EDPE",
   "nodes": [
     {
-      "id": "EDPE 3650",
-      "course_code": "EDPE 3650",
+      "id": "EDPE 4991",
+      "course_code": "EDPE 4991",
       "department": "EDPE",
-      "title": "Exercise & Sport Science",
-      "credit_hours": "3",
-      "description": "Discussion and integration of topics related to exercise physiology, kinesiology, motor learning, and sociocultural aspects of sport. Prerequisites: <a href=\"/search/?p=EDPE%202660\" data-action=\"result-detail\" data-group=\"code:EDPE 2660\"  class=\"notoffered\">EDPE 2660</a>, <a href=\"/search/?p=EDPE%202670\" data-action=\"result-detail\" data-group=\"code:EDPE 2670\"  class=\"notoffered\">EDPE 2670</a>, <a href=\"/search/?p=EDPE%203200\" data-action=\"result-detail\" data-group=\"code:EDPE 3200\" >EDPE 3200</a>; Senior standing; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDPE 2660\"}, {\"type\": \"course\", \"code\": \"EDPE 2670\"}, {\"type\": \"course\", \"code\": \"EDPE 3200\"}]}",
-      "other_requirements": "Senior standing; or Instructor permission. Open to degree and PACE students. Lecture and lab activities. Instructor permission only.",
+      "title": "Internship: Student Teaching",
+      "credit_hours": "12",
+      "description": "Student teaching or some other on-site supervised experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team, for which academic credit is awarded.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Spring 2026",
       "external": false
     },
     {
@@ -21,28 +22,19 @@
       "description": "Examines sport as a social institution, emphasizing interrelationships between sport and the social context in which it exists; analyzes functions and dysfunctions of sport in contemporary society.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
-      "id": "EDPE 4991",
-      "course_code": "EDPE 4991",
+      "id": "EDPE 3650",
+      "course_code": "EDPE 3650",
       "department": "EDPE",
-      "title": "Internship: Student Teaching",
-      "credit_hours": "12",
-      "description": "Student teaching or some other on-site supervised experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team, for which academic credit is awarded.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EDPE 3300",
-      "course_code": "EDPE 3300",
-      "department": "EDPE",
-      "title": "Philosophy of Coaching",
+      "title": "Exercise & Sport Science",
       "credit_hours": "3",
-      "description": "In-depth study of over 100 major philosophical coaching considerations. Lectures by visiting coaches. Study in areas of need and interest. Prerequisite: Junior standing. Undergraduate only.",
-      "prereq_expression": null,
-      "other_requirements": "Junior standing. Undergraduate only. Open to Degree and PACE students",
+      "description": "Discussion and integration of topics related to exercise physiology, kinesiology, motor learning, and sociocultural aspects of sport. Prerequisites: <a href=\"/search/?p=EDPE%202660\" data-action=\"result-detail\" data-group=\"code:EDPE 2660\"  class=\"notoffered\">EDPE 2660</a>, <a href=\"/search/?p=EDPE%202670\" data-action=\"result-detail\" data-group=\"code:EDPE 2670\"  class=\"notoffered\">EDPE 2670</a>, <a href=\"/search/?p=EDPE%203200\" data-action=\"result-detail\" data-group=\"code:EDPE 3200\" >EDPE 3200</a>; Senior standing; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDPE 2660\"}, {\"type\": \"course\", \"code\": \"EDPE 2670\"}, {\"type\": \"course\", \"code\": \"EDPE 3200\"}]}",
+      "other_requirements": "Senior standing; or Instructor permission. Open to degree and PACE students. Lecture and lab activities. Instructor permission only.",
+      "semesters": "Fall 2026",
       "external": false
     },
     {
@@ -54,61 +46,7 @@
       "description": "See Schedule of Course for specific title.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EDPE 3670",
-      "course_code": "EDPE 3670",
-      "department": "EDPE",
-      "title": "Sci Strength Training&Condtng",
-      "credit_hours": "3",
-      "description": "Introduction to the science and physiology behind strength training and conditioning, as well as the practical application of training principles. Focus includes muscle physiology, scientific readings on topics within the strength and conditioning field and the practical application of this knowledge. While a majority of the course is geared toward the training of athletes, all acquired skills can be used for training general population clients of all ages and for the reconditioning of injured athletes. Cross-listed with: <a href=\"/search/?p=EXSC%203670\" data-action=\"result-detail\" data-group=\"code:EXSC 3670\"  class=\"notoffered\">EXSC 3670</a>.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EDPE 2993",
-      "course_code": "EDPE 2993",
-      "department": "EDPE",
-      "title": "Independent Study",
-      "credit_hours": "3",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission",
-      "external": false
-    },
-    {
-      "id": "EDPE 3000",
-      "course_code": "EDPE 3000",
-      "department": "EDPE",
-      "title": "Coaching Ethics & Legal Issues",
-      "credit_hours": "3",
-      "description": "Designed so that its content and structure may accommodate special issues not especially appropriate within the boundaries of an existing course. Prerequisite: Twelve hours in education and related areas.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"education\"}, {\"type\": \"course\", \"code\": \"related areas\"}]}",
-      "other_requirements": "Twelve hours in education and related areas. Asynchronous online; Open to degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "EDPE 2190",
-      "course_code": "EDPE 2190",
-      "department": "EDPE",
-      "title": "Careers in College Athletics",
-      "credit_hours": "3",
-      "description": "Provides an overview of how students can apply their experiences and skills in the professional world of collegiate athletics. Students will learn about different careers and have the opportunity to discover relative coursework, internship experiences, networking skills, and resume development.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EDPE 2890",
-      "course_code": "EDPE 2890",
-      "department": "EDPE",
-      "title": "Practicum in Field Experience",
-      "credit_hours": "3",
-      "description": "Individually prescribed teaching experience involving work with youth groups in activities related to physical education, health, or recreation. Responsibilities approximate those commonly associated with student teaching. Prerequisites: <a href=\"/search/?p=EDPE%202040\" data-action=\"result-detail\" data-group=\"code:EDPE 2040\"  class=\"notoffered\">EDPE 2040</a>, <a href=\"/search/?p=EDPE%202050\" data-action=\"result-detail\" data-group=\"code:EDPE 2050\"  class=\"notoffered\">EDPE 2050</a>, or <a href=\"/search/?p=EDPE%202550\" data-action=\"result-detail\" data-group=\"code:EDPE 2550\"  class=\"notoffered\">EDPE 2550</a>; Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDPE 2040\"}, {\"type\": \"course\", \"code\": \"EDPE 2050\"}, {\"type\": \"course\", \"code\": \"EDPE 2550\"}]}",
-      "other_requirements": "Instructor permission. Instructor permission and approved placement are required Students will complete a field placement in coaching which will coincide with guiding reflection and supporting coursework. Students will need to complete a minimum of 60 hours in the field. Students will need to periodically meet with their supervisor throughout the semester, with an expectation three meetings. Students will create a calendar for the completion of the coursework with their supervisor.",
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -120,6 +58,79 @@
       "description": "Examination and analysis of contemporary issues and trends in sports management, physical education and athletics. Prerequisite: Minimum Sophomore standing.",
       "prereq_expression": null,
       "other_requirements": "Minimum Sophomore standing. Open to Degree and PACE students.",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "EDPE 3300",
+      "course_code": "EDPE 3300",
+      "department": "EDPE",
+      "title": "Philosophy of Coaching",
+      "credit_hours": "3",
+      "description": "In-depth study of over 100 major philosophical coaching considerations. Lectures by visiting coaches. Study in areas of need and interest. Prerequisite: Junior standing. Undergraduate only.",
+      "prereq_expression": null,
+      "other_requirements": "Junior standing. Undergraduate only. Open to Degree and PACE students",
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "EDPE 3000",
+      "course_code": "EDPE 3000",
+      "department": "EDPE",
+      "title": "Coaching Ethics & Legal Issues",
+      "credit_hours": "3",
+      "description": "Designed so that its content and structure may accommodate special issues not especially appropriate within the boundaries of an existing course. Prerequisite: Twelve hours in education and related areas.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"education\"}, {\"type\": \"course\", \"code\": \"related areas\"}]}",
+      "other_requirements": "Twelve hours in education and related areas. Asynchronous online; Open to degree and PACE students",
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "EDPE 2890",
+      "course_code": "EDPE 2890",
+      "department": "EDPE",
+      "title": "Practicum in Field Experience",
+      "credit_hours": "3",
+      "description": "Individually prescribed teaching experience involving work with youth groups in activities related to physical education, health, or recreation. Responsibilities approximate those commonly associated with student teaching. Prerequisites: <a href=\"/search/?p=EDPE%202040\" data-action=\"result-detail\" data-group=\"code:EDPE 2040\"  class=\"notoffered\">EDPE 2040</a>, <a href=\"/search/?p=EDPE%202050\" data-action=\"result-detail\" data-group=\"code:EDPE 2050\"  class=\"notoffered\">EDPE 2050</a>, or <a href=\"/search/?p=EDPE%202550\" data-action=\"result-detail\" data-group=\"code:EDPE 2550\"  class=\"notoffered\">EDPE 2550</a>; Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDPE 2040\"}, {\"type\": \"course\", \"code\": \"EDPE 2050\"}, {\"type\": \"course\", \"code\": \"EDPE 2550\"}]}",
+      "other_requirements": "Instructor permission. Instructor permission and approved placement are required Students will complete a field placement in coaching which will coincide with guiding reflection and supporting coursework. Students will need to complete a minimum of 60 hours in the field. Students will need to periodically meet with their supervisor throughout the semester, with an expectation three meetings. Students will create a calendar for the completion of the coursework with their supervisor.",
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "EDPE 2190",
+      "course_code": "EDPE 2190",
+      "department": "EDPE",
+      "title": "Careers in College Athletics",
+      "credit_hours": "3",
+      "description": "Provides an overview of how students can apply their experiences and skills in the professional world of collegiate athletics. Students will learn about different careers and have the opportunity to discover relative coursework, internship experiences, networking skills, and resume development.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "EDPE 3670",
+      "course_code": "EDPE 3670",
+      "department": "EDPE",
+      "title": "Sci Strength Training&Condtng",
+      "credit_hours": "3",
+      "description": "Introduction to the science and physiology behind strength training and conditioning, as well as the practical application of training principles. Focus includes muscle physiology, scientific readings on topics within the strength and conditioning field and the practical application of this knowledge. While a majority of the course is geared toward the training of athletes, all acquired skills can be used for training general population clients of all ages and for the reconditioning of injured athletes. Cross-listed with: <a href=\"/search/?p=EXSC%203670\" data-action=\"result-detail\" data-group=\"code:EXSC 3670\"  class=\"notoffered\">EXSC 3670</a>.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "EDPE 2993",
+      "course_code": "EDPE 2993",
+      "department": "EDPE",
+      "title": "Independent Study",
+      "credit_hours": "3",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission",
+      "semesters": "Spring 2026",
       "external": false
     }
   ],

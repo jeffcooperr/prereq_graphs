@@ -65,7 +65,7 @@
   #stats {
     position: fixed;
     bottom: 28px;
-    left: 64px;
+    left: 84px;
     font-size: 0.65rem;
     color: var(--muted);
     letter-spacing: 0.1em;
@@ -77,6 +77,97 @@
     color: var(--accent);
     font-weight: 600;
   }
+
+  #feedback-wrap {
+    position: fixed;
+    bottom: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 30;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  #feedback-btn {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 5px 14px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  #feedback-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  #feedback-panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 14px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+  }
+  #feedback-panel.hidden { display: none; }
+
+  #feedback-panel-title {
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--text);
+  }
+
+  #feedback-text {
+    width: 100%;
+    height: 90px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.62rem;
+    padding: 8px;
+    resize: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    line-height: 1.5;
+  }
+  #feedback-text:focus { outline: none; border-color: var(--accent); }
+
+  #feedback-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #feedback-send {
+    background: var(--accent);
+    border: none;
+    color: #fff;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: opacity 0.15s;
+  }
+  #feedback-send:hover { opacity: 0.85; }
+  #feedback-send:disabled { opacity: 0.4; cursor: default; }
+
+  #feedback-status {
+    font-size: 0.58rem;
+    color: var(--muted);
+  }
+  #feedback-success { display: none; font-size: 0.62rem; color: #27ae60; }
+  #feedback-error   { display: none; font-size: 0.62rem; color: #e74c3c; }
 
   #legend {
     position: fixed;
@@ -307,6 +398,24 @@
     line-height: 1.7;
   }
 
+  #audit-results {
+    margin-top: 12px;
+    font-size: 0.62rem;
+    line-height: 1.6;
+    max-height: 260px;
+    overflow-y: auto;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 10px 12px;
+    background: var(--bg);
+  }
+  #audit-results .dept-block { margin-bottom: 8px; }
+  #audit-results .dept-label { font-weight: 600; color: var(--text); }
+  #audit-results .dept-codes { color: var(--muted); }
+  #audit-results .summary { font-weight: 600; color: var(--text); margin-bottom: 10px; }
+  #audit-results.hidden, #audit-results-actions.hidden { display: none; }
+  #audit-results-actions { margin-top: 10px; display: flex; gap: 8px; }
+
   #audit-textarea {
     width: 100%;
     height: 200px;
@@ -387,6 +496,11 @@
     letter-spacing: 0.08em;
     padding: 4px 14px 8px;
     flex-shrink: 0;
+    line-height: 1.8;
+  }
+  #mc-count .mc-count-total {
+    color: var(--text);
+    font-weight: 600;
   }
 
   #mc-list {
@@ -934,14 +1048,14 @@
     position: fixed;
     bottom: 28px;
     left: 32px;
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     background: none;
     border: 1px solid var(--border);
     color: var(--muted);
     font-family: 'JetBrains Mono', monospace;
-    font-size: 0.65rem;
+    font-size: 0.8rem;
     font-weight: 600;
     cursor: pointer;
     z-index: 20;
@@ -1174,12 +1288,17 @@
 <div id="audit-modal" class="hidden">
   <div id="audit-box">
     <h3>Import Degree Audit</h3>
-    <p>Paste your UVM degree audit below. AI will extract your completed courses and check them off automatically.</p>
+    <p>Paste your UVM degree audit below. AI will extract your completed courses and check them off automatically.<br>
+    <span style="color:#e67e22">Note: old 3-digit course codes (e.g. CS 021) may not be recognized — only current 4-digit codes are supported.</span></p>
     <textarea id="audit-textarea" placeholder="Paste degree audit text here..."></textarea>
     <div id="audit-actions">
       <button id="audit-parse">Parse</button>
       <button id="audit-cancel">Cancel</button>
       <span id="audit-status"></span>
+    </div>
+    <div id="audit-results" class="hidden"></div>
+    <div id="audit-results-actions" class="hidden">
+      <button id="audit-done">Done</button>
     </div>
   </div>
 </div>
@@ -1282,6 +1401,22 @@
 </div>
 
 <div id="tooltip"><div class="tooltip-inner"></div></div>
+
+<div id="feedback-wrap">
+  <div id="feedback-panel" class="hidden">
+    <div id="feedback-panel-title">Send Feedback</div>
+    <div data-fs-success id="feedback-success">Sent! Thanks for the feedback.</div>
+    <div data-fs-error id="feedback-error"></div>
+    <form id="feedback-form">
+      <textarea name="message" id="feedback-text" placeholder="Suggestions, bugs, anything..." maxlength="1000" data-fs-field required></textarea>
+      <div id="feedback-actions">
+        <button type="submit" data-fs-submit-btn id="feedback-send">Send</button>
+        <span data-fs-error="message" id="feedback-status"></span>
+      </div>
+    </form>
+  </div>
+  <button id="feedback-btn">Feedback</button>
+</div>
 
 <div id="sidebar">
   <div id="sidebar-header">
@@ -1504,6 +1639,10 @@ let takenCourses = new Set(JSON.parse(localStorage.getItem(TAKEN_KEY) || '[]'));
 function saveTaken() { localStorage.setItem(TAKEN_KEY, JSON.stringify([...takenCourses])); }
 let simulation = null;
 let graphState = null;
+let courseCatalog = null; // loaded async from graphs/catalog.json
+let courseCredits = null; // loaded async from graphs/credits.json
+fetch('graphs/catalog.json').then(r => r.json()).then(d => { courseCatalog = d; }).catch(() => {});
+fetch('graphs/credits.json').then(r => r.json()).then(d => { courseCredits = d; }).catch(() => {});
 
 function evalPrereqTree(node, takenSet) {
   const t = node.type;
@@ -1773,6 +1912,7 @@ function render(data) {
       html += `<div class="tt-code">${d.course_code}</div>`;
       html += `<div class="tt-title">${d.title || '—'}</div>`;
       if (d.credit_hours) html += `<div class="tt-row"><span class="label">Credits</span><span class="value">${d.credit_hours}</span></div>`;
+      if (d.semesters) html += `<div class="tt-row"><span class="label">Offered</span><span class="value">${d.semesters}</span></div>`;
       if (d.prereq_expression) {
         try {
           const tree = typeof d.prereq_expression === 'string' ? JSON.parse(d.prereq_expression) : d.prereq_expression;
@@ -1949,11 +2089,32 @@ document.getElementById('plain-toggle').addEventListener('click', () => {
 
 function updateTakenCount() {
   const visibleIds = graphState ? new Set(graphState.graphNodes.map(n => n.id)) : new Set();
-  const count = [...takenCourses].filter(id => visibleIds.has(id)).length;
-  document.getElementById('mc-count').textContent =
-    count > 0 ? `${count} course${count === 1 ? '' : 's'} taken` : '';
+  const nodeCredits = graphState
+    ? Object.fromEntries(graphState.graphNodes.map(n => [n.id, parseInt(n.credit_hours) || 0]))
+    : {};
+
+  const deptTaken   = [...takenCourses].filter(id => visibleIds.has(id));
+  const deptCount   = deptTaken.length;
+  const deptCredits = deptTaken.reduce((s, id) => s + (nodeCredits[id] || 0), 0);
+
+  const totalCount   = takenCourses.size;
+  const totalCredits = courseCredits
+    ? [...takenCourses].reduce((s, id) => s + (courseCredits[id] || 0), 0)
+    : null;
+
+  const el = document.getElementById('mc-count');
+  if (totalCount === 0) {
+    el.innerHTML = '';
+  } else {
+    const deptCr  = deptCredits  > 0 ? ` · ${deptCredits} cr`  : '';
+    const totalCr = totalCredits > 0 ? ` · ${totalCredits} cr` : '';
+    el.innerHTML =
+      `<div class="mc-count-dept">In view: ${deptCount} course${deptCount === 1 ? '' : 's'}${deptCr}</div>` +
+      `<div class="mc-count-total">Total: ${totalCount} course${totalCount === 1 ? '' : 's'}${totalCr}</div>`;
+  }
+
   document.getElementById('my-courses-toggle').textContent =
-    count > 0 ? `My Courses (${count})` : 'My Courses';
+    totalCount > 0 ? `My Courses (${totalCount})` : 'My Courses';
 }
 
 function populateMyCourses() {
@@ -2004,18 +2165,33 @@ document.getElementById('mc-clear').addEventListener('click', () => {
 // Degree audit import
 (function() {
   const WORKER_URL = 'https://prereq-audit-parser.4jcoop.workers.dev';
-  const modal     = document.getElementById('audit-modal');
-  const textarea  = document.getElementById('audit-textarea');
-  const parseBtn  = document.getElementById('audit-parse');
-  const cancelBtn = document.getElementById('audit-cancel');
-  const status    = document.getElementById('audit-status');
+  const modal          = document.getElementById('audit-modal');
+  const textarea       = document.getElementById('audit-textarea');
+  const parseBtn       = document.getElementById('audit-parse');
+  const cancelBtn      = document.getElementById('audit-cancel');
+  const status         = document.getElementById('audit-status');
+  const resultsDiv     = document.getElementById('audit-results');
+  const resultsActions = document.getElementById('audit-results-actions');
+  const doneBtn        = document.getElementById('audit-done');
 
-  document.getElementById('mc-import').addEventListener('click', () => {
+  function resetModal() {
     textarea.value = '';
     status.textContent = '';
+    resultsDiv.innerHTML = '';
+    resultsDiv.classList.add('hidden');
+    resultsActions.classList.add('hidden');
+    textarea.style.display = '';
+    parseBtn.style.display = '';
+    cancelBtn.textContent = 'Cancel';
+  }
+
+  document.getElementById('mc-import').addEventListener('click', () => {
+    resetModal();
     modal.classList.remove('hidden');
     setTimeout(() => textarea.focus(), 50);
   });
+
+  doneBtn.addEventListener('click', () => modal.classList.add('hidden'));
 
   cancelBtn.addEventListener('click', () => modal.classList.add('hidden'));
   modal.addEventListener('click', e => { if (e.target === modal) modal.classList.add('hidden'); });
@@ -2028,12 +2204,17 @@ document.getElementById('mc-clear').addEventListener('click', () => {
 
     let courses;
     try {
+      const catalogText = courseCatalog
+        ? Object.entries(courseCatalog).map(([code, title]) => `${code}: ${title}`).join('\n')
+        : null;
       const res = await fetch(WORKER_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ audit: text })
+        body: JSON.stringify({ audit: text, catalog: catalogText })
       });
-      courses = await res.json();
+      let raw = await res.text();
+      raw = raw.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '').trim();
+      courses = JSON.parse(raw);
       if (!Array.isArray(courses)) throw new Error(courses.error || 'Unexpected response');
     } catch (e) {
       status.textContent = 'Error: ' + e.message;
@@ -2041,13 +2222,14 @@ document.getElementById('mc-clear').addEventListener('click', () => {
       return;
     }
 
-    // Check off all returned courses that exist in the current graph
+    // Add ALL returned courses to takenCourses (persists across departments)
     const validIds = graphState ? new Set(graphState.graphNodes.map(n => n.id)) : new Set();
-    let matched = 0;
+    let added = 0, visibleAdded = 0;
     courses.forEach(code => {
-      if (validIds.has(code) && !takenCourses.has(code)) {
+      if (!takenCourses.has(code)) {
         takenCourses.add(code);
-        matched++;
+        added++;
+        if (validIds.has(code)) visibleAdded++;
       }
     });
     saveTaken();
@@ -2063,9 +2245,37 @@ document.getElementById('mc-clear').addEventListener('click', () => {
     if (takenMode) { updateAvailability(); }
     updateTakenCount();
 
-    status.textContent = `${matched} course${matched === 1 ? '' : 's'} imported`;
+    // Build per-department breakdown (all returned courses, not just newly added)
+    const byDept = {};
+    const unrecognized = [];
+    courses.forEach(code => {
+      if (courseCatalog && !courseCatalog[code]) {
+        unrecognized.push(code);
+      } else {
+        const dept = code.split(' ')[0];
+        if (!byDept[dept]) byDept[dept] = [];
+        if (!byDept[dept].includes(code)) byDept[dept].push(code);
+      }
+    });
+
+    let html = `<div class="summary">${added} course${added === 1 ? '' : 's'} imported</div>`;
+    Object.keys(byDept).sort().forEach(dept => {
+      const codes = byDept[dept].sort();
+      html += `<div class="dept-block"><span class="dept-label">${dept} (${codes.length}):</span> <span class="dept-codes">${codes.join(', ')}</span></div>`;
+    });
+    if (unrecognized.length) {
+      html += `<div class="dept-block"><span class="dept-label" style="color:#e67e22">Not recognized (${unrecognized.length}):</span> <span class="dept-codes">${unrecognized.join(', ')}</span></div>`;
+    }
+
+    // Switch modal to results view
+    textarea.style.display = 'none';
+    parseBtn.style.display = 'none';
+    cancelBtn.textContent = 'Close';
+    status.textContent = '';
+    resultsDiv.innerHTML = html;
+    resultsDiv.classList.remove('hidden');
+    resultsActions.classList.remove('hidden');
     parseBtn.disabled = false;
-    setTimeout(() => modal.classList.add('hidden'), 1200);
   });
 })();
 
@@ -2207,6 +2417,22 @@ document.getElementById('my-courses-toggle').addEventListener('click', () => {
     if (e.key === 'ArrowLeft' && current > 0) goTo(current - 1);
   });
 })();
+
+// Feedback widget
+(function() {
+  const btn   = document.getElementById('feedback-btn');
+  const panel = document.getElementById('feedback-panel');
+  const text  = document.getElementById('feedback-text');
+
+  btn.addEventListener('click', () => {
+    panel.classList.toggle('hidden');
+    if (!panel.classList.contains('hidden')) setTimeout(() => text.focus(), 50);
+  });
+
+  window.formspree = window.formspree || function() { (formspree.q = formspree.q || []).push(arguments); };
+  formspree('initForm', { formElement: '#feedback-form', formId: 'mojpydnn' });
+})();
 </script>
+<script src="https://unpkg.com/@formspree/ajax@1" defer></script>
 </body>
 </html>

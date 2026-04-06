@@ -10,39 +10,7 @@
       "description": "Selected topics in French literature. Readings and discussion of representative works in English translation. No knowledge of French required. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "WLIT 1022",
-      "course_code": "WLIT 1022",
-      "department": "WLIT",
-      "title": "LASP: Const Nations: Fairytale",
-      "credit_hours": "3",
-      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences). Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LASP 1001\"}, {\"type\": \"course\", \"code\": \"LASP 1002\"}, {\"type\": \"course\", \"code\": \"LASP 1003\"}, {\"type\": \"course\", \"code\": \"LASP 1004\"}]}",
-      "other_requirements": "LASP Humanities Scholars only; Instructor permission First-year seminar for LASP-Humanities students only.",
-      "external": false
-    },
-    {
-      "id": "WLIT 1010",
-      "course_code": "WLIT 1010",
-      "department": "WLIT",
-      "title": "FYS: Euro Fairytales Old & New",
-      "credit_hours": "3",
-      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "WLIT 1350",
-      "course_code": "WLIT 1350",
-      "department": "WLIT",
-      "title": "Reading Japanese Manga",
-      "credit_hours": "3",
-      "description": "Selected topics in Japanese literature. Readings and discussion of representative works in English translation. No knowledge of Japanese required. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "semesters": "Spring 2026",
       "external": false
     },
     {
@@ -54,6 +22,19 @@
       "description": "A survey course on classical Chinese literature. Knowledge of Chinese language is preferred but not required. Pre/Co-requisite: A Catamount Core WIL1 course.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"WIL1\"}, {\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"PACE\"}, {\"type\": \"course\", \"code\": \"override\"}]}]}",
       "other_requirements": "Knowledge of Chinese language is preferred but not required. PACE students with permission and override",
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "WLIT 1022",
+      "course_code": "WLIT 1022",
+      "department": "WLIT",
+      "title": "LASP: Const Nations: Fairytale",
+      "credit_hours": "3",
+      "description": "Intensive course in a broad disciplinary area (humanities, social sciences, arts, or natural sciences). Part of an integrated first-year experience in which students take 2-4 classes exploring aesthetic, humanistic, social, linguistic, environmental, or scientific issues. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"LASP 1001\"}, {\"type\": \"course\", \"code\": \"LASP 1002\"}, {\"type\": \"course\", \"code\": \"LASP 1003\"}, {\"type\": \"course\", \"code\": \"LASP 1004\"}]}",
+      "other_requirements": "LASP Humanities Scholars only; Instructor permission First-year seminar for LASP-Humanities students only.",
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -65,6 +46,31 @@
       "description": "Exploration of modern and contemporary Japanese literary works in translation from the late nineteenth to early twenty-first century. Pre/Co-requisite: A Catamount Core WIL1 course.",
       "prereq_expression": "{\"type\": \"course\", \"code\": \"Catamount Core WIL1\"}",
       "other_requirements": "PACE students with permission and override",
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "WLIT 1010",
+      "course_code": "WLIT 1010",
+      "department": "WLIT",
+      "title": "FYS: Euro Fairytales Old & New",
+      "credit_hours": "3",
+      "description": "Intensive first-year seminar focused on specific themes and/or disciplinary perspectives. Emphasis on developing critical reading and writing skills, substantive revision, information literacy, and analytical thinking. First-year seminars are frequently organized to meet one of the disciplinary Catamount Core requirements. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "WLIT 1350",
+      "course_code": "WLIT 1350",
+      "department": "WLIT",
+      "title": "Reading Japanese Manga",
+      "credit_hours": "3",
+      "description": "Selected topics in Japanese literature. Readings and discussion of representative works in English translation. No knowledge of Japanese required. May repeat for credit with different content. Topics vary by offering; periodic offering at intervals that may exceed four years.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Spring 2026",
       "external": false
     },
     {
@@ -76,6 +82,7 @@
       "description": "Exploration of Japanese writing in translation in a variety of genres and style, mainly novels and short stories, published since the 1980s. Pre/Co-requisite: A Catamount Core WIL1 course.",
       "prereq_expression": "{\"type\": \"course\", \"code\": \"Catamount Core WIL1\"}",
       "other_requirements": "Sophomores, juniors and seniors only",
+      "semesters": "Fall 2026",
       "external": false
     }
   ],

@@ -2,14 +2,15 @@
   "department": "CEMS",
   "nodes": [
     {
-      "id": "CEMS 1500",
-      "course_code": "CEMS 1500",
+      "id": "CEMS 2991",
+      "course_code": "CEMS 2991",
       "department": "CEMS",
-      "title": "CL:CEMS First Year Seminar",
-      "credit_hours": "0",
-      "description": "First-year experience for College of Engineering and Mathematical Sciences majors that introduces university and college resources, the design process, effective teamwork strategies, study strategies, and fundamentals of AI literacy and ethics. Key skills for academic success are developed in the context of a campus-based project. Prerequisite: College of Engineering and Mathematical Sciences major.",
+      "title": "Internship",
+      "credit_hours": "1 to 18",
+      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
-      "other_requirements": "College of Engineering and Mathematical Sciences major. First-time, first-year students in CEMS only",
+      "other_requirements": "Instructor permission required",
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -21,61 +22,7 @@
       "description": "Provides overview of environmental, social and economic aspects of energy to build understanding of how to play a more effective role in shaping future policy or business decisions surrounding energy. Project-based. Prerequisites: Minimum Sophomore standing or Instructor permission. Co-requisites: A course with SU designation, a course in Physics.",
       "prereq_expression": null,
       "other_requirements": "Minimum Sophomore standing or Instructor permission",
-      "external": false
-    },
-    {
-      "id": "CEMS 2991",
-      "course_code": "CEMS 2991",
-      "department": "CEMS",
-      "title": "Internship",
-      "credit_hours": "1 to 18",
-      "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "CEMS 2020",
-      "course_code": "CEMS 2020",
-      "department": "CEMS",
-      "title": "Research Thesis Proposal",
-      "credit_hours": "1",
-      "description": "Preparation for the senior thesis. Focuses on developing the thesis idea with the academic advisor and culminates in a thesis proposal and proposal presentation. Prerequisites: <a href=\"/search/?p=CEMS%202010\" data-action=\"result-detail\" data-group=\"code:CEMS 2010\"  class=\"notoffered\">CEMS 2010</a> or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEMS 2010\"}, {\"type\": \"other\", \"value\": \"Instructor permission\"}]}",
-      "other_requirements": "Enrollment limited to HCOL students in CEMS",
-      "external": false
-    },
-    {
-      "id": "CEMS 2010",
-      "course_code": "CEMS 2010",
-      "department": "CEMS",
-      "title": "PLHC Research Experience",
-      "credit_hours": "1",
-      "description": "Required Junior year course for honors students in CEMS. Explores a range of careers and important research areas in industry, national labs, and academia. Culminates in students identifying a research advisor and a general topic area. Prerequisite: Junior standing.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"HCOL\"}",
-      "other_requirements": "Junior standing. Attendance and finding a research advisor and topic",
-      "external": false
-    },
-    {
-      "id": "CEMS 3899",
-      "course_code": "CEMS 3899",
-      "department": "CEMS",
-      "title": "Cooperative Education",
-      "credit_hours": "12",
-      "description": "Supports students as they engage in experiential learning and reflect about their work experiences. Helps students maximize their cooperative education (co-op) position to ensure they are gaining industry relevant skills that will allow them to excel in their remaining academic coursework and throughout their careers. Prerequisites: College of Engineering and Mathematical Sciences undergraduate student, sophomore or junior standing only, GPA requirement.",
-      "prereq_expression": null,
-      "other_requirements": "College of Engineering and Mathematical Sciences undergraduate student, sophomore or junior standing only, GPA requirement. Instructor permission required; CEMS undergraduate student, sophomore or junior standing only, GPA requirement.",
-      "external": false
-    },
-    {
-      "id": "CEMS 2993",
-      "course_code": "CEMS 2993",
-      "department": "CEMS",
-      "title": "IS:Research Thesis Proposal",
-      "credit_hours": "1",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
+      "semesters": "Fall 2026",
       "external": false
     },
     {
@@ -87,6 +34,67 @@
       "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded.  Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "CEMS 2010",
+      "course_code": "CEMS 2010",
+      "department": "CEMS",
+      "title": "PLHC Research Experience",
+      "credit_hours": "1",
+      "description": "Required Junior year course for honors students in CEMS. Explores a range of careers and important research areas in industry, national labs, and academia. Culminates in students identifying a research advisor and a general topic area. Prerequisite: Junior standing.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"HCOL\"}",
+      "other_requirements": "Junior standing. Attendance and finding a research advisor and topic",
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "CEMS 2993",
+      "course_code": "CEMS 2993",
+      "department": "CEMS",
+      "title": "IS:Research Thesis Proposal",
+      "credit_hours": "1",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "CEMS 2020",
+      "course_code": "CEMS 2020",
+      "department": "CEMS",
+      "title": "Research Thesis Proposal",
+      "credit_hours": "1",
+      "description": "Preparation for the senior thesis. Focuses on developing the thesis idea with the academic advisor and culminates in a thesis proposal and proposal presentation. Prerequisites: <a href=\"/search/?p=CEMS%202010\" data-action=\"result-detail\" data-group=\"code:CEMS 2010\"  class=\"notoffered\">CEMS 2010</a> or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"CEMS 2010\"}, {\"type\": \"other\", \"value\": \"Instructor permission\"}]}",
+      "other_requirements": "Enrollment limited to HCOL students in CEMS",
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "CEMS 3899",
+      "course_code": "CEMS 3899",
+      "department": "CEMS",
+      "title": "Cooperative Education",
+      "credit_hours": "12",
+      "description": "Supports students as they engage in experiential learning and reflect about their work experiences. Helps students maximize their cooperative education (co-op) position to ensure they are gaining industry relevant skills that will allow them to excel in their remaining academic coursework and throughout their careers. Prerequisites: College of Engineering and Mathematical Sciences undergraduate student, sophomore or junior standing only, GPA requirement.",
+      "prereq_expression": null,
+      "other_requirements": "College of Engineering and Mathematical Sciences undergraduate student, sophomore or junior standing only, GPA requirement. Instructor permission required; CEMS undergraduate student, sophomore or junior standing only, GPA requirement.",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "CEMS 1500",
+      "course_code": "CEMS 1500",
+      "department": "CEMS",
+      "title": "CL:CEMS First Year Seminar",
+      "credit_hours": "0",
+      "description": "First-year experience for College of Engineering and Mathematical Sciences majors that introduces university and college resources, the design process, effective teamwork strategies, study strategies, and fundamentals of AI literacy and ethics. Key skills for academic success are developed in the context of a campus-based project. Prerequisite: College of Engineering and Mathematical Sciences major.",
+      "prereq_expression": null,
+      "other_requirements": "College of Engineering and Mathematical Sciences major. First-time, first-year students in CEMS only",
+      "semesters": "Fall 2026",
       "external": false
     }
   ],

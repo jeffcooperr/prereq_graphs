@@ -2,25 +2,15 @@
   "department": "GERM",
   "nodes": [
     {
-      "id": "GERM 4990",
-      "course_code": "GERM 4990",
+      "id": "GERM 3995",
+      "course_code": "GERM 3995",
       "department": "GERM",
-      "title": "POC in Germany and Austria",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GERM 2022\"}, {\"type\": \"course\", \"code\": \"GERM 3649A\"}]}",
-      "other_requirements": "See Schedule of Courses for specific titles.",
-      "external": false
-    },
-    {
-      "id": "GERM 3649",
-      "course_code": "GERM 3649",
-      "department": "GERM",
-      "title": "POC in Germany and Austria",
-      "credit_hours": "3",
-      "description": "Examination of the experiences of People of Color in Germany and Austria reflected in autobiographical texts by Black children growing up in the Third Reich, the children of transnational marriage, the children of African American GIs and German/Austrian women, as well as in contemporary texts and films. Prerequisites: <a href=\"/search/?p=GERM%202200\" data-action=\"result-detail\" data-group=\"code:GERM 2200\"  class=\"notoffered\">GERM 2200</a> or <a href=\"/search/?p=GERM%202202\" data-action=\"result-detail\" data-group=\"code:GERM 2202\"  class=\"notoffered\">GERM 2202</a>.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GERM 2200\"}, {\"type\": \"course\", \"code\": \"GERM 2202\"}]}",
+      "title": "Undergraduate Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded Offered at department discretion.",
+      "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -32,72 +22,7 @@
       "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "GERM 1100",
-      "course_code": "GERM 1100",
-      "department": "GERM",
-      "title": "Elementary German I",
-      "credit_hours": "4",
-      "description": "An introduction to all aspects of contemporary standard German: Speaking, listening, reading, writing. Cultural components include topics such as: music, art, literature, and current events.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "GERM 4996",
-      "course_code": "GERM 4996",
-      "department": "GERM",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "GERM 2100",
-      "course_code": "GERM 2100",
-      "department": "GERM",
-      "title": "Intermediate German I",
-      "credit_hours": "3",
-      "description": "Comprehensive review of German grammar, vocabulary-building skills, development of reading strategies and compositional abilities, study of contemporary German culture through literary texts. Prerequisite: <a href=\"/search/?p=GERM%201200\" data-action=\"result-detail\" data-group=\"code:GERM 1200\"  class=\"notoffered\">GERM 1200</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GERM 1200\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
-      "other_requirements": "Open to degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "GERM 3990",
-      "course_code": "GERM 3990",
-      "department": "GERM",
-      "title": "Linguistics of the German Wrld",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"GERM 2202\"}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "GERM 3993",
-      "course_code": "GERM 3993",
-      "department": "GERM",
-      "title": "Independent Study",
-      "credit_hours": "3",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor Permission Required",
-      "external": false
-    },
-    {
-      "id": "GERM 3995",
-      "course_code": "GERM 3995",
-      "department": "GERM",
-      "title": "Undergraduate Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -109,6 +34,67 @@
       "description": "An introduction to all aspects of contemporary standard German: Speaking, listening, reading, writing. Cultural components include topics such as: music, art, literature, and current events. Prerequisite: <a href=\"/search/?p=GERM%201100\" data-action=\"result-detail\" data-group=\"code:GERM 1100\"  class=\"notoffered\">GERM 1100</a> or equivalent.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GERM 1100\"}, {\"type\": \"course\", \"code\": \"GRMN 001\"}]}",
       "other_requirements": "Prereq enforced by the system: Hybrid course: fourth meeting online; Open to Degree and PACE students * This course fulfills the requirements for both GC2: Developing Global Citizens requirement; and OC: Oral Communication.",
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "GERM 3990",
+      "course_code": "GERM 3990",
+      "department": "GERM",
+      "title": "Linguistics of the German Wrld",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"GERM 2202\"}",
+      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "GERM 4990",
+      "course_code": "GERM 4990",
+      "department": "GERM",
+      "title": "POC in Germany and Austria",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GERM 2022\"}, {\"type\": \"course\", \"code\": \"GERM 3649A\"}]}",
+      "other_requirements": "See Schedule of Courses for specific titles.",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "GERM 4996",
+      "course_code": "GERM 4996",
+      "department": "GERM",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "GERM 2100",
+      "course_code": "GERM 2100",
+      "department": "GERM",
+      "title": "Intermediate German I",
+      "credit_hours": "3",
+      "description": "Comprehensive review of German grammar, vocabulary-building skills, development of reading strategies and compositional abilities, study of contemporary German culture through literary texts. Prerequisite: <a href=\"/search/?p=GERM%201200\" data-action=\"result-detail\" data-group=\"code:GERM 1200\"  class=\"notoffered\">GERM 1200</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GERM 1200\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
+      "other_requirements": "Open to degree and PACE students",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "GERM 1100",
+      "course_code": "GERM 1100",
+      "department": "GERM",
+      "title": "Elementary German I",
+      "credit_hours": "4",
+      "description": "An introduction to all aspects of contemporary standard German: Speaking, listening, reading, writing. Cultural components include topics such as: music, art, literature, and current events.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall 2026",
       "external": false
     },
     {
@@ -120,6 +106,31 @@
       "description": "Enhancement of language proficiency with focus on effective, contextually relevant communication; emphasis on personalized content, learning strategies, and reflection skills; exploration of a variety of current issues and standpoints in contemporary German speaking countries with an emphasis on sustainability. Students may take 1 German course numbered between 2200 and 2209 for credit. Prerequisite: <a href=\"/search/?p=GERM%202100\" data-action=\"result-detail\" data-group=\"code:GERM 2100\" >GERM 2100</a> or equivalent.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GERM 2100\"}, {\"type\": \"course\", \"code\": \"GERM 2100\"}]}",
       "other_requirements": "PACE students with permission and override",
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "GERM 3649",
+      "course_code": "GERM 3649",
+      "department": "GERM",
+      "title": "POC in Germany and Austria",
+      "credit_hours": "3",
+      "description": "Examination of the experiences of People of Color in Germany and Austria reflected in autobiographical texts by Black children growing up in the Third Reich, the children of transnational marriage, the children of African American GIs and German/Austrian women, as well as in contemporary texts and films. Prerequisites: <a href=\"/search/?p=GERM%202200\" data-action=\"result-detail\" data-group=\"code:GERM 2200\"  class=\"notoffered\">GERM 2200</a> or <a href=\"/search/?p=GERM%202202\" data-action=\"result-detail\" data-group=\"code:GERM 2202\"  class=\"notoffered\">GERM 2202</a>.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"GERM 2200\"}, {\"type\": \"course\", \"code\": \"GERM 2202\"}]}",
+      "other_requirements": null,
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "GERM 3993",
+      "course_code": "GERM 3993",
+      "department": "GERM",
+      "title": "Independent Study",
+      "credit_hours": "3",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor Permission Required",
+      "semesters": "Fall 2026",
       "external": false
     }
   ],

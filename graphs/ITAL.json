@@ -2,17 +2,6 @@
   "department": "ITAL",
   "nodes": [
     {
-      "id": "ITAL 1100",
-      "course_code": "ITAL 1100",
-      "department": "ITAL",
-      "title": "Elementary Italian I",
-      "credit_hours": "4",
-      "description": "Fundamentals of Italian composition, comprehension, pronunciation, speaking, reading, and writing in a cultural context. Classes are conducted in Italian and students engage in active use of the language. No prior knowledge expected. Cannot be taken for credit after <a href=\"/search/?p=ITAL%201200\" data-action=\"result-detail\" data-group=\"code:ITAL 1200\"  class=\"notoffered\">ITAL 1200</a>.",
-      "prereq_expression": null,
-      "other_requirements": "No prior knowledge expected. Cannot be taken for credit after ITAL 1200.",
-      "external": false
-    },
-    {
       "id": "ITAL 3110",
       "course_code": "ITAL 3110",
       "department": "ITAL",
@@ -21,17 +10,7 @@
       "description": "Improvement of reading and writing skills through the analysis and discussion of increasingly complex texts -- literary, filmic, cultural. Prerequisite: <a href=\"/search/?p=ITAL%202200\" data-action=\"result-detail\" data-group=\"code:ITAL 2200\"  class=\"notoffered\">ITAL 2200</a> or equivalent.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ITAL 2200\"}, {\"type\": \"course\", \"code\": \"ITAL 2200\"}]}",
       "other_requirements": "by instructor permission; PACE students with permission and override; Instructor permission",
-      "external": false
-    },
-    {
-      "id": "ITAL 2200",
-      "course_code": "ITAL 2200",
-      "department": "ITAL",
-      "title": "Intermediate Italian II",
-      "credit_hours": "3",
-      "description": "Continuation of <a href=\"/search/?p=ITAL%202100\" data-action=\"result-detail\" data-group=\"code:ITAL 2100\"  class=\"notoffered\">ITAL 2100</a>. Grammar review, moving toward increased proficiency in composition, comprehension, pronunciation, speaking, reading, and writing. Emphasis on cultural context. More extensive and sophisticated readings and compositions than in <a href=\"/search/?p=ITAL%202100\" data-action=\"result-detail\" data-group=\"code:ITAL 2100\"  class=\"notoffered\">ITAL 2100</a>.  Students may take 1 ITAL course numbered between 2200 and <a href=\"/search/?p=ITAL%202209\" data-action=\"result-detail\" data-group=\"code:ITAL 2209\"  class=\"notoffered\">2209</a> for credit. Credit not awarded for ITAL 2200 following receipt of credit for any ITAL course numbered <a href=\"/search/?p=ITAL%203110\" data-action=\"result-detail\" data-group=\"code:ITAL 3110\" >ITAL 3110</a> or above. Prerequisite: <a href=\"/search/?p=ITAL%202100\" data-action=\"result-detail\" data-group=\"code:ITAL 2100\"  class=\"notoffered\">ITAL 2100</a> or equivalent.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ITAL 2100\"}, {\"type\": \"course\", \"code\": \"ITAL 2100\"}]}",
-      "other_requirements": "equivalent; PACE students with permission and override",
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -43,17 +22,19 @@
       "description": "Continuation of <a href=\"/search/?p=ITAL%201100\" data-action=\"result-detail\" data-group=\"code:ITAL 1100\"  class=\"notoffered\">ITAL 1100</a>. Fundamentals of Italian composition, comprehension, pronunciation, speaking, reading, and writing in a cultural context. Classes are conducted in Italian and students engage in active use of the language. Credit not awarded for ITAL 1200 following receipt of credit for any ITAL course numbered <a href=\"/search/?p=ITAL%202100\" data-action=\"result-detail\" data-group=\"code:ITAL 2100\"  class=\"notoffered\">ITAL 2100</a> or above. Prerequisite: <a href=\"/search/?p=ITAL%201100\" data-action=\"result-detail\" data-group=\"code:ITAL 1100\"  class=\"notoffered\">ITAL 1100</a> or equivalent.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ITAL 1100\"}, {\"type\": \"course\", \"code\": \"ITAL 001\"}]}",
       "other_requirements": "Open to Degree and PACE students; Credit not awarded for ITAL 1200 following receipt of credit for any ITAL course numbered ITAL 2100 or above.",
+      "semesters": "Spring 2026",
       "external": false
     },
     {
-      "id": "ITAL 4996",
-      "course_code": "ITAL 4996",
+      "id": "ITAL 1100",
+      "course_code": "ITAL 1100",
       "department": "ITAL",
-      "title": "Honors",
-      "credit_hours": "1 to 6",
-      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "title": "Elementary Italian I",
+      "credit_hours": "4",
+      "description": "Fundamentals of Italian composition, comprehension, pronunciation, speaking, reading, and writing in a cultural context. Classes are conducted in Italian and students engage in active use of the language. No prior knowledge expected. Cannot be taken for credit after <a href=\"/search/?p=ITAL%201200\" data-action=\"result-detail\" data-group=\"code:ITAL 1200\"  class=\"notoffered\">ITAL 1200</a>.",
       "prereq_expression": null,
-      "other_requirements": null,
+      "other_requirements": "No prior knowledge expected. Cannot be taken for credit after ITAL 1200.",
+      "semesters": "Fall 2026",
       "external": false
     },
     {
@@ -65,6 +46,31 @@
       "description": "Review of grammar, moving toward increased proficiency in composition, comprehension, pronunciation, speaking, reading, and writing. Emphasis on cultural context. Compositions, oral practice, reading. Students may take 1 ITAL course numbered between 2100 and 2109 for credit. Credit not awarded for ITAL 2100 following receipt of credit for any ITAL course numbered <a href=\"/search/?p=ITAL%202200\" data-action=\"result-detail\" data-group=\"code:ITAL 2200\"  class=\"notoffered\">ITAL 2200</a> or above. Prerequisite: <a href=\"/search/?p=ITAL%201200\" data-action=\"result-detail\" data-group=\"code:ITAL 1200\"  class=\"notoffered\">ITAL 1200</a> or equivalent.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ITAL 1200\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
       "other_requirements": "Open to degree and PACE students",
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "ITAL 2200",
+      "course_code": "ITAL 2200",
+      "department": "ITAL",
+      "title": "Intermediate Italian II",
+      "credit_hours": "3",
+      "description": "Continuation of <a href=\"/search/?p=ITAL%202100\" data-action=\"result-detail\" data-group=\"code:ITAL 2100\"  class=\"notoffered\">ITAL 2100</a>. Grammar review, moving toward increased proficiency in composition, comprehension, pronunciation, speaking, reading, and writing. Emphasis on cultural context. More extensive and sophisticated readings and compositions than in <a href=\"/search/?p=ITAL%202100\" data-action=\"result-detail\" data-group=\"code:ITAL 2100\"  class=\"notoffered\">ITAL 2100</a>.  Students may take 1 ITAL course numbered between 2200 and <a href=\"/search/?p=ITAL%202209\" data-action=\"result-detail\" data-group=\"code:ITAL 2209\"  class=\"notoffered\">2209</a> for credit. Credit not awarded for ITAL 2200 following receipt of credit for any ITAL course numbered <a href=\"/search/?p=ITAL%203110\" data-action=\"result-detail\" data-group=\"code:ITAL 3110\" >ITAL 3110</a> or above. Prerequisite: <a href=\"/search/?p=ITAL%202100\" data-action=\"result-detail\" data-group=\"code:ITAL 2100\"  class=\"notoffered\">ITAL 2100</a> or equivalent.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"ITAL 2100\"}, {\"type\": \"course\", \"code\": \"ITAL 2100\"}]}",
+      "other_requirements": "equivalent; PACE students with permission and override",
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "ITAL 4996",
+      "course_code": "ITAL 4996",
+      "department": "ITAL",
+      "title": "Honors",
+      "credit_hours": "1 to 6",
+      "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall 2026",
       "external": false
     }
   ],

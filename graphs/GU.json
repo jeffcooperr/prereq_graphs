@@ -10,6 +10,7 @@
       "description": "StudyCATS program course including time management, study skills, and support resources. Prerequisite: StudyCATS participants.",
       "prereq_expression": "{\"type\": \"course\", \"code\": \"StudyCATS\"}",
       "other_requirements": "StudyCATS participants",
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -21,6 +22,7 @@
       "description": "Optional internship course for elected SGA representatives and officers. Coursework focuses on integrating insights from SGA service into other components of the college experience. Prerequisite: Instructor Permission.",
       "prereq_expression": null,
       "other_requirements": "Instructor Permission. SGA Reps and Officers only.",
+      "semesters": "Fall & Spring 2026",
       "external": false
     }
   ],

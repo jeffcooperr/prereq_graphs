@@ -2,6 +2,18 @@
   "department": "NH",
   "nodes": [
     {
+      "id": "NH 2994",
+      "course_code": "NH 2994",
+      "department": "NH",
+      "title": "NH Teaching Assistantship",
+      "credit_hours": "1",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required; Days/times TBD. Contact instructor for day, time and location",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
       "id": "NH 6899",
       "course_code": "NH 6899",
       "department": "NH",
@@ -10,6 +22,7 @@
       "description": "Interprofessional research/evidence-based practice course; instructs students from a variety of healthcare professions to develop skills in research/clinical question development, appraisal of literature and practice guidelines, experimental, quantitative and qualitative studies, and a fundamental understanding of evidence to inform their practice.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Spring 2026",
       "external": false
     },
     {
@@ -21,6 +34,7 @@
       "description": "Supports College of Nursing and Health Sciences' Honors College students begin planning their thesis and developing a research literature review on a specific thesis topic. Prerequisites: Junior standing, College of Nursing and Health Sciences' Honors College student.",
       "prereq_expression": null,
       "other_requirements": "Junior standing, College of Nursing and Health Sciences' Honors College student. CNHS HCOL Students Only; variable credits 1-3",
+      "semesters": "Fall 2026",
       "external": false
     },
     {
@@ -32,50 +46,7 @@
       "description": "On-site supervised work experience combined with a structured academic learning plan directed by a faculty member or a faculty-staff team in which a faculty member is the instructor of record, for which academic credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "NH 3990",
-      "course_code": "NH 3990",
-      "department": "NH",
-      "title": "ST: Aging Well, Med Style",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required; Program Fee:  $$2,029 minus $450 deposit; OIE GoAbroad App Deadline: 11/18/2025; Out of Pocket expenses (approx. $190) are additional; Airfare is additional; Pre/Post departure meetings 1/27, 2/24 & 4/14/26",
-      "external": false
-    },
-    {
-      "id": "NH 2993",
-      "course_code": "NH 2993",
-      "department": "NH",
-      "title": "IS:HCOL Thesis Prep",
-      "credit_hours": "3",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required",
-      "external": false
-    },
-    {
-      "id": "NH 2994",
-      "course_code": "NH 2994",
-      "department": "NH",
-      "title": "NH Teaching Assistantship",
-      "credit_hours": "1",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission required; Days/times TBD. Contact instructor for day, time and location",
-      "external": false
-    },
-    {
-      "id": "NH 3996",
-      "course_code": "NH 3996",
-      "department": "NH",
-      "title": "HC: Honors Project and Seminar",
-      "credit_hours": "1 to 6",
-      "description": "This course facilitates the Honors College project. All CNHS Honors College students must enroll.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "semesters": "Fall 2026",
       "external": false
     },
     {
@@ -87,6 +58,19 @@
       "description": "This course introduces students to a range of topics related to their chosen majors and future careers. Pre/co-requisite: First year College of Nursing and Health Sciences students.",
       "prereq_expression": null,
       "other_requirements": "First year College of Nursing and Health Sciences students. First time first year CNHS Majors: CSD, EXSC, MLS, MRS, PHS only. PRNU Majors must sign up for Section B; Also additional meeting times: Wednesdays, Sept 9, Oct 7, and Nov 4; Synchronous online meetings;",
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "NH 3990",
+      "course_code": "NH 3990",
+      "department": "NH",
+      "title": "ST: Aging Well, Med Style",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required; Program Fee:  $$2,029 minus $450 deposit; OIE GoAbroad App Deadline: 11/18/2025; Out of Pocket expenses (approx. $190) are additional; Airfare is additional; Pre/Post departure meetings 1/27, 2/24 & 4/14/26",
+      "semesters": "Spring 2026",
       "external": false
     },
     {
@@ -98,6 +82,31 @@
       "description": "A study of ethical principles and applications used to help resolve dilemmas in health care delivery. Introduction to ethical decision-making models used in the practice of modern health care.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "NH 3996",
+      "course_code": "NH 3996",
+      "department": "NH",
+      "title": "HC: Honors Project and Seminar",
+      "credit_hours": "1 to 6",
+      "description": "This course facilitates the Honors College project. All CNHS Honors College students must enroll.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "NH 2993",
+      "course_code": "NH 2993",
+      "department": "NH",
+      "title": "IS:HCOL Thesis Prep",
+      "credit_hours": "3",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission required",
+      "semesters": "Spring 2026",
       "external": false
     }
   ],

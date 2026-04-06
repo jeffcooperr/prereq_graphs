@@ -10,39 +10,7 @@
       "description": "Provides knowledge and skill in conducting quantitative research studies for education and social services. Students apply social science research methods in a laboratory setting and produce a model study. Prerequisites: <a href=\"/search/?p=EDRM%206300\" data-action=\"result-detail\" data-group=\"code:EDRM 6300\" >EDRM 6300</a>.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDRM 6300\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
       "other_requirements": "instructor permission; PACE students with permission only.",
-      "external": false
-    },
-    {
-      "id": "EDRM 6130",
-      "course_code": "EDRM 6130",
-      "department": "EDRM",
-      "title": "Ethnographic Methods",
-      "credit_hours": "3",
-      "description": "Immersive seminar in reading and analyzing ethnographic studies in education, including journal articles and book-length ethnographies matched to student interests. Examines the purpose, process, and production of ethnography in the field of education. Students conceptualize and design their own ethnographic research study. Prerequisite: An introduction to qualitative methods class (<a href=\"/search/?p=EDRM%206110\" data-action=\"result-detail\" data-group=\"code:EDRM 6110\" >EDRM 6110</a> or equivalent).",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDRM 6110\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EDRM 6110",
-      "course_code": "EDRM 6110",
-      "department": "EDRM",
-      "title": "Qualitative Research I",
-      "credit_hours": "3",
-      "description": "Introduces qualitative methods as a research paradigm and develops skills in ethnographic techniques of field observation, interviewing, and data analysis. Out-of-class fieldwork required. Prerequisites: <a href=\"/search/?p=EDRM%206300\" data-action=\"result-detail\" data-group=\"code:EDRM 6300\" >EDRM 6300</a>.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"EDRM 6300\"}",
-      "other_requirements": "Online synchronous PACE students by permission and override",
-      "external": false
-    },
-    {
-      "id": "EDRM 6300",
-      "course_code": "EDRM 6300",
-      "department": "EDRM",
-      "title": "Applied Educational Research",
-      "credit_hours": "3",
-      "description": "Introduction to philosophical and methodological foundations of interpretive and empirical-analytic research; overview of qualitative, quantitative, and mixed-methods approaches. Preparation of critical readers and synthesizers of research studies.",
-      "prereq_expression": null,
-      "other_requirements": "Graduate students only (or Instructor Permission)",
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -54,6 +22,43 @@
       "description": "An advanced research seminar designed to introduce students to mixed methods research, which integrate qualitative and quantitative approaches, inquiries, and data collection and analysis strategies into a single study or research project. Prerequisites: <a href=\"/search/?p=EDRM%206110\" data-action=\"result-detail\" data-group=\"code:EDRM 6110\" >EDRM 6110</a>, <a href=\"/search/?p=EDRM%206210\" data-action=\"result-detail\" data-group=\"code:EDRM 6210\" >EDRM 6210</a>. Pre/Co-requisites: <a href=\"/search/?p=EDRM%206110\" data-action=\"result-detail\" data-group=\"code:EDRM 6110\" >EDRM 6110</a>, <a href=\"/search/?p=EDRM%206210\" data-action=\"result-detail\" data-group=\"code:EDRM 6210\" >EDRM 6210</a>.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EDRM 6110\"}, {\"type\": \"course\", \"code\": \"EDRM 6210\"}]}",
       "other_requirements": "PACE students by permission and override",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "EDRM 6110",
+      "course_code": "EDRM 6110",
+      "department": "EDRM",
+      "title": "Qualitative Research I",
+      "credit_hours": "3",
+      "description": "Introduces qualitative methods as a research paradigm and develops skills in ethnographic techniques of field observation, interviewing, and data analysis. Out-of-class fieldwork required. Prerequisites: <a href=\"/search/?p=EDRM%206300\" data-action=\"result-detail\" data-group=\"code:EDRM 6300\" >EDRM 6300</a>.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"EDRM 6300\"}",
+      "other_requirements": "Online synchronous PACE students by permission and override",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "EDRM 6300",
+      "course_code": "EDRM 6300",
+      "department": "EDRM",
+      "title": "Applied Educational Research",
+      "credit_hours": "3",
+      "description": "Introduction to philosophical and methodological foundations of interpretive and empirical-analytic research; overview of qualitative, quantitative, and mixed-methods approaches. Preparation of critical readers and synthesizers of research studies.",
+      "prereq_expression": null,
+      "other_requirements": "Graduate students only (or Instructor Permission)",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "EDRM 6130",
+      "course_code": "EDRM 6130",
+      "department": "EDRM",
+      "title": "Ethnographic Methods",
+      "credit_hours": "3",
+      "description": "Immersive seminar in reading and analyzing ethnographic studies in education, including journal articles and book-length ethnographies matched to student interests. Examines the purpose, process, and production of ethnography in the field of education. Students conceptualize and design their own ethnographic research study. Prerequisite: An introduction to qualitative methods class (<a href=\"/search/?p=EDRM%206110\" data-action=\"result-detail\" data-group=\"code:EDRM 6110\" >EDRM 6110</a> or equivalent).",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDRM 6110\"}, {\"type\": \"course\", \"code\": \"equivalent\"}]}",
+      "other_requirements": null,
+      "semesters": "Spring 2026",
       "external": false
     }
   ],

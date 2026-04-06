@@ -6,6 +6,9 @@ all_courses_*.json
 CS_fall_2026.json
 CS_spring_2026.json
 
+# Generated graphs (committed to repo for GitHub Pages)
+# graphs/ is intentionally NOT ignored
+
 # Python
 __pycache__/
 *.pyc

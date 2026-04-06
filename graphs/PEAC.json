@@ -10,28 +10,7 @@
       "description": "Physical Education Activities",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PEAC 1175",
-      "course_code": "PEAC 1175",
-      "department": "PEAC",
-      "title": "Martial Arts: Aikido",
-      "credit_hours": "1",
-      "description": "Basic Aikido techniques, such as throws and immobilizing holds, are taught in this martial art that emphasizes leverage and circular movements as defensive techniques.",
-      "prereq_expression": null,
-      "other_requirements": "PEAC fee: $290; Students should feel comfortable with close physical contact. If physical contact is a concern, please speak directly with the chief instructor or assistant teachers. Please notify the instructor if you have any preexisting injuries and emotional or physical challenges that may impact your practice. All students have the right to state their preferences regarding touch.",
-      "external": false
-    },
-    {
-      "id": "PEAC 1113",
-      "course_code": "PEAC 1113",
-      "department": "PEAC",
-      "title": "Yoga Teacher Training",
-      "credit_hours": "1",
-      "description": "Yoga teacher training.",
-      "prereq_expression": null,
-      "other_requirements": "For students registered in the First See the Good Yoga Teacher Training Program; Permission required.",
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -43,72 +22,7 @@
       "description": "Explores the chakras, yogic anatomy, and a comprehensive yoga practice to increase awareness and foster overall health and well-being. Practice will include Hatha and Kundalini Yoga to include asanas, pranayama, bhandas, mantra, and meditation.",
       "prereq_expression": null,
       "other_requirements": "PEAC Fee: $95",
-      "external": false
-    },
-    {
-      "id": "PEAC 1160",
-      "course_code": "PEAC 1160",
-      "department": "PEAC",
-      "title": "Pickleball - 1-4 Beg/Int Level",
-      "credit_hours": "1",
-      "description": "Covers pickleball rules, terminology, court layout, equipment, strategy, and game play. Teaches skills including strokes, serving, and volleying; students will also take part in game play.",
-      "prereq_expression": null,
-      "other_requirements": "PEAC Fee $95; Open to degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "PEAC 1130",
-      "course_code": "PEAC 1130",
-      "department": "PEAC",
-      "title": "Group Fitness",
-      "credit_hours": "1",
-      "description": "This course introduces students to a variety of different types of group fitness classes, such as yoga, Pilates, spinning, total body conditioning, and other aerobic clesses.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PEAC 1006",
-      "course_code": "PEAC 1006",
-      "department": "PEAC",
-      "title": "Yoga & Mindfulness",
-      "credit_hours": "1",
-      "description": "This course introduces students to various yoga poses and techniques, delves into the history of yoga, and provides students with the understanding of how yoga improves one's overall wellness.",
-      "prereq_expression": null,
-      "other_requirements": "PEAC Fee $95; Open to degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "PEAC 1131",
-      "course_code": "PEAC 1131",
-      "department": "PEAC",
-      "title": "Personal Fitness",
-      "credit_hours": "1",
-      "description": "Provides students with the opportunity to promote their personal health and wellness through participation in the Campus Recreation offerings. Self-paced and includes student reflection on establishing fitness goals, regular work routine, and identifying strategies to overcome challenges.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PEAC 1152",
-      "course_code": "PEAC 1152",
-      "department": "PEAC",
-      "title": "Rock Climbing",
-      "credit_hours": "1",
-      "description": "Basic climbing techniques and holds are taught. Additionally, students learn how to belay and become familiar with climbing etiquette and safety practices.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PEAC 1009",
-      "course_code": "PEAC 1009",
-      "department": "PEAC",
-      "title": "Restorative Yoga",
-      "credit_hours": "1",
-      "description": "Restorative Yoga",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -120,61 +34,7 @@
       "description": "Provides an opportunity to establish, or build upon, a relationship with dreams to better understand self. Explores the realities of the sleep and wake worlds, as well as deepens personal understanding of the power of speech and the senses.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PEAC 1002",
-      "course_code": "PEAC 1002",
-      "department": "PEAC",
-      "title": "Introduction to Meditation",
-      "credit_hours": "1",
-      "description": "Guides students through an exploration of a variety of meditation styles and techniques. Reflection on these practices to identify the best style for personal use.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PEAC 1150",
-      "course_code": "PEAC 1150",
-      "department": "PEAC",
-      "title": "Military Fitness",
-      "credit_hours": "1",
-      "description": "Vigorous workout three days a week designed to build both upper body strength and aerobic ability. Classroom participation and a final Army Physical Fitness Test determine student grades. Open to all First-Year/ Sophomore students.",
-      "prereq_expression": null,
-      "other_requirements": "Open to all First-Year/ Sophomore students.",
-      "external": false
-    },
-    {
-      "id": "PEAC 1888",
-      "course_code": "PEAC 1888",
-      "department": "PEAC",
-      "title": "Varsity: Women's Cross Country",
-      "credit_hours": "1",
-      "description": null,
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PEAC 1003",
-      "course_code": "PEAC 1003",
-      "department": "PEAC",
-      "title": "Introduction to Yoga 1-2",
-      "credit_hours": "1",
-      "description": "Focus on teaching the foundational principles of yoga in a safe, fun, and non-competitive environment. The emphasis will be on building body awareness, connecting movement and breath, alignment and exploration.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "PEAC 1163",
-      "course_code": "PEAC 1163",
-      "department": "PEAC",
-      "title": "Bouldering 1-2",
-      "credit_hours": "1",
-      "description": "Bouldering climbing takes place over gymnastics pads without a rope, and never higher than 12-15 feet. Teaches the skills to enter and progress in the sport, how to boulder to minimize the chance of injury, and routines to practice the sport.",
-      "prereq_expression": null,
-      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -186,17 +46,31 @@
       "description": null,
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Fall 2026",
       "external": false
     },
     {
-      "id": "PEAC 1889",
-      "course_code": "PEAC 1889",
+      "id": "PEAC 1009",
+      "course_code": "PEAC 1009",
       "department": "PEAC",
-      "title": "Club Sports: BrazJiuJitsu&Judo",
+      "title": "Restorative Yoga",
       "credit_hours": "1",
-      "description": null,
+      "description": "Restorative Yoga",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "PEAC 1006",
+      "course_code": "PEAC 1006",
+      "department": "PEAC",
+      "title": "Yoga & Mindfulness",
+      "credit_hours": "1",
+      "description": "This course introduces students to various yoga poses and techniques, delves into the history of yoga, and provides students with the understanding of how yoga improves one's overall wellness.",
+      "prereq_expression": null,
+      "other_requirements": "PEAC Fee $95; Open to degree and PACE students",
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -208,6 +82,31 @@
       "description": null,
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "PEAC 1888",
+      "course_code": "PEAC 1888",
+      "department": "PEAC",
+      "title": "Varsity: Women's Cross Country",
+      "credit_hours": "1",
+      "description": null,
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "PEAC 1003",
+      "course_code": "PEAC 1003",
+      "department": "PEAC",
+      "title": "Introduction to Yoga 1-2",
+      "credit_hours": "1",
+      "description": "Focus on teaching the foundational principles of yoga in a safe, fun, and non-competitive environment. The emphasis will be on building body awareness, connecting movement and breath, alignment and exploration.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -219,6 +118,127 @@
       "description": "Introduces training on an indoor bicycle and leveraging bike technology to maximize workout, and training to increase cardiovascular fitness and muscular endurance.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "PEAC 1163",
+      "course_code": "PEAC 1163",
+      "department": "PEAC",
+      "title": "Bouldering 1-2",
+      "credit_hours": "1",
+      "description": "Bouldering climbing takes place over gymnastics pads without a rope, and never higher than 12-15 feet. Teaches the skills to enter and progress in the sport, how to boulder to minimize the chance of injury, and routines to practice the sport.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "PEAC 1131",
+      "course_code": "PEAC 1131",
+      "department": "PEAC",
+      "title": "Personal Fitness",
+      "credit_hours": "1",
+      "description": "Provides students with the opportunity to promote their personal health and wellness through participation in the Campus Recreation offerings. Self-paced and includes student reflection on establishing fitness goals, regular work routine, and identifying strategies to overcome challenges.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "PEAC 1130",
+      "course_code": "PEAC 1130",
+      "department": "PEAC",
+      "title": "Group Fitness",
+      "credit_hours": "1",
+      "description": "This course introduces students to a variety of different types of group fitness classes, such as yoga, Pilates, spinning, total body conditioning, and other aerobic clesses.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "PEAC 1113",
+      "course_code": "PEAC 1113",
+      "department": "PEAC",
+      "title": "Yoga Teacher Training",
+      "credit_hours": "1",
+      "description": "Yoga teacher training.",
+      "prereq_expression": null,
+      "other_requirements": "For students registered in the First See the Good Yoga Teacher Training Program; Permission required.",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "PEAC 1889",
+      "course_code": "PEAC 1889",
+      "department": "PEAC",
+      "title": "Club Sports: BrazJiuJitsu&Judo",
+      "credit_hours": "1",
+      "description": null,
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "PEAC 1002",
+      "course_code": "PEAC 1002",
+      "department": "PEAC",
+      "title": "Introduction to Meditation",
+      "credit_hours": "1",
+      "description": "Guides students through an exploration of a variety of meditation styles and techniques. Reflection on these practices to identify the best style for personal use.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "PEAC 1152",
+      "course_code": "PEAC 1152",
+      "department": "PEAC",
+      "title": "Rock Climbing",
+      "credit_hours": "1",
+      "description": "Basic climbing techniques and holds are taught. Additionally, students learn how to belay and become familiar with climbing etiquette and safety practices.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "PEAC 1150",
+      "course_code": "PEAC 1150",
+      "department": "PEAC",
+      "title": "Military Fitness",
+      "credit_hours": "1",
+      "description": "Vigorous workout three days a week designed to build both upper body strength and aerobic ability. Classroom participation and a final Army Physical Fitness Test determine student grades. Open to all First-Year/ Sophomore students.",
+      "prereq_expression": null,
+      "other_requirements": "Open to all First-Year/ Sophomore students.",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "PEAC 1175",
+      "course_code": "PEAC 1175",
+      "department": "PEAC",
+      "title": "Martial Arts: Aikido",
+      "credit_hours": "1",
+      "description": "Basic Aikido techniques, such as throws and immobilizing holds, are taught in this martial art that emphasizes leverage and circular movements as defensive techniques.",
+      "prereq_expression": null,
+      "other_requirements": "PEAC fee: $290; Students should feel comfortable with close physical contact. If physical contact is a concern, please speak directly with the chief instructor or assistant teachers. Please notify the instructor if you have any preexisting injuries and emotional or physical challenges that may impact your practice. All students have the right to state their preferences regarding touch.",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "PEAC 1160",
+      "course_code": "PEAC 1160",
+      "department": "PEAC",
+      "title": "Pickleball - 1-4 Beg/Int Level",
+      "credit_hours": "1",
+      "description": "Covers pickleball rules, terminology, court layout, equipment, strategy, and game play. Teaches skills including strokes, serving, and volleying; students will also take part in game play.",
+      "prereq_expression": null,
+      "other_requirements": "PEAC Fee $95; Open to degree and PACE students",
+      "semesters": "Fall & Spring 2026",
       "external": false
     }
   ],

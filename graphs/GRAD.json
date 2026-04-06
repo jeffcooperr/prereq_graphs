@@ -10,17 +10,7 @@
       "description": null,
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "GRAD 9030",
-      "course_code": "GRAD 9030",
-      "department": "GRAD",
-      "title": "Complex Systems & Data Science",
-      "credit_hours": "9",
-      "description": null,
-      "prereq_expression": null,
-      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -32,6 +22,19 @@
       "description": null,
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "GRAD 9030",
+      "course_code": "GRAD 9030",
+      "department": "GRAD",
+      "title": "Complex Systems & Data Science",
+      "credit_hours": "9",
+      "description": null,
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
       "external": false
     }
   ],

@@ -10,6 +10,7 @@
       "description": null,
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Spring 2026",
       "external": false
     },
     {
@@ -21,6 +22,7 @@
       "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Fall 2026",
       "external": false
     }
   ],

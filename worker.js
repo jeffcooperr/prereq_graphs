@@ -14,10 +14,11 @@ export default {
       return new Response('Method not allowed', { status: 405 });
     }
 
-    let auditText;
+    let auditText, catalog;
     try {
       const body = await request.json();
       auditText = body.audit;
+      catalog = body.catalog || null;
     } catch (e) {
       return json({ error: 'Invalid JSON: ' + e.message }, 400);
     }
@@ -26,7 +27,11 @@ export default {
       return json({ error: 'No audit text provided' }, 400);
     }
 
-    const prompt = `You are parsing a UVM (University of Vermont) degree audit. Extract ONLY the courses this student has already COMPLETED (passed with a grade). Do NOT include courses that are required but not yet taken, planned, in progress, or waived. Return a JSON array of course codes only, like: ["CS 1210", "MATH 1234", "ENGL 1010"]. Return ONLY the JSON array, no explanation.\n\nDegree audit:\n${auditText}`;
+    const catalogSection = catalog
+      ? `\n\nHere is the complete list of valid course codes and their titles at UVM. For each completed course in the audit, return the matching code from this list. Use the course title to find the correct match when the code format differs (e.g. old 3-digit codes like "CS 021" should be matched to the modern equivalent like "CS 1210" by comparing course names):\n${catalog}`
+      : '';
+
+    const prompt = `You are parsing a UVM (University of Vermont) degree audit. Extract ONLY the courses this student has already COMPLETED (passed with a grade). Do NOT include courses that are required but not yet taken, planned, in progress, or waived.${catalogSection}\n\nReturn a JSON array of current course codes only, like: ["CS 1210", "MATH 1234", "ENGL 1010"]. Return ONLY the JSON array, no explanation.\n\nDegree audit:\n${auditText}`;
 
     try {
       console.log('API key present:', !!env.GOOGLE_API_KEY, 'length:', env.GOOGLE_API_KEY?.length);

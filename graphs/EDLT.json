@@ -2,17 +2,6 @@
   "department": "EDLT",
   "nodes": [
     {
-      "id": "EDLT 5220",
-      "course_code": "EDLT 5220",
-      "department": "EDLT",
-      "title": "Cltvate Chil Lit in El/Mid Sch",
-      "credit_hours": "3",
-      "description": "Contemporary research and practice related to the development of strategic, motivated, and independent readers and writers. Emphasis on integrating reading and writing within collaborative environments. Prerequisite: Twelve hours in education and/or related areas including an introductory course in reading; or Instructor permission.",
-      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"other\", \"text\": \"Twelve hours in education and/or related areas including an introductory course in reading\"}, {\"type\": \"other\", \"text\": \"Instructor permission\"}]}",
-      "other_requirements": null,
-      "external": false
-    },
-    {
       "id": "EDLT 6760",
       "course_code": "EDLT 6760",
       "department": "EDLT",
@@ -21,6 +10,19 @@
       "description": "Approaches for instruction, prevention, intervention of reading and written language skills.  Supervised teaching of individuals and/or small groups experiencing reading and language problems.  Apprenticeships in reading instructional program. Pre/co-requisite: Three graduate credits in Reading/Language Arts or Instructor permission.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"Reading/Language Arts 6760\"}, {\"type\": \"course\", \"code\": \"Reading/Language Arts 6761\"}, {\"type\": \"course\", \"code\": \"Reading/Language Arts 6762\"}]}",
       "other_requirements": "Instructor permission",
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "EDLT 5220",
+      "course_code": "EDLT 5220",
+      "department": "EDLT",
+      "title": "Cltvate Chil Lit in El/Mid Sch",
+      "credit_hours": "3",
+      "description": "Contemporary research and practice related to the development of strategic, motivated, and independent readers and writers. Emphasis on integrating reading and writing within collaborative environments. Prerequisite: Twelve hours in education and/or related areas including an introductory course in reading; or Instructor permission.",
+      "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"other\", \"text\": \"Twelve hours in education and/or related areas including an introductory course in reading\"}, {\"type\": \"other\", \"text\": \"Instructor permission\"}]}",
+      "other_requirements": null,
+      "semesters": "Fall 2026",
       "external": false
     }
   ],

@@ -2,17 +2,6 @@
   "department": "CNCR",
   "nodes": [
     {
-      "id": "CNCR 5993",
-      "course_code": "CNCR 5993",
-      "department": "CNCR",
-      "title": "Independent Study",
-      "credit_hours": "1",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
       "id": "CNCR 5990",
       "course_code": "CNCR 5990",
       "department": "CNCR",
@@ -21,6 +10,19 @@
       "description": "See Schedule of Courses for specific titles.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "CNCR 5993",
+      "course_code": "CNCR 5993",
+      "department": "CNCR",
+      "title": "Independent Study",
+      "credit_hours": "1",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall & Spring 2026",
       "external": false
     }
   ],

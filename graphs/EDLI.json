@@ -2,17 +2,6 @@
   "department": "EDLI",
   "nodes": [
     {
-      "id": "EDLI 6990",
-      "course_code": "EDLI 6990",
-      "department": "EDLI",
-      "title": "Soc Justice in Schl Libraries",
-      "credit_hours": "3",
-      "description": "See Schedule of Courses for specific titles.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
       "id": "EDLI 6760",
       "course_code": "EDLI 6760",
       "department": "EDLI",
@@ -21,6 +10,7 @@
       "description": "Focuses on the librarian's role in curating, using, teaching, evaluating, and providing service with multimedia reference materials for the physical and virtual library learning spaces to meet the needs of a diverse learning community.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Fall 2026",
       "external": false
     },
     {
@@ -32,6 +22,19 @@
       "description": "Principles for developing and organizing physical and virtual library collections, including evaluation, selection, and acquisition of resources appropriate for students, staff and other patrons; methods used to access library collections, standard cataloging practices, and selection of integrated library systems (ILS). Prerequisite: <a href=\"/search/?p=EDLI%206720\" data-action=\"result-detail\" data-group=\"code:EDLI 6720\"  class=\"notoffered\">EDLI 6720</a> or other EDLI course with Instructor permission.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"EDLI 6720\"}, {\"type\": \"course\", \"code\": \"EDLI\"}]}",
       "other_requirements": "Instructor permission. Open to Degree and PACE Students. Candidates are expected to fully participate in weekly asynchronous online assignments via Brightspace, including discussion forums and other collaborative activities, as well as monthly synchronous video conference sessions. A minimum of 8 \u2013 10 hours per week should be dedicated to coursework outside of class, in addition to completing a semester-long project. All submitted works must reflect original, graduate-level writing with proper attribution. Reliable access to high-speed internet and basic technology skills\u2014including familiarity with Google and Microsoft Word applications\u2014is essential for completing assignments and projects. The use of artificial intelligence (AI) tools is strictly prohibited unless prior permission is explicitly granted in writing by course instructors.",
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "EDLI 6990",
+      "course_code": "EDLI 6990",
+      "department": "EDLI",
+      "title": "Soc Justice in Schl Libraries",
+      "credit_hours": "3",
+      "description": "See Schedule of Courses for specific titles.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Fall 2026",
       "external": false
     }
   ],

@@ -32,6 +32,20 @@ def load_data(conn):
     cur.execute("SELECT course_code, prereq_code FROM prerequisites")
     edges = cur.fetchall()
 
+    # Load semesters offered per course
+    cur.execute("SELECT course_code, GROUP_CONCAT(DISTINCT semester) FROM sections GROUP BY course_code")
+    for code, sems in cur.fetchall():
+        if code in courses and sems:
+            sem_list = sems.split(',')
+            has_fall   = any('Fall'   in s for s in sem_list)
+            has_spring = any('Spring' in s for s in sem_list)
+            if has_fall and has_spring:
+                courses[code]["semesters"] = "Fall & Spring 2026"
+            elif has_fall:
+                courses[code]["semesters"] = "Fall 2026"
+            elif has_spring:
+                courses[code]["semesters"] = "Spring 2026"
+
     return courses, prereqs, edges
 
 def collapse_large_or(tree, known_courses, max_size=8):
@@ -198,6 +212,7 @@ def export_department(G, department, out_dir):
             "description":  data.get("description", ""),
             "prereq_expression":  data.get("prereq_expression"),
             "other_requirements": data.get("other_requirements"),
+            "semesters":    data.get("semesters"),
             "external":     code in external_prereqs,
         })
 
@@ -239,8 +254,30 @@ def main():
             nodes, edges_count = result
             print(f"  {dept}: {nodes} nodes, {edges_count} edges")
 
+    # Export catalog.json: {code: title} for all courses
+    catalog = {code: meta["title"] for code, meta in courses.items()}
+    catalog_path = os.path.join(OUT_DIR, "catalog.json")
+    with open(catalog_path, "w") as f:
+        json.dump(catalog, f)
+    print(f"\nExported catalog with {len(catalog)} courses to {catalog_path}")
+
+    # Export credits.json: {code: credits} — integer credits only, skip variable-credit courses
+    credits = {}
+    for code, meta in courses.items():
+        ch = meta.get("credit_hours", "")
+        try:
+            val = int(str(ch).split()[0])
+            if val > 0:
+                credits[code] = val
+        except (ValueError, IndexError):
+            pass
+    credits_path = os.path.join(OUT_DIR, "credits.json")
+    with open(credits_path, "w") as f:
+        json.dump(credits, f)
+    print(f"Exported credits for {len(credits)} courses to {credits_path}")
+
     conn.close()
-    print(f"\nDone. Graphs saved to {OUT_DIR}/")
+    print(f"Done. Graphs saved to {OUT_DIR}/")
 
 if __name__ == "__main__":
     main()

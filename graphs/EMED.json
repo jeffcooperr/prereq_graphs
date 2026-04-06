@@ -2,17 +2,6 @@
   "department": "EMED",
   "nodes": [
     {
-      "id": "EMED 3000",
-      "course_code": "EMED 3000",
-      "department": "EMED",
-      "title": "Emergency Medicine Research I",
-      "credit_hours": "4",
-      "description": "Lecture course with 4 hour lab. Introduction to research in Emergency Medicine with clinical exposure including shadowing EMTs, RNs, and MDs. Students will learn about research ethics, informed consent, and clinical epistemology. Prerequisites: Minimum Sophomore standing and Instructor permission; First-Year students who have prior clinical experience or are non-traditional students are considered on a case-by-case basis.",
-      "prereq_expression": null,
-      "other_requirements": "Minimum Sophomore standing and Instructor permission; First-Year students who have prior clinical experience or are non-traditional students are considered on a case-by-case basis. For waitlist information, please contact the instructor Minimum sophomore standing; Freshmen need instructor permission. Open to Degree and PACE students; Instructor permission req. override approval;",
-      "external": false
-    },
-    {
       "id": "EMED 3990",
       "course_code": "EMED 3990",
       "department": "EMED",
@@ -21,50 +10,7 @@
       "description": "See Schedule of Courses for specific titles.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EMED 3010",
-      "course_code": "EMED 3010",
-      "department": "EMED",
-      "title": "Emergency Medicine Research II",
-      "credit_hours": "4",
-      "description": "Advanced discussion and research training in emergency medicine with continued emergency department-based human subjects laboratory. Includes eight hours of clinical time per week helping recruit patients for ongoing research projects as well as a one hour seminar per week. Prerequisites: <a href=\"/search/?p=EMED%203000\" data-action=\"result-detail\" data-group=\"code:EMED 3000\" >EMED 3000</a> with minimum grade B; Instructor permission.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"EMED 3000\"}",
-      "other_requirements": "Minimum grade B in EMED 3000; Instructor permission; 8 hours of lab time scheduled individually; Open to Degree and PACE students",
-      "external": false
-    },
-    {
-      "id": "EMED 3995",
-      "course_code": "EMED 3995",
-      "department": "EMED",
-      "title": "Adv. Topics in EMS Research",
-      "credit_hours": "1 to 18",
-      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EMED 3000\"}, {\"type\": \"course\", \"code\": \"EMED 3010\"}]}",
-      "other_requirements": "Instructor permission required. Minimum Sophomore standing.",
-      "external": false
-    },
-    {
-      "id": "EMED 7993",
-      "course_code": "EMED 7993",
-      "department": "EMED",
-      "title": "IS:Emergency Med Research Adv",
-      "credit_hours": "1 to 18",
-      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EMED 7995",
-      "course_code": "EMED 7995",
-      "department": "EMED",
-      "title": "Graduate Independent Research",
-      "credit_hours": "1 to 18",
-      "description": "Graduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
-      "prereq_expression": null,
-      "other_requirements": "Instructor permission is required",
+      "semesters": "Spring 2026",
       "external": false
     },
     {
@@ -76,17 +22,43 @@
       "description": "Emergency medicine research under guidance of a faculty member, including facilitating study enrollment and implementation of research project proposed during <a href=\"/search/?p=EMED%203010\" data-action=\"result-detail\" data-group=\"code:EMED 3010\" >EMED 3010</a>. Prerequisites: <a href=\"/search/?p=EMED%203000\" data-action=\"result-detail\" data-group=\"code:EMED 3000\" >EMED 3000</a>, <a href=\"/search/?p=EMED%203010\" data-action=\"result-detail\" data-group=\"code:EMED 3010\" >EMED 3010</a>; Instructor permission.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EMED 3000\"}, {\"type\": \"course\", \"code\": \"EMED 3010\"}]}",
       "other_requirements": "Instructor permission",
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
-      "id": "EMED 3994",
-      "course_code": "EMED 3994",
+      "id": "EMED 3000",
+      "course_code": "EMED 3000",
       "department": "EMED",
-      "title": "TA: EMRAP TA",
-      "credit_hours": "1 to 3",
-      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "title": "Emergency Medicine Research I",
+      "credit_hours": "4",
+      "description": "Lecture course with 4 hour lab. Introduction to research in Emergency Medicine with clinical exposure including shadowing EMTs, RNs, and MDs. Students will learn about research ethics, informed consent, and clinical epistemology. Prerequisites: Minimum Sophomore standing and Instructor permission; First-Year students who have prior clinical experience or are non-traditional students are considered on a case-by-case basis.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Sophomore standing and Instructor permission; First-Year students who have prior clinical experience or are non-traditional students are considered on a case-by-case basis. For waitlist information, please contact the instructor Minimum sophomore standing; Freshmen need instructor permission. Open to Degree and PACE students; Instructor permission req. override approval;",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "EMED 7995",
+      "course_code": "EMED 7995",
+      "department": "EMED",
+      "title": "Graduate Independent Research",
+      "credit_hours": "1 to 18",
+      "description": "Graduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": "Instructor permission is required",
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "EMED 3010",
+      "course_code": "EMED 3010",
+      "department": "EMED",
+      "title": "Emergency Medicine Research II",
+      "credit_hours": "4",
+      "description": "Advanced discussion and research training in emergency medicine with continued emergency department-based human subjects laboratory. Includes eight hours of clinical time per week helping recruit patients for ongoing research projects as well as a one hour seminar per week. Prerequisites: <a href=\"/search/?p=EMED%203000\" data-action=\"result-detail\" data-group=\"code:EMED 3000\" >EMED 3000</a> with minimum grade B; Instructor permission.",
       "prereq_expression": "{\"type\": \"course\", \"code\": \"EMED 3000\"}",
-      "other_requirements": "Instructor permission required; Minimum Sophomore standing",
+      "other_requirements": "Minimum grade B in EMED 3000; Instructor permission; 8 hours of lab time scheduled individually; Open to Degree and PACE students",
+      "semesters": "Fall & Spring 2026",
       "external": false
     },
     {
@@ -98,6 +70,43 @@
       "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SURG 200\"}, {\"type\": \"course\", \"code\": \"EMED 3000\"}]}, {\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"SURG 201\"}, {\"type\": \"course\", \"code\": \"EMED 3010\"}]}]}",
       "other_requirements": "Offered at department discretion.",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "EMED 3994",
+      "course_code": "EMED 3994",
+      "department": "EMED",
+      "title": "TA: EMRAP TA",
+      "credit_hours": "1 to 3",
+      "description": "Undergraduate student service as a teaching assistant, usually in an introductory level course in the discipline, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"EMED 3000\"}",
+      "other_requirements": "Instructor permission required; Minimum Sophomore standing",
+      "semesters": "Fall & Spring 2026",
+      "external": false
+    },
+    {
+      "id": "EMED 7993",
+      "course_code": "EMED 7993",
+      "department": "EMED",
+      "title": "IS:Emergency Med Research Adv",
+      "credit_hours": "1 to 18",
+      "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": null,
+      "other_requirements": null,
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "EMED 3995",
+      "course_code": "EMED 3995",
+      "department": "EMED",
+      "title": "Adv. Topics in EMS Research",
+      "credit_hours": "1 to 18",
+      "description": "Undergraduate student work on individual or small team research projects under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+      "prereq_expression": "{\"type\": \"AND\", \"operands\": [{\"type\": \"course\", \"code\": \"EMED 3000\"}, {\"type\": \"course\", \"code\": \"EMED 3010\"}]}",
+      "other_requirements": "Instructor permission required. Minimum Sophomore standing.",
+      "semesters": "Fall & Spring 2026",
       "external": false
     }
   ],

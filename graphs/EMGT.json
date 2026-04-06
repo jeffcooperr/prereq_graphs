@@ -2,28 +2,6 @@
   "department": "EMGT",
   "nodes": [
     {
-      "id": "EMGT 2041",
-      "course_code": "EMGT 2041",
-      "department": "EMGT",
-      "title": "Engineering Economics",
-      "credit_hours": "3",
-      "description": "Fundamental concepts and applied techniques in the economic aspects of engineering alternatives. Economic dimensions for sustainable practice, including basic financial decision making, methods to evaluate business and engineering assets, analysis of project cash flows, life cycle analysis, and replacement decisions. Prerequisites: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>; minimum Junior standing.",
-      "prereq_expression": "{\"type\": \"course\", \"code\": \"MATH 1248\"}",
-      "other_requirements": "minimum Junior standing",
-      "external": false
-    },
-    {
-      "id": "EMGT 3061",
-      "course_code": "EMGT 3061",
-      "department": "EMGT",
-      "title": "Integrated Product Dev",
-      "credit_hours": "3",
-      "description": "An applied, project-based course focused on how products are conceived, designed, and manufactured using real-world product development practices. Prerequisite: Senior standing. Cross-listed with: <a href=\"/search/?p=ME%203060\" data-action=\"result-detail\" data-group=\"code:ME 3060\" >ME 3060</a>, <a href=\"/search/?p=BUS%203360\" data-action=\"result-detail\" data-group=\"code:BUS 3360\" >BUS 3360</a>.",
-      "prereq_expression": null,
-      "other_requirements": "Senior standing",
-      "external": false
-    },
-    {
       "id": "EMGT 3990",
       "course_code": "EMGT 3990",
       "department": "EMGT",
@@ -32,17 +10,7 @@
       "description": "See Schedule of Course for specific titles.",
       "prereq_expression": null,
       "other_requirements": null,
-      "external": false
-    },
-    {
-      "id": "EMGT 3051",
-      "course_code": "EMGT 3051",
-      "department": "EMGT",
-      "title": "Engineering Project Management",
-      "credit_hours": "3",
-      "description": "Principles of project management on designing, building/manufacturing engineering facilities, processes, products and structures; metrics for managing quality, schedule, and financial performance of projects; services and product procurement; project financial management; legal and insurance aspects. Prerequisites: Minimum Junior standing.",
-      "prereq_expression": null,
-      "other_requirements": "Minimum Junior standing",
+      "semesters": "Spring 2026",
       "external": false
     },
     {
@@ -54,7 +22,32 @@
       "description": "Vectors and vector operations. Techniques and applications of integration. Polar coordinates, Taylor polynomials, sequences and series, power series. Credit will not be given for both MATH 1248 and <a href=\"/search/?p=MATH%201242\" data-action=\"result-detail\" data-group=\"code:MATH 1242\" >MATH 1242</a>. No credit following receipt of credit for <a href=\"/search/?p=MATH%202248\" data-action=\"result-detail\" data-group=\"code:MATH 2248\" >MATH 2248</a> or above. Prerequisite: C- or better in <a href=\"/search/?p=MATH%201234\" data-action=\"result-detail\" data-group=\"code:MATH 1234\" >MATH 1234</a>.",
       "prereq_expression": "{\"type\": \"OR\", \"operands\": [{\"type\": \"course\", \"code\": \"MATH 1234\"}, {\"type\": \"course\", \"code\": \"MATH 021\"}]}",
       "other_requirements": "C- or better in MATH 1234. C- or better in MATH 021.",
+      "semesters": "Fall & Spring 2026",
       "external": true
+    },
+    {
+      "id": "EMGT 3061",
+      "course_code": "EMGT 3061",
+      "department": "EMGT",
+      "title": "Integrated Product Dev",
+      "credit_hours": "3",
+      "description": "An applied, project-based course focused on how products are conceived, designed, and manufactured using real-world product development practices. Prerequisite: Senior standing. Cross-listed with: <a href=\"/search/?p=ME%203060\" data-action=\"result-detail\" data-group=\"code:ME 3060\" >ME 3060</a>, <a href=\"/search/?p=BUS%203360\" data-action=\"result-detail\" data-group=\"code:BUS 3360\" >BUS 3360</a>.",
+      "prereq_expression": null,
+      "other_requirements": "Senior standing",
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "EMGT 2041",
+      "course_code": "EMGT 2041",
+      "department": "EMGT",
+      "title": "Engineering Economics",
+      "credit_hours": "3",
+      "description": "Fundamental concepts and applied techniques in the economic aspects of engineering alternatives. Economic dimensions for sustainable practice, including basic financial decision making, methods to evaluate business and engineering assets, analysis of project cash flows, life cycle analysis, and replacement decisions. Prerequisites: <a href=\"/search/?p=MATH%201248\" data-action=\"result-detail\" data-group=\"code:MATH 1248\" >MATH 1248</a>; minimum Junior standing.",
+      "prereq_expression": "{\"type\": \"course\", \"code\": \"MATH 1248\"}",
+      "other_requirements": "minimum Junior standing",
+      "semesters": "Fall 2026",
+      "external": false
     },
     {
       "id": "EMGT 3993",
@@ -65,6 +58,19 @@
       "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
       "prereq_expression": null,
       "other_requirements": null,
+      "semesters": "Spring 2026",
+      "external": false
+    },
+    {
+      "id": "EMGT 3051",
+      "course_code": "EMGT 3051",
+      "department": "EMGT",
+      "title": "Engineering Project Management",
+      "credit_hours": "3",
+      "description": "Principles of project management on designing, building/manufacturing engineering facilities, processes, products and structures; metrics for managing quality, schedule, and financial performance of projects; services and product procurement; project financial management; legal and insurance aspects. Prerequisites: Minimum Junior standing.",
+      "prereq_expression": null,
+      "other_requirements": "Minimum Junior standing",
+      "semesters": "Fall & Spring 2026",
       "external": false
     }
   ],

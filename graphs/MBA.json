@@ -2,17 +2,6 @@
   "department": "MBA",
   "nodes": [
     {
-      "id": "MBA 6030",
-      "course_code": "MBA 6030",
-      "department": "MBA",
-      "title": "CostModelsforTransformativeEnt",
-      "credit_hours": "0",
-      "description": "Provides tools for managing the growth of a sustainable business. Topics include: entrepreneurial leadership, systems tools for sustainability, business law, negotiations, financing an innovative venture, and sustainable operations/green supply chains. Students will frame and research their practicum project. Prerequisite: Master of Business Administration student.",
-      "prereq_expression": null,
-      "other_requirements": "Master of Business Administration student. MBA Students Only",
-      "external": false
-    },
-    {
       "id": "MBA 6010",
       "course_code": "MBA 6010",
       "department": "MBA",
@@ -21,6 +10,7 @@
       "description": "Provides background on sustainable business practices and offer tools to analyze a business and structure a business opportunity, including how to: develop/defend competitive advantage, perform financial analysis, implement marketing strategy, organize a firm, and manage technological innovation. Prerequisite: Master of Business Administration student.",
       "prereq_expression": null,
       "other_requirements": "Master of Business Administration student. MBA students only",
+      "semesters": "Fall 2026",
       "external": false
     },
     {
@@ -32,6 +22,7 @@
       "description": "Provides students with an understanding of how to run a responsible/sustainable business within the constraints of finite physical resources and legal frameworks. Students will explore how management approaches, creativity, and technology can find opportunities within those constraints. Prerequisite: Master of Business Administration student.",
       "prereq_expression": null,
       "other_requirements": "Master of Business Administration student. MBA Students Only; Class time will be determined by Department",
+      "semesters": "Spring 2026",
       "external": false
     },
     {
@@ -43,6 +34,19 @@
       "description": "Provides students with the tools for starting and building a sustainable business. Topics include: public policy, value creation, assessments under market uncertainty, the meaning of sustainability and CSR, triple bottom line reporting, ethics for entrepreneurs, and mindfulness. Prerequisite: Master of Business Administration student.",
       "prereq_expression": null,
       "other_requirements": "Master of Business Administration student. MBA students only",
+      "semesters": "Fall 2026",
+      "external": false
+    },
+    {
+      "id": "MBA 6030",
+      "course_code": "MBA 6030",
+      "department": "MBA",
+      "title": "CostModelsforTransformativeEnt",
+      "credit_hours": "0",
+      "description": "Provides tools for managing the growth of a sustainable business. Topics include: entrepreneurial leadership, systems tools for sustainability, business law, negotiations, financing an innovative venture, and sustainable operations/green supply chains. Students will frame and research their practicum project. Prerequisite: Master of Business Administration student.",
+      "prereq_expression": null,
+      "other_requirements": "Master of Business Administration student. MBA Students Only",
+      "semesters": "Spring 2026",
       "external": false
     }
   ],
