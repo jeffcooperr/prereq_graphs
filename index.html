@@ -1154,9 +1154,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 1;
+    transition: opacity 0.3s ease;
   }
 
-  #info-overlay.hidden { display: none; }
+  #info-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
 
   #info-modal {
     background: var(--surface);
@@ -2477,7 +2482,9 @@ document.getElementById('my-courses-toggle').addEventListener('click', () => {
 
   function closeOverlay() {
     overlay.classList.add('hidden');
-    document.dispatchEvent(new Event('infooverlayclosed'));
+    overlay.addEventListener('transitionend', () => {
+      document.dispatchEvent(new Event('infooverlayclosed'));
+    }, { once: true });
   }
 
   document.getElementById('info-close').addEventListener('click', closeOverlay);
