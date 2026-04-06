@@ -193,7 +193,20 @@
     font-weight: 600;
     letter-spacing: 0.08em;
     color: var(--text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
+  #feedback-close {
+    background: none;
+    border: none;
+    color: var(--muted);
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+  }
+  #feedback-close:hover { color: var(--text); }
 
   #feedback-text {
     width: 100%;
@@ -1480,7 +1493,7 @@
 
 <div id="feedback-wrap">
   <div id="feedback-panel" class="hidden">
-    <div id="feedback-panel-title">Send Feedback</div>
+    <div id="feedback-panel-title">Send Feedback<button id="feedback-close">×</button></div>
     <div data-fs-success id="feedback-success">Sent! Thanks for the feedback.</div>
     <div data-fs-error id="feedback-error"></div>
     <form id="feedback-form">
@@ -2517,9 +2530,21 @@ document.getElementById('my-courses-toggle').addEventListener('click', () => {
   const panel = document.getElementById('feedback-panel');
   const text  = document.getElementById('feedback-text');
 
+  function closePanel() { panel.classList.add('hidden'); }
+
   btn.addEventListener('click', () => {
     panel.classList.toggle('hidden');
     if (!panel.classList.contains('hidden')) setTimeout(() => text.focus(), 50);
+  });
+
+  document.getElementById('feedback-close').addEventListener('click', closePanel);
+
+  document.addEventListener('click', (e) => {
+    if (!panel.classList.contains('hidden') &&
+        !panel.contains(e.target) &&
+        e.target !== btn) {
+      closePanel();
+    }
   });
 
   window.formspree = window.formspree || function() { (formspree.q = formspree.q || []).push(arguments); };
